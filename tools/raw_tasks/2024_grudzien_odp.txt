@@ -1,0 +1,70 @@
+1.1. (0–2)
+Wymagania określone w podstawie programowej1
+Wymaganie ogólne Wymagania szczegółowe
+I. Wykorzystanie pojęć i wielkości
+fizycznych do opisu zjawisk oraz
+wskazywanie ich przykładów
+w otaczającej rzeczywistości.
+Zdający:
+I.5) rozróżnia wielkości wektorowe i skalarne,
+wykonuje graficznie działania na wektorach
+(dodawanie, […], rozkładanie na składowe);
+I.6) tworzy […] rysunki schematyczne lub
+blokowe dla zilustrowania zjawisk […].
+II.11) opisuje ruch niejednostajny po okręgu.
+Zasady oceniania
+2 pkt – poprawne narysowanie i podpisanie wektora 𝑎⃗ 𝑠 przyśpieszenia stycznego oraz
+wektora 𝑎⃗ 𝑟 przyśpieszenia dośrodkowego oraz wektora 𝑎⃗ przyśpieszenia
+całkowitego punktu 𝑃.
+1 pkt – poprawne narysowanie i podpisanie wektora 𝑎⃗ 𝑠 przyśpieszenia stycznego oraz
+wektora 𝑎⃗ 𝑟 przyśpieszenia dośrodkowego
+LUB
+– narysowanie i podpisanie tylko wektora 𝑎⃗ przyśpieszenia w odpowiednim obszarze
+pomiędzy styczną i promieniem okręgu
+LUB
+– poprawne narysowanie wektora przyśpieszenia oraz jego składowych stycznej
+i dośrodkowej bez podpisania tych wektorów.
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+1 Rozporządzenie Ministra Edukacji z dnia 28 czerwca 2024 r. zmieniające rozporządzenie w sprawie podstawy
+programowej kształcenia ogólnego dla liceum ogólnokształcącego, technikum oraz branżowej szkoły II stopnia
+(Dz.U. z 2024 r. poz. 1019).
+𝑃
+𝑆
+𝑎⃗ 𝑠	𝑎⃗ 𝑟
+𝑎⃗
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 40 --
+
+Egzamin maturalny z fizyki. Test diagnostyczny – grudzień 2024 r.
+Strona 4 z 40
+Zadanie 1.2. (0–2)
+Wymaganie ogólne Wymagania szczegółowe
+I. Wykorzystanie pojęć i wielkości
+fizycznych do opisu zjawisk oraz
+wskazywanie ich przykładów
+w otaczającej rzeczywistości.
+Zdający:
+I.7) wyodrębnia z tekstów […] informacje
+kluczowe dla opisywanego zjawiska bądź
+problemu; przedstawia te informacje w różnych
+postaciach.
+II.9) stosuje […] związki między promieniem
+okręgu, prędkością kątową, prędkością liniową
+oraz przyspieszeniem dośrodkowym;
+II.11) opisuje ruch niejednostajny po okręgu.
+III.4) […] posługuje się pojęciami przyspieszenia
+kątowego […].
+Zasady oceniania
+2 pkt – poprawne zaznaczenia w trzech stwierdzeniach.
+1 pkt – poprawne zaznaczenia w dwóch stwierdzeniach.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Pełne rozwiązanie
+PPF
+Zadanie 1.3. (0–3)
+Wymaganie ogólne Wymagania szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizyczny

@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Deployment & OS
+.vercel
+.DS_Store
+Thumbs.db
+
+# Heavy raw CKE exam PDF downloads and extraction dumps
+data/arkusze_cke/
+data/txt_arkusze/
+
+# Puppeteer test runs & rendered QA audits
+tools/task_pages_rendered/
+tools/praca-qa/
+tools/redesign-qa/
+tools/energy-audit/
+tools/dynamics-audit/
+tools/rendered_pages/

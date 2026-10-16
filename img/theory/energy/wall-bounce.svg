@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Sprężyste odbicie od ściany</title>
+  <desc id="desc">Przed zderzeniem ciało porusza się do ściany, po zderzeniu z taką samą szybkością w przeciwną stronę. Zmiana pędu ma wartość dwa m v.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/><text class="t label" x="202" y="54" text-anchor="middle">PRZED</text><text class="t label" x="558" y="54" text-anchor="middle">PO</text><line x1="380" y1="72" x2="380" y2="280" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 7"/>
+     <path d="M314 92v170M328 92v170" stroke="#64748b" stroke-width="5"/><path d="M328 102l26-18M328 132l26-18M328 162l26-18M328 192l26-18M328 222l26-18M328 252l26-18" stroke="#94a3b8" stroke-width="3"/><circle class="ball" cx="174" cy="181" r="42"/><line x1="123" y1="122" x2="261" y2="122" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="181" y="104">v</text>
+     <path d="M446 92v170M432 92v170" stroke="#64748b" stroke-width="5"/><path d="M432 102l-26-18M432 132l-26-18M432 162l-26-18M432 192l-26-18M432 222l-26-18M432 252l-26-18" stroke="#94a3b8" stroke-width="3"/><circle class="ball" cx="586" cy="181" r="42"/><line x1="637" y1="122" x2="499" y2="122" stroke="#dc2626" stroke-width="5" marker-end="url(#arrow-red)"/><text class="t small red" x="579" y="104">v′ = −v</text><text class="t label" x="558" y="283" text-anchor="middle">|Δp| = 2mv</text>
+</svg>

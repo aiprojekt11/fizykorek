@@ -1,0 +1,74 @@
+1. (0–3)
+Wymagania ogólne 	Wymagania szczegółowe
+IV. Budowa prostych
+modeli fizycznych i
+matematycznych do opisu
+zjawisk.
+1.15. Zdający analizuje ruch ciał w dwóch wymiarach na
+przykładzie rzutu poziomego.
+Poprawne rozwiązanie:
+Bez oporu powietrza lotka poruszałaby się ruchem złożonym:
+- w poziomie ruchem jednostajnym przebyłaby drogę: s 	t	= v 	,
+- w pionie ruchem jednostajnie przyspieszonym przebyłaby odległość: 2	1
+2
+h 	g t	=
+Po wyznaczeniu z drugiego równania  ݐൌ ට ଶ௛
+௚ , 	otrzymujemy ටݒൌ  ݖଶ௛
+௚
+Uwzględniając, że odległość w jakiej upadła lotka równa jest:݀  ൌ ଶ
+ଷ ݖ otrzymujemy
+݀
+ൌ ଶ
+ଷ ටݒଶ௛
+௚ i po podstawieniu danych݀  ൎ 2,1m
+Schemat punktowania:
+3 pkt – 	Rozwiązanie prawidłowe
+– wyznaczenie lub obliczenie zasięgu w rzucie poziomym oraz
+– poprawne obliczenie odległości wraz z jednostką
+2 pkt – 	Pokonanie 	zasadniczych 	trudności 	zadania, 	które 	jednak 	nie 	zostało
+rozwiązane do końca poprawnie
+– wyznaczenie lub obliczenie zasięgu w rzucie poziomym oraz
+– poprawne obliczenie odległości i podanie wyniku bez jednostki
+lub
+– wyznaczenie lub obliczenie zasięgu w rzucie poziomym oraz
+– błędne obliczenie odległości, podanie wyniku z jednostką
+1 pkt – 	Rozwiązanie, w którym jest istotny postęp
+– zapisanie poprawnych równań opisujących rzut poziomy z uwzględnieniem
+odległości d bez dalszych obliczeń lub
+– poprawne obliczenie zasięgu i podanie wyniku bez jednostki
+0 pkt – 	Rozwiązanie, w którym nie ma istotnego postępu
+– zapisanie poprawnych równań opisujących rzut poziomy bez obliczenia zasięgu
+lub
+– zapisanie poprawnych równań tylko w jednym wymiarze (w poziomie lub
+w pionie)
+Zadanie 2. (0–1)
+IV. Budowa prostych
+modeli fizycznych
+i matematycznych do opisu
+zjawisk.
+1.10. Zdający wykorzystuje zasadę zachowania pędu do
+obliczania prędkości ciał podczas zderzeń niesprężystych
+i zjawiska odrzutu.
+Poprawna odpowiedź:
+D.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 19 --
+
+Schemat punktowania:
+1 pkt – 	poprawne wskazanie wartości pędów
+0 pkt – 	błędne wskazanie lub brak odpowiedzi
+Zadanie 3. (0–10)
+Zadanie 3.1. (0–2)
+I. Znajomość i umiejętność
+wykorzystania pojęć i praw
+fizyki do wyjaśnienia
+procesów i zjawisk
+w przyrodzie.
+3.8. (gimn.) Zdający analizuje i porównuje wartości sił
+wyporu dla ciał zanurzonych w cieczy lub gazie.
+Poprawne rozwiązanie:
+Zgodnie z prawem Archimedesa siła wyporu jest równa ciężarowi wypartej cieczy
+ܨ௪ ൌ 	ߩ௖௜௘௖௭௬ ·ܸ· ݃ , gdzie objętość wypartej cieczy  ܸൌ݄· ܵ , dlatego
+ܨ௪ ൌ 	ߩ௖௜௘௖௭௬ ݄· ܵ· ݃· 	, jest to równanie prostej
+ܨ௪ ൌ ݄· 

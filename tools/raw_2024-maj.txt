@@ -1,0 +1,910 @@
+
+--- PAGE 1 ---
+Układ graficzny
+© CKE 2022
+WYPEŁNIA ZDAJĄCY
+KOD   PESEL
+Egzamin maturalny   Formuła 2023
+F IZYKA
+Poziom rozszerzony
+Symbol arkusza
+M FAP - R0 - 100 - 2 405
+D ATA :  23   maja   202 4   r.
+G  ODZINA ROZPOCZĘCIA :  9 :00
+C  ZAS TRWANIA :  180 minut
+L ICZBA   PUNKTÓW DO UZYSKANI A :  60
+Przed rozpoczęciem pracy z arkuszem egzaminacyjnym
+1.   Sprawdź, czy nauczyciel przekazał Ci  właściwy arkusz egzaminacyjny ,
+tj.   arkusz we  właściwej formule , z  właściwego przedmiotu   na  właściwym
+poziomie .
+2.   Jeżeli przekazano Ci  niewłaściwy   arkusz  –   natychmiast zgłoś to nauczycielowi.
+Nie rozrywaj banderol.
+3.   Jeżeli przekazano Ci  właściwy   arkusz  –   rozerwij banderole po otrzymaniu
+takiego polecenia od nauczycie l a. Zapoznaj się z instrukcją na stronie 2.
+Miejsce na naklejkę.
+Sprawdź, czy kod na naklejce to
+M - 100 .
+Jeżeli tak  –   przyklej   naklejkę.
+Jeżeli nie  –   zgłoś to nauczycielowi.
+Arkusz zawiera informacje prawnie chronione
+do momentu rozpoczęcia egzaminu.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 2 ---
+Strona  2   z  28
+MFAP_R0_100
+Instrukcja dla zdającego
+1.   Sprawdź, czy arkusz egzaminacyjny  zawiera  28   stron   (zadania 1 – 1 1 ).
+Ewentualny brak zgłoś przewodniczącemu zespołu nadzorującego egzamin.
+2.   Na  pierwszej   stronie oraz na karcie odpowiedzi wpisz swój numer PESEL i przyklej
+naklejkę z   kodem.
+3.   W rozwiązaniach zadań rachunkowych przedstaw  tok rozumowania prowadzący do
+ostatecznego wyniku oraz pamiętaj o jednostkach.
+4.   Rozwiązania i odpowiedzi zapisz w miejscu na   to przeznaczonym przy każdym zadaniu.
+5.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do
+rozwiązania zadania będzie pomocne lub niezbędne użycie linijki.
+6.   Pisz czytelnie. Używaj długopisu/pióra tylko z czarnym tuszem/atramentem.
+7.   Nie używaj  korektora, a błędne zapisy wyraźnie przekreśl.
+8.   Nie wpisuj żadnych znaków w tabelkach przeznaczonych dla egzaminatora. Tabelki
+umieszczone są na marginesie przy każdym zadaniu.
+9.   Pamiętaj, że zapisy w brudnopisie nie będą oceniane .
+10.   Możesz korzystać z  Wybranych wzorów i stałych fizykochemicznych na   egzamin
+maturalny z biologii, chemii i fizyki , linijki oraz kalkulatora   naukowego.   Upewnij się, czy
+przekazano Ci broszurę z okładką   taką   jak  widoczna  poniżej.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 3 ---
+Strona  3   z  28
+MFAP_R0_100
+Zadania egzaminacyjne są wydrukowane
+na następnych stronach.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 4 ---
+Strona  4   z  28
+MFAP_R0_100
+Zadanie 1.
+Kropla wody oderwała się od dachu budynku w chwili  푡 퐴   i następnie opadała  pionowo
+w   powietrzu.  Na poniższym wykresie przedstawiono zależność  wartości  v   prędkości  kropli   od
+czasu  푡   od chwili  푡 퐴 = 0   s   do chwili   푡 퐹 = 4   s ,   w której   kropla uderzyła o   podłoże.
+Na wykresie oznaczono wybrane punkty :   퐴 ,  퐵 ,  퐶 ,  퐷 ,  퐸 ,  퐹 .   Ruch kropli opisujemy w   układzie
+odniesienia związanym z ziemią i zakładamy, że jest to układ  inercjalny .
+Do analizy zagadnienia przyjmij  uproszczony  model zjawiska, w którym:
+•   p odczas opadania kropli działają na nią dwie siły: siła oporu powietrza  퐹 ⃗ 표   oraz siła
+grawitacji  퐹 ⃗ 푔   (p omi jamy  siłę wyporu aerostatycznego )
+•   k ropla jest kulą o   promieniu  푅 ,  a jej masa się nie zmienia
+•   w artość siły oporu działającej na kroplę  wyraża się wzorem :
+퐹 표 = 푘 휌 푝 푆 v 2
+gdzie  푘   jest pewnym współczynnikiem,   휌 푝   jest gęstością powietrza ,  푆   jest polem
+przekroju  poprzecznego   przez środek kropli,  v   jest  wartością prędkości kropli
+•   ruch kropli od chwili  푡 퐷   traktujemy jako   jednostajny prostoliniowy , czyli  przyjmij ,   że część
+퐷퐹   wykresu   jest poziomym odcinkiem .
+A
+B
+C
+D E F
+0
+1
+2
+3
+4
+5
+6
+7
+0 1 2 3 4 t , s
+v ,  m/s
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 5 ---
+Strona  5   z  28
+MFAP_R0_100
+Zadanie 1.1. (0 – 1)
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C  i jej uzasadnienie  1., 2. albo 3.
+Od chwili  푡 퐴   do chwili  푡 퐷   wartość  przyśpieszenia kropli
+A.   się zwiększa,
+ponieważ wartość siły wypadkowej
+działającej w tym czasie na kroplę
+1.   się zwiększa.
+B.   się  zmniejsza,   2.   się zmniejsza.
+C.   pozostaje stała,   3.   pozostaje stała.
+Zadanie 1. 2 . (0 – 3)
+Punkt  퐾   na diagramach  1. – 2.  reprezentuje kroplę. Długość boku kratki na każdym diagramie
+odpowiada umownej jednostce siły. Na diagramach  1. – 2.  narysowano siłę grawitacji
+działającą na kroplę,  natomiast  nie narysowano   siły oporu  퐹 ⃗ 표 .
+Na  diagramie 1. narysuj i oznacz siłę   oporu   푭 ⃗ ⃗ ⃗ 풐푬   przyłożoną w punkcie  푲 , działającą na
+kroplę w chwili  풕 푬 = ퟑ , ퟔ   퐬 .   Na diagramie  2 . narysuj i oznacz siłę   oporu   푭 ⃗ ⃗ ⃗ 풐푩   przyłożoną
+w   punkcie  푲 , działającą na kroplę w chwili   풕 푩 = ퟎ , ퟒ   퐬 .
+Zachowaj  odpowiednie kierunki, zwroty oraz   dokładne   długości wektorów ,
+odpowiadające wartościom tych sił .   W ykorzystaj fakt, że wartość siły oporu jest
+wprost proporcjonalna do kwadratu wartości prędkości kropli:   푭 풐 ∝ v ퟐ .
+Diagram 1.   ( 푡 퐸 = 3 , 6   s )   Diagram 2.   ( 푡 퐵 = 0 , 4   s )
+Brudnopis
+퐾
+퐹 ⃗ 푔
+퐾
+퐹 ⃗ 푔
+1.2.
+0 – 1 –
+2 – 3
+1.1.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 6 ---
+Strona  6   z  28
+MFAP_R0_100
+Zadanie 1. 3 .   (0 – 4)
+Wyprowadź wzór pozwalający wyznaczyć  v 푬   –   wartość prędkości, z jaką kropla opada
+w   powietrzu ruchem jednostajnym prostoliniowym  –   w zależności od:
+p romienia   kropli   푹 , gęstości powietrza  흆 풑 , gęstości wody  흆 풘 ,  wartości  przyśpieszenia
+ziemskiego  품   oraz  współczynnika   풌 .
+Zapisz odpowiednie równania i przekształcenia   oraz podaj postać tego wzoru .
+Wskazówka: Objętość kuli  o promieniu  푅   wyraża się wzorem   푉 =
+4
+3 휋 푅
+3 .
+1.3.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 7 ---
+Strona  7   z  28
+MFAP_R0_100
+Zadanie 2.
+Jednorodny walec o masie  푚 = 10   kg     i promieniu  푅   był ciągnięty   siłą o  wartości  퐹 = 30   N
+po płaskiej poziomej powierzchni . Siła   퐹 ⃗   była przyłożona poziomo do uchwytu   i prostopadle
+do  osi obrotu walca   (zobacz rysunki 1. – 3.).
+Do analizy zagadnienia przyjmij model zjawiska, w którym:
+•   w alec   toczył się bez poślizgu
+•   w kierunku poziomym na walec działały tylko: stała siła tarcia statycznego  푇 ⃗ ⃗   oraz siła  퐹 ⃗
+•   siła tarcia  푇 ⃗ ⃗   między walcem a powierzchnią  nie osiągnęła   wartości maksymalnej
+•   pomijamy inne (tzn. oprócz tarcia statycznego) opory ruchu
+•   m oment bezwładności walca względem jego osi obrotu   –   będącej osią symetrii walca  –
+wyraża się wzorem :   퐼 0 =
+1
+2 푚 푅
+2
+•   r uch walca  rozpatrujemy  w inercjalnym układzie odniesienia   związanym z ziemią ,
+w   jednorodnym, ziemskim polu grawitacyjnym
+•   pomijamy  m asę osi  obrotu walca i   masę   jej uchwytu .
+Rysunek 1. (widok z perspektywy)
+Rysunek 2. (widok z boku)   Rysunek 3.   (widok z góry)
+퐹 ⃗
+푔 ⃗
+o ś obrotu
+uchwyt
+퐹 ⃗
+o ś obrotu
+uchwyt
+퐹 ⃗
+푔 ⃗
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 8 ---
+Strona  8   z  28
+MFAP_R0_100
+Zadanie  2.1.   (0 – 3)
+Całkowitą energię   kinetyczną walca   w pew nej chwili  푡   ruchu oznaczymy   jako  퐸 푘푖푛   푐푎푙푘 ,
+a   energię kinetyczną ruchu postępowego walca w tej samej chwili  푡   oznaczymy jako  퐸 푘푖푛   푝표푠푡 .
+Oblicz iloraz
+푬 풌풊풏   풑풐풔풕
+푬 풌풊풏   풄풂풍풌
+.   Zapisz obliczenia.
+Wynik podaj w postaci  ułamka zwykłego .
+2.1.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 9 ---
+Strona  9   z  28
+MFAP_R0_100
+Zadanie 2.2. (0 – 3)
+Oblicz  wartość przyśpieszenia (liniowego)   środka masy walca.   Zapisz obliczenia.
+2.2.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 10 ---
+Strona  10   z  28
+MFAP_R0_100
+Zadanie 3.
+Ciężarek  o masie  푚 = 100 , 0   g    jest   zawieszony   na sprężynie   i   wykonuje drgania
+harmoniczne   w kierunku pionowym ,   w   jednorodnym,   ziemskim   polu  g rawitacyjny m .
+Przyjmujemy, że ciężarek drga wzdłuż osi  푦   skierowanej   pionowo   w górę.   Na poniższym
+wykresie przedstawiono zależność  współrzędnej prędkości  v 푦   ciężarka  od czasu   푡 .   Dodatnia
+wartość współrzędnej  prędkości  v 푦   oznacza, że zwrot wektora prędkości ciężarka  jest
+w   górę, a   ujemna wartość  –   że zwrot wektora prędkości jest w dół.   Prędkość ciężarka
+określamy w układzie odniesienia związanym z ziemią.
+Przyjmij  uproszczony  model zjawiska, w którym:
+•   na ciężarek działają tylko siła sprężystości  퐹 ⃗ 푠   sprężyny i siła grawitacji  퐹 ⃗ 푔
+•   wartość siły   sprężystości , z jaką sprężyna działa na ciężarek ,   jest   wprost   proporcjonalna
+do wydłużenia sprężyny   ponad   jej   długość swobodną   ( gdy jest  nierozciągnięt a )
+•   układ odniesienia związany z ziemią traktujemy jako  układ inercjalny
+•   pomijamy opory ruchu
+•   pomijamy masę sprężyny
+•   przyśpieszenie   grawitacyjne   ziemskie  ma wartość   푔 = 9 , 81   m / s 2 .
+Zadanie  3 .1. (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.   W chwili  푡 = 0 , 2   s   siły działające na ciężarek   się  równoważą.   P   F
+2.
+Energia kinetyczna ciężarka w chwili  푡 = 0 , 1   s   jest równa energii
+kinetycznej ciężarka w chwili   푡 = 0 , 3   s .
+P   F
+3.
+Wartość  przyśpieszenia   ciężarka  w chwili  푡 = 0 , 4   s   jest większa o d
+wartości przyśpieszenia ciężarka w chwili   푡 = 0 , 5   s .
+P   F
+-0,8
+-0,6
+-0,4
+-0,2
+0
+0,2
+0,4
+0,6
+0,8
+0 0,1 0,2 0,3 0,4 0,5 0,6 t , s
+v y  , m/s
+3.1.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 11 ---
+Strona  11   z  28
+MFAP_R0_100
+Zadanie 3.2.   (0 – 2)
+Siły działające na ciężarek  się  równoważą , gdy   ciężarek znajduje się w punkcie
+o   współrzędnej   푦 = 0 , natomiast najwyższe i najniższe położenia ciężarka  znajdują się
+–   odpowiednio   –   w   punktach o współrzędnych:  푦 = 퐴   oraz  푦 = − 퐴 . W pewnej chwili ruchu
+drgającego ciężarek znalazł się w punkcie  푃   (zobacz   schematyczny   rysunek poniżej).
+Na  rysunku powyżej   narysuj   i  podpisz   siłę   sprężystości   푭 ⃗ ⃗ ⃗ 풔   i   siłę  grawitacji   푭 ⃗ ⃗ ⃗ 품
+działające na ciężarek w punkcie  푷 .  Zachowaj relacj ę   (większy, równy, mniejszy)
+między wartościami  tych  sił i   zapisz t ę   relacj ę   –   w pisz   w wykropkowane miejsce
+poniżej  odpowiedni znak wybrany spośród:  > ,  = ,  < .
+퐹 푠     ...........     퐹 푔
+Brudnopis
+푔 ⃗
+0
+푦
+퐴
+− 퐴
+푃
+3.2.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 12 ---
+Strona  12   z  28
+MFAP_R0_100
+Zadanie 3.3. (0 – 4 )
+Oblicz  wartość siły   sprężystości   działającej na ciężarek  w chwili, gdy znajduje się  on
+w  najniższym położeniu  podczas ruchu drgającego.   Zapisz obliczenia.
+3.3.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 13 ---
+Strona  13   z  28
+MFAP_R0_100
+Zadanie  4 .
+Ambulans z włączoną syreną dźwiękową  jedzie wzdłuż prostego odcinka drogi .  Przez
+pewien czas porusza się   wzdłuż prostej   pomiędzy obserwatorami  ℬ   oraz   풜 , którzy stoją
+przy drodze (zobacz rysunek   poniżej ).   Prędkość ambulansu oznaczymy jako  v ⃗ ⃗ .
+Do o bserwator a   풜 , do którego zbliża się ambulans,  dociera   dźwięk o   długości fali  휆 퐴 .
+D o obserwatora   ℬ , od którego oddala się ambulans,  dociera   dźwięk o długości fali  휆 퐵 .
+Przyjmij model zjawiska, w którym częstotliwość dźwięku wytwarzanego pr zez głośnik   syreny
+ambulansu (źródło dźwięku)   była stała i   wynosiła  푓 0   (tzn. membrana głośnika syreny drgała
+z   częstotliwością  푓 0 ).  Pomiń inne źródła dźwięku.
+Zadanie  4 .1. (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P,  jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.   Obserwator  ℬ   słyszy dźwięk syreny o częstotliwości mniejszej od  푓 0 .   P   F
+2.
+Gdy ambulans oddala się  od obserwatora  ℬ   i   jednocześnie hamuje,
+to  ℬ   słyszy dźwięk o rosnącej częstotliwości.
+P   F
+3.
+Gdy ambulans oddala się  od obserwatora  ℬ   i   jednocześnie przyśpiesza,
+to  ℬ   słyszy dźwięk o malejącej częstotliwości.
+P   F
+Brudnopis
+v ⃗ ⃗
+풜   ℬ
+4.1.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 14 ---
+Strona  14   z  28
+MFAP_R0_100
+Zadanie  4 .2. (0 – 4)
+Przez pewien czas ambulans porusza ł   się ruchem jednostajnym   prostoliniowym   pomiędzy
+obserwatorami  ℬ   oraz   풜 . Wtedy  iloraz   długości fal dźwięku rejestrowanego  przez tych
+obserwatorów wynosił:
+휆 퐵
+휆 퐴
+= 1 , 2
+Prędkość  dźwięku w powietrzu ma wartość   v 푑 = 340   m / s .
+Oblicz   v   –   wartość prędkości ambulansu.   Zapisz obliczenia.
+4.2.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 15 ---
+Strona  15   z  28
+MFAP_R0_100
+Zadanie  5 .
+Ziemia i Księżyc poruszają się dookoła punktu  푆   –   ich wspólnego środka masy  –   po orbitach
+eliptycznych, które są zbliżone do orbit kołowych.
+Przyjmij następujące warunki  zadania   i oznaczenia :
+•   środek   Ziemi oznaczymy jako   punkt   푍 ,  środek   Księżyca oznaczymy jako   punkt   퐾 ,
+a   odcinek łączący środ ek   Ziemi  ze środkiem   Księżyca oznaczymy jako  푍퐾
+•   o dległość  | 푍퐾 |   pomiędzy środk iem   Ziemi  a środkiem   Księżyca  się  zmienia
+•   s tosunek masy Ziemi do masy Księżyca wynosi
+푀 푍
+푀 퐾 ≈ 81 , 28
+•   Z iemi a   i Księżyc są kulami , każda   ze sferycznie symetrycznym rozkładem masy .
+Zadanie  5 .1. (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.
+Wartość siły   grawitacji , którą Księżyc działa na Ziemię,  jest równa
+wartości siły   grawitacji , którą Ziemia działa na Księżyc.
+P   F
+2.   Punkt  푆   dzieli odcinek  푍퐾   w następującym stosunku:
+| 푍푆 |
+| 푆퐾 |
+≈
+1
+81 , 28
+.                                                                               P   F
+3.
+Wartość siły  oddziaływania grawitacyjnego   Ziemi   na   Księżyc jest stała
+w   czasie.
+P   F
+Brudnopis
+5.1.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 16 ---
+Strona  16   z  28
+MFAP_R0_100
+Zadanie  5 . 2 . (0 – 3 )
+Na odcinku   푍퐾   –   łączącym  środek Ziemi ze środkiem Księżyca   –   znajduje się taki punkt  푃 ,
+w   którym  wartość  wypadkow ej   sił y   grawitacji pochodząc ej   od Ziemi i  od  Księżyca, działając ej
+na  punkt materialny   znajdujący się   w   punkcie   푃 , jest   równa zero .
+Oblicz  odległość punktu  푷   od środka Ziemi, gdy odległość między środk iem   Ziemi
+a   środkiem   Księżyca wynosi  | 풁푲 | = ퟑퟖퟒ   ퟒퟎퟎ   퐤퐦 .   Zapisz obliczenia.
+5.2.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 17 ---
+Strona  17   z  28
+MFAP_R0_100
+Zadanie  6 .  (0 – 3)
+Trzy punktowe , ujemne   ładunki elektryczne :   푄 1 ,  푄 2   i  푄 3   umieszczono   nieruchomo   w  próżni
+w   wierzchołkach kwadratu   (zobacz rysunek). Długość boku tego kwadratu  jest równa   푎 .
+Wartości   ładunków   푄 1 ,  푄 2   i  푄 3   wyrażają się poprzez pewną wartość  푞   następująco :
+푄 1 = − 2 푞                       푄 2 = − 푞                     푄 3 = − 2 푞                   gdzie               푞 > 0
+Punkt przecięcia przekątnych kwadratu oznaczymy jako  푆 .
+Na  p owyższym   rysunku   narysuj   i podpisz   푬 ⃗ ⃗ ⃗ 푺   –   wektor   wypadkowego   natężenia pola
+elektrycznego   w   punkcie  푺 .   Zachowaj odpowiedni kierunek i zwrot tego wektora.
+Zapisz  wzór pozwalający  wyznaczyć  푬 푺   –   wart ość  tego wektora   –   w   zależności  tylko
+od   풂 ,   od   풒   oraz  od  odpowiedniej stałej fizycznej.
+푄 1 = − 2 푞
+푄 3 = − 2 푞
+푆
+푄 2 = − 푞
+푎
+6.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 18 ---
+Strona  18   z  28
+MFAP_R0_100
+Zadanie  7 .
+Do źródła stałego napięcia  푈   podłączono trzy identyczne oporniki:  ℛ 1 ,  ℛ 2 ,  ℛ 3 ,   oraz
+amperomierz   A   –   w taki sposób, jak pokazano na poniższym schemacie   obwodu
+elektrycznego   (zobacz rysunek 1.) . Opór każdego opornika jest stały i równy  푅 :
+푅 1 = 푅 2 = 푅 3 = 푅
+Rysunek 1.
+W pewnym momencie opornik  ℛ 1   uległ uszkodzeniu ,   a obwód w tym miejscu został
+przerwany (zobacz rysunek 2.).
+Rysunek 2.
+Napięcie  푈   zasilające obwód jest  takie samo   w obu opisanych powyżej sytuacjach.
+Opór   wewnętrzny   amperomierza   A   i źródła napięcia oraz opór  przewodów  pomijamy .
+Zadanie  7 . 1 . (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+W obwodzie elektrycznym zilustrowanym na rysunku 1. (tzn. w sytuacji początkowej)
+1.
+natężenie prądu płynącego przez opornik  ℛ 1   jest równe natężeniu prądu
+płynącego przez  amperomierz A.
+P   F
+2.
+napięcie elektryczne na  oporniku   ℛ 1   jest równe napięciu elektrycznemu
+na  oporniku   ℛ 2 .
+P   F
+3.
+natężenie prądu płynącego przez opornik  ℛ 1   jest  mniejsze   od natężenia
+prądu płynącego przez opornik  ℛ 3 .
+P   F
+X        Y
+A
+푈
+퐼 퐴 1
+ℛ 1        ℛ 2
+ℛ 3
+7.1.
+0 – 1 – 2
+X        Y
+ℛ 3       A        퐼 퐴 2
+푈
+u szkodzenie   ℛ 1 , przerwa w   obwodzie
+ℛ 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 19 ---
+Strona  19   z  28
+MFAP_R0_100
+Zadanie  7 . 2 . (0 – 1)
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C i  jej uzasadnienie 1., 2. albo 3.
+Moc cieplna wydzielana   na oporniku    ℛ 3   po przerwaniu obwodu (rysunek 2.), w porównaniu
+do  mocy cieplnej wydzielanej  na oporniku    ℛ 3   w sytuacji początkowej (rysunek 1.) ,   była
+A.   większa,
+ponieważ  napięcie  między
+zaciskami   X   oraz   Y
+1.   się  nie zmieniło.
+B.   mniejsza,   2.   wzrosło.
+C.   taka sama ,   3.   zmalało.
+Zadanie  7 . 3 . (0 – 3 )
+Natężenie prądu, jakie wskazuje amperomierz   A   przed przerwaniem obwodu (rysunek 1.) ,
+oznaczymy jako  퐼 퐴 1 .   N atężenie prądu ,   jakie wskazuje amperomierz   A   po przerwaniu obwodu
+(rysunek 2.) ,   oznaczymy jako  퐼 퐴 2 .
+Oblicz iloraz
+푰 푨ퟐ
+푰 푨ퟏ
+.   Zapisz obliczenia.
+7.2.
+0 – 1
+7.3.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 20 ---
+Strona  20   z  28
+MFAP_R0_100
+Zadanie  8 .
+Na poniższym wykresie przedstawiono zależność   ciśnienia  푝   od objętości  푉   w cyklu
+przemian termodynamicznych ustalonej masy gazu doskonałego. Te przemiany gazu
+zachodzą podczas pracy pewnego silnika cieplnego S.   Gaz  oddaje ciepło do chłodnicy,
+a   pobiera ciepło z grzejnika.
+Stany gazu, w których zmienia się rodzaj przemiany termodynamicznej, oznaczono
+symbolami: G 1 , G 2 , G 3 , G 4 .  Wielkości  푝 1   i  푉 1   są  –   odpowiednio   –   ciśnieniem i objętością gazu
+w   stanie G 1 .
+Ciepło molowe tego gazu przy stałej objętości wynosi  퐶 푉 =
+3
+2 푅 , gdzie  푅   jest stałą gazową.
+Zadanie  8 .1. (0 – 1)
+W  cyklu pracy silnika S gaz oddaje do chłodnicy ciepło równe (co do wartości bezwzględnej):
+| 푄 표푑푑 | = 9 , 5 ⋅ 푝 1 푉 1
+Dokończ zdanie.  Zaznacz   właściwą odpowiedź spośród podanych.
+Ciepło pobrane z  grzejni ka   przez gaz w cyklu pracy silnika S jest równe
+A.    | 푄 푝표푏 | = 13 , 5 ⋅ 푝 1 푉 1     B.     | 푄 푝표푏 | = 11 , 5 ⋅ 푝 1 푉 1
+C.    | 푄 푝표푏 | = 7 , 5 ⋅ 푝 1 푉 1   D.     | 푄 푝표푏 | = 5 , 5 ⋅ 푝 1 푉 1
+Wskazówka: Wykorzystaj I zasadę termodynamiki   i twierdzenie o obliczani u   pracy z wykresu.
+Brudnopis
+G  2    G  3
+푝
+G  4    G  1
+0               푉 1              2 푉 1           3 푉 1                       푉
+2 푝 1
+푝 1
+3 푝 1
+0
+8.1.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 21 ---
+Strona  21   z  28
+MFAP_R0_100
+Zadanie  8 . 2 . (0 – 3)
+Wyprowadź wzór pozwalający wyznaczyć  | 횫 푼 ퟒퟏ |   –   wartość bezwzględną  zmian y
+energii wewnętrznej gazu w   przemianie   G  4   →    G  1   –   tylko za pomocą wielkości:  풑 ퟏ   i   푽 ퟏ .
+Zapisz odpowiednie równania i  przekształcenia oraz podaj postać tego wzoru.
+8.2.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 22 ---
+Strona  22   z  28
+MFAP_R0_100
+Zadanie  9 .
+Układ dwóch soczewek umieszczonych na wspólnej osi optycznej można wykorzystać do
+zmiany   szerokości   (średnicy)   wiązki światła , biegnącej równolegle do osi optycznej układu .
+W   zadaniach 9.1. i 9.2. przedstawiono różne przykłady takich układów soczewek.
+Zadanie 9.1. (0 – 2)
+Na rysunku 1. przedstawiono  bieg wiązki światła przechodzącej przez ukł ad soczewek .
+Ten układ   składa się z dwóch soczewek skupiających S1 i S2 o ogniskowych odpowiednio
+푓 1 = 15   cm   i  푓 2 = 40   cm .  Soczewki są tak ustawione, że prawe ognisko soczewki S1 i lewe
+ognisko soczewki S2 znajdują się w tym samym punkcie  퐹   na  osi  optycznej   푂 .
+Szerokość wiązki światła, która pada na  soczewkę S1 ,   jest równa   푑 1 = 2 , 25   mm .
+Uwaga:  Wymiary na rysunku   1.   są umowne   (rysunek jest poglądowy) .
+Rysunek 1.
+Oblicz  풅 ퟐ   –   szerokość wiązki światła, która wychodzi z soczewki S2.   Zapisz obliczenia.
+S1     S2
+푑 1       푑
+2
+퐹       푂
+9.1.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 23 ---
+Strona  23   z  28
+MFAP_R0_100
+Zadanie 9.2. (0 – 2)
+Zwiększenie   szerokości   wiązki światła można uzyskać ,   jeżeli  wykorzyst a się   układ optyczny
+złożony z   jednej soczewki rozpraszającej   R   i jednej soczewki skupiającej   S .
+Na rysunku 2.  p rzedstawiono   tylko   soczewkę rozpraszającą R o ogniskowej  푓 푅 = − 15   cm
+oraz oś optyczną   푂   takiego   układu   soczewek .  Przedstawiono także fragment   wiązk i   światła ,
+biegnącej  równoleg le   do osi optycznej układu   i padającej na soczewkę R.
+Druga soczewka   S   w tym układzie jest  skupiająca i ma ogniskową  푓 푆 = 40   cm .  Ta soczewka
+została  umieszczona w takim miejscu na osi optycznej, że wiązka światła, która wychodzi
+z   układu soczewek (przez soczewkę S) ,   jest równoległa do osi optycznej i poszerzona.
+Odległość między znacznikami na  osi optycznej układu jest równa  5   cm .
+Na rysunku   dodano linie pomocnicze   równoległe do osi optycznej .
+Rysunek  2 .
+Na rysunku 2. narysuj soczewkę skupiającą S w takim miejscu, aby wiązka światła ,
+która wychodzi z  tej  soczewki   S ,   była równoległa do osi optycznej i  poszerzona .
+Następnie dorysuj dalszy (tzn.  od soczewki R do S  oraz   po przejściu przez S ) bieg
+promieni P1 i P2, które ograniczają wiązkę światła .
+Brudnopis
+R
+P1
+P2
+푂
+9.2.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 24 ---
+Strona  24   z  28
+MFAP_R0_100
+Zadanie 10.
+Elektron został rozpędzony  w   polu elektrycznym  ( w   próżni)  od punktu  퐴   do punktu  퐵 .
+Wartość prędkości elektronu w punkcie  퐴   była równa zero, a wartość prędkości elektronu
+w   punkcie  퐵   była równa  v = 2 , 00 ⋅ 10 8   m / s .
+P rzyjmij, że:
+•   energia spoczynkowa   퐸 0   elektronu jest równa (w zaokrągleniu)  퐸 0 ≈ 5 , 11 ⋅ 10 5   eV
+•   energię całkowitą elektronu   w punkcie  퐵   oznaczymy jako  퐸 퐵 .
+Zadanie 10. 1 . (0 – 1)
+Dokończ zdanie.  Wpisz właściwą liczbę w  wykropkowan e   miejsc e .
+Iloraz   energii
+퐸 퐵
+퐸 0
+jest   równy (w zaokrągleni u )   ....................     .
+Brudnopis
+Zadanie 10. 2 . (0 – 3 )
+Oblicz napięcie   elektryczne   푼 푨푩   między punktami  푨   oraz   푩 .   Zapisz obliczenia.
+10.1.
+0 – 1
+10.2.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 25 ---
+Strona  25   z  28
+MFAP_R0_100
+Zadanie 1 1 .
+Izotop fluoru  F 9 18   ulega rozpadowi   promieniotwórczemu w wyniku przemiany   β + .   Podczas
+rozpadu   jądra  tego izotopu fluoru  powstają:  cząstka  β + ,   jądro   pewnego pierwiastka , któr y
+oznaczymy  jako  X ,   oraz   tzw.   neutrino elektronowe   ν . Neutrino  ma   zerowy ładunek
+elektryczny, a jego masę możemy  pominąć .
+Masy jąder i cząstek uczestniczących w  opisanym rozpadzie   β + , wyrażone w   jednostkach
+atomowych, mają następujące wartości:
+푚 F = 17 , 99600   u   –   masa jądra  fluoru  F 9 18
+푚 X = 17 , 99477   u   –   masa  powstałego jądra
+푚 β = 0 , 00055   u   –   masa  cząstki  β +
+푚 ν = 0 , 00000   u     –   masę neutrina pomija my .
+Informacja do zada nia  11.1 .
+Próbka z izotopem  F 9 18   jest badana przez licznik promieniowania, który pokazuje całkowitą
+liczbę   rozpadów   β +   jąder   tego izotopu   fluoru   po upływie danego czasu   (od rozpoczęcia
+pomiaru) .   Liczbę jąder izotopu fluoru   F 9 18 , znajdujących się w próbce w chwili   początkowej ,
+oznaczymy jako  푁 0 .   Łączną l iczbę jąder, które uległy  temu  rozpadowi   po upływie czasu  푡   od
+chwili początkowe j  푡 0 = 0   min ,   oznaczymy jako  푁 푟 .
+Na wykresie poniżej przedstawiono zależność ilorazu
+푁 푟
+푁 0
+od czasu  푡 .
+0
+0,1
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+0,8
+0,9
+1
+0 50 100 150 200 250 300 350 400 450 500 550 600 650 t,  minuty
+N r  /N 0
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 26 ---
+Strona  26   z  28
+MFAP_R0_100
+Zadanie 1 1 . 1. (0 – 1)
+Dokończ zdanie. Wpisz właściwą liczbę w  wykropkowane miejsce .
+Czas połowicznego rozpadu  jądra  fluoru   F 9 18   wynosi    .................     minut .
+Brudnopis
+Zadanie 1 1 . 2 .   (0 – 2)
+Poniżej przedstawiono schemat  rozpadu  β +   jądra   fluoru   F 9 18 .
+W  schemacie rozpadu   pomi nięto   cząstkę neutrino .
+F   9
+18
+→           X   …
+…
++     β
++
+g dzie   X   oznacza   jądro pierwiastka   ................
+Uzupełnij powyższ y schemat tak, aby powstało równanie rozpadu  훃 + .
+Wpisz w wykropkowane   miejsca   w schemacie   właściwe liczby :   atomow ą i   masową ,
+a   pod   schematem  –   symbol   (lub nazwę)   pierwiastka , któr e go jądro   powstaje w  tym
+rozpadzie .
+Brudnopis
+11.1.
+0 – 1
+11.2.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 27 ---
+Strona  27   z  28
+MFAP_R0_100
+Zadanie 1 1 . 3 . (0 – 3 )
+Masy jąder i cząstek uczestniczących  w  opisanym rozpadzie   β +   podan o   we wstępie do
+zadania 11.
+P rzyjmij, że jądro  fluoru  F 9 18   przed rozpadem  β +   spoczywa ło ,   oraz wykorzystaj zwi ą zek:
+1   u ⋅ 푐 2 ≈ 931 , 5   MeV   ( 푐   to wartość prędkości światła w próżni)
+Oblicz łączną energię kinetyczną produktów rozpadu  훃 +   jądra  fluoru  퐅 ퟗ ퟏퟖ .
+Wynik podaj w  퐌퐞퐕 ,  zaokrąglony do  dwóch   cyfr znaczących.   Zapisz obliczenia.
+11.3.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 28 ---
+Strona  28   z  28
+MFAP_R0_100
+BRUDNOPIS  (nie podlega ocenie)
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 29 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 30 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 31 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 32 ---
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl

@@ -1,0 +1,91 @@
+Zadanie 1. (0–3)
+Podczas gry w badmintona zawodniczka uderzyła lotkę na wysokości 2 m, nadając jej
+poziomą prędkość o wartości 5 ୫
+ୱ . Lotka upadła w pewnej odległości od zawodniczki. Jest to
+odległość o jedną trzecią mniejsza od odległości upadku lotki przy pominięciu oporu
+powietrza. Przyjmij, że po uderzeniu lotki zawodniczka nie zmieniła swojego położenia.
+Oblicz, w jakiej odległości od zawodniczki upadła lotka.
+Zadanie 2. (0–1)
+Dwie różne kulki o tej samej masie m uderzyły prostopadle w drewnianą ścianę z taką samą
+prędkością o wartości v. Kulka A po odbiciu poruszała się z przeciwną prędkością, natomiast
+kulka B ugrzęzła w ścianie. Oznaczmy jako pA wartość pędu przekazanego ścianie przez
+kulkę A oraz jako pB wartość pędu przekazanego ścianie przez kulkę B.
+Z przedstawionych poniżej stwierdzeń dotyczących wartości pędów wybierz poprawne. Otocz
+kółkiem jedną z odpowiedzi (A, B, C, D lub E).
+A. 	0	p	,	0	p 	B	A 		
+B. 	v	m	p	,	0	p 	B	A 		
+C. 	0	p	v,	m	2	p 	B	A 		
+D. 	v	m	p	v,	m	2	p 	B	A 	=	=
+E. 	v	m	=	p	v,	m	=	p 	B	A
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 21 --
+
+Strona 3 z 21
+Zadanie 3. (0–10)
+W celu wyznaczenia gęstości nieznanej cieczy uczniowie badali zależność siły wyporu
+działającej na zanurzany w niej aluminiowy walec od głębokości jego zanurzenia. Zestaw
+doświadczalny składał się ze słoika z cieczą, siłomierza, statywu, linijki oraz aluminiowego
+walca 	z 	uchwytem. 	Ciężar walca wynosił Q = 2,7 N, pole jego podstawy S = 10 cm2 ,
+a wysokość H = 10 cm.
+Doświadczenie miało następujący przebieg.
+Uczniowie zawiesili aluminiowy walec na siłomierzu. Na statywie zamocowali siłomierz
+z możliwością przesuwania go w pionie. Pod walcem ustawili słoik z cieczą. Opuszczając
+siłomierz, zwiększali głębokość zanurzenia walca o ok. 2 cm. Za każdym razem linijką
+mierzyli 	wysokość 	niezanurzonej 	części 	walca 	i 	odczytywali 	wskazania 	siłomierza.
+Uczniowie zapisali wyniki swoich pomiarów w zaplanowanej tabeli.
+Zadanie 3.1. (0–2)
+Wykaż, powołując się na prawa fizyki, że spodziewana zależność siły wyporu od głębokości
+zanurzenia h jest opisana funkcją liniową i współczynnik proporcjonalności wyrażony jest
+równaniem
+ߩ ൌ ܣ௖௜௘௖௭௬ ܵ· ݃· 	.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 21 --
+
+Strona 4 z 21
+Zadanie 3.2. (0–5)
+Kolejnym etapem jest przeanalizowanie zależności siły wyporu od głębokości zanurzenia.
+Dokonaj tej analizy.
+W tym celu oblicz głębokość zanurzenia walca i wartość siły wyporu oraz wpisz te wartości
+do poniższej tabeli. Na podstawie tych wyników sporządź wykres analizowanej zależności,
+nanosząc punkty wraz z zaznaczeniem niepewności pomiarowych. Z nachylenia krzywej
+wyznacz gęstość badanej cieczy.
+Podaj wartość gęstości w jednostkach układu SI. Przyjmij wartość przyspieszenia ziemskiego
+równą 10 ୫
+ୱమ.
+Lp.
+Wysokość części walca
+wystającej ponad
+powierzchnię cieczy
+l (cm) ± 0,2 cm
+Głębokość
+zanurzenia walca
+h (cm)
+Siła wskazywana
+przez siłomierz
+F (N) ± 0,1 N
+Siła wyporu
+Fw (N)
+1. 	10,0 	2,7
+2. 	8,1 	2,5
+3. 	5,9 	2,2
+4. 	4,0 	2,0
+5. 	2,2 	1,9
+h (cm)
+Fw (N)
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 21 --
+
+Strona 5 z 21
+Zadanie 3.3. (0–1)
+Jeżeli uwzględnimy niepewności pomiarowe, to wyznaczona wartość gęstości cieczy użytej
+w doświadczeniu mieści się w przedziale od 	3
+kg
+970 m do 	3
+kg
+1190 m .
+Oblicz średnią wartość gęstości tej cieczy oraz jej bezwzględną niepewność pomiarową.
+Zadanie 3.4. (0–2)
+Opisz i wyjaśnij, jak zmieniłby się charakter wykresu, gdyby w doświadczeniu użyto cie

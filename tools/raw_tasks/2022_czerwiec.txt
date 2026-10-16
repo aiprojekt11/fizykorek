@@ -1,0 +1,83 @@
+Zadanie 1.
+Robot sprzątający rozpoczął ruch po płaskiej powierzchni. Ten
+robot może przemieszczać się wzdłuż odcinków prostych
+w dowolnym kierunku. Kolejne przemieszczenia robota, od chwili
+początkowej 𝑡 = 0, opisano za pomocą współrzędnych (𝑥, 𝑦).
+W chwili początkowej ruchu środek 𝑃 robota znajdował się
+w punkcie 𝑂 = (0, 0) – początku układu współrzędnych. W tabeli
+poniżej podano współrzędne wektora przemieszczenia punktu 𝑃
+na danym etapie ruchu oraz wartość prędkości, z jaką punkt 𝑃
+poruszał się w danym etapie ruchu.
+Etapy
+ruchu
+Współrzędne wektora przemieszczenia Wartość prędkości
+∆𝑥, cm ∆𝑦, cm v, cm
+s
+Etap 1. 50 20 4
+Etap 2. 0 40 2
+Etap 3. – 120 0 4
+W zadaniach 1.1.–1.2. pomijamy czasy między 1. a 2. etapem ruchu oraz między 2. a 3.
+etapem ruchu robota (tzn. pomijamy czasy, w których następują zmiany wektora prędkości
+robota). Przyjmij, że w chwili 𝑡 = 0 prędkość punktu 𝑃 była taka jak w 1. etapie ruchu.
+Zadanie 1.1. (0–2)
+Narysuj w poniższym układzie współrzędnych tor ruchu punktu 𝑷 robota od chwili
+𝒕 = 𝟎 do końca trzeciego etapu ruchu. Wyskaluj osie i nanieś odpowiednie wartości.
+𝑥, cm
+𝑦, cm
+𝑃
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 20 --
+
+Strona 3 z 19
+EFAP-R0_100
+Zadanie 1.2. (0–3)
+Oblicz czas ruchu robota od chwili 𝒕 = 𝟎 do końca trzeciego etapu ruchu. Zapisz
+obliczenia.
+Zadanie 1.3. (0–2)
+Źródłem zasilania robota był zespół akumulatorów, który po całkowitym naładowaniu mógł
+dostarczyć 42 Wh (watogodzin) energii elektrycznej. Przyjmij, że robot rozpoczął pracę
+z całkowicie naładowanymi akumulatorami i stale pobierał moc równą 20 W.
+Oblicz maksymalny czas pracy robota po jednorazowym naładowaniu akumulatorów.
+Zapisz obliczenia.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 20 --
+
+Strona 4 z 19 EFAP-R0_100
+Zadanie 2. (0–3)
+Najkrótsza droga hamowania samochodu, tzn. najkrótsza długość drogi, jaką przebędzie
+w linii prostej samochód od chwili rozpoczęcia hamowania (czyli, gdy wartość prędkości
+zaczyna maleć) aż do zatrzymania się, zależy m.in. od wartości prędkości samochodu
+w chwili rozpoczęcia hamowania.
+Najkrótsza droga hamowania samochodu jadącego z prędkością v1 = 70 km/h wynosi 𝑠1,
+a najkrótsza droga hamowania tego samego samochodu jadącego z prędkością
+v2 = 50 km/h wynosi 𝑠2. Przyjmij, że w obu przypadkach:
+• hamowanie odbywa się na tym samym poziomym podłożu
+• opony samochodu nie ślizgają się o powierzchnię jezdni
+• tarcie statyczne pomiędzy oponami a jezdnią jest maksymalne
+• pomijamy opory powietrza.
+Oblicz iloraz 𝒔𝟏
+𝒔𝟐
+. Zapisz obliczenia.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 20 --
+
+Strona 5 z 19
+EFAP-R0_100
+Zadanie 3.
+Rozważamy spadek ciała w powietrzu. W chwili początkowej ruchu (𝑡 = 0) prędkość ciała
+jest równa zero. Od chwili 𝑡 = 0 ciało opada pionowo ruchem przyśpieszonym, a wartość
+jego prędkości zbliża się do pewnej prędkości granicznej v𝑔.
+Przyjmij model zjawiska, w którym na ciało podczas opadania działają dwie siły: siła
+grawitacji 𝐹⃗𝑔 oraz siła oporu powietrza 𝐹⃗𝑜, której wartość zależy od wartości v prędkości ciała
+w następujący sposób:
+𝐹𝑜 = 1
+2 𝐶𝑆𝜌v2
+gdzie 𝐶 jest współczynnikiem zależącym od kształtu ciała, 𝑆 jest polem przekroju ciała
+(prostopadłym do kierunku ruchu), 𝜌 jest gęstością powietrza. Siłę wyporu aerostatycznego
+pomijamy. Przyjmij także, że od pewnej chwili ruch ciała w powietrzu można uznać za
+jednostajny ze stałą prędkością o wartości v𝑔.
+Zadanie 3.1. (0–2)
+Wykaż, że współczynnik 𝑪, występujący w powyżs

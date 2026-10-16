@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Wahadło balistyczne w dwóch etapach</title>
+  <desc id="desc">Najpierw pocisk wbija się w klocek i stosuje się zachowanie pędu. Następnie układ wznosi się i stosuje się zachowanie energii.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/><text class="t label blue" x="188" y="53" text-anchor="middle">1. ZDERZENIE</text><text class="t label green" x="568" y="53" text-anchor="middle">2. WZNOSZENIE</text><line x1="380" y1="72" x2="380" y2="289" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 7"/>
+     <circle cx="68" cy="190" r="12" fill="#0f172a"/><line x1="88" y1="190" x2="175" y2="190" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="127" y="173">v</text><line x1="282" y1="88" x2="282" y2="151" class="line"/><rect class="box" x="235" y="151" width="94" height="82" rx="13"/><text class="t label" x="282" y="200" text-anchor="middle">M</text><text class="t small muted" x="188" y="268" text-anchor="middle">m·v = (m+M)·u</text>
+     <circle cx="500" cy="88" r="8" fill="#0f172a"/><line x1="500" y1="88" x2="500" y2="246" class="line thin dash"/><path d="M500 246 A158 158 0 0 0 640 162" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="7 7"/><line x1="500" y1="88" x2="640" y2="162" class="line"/><rect class="box" x="610" y="147" width="60" height="58" rx="12"/><circle cx="620" cy="176" r="7" fill="#0f172a"/><line x1="685" y1="246" x2="685" y2="176" stroke="#16a34a" stroke-width="3"/><path d="M676 188l9-12 9 12M676 234l9 12 9-12" fill="none" stroke="#16a34a" stroke-width="3"/><text class="t small green" x="700" y="216">h</text><text class="t small muted" x="568" y="282" text-anchor="middle">½(m+M)u² = (m+M)gh</text>
+</svg>

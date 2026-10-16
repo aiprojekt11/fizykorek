@@ -1,0 +1,752 @@
+
+--- PAGE 1 ---
+Układ graficzny
+© CKE 2022
+WYPEŁNIA ZDAJĄCY
+KOD   PESEL
+Egzamin maturalny   Formuła 2023
+F IZYKA
+Poziom rozszerzony
+Symbol arkusza
+M FAP - R0 - 100 - 2 406
+D ATA :  1 3   czerwca   202 4   r.
+G  ODZINA ROZPOCZĘCIA :  9 :00
+C  ZAS TRWANIA :  180 minut
+L ICZBA PUNKTÓW DO UZY SKANIA :  60
+Przed rozpoczęciem pracy z arkuszem egzaminacyjnym
+1.   Sprawdź, czy nauczyciel przekazał Ci  właściwy arkusz egzaminacyjny ,
+tj.   arkusz we  właściwej formule , z  właściwego przedmiotu   na  właściwym
+poziomie .
+2.   Jeżeli przekazano Ci  niewłaściwy   arkusz  –   natychmiast zgłoś to nauczycielowi.
+Nie rozrywaj banderol.
+3.   Jeżeli przekazano Ci  właściwy   arkusz  –   rozerwij banderole po otrzymaniu
+takiego polecenia od nauczycie l a. Zapoznaj się z instrukcją na stronie 2.
+Miejsce na naklejkę.
+Sprawdź, czy kod na naklejce to
+M - 100 .
+Jeżeli tak  –   przyklej   naklejkę.
+Jeżeli nie  –   zgłoś to nauczycielowi.
+Arkusz zawiera informacje prawnie chronione
+do momentu rozpoczęcia egzaminu.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 2 ---
+Strona  2   z  27
+MFAP_R0_100
+Instrukcja dla zdającego
+1.   Sprawdź, czy arkusz egzaminacyjny  zawiera 2 7   stron   (zadania 1 – 1 0 ).
+Ewentualny brak zgłoś przewodniczącemu zespołu nadzorującego egzamin.
+2.   Na  pierwszej   stronie oraz na karcie odpowiedzi wpisz swój numer PESEL i przyklej
+naklejkę z   kodem.
+3.   W rozwiązaniach zadań rachunkowych przedstaw  tok rozumowania prowadzący do
+ostatecznego wyniku oraz pamiętaj o jednostkach.
+4.   Rozwiązania i odpowiedzi zapisz w miejscu na   to przeznaczonym przy każdym zadaniu.
+5.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do
+rozwiązania zadania będzie pomocne lub niezbędne użycie linijki.
+6.   Pisz czytelnie. Używaj długopisu/pióra tylko z czarnym tuszem/atramentem.
+7.   Nie używaj  korektora, a błędne zapisy wyraźnie przekreśl.
+8.   Pamiętaj, że zapisy w brudnopisie nie będą oceniane .
+9.   Możesz korzystać z  Wybranych wzorów i stałych fizykochemicznych na   egzamin
+maturalny z biologii, chemii i fizyki , linijki oraz kalkulatora   naukowego.   Upewnij się, czy
+przekazano Ci broszurę z okładką   taką   jak  widoczna  poniżej.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 3 ---
+Strona  3   z  27
+MFAP_R0_100
+Zadania egzaminacyjne są wydrukowane
+na następnych stronach.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 4 ---
+Strona  4   z  27
+MFAP_R0_100
+Zadanie 1.
+Deseczka z wycięciami, w których umieszczon o trzy  jednakowe monety :   M1, M2, M3,   obraca
+się  z e stałą   prędkością kątową   휔   po poziomej powierzchni blatu stołu   wokół osi   obrotu ,
+przechodzącej przez punkt   푂 .   W   wyniku tego   obrotu   torami ruchów   środków   tych  monet są
+okręgi   o   wspólnym   środku  푂 .
+Masy monet są  jednakowe i równe  푚 :
+푚 1 = 푚 2 = 푚 3 = 푚
+Odległości środków monet   M1, M2, M3   od osi obrotu   oznaczymy   –   odpowiednio   –   jako :
+푟 1 ,  푟 2 ,  푟 3   (zobacz rysunek). Stosunki tych odległości wynoszą  푟 1 : 푟 2 : 푟 3 = 1 : 2 : 3 ,  to znaczy:
+푟 1
+푟 2
+=
+1
+2
+oraz
+푟 1
+푟 3
+=
+1
+3
+oraz
+푟 2
+푟 3
+=
+2
+3
+Rysunek
+Ruch deseczki i monet   rozpatrujemy w inercjalnym układzie odniesienia związanym z ziemią,
+w jednorodnym, ziemskim polu grawitacyjnym.
+Zadanie 1. 1 . (0 – 2)
+Rozważamy sytuację, gdy deseczka z monetami  obraca się ze stałą prędkością kątową  휔 .
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.
+W ektory przyśpieszeń   w ruchu postępowym  monet   są skierowane do osi
+obrotu   푂 .
+P   F
+2.
+S iła wypadkowa działająca na monetę M3 ma  trzy razy większą   wartość
+od  wartości  siły wypadkowej działającej na monetę M1 .
+P   F
+3.
+P rędkości liniowe (prędkości w ruchu postępowym) monet M1, M2 i  M 3
+mają te same wartości.
+P   F
+oś obrotu
+M1   M2   M3
+푟 1
+푟 2
+푟 3
+푂
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 5 ---
+Strona  5   z  27
+MFAP_R0_100
+Zadanie 1. 2 . (0 – 4 )
+Obracająca się deseczka zosta ła   nagle zatrzymana, wskutek czego monety wy padły
+z wycię ć i poruszały się dalej   po stole  wzdłuż linii  prostych .   Rozważamy  ruch postępowy
+monet   od  chwili   zatrzymania się deseczki   do  chwili   zatrzymania się   ostatniej monety na
+stole.   W tym czasie monety M1, M2 i M3 przebyły drogi równe odpowiednio :   푠 1 ,  푠 2   i  푠 3 .
+Przyjmij, że współczynnik tarcia   kinetycznego   o stół jest  taki sam   dla wszystkich monet
+oraz   że monety  nie obracały   się   podczas  tego  ruchu.
+Oblicz   풔 ퟏ : 풔 ퟐ : 풔 ퟑ .   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 6 ---
+Strona  6   z  27
+MFAP_R0_100
+Zadanie  2.
+Dana jest jednorodna , sztywna   belka o masie  푚 = 120   kg   i długości  푙 = 2 , 8   m .  Tę belkę
+przymocowano do dwóch   pionowych   podpór :   P A   i  P B .  Podpory  P A   i  P B   łączą się z belką
+w   punktach  퐴   i  퐵 .   Obie podpory są na sztywno przytwierdzone do poziomego podłoża .
+Mocowanie  pojedynczej podpory   do belki umożliwia   jej obrót   bez tarcia  w płaszczyźnie
+pionowej .   Gdy belka jest przymocowana do obu podpór, to utrzymuje się nieruchomo
+w   pozycji poziomej   (zobacz rysunek 1.) .
+Odległość między punktami  퐴   i  퐵   wynosi  | 퐴퐵 | = 1 , 0   m .   Na rysunku poniżej przedstawiono
+opisaną sytuację.  Punkt środka   masy belki oznaczono jak o  퐶 .   Przyjmij, że belka spoczywa
+poziomo   w   inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym.
+Siły ,   z jakimi podpory  P A   i  P B   działają na belkę w punktach  퐴   i  퐵 ,   oznaczymy  –   odpowiednio   –
+jako  퐹 ⃗ 퐴   i  퐹 ⃗ 퐵 .  Siłę ciężkości działającą na belkę oznaczymy jako  퐹 ⃗ 퐶 .
+Rysunek 1.
+Zadanie  2.1.   (0 – 2)
+Na rysunku 2. narysuj i oznacz wektory sił   푭 ⃗ ⃗ ⃗ 푨 ,   푭 ⃗ ⃗ ⃗ 푩   i  푭 ⃗ ⃗ ⃗ 푪   w opisanej sytuacji.
+Zachowaj odpowiednie  kierunki i zwroty tych sił oraz relacj e   (większy, równy,
+mniejszy) między ich wartościami.
+Rysunek 2.
+퐴   퐵   퐶
+푔 ⃗
+belka
+P A   P B
+podłoże
+퐴   퐵   퐶
+푔 ⃗
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 7 ---
+Strona  7   z  27
+MFAP_R0_100
+Zadanie  2.2. (0 – 3)
+Przyjmij do obliczeń  푔 = 9 , 8   m / s 2 .
+Oblicz  푭 푨   i  푭 푩   –   wartości sił  푭 ⃗ ⃗ ⃗ 푨   i  푭 ⃗ ⃗ ⃗ 푩 .   Zapisz  obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 8 ---
+Strona  8   z  27
+MFAP_R0_100
+Zadanie  3.
+Ciało  풞   porusza się wzdłuż osi  푥   ruchem drgającym harmonicznym. Na poniższym wykresie
+przedstawiono zależność  współrzędnej  przyśpieszenia  푎 푥   ciała  풞   od   czasu   푡 .
+Masa ciała  jest równa   푚 = 0 , 10   kg .
+Ruch ciała  풞   opisujemy w układzie inercjalnym.
+Zadanie 3.1. (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+W   przedziale czasu od     푡 = 2 , 4   s     do     푡 = 3 , 2   s
+1.   wartość prędkości   ciała   풞   rośnie .   P   F
+2.   odległość ciała   풞   od położenia równowagi maleje.   P   F
+3.   wartość siły wypadkowej działającej na ciało   풞   rośnie .   P   F
+Zadanie 3. 2 . (0 – 2)
+Dokończ zdania. Wpisz  właściwe liczby w wykropkowane miejsca.
+1.   Maksymalna wartość siły wypadkowej działającej na  ciało   풞   podczas   opisanego ruchu
+drgającego  jest równa     .................     N .
+2.   Częstotliwość drgań  ciała  풞   jest równa    ...................     Hz .
+-0,3
+-0,2
+-0,1
+0,0
+0,1
+0,2
+0,3
+0 1 2 3 4 5 6 t , s
+a x , m/s 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 9 ---
+Strona  9   z  27
+MFAP_R0_100
+Zadanie 3.3. (0 – 3 )
+Oblicz wartość prędkości  ciała  퓒   w chwili  풕 = ퟎ , ퟖ   퐬 .   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 10 ---
+Strona  10   z  27
+MFAP_R0_100
+Zadanie 4.
+Dwa satelity   C    i  D   krążą dookoła Ziemi   (Z)   po orbitach kołowych o promieniach   równych
+odpowiednio  푟 퐶   i  푟 퐷 .  Oba satelity mają wyłączone silniki i poruszają się jedynie pod wpływem
+siły grawitacji   Ziemi (zobacz rysunek 1.).
+Promień orbity satelity  D   wynosi  푟 퐷 = 9 푅 푍 , g dzie  푅 푍   jest promieniem Ziemi.
+Rysunek 1.
+Zadanie 4.1. (0 – 2)
+Wartość prędkości satelity  D   oznaczymy jako  v 퐷 .   Wartość pierwszej prędkości kosmicznej dla
+Ziemi  (tzn. wartość prędkości satelity na orbicie o promieniu równym  푅 푧 )  oznaczymy jako  v 퐼 .
+Oblicz iloraz
+v 푫
+v 푰
+.   Zapisz obliczenia.
+푟 퐶
+푟 퐷
+C
+D
+Z
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 11 ---
+Strona  11   z  27
+MFAP_R0_100
+Zadanie 4.2. (0 – 2 )
+O kres   obiegu satelity   C    dookoła Ziemi   oznaczymy jako  푇 퐶 .
+Okres obiegu satelity D dookoła Ziemi oznaczymy jako  푇 퐷 .
+Iloraz promieni orbit satelitów C i D wynosi:
+푟 퐶
+푟 퐷
+= 0 , 450
+Oblicz   iloraz
+푻 푪
+푻 푫
+.   Wynik  podaj zaokrąglony do dwóch cyfr znaczących.   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 12 ---
+Strona  12   z  27
+MFAP_R0_100
+Informacja do zada nia   4.3.
+Satelita  E   obiega Ziemię po orbicie eliptycznej   ℰ   jedynie pod wpływem siły grawitacji.
+Odległość od środka Ziemi do najbliższego punktu  푃   tej orbity (perygeum) oznaczymy jako   푟 푃 .
+Odległość od środka Ziemi do najdalszego punktu  퐴   tej orbity (apogeum) oznaczymy jako   푟 퐴 .
+Wartość prędkości satelity  E   w  punkcie  푃   oznaczymy jako  v 푃 , a   wartość prędkości satelity  E
+w punkcie   퐴   oznaczymy jako  v 퐴 . Prędkoś ci satelity E   w punk tach   푃   i   퐴   są  prostopadł e   do
+promienia wodzącego (zobacz rysunek 2.).
+Rysunek 2.
+Zadanie 4.3. (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.
+Najmniejszą energię potencjalną   grawitacji   podczas ruchu na orbicie   ℰ
+satelita  E   osiąga w punkcie  푃 .
+P   F
+2.
+Najmniejszą energię kinetyczną podczas ruchu na orbicie  ℰ   satelita E
+osiąga w punkcie  퐴 .
+P   F
+3.
+Największą w artość przyśpieszenia   podczas ruchu na orbicie  ℰ   satelita E
+osiąga w punkcie  푃 .
+P   F
+Brudnopis
+Z
+v ⃗ ⃗ 퐴
+푟 푃     푟 퐴     푃     퐴
+v ⃗ ⃗ 푃
+ℰ
+E
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 13 ---
+Strona  13   z  27
+MFAP_R0_100
+Zadanie 5. (0 – 2 )
+Do nieruchomego obserwatora  풜   zbliża się   wzdłuż linii prostej   głośnik   풵 .    C  zęstotliwoś ć
+drgań  membrany głośnika jest równa  푓 푍 .  Wartość prędkości   풵   względem  풜   się zmniejsza .
+Długość fali dźwiękowej, która dociera do obserwatora  풜 ,   oznaczymy jako   휆 퐴 .
+Częstotliwość fali dźwiękowej, któr ą   odbiera   obserwator  풜 ,   oznaczymy jako   푓 퐴 .
+Obie wielkości  휆 퐴   oraz  푓 퐴   zmieniają się w czasie ,   gdy   wartość   prędkoś ci   풵   względem  풜   się
+zmniejsza .
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.   푓 퐴 < 푓 푍   P   F
+2.   Gdy  w artość prędkości  풵   względem  풜   się zmniejsza , to   푓 퐴   maleje.   P   F
+3.   Gdy  w artość prędkości  풵   względem  풜   się zmniejsza , to   휆 퐴   maleje.   P   F
+Brudnopis
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 14 ---
+Strona  14   z  27
+MFAP_R0_100
+Zadanie  6 .
+Na poniższym wykresie przedstawiono zależność ciśnienia  푝   od objętości  푉   w cyklu
+przemian   termodynamicznych   퐴 → 퐵 → 퐶 → 퐷 → 퐴     ustalonej masy gazu doskonałego.
+Ciepło molowe tego gazu przy stałej objętości wynosi  퐶 푉 =
+3
+2 푅 , gdzie  푅   jest stałą gazową.
+Ciśnienie oznaczone na  wykresie   jako   푝 푥   spełnia warunek   푝 푥 > 푝 1 .
+Zadanie  6 . 1. (0 – 3 )
+Symbolami  Δ 푇 퐴퐵 ,  Δ 푈 퐴퐵   i  푊 퐵퐶   oznacz ymy  odpowiednio: różnicę temperatur  푇 퐵 − 푇 퐴
+w   stanach  퐵   i  퐴 ,   różnicę energii wewnętrznych  푈 퐵 − 푈 퐴   w stanach  퐵   i  퐴   oraz pracę na
+odcinku  퐵퐶 .  Analogicznie oznaczymy  te  wielkości na innych odcinkach cyklu.
+Ustal relacje między   poniż szymi   wielkościami fizycznymi   –   lub zmianami wielkości
+fizycznych  –   w przemianach cyklu    푨 → 푩 → 푪 → 푫 → 푨 .   W pisz   w każde
+wykropkowane miejsce   poniżej   odpowiedni znak wybrany spośród:  > ,  = ,  < .
+1.    Δ 푇 퐴퐵     .................     Δ 푇 퐵퐶
+2.    | 푊 퐵퐶 |     ................     | 푊 퐷퐴 |
+3.    | Δ 푈 퐴퐵 |     ..............     | Δ 푈 퐶퐷 |
+Brudnopis
+퐵
+푝
+퐶
+퐷   퐴
+푝 1
+0
+0                  푉 1                2 푉 1              3 푉 1               푉
+푝 푥
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 15 ---
+Strona  15   z  27
+MFAP_R0_100
+Zadanie  6 .2. (0 – 1)
+Sprawność silnika cieplnego o takim cyklu jak  w zadaniu 6.  wyraża się wzorem:
+휂 =
+2 푝 푥 − 2 푝 1
+8 푝 푥 − 3 푝 1
+Dokończ zdanie. Wpisz właściwą liczbę w   wykropkowanym miejscu.
+Dla ilorazu
+푝 푥
+푝 1
+=
+7
+2
+p raca całkowita (tzw. praca użyteczna) wykonana w cyklu
+stanowi    ...........     pobranego   ciepła   w cyklu.
+Brudnopis
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 16 ---
+Strona  16   z  27
+MFAP_R0_100
+Zadanie  6 .3. (0 – 4)
+Wyprowadź  poniższy  wzór   na sprawność   휼   silnika o cyklu opisanym w zadaniu  6 . :
+휼 =
+ퟐ 풑 풙 − ퟐ 풑 ퟏ
+ퟖ 풑 풙 − ퟑ 풑 ퟏ
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 17 ---
+Strona  17   z  27
+MFAP_R0_100
+Zadanie  7 .
+Świecącą strzałkę  푂푃   ustawiano   w różnych położeniach  na   osi optycznej cienkiej soczewki
+skupiającej  S .  Punkt  푂   leży na osi optycznej soczewki, a  strzałka   푂푃   jest prostopadł a   do   tej
+osi.
+Przy pewnych ustawieniach strzałki  푂푃   obserwowano   jej   ostry obraz wytwarzany przez
+soczewkę  S . W   zależności od odległości  strzałki   od soczewki  jej obraz był albo rzeczywisty ,
+albo pozorny .   Ośrodkiem otaczającym soczewkę  S   było powietrze.
+Zauważono, że gdy  strzałka  푂푃   znajdowała   się w odległości  푥 1 = 8   cm   od soczewki albo
+푥 2 = 12   cm   od soczewki, to obserwowane obrazy  strzałki miały   tę samą wysokość.
+Zadanie  7 .1. (0 – 1 )
+Oceń  prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.
+Obraz pozorny obserwowano ,   gdy  strzałka była ustawiona   w odległości
+푥 1 = 8   cm   od soczewki.
+P   F
+2.   Rzeczywisty obraz strzałki   był obrazem odwróconym.   P   F
+Brudnopis
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 18 ---
+Strona  18   z  27
+MFAP_R0_100
+Zadanie  7 .2.  (0 – 4)
+Oblicz ogniskową   풇   soczewki   퐒 .   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 19 ---
+Strona  19   z  27
+MFAP_R0_100
+Zadanie  7 .3. (0 – 2)
+Rozważamy   pewien   obraz  pozorny   푂 ′ 푃 ′   strzałki   푂푃 .
+Na rysunku poniżej zaznaczono soczewkę  S ,  oś optyczną tej soczewki, jej dwa ogniska  퐹 1 ,
+퐹 2   oraz  linię   푙   na wysokości  punktu   푃   i  linię  푙 ′   na wysokości  punktu   푃 ′ .
+Rysunek
+Na powyższym rysunku w yznacz konstrukcyjnie położenie  strzałki   푶푷   oraz położenie
+jej   obrazu  푶 ′ 푷 ′ . Narysuj i podpisz  strzałkę   푶푷   oraz je j   obraz   푶 ′ 푷 ′ .
+푙 ′
+푙
+oś optyczna soczewki
+퐹 1   퐹 2
+S
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 20 ---
+Strona  20   z  27
+MFAP_R0_100
+Zadanie  8 .
+Na poziomej płycie umieszczono w pewnej odległości od siebie dwie jednakowe małe kulki
+K1 i K2.   Każda z kulek miała masę  푚 = 5 , 0   g .   Jedną z kulek naładowano ładunkiem
+elektrycznym dodatnim, a drugą kulkę  –   ładunkiem elektrycznym ujemnym.
+Początkowo obie kulki były unieruchomione. W chwili  푡 0 = 0   kulkę K1 zwolniono
+z   mocującego ją uchwytu i zaczęła się ona zbliżać do nieruchomej kulki   K2. Przyjmij, że siła
+wypadkowa działająca na K1 jest równa sile oddziaływania elektrycznego z kulką K2
+(co   oznacza m.in. pominięcie siły tarcia   oraz   oddziaływania   elektrycznego   z płytą ) .
+Zadanie  8 .1. (0 – 1 )
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C   i jej uzasadnienie 1., 2. albo 3.
+Od chwili  푡 0   wartość  przyśpieszenia  kulki K 1
+A.   się zwiększa ,
+p onieważ   wartość siły wypadkowej
+działającej  na tę kulkę
+1.   się zwiększa.
+B.   się zmniejsza ,   2.   się zmniejsza.
+C.   pozostaje stała ,   3.   pozostaje stała.
+Zadanie  8 . 2 . (0 – 4 )
+W chwili  푡 0 = 0   kulka K1   spoczywała i   znajdowała się w punkcie  퐴 .   Odległość K1 od K2
+w   chwili  푡 0   była   równa  푟 퐴 = 0 , 10   m   (zobacz rysunek 1.).
+W pewnej   chwili  푡 퐵   podczas ruchu,  kulka K1 zna lazła  się w   punkcie  퐵 .  O dległość K1 od K2
+w   c hwili  푡 퐵   była   równa  푟 퐵 = 0 , 05   m .   (zobacz rysunek 2.).
+Rysunek 1.
+Rysunek 2.
+Na wykresie  (strona 21)  przedstawiono zależność wartości siły wypadkowej działającej na
+kulkę   K1 od odległości do K2  –   podczas ruchu kulki od punktu  퐴   do punktu  퐵 .
+K1   K2
+푟
+푟 퐴   퐴
+K1   K2
+푟
+푟 퐵   퐵
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 21 ---
+Strona  21   z  27
+MFAP_R0_100
+Oblicz wartość prędkości kulki w punkcie  푩 .  Zapisz obliczenia.
+Wskazówka: Wykorzystaj  graficzną metodę wyznaczania pracy, gdy dany jest wykres zależności
+siły od położenia ,   albo   wykorzystaj   zasadę zachowania energii w polu elektrycznym.
+B
+A
+0
+0,0001
+0,0002
+0,0003
+0,0004
+0,0005
+0,0006
+0,0007
+0,0008
+0 0,01 0,02 0,03 0,04 0,05 0,06 0,07 0,08 0,09 0,1 r , m
+F , N
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 22 ---
+Strona  22   z  27
+MFAP_R0_100
+Zadanie  9 .
+Uczniowie wykonali doświadczenie,  w którym wyznaczali   siłę elektromotoryczną  퓔   baterii
+oraz jej opór wewnętrzny  푟 푤 . W tym celu   do obwodu zasilanego tą baterią podłączali kolejno
+pięć oporników  o   różnych oporach elektrycznych:  푅 1 ,  푅 2 ,  푅 3 ,  푅 4 ,  푅 5   (zobacz rysunek   1. ) .
+Rysunek 1.
+Za każdym  razem, gdy podłączony był jeden z   tych   oporników,  uczniowie mierzyli
+natężenie   퐼   prądu płynącego  przez  푖 - ty  opornik   ( 푖 ∈ { 1 , 2 , 3 , 4 , 5 } )   oraz napięcie  푈   na tym
+oporniku.
+Przyjmij, że opór amperomierza jest równy zero, opór woltomierza jest nieskończen ie duży ,
+a   opór  푟 푤   jest stały.
+Niepewność pomiaru napięcia  przyjęto równą   ∆ 푈 = ±   0 , 3   V , natomiast pomiar  natężenia
+prądu  uznano   jako   dokładny.  Uzyskane wyniki uczniowie zapisa li   w tabeli .
+Tabela
+Nr pomiaru ( 푖 )   1   2   3   4   5
+푈 , V   8 , 8   7 , 6   7 , 3   6 , 3   5 , 9
+퐼 , A   1 , 5   4 , 0   6 , 0   8 , 5   10 , 5
+| Δ 푈 | , V   0 , 3   0 , 3   0 , 3   0 , 3   0 , 3
+퓔 ,  푟 푤
+V
+A   푅 푖
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 23 ---
+Strona  23   z  27
+MFAP_R0_100
+Zadanie  9 .1. (0 – 2)
+W   układzie  współrzędnych  ( 푰 , 푼 )   zaznacz   punkty pomiarowe  i   niepewności   pomiaru
+napięcia   횫 푼   oraz  narysuj   prostą najlepiej dopasowaną do punktów pomiarowych.
+Układ współrzędnych  ( 퐼 , 푈 )
+5
+6
+7
+8
+9
+0 1 2 3 4 5 6 7 8 9 10 11 12 I ,  A
+U , V
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 24 ---
+Strona  24   z  27
+MFAP_R0_100
+Zadanie  9 .2. (0 – 4)
+U czeń   X   na podstawie danych z tabeli narysował wykres zależności   푈 ( 퐼 ) .
+Ten wykres zawierał punkty   푃 1   i  푃 2   o współrzędnych   odpowiednio :
+퐼 1 = 5 , 0   A   ;   푈 1 = 7 , 5   V                       oraz                       퐼 2 = 10 , 0   A   ;   푈 2 = 6 , 0   V
+Oblicz  –   na podstawie   współrzędnych   punktów   푷 ퟏ   i  푷 ퟐ   z wykresu ucznia X  –   siłę
+elektromotoryczną  퓔   baterii oraz jej opór wewnętrzny  풓 풘 .  Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 25 ---
+Strona  25   z  27
+MFAP_R0_100
+Zadanie  10 .
+Izotop węgla   C    14   ulega rozpadowi   promieniotwórczemu w wyniku przemiany   β − .
+Czas połowicznego rozpadu izotopu węgla   C    14   wynosi  푇 = 5   730   lat .
+Podczas rozpadu jądra   C    14   powstają: cząstka  β − ,   jądro   pewnego pierwiastka ,   który
+oznaczymy jako  X ,   oraz  tzw.   antyneutrino   elektronowe   ν ̃ .  Antyn eutrino ma zerowy ładunek
+elektryczny, a jego   masę możemy pominąć.
+Zadanie  10 .1. (0 – 2 )
+Poniżej przedstawiono schemat  rozpadu  β −   jądra  węgla   C    14 .    W schemacie rozpadu
+pominięto cząstkę  anty neutrino.
+C  6
+14
+→       X   …
+…
++         β
+−
+gdzie  X   oznacza   jądro pierwiastka  .........
+Uzupełnij powyższy schemat tak, aby powstało równanie  rozpadu  훃 − .
+Wpisz w wykropkowane   miejsca   w schemacie  właściwe liczby :   atomow ą i   masową,
+a   pod schematem  –   symbol (lub nazwę) pierwiastka, którego jądro powstaje w tej
+reakcji .
+Zadanie  10 . 2 . (0 – 3 )
+Wiek pewnego przedmiotu   oszacowano na  2   865   lat . Aktualną masę izotopu węgla   C    14
+w   tym przedmiocie oznaczymy jako  푚  C  , a masę izotopu węgla   C    14 , jaka była w tym
+przedmiocie  2   865   lat   temu, oznaczymy jako  푚 0 .
+Oblicz  iloraz
+풎 퐂
+풎 ퟎ
+. Wynik podaj zaokrąglony do  dwóch   cyfr znaczących.   Zapisz obliczenia.
+Wskazówka:  푎
+푝
+푞 = √ 푎 푝 푞   gdzie   푎 > 0   or az   푝 , 푞   są liczbami całkowitymi dodatnimi.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 26 ---
+Strona  26   z  27
+MFAP_R0_100
+Zadanie  10 . 3 . (0 – 3)
+Masy jąder i cząstek uczestniczących  w opisanym rozpadzie   β − ,   wyrażone w   jednostkach
+atomowych, mają następujące wartości:
+푚  C  = 13 , 99995   u   –   masa jądra  węgla    C    14
+푚 X = 13 , 99923   u   –   masa  powstałego jądra
+푚 β = 0 , 00055   u   –   masa  cząstki  β −
+푚 ν ̃ = 0 , 00000   u     –   masę  anty neutrina pomija my .
+P rzyjmij, że jądro  węgla   C    14   przed rozpadem  β −   spoczywa ło ,   oraz   wykorzystaj związek :
+1   u ⋅ 푐 2 ≈ 931 , 5   MeV   –   푐   to wartość prędkości światła w próżni .
+Oblicz łączną energię kinetyczną produktów   rozpadu  훃 −   jądra  węgla  퐂   ퟏퟒ .
+Wynik podaj w  퐌퐞퐕 .   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 27 ---
+Strona  27   z  27
+MFAP_R0_100
+BRUDNOPIS (nie podlega ocenie)
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 28 ---
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl

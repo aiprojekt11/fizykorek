@@ -1,0 +1,81 @@
+1.1. (0–2)
+Wymagania ogólne 	Wymagania szczegółowe
+IV. Budowa prostych modeli fizycznych
+i matematycznych do opisu zjawisk.
+Zdający:
+1.4) wykorzystuje związki pomiędzy
+położeniem, prędkością i przyspieszeniem
+w ruchu jednostajnym […].
+Schemat punktowania
+2 p. – prawidłowa postać i prawidłowa metoda wyprowadzenia wyrażenia na różnicę czasów.
+1 p. – zapisanie wyrażenia na różnicę czasów z uwzględnieniem danych w zadaniu oraz
+z uwzględnieniem równań ruchu jednostajnego.
+0 p. – brak spełnienia powyższych kryteriów.
+Przykładowe rozwiązanie
+Wprowadzimy 	oznaczenia 	zgodne 	z 	treścią 	zadania 	i 	skorzystamy 	z 	równań 	ruchu
+jednostajnego:
+𝑣𝑣𝐴𝐴 = 𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚, 	𝑣𝑣𝐵𝐵 = 𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚 − ∆𝑣𝑣, 	𝑠𝑠𝐴𝐴 = 𝑠𝑠𝐵𝐵 = 𝑑𝑑, 	𝑡𝑡𝐴𝐴 = 𝑑𝑑
+𝑣𝑣𝐴𝐴
+, 	𝑡𝑡𝐵𝐵 = 𝑑𝑑
+𝑣𝑣𝐵𝐵
+Wyprowadzamy wyrażenie na różnicę czasów 𝑡𝑡𝐵𝐵 − 𝑡𝑡𝐴𝐴:
+∆𝑡𝑡 = 𝑑𝑑
+𝑣𝑣𝐵𝐵
+− 𝑑𝑑
+𝑣𝑣𝐴𝐴
+→ 	∆𝑡𝑡 = 𝑑𝑑(𝑣𝑣𝐴𝐴 − 𝑣𝑣𝐵𝐵)
+𝑣𝑣𝐵𝐵 𝑣𝑣𝐴𝐴
+∆𝑡𝑡 = 𝑑𝑑∆𝑣𝑣
+(𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚 − ∆𝑣𝑣)𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚
+= 𝑑𝑑∆𝑣𝑣
+𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚
+2 	− 𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚 ∆𝑣𝑣
+Zadanie 1.2. (0–2)
+Wymagania ogólne 	Wymagania szczegółowe
+I. Znajomość i umiejętność
+wykorzystania pojęć i praw fizyki
+do wyjaśniania procesów i zjawisk
+w przyrodzie.
+Zdający:
+1.4) wykorzystuje związki pomiędzy
+położeniem, prędkością i przyspieszeniem
+w ruchu jednostajnym […].
+Schemat punktowania
+2 p. – prawidłowa metoda obliczenia różnicy prędkości samochodów oraz prawidłowy wynik
+liczbowy z jednostką.
+1 p. – prawidłowe 	przekształcenie 	wzoru 	na 	różnicę 	czasów 	lub 	zapisanie 	równań
+pozwalających obliczyć różnicę prędkości
+lub
+– wyznaczenie czasu, w jakim drugi samochód przejechał odcinek autostrady o długości
+10 km (około 287 s).
+0 p. – brak spełnienia powyższych kryteriów.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 22 --
+
+Strona 3 z 22
+Przykładowe rozwiązanie
+Żeby obliczyć różnicę wartości prędkości samochodów, przekształcamy wzór na różnicę
+czasów i podstawiamy dane liczbowe:
+∆𝑡𝑡 = 𝑑𝑑∆𝑣𝑣
+𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚
+2 	− 𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚 ∆𝑣𝑣
+∆𝑣𝑣 = 𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚
+2 	∆𝑡𝑡
+𝑑𝑑 + 𝑣𝑣𝑚𝑚𝑚𝑚𝑚𝑚 ∆𝑡𝑡
+∆𝑣𝑣 = 4,1 m
+s = 15 km
+h
+Zadanie 2. (0–1)
+Wymagania ogólne 	Wymagania szczegółowe
+III. Wykorzystanie i przetwarzanie
+informacji zapisanych w postaci tekstu,
+tabel, wykresów, schematów
+i rysunków.
+Zdający:
+1.8) wyjaśnia ruch ciał na podstawie drugiej
+zasady dynamiki Newtona,
+1.5) rysuje i interpretuje wykresy zależności
+parametrów ruchu od czasu.
+Schemat punktowania
+1 p. – zaznaczenie popra

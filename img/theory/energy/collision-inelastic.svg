@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Zderzenie doskonale niesprężyste</title>
+  <desc id="desc">Dwa ciała przed zderzeniem mają osobne prędkości. Po zderzeniu są sczepione i poruszają się razem. Pęd jest zachowany, energia kinetyczna maleje.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/><text class="t label" x="190" y="54" text-anchor="middle">PRZED</text><text class="t label" x="575" y="54" text-anchor="middle">PO</text><line x1="380" y1="72" x2="380" y2="280" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 7"/>
+     <line class="surface" x1="58" y1="224" x2="338" y2="224"/><rect class="box" x="70" y="158" width="92" height="66" rx="11"/><text class="t label" x="116" y="199" text-anchor="middle">m₁</text><line x1="88" y1="137" x2="191" y2="137" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="128" y="120">v₁</text><rect x="246" y="158" width="76" height="66" rx="11" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text class="t label" x="284" y="199" text-anchor="middle">m₂</text>
+     <line class="surface" x1="420" y1="224" x2="702" y2="224"/><rect class="box" x="474" y="158" width="90" height="66" rx="11"/><rect x="564" y="158" width="76" height="66" rx="11" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text class="t label" x="557" y="199" text-anchor="middle">m₁+m₂</text><line x1="511" y1="137" x2="630" y2="137" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="565" y="120">wspólna v</text>
+     <text class="t small green" x="190" y="274" text-anchor="middle">pęd zachowany</text><text class="t small red" x="575" y="274" text-anchor="middle">Eₖ mniejsza → ciepło</text>
+</svg>

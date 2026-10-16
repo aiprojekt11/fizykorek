@@ -1,0 +1,60 @@
+1.1. (0–2)
+Zasady oceniania
+2 pkt – prawidłowa metoda obliczenia czasu ruchu oraz prawidłowy wynik liczbowy
+z jednostką.
+1 pkt – wyodrębnienie pionowej składowej ruchu i zapisanie prawidłowej zależności wiążącej
+drogę/wysokość (lub położenie) z czasem spadku swobodnego pionowego bez
+prędkości początkowej.
+0 pkt – brak spełnienia powyższych kryteriów.
+Przykładowe rozwiązanie
+Czas trwania rzutu poziomego z wysokości ℎ jest taki, jak czas 𝑡𝑠 trwania pionowego spadku
+swobodnego z wysokości ℎ (ponieważ rzut poziomy jest złożeniem dwóch ruchów: spadku
+swobodnego w kierunku pionowym oraz ruchu jednostajnego prostoliniowego w kierunku
+poziomym). Z wykresu odczytujemy, że wysokość rzutu wynosi ℎ = 20 m.
+Korzystamy ze związku pomiędzy drogą a czasem spadania w pionowym spadku swobodnym
+bez prędkości początkowej:
+ℎ = 1
+2 𝑔𝑡𝑠
+2 → 𝑡𝑠 = √2ℎ
+𝑔
+𝑡𝑠 = √ 2 ∙ 20 m
+9,81 m/s2 ≈ 2,02 s
+Zadanie 1.2. (0–4)
+Zasady oceniania
+4 pkt – poprawna metoda wyprowadzenia równania toru ruchu, z wykorzystaniem
+prawidłowych równań ruchu dla rzutu poziomego oraz otrzymanie poprawnej postaci
+równania toru
+LUB
+– poprawne udowodnienie, że torem ruchu jest fragment paraboli (tzn. wyprowadzenie
+równania 𝑦(𝑥) = ℎ − 𝑔
+2𝑣𝑥
+2 ⋅ 𝑥2 z równań ruchu rzutu poziomego) oraz wyznaczenie
+współczynników równania paraboli z postaci iloczynowej (lub kanonicznej lub ogólnej).
+3 pkt – poprawna metoda wyprowadzenia równania toru ruchu, z wykorzystaniem
+prawidłowych równań ruchu dla rzutu poziomego (dla poziomej i pionowej składowej
+ruchu) oraz związku między zasięgiem rzutu a prędkością początkową i wysokością,
+oraz otrzymanie równania:
+𝑦(𝑥) = ℎ − ℎ
+𝑥𝑚𝑎𝑥
+2 ⋅ 𝑥2
+LUB
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 18 --
+
+Zasady oceniania rozwiązań zadań
+Strona 3 z 18
+– poprawna metoda wyprowadzenia równania toru ruchu, z wykorzystaniem
+prawidłowych równań ruchu dla rzutu poziomego (dla poziomej i pionowej składowej
+ruchu), otrzymanie równania 𝑦(𝑥) = ℎ − 𝑔
+2𝑣𝑥
+2 ⋅ 𝑥2 oraz wyznaczenie prędkości
+początkowej w zależności od zasięgu rzutu oraz wysokości początkowej.
+2 pkt – zapisanie poprawnych równań ruchu rzutu poziomego (dla poziomej i pionowej
+składowej ruchu): 𝑥(𝑡) = 𝑣𝑥𝑡 oraz 𝑦(𝑡) = ℎ − 1
+2 𝑔𝑡2 oraz zapisanie związku między
+zasięgiem rzutu a wysokością i prędkością początkową
+LUB
+– założenie (bez dowodu opartego na równaniach ruchu), że torem ruchu jest fragment
+paraboli oraz poprawne wyprowadzenie wzoru toru ruchu z postaci iloczynowej (lub
+kanonicznej lub ogólnej) równani

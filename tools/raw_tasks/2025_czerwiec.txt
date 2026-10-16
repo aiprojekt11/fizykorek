@@ -1,0 +1,106 @@
+Zadanie 1.
+Ciało 𝒞 porusza się wzdłuż osi 𝑥. Zależność współrzędnej położenia 𝑥 ciała 𝒞 od czasu 𝑡
+opisują równania:
+𝑥 = 𝑥(𝑡) = {4 + 16𝑡 − 4𝑡2 dla 0 s ≤ 𝑡 ≤ 3 s
+40 − 8𝑡 dla 3 s < 𝑡 ≤ 5 s
+Wszystkie współczynniki w tych równaniach wyrażone są domyślnie przy pomocy jednostek
+podstawowych układu SI.
+Na wykresie 1. przedstawiono opisaną zależność 𝑥(𝑡) dla 0 s ≤ 𝑡 ≤ 5 s.
+Wykres 1.
+Zadanie 1.1. (0–2)
+Drogę przebytą przez ciało 𝒞 od chwili 𝑡 = 0 s do chwili 𝑡 = 5 s oznaczymy jako 𝑠𝐶.
+Wektor przemieszczenia ciała 𝒞 od chwili 𝑡 = 0 s do chwili 𝑡 = 5 s oznaczymy jako Δ𝑥	⃗⃗⃗⃗𝐶.
+Czas ruchu ciała 𝒞 od chwili 𝑡 = 0 s do chwili 𝑡 = 5 s oznaczymy jako Δ𝑡𝐶.
+Dokończ zdania. Wpisz właściwe liczby w wykropkowane miejsca.
+1. Droga przebyta przez ciało 𝒞 w czasie Δ𝑡𝐶 jest równa 𝑠𝐶 = ......... m.
+2. Wartość wektora Δ𝑥	⃗⃗⃗⃗⃗𝐶
+Δ𝑡𝐶
+jest równa |Δ𝑥	⃗⃗⃗⃗⃗𝐶
+Δ𝑡𝐶
+| = ............ m
+s .
+Brudnopis
+0
+5
+10
+15
+20
+0 1 2 3 4 5 t, s
+x, m
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 28 --
+
+Strona 5 z 26
+MFAP-R0_100
+Zadanie 1.2. (0–2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+W chwili 𝑡 = 1 s
+1. wartość przyśpieszenia ciała 𝒞 jest równa 16 m/s2. P F
+2. wartość prędkości ciała 𝒞 jest równa 16 m/s. P F
+3. położenie ciała 𝒞 ma współrzędną 16 m. P F
+Zadanie 1.3. (0–2)
+Współrzędną prędkości ciała 𝒞 oznaczymy jako v𝑥. Dodatnia wartość v𝑥 będzie oznaczała,
+że zwrot wektora prędkości ciała 𝒞 jest zgodny ze zwrotem osi 𝑥, a ujemna wartość – że
+zwrot wektora prędkości ciała 𝒞 jest przeciwny do zwrotu osi 𝑥.
+Na wykresie 2. narysuj zależność v𝒙 od czasu 𝒕 dla 𝟎 s ≤ 𝒕 ≤ 𝟓 s.
+Wykres 2.
+Brudnopis
+-15
+-10
+-5
+0
+5
+10
+15
+20
+0 1 2 3 4 5 t, s
+vx, m/s
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 28 --
+
+Strona 6 z 26 MFAP-R0_100
+Zadanie 2.
+Uczniowie wykonywali doświadczenie z wagą. Zakładamy, że waga wskazuje wartość siły
+nacisku działającej na wagę prostopadle do jej powierzchni, podzielonej przez wartość 𝑔
+przyśpieszenia grawitacyjnego.
+Uczniowie ustawili wagę na poziomej ławce i położyli na niej klocek. Waga wskazała
+wartość 𝑚1 (zobacz rysunek 1.). Następnie uczniowie nachylili ławkę pod kątem 𝛼 do
+poziomu i ponownie położyli na wadze ten sam klocek. Waga wskazała wartość 𝑚2 (zobacz
+rysunek 2.).
+Rysunek 1. Rysunek 2.
+Waga oraz klocek pozostały nieruchome.
+Na ten klocek działają trzy siły w układzie inercjalnym:
+𝐹𝑡 – siła tarcia statycznego pomiędzy wagą a klockiem, działająca na klocek przy nachylonej
+ławce,
+𝐹𝑔 – siła grawitacji działająca na klocek,
+𝐹𝑟 – siła reakcji wagi działająca na klocek (siła nacisku wagi na klocek).
+Zadanie 2.1. (0–2)
+Przyjmij, że punkt 𝑆 na diagramie (na stronie 7) jest reprezentacją klocka.
+Widok nachylonej ławki i klocka pozostawiono dla kontekstu.
+Długość boku kratki na diagramie odpowiada umownej jednostce siły.
+Oznaczono siłę grawitacji 𝐹𝑔.
+Na diagramie (na stronie 7) narysuj i oznacz siłę tarcia 𝑭	⃗⃗ 𝒕 oraz siłę reakcji wagi 𝑭	⃗⃗ 𝒓,
+działające na klocek (przyłożone w punkcie 𝑺).
+Zachowaj odpowiednie kierunki, zwroty oraz dokładne długości wektorów,
+odpowiadające wartościom tych sił.
+waga 𝑚1
+klocek
+𝛼
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 6 of 28 --
+
+Strona 7 z 26
+MFAP-R0_100
+Diagram
+Zadanie 2.2. (0–1)
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C i jej uzasadnienie 1., 2. albo 3.
+Wskazania wagi 𝑚1 oraz 𝑚2 – opisane w zadaniu 2. – spełniają relację
+A. 𝑚1 > 𝑚2,
+ponieważ p

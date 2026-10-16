@@ -1,0 +1,107 @@
+Zadanie 1.
+Samochód A jedzie z maksymalną prędkością dozwoloną na danym odcinku trasy. Wartość tej
+prędkości wynosi 	max	v 	. Samochód B jedzie z prędkością mniejszą od 	max	v 	o wartość 	v	∆ 	. Oba
+samochody poruszają się ruchem jednostajnym. Czas, w jakim samochód B pokona odcinek
+trasy o długości d, jest dłuższy od czasu, w jakim samochód A pokona ten sam odcinek trasy,
+o wartość:
+2
+max 	max
+v
+v 	v 	v
+∆
+∆ = − 	∆
+d
+t
+Zadanie 1.1. (0–2)
+Wyprowadź powyższy wzór na różnicę czasów, w jakich oba samochody pokonują
+odcinek trasy o długości d.
+Zadanie 1.2. (0–2)
+Maksymalna dozwolona wartość prędkości dla pojazdów osobowych poruszających się po
+autostradzie wynosi 140 km/h. Samochód B pokonał odcinek autostrady o długości 10 km
+w czasie o pół minuty dłuższym niż samochód A.
+Oblicz, ile wynosi różnica wartości prędkości samochodów A i B.	Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 20 --
+
+Strona 3 z 20
+MFA_1R
+Zadanie 2. (0–1)
+Tenisista uderzył rakietą w podrzuconą pionowo
+piłkę tenisową. Tuż po odbiciu się od rakiety piłka
+uzyskała prędkość o kierunku poziomym i wartości
+max	v 	. Na wykresie obok przedstawiono zależność
+wartości siły reakcji działającej na piłkę w kierunku
+poziomym 	podczas 	uderzenia 	(tzn. 	gdy 	piłka
+pozostawała w kontakcie z rakietą) od czasu. Czas
+działania siły reakcji na piłkę wynosił t k. Przyjmij
+model 	zjawiska, 	w 	którym 	piłka 	nie 	ulegała
+odkształceniom w trakcie uderzenia, i pomiń opory
+ruchu. Osie na wszystkich wykresach wyskalowane
+są w zwykły sposób – tzn. liniowo.
+Spośród 	rysunków 	A–D 	wybierz 	i 	zaznacz 	rysunek 	z 	wykresem 	prawidłowo
+przedstawiającym zależność poziomej składowej prędkości piłki od czasu podczas
+kontaktu piłki z rakietą.
+A. 	B.
+C. 	D.
+v
+t
+0 0 	t k
+vmax
+v
+t
+vmax
+0 0 	t k
+v
+t
+0 0 	t k
+vmax
+v
+t
+vmax
+0 0 	t k
+F
+t
+0 0 	t k
+Fmax
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 20 --
+
+Strona 4 z 20 MFA_1R
+Zadanie 3. (0–4)
+Płaska, prostopadłościenna, jednorodna belka o masie 10 kg jest podparta w punkcie Y (zobacz
+rysunek poniżej). Na jednym końcu belki stoi chłopiec o masie 40 kg. Środek masy chłopca
+znajduje się nad punktem D belki. Na drugim końcu belki umieszczono ciężarek. Środek masy
+ciężarka znajduje się nad punktem X belki. Cały układ pozostaje w równowadze tak, że belka
+utrzymuje pozycję poziomą (jak na rysunku poniżej).
+Belka działa na podparcie (przy punkcie Y) siłą o wartości FY. Na rysunku oznaczono długości
+odcinków XD oraz YD.
+Oblicz wartość siły FY.
+5 m
+2 m
+D	Y	X
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 20 --
+
+Strona 5 z 20
+MFA_1R
+Zadanie 4.
+Rozważamy ruch skoczka spadochronowego w ziemskim polu grawitacyjnym. W chwili
+początkowej tego ruchu prędkość skoczka względem Ziemi wynosi zero. Przez pewien krótki
+czas skoczek opada ruchem przyspieszonym bez otwartego spadochronu, a następnie go
+otwiera. Po otwarciu spadochronu prędkość skoczka zaczyna maleć i po pewnym czasie osiąga
+w przybliżeniu stałą wartość. Wartość tej granicznej prędkości zależy m.in. od średnicy
+spadochronu i 	masy skoczka wraz ze sprzętem. 	Przyjmij, że przyspieszenie ziemskie
+w obszarze ruchu skoczka jest stałe i wynosi g = 9,81 m
+s2 , a skoczek opada pionowo i przy
+bezwietrznej pogodzie.
+Zadanie 4.1. (0–1)
+Zaznacz właściwe dokończenie zdania wybrane spośród A–C oraz spośród 1.–3.
+Na samym początku ruchu i przed otwarciem spadochronu wartość siły oporu powietrza
+działającej na skoczka
+A. 	zwiększa się,
+a jednocześnie wartość jego
+przyspieszenia
+1. 	pozostaje stała.
+B. 	z

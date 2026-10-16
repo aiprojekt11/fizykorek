@@ -1,0 +1,101 @@
+Zadanie 1.
+Pewne ciało porusza się ruchem prostoliniowym wzdłuż osi x. Zamieszczony poniżej wykres
+przedstawia zależność współrzędnej ax przyspieszenia ciała od czasu t w tym ruchu. Wartość
+prędkości początkowej ciała wynosi zero.
+Zadanie 1.1. (0–3)
+Narysuj wykres zależności współrzędnej vx prędkości ciała od czasu t w ruchu opisanym
+powyżej (od t = 0 s do t = 12 s). Zapisz obliczenia pozwalające ustalić wartość vx w t = 5 s
+ruchu oraz w t = 12 s ruchu.
+3
+2
+1
+0
+– 1
+– 2
+– 3
+ax, m
+s2
+0 	1 	2 	3 	4 	5 	6 	7 	8 	9 	10 11 12 13 14 15 	t, s
+12
+10
+8
+6
+4
+2
+0
+– 2
+– 4
+– 6
+– 8
+– 10
+– 12
+vx, m
+s
+0 	1 	2 	3 	4 	5 	6 	7 	8 	9 	10 11 12 13 14 15 	t, s
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 19 --
+
+Strona 3 z 19
+MFA_1R
+Zadanie 1.2. (0–3)
+Uzupełnij 	tabelę 	przedstawioną 	poniżej. 	W 	drugiej 	kolumnie 	podkreśl 	właściwe
+określenie dotyczące wartości prędkości ciała w danym przedziale czasu. W trzeciej
+kolumnie wpisz drogę przebytą przez ciało w danym przedziale czasu.
+Przedział czasu 	Wartość prędkości Droga
+s, m
+0 s < t ≤ 5 s 	rośnie / maleje / pozostaje stała
+5 s < t ≤ 10 s 	rośnie / maleje / pozostaje stała
+10 s < t ≤ 12 s 	rośnie / maleje / pozostaje stała
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 19 --
+
+Strona 4 z 19 MFA_1R
+Zadanie 2.
+Dwaj pracownicy podjęli się zadania przesunięcia ciężkiej skrzyni. Zdecydowali, że będą
+ciągnąć skrzynię za dwie równoległe liny skierowane ukośnie w górę (zobacz rys. poniżej).
+Podczas gdy pracownicy działali na skrzynię, skrzynia się nie podnosiła. Masę lin pomijamy.
+Masa skrzyni wynosi m = 63 kg, a współczynniki tarcia statycznego i kinetycznego skrzyni
+o podłoże są równe odpowiednio: μ s = 0,60 i μk = 0,40. Wartości każdej z sił F	ሬሬԦ napinającej
+każdą z lin były równe, a kąt ich nachylenia do poziomego podłoża wynosił 25°.
+Zadanie 2.1. (0–3)
+Wykaż, że wartość siły ܨԦ, z jaką musiał działać każdy z pracowników na linę, aby wprawić
+skrzynię w ruch, wynosiła około 160 N.
+Zadanie 2.2. (0–3)
+Po wprawieniu skrzyni w ruch pracownicy działali na nią jednakowymi siłami równymi 160 N,
+utrzymując liny wciąż pod tym samym kątem 25° do poziomu.
+Oblicz wartość przyspieszenia, z jakim przesuwała się skrzynia.
+F	ሬሬԦ
+25°
+F	ሬሬԦ
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 19 --
+
+Strona 5 z 19
+MFA_1R
+Zadanie 2.3. (0–3)
+Skrzynię przesunięto na odległość 2 m, a pracownicy na całej tej drodze działali na obie liny
+stałymi siłami o łącznej wartości 320 N. Kąt nachylenia lin do poziomu wynosił 25°, a siła
+tarcia była równa 193 N.
+a) 	Oblicz łączną pracę obu sił, z jakimi pracownicy ciągnęli skrzynię.
+b) 	Oblicz pracę wykonaną przez siłę tarcia podczas ruchu skrzyni.
+c) 	Oblicz energię kinetyczną uzyskaną przez skrzynię po przebyciu odległości 2 m.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 19 --
+
+Strona 6 z 19 MFA_1R
+Zadanie 3.
+Cztery bryły obrotowe: dwie cienkościenne jednorodne rury R1 i R2 oraz dwa jednorodne walce
+W1 i W2 , ustawiono na równi pochyłej wzdłuż linii l1. Rura R1 ma masę m i promień r.
+Zależności pomiędzy masami i promieniami brył oznaczono na rysunku poniżej. Wszystkie
+bryły staczają się z równi bez poślizgu, bez prędkości początkowej i bez strat energii
+mechanicznej. Układ znajduje się w ziemskim polu grawitacyjnym o natężeniu gሬԦ.
+Moment bezwładności bryły obrotowej o promieniu r b i masie mb , względem osi symetrii
+obrotowej tej bryły, dany jest wzorem:
+2
+b b	I 	km r	=
+gdzie k jest pewnym współczynnikiem. Dla rury k = 1, a dla walca k = 0,5. Rozważamy
+s

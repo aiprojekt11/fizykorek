@@ -1,0 +1,107 @@
+Zadanie 1.
+W chwili 𝑡0 = 0 s początkowo nieruchoma, sztywna platforma w kształcie koła o środku 𝑆
+rozpoczyna obrót dookoła osi prostopadłej do platformy i przechodzącej przez 𝑆. Do chwili
+𝑡1 = 8 s platforma obraca się ze stałym przyśpieszeniem kątowym 𝜖 i wykonuje w tym czasie
+dokładnie jeden obrót. W chwili 𝑡1 platforma uzyskała prędkość kątową 𝜔. Od chwili 𝑡1
+platforma obraca się ze stałą prędkością kątową 𝜔. Promień platformy wynosi 𝑅 = 4 m.
+Zadanie 1.1. (0–2)
+Rysunki 1. i 2. przedstawiają platformę w czasie, gdy jej ruch obrotowy jest jednostajnie
+przyśpieszony. Na rysunku 1. narysowano wektor v⃗ prędkości punktu 𝑃, leżącego na brzegu
+platformy.
+Na rysunku 2. narysuj składową styczną 𝒂	⃗⃗𝒔 oraz składową dośrodkową 𝒂	⃗⃗𝒓 wektora
+przyśpieszenia 𝒂	⃗⃗ punktu 𝑷. Następnie wyznacz graficznie i narysuj wektor 𝒂	⃗⃗. Podpisz
+wszystkie narysowane wektory.
+Uwaga! Długości składowej stycznej 𝑎𝑠 oraz składowej dośrodkowej 𝑎𝑟 wektora
+przyśpieszenia 𝑎 mogą być na rysunku umowne.
+Rysunek 1. Rysunek 2.
+Zadanie 1.2. (0–2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+W chwili czasu 𝑡 = 5 s
+1. wszystkie punkty platformy różne od punktu 𝑆 mają takie samo
+przyśpieszenie kątowe. P F
+2. największą wartość prędkości liniowej mają punkty leżące na brzegu
+platformy. P F
+3. wszystkie punkty platformy mają tę samą wartość przyśpieszenia
+dośrodkowego. P F
+vሬԦ
+𝑃
+𝑆
+𝑃
+𝑆
+1.2.
+0–1–2
+1.1.
+0–1–2
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 32 --
+
+Strona 5 z 28
+MFAP_R0_100
+Zadanie 1.3. (0–3)
+Oblicz, ile obrotów wykona platforma w czasie 𝚫𝒕 = 𝟔𝟎 𝐬, liczonym od chwili 𝒕𝟎 = 𝟎 𝐬.
+Zapisz obliczenia.
+1.3.
+0–1–
+2–3
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 32 --
+
+Strona 6 z 28 MFAP_R0_100
+Zadanie 2.
+Ciała 𝒞1 i 𝒞2 mają różne masy i są bryłami w kształcie prostopadłościanów o takich samych
+wymiarach. Po włożeniu tych ciał do naczynia z wodą zaobserwowano, że:
+• ciało 𝒞1 pozostaje nieruchomo, przy czym 3
+4 objętości tego ciała jest zanurzone w wodzie
+• ciało 𝒞2 pozostaje nieruchomo całkowicie zanurzone w wodzie (i nie dotyka dna).
+Przyjmij, że obserwację wykonano w układzie inercjalnym, w jednorodnym, ziemskim polu
+grawitacyjnym. Opisaną sytuację przedstawiono na poniższym rysunku.
+Zadanie 2.1. (0–3)
+Punkty 𝐶1 i 𝐶2 na poniższych diagramach 1. i 2. odpowiadają ciałom 𝒞1 i 𝒞2. Długość boku
+kratki na każdym diagramie odpowiada umownej jednostce siły.
+Na diagramie 1. narysowano siłę wyporu 𝐹𝑤1, działającą na ciało 𝒞1.
+Na diagramie 1. narysuj i oznacz siłę grawitacji 𝑭	⃗⃗ 𝒈𝟏, działającą na 𝓒𝟏.
+Na diagramie 2. narysuj i oznacz siły grawitacji 𝑭	⃗⃗ 𝒈𝟐 oraz wyporu 𝑭	⃗⃗ 𝒘𝟐, działające na 𝓒𝟐.
+Zachowaj odpowiednie kierunki, zwroty oraz dokładne długości wszystkich wektorów,
+odpowiadające wartościom tych sił.
+Diagram 1. Diagram 2.
+𝐶1
+𝐹Ԧ𝑤1
+𝐶2
+woda
+𝒞1 𝒞2	𝑔Ԧ
+2.1.
+0–1–
+2–3
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 6 of 32 --
+
+Strona 7 z 28
+MFAP_R0_100
+Brudnopis
+Zadanie 2.2. (0–3)
+Ciało 𝒞1 wyjęto z wody i włożono do naczynia z pewną cieczą X.
+Zaobserwowano, że ciało 𝒞1 pływa tak, że 2
+3 jego objętości jest
+zanurzone w tej cieczy (zobacz rysunek obok).
+Przyjmij do obliczeń gęstość wody 𝜌𝑤 = 1 g/cm3. Gęstość cieczy X oznaczymy jako 𝜌𝑋.
+Oblicz 𝝆𝑿. Zapisz obliczenia.
+ciecz X
+𝒞1
+2.2.
+0–1–
+2–3
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 7 of 32 --
+
+Strona 8 z 28 MFAP_R0_100
+Zadanie 3.
+Walec 𝒲 toczy się 

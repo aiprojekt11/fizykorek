@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Zamiana energii potencjalnej w kinetyczną</title>
+  <desc id="desc">Ciało zsuwa się bez tarcia. Na górze ma dużą energię potencjalną, a na dole dużą energię kinetyczną. Suma obu energii jest stała.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/>
+     <path d="M92 91 C240 90 275 246 500 246 L690 246" fill="none" stroke="#94a3b8" stroke-width="9" stroke-linecap="round"/>
+     <circle class="ball" cx="126" cy="82" r="27"/><line x1="126" y1="115" x2="126" y2="246" stroke="#64748b" stroke-width="2" stroke-dasharray="7 7"/><path d="M110 231h32M110 115h32" class="line thin"/><text class="t small muted" x="88" y="183">h</text>
+     <circle class="ball" cx="536" cy="218" r="27"/><line x1="570" y1="218" x2="659" y2="218" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="612" y="202">v</text>
+     <rect x="86" y="278" width="170" height="18" rx="9" fill="#16a34a"/><rect x="86" y="298" width="32" height="10" rx="5" fill="#2563eb"/><text class="t small green" x="86" y="270">duże Eₚ</text>
+     <rect x="482" y="278" width="32" height="18" rx="9" fill="#16a34a"/><rect x="482" y="298" width="170" height="10" rx="5" fill="#2563eb"/><text class="t small blue" x="552" y="270">duże Eₖ</text>
+     <text class="t label" x="380" y="52" text-anchor="middle">Eₚ + Eₖ = const</text>
+</svg>

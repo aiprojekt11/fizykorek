@@ -1,0 +1,66 @@
+1.1. (0–4)
+Wymagania egzaminacyjne 2023 i 20241
+Wymaganie ogólne Wymagania szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+I.7) wyodrębnia z tekstów, […] wykresów,
+rysunków schematycznych […] informacje
+kluczowe dla opisywanego zjawiska bądź
+problemu […].
+II.3) opisuje ruchy postępowe, posługując się
+wielkościami wektorowymi: przemieszczeniem,
+prędkością i przyspieszeniem wraz z ich
+jednostkami;
+II.4) opisuje ruchy prostoliniowe
+[…] jednostajnie zmienne, posługując się
+zależnościami położenia, wartości prędkości
+i przyspieszenia oraz drogi od czasu;
+II.10) wskazuje siłę dośrodkową jako przyczynę
+ruchu jednostajnego po okręgu;
+II.13) stosuje zasady dynamiki do opisu
+zachowania się ciał.
+Zasady oceniania2
+4 pkt – poprawne narysowanie wektorów sił wypadkowych w punktach 𝑌 i 𝑍 (tzn.
+z prawidłowymi zwrotami oraz długościami) oraz poprawna metoda obliczenia
+wartości siły wypadkowej w punkcie 𝑌 (lub stosunku wartości obu sił), oraz podanie
+prawidłowego wyniku (8 umownych jednostek siły albo 𝐹𝑌
+𝐹𝑍
+= 2).
+3 pkt – narysowanie wektora siły w punkcie 𝑍 skierowanego poziomo w prawo o długości 4
+kratek oraz narysowanie wektora siły w punkcie 𝑌 skierowanego poziomo w lewo
+(o dowolnej długości) oraz skorzystanie z drugiej zasady dynamiki do wyrażenia
+wartości obu sił (lub stosunku tych sił), oraz skorzystanie ze wzoru na przyśpieszenie
+dośrodkowe (lub siłę dośrodkową), oraz skorzystanie ze związku między drogą,
+prędkością i przyśpieszeniem w ruchu jednostajnie zmiennym (lub skorzystanie
+z równań ruchu prowadzących do tego związku), np. zapisy (lub równoważne)
+1 Rozporządzenie Ministra Edukacji i Nauki z dnia 10 czerwca 2022 r. w sprawie wymagań egzaminacyjnych dla
+egzaminu maturalnego przeprowadzanego w roku szkolnym 2022/2023 i 2023/2024 (Dz.U. poz. 1246).
+2 Pod opisem warunków za przyznanie punktów, w niektórych przypadkach podano przykładowe zapisy, które
+spełniają te warunki w minimalnym stopniu (tzw. minimalne akceptowalne rozwiązanie).
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 35 --
+
+Zasady oceniania rozwiązań zadań
+Strona 3 z 35
+1. warunek za 2 pkt oraz (𝐹𝑍 = 𝑚𝑎𝑍 , 𝐹𝑌 = 𝑚𝑣2
+𝑟 , 𝑣 = 𝑎𝑍𝑡 , 𝑠 = 1
+2 𝑎𝑍𝑡2)
+albo
+1. warunek za 2 pkt oraz 𝐹𝑌
+𝐹𝑍
+= 𝑎𝑌
+𝑎𝑍
+=
+( v2
+1
+2 |𝐵𝐶|
+)
+( v2
+2|𝐶𝐷|)
+2 pkt – narysowanie wektora siły w punkcie 𝑍 skierowanego poziomo w prawo o długoś

@@ -1,0 +1,810 @@
+
+--- PAGE 1 ---
+Układ graficzny
+© CKE 2022
+WYPEŁNIA ZDAJĄCY
+KOD   PESEL
+Egzamin maturalny   Formuła 2023
+F IZYKA
+Poziom rozszerzony
+Symbol arkusza
+M FAP - R0 - 100 - 2 5 0 6
+D ATA :  16   czerwca   202 5   r.
+G  ODZINA ROZPOCZĘCIA :  9 :00
+C  ZAS TRWANIA :  180 minut
+L ICZBA PUNKTÓW DO UZY SKANIA :  60
+Przed rozpoczęciem pracy z arkuszem egzaminacyjnym
+1.   Sprawdź, czy nauczyciel przekazał Ci  właściwy arkusz egzaminacyjny ,
+tj.   arkusz we  właściwej formule , z  właściwego przedmiotu   na  właściwym
+poziomie .
+2.   Jeżeli przekazano Ci  niewłaściwy   arkusz  –   natychmiast zgłoś to nauczycielowi.
+Nie rozrywaj banderol.
+3.   Jeżeli przekazano Ci  właściwy   arkusz  –   rozerwij banderole po otrzymaniu
+takiego polecenia od nauczycie l a. Zapoznaj się z instrukcją na stronie 2.
+Miejsce na naklejkę.
+Sprawdź, czy kod na naklejce to
+M - 100 .
+Jeżeli tak  –   przyklej   naklejkę.
+Jeżeli nie  –   zgłoś to nauczycielowi.
+Arkusz zawiera informacje prawnie chronione
+do momentu rozpoczęcia egzaminu.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 2 ---
+Strona  2   z  26
+MFAP - R0_100
+Instrukcja dla zdającego
+1.   Sprawdź, czy arkusz egzaminacyjny zawiera  26   stron (zadania 1 – 1 1 ).
+Ewentualny brak zgłoś przewodniczącemu zespołu nadzorującego egzamin.
+2.   Na  pierwszej   stronie oraz na karcie odpowiedzi wpisz swój numer PESEL i przyklej
+naklejkę z   kodem.
+3.   W rozwiązaniach zadań rachunkowych przedstaw  tok rozumowania prowadzący do
+ostatecznego wyniku oraz pamiętaj o jednostkach. Przedstaw obliczenia pośrednie
+wskazujące na   wykorzystanie warunków zadania oraz praw i zależności fizycznych.
+4.   Rozwiązania i odpowiedzi zapisz w miejscu na to przeznaczonym przy każdym zadaniu.
+5.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do rozwiązania
+zadania będzie niezbędne uż ycie kalkulatora pozwalającego obliczać wartości
+logarytmów, funkcji trygonometrycznych oraz funkcji wykładniczych.
+6.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do
+rozwiązania zadania będzie pomocne lub niezbędne użycie linijki.
+7.   Pisz  czytelnie. Używaj długopisu/pióra tylko z czarnym tuszem/atramentem.
+8.   Nie używaj korektora, a błędne zapisy wyraźnie przekreśl.
+9.   Pamiętaj, że zapisy w brudnopisie nie będą oceniane.
+10.   Możesz korzystać z  Wybranych wzorów i stałych fizykochemicznych na   egzamin
+m aturalny z biologii, chemii i fizyki , z linijki oraz z kalkulatora   naukowego. Upewnij się,
+czy przekazano Ci broszurę z okładką taką jak widoczna poniżej.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 3 ---
+Strona  3   z  26
+MFAP - R0_100
+Zadania egzaminacyjne są wydrukowane
+na następnych  stronach.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 4 ---
+Strona  4   z  26
+MFAP - R0_100
+Zadanie 1.
+Ciało  풞   porusza się wzdłuż osi  푥 .  Zależność  współrzędnej  położenia  푥   ciała  풞   od czasu   푡
+opisują równania:
+푥 = 푥 ( 푡 ) = { 4 + 16 푡 − 4 푡
+2           dla           0   s ≤ 푡 ≤ 3   s
+40 − 8 푡                                   dla           3   s < 푡 ≤ 5   s
+Wszystkie  współczynniki w tych równaniach wyrażone są domyślnie przy pomocy jednostek
+podstawowych układu SI.
+Na  wykresie 1.   przedstawiono  opisaną zależność   푥 ( 푡 )   dla     0   s ≤ 푡 ≤ 5   s .
+Wykres 1.
+Zadanie 1.1. (0 – 2)
+Drogę przebytą przez ciało  풞   od chwili  푡 = 0   s   do chwili  푡 = 5   s   oznaczymy jako  푠 퐶 .
+Wektor przemieszczenia ciała   풞   od chwili  푡 = 0   s   do chwili  푡 = 5   s   oznaczymy jako  Δ 푥 ⃗ ⃗ ⃗ ⃗   퐶 .
+Czas ruchu ciała   풞   od chwili  푡 = 0   s   do chwili  푡 = 5   s   oznaczymy jako  Δ 푡 퐶 .
+Dokończ zdania. Wpisz właściwe  liczby w wykropkowane miejsca.
+1.   Droga przebyta przez ciało  풞   w czasie  Δ 푡 퐶   jest równa  푠 퐶 =     .........     m .
+2.   Wartość wektora
+Δ 푥 ⃗ ⃗ ⃗ ⃗ ⃗   퐶
+Δ 푡 퐶
+jest   równa    |
+Δ 푥 ⃗ ⃗ ⃗ ⃗ ⃗   퐶
+Δ 푡 퐶
+| =     ............
+m
+s
+.
+Brudnopis
+0
+5
+10
+15
+20
+0 1 2 3 4 5 t , s
+x , m
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 5 ---
+Strona  5   z  26
+MFAP - R0_100
+Zadanie 1.2. (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli  stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+W chwili  푡 = 1   s
+1.   wartość przyśpieszenia  ciał a   풞   jest równa  16   m / s 2 .   P   F
+2.   wartość prędkości  ciał a   풞   jest równa  16   m / s .   P   F
+3.   położenie  ciał a   풞   ma współrzędną  16   m .   P   F
+Zadanie 1.3. (0 – 2)
+Współrzędną prędkości  ciał a   풞   oznaczymy jako  v 푥 . Dodatnia wartość  v 푥   będzie oznaczała,
+że zwrot wektora prędkości  ciał a   풞   jest zgodny ze zwrotem osi  푥 , a   ujemna wartość  –   że
+zwrot wektora prędkości  ciał a   풞   jest przeciwny do zwro tu osi  푥 .
+Na wykresie 2. narysuj zależność  v 풙   od czasu  풕   dla     ퟎ   s ≤ 풕 ≤ ퟓ   s .
+Wykres 2.
+Brudnopis
+-15
+-10
+-5
+0
+5
+10
+15
+20
+0 1 2 3 4 5
+t , s
+v x , m/s
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 6 ---
+Strona  6   z  26
+MFAP - R0_100
+Zadanie 2.
+Uczniowie wykonywali  doświadczenie z wagą. Zakładamy, że waga wskazuje wartość siły
+nacisku   działającej   na wagę   prostopadle   do jej powierzchni, podzielonej przez  wartość  푔
+przyśpieszenia grawitacyjnego .
+Uczniowie ustawili wagę na poziomej ławce i położyli na niej klocek. Wag a wskazała
+wartość    푚 1   (zobacz rysunek 1.) . Następnie uczniowie nachylili ławkę pod kątem  훼   do
+poziomu i ponownie położyli na wadze ten sam klocek. Waga wskazała wartość  푚 2   (zobacz
+rysunek 2.).
+Rysunek 1.    Rysunek 2.
+Waga oraz klocek  pozostały nieruchome .
+N a ten klocek działają trzy siły w układzie inercjalnym:
+퐹   푡   –   siła tarcia  statycznego  pomiędzy wagą a klockiem, działająca na klocek   przy nachylonej
+ławce ,
+퐹   푔   –   siła grawitacji działająca na klocek,
+퐹   푟   –   siła reakcji wagi działająca na klocek (siła nacisku wagi na klocek) .
+Zadanie 2. 1. (0 – 2)
+Przyjmij, że punk t   푆   na diagramie  (na stronie 7)  jest reprezentacją klocka.
+W idok  nachylonej ławk i   i   klocka pozostawiono dla kontekstu.
+Długość boku kratki  na diagramie   odpowiada umownej jednostce siły.
+Oznaczono siłę grawitacji  퐹   푔 .
+Na diagramie  (na stronie 7)  narysuj i oznacz  siłę tarcia   푭 ⃗ ⃗   풕   oraz  siłę reakcji wagi   푭 ⃗ ⃗   풓 ,
+d ziałające n a klocek (przyłożone w punkcie  푺 ).
+Zachowaj odpowi ednie kierunki, zwroty oraz  dokładne długości   wektorów,
+odpowiadające wartościom tych sił.
+waga   푚 1
+klocek
+훼
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 7 ---
+Strona  7   z  26
+MFAP - R0_100
+Diagram
+Zadanie 2.2. (0 – 1)
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C  i jej uzasadnienie  1., 2. albo 3.
+Wskazania wagi  푚 1   oraz  푚 2   –   opisane w zadaniu 2.  –   spełniają relację
+A.   푚 1 > 푚 2 ,
+ponieważ po nachyleniu ławki wartość
+siły nacisku klocka na wagę
+1.   zwiększyła   się .
+B.   푚 1 = 푚 2 ,   2.   nie zmieniła   się .
+C.   푚 1 < 푚 2 ,   3.   zmniejszyła   się .
+Zadanie 2. 3 . (0 – 1 )
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+Gdy kąt nachylenia  훼   ławki do poziomu rośni e , a waga oraz klocek  o masie  푚   nie poruszają
+się względem ławki, to
+1.
+wartość siły tarcia statycznego między wagą a klockiem wyraża się
+wzorem  퐹 푡 = 푚푔 sin 훼 .
+P   F
+2.   wartość siły tarcia statycznego pomiędzy wagą a klockiem maleje.   P   F
+푔
+훼
+퐹   푔
+푆
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 8 ---
+Strona  8   z  26
+MFAP - R0_100
+Zadanie 3.
+Walec   풲   o promieniu  푅   i masie  푚   toczy się bez poślizgu ze stałą prędkością o wartości  v
+po poziom ym , płaski m   po dłożu .
+Na rysunku poniżej przedstawiono położeni a   walca  w chwili   푡 0 = 0   s   oraz   w chwili   푡 1 = 0 , 2   s .
+W czasie od chwili  푡 0   do chwili  푡 1   walec wykonał  pół obrotu   względem swojej osi.
+Położenia  wybranych   punkt ów   퐴   i  퐵 ,   leżących  na brzegu walca   wzdłuż średnicy,   w chwilach  푡 0
+oraz  푡 1   oznaczymy  –   odpowiednio  –   jako  퐴 0 ,   퐵 0   oraz  퐴 1 ,   퐵 1 . Punkt y  퐵 0   i   퐴 1   dotyka ją   podłoża.
+Rysunek
+Zadanie 3.1. (0 – 1)
+Dokończ zdanie.  Zaznacz   właściwą odpowiedź spośród podanych.
+Prędkość kątowa w ruchu obrotowym walca   풲   względem jego osi ma wartość
+A.     휔 = 2 휋
+rad
+s         B.     휔 = 4 휋
+rad
+s     C.     휔 = 5 휋
+rad
+s     D.     휔 = 10 휋
+rad
+s
+Brudnopis
+Zadanie 3.2. (0 – 2)
+Wartość przemieszczenia punktu  퐴   od chwili  푡 0   do chwili  푡 1   oznaczymy jako  | 퐴 0 퐴 1 | .
+Oblicz iloraz
+| 푨 ퟎ 푨 ퟏ |
+푹
+.   Wynik podaj w postaci  liczby   niewymiernej.   Zapisz obliczenia.
+v ⃗
+퐴 0
+podłoże
+풲      풲
+퐵 0
+v ⃗
+퐴 1
+퐵 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 9 ---
+Strona  9   z  26
+MFAP - R0_100
+Zadanie 3.3 .   (0 – 2 )
+Walec   풲   jest wewnątrz częściowo pusty i symetryczny względem osi przechodzącej przez
+jego środek.   Moment bezwładności walca   풲   względem jego osi wyraża się wzorem:
+퐼 0 =
+4
+5
+푚 푅 2
+Całkowitą energię kinetyczną   toczącego się   walca   풲   oznaczymy jako  퐸 푘푖푛   푐푎푙푘 .
+Ta e nergia wyraża się wzorem:
+퐸 푘푖푛   푐푎푙푘 = 푘 ⋅ 푚 v 2               dla  pewnego współczynnika liczbowego   푘 .
+Oblicz  풌 .   Zapisz obliczenia .
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 10 ---
+Strona  10   z  26
+MFAP - R0_100
+Zadanie  4 .
+Satelity   S1   oraz  S2   poruszają się dookoła Ziemi jedynie pod wpływem grawitacji .  Satelita S1
+obiega  Ziemię   (Z)   po orbicie  kołowej , a  satelita S2 obiega Ziemię po orbicie  eliptycznej .   Obie
+orbity leżą w jednej płaszczyźnie.   Pomijamy wpływ innych ciał na ruch satelitów S1 oraz S2.
+Poniżej podano niektóre   oznaczenia i   dane  dla   obu orbit :
+•   punkt  푃   jest wspólny dla obu orbit   (zobacz rysunek)
+•   odległość punktu  푃   od środka Ziem i jest równa   푟 푃 = 15   000   km
+•   największ ą   odległość  satelity S2   od środka  Ziemi   oznaczymy jako   푟 퐴
+•   odległości  푟 푃   oraz  푟 퐴   wiąże relacja:  푟 퐴 = 3 푟 푃 .
+Zadanie  4 . 1 . (0 – 1)
+Energię potencjalną w  polu grawitacyjnym centralnym określamy względem nieskończoności
+–   tzn.   poziom zera energii potencja l nej jest w nieskończoności:   퐸 푝표푡 ( ∞ ) = 0 .
+Dokończ zdanie.  Zaznacz   właściwą odpowiedź spośród podanych.
+Dla satelity w ruchu po orbicie kołowej iloraz
+퐸 푝표푡
+퐸 푘푖푛
+, tzn. iloraz  energii potencjalnej i   kinetycznej ,
+wynosi
+A.     − 2   B.     0 , 5     C.     2     D.     − 0 , 5
+Brudnopis
+푃   퐴
+Z
+S2
+S1
+푟 푃   푟 퐴 = 3 푟 푃
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 11 ---
+Strona  11   z  26
+MFAP - R0_100
+Zadanie 4. 2 . (0 – 3 )
+Wartość prędkości  jednego z satelitów   w punkcie  푃   jest równa  6 , 3   km / s .
+Ustal ,   który z  satelitów   –   S1 czy S2  –   ma   w punkcie  푷   taką prędkość.  W ykonaj
+niezbędne obliczenia, które doprowadzą do tego ustalenia.  Następnie zapisz swoją
+odpowiedź.
+Zadanie 4. 3 . (0 – 3 )
+Okres obiegu satelity S1 dookoła Ziemi oznaczymy jako  푇 1 , a satelity S2  –   jako  푇 2 .
+Oblicz iloraz
+푻 ퟏ
+푻 ퟐ
+.   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 12 ---
+Strona  12   z  26
+MFAP - R0_100
+Zadanie 5.
+Klocek, na który działa siła ciężkości o wartości  퐹 푐 = 1 , 0   N ,   jest   zawieszony   na sprężynie
+i   wykonuje drgania   harmoniczne   wzdłuż osi  푥   zwróconej   pionowo w górę ,   w   jednorodnym,
+ziemskim   polu  g rawitacyjny m.
+Współrzędna położenia klocka w najniższym położeniu jest równa  푥 = 0   cm .
+Współrzędna położenia klocka w położeniu równowagi sił jest równa  푥 0 = 5   cm .
+Współrzędna położenia klocka w najwyższym położeniu jest równa  푥 = 10   cm .
+Gdy klocek znajduje się w najwyższym położeniu, to sprężyna nie jest odkształcona  –   jej
+długość jest równa długości swobodnej.
+Przyjmij  założenia :
+•   na ciężarek działają tylko siła sp rężystości  퐹   푠   sprężyny i siła  ciężkości   퐹   푐
+•   wartość siły   sprężystości, z jaką sprężyna działa na ciężarek, jest wprost proporcjonalna
+do wydłużenia sprężyny ponad jej długość swobodną
+•   pomijamy opory ruchu   oraz  pomijamy masę sprężyny
+•   przyśpieszenie graw itacyjne ziemskie  ma wartość   푔 = 9 , 81   m / s 2 .
+Zadanie 5.1.   (0 – 3)
+Na podstawie znaku   współrzędnej wektora siły określa my   jej zwrot. Dodatnia wartość
+współrzędnej siły oznacza, że zwrot siły działającej na ciężarek jest w   górę (zgodnie ze
+zwrotem osi  푥 ), a   ujemna wartość  –   że zwrot siły jest w dół.
+Siłę wypadkową sił  sprężystości  퐹   푠   i ciężkości  퐹   푐   oznaczymy jako  퐹   푤 .
+Współrzędne tych sił oznaczymy  –   odpowiednio  –   jako :   퐹 푠   푥 ,  퐹 푐   푥   oraz  퐹 푤   푥 .
+푔     푔     푔
+푥 , cm
+10
+푥 0 = 5
+0
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 13 ---
+Strona  13   z  26
+MFAP - R0_100
+Na  diagramach   1. – 3.  n arysuj   –   odpowiednio  –   wykresy   zależności  푭 풔   풙 ,  푭 풄   풙   oraz   푭 풘   풙
+od  풙 .
+Diagram   1.
+Diagram   2.
+Diagram   3.
+Brudnopis
+푥 , cm
+퐹 푠   푥 , N
+10   5   0
+0
+1
+2
+− 2
+− 1
+푥 , cm
+퐹 푐   푥 , N
+10   5   0
+0
+1
+2
+− 2
+− 1
+푥 , cm
+퐹 푤   푥 , N
+10   5   0
+0
+1
+2
+− 2
+− 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 14 ---
+Strona  14   z  26
+MFAP - R0_100
+Zadanie 5. 2 .   (0 – 3)
+Oblicz okres drgań klocka.   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 15 ---
+Strona  15   z  26
+MFAP - R0_100
+Zadanie 6.   (0 – 4)
+Naczynie zawierało wodę o masie  푀   i temperaturze  40   ℃ . Do tego naczynia wrzucono
+kostki lodu o łącznej masie  푚   i temperaturze  − 10   ℃ . Po pewnym czasie w naczyniu
+pozostała tylko ciekła woda w temperaturze  0   ℃ .
+Przyjmij do obliczeń:
+푐 푙 = 2   050
+J
+kg   ⋅   K   (ciepło właściwe lodu),
+퐿 = 334   000
+J
+kg   (ciepło topni enia lodu),
+푐 푤 = 4   200
+J
+kg   ⋅   K   (ciepło właściwe wody).
+Pomiń parowanie wody oraz wymianę  energii   –   w postaci ciepła i pracy  –   układu
+z   naczyniem i otoczeniem.
+Oblicz iloraz
+풎
+푴
+.   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 16 ---
+Strona  16   z  26
+MFAP - R0_100
+Zadanie 7.
+Jeden mol  jedno atomowego  gazu   doskonał ego   został poddany  rozprężaniu   adiabatycznemu
+od stanu  퐴   do stanu  퐵 .  Na wykresie poniżej  przedstawiono zależność ciśnienia  푝   od
+objętości  푉   w   przemianie  퐴 → 퐵 .
+Zadanie  7 .1.   (0 – 2 )
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.   Energia wewnętrzna gazu podczas przemiany  퐴 → 퐵   maleje.   P   F
+2.   Temperatura gazu w stanie  퐴   jest mniejsza od temperatury w   stanie  퐵 .   P   F
+3.   W przemianie  퐴 → 퐵   gaz  nie wymienia   ciepła z otoczeniem.   P   F
+Zadanie  7 . 2 .   (0 – 3 )
+W przemianie adiabatycznej zachodzi zależność:
+푝 푉 푘 = const
+gdzie  푘   jest stałym wykładnikiem potęgi   (zapis   const   oznacza, że wyrażenie jest stałe ) .
+Oblicz  풌 .   Zapisz obliczenia.
+Wskazówk i :   1)  Jeśli  푎 푐 = 푏       oraz       푎 > 0 ,     푎 ≠ 1 ,       푏 > 0 ,    to   푐 = lo g 푎 푏 .
+2)  Możesz wykorzystać wzór :    log 푎 푏 =
+log 10 푏
+log 10 푎     dla   푎 > 0 ,     푎 ≠ 1 ,       푏 > 0 .
+A
+B
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2200
+2400
+2600
+2800
+3000
+0 2 4 6 8 10 12 14 16 18 20 V , dm 3
+p , hPa
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 17 ---
+Strona  17   z  26
+MFAP - R0_100
+Zadanie  7 . 3 .   (0 – 3)
+Podczas rozprężania adiabatycznego  퐴 → 퐵   siła parcia gazu wykonała pracę o wartości
+bezwzględnej  | 푊 퐴퐵 | =   1   542   J .
+Ciepło molowe tego gazu dla stałej objętości wynosi  퐶 푉 =
+3
+2 푅 , gdzie  푅   jest stałą gazową.
+Oblicz wartość bezwzględną  | 횫 푻 푨푩 |   zmiany temperatury w przemianie  푨 → 푩 .
+Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 18 ---
+Strona  18   z  26
+MFAP - R0_100
+Zadanie  8 .
+Uczniowie   budowali różne obwody elektryczne, w których jako źródło napięcia  wykorzystali
+baterię   ℬ   o sile elektromotorycznej  ℰ = 4 , 5   V   i oporze wewnętrznym  푟 푤 = 0 , 5   Ω .
+Zadanie  8 . 1 .   (0 – 3)
+W pierwszym doświadczeniu d o baterii  ℬ   podłączono żarówkę. Napięcie znamionowe oraz
+moc znamionowa żarówki wynoszą odpowiednio:
+푈 푧 = 4 , 5   V                             oraz                             푃 푧 = 3 , 5   W
+Żarówka podłączona do tej baterii świeci ła .
+Zakładamy, że   w tym doświadczeniu   zmiany napięcia na żar ówce  nie   wpływ ają   na jej opór
+elektryczny.
+Oblicz moc wydzielaną na żarówce podczas jej świecenia.   Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 19 ---
+Strona  19   z  26
+MFAP - R0_100
+Zadanie  8 . 2 .   (0 – 1)
+W  kolejnym   doświadczeniu do tej samej baterii  ℬ   podłączono diodę D1 oraz opornik
+o   oporze  푅   –   w sposób przedstawiony na rysunku 1. Dioda D1 świeciła.
+Następnie do tego obwodu podłączono  –   w sposób przedstawiony na rysunku 2.  –   jeszcze
+jedną diodę D2 i kolejny opornik o oporze  푅 .
+Przyjmij, że opór  diody w kierunku zaporowym jest nieskończenie duży.
+Rysunek 1.   Rysunek 2.
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C  i jej uzasadnienie  1., 2. albo 3.
+Po  podłączeniu diody   D2 , dioda   D1   będzie świeciła
+A.   słabiej,
+ponieważ  opór   zastępczy   układu
+1.   zwiększ y   się .
+B.   tak samo ,   2.   zmniejsz y   się .
+C.   mocniej ,   3.   nie zmieni   się .
+–         +
+ℬ   ( ℰ , 푟 푤 )
+푅
+D1
+–          +
+D1
+푅
+ℬ   ( ℰ , 푟 푤 )
+푅
+D2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 20 ---
+Strona  20   z  26
+MFAP - R0_100
+Zadanie  9 .
+Proton o pędzie początkowym  푝   퐴   i prędkości początkowej o wartości  v 퐴 = 10 4 m s ⁄   wpada
+w punkcie  퐴   w obszar   jednorodnego   pola elektrycznego o natężeniu  퐸 ⃗   . Proton przelatuje
+przez to pole w czasie  ∆ 푡 = 1   μ s   i wypada z niego w punkcie  퐵 .   Proton ma ładunek dodatni.
+Sytuację ilustruje diagra m poniżej. Długość boku kratki na diagramie odpowiada umownej
+jednostce pędu ( ujp ) .   Na diagramie oznaczono linie pola  퐸 ⃗   .
+Przyjmij następujące oznaczenia   i zało ż enia :
+•   p ęd protonu w punkcie  퐴   oznaczymy jako  푝   퐴 , a w punkcie  퐵   –   jako  푝   퐵
+•   zmianę pędu od  퐴   do  퐵   oznaczymy jako  Δ 푝   퐴퐵   przy czym   Δ 푝   퐴퐵 = 푝   퐵 − 푝   퐴
+•   pole elektryczne od    퐴   do  퐵   jest jednorodne.
+Diagram
+Zadanie  9 .1.   (0 – 2 )
+W artości pędu  푝   퐴   i zmiany pędu  Δ 푝   퐴퐵   w umownych jednostkach pędu   na diagramie   wynoszą:
+푝 퐴 = 10   ujp                   oraz             Δ 푝 퐴퐵 = 6   ujp
+Na diagramie  powyżej   wyznacz konstrukcyjnie   i narysuj  풑 ⃗ ⃗   푩   –   wektor pędu protonu
+w   punkcie  푩 .   Zachowaj odpowiedni kierun ek ,  właściwy  zwrot oraz  długość w ektor a
+pędu , odpowiadając ą   jego  wartości.
+Wskazówka:   Uwzględnij geometryczną relację między wektorem siły  a   wektorem zmiany
+pędu, wynikającą z II zasady dynamiki.
+Brudnopis
+푝   퐴
++
+−
+퐸 ⃗
+퐴
+−   −   −   −
++   +   +   +
+퐵
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 21 ---
+Strona  21   z  26
+MFAP - R0_100
+Zadanie  9 . 2 .   (0 – 3)
+W artości   wektorów   pędu  푝   퐴   i zmiany pędu  Δ 푝   퐴퐵   wiąże zależność :
+Δ 푝 퐴퐵 = 0 , 6 ⋅ 푝 퐴
+Oblicz  푬   –   wartość natężenia pola elektrycznego,  w którym porusza się proton .
+Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 22 ---
+Strona  22   z  26
+MFAP - R0_100
+Zadanie  10 .
+Pryzmat  풫   wykonany z pewnego rodzaju szkła jest umieszczony w powietrzu. Przekrojem
+pryzmatu  풫   jest trójkąt   prostokątny   równoramienny  퐴퐵퐶 .
+Kąt graniczny dla szkła pryzmatu  풫   określony względem powietrza jest równy  훼 푔 = 44° .
+Przyjmij,  ż e prędkość światła w  powietrzu jest równa prędkości światła w próżni.
+Zadanie  10 .1.   (0 – 2 )
+Oblicz  풏 풔풛   –   współczynnik załamania światła dla szkła pryzmatu  퓟 .   Zapisz obliczenia.
+Zadanie  10 .2 .   (0 – 2 )
+Promień P1 pada prostopadle na ścianę  퐴퐵   pryzmatu   풫 , a promień P2 pada prostopadle na
+ścianę  퐴퐶   pryzmatu   풫 .
+Na  każdym z rysunków 1. i 2.   dorysuj   dalszy bieg   –   odpowiednio  –   promieni   P1 i P2
+w   pryzmacie   i dalej :  po   wyjściu z pryzmatu .
+Uwaga! Zwróć uwagę na wartość kąta   훼 푔 .
+Rysunek 1.   Rysunek 2.
+퐴
+퐵   퐶
+P1
+퐴
+퐵   퐶
+P2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 23 ---
+Strona  23   z  26
+MFAP - R0_100
+Zadanie  10 .3 .   (0 – 1 )
+Pryzmat  풫   zanurzono w wodzie.
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C  i jej uzasadnienie  1., 2. albo 3.
+Kąt graniczny dla szkła pryzmatu  풫   określony  względem  wody , w porównaniu do kąta
+granicznego dla szkła pryzmatu  풫   określonego  względem powietrza , będzie
+A.   mniejszy ,
+ponieważ prędkość
+światła w   wodzie jest
+1.
+mniejsza od prędkości światła
+w   powietrzu .
+B.   taki sam ,   2.
+większa od prędkości światła
+w   powietrzu.
+C.   większy ,   3.   równa   prędkości światła w powietrzu.
+Brudnopis
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 24 ---
+Strona  24   z  26
+MFAP - R0_100
+Zadanie 1 1 .
+Rozważamy próbkę   pewnego promieniotwórczego izotopu  X   푍 퐴   pierwiastka  X .
+Zadanie  1 1 .1.   (0 – 1 )
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.   Energia  całkowita   jądra  X   푍
+퐴   przed rozpadem jest równa sumie  energii
+całkowitych   wszystkich  produktów rozpadu tego jądra.
+P   F
+2.   Masa jądra  X   푍
+퐴   przed rozpadem jest równa sumie mas produktów
+rozpadu tego jądra.
+P   F
+Zadanie  1 1 .2 .   (0 – 2)
+W wyniku  pięciu   kolejnych rozpadów  α , z których pierwszy jest rozpadem jądra  X   푍 퐴 , powstało
+jądro  izotopu polonu  Po   84 218 .
+Podaj nazwę lub symbol pierwiastka   퐗 . Zapisz obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 25 ---
+Strona  25   z  26
+MFAP - R0_100
+Zadanie  1 1 .3 .   (0 – 3 )
+Masy  protonu, neutronu oraz jądra izotopu polonu  Po 84 218 ,  wyrażone w   jednostkach
+atomowych, mają następujące wartości:
+푚 p = 1 , 007276   u     –   masa protonu
+푚 n = 1 , 008665   u       –   masa  neutronu
+푚 Po = 217 , 962858   u   –   masa  jądra izotopu polonu  Po   84 218 .
+W obliczeniach energii   wykorzystaj   związek:
+1   u ⋅ 푐 2 ≈ 931 , 5   MeV   –   gdzie   푐   to wartość prędkości światła w próżni .
+Oblicz   energię wiązania przypadającą na jeden nukleon dla jądra izotopu polonu  퐏퐨   ퟖퟒ ퟐퟏퟖ .
+Wynik podaj w  퐌퐞퐕 , zaokrąglony do trzech cyfr znaczących.  Zapisz  obliczenia.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 26 ---
+Strona  26   z  26
+MFAP - R0_100
+BRUDNOPIS (nie podlega ocenie)
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 27 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 28 ---
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl

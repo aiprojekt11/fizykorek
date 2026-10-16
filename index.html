@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="pl" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description"
+        content="FizyKorek – Nowoczesna platforma do nauki fizyki. Matura z Fizyki (CKE Rozszerzenie). Zadania z rozwiązaniami krok po kroku i asystentem AI.">
+    <title>FizyKorek – Korepetytor AI z Fizyki (Matura CKE)</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- KaTeX for math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+    <link rel="stylesheet" href="style.css?v=2.2">
+    <link rel="stylesheet" href="redesign.css?v=3.0">
+</head>
+
+<body class="app-body">
+    <a class="skip-link" href="#mainContent">Przejdź do głównej treści</a>
+
+    <!-- Application Top Bar -->
+    <header class="app-header" id="appHeader">
+        <div class="header-left">
+            <button class="logo-btn" id="logoBtn" title="Przejdź do strony głównej">
+                <div class="logo-icon-wrap">
+                    <svg class="logo-svg" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="22" cy="22" r="20" fill="url(#logoBg)" stroke="url(#logoBorder)" stroke-width="1.5" />
+                        <ellipse cx="22" cy="22" rx="15" ry="6" transform="rotate(-30 22 22)" stroke="#38bdf8" stroke-width="1.6" />
+                        <ellipse cx="22" cy="22" rx="15" ry="6" transform="rotate(30 22 22)" stroke="#818cf8" stroke-width="1.6" />
+                        <ellipse cx="22" cy="22" rx="15" ry="6" transform="rotate(90 22 22)" stroke="#c084fc" stroke-width="1.6" />
+                        <circle cx="22" cy="22" r="3.5" fill="#ffffff" />
+                        <defs>
+                            <linearGradient id="logoBg" x1="0" y1="0" x2="44" y2="44">
+                                <stop stop-color="#38bdf8" stop-opacity="0.2" />
+                                <stop offset="1" stop-color="#6366f1" stop-opacity="0.3" />
+                            </linearGradient>
+                            <linearGradient id="logoBorder" x1="0" y1="0" x2="44" y2="44">
+                                <stop stop-color="#38bdf8" />
+                                <stop offset="1" stop-color="#818cf8" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">Fizy<span class="accent-text">Korek</span></span>
+                </div>
+            </button>
+        </div>
+
+        <div class="header-center">
+            <div class="header-course-pills" id="headerCoursePills">
+                <span class="active-course-label" id="activeCourseLabel"><span class="header-status-dot" aria-hidden="true"></span>Kurs maturalny</span>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <button class="nav-btn btn-formula" id="formulaDrawerBtn" title="Otwórz interaktywną kartę wzorów i stałych" aria-controls="formulaDrawer" aria-expanded="false">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    <line x1="8" y1="7" x2="16" y2="7"></line>
+                    <line x1="8" y1="11" x2="13" y2="11"></line>
+                </svg>
+                <span>Wzory CKE</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="app-main-container" id="mainContent">
+
+        <!-- ============================================================ -->
+        <!-- VIEW 1: DASHBOARD NAUKI                                     -->
+        <!-- ============================================================ -->
+        <section class="dashboard-view" id="dashboardView">
+            <div class="dashboard-hero">
+                <div class="hero-copy">
+                    <div class="hero-badge-wrap">
+                        <span class="pill-badge glow-badge" id="courseHeroBadge">Matura • CKE Formuła 2023</span>
+                    </div>
+                    <h1 class="hero-title" id="courseHeroTitle">Matura z Fizyki (Rozszerzenie)</h1>
+                    <p class="hero-desc" id="courseHeroDesc">
+                        Wybierz dział i przećwicz kluczowe zadania z modelowymi rozwiązaniami oraz osobistym tutorem AI.
+                    </p>
+                </div>
+                <div class="hero-course-note" aria-label="Informacje o kursie">
+                    <span class="hero-course-kicker">Twój kurs</span>
+                    <strong>Matura CKE</strong>
+                    <span>Fizyka rozszerzona • formuła 2023</span>
+                </div>
+            </div>
+
+            <!-- Dashboard Content: Modern Step-by-Step Learning Path -->
+            <div class="dashboard-content" id="dashboardContentArea">
+                <!-- Wybór Działu: Karty z postępem (Kinematyka, Dynamika, etc.) -->
+                <div class="course-sections-container" id="courseSectionsContainer">
+                    <div class="course-sections-heading">
+                        <div>
+                            <span class="section-eyebrow">Program kursu</span>
+                            <h2>Wybierz dział fizyki</h2>
+                        </div>
+                        <p>Przejdź do wybranego działu i kontynuuj od ostatniego zadania.</p>
+                    </div>
+                    <div class="course-sections-grid" id="courseSectionsGrid"></div>
+                </div>
+
+                <!-- Active Section Header & Stats -->
+                <div class="section-roadmap-header glass-panel" id="sectionRoadmapHeader">
+                    <div class="srh-left">
+                        <div class="srh-badge-row">
+                            <span class="pill-badge glow-badge" id="currentSectionBadge">Dział 1 • Pełny cykl przygotowawczy</span>
+                            <span class="srh-tasks-total" id="sectionTasksTotalLabel">Postęp: 0 / 50 zadań</span>
+                        </div>
+                        <h2 class="srh-title" id="currentSectionTitle">🚀 Dział 1: Kinematyka</h2>
+                        <p class="srh-desc" id="currentSectionDesc">
+                            Przechodź kolejno przez 5 etapów wprowadzających, odhaczaj opanowane zadania i odblokowuj kolejne podrozdziały, aż do poziomu maturalnego CKE!
+                        </p>
+                    </div>
+                    <div class="srh-right">
+                        <div class="srh-progress-box">
+                            <div class="srh-progress-labels">
+                                <span class="srh-progress-name">Opanowane zadania</span>
+                                <span class="srh-progress-percent" id="sectionProgressPercent">0%</span>
+                            </div>
+                            <div class="srh-progress-bar-bg">
+                                <div class="srh-progress-bar-fill" id="sectionProgressBarFill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Roadmap Stepper -->
+                <div class="stepper-roadmap-container" id="roadmapStepperContainer">
+                    <div class="stepper-header-label">
+                        <span class="stepper-title-text">Tematy w tym dziale</span>
+                        <span class="stepper-sub-text">Wybierz temat, aby zobaczyć zadania</span>
+                    </div>
+                    <div class="stepper-steps-row" id="roadmapStepsRow">
+                        <!-- Populated dynamically via app.js -->
+                    </div>
+                </div>
+
+                <!-- Focused Subchapter Workspace Hub -->
+                <div class="subchapter-focus-card glass-panel" id="subchapterFocusCard">
+                    <!-- Populated dynamically: title, formula cheat, tasks checklist, milestone button -->
+                </div>
+
+                <!-- Upcoming Sections Teaser -->
+                <div class="upcoming-sections-container" id="upcomingSectionsContainer">
+                    <!-- Populated dynamically via app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- VIEW 2: TASK WORKSPACE (ZADANIE + AKORDEON + CHAT TUTOR)    -->
+        <!-- ============================================================ -->
+        <section class="workspace-view hidden" id="workspaceView">
+            <!-- Workspace Sub-Header / Nav -->
+            <div class="workspace-top-bar">
+                <div class="ws-top-left">
+                    <button class="btn btn-sm btn-ghost back-btn" id="backToDashboardBtn" title="Powrót do spisu działów" aria-label="Wróć do działów">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                        <span>Wróć do działów</span>
+                    </button>
+                    <div class="ws-breadcrumb">
+                        <span class="badge-mini" id="workspaceCourseBadge">Matura</span>
+                        <span class="crumb-separator">/</span>
+                        <span class="ws-section-name" id="workspaceSectionTitle">Kinematyka</span>
+                    </div>
+                </div>
+
+                <div class="ws-top-right">
+                    <!-- Quick Jump Select -->
+                    <label class="sr-only" for="taskJumpSelect">Wybierz zadanie</label>
+                    <select id="taskJumpSelect" class="task-jump-select" title="Przeskocz do dowolnego zadania"></select>
+
+                    <div class="task-pagination">
+                        <button class="icon-btn-circle" id="prevTaskBtn" title="Poprzednie zadanie" aria-label="Poprzednie zadanie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <span class="pagination-badge" id="taskCounterBadge">Zadanie 1 z 46</span>
+                        <button class="icon-btn-circle" id="nextTaskBtn" title="Następne zadanie" aria-label="Następne zadanie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <button class="btn btn-sm btn-ghost btn-toggle-ai" id="toggleAiPanelBtn" title="Schowaj lub pokaż asystenta AI" aria-controls="chatWorkspacePanel" aria-expanded="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="15" y1="3" x2="15" y2="21"></line>
+                        </svg>
+                        <span id="toggleAiText">Ukryj AI</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Workspace Layout (Main Materials + Compact AI Sidebar) -->
+            <div class="workspace-layout" id="workspaceLayoutGrid">
+
+                <!-- LEWA KOLUMNA: Treść zadania + Rozwijane rozwiązanie (Główna) -->
+                <div class="task-column" id="taskWorkspacePanel">
+                    
+                    <!-- Karta Zadania -->
+                    <article class="task-main-card glass-panel" id="taskCard">
+                        <header class="task-card-header">
+                            <div class="task-meta-row">
+                                <span class="task-source-badge" id="taskMetaSource">Kinematyka</span>
+                                <span class="task-diff-stars" id="taskDifficultyBadge">⭐</span>
+                                <div class="task-tags" id="taskTagsContainer"></div>
+                                <button class="btn btn-sm btn-check-task" id="taskCheckToggleBtn" title="Oznacz zadanie jako zrobione" aria-pressed="false">
+                                    <span class="check-icon-circle">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span id="taskCheckLabelText">Oznacz jako zrobione</span>
+                                </button>
+                            </div>
+                            <h2 class="task-main-title" id="taskTitle" tabindex="-1">Tytuł zadania</h2>
+                        </header>
+
+                        <!-- Treść polecenia -->
+                        <div class="task-problem-box">
+                            <div class="problem-label">Treść zadania</div>
+                            <div class="problem-content" id="taskProblemText">
+                                Wczytywanie zadania...
+                            </div>
+                        </div>
+
+                        <!-- Przycisk odsłonięcia / ukrycia rozwiązania -->
+                        <div class="solution-toggle-area">
+                            <button class="btn btn-solution-toggle" id="toggleSolutionBtn" aria-controls="solutionContainer" aria-expanded="false">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span>Pokaż rozwiązanie krok po kroku</span>
+                            </button>
+                            <span class="solution-hint-text">Spróbuj najpierw rozwiązać zadanie sam na kartce!</span>
+                        </div>
+
+                        <!-- Kontener rozwiązania krok po kroku (Akordeon) -->
+                        <div class="solution-container hidden" id="solutionContainer">
+                            
+                            <!-- 1. Intuicja -->
+                            <div class="solution-block solution-intuition-block" id="solutionIntuition"></div>
+
+                            <!-- 2. Dane i szukane -->
+                            <div class="solution-block solution-givens-block" id="solutionGivens"></div>
+
+                            <!-- 3. Kroki wyprowadzenia -->
+                            <div class="solution-steps-wrapper">
+                                <div class="steps-heading">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 11 12 14 22 4"></polyline>
+                                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                                    </svg>
+                                    <span>Wyprowadzenie z fundamentalnych praw:</span>
+                                </div>
+                                <div class="solution-steps-list" id="solutionStepsContainer"></div>
+                            </div>
+
+                            <!-- 4. Obliczenia liczbowe -->
+                            <div class="solution-block solution-numerical-block" id="solutionNumerical"></div>
+
+                            <!-- 5. Odpowiedź końcowa -->
+                            <div class="solution-block solution-answer-block" id="solutionAnswer"></div>
+
+                            <!-- 6. Pułapka egzaminacyjna -->
+                            <div class="solution-block solution-trap-block" id="solutionTrap"></div>
+
+                        </div>
+
+                        <!-- Dolny Pasek Nawigacji i Ukończenia Zadania -->
+                        <div class="task-bottom-nav-bar">
+                            <button class="btn btn-outline" id="bottomPrevTaskBtn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                                <span>Poprzednie</span>
+                            </button>
+                            <button class="btn btn-check-big" id="bottomCheckTaskBtn" aria-pressed="false">
+                                <span class="check-icon-circle">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </span>
+                                <span id="bottomCheckLabelText">Oznacz jako zrobione</span>
+                            </button>
+                            <button class="btn btn-primary" id="bottomNextTaskBtn">
+                                <span id="bottomNextBtnText">Następne zadanie</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="ai-panel-backdrop" id="aiPanelBackdrop" aria-hidden="true"></div>
+
+                <!-- PRAWA KOLUMNA: FizyKorek AI Tutor Panel -->
+                <aside class="chat-column" id="chatWorkspacePanel" aria-labelledby="tutorPanelTitle" aria-hidden="false">
+                    <div class="tutor-chat-panel glass-panel">
+                        
+                        <!-- Header czatu -->
+                        <div class="tutor-header">
+                            <div class="tutor-profile">
+                                <div class="tutor-avatar-icon">⚛️</div>
+                                <div class="tutor-info">
+                                    <h3 class="tutor-name" id="tutorPanelTitle">FizyKorek AI</h3>
+                                    <div class="tutor-status">
+                                        <span class="status-dot"></span>
+                                        <span class="status-text" id="chatCurrentTaskLabel">Asystent do bieżącego zadania</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tutor-header-actions">
+                                <button class="btn-clear-chat" id="clearChatBtn" title="Wyczyść historię tej rozmowy" aria-label="Wyczyść rozmowę">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                        <polyline points="3 6 5 6 21 6"></polyline>
+                                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                    </svg>
+                                </button>
+                                <button class="btn-close-ai" id="closeAiPanelBtn" title="Zamknij asystenta" aria-label="Zamknij asystenta AI">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="smart-prompts-bar" aria-label="Szybkie pytania">
+                            <div class="smart-buttons-scroll">
+                                <button class="smart-btn" data-prompt="Nie wiem, od czego zacząć. Naprowadź mnie pierwszym pytaniem, ale nie podawaj rozwiązania.">Jak zacząć?</button>
+                                <button class="smart-btn" data-prompt="Pomóż mi sprawdzić mój tok rozumowania krok po kroku, bez podawania od razu wyniku.">Sprawdź mój pomysł</button>
+                                <button class="smart-btn" data-prompt="Wyjaśnij najważniejszy wzór potrzebny w tym zadaniu prostym językiem.">Wyjaśnij wzór</button>
+                            </div>
+                        </div>
+
+                        <!-- Chat Messages Scroll Area -->
+                        <div class="chat-messages-scroll" id="chatMessagesScrollArea">
+                            <div class="chat-empty-state" id="chatEmptyState">
+                                <div class="empty-atom-icon">⚛️</div>
+                                <h4>Masz pytanie do tego zadania?</h4>
+                                <p>FizyKorek zna treść i kroki rozwiązania.<br>Napisz z czym masz problem lub wpisz własne wątpliwości!</p>
+                            </div>
+                            <div class="chat-bubbles-container" id="chatMessagesArea">
+                                <!-- Messages injected dynamically -->
+                            </div>
+
+                            <!-- Typing indicator -->
+                            <div class="chat-typing-indicator hidden" id="chatTypingIndicator" role="status" aria-live="polite">
+                                <div class="typing-dot"></div>
+                                <div class="typing-dot"></div>
+                                <div class="typing-dot"></div>
+                                <span class="typing-label">FizyKorek analizuje zadanie...</span>
+                            </div>
+                        </div>
+
+                        <!-- Chat Input Form -->
+                        <div class="chat-input-bar">
+                            <div class="chat-input-wrapper">
+                                <label class="sr-only" for="chatInput">Wiadomość do FizyKorka AI</label>
+                                <textarea id="chatInput" placeholder="Zadaj pytanie o to zadanie lub wzór... (Enter wysyła)" rows="1"></textarea>
+                                <button id="chatSendBtn" class="chat-send-btn" title="Wyślij wiadomość" aria-label="Wyślij wiadomość">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="chat-input-footer">
+                                <span><kbd>Enter</kbd> – wyślij • <kbd>Shift+Enter</kbd> – nowa linia</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- MODAL / SLIDE-OVER: INTERAKTYWNA KARTA WZORÓW                -->
+    <!-- ============================================================ -->
+    <div class="formula-drawer-backdrop" id="formulaDrawerBackdrop" aria-hidden="true"></div>
+    <aside class="formula-drawer" id="formulaDrawer" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Interaktywna karta wzorów" tabindex="-1" inert>
+        <header class="formula-drawer-header">
+            <div class="drawer-header-title">
+                <div class="drawer-icon">📐</div>
+                <div>
+                    <h3>Karta Wzorów i Stałych</h3>
+                    <p>Zgodna z oficjalnymi standardami CKE</p>
+                </div>
+            </div>
+            <div class="drawer-header-actions">
+                <a href="wybrane_wzory_stale_fizykochemiczne_EM2023.pdf" target="_blank" class="btn btn-xs btn-outline" id="downloadPdfLink" title="Pobierz oficjalną kartę CKE w formacie PDF">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    <span>Oficjalny PDF</span>
+                </a>
+                <button class="icon-circle-btn" id="closeFormulaDrawerBtn" title="Zamknij kartę wzorów (Esc)" aria-label="Zamknij kartę wzorów">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="formula-search-box">
+            <div class="search-input-wrap">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <label class="sr-only" for="formulaSearchInput">Szukaj wzoru</label>
+                <input type="text" id="formulaSearchInput" placeholder="Szukaj wzoru (np. tarcie, energia, grawitacja)…">
+            </div>
+        </div>
+
+        <!-- Category Tabs -->
+        <div class="formula-cat-tabs-scroll" id="formulaCategoryTabs" role="tablist" aria-label="Kategorie wzorów">
+            <!-- Populated via app.js -->
+        </div>
+
+        <!-- Formulas & Constants Scrollable List -->
+        <div class="formula-drawer-body">
+            <!-- Constants collapsible section -->
+            <details class="constants-accordion">
+                <summary class="constants-summary">
+                    <span>⚡ Kluczowe stałe fizyczne</span>
+                    <span class="summary-arrow">▾</span>
+                </summary>
+                <div class="constants-grid" id="constantsContainer">
+                    <!-- Populated via app.js -->
+                </div>
+            </details>
+
+            <!-- Formula cards list -->
+            <div class="formula-cards-list" id="formulaCardsContainer">
+                <!-- Populated via app.js -->
+            </div>
+        </div>
+    </aside>
+
+    <!-- Toast Notification -->
+    <div id="toastNotification" class="toast-notification hidden" role="status" aria-live="polite"></div>
+
+    <!-- Scripts -->
+    <script src="js/data-courses.js?v=2.2"></script>
+    <script src="js/data-formulas.js?v=2.2"></script>
+    <script src="js/chat-tutor.js?v=3.0"></script>
+    <script src="js/app.js?v=3.0"></script>
+</body>
+
+</html>

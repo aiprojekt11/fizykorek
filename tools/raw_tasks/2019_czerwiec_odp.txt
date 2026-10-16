@@ -1,0 +1,76 @@
+1.1. (0–3)
+Schemat punktowania
+3 p. – prawidłowe obliczenie vx w t = 5 s i t = 12 s ruchu oraz prawidłowe narysowanie
+wykresu zależności vx od t.
+2 p. – prawidłowa metoda obliczenia vx w t = 5 s ruchu albo w t = 12 s ruchu oraz narysowanie
+liniowego wzrostu (do t = 5 s) i zmniejszania się prędkości (od t = 5 s do t = 12 s)
+z uwzględnieniem jednakowych wartości przyspieszenia i opóźnienia.
+1 p. – obliczenie maksymalnej wartości prędkości 10 m/s
+lub
+– narysowanie bez obliczeń liniowego wzrostu (do t = 5 s) i zmniejszania się prędkości (od
+t = 5 s do t = 12 s) z uwzględnieniem jednakowych wartości przyspieszenia i opóźnienia.
+0 p. – brak spełnienia powyższych kryteriów.
+Poprawne rozwiązanie
+Obliczymy zmiany prędkości (z uwzględnieniem znaku): przez pierwsze 5 sekund ruchu a
+następnie przez 7 kolejnych sekund ruchu (do 12 sekundy):
+∆𝑣1 = 𝑎∆𝑡1 → ∆𝑣1 = 2 m
+s2 ∙ 5 s = 10 m
+s
+∆𝑣2 = 𝑎∆𝑡2 → ∆𝑣2 = −2 m
+s2 ∙ 7 s = −14 m
+s
+Obliczymy prędkości w piątej i dwunastej sekundzie ruchu
+𝑣1 = 0 + ∆𝑣1 = 0 + 10 m
+s = 10 m
+s
+𝑣2 = 𝑣1 − |∆𝑣2| = 10 m
+s − 14 m
+s = −4 m
+s
+Sporządzamy kawałkami liniowy wykres.
+12
+10
+8
+6
+4
+2
+0
+-2
+-4
+-6
+-8
+-10
+-12
+vx, m
+s
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 t, s
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 15 --
+
+Strona 3 z 15
+Zadanie 1.2. (0–3)
+Schemat punktowania
+3 p. – prawidłowe wszystkie podkreślenia dotyczące prędkości i prawidłowe wpisy dotyczące
+drogi przebytej w każdym przedziale czasu.
+2 p. – prawidłowe podkreślenia w dotyczące prędkości w dwóch przedziałach czasu oraz
+prawidłowe wpisy dotyczące drogi przebytej w dwóch przedziałach czasu.
+1 p. – prawidłowe podkreślenia dotyczące prędkości we wszystkich przedziałach czasu
+lub
+– prawidłowe wpisy dotyczące drogi przebytej we wszystkich przedziałach czasu
+lub
+– prawidłowe podkreślenie dotyczące prędkości w jednym przedziale czasu oraz poprawne
+określenie drogi przebytej w tym przedziale czasu.
+0 p. – brak spełnienia powyższych kryteriów.
+Poprawne rozwiązanie
+Przedział czasu Wartość prędkości Droga
+s, m
+0 s < t ≤ 5 s rośnie / maleje / pozostaje stała 25 m
+5 s < t ≤ 10 s rośnie / maleje / pozostaje stała 25 m
+10 s < t ≤ 12 s rośnie / maleje / pozostaje stała 4 m
+Zadanie 2.1. (0–3)
+Schemat punktowania
+3 p. – prawidłowa metoda i prawidłowe obliczenie wartości siły F	⃗⃗.
+2 p. – zapisanie warunku równowagi składowej poziomej sumy sił F	⃗⃗ i wzoru na siłę tarcia
+z uwzględnieniem w sile nacisku ciężaru składowej pionowej F	⃗⃗ – np. zapisanie równań
+(może być to pojedyncze równani

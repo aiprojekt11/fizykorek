@@ -1,0 +1,107 @@
+Zadanie 1.
+Ze szczytu równi pochyłej puszczano kulkę. Kulka staczała się z równi bez poślizgu.
+Po stoczeniu się z równi kulka poruszała się dalej wzdłuż prostej po poziomo ułożonym
+dywanie. Ruch kulki po dywanie został sfilmowany. Dzięki temu wyznaczono wartości v
+prędkości kulki na dywanie w kilku ustalonych położeniach 𝑥, licząc od punktu 𝑥 = 0 końca
+równi pochyłej. Następnie obliczono wartości v2. Wyniki doświadczenia oraz niepewności
+Δ𝑣2 wielkości v2 przedstawiono w poniższej tabeli. Pomiar 𝑥 przyjmij za dokładny.
+𝑥, m 0 0,20 0,40 0,60 0,80
+v2, m2/s2 0,098 0,078 0,054 0,037 0,014
+Δ𝑣2 , m2/s2 0,004 0,004 0,003 0,003 0,002
+W zadaniach 1.1.–1.2. przyjmij, że ruch postępowy kulki po dywanie był ruchem jednostajnie
+opóźnionym z przyśpieszeniem o wartości bezwzględnej 𝑎. Prędkość kulki na początku
+ruchu po dywanie, czyli w 𝑥 = 0, oznaczymy jako v0. Zależność między kwadratem wartości
+prędkości kulki a przebytą drogą 𝑠 = 𝑥 i wartością przyśpieszenia 𝑎 wyraża się wzorem:
+v2 = v0
+2 − 2𝑎𝑠
+Zadanie 1.1. (0–2)
+Wyprowadź wzór v𝟐 = v𝟎
+𝟐 − 𝟐𝒂𝒔 podany we wstępie do zadania 1. Zapisz odpowiednie
+równania oraz przekształcenia prowadzące do uzyskania powyższej postaci tego wzoru.
+
+-- 4 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 5 z 25
+MFAP-R0_100
+Zadanie 1.2. (0–4)
+W układzie współrzędnych (𝒔, v𝟐) poniżej narysuj wykres zależności v𝟐(𝒔) – kwadratu
+prędkości kulki na dywanie od drogi. Zaznacz punkty pomiarowe oraz niepewności
+𝚫𝒗𝟐 oraz narysuj prostą najlepiej dopasowaną do punktów pomiarowych.
+Na podstawie wykresu wyznacz wartość przyśpieszenia 𝒂 kulki na dywanie oraz drogę
+𝒔𝒛, jaką przebyła kulka na dywanie aż do zatrzymania się.
+Uwaga! Rozwiązania prowadzące do wyznaczenia 𝑎 oraz 𝑠𝑧, które nie wykorzystują wykresu
+(tylko same dane z tabeli), nie będą zgodne z poleceniem.
+0
+0,01
+0,02
+0,03
+0,04
+0,05
+0,06
+0,07
+0,08
+0,09
+0,1
+0,11
+0 0,1 0,2 0,3 0,4 0,5 0,6 0,7 0,8 0,9 s, m
+v2, m2/s2
+
+-- 5 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 6 z 25 MFAP-R0_100
+
+-- 6 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 7 z 25
+MFAP-R0_100
+Zadanie 2.
+Dwie identyczne kule K1 i K2, każda o masie 𝑚, poruszają się naprzeciwko siebie
+w inercjalnym układzie odniesienia 𝒰 z prędkościami v⃗1 (kula K1) oraz v⃗2 (kula K2). Środki
+kul poruszają się wzdłuż prostej 𝑙. Wartości prędkości tych kul przed zderzeniem spełniają
+równanie:
+v1 = 2v2
+Sytuację przed zderzeniem kul ilustruje rysunek poniżej.
+Zadanie 2.1. (0–1)
+Załóżmy, że zderzenie kul K1 i K2 było doskonale sprężyste. Pomijamy siły tarcia.
+Na którym rysunku (A–D) prawidłowo narysowano i oznaczono wektory prędkości kul
+bezpośrednio po zderzeniu w układzie odniesienia 𝓤? Zaznacz właściwą odpowiedź
+spośród podanych.
+Wskazówka! Długości wektorów odpowiadają wartościom prędkości kul. W zadaniu nie trzeba
+wykonywać obliczeń – wystarczy sprawdzić, czy spełnione są zasady zachowania odpowiednich
+wielkości fizycznych.
+A.
+B.
+C.
+D.
+Brudnopis
+K1
+v⃗1 v⃗2 𝑙
+K2
+K1 K2
+−v⃗1 −v⃗ 2
+K1 K2
+− 1
+2 v⃗1 −2v⃗2
+K1 K2
+1
+2 v⃗ 1 −v⃗ 2
+K1 K2
+0⃗ −v⃗2
+
+-- 7 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 8 z 25 MFAP-R0_100
+Zadanie 2.2. (0–4)
+Załóżmy, że w wyniku innej realizacji tego zderzenia obie kule połączyły się trwale.
+Oblicz, jaką część początkowej (przed zderzeniem) łącznej energii kinetycznej ruchu
+postępowego utracił układ kul w wyniku takiego zderzenia.
+
+-- 8 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 9 z 25
+MFAP-

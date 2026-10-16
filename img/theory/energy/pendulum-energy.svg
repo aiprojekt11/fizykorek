@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Przemiany energii w wahadle</title>
+  <desc id="desc">W skrajnym położeniu wahadło ma dużą energię potencjalną i zerową prędkość. W najniższym punkcie prędkość i energia kinetyczna są największe.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/><circle cx="380" cy="66" r="9" fill="#0f172a"/>
+     <path d="M213 194 A205 205 0 0 0 547 194" fill="none" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="8 7"/>
+     <line x1="380" y1="66" x2="232" y2="194" class="line thin"/><circle class="ball" cx="232" cy="194" r="24"/><text class="t small green" x="92" y="171">Eₚ max</text><text class="t small muted" x="92" y="196">v = 0</text>
+     <line x1="380" y1="66" x2="380" y2="266" class="line"/><circle class="ball" cx="380" cy="266" r="24"/><line x1="412" y1="266" x2="491" y2="266" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="449" y="249">v max</text>
+     <line x1="380" y1="66" x2="528" y2="194" class="line thin"/><circle cx="528" cy="194" r="24" fill="#e2e8f0" stroke="#94a3b8" stroke-width="3" opacity=".55"/>
+     <text class="t small blue" x="543" y="252">Eₖ max</text><text class="t small muted" x="543" y="277">Eₚ min</text><text class="t label" x="380" y="42" text-anchor="middle">Eₚ ⇄ Eₖ</text>
+</svg>

@@ -1,0 +1,71 @@
+1.1. (0–1)
+Wymagania egzaminacyjne 2023 i 20241
+Wymaganie ogólne Wymagania szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+I.7) wyodrębnia z tekstów, […] wykresów,
+rysunków schematycznych […] informacje
+kluczowe dla opisywanego zjawiska bądź
+problemu; […].
+II.4) opisuje ruchy prostoliniowe jednostajne
+i jednostajnie zmienne, posługując się
+zależnościami położenia, wartości prędkości
+i przyspieszenia oraz drogi od czasu;
+II.7) opisuje ruchy złożone jako sumę ruchów
+prostych; analizuje rzut poziomy jako przykład
+ruchu dwuwymiarowego.
+Zasady oceniania
+1 pkt – odpowiedź poprawna.
+0 pkt – odpowiedź niepoprawna albo brak odpowiedzi.
+Rozwiązanie
+B
+Zadanie 1.2. (0–3)
+Wymaganie ogólne Wymagania szczegółowe
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+II.4) opisuje ruchy prostoliniowe jednostajne
+i jednostajnie zmienne, posługując się
+zależnościami położenia, wartości prędkości
+i przyspieszenia oraz drogi od czasu;
+II.7) opisuje ruchy złożone jako sumę ruchów
+prostych; analizuje rzut poziomy jako przykład
+ruchu dwuwymiarowego.
+1 Komunikat o wymaganiach egzaminacyjnych obowiązujących w roku 2023 i 2024,
+https://www.gov.pl/web/edukacja-i-nauka/wymagania-egzaminacyjne-obowiazujace-na-egzaminie-maturalnym-w-
+roku-2023-i-2024
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 39 --
+
+Zasady oceniania rozwiązań zadań
+Strona 3 z 39
+Zasady oceniania
+(dla rozwiązania sposobem 1.)
+3 pkt – poprawna metoda obliczenia prędkości początkowej, tzn. poprawne wyprowadzenie
+równania toru ruchu: 𝑦(𝑥) = ℎ − 𝑔
+2𝑣0
+2 ⋅ 𝑥2, przyrównanie współczynników równań toru
+ruchu: 𝑔
+2𝑣0
+2 = 1
+18 oraz zapisanie prawidłowego wyniku wraz jednostką: 𝑣0 ≈ 9,4 m
+s (np.
+jak w krokach 1.–3.).
+2 pkt – poprawna metoda wyprowadzenia równania toru ruchu na symbolach wielkości
+fizycznych, z wykorzystaniem prawidłowych równań rzutu poziomego oraz
+otrzymanie równania 𝑦(𝑥) = ℎ − 𝑔
+2𝑣0
+2 ⋅ 𝑥2 (np. jak w krokach 1.–2.).
+1 pkt – zapisanie poprawnych równań rzutu poziomego (jako ruchu złożonego w kierunku
+poziomym i pionowym): 𝑥(𝑡) = 𝑣0𝑡 oraz 𝑦(𝑡) = ℎ − 1
+2 𝑔𝑡2 (np. jak w kroku 1.).
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Zasady oceniania
+(dla rozwiązania sposobem 2. lub 3.)
+3 pkt – poprawna metoda obliczenia prędkości początkowej oraz podanie prawidłowego
+wyniku liczbowego z jednostką.
+2 pkt – wyznaczenie na podstawie równania 

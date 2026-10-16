@@ -1,0 +1,86 @@
+1.1. (0–2)
+Schemat punktowania
+2 p. – prawidłowa 	metoda 	wyznaczenia 	przyspieszenia 	i 	prawidłowy 	wynik 	liczbowy
+z jednostką.
+1 p. – wykorzystanie 	równań 	ruchu 	jednostajnie 	przyspieszonego 	prostoliniowego,
+prowadzące do wyznaczenia 𝑎𝑎 na podstawie danych.
+0 p. – brak spełnienia powyższych kryteriów.
+Przykładowe rozwiązanie
+Sposób 1.
+Zapiszemy wyrażenie na drogę przebytą w czasie od chwili t7 = 7 s 	do chwili t10 = 10 s,
+z wykorzystaniem równań ruchu jednostajnie przyspieszonego prostoliniowego bez prędkości
+początkowej w chwili zero:
+∆𝑠𝑠 = 𝑠𝑠10 − 𝑠𝑠7 	→ 	∆𝑠𝑠 = 1
+2 𝑎𝑎𝑡𝑡10
+2 − 1
+2 𝑎𝑎𝑡𝑡7
+2 	→ 	𝑎𝑎 = 2∆𝑠𝑠
+𝑡𝑡10
+2 − 𝑡𝑡7
+2
+Obliczamy wartość przyspieszenia:
+𝑎𝑎 = 2 ∙ 45 m
+102 s 2 − 72 s 2 ≈ 1,76 m
+s 2 ≈ 1,8 m
+s 2
+Sposób 2.
+Wykorzystamy równania ruchu, aby wyrazić wzór na drogę ∆𝑠𝑠 w czasie ∆𝑡𝑡 = 𝑡𝑡10 − 𝑡𝑡7:
+∆𝑠𝑠 = 𝑣𝑣7 ∆𝑡𝑡 + 1
+2 𝑎𝑎(∆𝑡𝑡)2 	𝑣𝑣10 = 𝑣𝑣7 + 𝑎𝑎∆𝑡𝑡 	→ 	∆𝑠𝑠 = 𝑣𝑣7 + 𝑣𝑣10
+2 ∆𝑡𝑡 = 𝑎𝑎𝑡𝑡10 + 𝑎𝑎𝑡𝑡7
+2 ∆𝑡𝑡
+Obliczamy wartość przyspieszenia:
+∆𝑠𝑠 = 𝑎𝑎𝑡𝑡10 + 𝑎𝑎𝑡𝑡7
+2 ∆𝑡𝑡 	𝑎𝑎 = 2∆𝑠𝑠
+(𝑡𝑡10 + 𝑡𝑡7)∆𝑡𝑡 = 2 ∙ 45 m
+(10 + 7) ∙ 3 s 2 ≈ 1,76 m
+s 2 ≈ 1,8 m
+s 2
+Sposób 3.
+Wykorzystamy związek wynikający ze wzoru na drogę w ruchu jednostajnie przyspieszonym
+bez prędkości początkowej:
+𝑠𝑠𝑖𝑖
+𝑠𝑠𝑘𝑘
+= 𝑡𝑡𝑖𝑖
+2
+𝑡𝑡𝑘𝑘
+2
+𝑘𝑘=1, 𝑖𝑖=7 𝑙𝑙𝑙𝑙𝑙𝑙 𝑖𝑖=10
+�⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯� 	𝑠𝑠7 = 49𝑠𝑠1 𝑠𝑠10 = 100𝑠𝑠1 	→ 	∆𝑠𝑠 = 51𝑠𝑠1 = 51𝑎𝑎𝑡𝑡1
+2
+2
+𝑎𝑎 = 2∆𝑠𝑠
+51𝑡𝑡1
+2 = 2 ∙ 45 m
+51 ∙ 1 s 2 ≈ 1,76 m
+s 2
+Zadanie 1.2. (0–2)
+Schemat punktowania
+2 p. – prawidłowa odpowiedź wynikająca z prawidłowej metody i obliczeń.
+1 p. – powiązanie 	drogi, 	prędkości 	końcowej 	i 	przyspieszenia 	w 	ruchu 	jednostajnie
+przyspieszonym prostoliniowym bez prędkości początkowej (co oznacza zapisanie
+równania 𝑣𝑣 2 = 2𝑎𝑎𝑠𝑠 lub dwóch równań: 𝑠𝑠 = 1/2𝑎𝑎𝑡𝑡 2 i 𝑣𝑣 = 𝑎𝑎𝑡𝑡 – łącznie z poprawną
+identyfikacją wielkości).
+0 p. – brak spełnienia powyższych kryteriów.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 15 --
+
+Zasady oceniania rozwiązań zadań
+Strona 3 z 15
+Przykładowe rozwiązanie
+Powiążemy ze sobą drogę, prędkość końcową i przyspieszenie w ruchu jednostajnie
+przyspieszonym prostoliniowym bez prędkości początkowej
+𝑠𝑠 = 1
+2 𝑎𝑎𝑡𝑡 2 	𝑣𝑣 = 𝑎𝑎𝑡𝑡 	→ 	𝑠𝑠 = 𝑣𝑣 2
+2𝑎𝑎
+Sposób 1.
+Obliczymy drogę, jaką musiałby przebyć samolot do osiągnięcia koniecznej prędkości:
+𝑠𝑠 =
+802 m2
+s2
+2 ∙ 1,4 m
+s2
+≈ 2 286 m 	𝑠𝑠 > 1 900 m
+Sposób 2.
+Obliczymy prędkość, jaką uzyskałby samolot na k

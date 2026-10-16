@@ -1,0 +1,702 @@
+[
+  {
+    "id": "matura-cke-2025-zad-1",
+    "number": 2025,
+    "title": "Zadanie maturalne CKE (2025 maj)",
+    "year": "2025 maj",
+    "difficulty": 3,
+    "source": "Matura CKE 2025 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2025-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Rzut poziomy",
+      "Komora próżniowa",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2025_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Rozważamy rzuty wykonane w doświadczalnej komorze próżniowej.</p>\n<p>Do analizy zadań 1.1. i 1.2. przyjmij model zjawiska, w którym:</p>\n<ul>\n<li>ruchy ciał odbywają się bez działania sił oporu</li>\n<li>ciała poruszają się w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym</li>\n<li>poruszające się ciała traktujemy jako punkty materialne</li>\n<li>podłoże, na które upadają rzucone ciała, jest poziome</li>\n<li>przyśpieszenie ziemskie ma wartość $g = 9{,}81\\text{ m/s}^2$.</li>\n</ul>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p>W chwili $t_0$ rzucono kulkę K z pewnej wysokości. Prędkość $\\vec{v}_0$ kulki w chwili $t_0$ miała kierunek poziomy.</p>\n<p>Analizujemy ruch kulki K od chwili $t_0$ do chwili $t_k$ – momentu uderzenia kulki K o podłoże.</p>\n<p><strong>1.1. Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>\n<ol>\n<li>Wartość prędkości kulki K rośnie wprost proporcjonalnie do czasu, mierzonego od chwili $t_0$.</li>\n<li>Wektor przyśpieszenia kulki K podczas jej ruchu ma stałą wartość.</li>\n<li>Czas ruchu kulki K od chwili $t_0$ do chwili $t_k$ zależy od $v_0$ – wartości prędkości początkowej kulki.</li>\n</ol>\n\n<h4>Zadanie 1.2. (0–3)</h4>\n<p>Z punktu A w chwili $t_0 = 0\\text{ s}$ rzucono kulkę $\\text{K}_\\text{A}$. Prędkość kulki $\\text{K}_\\text{A}$ w chwili $t_0$ miała kierunek poziomy i wartość równą $v_{0\\text{A}} = 8\\text{ m/s}$.</p>\n<p>Z punktu B – w tej samej chwili $t_0$ – rzucono kulkę $\\text{K}_\\text{B}$. Prędkość kulki $\\text{K}_\\text{B}$ w chwili $t_0$ miała kierunek pionowy, zwrot w górę i wartość, którą oznaczymy jako $v_{0\\text{B}}$.</p>\n<p>Rzucone kulki $\\text{K}_\\text{A}$ i $\\text{K}_\\text{B}$ zderzyły się w chwili $t_z$ w punkcie C.</p>\n<p>Współrzędne punktów A, B i C wyrażone w metrach, w kartezjańskim układzie współrzędnych, są następujące:</p>\n<p style=\"text-align:center;\">$\\text{A} = (0; 12) \\qquad \\text{B} = (6; 0) \\qquad \\text{C} = (6; y_\\text{C})$</p>\n<p>Opisaną sytuację ilustruje rysunek na stronie 5. Przyjmij, że dane w zadaniu są dokładne.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2025_zad1.png]\n</div>\n\n<p><strong>1.2. Oblicz $v_{0\\text{B}}$ – wartość prędkości początkowej kulki $\\text{K}_\\text{B}$ w punkcie B. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Ruch odbywa się niezależnie w osiach X i Y, tak jak uczył Galileusz.",
+      "givens": "$v_{0A} = 8\\text{ m/s}$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "1. F, 2. P, 3. F"
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "$v_{0B} = 16\\text{ m/s}$"
+        }
+      ],
+      "numerical": "$v_{0B} = 16\\text{ m/s}$",
+      "answer": "1. F, 2. P, 3. F; $v_{0B} = 16\\text{ m/s}$",
+      "trap": "Trzeba zrównać współrzędne x i y obu kulek w momencie spotkania."
+    }
+  },
+  {
+    "id": "matura-cke-2023-zad-1",
+    "number": 2023,
+    "title": "Zadanie maturalne CKE (2023 maj)",
+    "year": "2023 maj",
+    "difficulty": 2,
+    "source": "Matura CKE 2023 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2023-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Ruch względny",
+      "Optymalizacja",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2023_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Dwa samochody – $S_1$ oraz $S_2$ – poruszają się po równoległych pasach ruchu poziomego i prostoliniowego odcinka autostrady.</p>\n<p>W chwili $t=0$ oba samochody mijają bramkę opłat. Przyjmij, że w chwili $t=0$ oba samochody znajdowały się w punkcie $x=0$.</p>\n<p>W tabeli poniżej zestawiono informacje o ruchu obu samochodów.</p>\n\n<table class=\"data-table\">\n<tr><th>Samochód $S_1$</th><th>Samochód $S_2$</th></tr>\n<tr>\n<td>Przez cały czas ruchu od $t=0$ samochód poruszał się ze stałą prędkością $v_1 = 25\\text{ m/s}$.</td>\n<td>W chwili $t=0$ samochód miał prędkość $v_{02} = 15\\text{ m/s}$, a następnie poruszał się ruchem jednostajnie przyśpieszonym z przyśpieszeniem $a = 0{,}5\\text{ m/s}^2$ przez $20\\text{ s}$.</td>\n</tr>\n</table>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>Zbadaj, czy samochód $S_2$ wyprzedził samochód $S_1$ na rozpatrywanym odcinku autostrady – tzn. w jakimkolwiek przedziale czasu $(0, 20\\text{ s})$.</strong></p>\n<p><strong>Oblicz największą odległość, jaka w przedziale czasu $(0, 20\\text{ s})$ dzieliła te samochody.</strong></p>\n\n<h4>Zadanie 1.2. (0–2)</h4>\n<p><strong>Oblicz prędkość średnią samochodu $S_2$ na początkowym odcinku trasy o długości $100\\text{ m}$. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Maksymalna odległość jest wtedy, gdy prędkości samochodów zrównają się w czasie.",
+      "givens": "$v_1 = 25\\text{ m/s}, v_{02} = 15\\text{ m/s}, a = 0{,}5\\text{ m/s}^2$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Zrównanie prędkości: $v_1 = v_{02} + at \\implies 25 = 15 + 0{,}5t \\implies t = 20\\text{ s}$. Maksymalna odległość wynosi wtedy $d = s_1 - s_2 = 100\\text{ m}$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Czas dla 100 m z równania kwadratowego drogi i podzielenie drogi przez ten czas."
+        }
+      ],
+      "numerical": "1.1: d_max = 100 m | 1.2: v_sr dla S2",
+      "answer": "1.1: Nie wyprzedził w przedziale do 20 s.",
+      "trap": "Rozróżnij \"czy wyprzedził\" od \"największa odległość\"."
+    }
+  },
+  {
+    "id": "matura-cke-2022-zad-1",
+    "number": 2022,
+    "title": "Zadanie maturalne CKE (2022 maj)",
+    "year": "2022 maj",
+    "difficulty": 2,
+    "source": "Matura CKE 2022 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2022-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Wykres v(t)",
+      "Prędkość względna",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2022_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1. (0–4)</h4>\n<p>Dwa małe klocki A i B poruszały się wzdłuż osi $x$. W chwili $t = 0$ klocki mijały początek układu współrzędnych (punkt $x = 0$). Wykres 1. na stronie 3. przedstawia zależność współrzędnej prędkości $v_x$ klocka A od czasu $t$. Wykres 2. przedstawia zależność współrzędnej położenia $x$ klocka B od czasu $t$.</p>\n<p>(Opisana sytuacja odnosi się do przedziału czasu $[0, 5\\text{ s}]$.)</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2022_zad1.png]\n</div>\n\n<h4>Zadanie 1.1. (0–1)</h4>\n<p><strong>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>\n<ol>\n<li>Klocki A i B mają zawsze jednakowy zwrot prędkości w przedziale czasu $[0, 5\\text{ s}]$.</li>\n<li>Klocki A i B minęły się w chwili $t = 2\\text{ s}$.</li>\n<li>Szybkość średnia klocka A w przedziale czasu $[0, 5\\text{ s}]$ jest równa $2\\text{ m/s}$.</li>\n</ol>\n\n<h4>Zadanie 1.2. (0–3)</h4>\n<p><strong>Oblicz i zapisz współrzędne położenia klocków A i B w chwili $t = 5\\text{ s}$. Oblicz odległość między tymi klockami w chwili $t = 5\\text{ s}$. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Z wykresu położenia można wyznaczyć prędkość jako nachylenie, z wykresu prędkości można wyznaczyć położenie jako pole powierzchni pod krzywą.",
+      "givens": "Odczyty z wykresów A i B.",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Analiza wykresów."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Położenie A jako pole pod wykresem $v_A(t)$, położenie B bezpośrednio z wykresu $x(t)$."
+        }
+      ],
+      "numerical": "1.1: Odpowiedzi P/F | 1.2: Ostateczna odległość z odejmowania.",
+      "answer": "1.1: Sprawdź nachylenia i pola.",
+      "trap": "Zwróć uwagę na ujemne współrzędne prędkości."
+    }
+  },
+  {
+    "id": "matura-cke-2021-zad-1",
+    "number": 2021,
+    "title": "Zadanie maturalne CKE (2021 maj)",
+    "year": "2021 maj",
+    "difficulty": 3,
+    "source": "Matura CKE 2021 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2021-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Rzut poziomy",
+      "Wektory",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2021_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Wykres obok przedstawia – w pewnych umownych, bezwymiarowych jednostkach (j.) – położenie punktu materialnego względem układu współrzędnych $(x, y)$ dla kolejnych chwil $t_0, t_1, \\dots, t_5$ oznaczonych punktami $P_0, P_1, \\dots, P_5$.</p>\n<p>Czas liczony w sekundach mierzono od chwili $t_0 = 0$. Przyjmij do zadania, że $t_k = k\\text{ s}$, gdzie $k \\in \\{0, 1, 2, 3, 4, 5\\}$. Punkt $P_k$ to położenie ciała w chwili $t_k$. Wektor prędkości średniej dla przedziału czasu od $t_0$ do $t_3$ oznaczamy symbolem $\\vec{v}_{03}$.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2021_zad1.png]\n</div>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>W tabeli poniżej podano wybrane wektory, wyznaczone dla przedstawionego ruchu punktu materialnego. Uzupełnij tę tabelę. Wpisz w puste komórki właściwe współrzędne wektorów w układzie (x, y).</strong></p>\n\n<table class=\"data-table\">\n<tr><th>Wektor</th><th>Współrzędne wektora</th></tr>\n<tr><td>przemieszczenia punktu materialnego między chwilami $t_1$ i $t_4$</td><td></td></tr>\n<tr><td>$\\vec{v}_{03}$ – prędkości średniej dla przedziału czasu od $t_0$ do $t_3$</td><td></td></tr>\n</table>\n\n<h4>Zadanie 1.2. (0–1)</h4>\n<p><strong>Dokończ zdanie. Zaznacz właściwą odpowiedź spośród podanych.</strong></p>\n<p>Wartość wektora prędkości średniej $\\vec{v}_{03}$ punktu materialnego dla przedziału czasu od $t_0$ do $t_3$ wynosi:</p>\n<p>A. $\\sqrt{5}\\text{ j/s}$<br>\nB. $\\sqrt{2}\\text{ j/s}$<br>\nC. $2\\text{ j/s}$<br>\nD. $1\\text{ j/s}$</p>\n</div>",
+    "solution": {
+      "intuition": "Wektor przemieszczenia to po prostu odjęcie współrzędnych punktu końcowego i początkowego: $[x_k - x_p, y_k - y_p]$.",
+      "givens": "Odczyty współrzędnych z obrazka np. $P_0(x_0, y_0)$...",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Odczytaj z wykresu."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Długość wektora prędkości średniej to $|\\Delta \\vec{r}| / \\Delta t$."
+        }
+      ],
+      "numerical": "1.1: $[\\Delta x, \\Delta y]$ | 1.2: Wybór A/B/C/D",
+      "answer": "Sprawdź odczyty współrzędnych.",
+      "trap": "Zwróć uwagę na zwroty wektorów i odejmowanie początkowych od końcowych."
+    }
+  },
+  {
+    "id": "matura-cke-2019-zad-1",
+    "number": 2019,
+    "title": "Zadanie maturalne CKE (2019 maj)",
+    "year": "2019 maj",
+    "difficulty": 2,
+    "source": "Matura CKE 2019 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2019-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Rzut poziomy",
+      "Prędkość początkowa",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2019_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Podczas wykonywania rzutu z autu zawodnik nadaje piłce prędkość $\\vec{v}_0$ w kierunku poziomym. Środek masy piłki w chwili opuszczenia rąk zawodnika (chwili początkowej $t=0$) znajduje się na wysokości $h = 2{,}00\\text{ m}$ nad poziomą murawą boiska. Pomiń opór powietrza i przyjmij wartość przyspieszenia ziemskiego $g = 9{,}81\\text{ m/s}^2$.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2019_zad1.png]\n</div>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>Oblicz czas lotu piłki od momentu wyrzutu do chwili uderzenia piłki o boisko.</strong></p>\n\n<h4>Zadanie 1.2. (0–2)</h4>\n<p>Piłka upadła na boisko w odległości poziomej $d = 8{,}00\\text{ m}$ od miejsca wyrzutu. <strong>Oblicz wartość prędkości początkowej piłki.</strong></p>\n\n<h4>Zadanie 1.3. (0–2)</h4>\n<p>Na wykresach (A–D) przedstawiono zależność energii kinetycznej $E_k$ piłki od czasu $t$ od chwili $t=0$ do chwili uderzenia w boisko.</p>\n<p><strong>Zaznacz właściwy wykres spośród podanych A–D. Zapisz uzasadnienie.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Czas lotu zależy tylko od wysokości początkowej, a zasięg od prędkości poziomej.",
+      "givens": "$h = 2{,}00\\text{ m}$, $d = 8{,}00\\text{ m}$, $g = 9{,}81\\text{ m/s}^2$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "$t = \\sqrt{\\frac{2h}{g}}$"
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "$v_0 = \\frac{d}{t}$"
+        }
+      ],
+      "numerical": "1.1: $t \\approx 0{,}638\\text{ s}$ | 1.2: $v_0 \\approx 12{,}5\\text{ m/s}$",
+      "answer": "1.1: $0{,}638\\text{ s}$. 1.2: $12{,}5\\text{ m/s}$.",
+      "trap": "Zwróć uwagę na wzór energii kinetycznej."
+    }
+  },
+  {
+    "id": "matura-cke-2018-zad-1",
+    "number": 2018,
+    "title": "Zadanie maturalne CKE (2018 maj)",
+    "year": "2018 maj",
+    "difficulty": 3,
+    "source": "Matura CKE 2018 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2018-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Wykres v(t)",
+      "Droga z pola",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2018_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Rozważamy ruch dwóch samochodów, które jechały po poziomym i prostoliniowym odcinku autostrady. Każdy z samochodów w czasie $\\Delta t = 20\\text{ s}$ przebył odległość pomiędzy bramkami A i B równą $s = 500\\text{ m}$.</p>\n<p>Wiadomo, że:</p>\n<ul>\n<li>samochód 1. przez pierwszą część tego czasu $\\Delta t$ jechał ruchem jednostajnie przyśpieszonym, a potem przez pozostały czas – ze stałą prędkością,</li>\n<li>samochód 2. w tym samym czasie $\\Delta t$ na tym samym odcinku jechał ruchem jednostajnie przyśpieszonym z przyśpieszeniem o wartości trzykrotnie mniejszej, a potem przez pozostały czas – ze stałą prędkością.</li>\n</ul>\n<p>W chwili wjazdu przez bramkę A (w chwili $t = 0$) prędkość obu samochodów wynosiła zero ($v_{1}(0) = 0, v_{2}(0) = 0$).</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2018_zad1.png]\n</div>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>Narysuj w jednym układzie współrzędnych wykresy zależności wartości prędkości obu samochodów od czasu w przedziale $[0, 20\\text{ s}]$.</strong></p>\n\n<h4>Zadanie 1.2. (0–3)</h4>\n<p><strong>Oblicz maksymalną prędkość osiągniętą przez samochód 1. (tzn. prędkość, z jaką poruszał się po ustaniu przyśpieszenia).</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Pola pod obiema krzywymi prędkości (trapezy) muszą być równe $s = 500\\text{ m}$.",
+      "givens": "$s = 500\\text{ m}$, $t = 20\\text{ s}$, $a_2 = \\frac{1}{3}a_1$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Dwa trapezy o różnych nachyleniach zboczy i tej samej całkowitej drodze."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Rozwiązanie układu równań dróg w zależności od maksymalnych prędkości i czasów przyspieszania."
+        }
+      ],
+      "numerical": "1.2: Wyliczenie z układu równań z polami trapezów",
+      "answer": "Obliczenie analityczne zależnie od czasów.",
+      "trap": "Zwróć uwagę, że czasy przyspieszania dla obu aut mogą być różne."
+    }
+  },
+  {
+    "id": "matura-cke-2016-zad-1",
+    "number": 2016,
+    "title": "Zadanie maturalne CKE (2016 maj)",
+    "year": "2016 maj",
+    "difficulty": 2,
+    "source": "Matura CKE 2016 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2016-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Tabela pomiarów",
+      "Wykres x(t)",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2016_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Wózek o masie $m = 0{,}50\\text{ kg}$ uderzył w spoczywającą barierę sprężystą na torze powietrznym. Wykonano serię zdjęć fotograficznych i na ich podstawie odczytano położenie wózka w odstępach czasu równych $\\Delta t = 0{,}10\\text{ s}$. Wyniki pomiarów zestawiono w tabeli poniżej. Błąd systematyczny pomiaru czasu był tak mały, że pominięto go. Błąd systematyczny pomiaru położenia wynosił $\\Delta x = \\pm 0{,}02\\text{ m}$.</p>\n\n<table class=\"data-table\">\n<tr><th>$t$ [s]</th><td>0,0</td><td>0,1</td><td>0,2</td><td>0,3</td><td>0,4</td><td>0,5</td><td>0,6</td><td>0,7</td><td>0,8</td></tr>\n<tr><th>$x$ [m]</th><td>0,15</td><td>0,40</td><td>0,70</td><td>0,95</td><td>1,25</td><td>1,20</td><td>1,00</td><td>0,80</td><td>0,60</td></tr>\n</table>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2016_zad1.png]\n</div>\n\n<h4>Zadanie 1.1. (0–4)</h4>\n<p><strong>Wykonaj w układzie współrzędnych wykres zależności współrzędnej położenia wózka od czasu $x(t)$. Nanieś niepewności pomiarowe na obydwie osie.</strong></p>\n\n<h4>Zadanie 1.2. (0–2)</h4>\n<p><strong>Wyznacz wartość prędkości wózka z dokładnością do dwóch cyfr znaczących przed zderzeniem i po zderzeniu z barierą. Zapisz odpowiednie obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Z wykresu położenia można wyznaczyć prędkość wózka jako nachylenie przedziałów.",
+      "givens": "Pomiary z tabeli",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Narysowanie punktów wraz z prostokątami błędów."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Współczynnik nachylenia dla przedziału 0-0.4s oraz 0.5-0.8s."
+        }
+      ],
+      "numerical": "1.2: Przed: 2.5-3.0 m/s, po: -2.0 m/s",
+      "answer": "Wykres prostoliniowy przed odbiciem, potem załamuje się i opada.",
+      "trap": "Zwróć uwagę na błędy pomiarowe podczas wyznaczania linii najlepszego dopasowania."
+    }
+  },
+  {
+    "id": "matura-cke-2015-zad-1",
+    "number": 2015,
+    "title": "Zadanie maturalne CKE (2015 maj)",
+    "year": "2015 maj",
+    "difficulty": 2,
+    "source": "Matura CKE 2015 (Maj)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2015-maj-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Spadek swobodny",
+      "Pole grawitacyjne",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2015_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Uczeń analizował ruch swobodny dwóch piłek rzuconych z pewnej wysokości. Piłka A została rzucona poziomo z początkową prędkością o wartości $v_0 = 5\\text{ m/s}$. Piłka B została puszczona swobodnie, z prędkością początkową równą zeru, z tej samej wysokości, w tej samej chwili.</p>\n<p>Przyjmij, że na piłki podczas ruchu działa wyłącznie siła ciężkości, a opór powietrza można pominąć. Przyspieszenie ziemskie $g = 9{,}81\\text{ m/s}^2$.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2015_zad1.png]\n</div>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>Oceń prawdziwość zdań opisujących ruch piłek. Zaznacz P (prawda) lub F (fałsz).</strong></p>\n<ol>\n<li>W chwili uderzenia o podłoże piłka A ma większą prędkość całkowitą niż piłka B.</li>\n<li>Czas spadania piłki A jest równy czasowi spadania piłki B.</li>\n<li>Składowa pionowa wektora prędkości piłki A rośnie liniowo w czasie.</li>\n</ol>\n</div>",
+    "solution": {
+      "intuition": "Ruch pionowy obu ciał jest identyczny, decyduje tylko $v_0$ składowej poziomej dla rzutu piłki A.",
+      "givens": "$v_{0A} = 5\\text{ m/s}, v_{0B} = 0$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Oceny prawdziwości stwierdzeń na podstawie fizyki rzutu."
+        }
+      ],
+      "numerical": "1.1: 1-P, 2-P, 3-P",
+      "answer": "1. P, 2. P, 3. P.",
+      "trap": "Zwróć uwagę, że czasy są równe, mimo że zasięgi są inne."
+    }
+  },
+  {
+    "id": "matura-cke-2025-czerwiec-zad-1",
+    "number": 202506,
+    "title": "Zadanie maturalne CKE (2025 czerwiec)",
+    "year": "2025 czerwiec",
+    "difficulty": 3,
+    "source": "Matura CKE 2025 Czerwiec (Termin dodatkowy)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2025-czerwiec-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Ruch prostoliniowy",
+      "Równania ruchu",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2025_czerwiec_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Ciało $\\mathcal{C}$ porusza się wzdłuż osi $x$. Zależność współrzędnej położenia $x$ ciała $\\mathcal{C}$ od czasu $t$ opisują równania:</p>\n<p style=\"text-align:center;\">\n$x = x(t) = \\begin{cases} 4 + 16t - 4t^2 & \\text{dla } 0\\text{ s} \\le t \\le 3\\text{ s} \\\\ 40 - 8t & \\text{dla } 3\\text{ s} < t \\le 5\\text{ s} \\end{cases}$\n</p>\n<p>Wszystkie współczynniki w tych równaniach wyrażone są domyślnie przy pomocy jednostek podstawowych układu SI.</p>\n<p>Na wykresie 1. przedstawiono opisaną zależność $x(t)$ dla $0\\text{ s} \\le t \\le 5\\text{ s}$.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2025_czerwiec_zad1_wykres1.png]\n</div>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p>Drogę przebytą przez ciało $\\mathcal{C}$ od chwili $t = 0\\text{ s}$ do chwili $t = 5\\text{ s}$ oznaczymy jako $s_C$.</p>\n<p>Wektor przemieszczenia ciała $\\mathcal{C}$ od chwili $t = 0\\text{ s}$ do chwili $t = 5\\text{ s}$ oznaczymy jako $\\Delta \\vec{x}_C$.</p>\n<p>Czas ruchu ciała $\\mathcal{C}$ od chwili $t = 0\\text{ s}$ do chwili $t = 5\\text{ s}$ oznaczymy jako $\\Delta t_C$.</p>\n<p><strong>Dokończ zdania. Wpisz właściwe liczby w wykropkowane miejsca.</strong></p>\n<ol>\n<li>Droga przebyta przez ciało $\\mathcal{C}$ w czasie $\\Delta t_C$ jest równa $s_C = \\dots\\dots\\dots\\dots\\text{ m}$.</li>\n<li>Wartość wektora $\\frac{\\Delta \\vec{x}_C}{\\Delta t_C}$ jest równa $\\left|\\frac{\\Delta \\vec{x}_C}{\\Delta t_C}\\right| = \\dots\\dots\\dots\\dots\\text{ m/s}$.</li>\n</ol>\n\n<h4>Zadanie 1.2. (0–2)</h4>\n<p><strong>Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>\n<p>W chwili $t = 1\\text{ s}$:</p>\n<ol>\n<li>wartość przyśpieszenia ciała $\\mathcal{C}$ jest równa $16\\text{ m/s}^2$. <strong>[ P / F ]</strong></li>\n<li>wartość prędkości ciała $\\mathcal{C}$ jest równa $16\\text{ m/s}$. <strong>[ P / F ]</strong></li>\n<li>położenie ciała $\\mathcal{C}$ ma współrzędną $16\\text{ m}$. <strong>[ P / F ]</strong></li>\n</ol>\n\n<h4>Zadanie 1.3. (0–2)</h4>\n<p>Współrzędną prędkości ciała $\\mathcal{C}$ oznaczymy jako $v_x$. Dodatnia wartość $v_x$ będzie oznaczała, że zwrot wektora prędkości ciała $\\mathcal{C}$ jest zgodny ze zwrotem osi $x$, a ujemna wartość – że zwrot wektora prędkości ciała $\\mathcal{C}$ jest przeciwny do zwrotu osi $x$.</p>\n<p><strong>Na wykresie 2. narysuj zależność $v_x$ od czasu $t$ dla $0\\text{ s} \\le t \\le 5\\text{ s}$.</strong></p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2025_czerwiec_zad1_wykres2.png]\n</div>\n</div>",
+    "solution": {
+      "intuition": "Ruch w pierwszym etapie jest ruchem jednostajnie opóźnionym z zawróceniem ciała (wierzchołek paraboli), a w drugim ruchem jednostajnym w stronę ujemną osi x.",
+      "givens": "$x_1(t) = 4 + 16t - 4t^2$, $x_2(t) = 40 - 8t$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "W chwili $t=0: x=4\\text{ m}$. Ciało zawraca w chwili, gdy $v_x = x'(t) = 16 - 8t = 0 \\implies t = 2\\text{ s}$. Wtedy $x(2) = 4 + 32 - 16 = 20\\text{ m}$. Od $t=0$ do $t=2$ przebyło $16\\text{ m}$. W $t=5: x(5) = 40 - 40 = 0\\text{ m}$. Od $x=20$ do $x=0$ przebyło kolejne $20\\text{ m}$. Całkowita droga $s_C = 16 + 20 = 36\\text{ m}$. Przemieszczenie $\\Delta x_C = x(5) - x(0) = 0 - 4 = -4\\text{ m}$, więc $|\\Delta x_C / \\Delta t_C| = 4/5 = 0{,}8\\text{ m/s}$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Dla $t=1\\text{ s}$: $a_x = x''(t) = -8\\text{ m/s}^2$ (wartość 8, a nie 16) -> F; $v_x(1) = 16 - 8(1) = 8\\text{ m/s}$ (a nie 16) -> F; $x(1) = 4 + 16 - 4 = 16\\text{ m}$ -> P. Odpowiedź: F, F, P."
+        },
+        {
+          "title": "Zadanie 1.3",
+          "content": "Wykres $v_x(t)$: odcinek prostoliniowy od $(0, 16)$ przez $(2, 0)$ do $(3, -8)$, a od $t=3\\text{ s}$ do $t=5\\text{ s}$ odcinek poziomy na poziomie $v_x = -8\\text{ m/s}$."
+        }
+      ],
+      "numerical": "1.1: $s_C = 36\\text{ m}$, $0{,}8\\text{ m/s}$; 1.2: F, F, P",
+      "answer": "1.1: 1. $36\\text{ m}$, 2. $0{,}8\\text{ m/s}$; 1.2: 1-F, 2-F, 3-P; 1.3: wykres liniowy od 16 do -8, potem stały -8.",
+      "trap": "Droga to suma długości przebytych odcinków (trzeba uwzględnić zawrócenie w t=2 s), a przemieszczenie to różnica współrzędnych końcowej i początkowej."
+    }
+  },
+  {
+    "id": "matura-cke-2024-grudzien-zad-1",
+    "number": 202412,
+    "title": "Zadanie maturalne CKE (2024 grudzień próbna)",
+    "year": "2024 grudzień",
+    "difficulty": 3,
+    "source": "Matura próbna CKE Grudzień 2024",
+    "link": "https://arkusze.pl/maturalne/fizyka-2024-grudzien-probna-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Ruch po okręgu",
+      "Przyspieszenie kątowe",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2024_grudzien_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>W chwili $t_0 = 0\\text{ s}$ początkowo nieruchoma, sztywna platforma w kształcie koła o środku $S$ rozpoczyna obrót dookoła osi prostopadłej do platformy i przechodzącej przez $S$. Do chwili $t_1 = 8\\text{ s}$ platforma obraca się ze stałym przyśpieszeniem kątowym $\\epsilon$ i wykonuje w tym czasie dokładnie jeden obrót. W chwili $t_1$ platforma uzyskała prędkość kątową $\\omega$. Od chwili $t_1$ platforma obraca się ze stałą prędkością kątową $\\omega$. Promień platformy wynosi $R = 4\\text{ m}$.</p>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p>Rysunki 1. i 2. przedstawiają platformę w czasie, gdy jej ruch obrotowy jest jednostajnie przyśpieszony. Na rysunku 1. narysowano wektor $\\vec{v}$ prędkości punktu $P$, leżącego na brzegu platformy.</p>\n<p><strong>Na rysunku 2. narysuj składową styczną $\\vec{a}_s$ oraz składową dośrodkową $\\vec{a}_r$ wektora przyśpieszenia $\\vec{a}$ punktu $P$. Następnie wyznacz graficznie i narysuj wektor $\\vec{a}$. Podpisz wszystkie narysowane wektory.</strong></p>\n<p><em>Uwaga! Długości składowej stycznej $a_s$ oraz składowej dośrodkowej $a_r$ wektora przyśpieszenia $a$ mogą być na rysunku umowne.</em></p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2024_grudzien_zad1_rysunki.png]\n</div>\n\n<h4>Zadanie 1.2. (0–2)</h4>\n<p><strong>Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>\n<p>W chwili czasu $t = 5\\text{ s}$:</p>\n<ol>\n<li>wszystkie punkty platformy różne od punktu $S$ mają takie samo przyśpieszenie kątowe. <strong>[ P / F ]</strong></li>\n<li>największą wartość prędkości liniowej mają punkty leżące na brzegu platformy. <strong>[ P / F ]</strong></li>\n<li>wszystkie punkty platformy mają tę samą wartość przyśpieszenia dośrodkowego. <strong>[ P / F ]</strong></li>\n</ol>\n\n<h4>Zadanie 1.3. (0–3)</h4>\n<p><strong>Oblicz, ile obrotów wykona platforma w czasie $\\Delta t = 60\\text{ s}$, liczonym od chwili $t_0 = 0\\text{ s}$. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "W ruchu obrotowym przyspieszonym przyspieszenie całkowite jest sumą geometryczną przyspieszenia stycznego (zmieniającego wartość prędkości) i dośrodkowego (zmieniającego kierunek prędkości).",
+      "givens": "$t_1 = 8\\text{ s}$, $n_1 = 1$, $\\Delta t = 60\\text{ s}$, $R = 4\\text{ m}$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Wektor $\\vec{a}_s$ jest styczny do okręgu i ma zwrot zgodny z $\\vec{v}$. Wektor $\\vec{a}_r$ jest skierowany wzdłuż promienia do środka $S$. Wektor wypadkowy $\\vec{a} = \\vec{a}_s + \\vec{a}_r$ jest przekątną prostokąta utworzonego przez te wektory."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "1. P (dla bryły sztywnej $\\epsilon$ jest jednakowe dla wszystkich punktów). 2. P ($v = \\omega r$, największe na brzegu, gdzie $r=R$). 3. F ($a_r = \\omega^2 r$ zależy wprost proporcjonalnie od odległości $r$ od osi). Odpowiedź: P, P, F."
+        },
+        {
+          "title": "Zadanie 1.3",
+          "content": "W czasie $t_1 = 8\\text{ s}$: $\\Delta \\alpha_1 = 2\\pi$ (1 obrót), $\\Delta \\alpha_1 = \\frac{1}{2}\\epsilon t_1^2 \\implies \\epsilon = \\frac{4\\pi}{64} = \\frac{\\pi}{16}\\text{ rad/s}^2$. Prędkość kątowa w chwili $t_1$: $\\omega = \\epsilon t_1 = \\frac{\\pi}{2}\\text{ rad/s}$. W czasie pozostałych $\\Delta t' = 60 - 8 = 52\\text{ s}$ ruch jest jednostajny: $\\Delta \\alpha_2 = \\omega \\cdot \\Delta t' = \\frac{\\pi}{2} \\cdot 52 = 26\\pi\\text{ rad}$. Liczba obrotów w drugim etapie: $n_2 = \\frac{26\\pi}{2\\pi} = 13$. Łączna liczba obrotów: $n = 1 + 13 = 14$ obrotów."
+        }
+      ],
+      "numerical": "1.2: P, P, F; 1.3: $n = 14$ obrotów",
+      "answer": "1.2: P, P, F; 1.3: $n = 14$ obrotów.",
+      "trap": "Pamiętaj, że w czasie pierwszych 8 sekund ruch był przyspieszony (1 obrót), a przez pozostałe 52 sekundy jednostajny (13 obrotów)."
+    }
+  },
+  {
+    "id": "matura-cke-2023-pokazowy-zad-1",
+    "number": 202300,
+    "title": "Zadanie maturalne CKE (2023 arkusz pokazowy)",
+    "year": "2023 pokazowy",
+    "difficulty": 3,
+    "source": "Arkusz pokazowy CKE (Formuła 2023)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2023-przykladowy-arkusz-cke-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Rzut poziomy",
+      "Równanie toru",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2023_pokazowy_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Z niewielkiej wysokości nad poziomym podłożem uczniowie rzucili małą metalową kulkę. Prędkość $\\vec{v}_0$ kulki w chwili początkowej ruchu ($t_0 = 0$) miała kierunek poziomy. Gdy kulka się poruszała, uczniowie wykonali serię zdjęć stroboskopowych (w jednakowych odstępach czasu) kulki w płaszczyźnie ruchu. Na zdjęciu przedstawiającym położenia kulki uczniowie dorysowali kartezjański układ współrzędnych $(x, y)$ oraz tor ruchu kulki (zobacz rysunek poniżej).</p>\n<p>Następnie uczniowie wyznaczyli równanie toru ruchu kulki. W tym celu założyli, że torem ruchu jest fragment paraboli. W równaniu toru współczynniki liczbowe wyrażono w podstawowych jednostkach układu SI:</p>\n<p style=\"text-align:center;\">$y = 2 - \\frac{1}{18} x^2$</p>\n<p>W zadaniach 1.1.–1.2. pomiń opór powietrza i przyjmij do obliczeń wartość przyśpieszenia ziemskiego $g = 9{,}81\\text{ m/s}^2$.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2023_pokazowy_zad1_tor.png]\n</div>\n\n<h4>Zadanie 1.1. (0–1)</h4>\n<p><strong>Dokończ zdanie. Zaznacz właściwą odpowiedź spośród podanych.</strong></p>\n<p>Czas lotu kulki od chwili $t_0$ do chwili uderzenia o podłoże wynosi w zaokrągleniu:</p>\n<ol type=\"A\">\n<li>$t \\approx 0{,}24\\text{ s}$</li>\n<li>$t \\approx 0{,}64\\text{ s}$</li>\n<li>$t \\approx 1{,}11\\text{ s}$</li>\n<li>$t \\approx 1{,}41\\text{ s}$</li>\n</ol>\n\n<h4>Zadanie 1.2. (0–3)</h4>\n<p><strong>Oblicz $v_0$ – wartość prędkości początkowej tej kulki. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Równanie toru rzutu poziomego wynika z eliminacji czasu ze wzorów na współrzędne x(t) i y(t). Z postaci równania odczytujemy wysokość początkową i współczynnik wiążący g z v0.",
+      "givens": "$y(x) = 2 - \\frac{1}{18}x^2$, $g = 9{,}81\\text{ m/s}^2$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Dla $x=0$ mamy $y_0 = h = 2\\text{ m}$. Kulka uderza o podłoże, gdy $y=0$. Czas swobodnego spadania z wysokości $h$: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{4}{9{,}81}} \\approx 0{,}6387\\text{ s} \\approx 0{,}64\\text{ s}$. Poprawna odpowiedź B."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Równania ruchu: $x = v_0 t \\implies t = \\frac{x}{v_0}$. $y = h - \\frac{g t^2}{2} = h - \\frac{g}{2v_0^2} x^2$. Porównując ze wzorem $y = 2 - \\frac{1}{18}x^2$, otrzymujemy: $\\frac{g}{2v_0^2} = \\frac{1}{18} \\implies v_0^2 = 9g = 9 \\cdot 9{,}81 = 88{,}29\\text{ m}^2/\\text{s}^2 \\implies v_0 = 3\\sqrt{9{,}81} \\approx 9{,}40\\text{ m/s}$."
+        }
+      ],
+      "numerical": "1.1: B ($0{,}64\\text{ s}$); 1.2: $v_0 \\approx 9{,}4\\text{ m/s}$",
+      "answer": "1.1: B; 1.2: $v_0 \\approx 9{,}4\\text{ m/s}$.",
+      "trap": "Pamiętaj, że współczynnik przy x^2 w równaniu toru to g / (2*v_0^2), a nie samo g / v_0^2."
+    }
+  },
+  {
+    "id": "matura-cke-2023-czerwiec-zad-1",
+    "number": 202306,
+    "title": "Zadanie maturalne CKE (2023 czerwiec)",
+    "year": "2023 czerwiec",
+    "difficulty": 3,
+    "source": "Matura CKE 2023 Czerwiec (Termin dodatkowy)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2023-czerwiec-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Ruch jednostajnie opóźniony",
+      "Wyprowadzenie wzoru",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2023_czerwiec_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Ze szczytu równi pochyłej puszczano kulkę. Kulka staczała się z równi bez poślizgu. Po stoczeniu się z równi kulka poruszała się dalej wzdłuż prostej po poziomo ułożonym dywanie. Ruch kulki po dywanie został sfilmowany. Dzięki temu wyznaczono wartości $v$ prędkości kulki na dywanie w kilku ustalonych położeniach $x$, licząc od punktu $x = 0$ końca równi pochyłej. Następnie obliczono wartości $v^2$. Wyniki doświadczenia oraz niepewności $\\Delta(v^2)$ wielkości $v^2$ przedstawiono w poniższej tabeli. Pomiar $x$ przyjmij za dokładny.</p>\n\n<table style=\"width:100%; border-collapse: collapse; text-align:center; margin: 15px 0;\" border=\"1\">\n<tr><th>$x$, m</th><td>0</td><td>0,20</td><td>0,40</td><td>0,60</td><td>0,80</td></tr>\n<tr><th>$v^2$, $\\text{m}^2/\\text{s}^2$</th><td>0,098</td><td>0,078</td><td>0,054</td><td>0,037</td><td>0,014</td></tr>\n<tr><th>$\\Delta(v^2)$, $\\text{m}^2/\\text{s}^2$</th><td>0,004</td><td>0,004</td><td>0,003</td><td>0,003</td><td>0,002</td></tr>\n</table>\n\n<p>W zadaniach 1.1.–1.2. przyjmij, że ruch postępowy kulki po dywanie był ruchem jednostajnie opóźnionym z przyśpieszeniem o wartości bezwzględnej $a$. Prędkość kulki na początku ruchu po dywanie, czyli w $x = 0$, oznaczymy jako $v_0$. Zależność między kwadratem wartości prędkości kulki a przebytą drogą $s = x$ i wartością przyśpieszenia $a$ wyraża się wzorem:</p>\n<p style=\"text-align:center;\">$v^2 = v_0^2 - 2as$</p>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>Wyprowadź wzór $v^2 = v_0^2 - 2as$ podany we wstępie do zadania 1. Zapisz odpowiednie równania oraz przekształcenia prowadzące do uzyskania powyższej postaci tego wzoru.</strong></p>\n\n<h4>Zadanie 1.2. (0–4)</h4>\n<p>W układzie współrzędnych $(s, v^2)$ poniżej narysuj wykres zależności $v^2(s)$ – kwadratu prędkości kulki na dywanie od drogi. Zaznacz punkty pomiarowe oraz niepewności $\\Delta(v^2)$ oraz narysuj prostą najlepiej dopasowaną do punktów pomiarowych.</p>\n<p><strong>Na podstawie wykresu wyznacz wartość przyśpieszenia $a$ kulki na dywanie oraz drogę $s_z$, jaką przebyła kulka na dywanie aż do zatrzymania się.</strong></p>\n<p><em>Uwaga! Rozwiązania prowadzące do wyznaczenia $a$ oraz $s_z$, które nie wykorzystują wykresu (tylko same dane z tabeli), nie będą zgodne z poleceniem.</em></p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2023_czerwiec_zad1_siatka.png]\n</div>\n</div>",
+    "solution": {
+      "intuition": "Wzór bezczasowy v^2 = v0^2 - 2as otrzymujemy, eliminując czas t z podstawowych równań ruchu jednostajnie opóźnionego: v(t) = v0 - at oraz s(t) = v0*t - at^2/2.",
+      "givens": "Punkty pomiarowe z tabeli, zależność liniowa $v^2$ od $s$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Z równania prędkości: $v = v_0 - at \\implies t = \\frac{v_0 - v}{a}$. Wstawiamy do równania drogi: $s = v_0 t - \\frac{at^2}{2} = v_0 \\left(\\frac{v_0 - v}{a}\\right) - \\frac{a}{2}\\left(\\frac{v_0 - v}{a}\\right)^2 = \\frac{2v_0^2 - 2v_0 v - (v_0^2 - 2v_0 v + v^2)}{2a} = \\frac{v_0^2 - v^2}{2a}$. Mnożąc obustronnie przez $2a$: $2as = v_0^2 - v^2 \\implies v^2 = v_0^2 - 2as$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Z wykresu prostej dopasowanej odczytujemy współczynnik kierunkowy $b = -2a$. Nachylenie prostej wynosi około $-0{,}105\\text{ m/s}^2$, skąd $a = -\\frac{b}{2} \\approx 0{,}052\\text{ m/s}^2$ (akceptowany zakres w kluczu: $0{,}050 - 0{,}055\\text{ m/s}^2$). Miejsce zerowe prostej ($v^2=0$) daje drogę zatrzymania $s_z \\approx 0{,}94\\text{ m}$ (zakres: $0{,}90 - 0{,}98\\text{ m}$)."
+        }
+      ],
+      "numerical": "$a \\approx 0{,}052\\text{ m/s}^2$, $s_z \\approx 0{,}94\\text{ m}$",
+      "answer": "1.1: Wyprowadzenie algebraiczne; 1.2: $a \\approx 0{,}052\\text{ m/s}^2$, $s_z \\approx 0{,}94\\text{ m}$.",
+      "trap": "Zadanie 1.2 wymaga wyznaczenia wielkości z narysowanej prostej dopasowanej, a nie z pojedynczych punktów tabeli."
+    }
+  },
+  {
+    "id": "matura-cke-2022-czerwiec-zad-1",
+    "number": 202206,
+    "title": "Zadanie maturalne CKE (2022 czerwiec)",
+    "year": "2022 czerwiec",
+    "difficulty": 2,
+    "source": "Matura CKE 2022 Czerwiec (Termin dodatkowy)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2022-czerwiec-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Wektory przemieszczenia",
+      "Droga",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2022_czerwiec_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Robot sprzątający rozpoczął ruch po płaskiej powierzchni. Ten robot może przemieszczać się wzdłuż odcinków prostych w dowolnym kierunku. Kolejne przemieszczenia robota, od chwili początkowej $t = 0$, opisano za pomocą współrzędnych $(x, y)$. W chwili $t = 0$ robot znajdował się w punkcie $P(0, 0)$. Ruch robota składał się z trzech kolejnych etapów:</p>\n<ul>\n<li>Etap I: ruch jednostajny z punktu $P$ z prędkością o wartości $10\\text{ cm/s}$ wzdłuż linii prostej do punktu o współrzędnych $x = 30\\text{ cm}$, $y = 40\\text{ cm}$.</li>\n<li>Etap II: przemieszczenie o wektor $\\Delta \\vec{r}_2 = [40\\text{ cm}; 30\\text{ cm}]$ wzdłuż linii prostej ruchem jednostajnym z prędkością o wartości $10\\text{ cm/s}$.</li>\n<li>Etap III: przemieszczenie do punktu o współrzędnych $x = 110\\text{ cm}$, $y = 40\\text{ cm}$ wzdłuż linii prostej ruchem jednostajnym z prędkością o wartości $10\\text{ cm/s}$.</li>\n</ul>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>W układzie współrzędnych $(x, y)$ przedstaw tor ruchu robota od chwili $t = 0$ do końca trzeciego etapu ruchu. Wyskaluj osie i nanieś odpowiednie wartości.</strong></p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2022_czerwiec_zad1_siatka.png]\n</div>\n\n<h4>Zadanie 1.2. (0–3)</h4>\n<p><strong>Oblicz czas ruchu robota od chwili $t = 0$ do końca trzeciego etapu ruchu. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Ruch składa się z trzech prostoliniowych odcinków o stałej prędkości. Długość każdego odcinka wyznaczamy z twierdzenia Pitagorasa.",
+      "givens": "$v = 10\\text{ cm/s}$, kolejne punkty toru: $(0,0) \\to (30,40) \\to (70,70) \\to (110,40)$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Rysujemy trzy odcinki łączące punkty: $(0,0) \\to (30,40) \\to (70,70) \\to (110,40)$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Długość etapu 1: $s_1 = \\sqrt{30^2 + 40^2} = 50\\text{ cm}$. Długość etapu 2: $s_2 = \\sqrt{40^2 + 30^2} = 50\\text{ cm}$. Długość etapu 3: $\\Delta x = 110 - 70 = 40\\text{ cm}$, $\\Delta y = 40 - 70 = -30\\text{ cm} \\implies s_3 = \\sqrt{40^2 + (-30)^2} = 50\\text{ cm}$. Całkowita droga: $s = 50 + 50 + 50 = 150\\text{ cm}$. Czas ruchu: $t = \\frac{s}{v} = \\frac{150\\text{ cm}}{10\\text{ cm/s}} = 15\\text{ s}$."
+        }
+      ],
+      "numerical": "$s = 150\\text{ cm}$, $t = 15\\text{ s}$",
+      "answer": "1.1: Tor z trzech odcinków o długości 50 cm; 1.2: $t = 15\\text{ s}$.",
+      "trap": "Uważaj na współrzędne drugiego punktu: po dodaniu wektora [40, 30] do (30, 40) otrzymujemy (70, 70)."
+    }
+  },
+  {
+    "id": "matura-cke-2021-czerwiec-zad-1",
+    "number": 202106,
+    "title": "Zadanie maturalne CKE (2021 czerwiec)",
+    "year": "2021 czerwiec",
+    "difficulty": 3,
+    "source": "Matura CKE 2021 Czerwiec (Termin dodatkowy)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2021-czerwiec-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Rzut poziomy",
+      "Równanie paraboli",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2021_czerwiec_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Z wieży obserwacyjnej wystrzelono małą kulkę. Prędkość $\\vec{v}_0$ kulki w chwili początkowej ruchu ($t_0 = 0$) miała kierunek poziomy. Na wykresie poniżej, w układzie współrzędnych $(x, y)$, przedstawiono tor lotu kulki od chwili $t_0$ aż do momentu uderzenia kulki w poziome podłoże.</p>\n<p>Przyjmij do obliczeń przyśpieszenie ziemskie $g = 9{,}81\\text{ m/s}^2$. W zadaniach 1.1.–1.3. pomiń opory ruchu.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2021_czerwiec_zad1_tor.png]\n</div>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>Na podstawie danych odczytanych z wykresu oblicz czas lotu kulki od chwili $t_0 = 0$, aż do chwili uderzenia kulki o ziemię.</strong></p>\n\n<h4>Zadanie 1.2. (0–4)</h4>\n<p>Torem ruchu kulki jest fragment paraboli opisanej równaniem:</p>\n<p style=\"text-align:center;\">$y = -0{,}0125 \\cdot x^2 + 20 \\qquad \\text{gdzie } x \\in [0; 40]$</p>\n<p>Współczynniki liczbowe w tym równaniu wyrażone są (domyślnie) w podstawowych jednostkach układu SI.</p>\n<p><strong>Wyprowadź powyższe równanie toru lotu kulki na podstawie równań ruchu rzutu poziomego oraz położenia początkowego i końcowego kulki podczas lotu.</strong></p>\n\n<h4>Zadanie 1.3. (0–1)</h4>\n<p><strong>Na rysunku poniżej narysuj wektor siły działającej na kulkę podczas lotu, gdy znajduje się ona w punkcie $A$. Zapisz obok rysunku nazwę tej siły.</strong></p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2021_czerwiec_zad1_punktA.png]\n</div>\n</div>",
+    "solution": {
+      "intuition": "Rzut poziomy składa się z jednostajnego ruchu w poziomie i jednostajnie przyspieszonego spadku swobodnego w pionie.",
+      "givens": "$h = 20\\text{ m}$, $z = 40\\text{ m}$, $g = 9{,}81\\text{ m/s}^2$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Z wykresu odczytujemy wysokość początkową $h = 20\\text{ m}$. Czas spadania: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{40}{9{,}81}} \\approx 2{,}02\\text{ s}$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Równania ruchu: $x(t) = v_0 t \\implies t = \\frac{x}{v_0}$. $y(t) = h - \\frac{gt^2}{2} = 20 - \\frac{g}{2v_0^2}x^2$. Kulka uderza w ziemię w $x=40\\text{ m}$ w czasie $t_k$: $v_0 = \\frac{x_k}{t_k} = \\frac{40\\text{ m}}{\\sqrt{40/g}} = \\sqrt{40g} \\implies v_0^2 = 40g$. Wtedy współczynnik przy $x^2$: $-\\frac{g}{2v_0^2} = -\\frac{g}{2 \\cdot 40g} = -\\frac{1}{80} = -0{,}0125$. Stąd $y = -0{,}0125 x^2 + 20$."
+        },
+        {
+          "title": "Zadanie 1.3",
+          "content": "Wektor skierowany pionowo w dół, przyłożony w punkcie A. Nazwa siły: siła grawitacji (ciężar / siła ciężkości)."
+        }
+      ],
+      "numerical": "1.1: $t \\approx 2{,}02\\text{ s}$; 1.2: wyprowadzenie $y = -0{,}0125x^2 + 20$; 1.3: siła ciężkości w dół",
+      "answer": "1.1: $t \\approx 2{,}02\\text{ s}$; 1.2: Wyprowadzenie algebraiczne; 1.3: Wektor siły ciężkości pionowo w dół.",
+      "trap": "Nie myl czasu lotu z zasięgiem. Czas zależy wyłącznie od wysokości początkowej i g."
+    }
+  },
+  {
+    "id": "matura-cke-2020-lipiec-zad-1",
+    "number": 202007,
+    "title": "Zadanie maturalne CKE (2020 lipiec)",
+    "year": "2020 lipiec",
+    "difficulty": 2,
+    "source": "Matura CKE 2020 Lipiec (Termin dodatkowy)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2020-lipiec-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Ruch jednostajnie przyspieszony",
+      "Droga startu",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2020_lipiec_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Pewien samolot pasażerski odrywa się od ziemi po osiągnięciu prędkości o wartości $288\\text{ km/h}$ w kierunku poziomym.</p>\n<p>W zadaniach 1.1.–1.2. przyjmij uproszczony model zjawiska oparty na założeniu, że prędkość samolotu w chwili początkowej $t_0 = 0$ wynosiła zero i aż do momentu oderwania się od ziemi samolot poruszał się ruchem jednostajnie przyśpieszonym prostoliniowym względem ziemi.</p>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p>Gdy ten samolot rozpędzał się po poziomym pasie startowym lotniska, to przebył drogę $45\\text{ m}$ w czasie od chwili $t_7 = 7\\text{ s}$ do chwili $t_{10} = 10\\text{ s}$.</p>\n<p><strong>Oblicz wartość przyśpieszenia samolotu w tej sytuacji. Zapisz obliczenia.</strong></p>\n\n<h4>Zadanie 1.2. (0–2)</h4>\n<p>Innym razem ten sam samolot rozpędzał się po pasie startowym, poruszając się ze stałym przyśpieszeniem o wartości $1{,}4\\text{ m/s}^2$.</p>\n<p><strong>Ustal i zapisz, czy w takim przypadku samolot mógłby oderwać się od ziemi, gdyby rozpędził się po pasie startowym o długości $1\\,900\\text{ m}$. Wykonaj niezbędne obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Ruch jednostajnie przyspieszony bez prędkości początkowej opisywany jest równaniem s(t) = at^2 / 2.",
+      "givens": "$v_k = 288\\text{ km/h} = 80\\text{ m/s}$, $\\Delta s = 45\\text{ m}$ między 7 a 10 s",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Droga przebyta między 7 a 10 s: $\\Delta s = s(10) - s(7) = \\frac{a \\cdot 10^2}{2} - \\frac{a \\cdot 7^2}{2} = \\frac{a}{2}(100 - 49) = 25{,}5 a$. $25{,}5 a = 45\\text{ m} \\implies a = \\frac{45}{25{,}5} = \\frac{90}{51} \\approx 1{,}76\\text{ m/s}^2$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Droga potrzebna do uzyskania prędkości oderwania $v = 80\\text{ m/s}$ przy przyspieszeniu $a = 1{,}4\\text{ m/s}^2$: $s = \\frac{v^2}{2a} = \\frac{80^2}{2 \\cdot 1{,}4} = \\frac{6400}{2{,}8} \\approx 2286\\text{ m}$. Ponieważ wymagana droga $2286\\text{ m} > 1900\\text{ m}$, samolot nie zdoła oderwać się od ziemi."
+        }
+      ],
+      "numerical": "1.1: $a \\approx 1{,}76\\text{ m/s}^2$; 1.2: Nie, wymagana droga to ok. $2286\\text{ m}$",
+      "answer": "1.1: $a \\approx 1{,}76\\text{ m/s}^2$; 1.2: Nie, pas $1900\\text{ m}$ jest za krótki (potrzeba ok. $2286\\text{ m}$).",
+      "trap": "Pamiętaj o przeliczeniu prędkości $288\\text{ km/h}$ na jednostki SI: $288 / 3{,}6 = 80\\text{ m/s}$."
+    }
+  },
+  {
+    "id": "matura-cke-2020-kwiecien-zad-1",
+    "number": 202004,
+    "title": "Zadanie maturalne CKE (2020 kwiecień próbna)",
+    "year": "2020 kwiecień",
+    "difficulty": 3,
+    "source": "Matura próbna CKE Kwiecień 2020",
+    "link": "https://arkusze.pl/maturalne/fizyka-2020-kwiecien-probna-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Ruch jednostajny",
+      "Wyprowadzenie wzoru",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2020_kwiecien_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Samochód A jedzie z maksymalną prędkością dozwoloną na danym odcinku trasy. Wartość tej prędkości wynosi $v_{\\max}$. Samochód B jedzie z prędkością mniejszą od $v_{\\max}$ o wartość $\\Delta v$. Oba samochody poruszają się ruchem jednostajnym. Czas, w jakim samochód B pokona odcinek trasy o długości $d$, jest dłuższy od czasu, w jakim samochód A pokona ten sam odcinek trasy, o wartość:</p>\n<p style=\"text-align:center;\">$\\Delta t = \\frac{d \\cdot \\Delta v}{v_{\\max}^2 - v_{\\max} \\Delta v}$</p>\n\n<h4>Zadanie 1.1. (0–2)</h4>\n<p><strong>Wyprowadź powyższy wzór na różnicę czasów, w jakich oba samochody pokonują odcinek trasy o długości $d$.</strong></p>\n\n<h4>Zadanie 1.2. (0–2)</h4>\n<p>Maksymalna dozwolona wartość prędkości dla pojazdów osobowych poruszających się po autostradzie wynosi $140\\text{ km/h}$. Samochód B pokonał odcinek autostrady o długości $10\\text{ km}$ w czasie o pół minuty dłuższym niż samochód A.</p>\n<p><strong>Oblicz, ile wynosi różnica wartości prędkości samochodów A i B. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Różnica czasów przejazdu tego samego odcinka z różnymi stałymi prędkościami sprowadza się do odjęcia ułamków d/vB - d/vA.",
+      "givens": "$v_A = v_{\\max}$, $v_B = v_{\\max} - \\Delta v$, $v_{\\max} = 140\\text{ km/h}$, $d = 10\\text{ km}$, $\\Delta t = 0{,}5\\text{ min} = \\frac{1}{120}\\text{ h}$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "Czas samochodu A: $t_A = \\frac{d}{v_{\\max}}$. Czas samochodu B: $t_B = \\frac{d}{v_{\\max} - \\Delta v}$. Różnica czasów: $\\Delta t = t_B - t_A = \\frac{d}{v_{\\max} - \\Delta v} - \\frac{d}{v_{\\max}} = \\frac{d \\cdot v_{\\max} - d(v_{\\max} - \\Delta v)}{v_{\\max}(v_{\\max} - \\Delta v)} = \\frac{d \\cdot \\Delta v}{v_{\\max}^2 - v_{\\max}\\Delta v}$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "Wstawiamy dane: $\\frac{1}{120} = \\frac{10 \\cdot \\Delta v}{140^2 - 140 \\Delta v} \\implies 19600 - 140\\Delta v = 1200 \\Delta v \\implies 1340 \\Delta v = 19600 \\implies \\Delta v = \\frac{19600}{1340} \\approx 14{,}6\\text{ km/h}$."
+        }
+      ],
+      "numerical": "1.2: $\\Delta v \\approx 14{,}6\\text{ km/h}$",
+      "answer": "1.1: Wyprowadzenie algebraiczne; 1.2: $\\Delta v \\approx 14{,}6\\text{ km/h}$.",
+      "trap": "Zwróć uwagę na spójność jednostek: pół minuty to 1/120 godziny, a prędkość jest w km/h."
+    }
+  },
+  {
+    "id": "matura-cke-2019-czerwiec-zad-1",
+    "number": 201906,
+    "title": "Zadanie maturalne CKE (2019 czerwiec)",
+    "year": "2019 czerwiec",
+    "difficulty": 3,
+    "source": "Matura CKE 2019 Czerwiec (Termin dodatkowy)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2019-czerwiec-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Wykres przyspieszenia",
+      "Całkowanie graficzne",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2019_czerwiec_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1.</h4>\n<p>Pewne ciało porusza się ruchem prostoliniowym wzdłuż osi $x$. Zamieszczony poniżej wykres przedstawia zależność współrzędnej $a_x$ przyspieszenia ciała od czasu $t$ w tym ruchu. Wartość prędkości początkowej ciała wynosi zero.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2019_czerwiec_zad1_wykres_a.png]\n</div>\n\n<h4>Zadanie 1.1. (0–3)</h4>\n<p><strong>Narysuj wykres zależności współrzędnej $v_x$ prędkości ciała od czasu $t$ w ruchu opisanym powyżej (od $t = 0\\text{ s}$ do $t = 12\\text{ s}$). Zapisz obliczenia pozwalające ustalić wartość $v_x$ w $t = 5\\text{ s}$ ruchu oraz w $t = 12\\text{ s}$ ruchu.</strong></p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2019_czerwiec_zad1_siatka_v.png]\n</div>\n\n<h4>Zadanie 1.2. (0–3)</h4>\n<p><strong>Uzupełnij tabelę przedstawioną poniżej. W drugiej kolumnie podkreśl właściwe określenie dotyczące wartości prędkości ciała w danym przedziale czasu. W trzeciej kolumnie wpisz drogę przebytą przez ciało w danym przedziale czasu.</strong></p>\n\n<table style=\"width:100%; border-collapse: collapse; text-align:center; margin: 15px 0;\" border=\"1\">\n<tr><th>Przedział czasu</th><th>Wartość prędkości</th><th>Droga $s$, m</th></tr>\n<tr><td>$0\\text{ s} < t \\le 5\\text{ s}$</td><td>rośnie / maleje / pozostaje stała</td><td>&nbsp;</td></tr>\n<tr><td>$5\\text{ s} < t \\le 10\\text{ s}$</td><td>rośnie / maleje / pozostaje stała</td><td>&nbsp;</td></tr>\n<tr><td>$10\\text{ s} < t \\le 12\\text{ s}$</td><td>rośnie / maleje / pozostaje stała</td><td>&nbsp;</td></tr>\n</table>\n</div>",
+    "solution": {
+      "intuition": "Pole pod wykresem przyspieszenia a(t) odpowiada zmianie prędkości delta v, a pole pod wykresem prędkości v(t) odpowiada przebytej drodze.",
+      "givens": "$v_0 = 0$, $a_x(t)$ schodkowe: $2\\text{ m/s}^2$ dla $0-5\\text{ s}$, $0$ dla $5-10\\text{ s}$, $-3\\text{ m/s}^2$ dla $10-12\\text{ s}$",
+      "steps": [
+        {
+          "title": "Zadanie 1.1",
+          "content": "W $t=5\\text{ s}$: $v_x(5) = 0 + 2 \\cdot 5 = 10\\text{ m/s}$. W przedziale $5-10\\text{ s}$: $a=0$, więc $v_x = 10\\text{ m/s}$. W $t=12\\text{ s}$: $v_x(12) = 10 + (-3) \\cdot 2 = 4\\text{ m/s}$. Wykres: linia prosta od $(0,0)$ do $(5,10)$, pozioma od $(5,10)$ do $(10,10)$, opadająca prosta od $(10,10)$ do $(12,4)$."
+        },
+        {
+          "title": "Zadanie 1.2",
+          "content": "1. $0-5\\text{ s}$: wartość prędkości rośnie, droga $s_1 = \\frac{1}{2} \\cdot 5 \\cdot 10 = 25\\text{ m}$. 2. $5-10\\text{ s}$: wartość prędkości pozostaje stała, droga $s_2 = 5 \\cdot 10 = 50\\text{ m}$. 3. $10-12\\text{ s}$: wartość prędkości maleje, droga $s_3 = \\frac{10 + 4}{2} \\cdot 2 = 14\\text{ m}$."
+        }
+      ],
+      "numerical": "1.1: $v(5) = 10\\text{ m/s}, v(12) = 4\\text{ m/s}$; 1.2: drogi: $25\\text{ m}, 50\\text{ m}, 14\\text{ m}$",
+      "answer": "1.1: Wykres v(t) o wierzchołkach (0,0)-(5,10)-(10,10)-(12,4); 1.2: rośnie ($25\\text{ m}$), stała ($50\\text{ m}$), maleje ($14\\text{ m}$).",
+      "trap": "Zauważ, że w przedziale 10-12 s prędkość maleje z 10 do 4 m/s, ale wciąż jest dodatnia, więc droga nadal przyrasta."
+    }
+  },
+  {
+    "id": "matura-cke-2016-czerwiec-zad-1",
+    "number": 201606,
+    "title": "Zadanie maturalne CKE (2016 czerwiec)",
+    "year": "2016 czerwiec",
+    "difficulty": 2,
+    "source": "Matura CKE 2016 Czerwiec (Termin dodatkowy)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2016-czerwiec-matura-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Wykres v(t)",
+      "Spotkanie pojazdów",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2016_czerwiec_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1. (0–2)</h4>\n<p>Samochód i motocykl poruszały się wzdłuż tej samej prostej z prędkościami o takich samych zwrotach. Na wykresie poniżej przedstawiono zależności wartości prędkości od czasu w ruchu tych pojazdów. W chwili początkowej samochód i motocykl znajdowały się obok siebie.</p>\n\n<div class=\"chart-container-svg\">\n[TUTAJ WKLEJ GRAFIKĘ: img/cke_2016_czerwiec_zad1_wykres.png]\n</div>\n\n<p><strong>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>\n<ol>\n<li>Droga, jaką przebył motocykl w ciągu pierwszych 6 sekund, była większa od drogi, jaką przebył w tym samym czasie samochód. <strong>[ P / F ]</strong></li>\n<li>Po 2 s ruchu pojazdy ponownie znajdowały się obok siebie. <strong>[ P / F ]</strong></li>\n<li>Maksymalna prędkość osiągnięta przez motocyklistę wyniosła 90 km/h, a średnia prędkość samochodu w ciągu 9 s ruchu wynosiła 900 m/min. <strong>[ P / F ]</strong></li>\n<li>W chwili $t = 4\\text{ s}$ wartość przyspieszenia motocykla wynosiła $5\\text{ m/s}^2$, a wartość przyspieszenia samochodu wynosiła 0. <strong>[ P / F ]</strong></li>\n</ol>\n</div>",
+    "solution": {
+      "intuition": "Analiza wykresu v(t): droga odpowiada polu pod wykresem, przyspieszenie jest nachyleniem prostej, a ponowne spotkanie oznacza równość pól.",
+      "givens": "Wykres v(t): samochód $v = 15\\text{ m/s} = \\text{const}$, motocykl przyspiesza od 0 do $25\\text{ m/s}$ w 5 s, potem $25\\text{ m/s} = \\text{const}$",
+      "steps": [
+        {
+          "title": "Zdanie 1",
+          "content": "Droga samochodu w 6 s: $15 \\cdot 6 = 90\\text{ m}$. Droga motocykla w 6 s: trójkąt $\\frac{5 \\cdot 25}{2} = 62{,}5\\text{ m}$ plus prostokąt $1 \\cdot 25 = 25\\text{ m}$, łącznie $87{,}5\\text{ m}$. $87{,}5 < 90$, więc zdanie jest FAŁSZYWE."
+        },
+        {
+          "title": "Zdanie 2",
+          "content": "W $t=2\\text{ s}$: samochód przebył $30\\text{ m}$, motocykl $\\frac{2 \\cdot 10}{2} = 10\\text{ m}$. Nie znajdowały się obok siebie -> FAŁSZ."
+        },
+        {
+          "title": "Zdanie 3",
+          "content": "$v_{\\max}$ motocykla: $25\\text{ m/s} = 25 \\cdot 3{,}6 = 90\\text{ km/h}$ (Prawda). Samochód: $v = 15\\text{ m/s} = 15 \\cdot 60 = 900\\text{ m/min}$ (Prawda). Całe zdanie jest PRAWDZIWE."
+        },
+        {
+          "title": "Zdanie 4",
+          "content": "Dla motocykla $a = \\frac{25}{5} = 5\\text{ m/s}^2$, dla samochodu ruch jednostajny $a = 0$. Zdanie jest PRAWDZIWE."
+        }
+      ],
+      "numerical": "1-F, 2-F, 3-P, 4-P",
+      "answer": "1. F, 2. F, 3. P, 4. P.",
+      "trap": "Punkt przecięcia wykresów prędkości oznacza jedynie równość prędkości w danej chwili, a NIE ponowne spotkanie pojazdów."
+    }
+  },
+  {
+    "id": "matura-cke-2015-przykladowy-zad-1",
+    "number": 201500,
+    "title": "Zadanie maturalne CKE (2015 przykładowy)",
+    "year": "2015 przykładowy",
+    "difficulty": 2,
+    "source": "Przykładowy arkusz CKE (Formuła 2015)",
+    "link": "https://arkusze.pl/maturalne/fizyka-2015-przykladowy-arkusz-cke-rozszerzona.pdf",
+    "tags": [
+      "Matura CKE",
+      "Rzut poziomy",
+      "Opór powietrza",
+      "Kinematyka"
+    ],
+    "image": "img/cke_2015_przykladowy_zad1.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 1. (0–3)</h4>\n<p>Podczas gry w badmintona zawodniczka uderzyła lotkę na wysokości $2\\text{ m}$, nadając jej poziomą prędkość o wartości $5\\text{ m/s}$. Lotka upadła w pewnej odległości od zawodniczki. Jest to odległość o jedną trzecią mniejsza od odległości upadku lotki przy pominięciu oporu powietrza. Przyjmij, że po uderzeniu lotki zawodniczka nie zmieniła swojego położenia.</p>\n<p><strong>Oblicz, w jakiej odległości od zawodniczki upadła lotka. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Najpierw obliczamy teoretyczny zasięg rzutu poziomego bez oporów ruchu, a następnie zmniejszamy go o 1/3 zgodnie z treścią zadania.",
+      "givens": "$h = 2\\text{ m}$, $v_0 = 5\\text{ m/s}$, zasięg rzeczywisty $x = \\frac{2}{3} x_{\\text{teor}}$",
+      "steps": [
+        {
+          "title": "Krok 1: Zasięg bez oporów",
+          "content": "Czas spadania z wysokości $h$: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{4}{9{,}81}} \\approx 0{,}6388\\text{ s}$. Zasięg teoretyczny: $x_{\\text{teor}} = v_0 t = 5 \\cdot 0{,}6388 \\approx 3{,}194\\text{ m}$."
+        },
+        {
+          "title": "Krok 2: Zasięg rzeczywisty",
+          "content": "Zasięg poziomy z uwzględnieniem oporu powietrza: $x = \\left(1 - \\frac{1}{3}\\right) x_{\\text{teor}} = \\frac{2}{3} \\cdot 3{,}194 \\approx 2{,}13\\text{ m}$."
+        },
+        {
+          "title": "Krok 3: Odległość od zawodniczki",
+          "content": "Jeśli odległość mierzymy w poziomie: $d \\approx 2{,}13\\text{ m}$. Jeśli od miejsca uderzenia (w przestrzeni 3D): $D = \\sqrt{h^2 + x^2} = \\sqrt{2^2 + 2{,}13^2} \\approx 2{,}92\\text{ m}$. W oficjalnym kluczu CKE uznawano obie odpowiedzi."
+        }
+      ],
+      "numerical": "$x \\approx 2{,}13\\text{ m}$ (lub w przestrzeni $D \\approx 2{,}92\\text{ m}$)",
+      "answer": "Lotka upadła w odległości poziomej ok. $2{,}13\\text{ m}$ (lub w linii prostej ok. $2{,}92\\text{ m}$).",
+      "trap": "Zwróć uwagę na sformułowanie \"o jedną trzecią mniejsza\", co oznacza pomnożenie przez 2/3."
+    }
+  },
+  {
+    "id": "matura-cke-informator-2023-zad-2",
+    "number": 202302,
+    "title": "Zadanie maturalne CKE (Informator 2023)",
+    "year": "Informator 2023",
+    "difficulty": 2,
+    "source": "Oficjalny Informator CKE (Formuła 2023)",
+    "link": "https://arkusze.pl/informatory/informator-maturalny-fizyka-2023.pdf",
+    "tags": [
+      "Matura CKE",
+      "Rzut pionowy",
+      "Spadek swobodny",
+      "Kinematyka"
+    ],
+    "image": "img/cke_informator_2023_zad2.png",
+    "problem": "<div class=\"task-matura\">\n<h4>Zadanie 2. Spadająca kulka</h4>\n<p>Pionowo w dół rzucono metalową kulkę o masie $m = 0{,}250\\text{ kg}$. Na wysokości $h = 1{,}80\\text{ m}$ ponad podłożem, w chwili $t_0 = 0$, kulka osiągnęła prędkość o wartości $v_0 = 3{,}20\\text{ m/s}$. Licząc od wysokości $h$, aż do podłoża, kulka spadała swobodnie i się nie obracała. Po upadku na twarde podłoże kulka odbiła się od niego.</p>\n<p>Do analizy zjawiska przyjmij model, w którym pomijamy opory ruchu, a pole grawitacyjne Ziemi jest jednorodne i przyśpieszenie ziemskie ma wartość $g = 9{,}81\\text{ m/s}^2$.</p>\n\n<h4>Zadanie 2.1. (0–2)</h4>\n<p><strong>Oblicz czas spadania kulki od wysokości $h$ do momentu uderzenia o podłoże. Zapisz obliczenia.</strong></p>\n\n<h4>Zadanie 2.2. (0–2)</h4>\n<p><strong>Oblicz wartość prędkości kulki tuż przed uderzeniem o podłoże. Zapisz obliczenia.</strong></p>\n</div>",
+    "solution": {
+      "intuition": "Ruch jednostajnie przyspieszony z prędkością początkową skierowaną pionowo w dół. Czas wyznaczamy z równania kwadratowego drogi lub z prędkości końcowej.",
+      "givens": "$h = 1{,}80\\text{ m}$, $v_0 = 3{,}20\\text{ m/s}$, $g = 9{,}81\\text{ m/s}^2$",
+      "steps": [
+        {
+          "title": "Zadanie 2.1",
+          "content": "Równanie drogi: $h = v_0 t + \\frac{gt^2}{2} \\implies 4{,}905 t^2 + 3{,}20 t - 1{,}80 = 0$. $\\Delta = 3{,}20^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$. $\\sqrt{\\Delta} \\approx 6{,}7495$. Dodatni pierwiastek: $t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$."
+        },
+        {
+          "title": "Zadanie 2.2",
+          "content": "Wartość prędkości końcowej: $v_k = v_0 + gt = 3{,}20 + 9{,}81 \\cdot 0{,}3618 \\approx 6{,}75\\text{ m/s}$ (lub z zasady zachowania energii: $v_k = \\sqrt{v_0^2 + 2gh} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}75\\text{ m/s}$)."
+        }
+      ],
+      "numerical": "2.1: $t \\approx 0{,}36\\text{ s}$; 2.2: $v_k \\approx 6{,}75\\text{ m/s}$",
+      "answer": "2.1: $t \\approx 0{,}36\\text{ s}$; 2.2: $v_k \\approx 6{,}75\\text{ m/s}$.",
+      "trap": "Zwróć uwagę, że kulka miała prędkość początkową skierowaną w dół ($v_0 > 0$), więc nie jest to upuszczenie ze spoczynku."
+    }
+  }
+]

@@ -1,0 +1,100 @@
+Zadanie 1.
+Z niewielkiej wysokości nad poziomym podłożem uczniowie rzucili małą metalową kulkę.
+Prędkość v⃗0 kulki w chwili początkowej ruchu (𝑡0 = 0) miała kierunek poziomy. Gdy kulka się
+poruszała, uczniowie wykonali serię zdjęć stroboskopowych (w jednakowych odstępach
+czasu) kulki w płaszczyźnie ruchu. Na zdjęciu przedstawiającym położenia kulki uczniowie
+dorysowali kartezjański układ współrzędnych (𝑥, 𝑦) oraz tor ruchu kulki (zobacz rysunek
+poniżej).
+Następnie uczniowie wyznaczyli równanie toru ruchu kulki. W tym celu założyli, że torem
+ruchu jest fragment paraboli. W równaniu toru współczynniki liczbowe wyrażono
+w podstawowych jednostkach układu SI:
+𝑦 = 2 − 1
+18 𝑥2
+W zadaniach 1.1.–1.2. pomiń opór powietrza i przyjmij do obliczeń wartość przyśpieszenia
+ziemskiego 𝑔 = 9,81 m/s2.
+Zadanie 1.1. (0–1)
+Dokończ zdanie. Zaznacz właściwą odpowiedź spośród podanych.
+Czas lotu kulki od chwili 𝑡0 do chwili uderzenia o podłoże wynosi w zaokrągleniu
+A. 𝑡 ≈ 0,24 s B. 𝑡 ≈ 0,64 s C. 𝑡 ≈ 1,11 s D. 𝑡 ≈ 1,41 s
+Brudnopis
+𝑦, m
+0 𝑥, m
+𝑔
+0
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 28 --
+
+Strona 3 z 28
+MFAP-R0_100
+Zadanie 1.2. (0–3)
+Oblicz v𝟎 – wartość prędkości początkowej tej kulki. Zapisz obliczenia.
+Wypełnia
+egzaminator
+Nr zadania 1.1. 1.2.
+Maks. liczba pkt 1 3
+Uzyskana liczba pkt
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 28 --
+
+Strona 4 z 28 MFAP-R0_100
+Zadanie 2.
+Jednorodny walec o masie 𝑚 i promieniu 𝑅 obraca się z prędkością kątową 𝜔0 względem
+swojej osi symetrii. Obracający się walec jest utrzymywany poziomo w ten sposób, że nie
+dotyka podłoża (zobacz rysunki 1. i 2.). Moment bezwładności walca względem jego osi
+symetrii jest równy 𝐼 = 1
+2 𝑚𝑅2.
+Rysunek 1. Rysunek 2. (widok z boku)
+W pewnej chwili 𝑡0 = 0 obracający się walec położono na twardym, poziomym podłożu
+(zobacz rysunki 3. i 4.). Prędkość ruchu postępowego walca w chwili 𝑡0 była równa zero.
+Od tego momentu – na skutek ruchu obrotowego – walec toczył się przez pewien czas
+z poślizgiem.
+Rysunek 3. Rysunek 4. (widok z boku)
+Uwzględnij tarcie kinetyczne (poślizgowe), ale pomiń inne opory ruchu. Przyjmij, że siła
+tarcia działająca na walec ma stałą wartość.
+Zadanie 2.1. (0–1)
+Na rysunku poniżej zaznaczono kierunek obrotu walca, gdy walec już toczy się z poślizgiem
+po poziomym podłożu. Środek masy walca oznaczono jako 𝑆, a punkt na walcu, przy styku
+z podłożem, oznaczono jako 𝐴.
+Narysuj wektor siły tarcia kinetycznego 𝑻	⃗⃗ przyłożony w punkcie 𝑨. Uwzględnij
+prawidłowy kierunek i zwrot tego wektora.
+𝜔0
+𝑅
+𝜔0
+𝑅
+𝑆
+𝐴
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 28 --
+
+Strona 5 z 28
+MFAP-R0_100
+Zadanie 2.2. (0–1)
+Dokończ zdanie. Zaznacz odpowiedź A, B albo C oraz odpowiedź 1., 2. albo 3.
+Do momentu, gdy poślizg walca ustał, walec poruszał się ruchem postępowym
+A. jednostajnym,
+a prędkość kątowa ruchu
+obrotowego walca
+1. była stała.
+B. przyśpieszonym, 2. się zwiększała.
+C. opóźnionym, 3. się zmniejszała.
+Zadanie 2.3. (0–4)
+W chwili 𝑡1, gdy poślizg walca ustał, środek walca osiągnął prędkość liniową o wartości v1
+i prędkość kątową o wartości 𝜔1.
+Oblicz wartość liczbową ilorazu prędkości kątowych 𝝎𝟏
+𝝎𝟎
+. Zapisz obliczenia.
+Wskazówka: Podczas poślizgu 𝑎 ≠ 𝜖𝑅, gdzie 𝑎 jest wartością przyśpieszenia liniowego
+walca, 𝜖 jest wartością przyśpieszenia kątowego walca.
+Wypełnia
+egzaminator
+Nr zadania 2.1. 2.2. 2.3.
+Maks. liczba pkt 1 1 4
+Uzyskana liczba pkt
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 28 --
+
+Strona

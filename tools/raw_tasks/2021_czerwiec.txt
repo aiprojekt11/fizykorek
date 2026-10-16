@@ -1,0 +1,97 @@
+Zadanie 1.
+Z wieży obserwacyjnej wystrzelono małą kulkę. Prędkość vሬ⃗ ଴ kulki w chwili początkowej ruchu
+(𝑡଴ = 0) miała kierunek poziomy. Na wykresie poniżej, w układzie współrzędnych (𝑥, 𝑦),
+przedstawiono tor lotu kulki od chwili 𝑡଴ aż do momentu uderzenia kulki w poziome podłoże.
+Przyjmij do obliczeń przyśpieszenie ziemskie 𝑔 = 9,81 m/s ଶ. W zadaniach 1.1.–1.3. pomiń
+opory ruchu.
+Zadanie 1.1. (0–2)
+Na podstawie danych odczytanych z wykresu oblicz czas lotu kulki od chwili 𝒕 𝟎 = 𝟎, aż
+do chwili uderzenia kulki o ziemię.
+𝑦, m
+20
+10
+0 0 	10 	20 	30 	40 	𝑥, m
+𝑔⃗
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 24 --
+
+Strona 3 z 23
+EFAP-R0_100
+Zadanie 1.2. (0–4)
+Torem ruchu kulki jest fragment paraboli opisanej równaniem:
+𝑦 = −0,0125 ⋅ 𝑥 ଶ + 20 	gdzie 	𝑥 ∈ [0,40]
+Współczynniki 	liczbowe 	w 	tym 	równaniu 	wyrażone 	są 	(domyślnie) 	w 	podstawowych
+jednostkach układu SI.
+Wyprowadź powyższe równanie toru lotu kulki na podstawie równań ruchu rzutu
+poziomego oraz położenia początkowego i końcowego kulki podczas lotu.
+Zadanie 1.3. (0–1)
+Na rysunku poniżej narysuj wektor siły działającej na kulkę podczas lotu, gdy znajduje
+się ona w punkcie 𝑨. Zapisz obok rysunku nazwę tej siły.
+𝑦
+𝑥
+𝐴
+Nazwa siły:
+.................................................
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 24 --
+
+Strona 4 z 23 EFAP-R0_100
+Zadanie 2.
+Lekki, sztywny pręt o długości 𝑙 = 50 cm zamocowano na statywie tak, że może się on
+swobodnie 	obracać 	wokół 	osi 	przechodzącej 	przez 	jego 	środek. 	Do 	końców 	pręta
+zamocowano dwa małe ciężarki o masach 𝑚ଵ = 200 g i 𝑚 ଶ = 50 g (zobacz rys. 1.). Pręt
+połączono z podstawą statywu za pomocą nici tak, że pozostawał on nieruchomy w pozycji
+poziomej. Odległość punktu mocowania nici na pręcie od osi obrotu jest równa 𝑑 = 10 cm.
+Rysunek 1.
+Do analizy zagadnienia przyjmij model zjawiska, w którym:
+• 	pomijamy siły oporów ruchu
+• 	pomijamy masę pręta
+• 	oba ciężarki traktujemy jako punkty materialne
+• 	przyśpieszenie ziemskie wynosi 𝑔 = 9,8 m/s 2.
+Zadanie 2.1. (0–1)
+Dokończ zdanie. Zaznacz właściwą odpowiedź spośród podanych.
+Siła 𝐹⃗, z jaką napięta nić działa na pręt w sytuacji, gdy jest on nieruchomy, ma wartość (po
+zaokrągleniu do dwóch cyfr znaczących)
+A. 𝐹 ≈ 1,8 N 	B. 𝐹 ≈ 2,5 N 	C. 𝐹 ≈ 3,7 N 	D. 𝐹 ≈ 6,1 N
+Brudnopis
+nić
+oś obrotu
+𝑚ଵ 	𝑚 ଶ
+𝑑
+pręt
+𝑔⃗
+𝑙
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 24 --
+
+Strona 5 z 23
+EFAP-R0_100
+Zadanie 2.2. (0–3)
+W pewnej chwili przecięto nić utrzymującą pręt z ciężarkami
+w równowadze. W wyniku tego pręt zaczął się obracać. Gdy
+pręt przechodził przez położenie pionowe (zobacz rys. 2.),
+to wartość prędkości liniowej każdego z ciężarków była
+maksymalna. Tę maksymalną wartość prędkości każdego
+ciężarka oznaczymy jako v௠௔௫.
+Oblicz v𝒎𝒂𝒙.
+𝑚 ଶ
+𝑚ଵ
+vሬ⃗ ௠௔௫
+−vሬ⃗ ௠௔௫
+Rysunek 2.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 24 --
+
+Strona 6 z 23 EFAP-R0_100
+Zadanie 3.
+Rozważamy pewną planetę skalistą, która ma kształt kulisty oraz sferycznie symetryczny
+rozkład masy. Promień tej planety jest równy 𝑅 = 6000 km. Wartość 𝑎௕ przyśpieszenia,
+z jakim spada ciało swobodnie puszczone tuż nad powierzchnią tej planety na jej biegunie,
+jest o 20% większe od wartości 𝑎௥ przyśpieszenia w kierunku pionowym, z jakim spada ciało
+swobodnie puszczone tuż nad powierzchnią tej planety na jej równiku.
+Przyjmij następujące założenia oraz warunki:
+• 	wartości 𝑎௕ oraz 𝑎௥ obu przyśpieszeń określone są w nieinercjalnym układzie odniesi

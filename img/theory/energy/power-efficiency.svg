@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Moc i sprawność urządzenia</title>
+  <desc id="desc">Energia pobrana przepływa przez urządzenie. Część staje się energią użyteczną, a część stratami. Moc mówi, jak szybko energia jest przekazywana.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/>
+     <text class="t label" x="380" y="54" text-anchor="middle">ile energii w każdej sekundzie?</text>
+     <rect x="60" y="122" width="154" height="76" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/><text class="t small blue" x="137" y="151" text-anchor="middle">energia</text><text class="t small blue" x="137" y="176" text-anchor="middle">pobrana E₍c₎</text>
+     <line x1="216" y1="160" x2="292" y2="160" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/>
+     <rect x="301" y="104" width="160" height="112" rx="20" fill="#eff6ff" stroke="#0f172a" stroke-width="3"/><circle cx="381" cy="148" r="24" fill="none" stroke="#2563eb" stroke-width="5"/><path d="M381 120v56M353 148h56" stroke="#2563eb" stroke-width="3"/><text class="t label" x="381" y="202" text-anchor="middle">urządzenie</text>
+     <line x1="463" y1="140" x2="544" y2="106" stroke="#16a34a" stroke-width="5" marker-end="url(#arrow-green)"/><text class="t small green" x="555" y="96">E użyteczna</text>
+     <line x1="463" y1="181" x2="544" y2="222" stroke="#dc2626" stroke-width="5" marker-end="url(#arrow-red)"/><text class="t small red" x="555" y="232">straty: ciepło</text>
+     <text class="t label blue" x="178" y="273" text-anchor="middle">P = W / t</text><text class="t label green" x="530" y="273" text-anchor="middle">η = Eᵤ / E꜀</text>
+</svg>

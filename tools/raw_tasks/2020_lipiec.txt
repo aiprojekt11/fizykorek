@@ -1,0 +1,74 @@
+Zadanie 1.
+Pewien samolot pasażerski odrywa się od ziemi po osiągnięciu prędkości o wartości 288 km/h
+w kierunku poziomym.
+W zadaniach 1.1.–1.2. przyjmij uproszczony model zjawiska oparty na założeniu, że prędkość
+samolotu w chwili początkowej t0 = 0 wynosiła zero i aż do momentu oderwania się od ziemi
+samolot poruszał się ruchem jednostajnie przyśpieszonym prostoliniowym względem ziemi.
+Zadanie 1.1. (0–2)
+Gdy ten samolot rozpędzał się po poziomym pasie startowym lotniska, to przebył drogę 45 m
+w czasie od chwili t7 = 7 s do chwili t10 = 10 s.
+Oblicz wartość przyśpieszenia samolotu w tej sytuacji.
+Zadanie 1.2. (0–2)
+Innym razem ten sam samolot rozpędzał się po pasie startowym, poruszając się ze stałym
+przyśpieszeniem o wartości 1,4 m/s2 .
+Ustal i zapisz, czy w takim przypadku samolot mógłby oderwać się od ziemi, gdyby
+rozpędził się po pasie startowym o długości 1 900 m. Wykonaj niezbędne obliczenia.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 24 --
+
+Strona 3 z 19
+MFA_1R
+Zadanie 2. (0–3)
+Magnetyczny 	wieszak 	(metalowy 	haczyk 	z 	magnesem) 	jest 	przeznaczony 	do
+mocowania na płaskiej, ustawionej pionowo, stalowej płycie. Na haczyku można
+wieszać różne przedmioty (zobacz rysunek obok) o masie mniejszej lub równej
+3,6 kg – w takiej sytuacji wieszak pozostaje nieruchomy. Zawieszony przedmiot
+o masie większej od 3,6 kg spowoduje, że wieszak przesunie się w dół.
+Pomiń masę samego wieszaka oraz pomiń możliwość oderwania się wieszaka od płyty
+na skutek obrotu. Przyjmij, że zawieszony przedmiot nie dotyka płyty. Współczynnik
+tarcia statycznego magnesu o powierzchnię płyty jest równy 0,15.
+Oblicz wartość siły, z jaką nieruchomy wieszak jest przyciągany przez stalową
+płytę.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 24 --
+
+Strona 4 z 19 MFA_1R
+Zadanie 3.
+Sześciokątna hantla do ćwiczeń gimnastycznych (zobacz rysunek
+obok) 	ma 	masę 	m = 2 kg 	i 	jest 	wykonana 	z 	jednorodnego
+materiału. Na rysunku linią przerywaną oznaczono oś symetrii
+hantli przy jej obrocie o kąt 60°.
+Dodatkowe informacje do zadań 3.1.–3.2.
+Tę hantlę położono na desce w sposób pokazany na rysunku 1. Następnie powoli podnoszono
+górny koniec deski (zobacz rysunek 2.). Kąt nachylenia deski do poziomu oznaczymy jako 𝛼.
+Zauważono, że dopiero przy nachyleniu deski pod kątem większym niż α1 = 40° hantla zaczęła
+się z niej zsuwać (zobacz rysunek 3.).
+Zadanie 3.1. (0–2)
+Oblicz współczynnik tarcia statycznego hantli o deskę.
+Zadanie 3.2. (0–2)
+a) Wyprowadź wzór opisujący zależność wartości T siły tarcia statycznego od kąta α, dla
+𝟎° < α < 40° (gdy siła tarcia statycznego nie osiągnęła jeszcze wartości maksymalnej).
+Rysunek 1. 	Rysunek 2. 	Rysunek 3.
+α 	α > 40°
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 24 --
+
+Strona 5 z 19
+MFA_1R
+b) Wykaż, że podczas podnoszenia deski, gdy hantla się nie przesuwała, wartość siły tarcia
+statycznego rosła.
+Zadanie 3.3. (0–2)
+Za drugim razem hantlę położono na desce w sposób pokazany na rysunku 4. i ponownie powoli
+podnoszono górny koniec deski. Przy pewnym kącie α2 – nachylenia deski do poziomego
+podłoża – hantla zaczęła się toczyć (obracać względem deski) bez poślizgu. Na rysunku poniżej
+kreskami przerywanymi oznaczono linie pomocnicze do analizy sił lub momentów sił. Rysunek
+przedstawia sytuację, gdy α < α2 .
+Rysunek 4.
+Wyznacz kąt α2 nachylenia deski do poziomego podłoża, przy którym hantla zaczęła się
+toczyć (obracać względem deski) bez poślizgu. Odpowiedź uzasadnij.
+gሬ⃗
+α
+Więcej arkuszy znajdziesz na stro

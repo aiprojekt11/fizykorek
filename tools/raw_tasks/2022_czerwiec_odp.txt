@@ -1,0 +1,85 @@
+1.1. (0–2)
+Zasady oceniania
+2 pkt – poprawne wyskalowanie osi oraz poprawne narysowanie przemieszczeń w trzech
+etapach (tzn. zgodnie z wektorami przemieszczeń i położeniem początkowym).
+1 pkt – poprawne wyskalowanie osi oraz narysowanie przemieszczenia w jednym z etapów,
+zgodnego z wektorem przemieszczenia (tzn. niezależnie od współrzędnych początku
+danego przemieszczenia)
+LUB
+– brak wyskalowania osi oraz narysowanie przemieszczeń w trzech etapach, zgodnych
+ze skalą wynikającą z rysunku i położeniem początkowym.
+0 pkt – brak spełnienia powyższych kryteriów.
+Przykładowe rozwiązanie
+𝑥, cm
+𝑦, cm
+0 10 20 30 40 50 60 70	-70 -60 -50 -40 -30 -20 -10
+70
+60
+50
+40
+30
+20
+10
+0
+-10
+-20
+-30
+-40
+-50
+-60
+-70
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 18 --
+
+Zasady oceniania rozwiązań zadań
+Strona 3 z 18
+Zadanie 1.2. (0–3)
+Zasady oceniania
+3 pkt – poprawna metoda obliczenia całkowitego czasu ruchu robota oraz prawidłowy wynik
+liczbowy z jednostką.
+2 pkt – poprawna metoda i poprawne obliczenie czasów ruchu robota w każdym etapie ruchu
+LUB
+– poprawne wyznaczenie długości odcinków w każdym etapie ruchu robota oraz
+poprawna metoda wyznaczenia całkowitego czasu ruchu robota, tzn. skorzystanie
+z równań ruchu do obliczenia czasu ruchu w danym etapie oraz dodanie trzech
+czasów.
+1 pkt – poprawne wyznaczenie długości odcinków w każdym etapie ruchu robota
+LUB
+– poprawne obliczenie czasu ruchu robota w jednym z trzech etapów, tzn. poprawne
+wyznaczenie długości odcinka w danym etapie i skorzystanie z równania ruchu
+jednostajnego prostoliniowego.
+0 pkt – brak spełnienia powyższych kryteriów.
+Przykładowe rozwiązanie
+Ustalimy / obliczymy długości odcinków przebytych na każdym z trzech etapów ruchu robota:
+𝑠𝐼 = √502 + 202 cm ≈ 54 cm ≈ 0,54 m
+𝑠𝐼𝐼 = √02 + 402 cm = 40 cm = 0,4 m
+𝑠𝐼𝐼𝐼 = √(−120)2 + 02 cm = 120 cm = 1,2 m
+Obliczymy czasy, w których robot przebył ruchem jednostajnym każdy z trzech odcinków:
+𝑡𝐼 = 𝑠𝐼
+𝑣𝐼
+≈ 54 cm
+4 cm
+s
+= 13,5 s
+𝑡𝐼𝐼 = 𝑠𝐼𝐼
+𝑣𝐼𝐼
+= 40 cm
+2 cm
+s
+= 20 s
+𝑡𝐼𝐼𝐼 = 𝑠𝐼𝐼𝐼
+𝑣𝐼𝐼𝐼
+= 120 cm
+4 cm
+s
+= 30 s
+Obliczymy czas ruchu robota od chwili 𝑡 = 0 do końca trzeciego etapu ruchu:
+𝑡 = 𝑡1 + 𝑡2 + 𝑡3 ≈ 63,5 s
+Zadanie 1.3. (0–2)
+Zasady oceniania
+2 pkt – poprawna metoda wyznaczenia czasu pracy robota oraz prawidłowy wynik liczbowy
+z jednostką (2,1 h lub 126 min lub 7560 s).
+1 pkt – poprawna metoda wyznaczenia czasu pracy robota, tzn. skorzystanie ze związku
+między mocą a pracą i czasem i poprawne podstawienie danych do wzoru.
+0 pkt – 

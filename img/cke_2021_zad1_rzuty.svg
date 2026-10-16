@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg2021" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+    <marker id="arr2021" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#c084fc"/>
+    </marker>
+    <marker id="arrCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="440" rx="16" fill="url(#bg2021)" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Title Badge -->
+  <rect x="25" y="20" width="370" height="32" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <text x="38" y="41" fill="#38bdf8" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-weight="700" font-size="13">CKE Matura 2021 • Zadanie 1 (Dwa rzuty poziome)</text>
+
+  <!-- Diagram Area:
+       Ground at y = 370.
+       Left wall at x = 100.
+       Landing point at x = 540.
+       Height h1 = 5m (at y = 120, delta = 250px).
+       Height h2 = 2m (at y = 270, delta = 100px).
+  -->
+  <!-- Ground line -->
+  <line x1="60" y1="370" x2="660" y2="370" stroke="#64748b" stroke-width="3"/>
+  <!-- Ground hashes -->
+  <g stroke="#475569" stroke-width="1.5">
+    <line x1="80" y1="370" x2="70" y2="385"/>
+    <line x1="140" y1="370" x2="130" y2="385"/>
+    <line x1="200" y1="370" x2="190" y2="385"/>
+    <line x1="260" y1="370" x2="250" y2="385"/>
+    <line x1="320" y1="370" x2="310" y2="385"/>
+    <line x1="380" y1="370" x2="370" y2="385"/>
+    <line x1="440" y1="370" x2="430" y2="385"/>
+    <line x1="500" y1="370" x2="490" y2="385"/>
+    <line x1="560" y1="370" x2="550" y2="385"/>
+    <line x1="620" y1="370" x2="610" y2="385"/>
+  </g>
+  <text x="665" y="375" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Podłoże</text>
+
+  <!-- Left vertical wall/platform -->
+  <rect x="70" y="120" width="30" height="250" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+
+  <!-- Ball 1 at height h1 = 5m -->
+  <circle cx="100" cy="120" r="7" fill="#38bdf8"/>
+  <text x="115" y="115" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14">Kulka 1</text>
+  <!-- Vector v_01 -->
+  <line x1="100" y1="120" x2="190" y2="120" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrCyan)"/>
+  <text x="140" y="110" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">v_01</text>
+
+  <!-- Height h1 dimension -->
+  <line x1="50" y1="120" x2="50" y2="370" stroke="#38bdf8" stroke-width="1.5"/>
+  <line x1="45" y1="120" x2="55" y2="120" stroke="#38bdf8" stroke-width="1.5"/>
+  <line x1="45" y1="370" x2="55" y2="370" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="20" y="250" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="12">h₁ = 5 m</text>
+
+  <!-- Ball 2 at height h2 = 2m -->
+  <circle cx="100" cy="270" r="7" fill="#c084fc"/>
+  <text x="115" y="265" fill="#c084fc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14">Kulka 2</text>
+  <!-- Vector v_02 -->
+  <line x1="100" y1="270" x2="230" y2="270" stroke="#c084fc" stroke-width="3" marker-end="url(#arrPurple)"/>
+  <text x="165" y="260" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">v_02</text>
+
+  <!-- Height h2 dimension -->
+  <line x1="85" y1="270" x2="85" y2="370" stroke="#c084fc" stroke-width="1.5"/>
+  <text x="88" y="325" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="11">h₂ = 2 m</text>
+
+  <!-- Parabolic Trajectory 1: from (100, 120) to (540, 370) -->
+  <path d="M 100 120 Q 350 125 540 370" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- Parabolic Trajectory 2: from (100, 270) to (540, 370) -->
+  <path d="M 100 270 Q 320 275 540 370" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- Landing point P -->
+  <circle cx="540" cy="370" r="8" fill="#fbbf24" stroke="#ffffff" stroke-width="2"/>
+  <text x="550" y="390" fill="#fbbf24" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14">Wspólny punkt upadku</text>
+
+  <!-- Equal range z dimension -->
+  <line x1="100" y1="410" x2="540" y2="410" stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="100" y1="405" x2="100" y2="415" stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="540" y1="405" x2="540" y2="415" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="320" y="405" text-anchor="middle" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="12">Wspólny zasięg z₁ = z₂ = z</text>
+</svg>

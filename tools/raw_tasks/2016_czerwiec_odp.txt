@@ -1,0 +1,69 @@
+Schemat oceniania, nowa matura, czerwiec
+Zad. Punktacja
+1 2 p 2 pkt – zaznaczenia 1–P, 2–F, 3–P, 4–F.
+1 pkt – trzy poprawne zaznaczenia
+2 2 p
+2 p – poprawny rysunek i poprawne wartości vA = 20 m/s, vC =
+0 m/s (dopuszczamy teŜ wartość 0 bez jednostki)
+„poprawny rysunek” oznacza poziomy kierunek vA i ukośne
+kierunki vB i vD
+1 p – poprawny rysunek
+lub
+– poprawne wartości vA i vC
+3a 1 p Napisanie o zaleŜności siły oporu od prędkości (jeśli prędkość ma tę samą wartość, to
+siła oporu takŜe)
+3b 2 p
+W czasie ruchu łodzi w dół obowiązuje równanie Fwyporu = Mg – Fop, a w czasie
+ruchu w górę – równanie Fwyporu = (M – m)g + Fop. Stąd otrzymujemy Fop = ⡩
+⡰ mg =
+19,6 kN (lub 20 kN).
+2 pkt – poprawna metoda i wynik
+1 pkt – poprawne jedno z powyŜszych równań wiąŜących siłę wyporu z siłą oporu i
+siłą cięŜkości
+4 2 p 2 pkt – zaznaczenia 1–P, 2–F, 3–P, 4–P.
+1 pkt – trzy poprawne zaznaczenia
+5a 3 p
+3 pkt – poprawna metoda obliczenia siły (np. ze wzoru Fodśr = m䙲⡰ゕ
+〡 䙳⡰
+r), poprawny
+wynik (np. dla r = 10 cm Fodśr = 1,78·10–4 N), wyskalowanie osi oraz narysowanie
+poprawnego wykresu (proporcjonalnego)
+2 pkt – poprawna metoda obliczenia, błąd obliczeń lub błąd przeliczenia jednostek,
+wyskalowanie osi oraz narysowanie wykresu proporcjonalnego zgodnego z
+wynikiem obliczeń
+lub
+– poprawna metoda i wynik obliczenia siły
+1 pkt – poprawne uzasadnienie proporcjonalności Fodśr do r i zgodny z tym wykres
+(wystarczy jakikolwiek liniowy)
+lub
+– poprawna metoda obliczenia siły
+5b 2 p
+2 pkt – Praca wykonana przez mrówkę jest równa polu pod wykresem (polu trapezu).
+Odczytując odpowiednie dane z wykresu, otrzymujemy:
+W = ⡩
+⡰ (1,78 + 2,67)·10–4 N · 0,05 m = 1,11·10–5 J (lub 1,1·10–5 J)
+Jeśli zdający zastosuje poprawną metodę i otrzyma inny wynik wyłącznie z powodu
+błędu popełnionego przy rysowaniu wykresu, otrzymuje 2 punkty.
+1 pkt – poprawna metoda rozwiązania, błąd rachunkowy
+lub
+– metoda polegająca na obliczeniu pola prostokąta (przyjęciu, Ŝe siła jest stała),
+wynik zgodny z tym przybliŜeniem (od 8,9·10–6 J do 1,4·10–5 J)
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 1 of 5 --
+
+6 3 p
+Stosujemy równanie stanu do pompki zawierającej powietrze pod ciśnieniem
+atmosferycznym
+paVa = naRT (Va = 0,4 dm3, na – liczba moli powietrza w pompce)
+oraz do napompowanej piłki
+ppVp = npRT (Vp = 3 dm3, np – liczba moli powietrza w piłce)
+Liczba cykli pompowania jest równa stosunkowi np/na, po zaokrągleniu w górę do
+liczby całkowitej. Podstawiamy pp = 3pa i obliczamy
+ぁ㊑
+ぁ㉶
+= ぃ㊑〣㊑
+ぃ㉶〣㉶
+= ⡱ · ⡱
+⡨,⡲ = 22,5
+czy

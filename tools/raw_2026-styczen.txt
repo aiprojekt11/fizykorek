@@ -1,0 +1,877 @@
+
+--- PAGE 1 ---
+Układ graficzny
+© CKE 2022
+WYPEŁNIA ZDAJĄCY
+KOD   PESEL
+Próbny e gzamin maturalny   Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Symbol arkusza
+M FAP - R0 - 100 - 2601
+D ATA :  13 stycznia   202 6   r.
+G  ODZINA ROZPOCZĘCIA :  9:00
+C  ZAS TRWANIA :  180  minut
+L ICZBA PUNKTÓW DO UZY SKANIA :  60
+Przed rozpoczęciem pracy z arkuszem egzaminacyjnym
+1.   Sprawdź, czy nauczyciel przekazał Ci  właściwy arkusz egzaminacyjny ,
+tj.   arkusz we  właściwej formule , z  właściwego przedmiotu   na  właściwym
+poziomie .
+2.   Jeżeli przekazano Ci  niewłaściwy   arkusz  –   natychmiast zgłoś to nauczycielowi.
+Nie rozrywaj banderol.
+3.   Jeżeli przekazano Ci  właściwy   arkusz  –   rozerwij banderole po otrzymaniu
+takiego polecenia od nauczyciela. Zapoznaj się z instrukcją na stronie 2.
+Miejsce na naklejkę.
+Sprawdź, czy kod na naklejce to
+M - 100 .
+Jeżeli tak  –   przyklej   naklejkę.
+Jeżeli nie  –   zgłoś to nauczycielowi.
+Arkusz zawiera informacje prawnie chronione
+do momentu rozpoczęcia egzaminu.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 2 ---
+Strona  2   z  29
+MFAP - R0_100
+Instrukcja dla zdającego
+1.   Sprawdź, czy arkusz egzaminacyjny  zawiera  29   stron (zadania  1 – 12 ).
+Ewentualny brak zgłoś przewodniczącemu zespołu nadzorującego egzamin.
+2.   Na  pierwszej   stronie   arkusza   oraz na karcie odpowiedzi wpisz swój numer PESEL
+i   przyklej naklejkę z   kodem.
+3.   Symbol    zamieszczony przy  zadaniu zamkniętym   oznacza,  że rozwiązanie  tego
+zadania musisz przenieść na kartę odpowiedzi. Ocenie podlegają wyłącznie odpowiedzi
+zaznaczone na  karcie odpowiedzi.
+4.   Odpowiedzi do zadań zamkniętych  oznaczonych symbolem    zaznacz na karcie
+odpowiedzi w części przeznaczonej dla zdającego :
+•   z amaluj    pola  do tego przeznaczone
+•   b łędne zaznaczenie otocz kółkiem     i zaznacz właściwe.
+5.   Rozwiązania  pozostałych  zadań   zapisz w miejscu na to przeznaczonym przy zadaniu.
+6.   W rozwiązaniach zadań rachunkowych przedstaw  tok rozumowania prowadzący do
+ostatecznego wyniku oraz pamiętaj o jednostkach. Przedstaw obliczenia pośrednie
+wskazujące na wykorzystanie warunków zadania   oraz praw i zależności fizycznych.
+7.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do rozwiązania
+zadania będzie niezbędne użycie kalkulatora pozwalającego obliczać wartości
+logarytmów, funkcji trygonometrycznych oraz funkcji wykładniczych .
+8.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do
+rozwiązania zadania będzie pomocne lub niezbędne użycie linijki.
+9.   Pisz czytelnie. Używaj długopisu/pióra tylko z czarnym tuszem/atramentem.
+10.   Nie używaj korektora, a błędne zapisy wyraźnie p rzekreśl.
+11.   Nie wpisuj żadnych znaków w tabelkach przeznaczonych dla egzaminatora.
+Tabelki są  umieszczone  na marginesie przy  wybranych zadaniach .
+12.   Pamiętaj, że zapisy w brudnopisie nie będą oceniane.
+13.   Możesz korzystać z  Wybranych wzorów i stałych  fizykochemicznych na   egzamin
+maturalny z biologii, chemii i fizyki , z linijki oraz z kalkulatora   naukowego. Upewnij się,
+czy przekazano Ci broszurę z okładką taką jak widoczna poniżej.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 3 ---
+Strona  3   z  29
+MFAP - R0_100
+Zadania egzaminacyjne są wydrukowane
+na następnych stronach.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 4 ---
+Strona  4   z  29
+MFAP - R0_100
+Zadanie 1.
+Ciało  풞   o masie  푚 = 4 , 0   kg   porusza się wzdłuż osi  푥   w inercjalnym   układzie   odniesienia .
+Na poniższym wykresie przedstawiono zależność współrzędnej  푝 푥   pędu ciała  풞   od czasu  푡
+w   tym ruchu.
+Od chwili  푡 = 0   s   do chwili  푡 = 8   s   na ciało  풞   działa siła wypadkowa  퐹 ⃗ 푊 1 .
+Od   chwili  푡 = 8   s   do chwili  푡   = 12   s   na ciało  풞   działa siła wypadkowa  퐹 ⃗ 푊 2 .
+Siła  퐹 ⃗ 푊 2   jest wypadkową sił  퐹 ⃗ 3   i   퐹 ⃗ 4   skierowanych wzdłuż osi  푥 .   Siła  퐹 ⃗ 3   ma wartość  퐹 3 = 20   N
+i zwrot  zgodny   ze zwrotem osi  푥 , natomiast siła  퐹 ⃗ 4   ma zwrot  przeciwny   do zwrotu osi  푥 .
+Zadanie 1.1.  (0 – 1)
+Dokończ zdanie.  Wybierz   właściwą odpowiedź spośród podanych.
+Przyśpieszenie ciała   풞   podczas ruchu od chwili  푡   = 0   s   do chwili  푡 = 8   s   ma wartość
+A.     푎 = 1 , 25   m / s 2     B.     푎 = 2 , 19   m / s 2   C.     푎 = 5 , 0   m / s 2   D.     푎 = 8 , 75   m / s 2
+Brudnopis
+Zadanie 1.2.  (0 – 1)
+Dokończ zdanie.  Wybierz   odpowiedź A albo  B   oraz odpowiedź   1.   albo  2 .
+Siła wypadkowa  퐹 ⃗ 푤 2   ma zwrot
+A.
+zgodny ze zwrotem
+prędkości ciała  풞 ,
+a wartość tej siły jest
+1.   większa od   wartości siły   퐹 ⃗ 푤 1 .
+B .
+przeciwny do zwrotu
+prędkości ciała  풞 ,
+2 .   mniejsza   od   wartości siły   퐹 ⃗ 푤 1 .
+0
+20
+40
+60
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 t , s
+p x , kg ‧ m/s
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 5 ---
+Strona  5   z  29
+MFAP - R0_100
+Zadanie 1.3.  (0 – 3)
+Oblicz wartość siły  푭 ⃗ ⃗ ⃗ ퟒ .   Zapisz obliczenia.
+Zadanie 1.4.  (0 – 2)
+Oblicz drogę, jaką przebyło ciało  퓒   od chwili  풕 ퟎ = ퟎ   퐬   do chwili   풕 = ퟏퟐ   s .
+Zapisz obliczenia.
+1.3.
+0 – 1 –
+2 – 3
+1.4.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 6 ---
+Strona  6   z  29
+MFAP - R0_100
+Zadanie 2.
+Kula K1 o masie  푚 1   porusza się  z   prędkością  v ⃗ ⃗ 1   a kula K2 o masie  푚 2   spoczywa.
+Wektor  v ⃗ ⃗ 1    jest skierowany w stronę środka kuli K2. Sytuację ilustruje rysunek 1.
+Rysunek 1.
+W pewnej chwili kula K1 uderzyła w kulę K2. W wyniku tego obie kule uzyskały prędkości
+o   przeciwnych zwrotach i  o  tych samych wartościach . Sytuację ilustruje rysunek 2.
+Rysunek 2.
+Przyjmujemy model zjawiska, w  którym:
+•   opisany ruch kul odbywa się w inercjalnym układzie odniesienia
+•   przed zderzeniem i po zderzeniu kule poruszają się ruchem jednostajnym prostoliniowym
+•   zderzenie kul jest idealnie sprężyste
+•   kule  oddziałują ze sobą tylko podczas zderzenia
+•   kule się nie   obracają .
+Zadanie 2.1. (0 – 1)
+Na rysunku 3. poniżej narysuj parę sił wzajemnego oddziaływania między kulami
+podczas ich zderzenia. Każdą z sił przyłóż  –   odpowiednio  –   w  środku   kuli K1 lub
+środku   kuli K2.  Zachowaj odpowiednie kierunki i  zwroty tych sił oraz relację (większy,
+równy, mniejszy) między ich wartościami.
+Rysunek 3.
+K1
+v ⃗ ⃗ 1
+K2
+푚 2     푚
+1
+K1
+− v ⃗ ⃗ 2
+K2
+푚 2     푚
+1     v ⃗ ⃗
+2
+K1   K2
+2.1.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 7 ---
+Strona  7   z  29
+MFAP - R0_100
+Zadanie 2.2.  (0 – 4)
+Oblicz iloraz
+풎 ퟐ
+풎 ퟏ
+mas tych kul.  Zapisz obliczenia.  W rozwiązaniu zapisz równania
+wynikające z   zasad zachowania odpowiednich wielkości.
+2.2.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 8 ---
+Strona  8   z  29
+MFAP - R0_100
+Zadanie  3.
+Jednorodną sztywną płytę  풫   umieszczono na dwóch  równoległych do siebie  osiach z   kołami.
+Przyjmij następujące dane oraz oznaczenia:
+•   siłę ciężkości działającą na płytę oznaczymy jako  푄 ⃗ ⃗ 푃
+•   osie oznaczymy jako  O 1   oraz  O 2
+•   koła umieszczone na końcach każdej osi są jednakowe
+•   środek masy płyty oznaczymy jako  푆
+•   osie  O 1   oraz  O 2   działają na płytę  –   odpowiednio  –   siłami reakcji  퐹 ⃗ 1   oraz  퐹 ⃗ 2
+•   krawędzie płyty oznaczymy jako  A   i  B , odległości wzajemne między krawędziami płyty
+a   osiami są następujące :
+| AO 1 | = 2   m           | O 1 O 2 | = 4   m         | O 2 B | = 3   m
+•   układ  rozpatrujemy w inercjaln ym układzie odniesienia, w jednorodnym, ziemskim polu
+grawitacyjnym.
+Sytuację ilustruje rysunek   1 .
+Rysunek 1.
+Zadanie  3 . 1 .  (0 – 1 )
+Rozważamy sytuację 1., gdy na płycie  nie ma   żadnego obciążenia   (jak na rysunku 1.) .
+Dokończ zdanie.  Wybierz   odpowiedź A albo  B   oraz odpowiedź   1. , 2.   albo  3 .
+M iędzy wartościami  퐹 1 ,  퐹 2 ,  푄 푃   sił działających  na płytę w sytuacji 1. zachodzą relacje
+퐹 2 > 퐹 1
+oraz
+1.   퐹 1 + 퐹 2 = 푄 푃
+A.
+2.   퐹 1 + 푄 푃 = 퐹 2
+퐹 2 < 퐹 1   B.
+3.   푄 푃 + 퐹 2 = 퐹 1
+Brudnopis
+O 1     O 2
+A     B
+2   m     4   m     3   m
+푔 ⃗
+푆
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 9 ---
+Strona  9   z  29
+MFAP - R0_100
+Zadanie  3 . 2 .  (0 – 3 )
+Rozważamy sytuację 2., gdy n a płycie położono mały   klocek   풦 .
+Siła ciężkości  푄 ⃗ ⃗ 퐾   działająca na klocek  ma   wartość  푄 퐾 = 0 , 4 ⋅ 푄 푃 .
+Odległość  środka  klocka  풦   od osi przechodzącej przez środek  푆   płyty oznaczymy jako  푥 .
+Siły reakcji  osi   O 1   oraz  O 2 ,   działające na płyt ę  w sytuacji 2. ,   mają równe wartości :  퐹 1 = 퐹 2 .
+Sytuację 2. ilustruje rysunek 2.
+Rysunek 2.
+Oblicz  풙 .   Zapisz obliczenia.
+3.2.
+0 – 1 –
+2 – 3
+푥
+푔 ⃗
+푆
+O 2     O 1     풦
+A     B
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 10 ---
+Strona  10   z  29
+MFAP - R0_100
+Zadanie  4.
+Dwa małe, jednakowe głośniki  G1   i  G2   umieszczono w   zaznaczonych   punktach na osi  푥 .  Oba
+głośniki emitują  –   z   tą samą mocą i   zgodnie w fazie  –   fale dźwiękowe o  długości   휆 = 2   m .
+Współrzędna położenia głośnika  G1   jest równa  푥 G1 = 0   m , a współrzędna położenia
+głośnika  G2   jest równa  푥 G2 = 4   m .
+Punkt  퐴   znajduje się na symetralnej odcinka  G1G2 .   Sytuację ilustruje poniższy rysunek.
+Rysunek
+W zadaniach  4 .1. – 4 . 2 . pomijamy efekty związane z odbiciem fali dźwiękowej od przeszkód
+w   otoczeniu oraz z pochłanianiem tej fali w ośrodku.
+Zadanie  4.1. (0 – 1)
+Przyjmij następujące oznaczenia:
+퐼 12 퐴   –   natężenie   fali dźwiękowej w punkcie  퐴 ,   pochodzącej od głośników  G1   i  G2 .
+퐼 1 퐴   –   natężenie fali dźwiękowej w punkcie  퐴 ,   pochodzącej od  jednego   głośnika   (tzn. gdyby
+włączony był jeden głośnik) .
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród  podanych.
+P oprawną   zależność między  퐼 12 퐴   oraz  퐼 1 퐴   opisuje wyrażenie
+A.     퐼 12 퐴 = 0 , 5 ⋅ 퐼 1 퐴     B.     퐼 12 퐴 = 퐼 1 퐴   C.     퐼 12 퐴 = 2 ⋅ 퐼 1 퐴   D.     퐼 12 퐴 = 4 ⋅ 퐼 1 퐴
+Brudnopis
+푥 ,  m     0
+퐴
+G1     G2
+4     1     2     3     5     6     − 1     − 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 11 ---
+Strona  11   z  29
+MFAP - R0_100
+Zadanie  4.2. (0 – 4)
+Oblicz współrzędne wszystkich punktów na odcinku   między głośnik iem   퐆ퟏ   a głośnikiem
+퐆ퟐ , w   których   to punktach   zawsze   wystąpi  minimum   interferencyjne. Zapisz obliczenia.
+Zaznacz   na osi  풙   (na rysunku na stronie 10)  wszystkie te punkty.
+4.2.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 12 ---
+Strona  12   z  29
+MFAP - R0_100
+Zadanie 5.  (0 – 4 )
+Pewna   sonda   풜     krąży wokół Słońca po  orbicie kołowej   jedynie pod wpływem   siły grawitacji
+Słońca   (zobacz rysunek 1.) .
+Na krótki czas włączono silniki sondy, w wyniku czego   wartość prędkości  sondy zwiększyła
+się o  Δ v 퐴   (w kierunku stycznym do orbity)  do takiej wartości  v 퐴 ,  że   po wyłączeniu   silników
+mogła ona uciec z   pola grawitacyjnego Słońca i nieskończenie daleko od Słońca poruszać
+się z   prędkością o   wartości  v ∞ 퐴   (zobacz rysunek 2.) .
+Przyjmij następujące dane, oznac zenia i założenia :
+•   wartość prędkości sondy  풜   w ruchu po orbicie   kołowej  jedynie pod wpływem   siły
+grawitacji   oznaczymy jako   v 표푟퐴
+•   odległość sondy od środka  푆   Słońca oznaczymy jako  푟 퐴
+•   pomijamy wpływ   innych ciał   (oprócz Słońca)  na ruch  sondy
+•   gdy  włączono   na krótki czas   silniki sondy, to   była   ona   jeszcze  na   orbicie   kołowej .
+Rysunek 1.
+Rysunek 2.
+W yznacz   횫 v 푨   w zależności tylko od  v 풐풓푨   oraz  v ∞ 푨 .
+Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na  횫 v 푨 .
+v ⃗ ⃗ 표푟퐴
+푟 퐴
+풜
+푆
+v ⃗ ⃗ 퐴
+푟 퐴
+풜
+푆
+v ⃗ ⃗ 표푟퐴
+Δ v ⃗ ⃗ 퐴
+v ⃗ ⃗ ∞ 퐴
+5.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 13 ---
+Strona  13   z  29
+MFAP - R0_100
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 14 ---
+Strona  14   z  29
+MFAP - R0_100
+Zadanie  6 .
+Na poniższym  wykresie   przedstawiono  zależność   ciśnienia  푝   od objętości  푉   w cyklu
+przemian termodynamicznych ustalonej masy gazu doskonałego.
+Gaz ten oddaje do  chłodnicy   w jednym cyklu ciepło równe  푄 표푑푑 = 11 , 5 ⋅ 푝 1 푉 1 .
+Stany gazu w początkowych i końcowych etapach poszczególnych przemian oznaczono
+symbolami: S 1 , S 2 , S 3 , S 4 .
+Zadanie  6 .1.  (0 – 1)
+Dokończ zdanie.  Wybierz   właściwą odpowiedź spośród podanych.
+Iloraz   temperatur   bezwzględnych   푇 2 ∶ 푇 4   gazu w stanach  S 2   i  S 4 ,  wynosi
+A.     2 ∶ 3     B.     2 ∶ 1     C.     3 ∶ 2     D.     3 ∶ 1
+Brudnopis
+Zadanie  6 .2.  (0 – 1 )
+Oceń prawdziwość poniższych stwierdzeń.  Wybierz   P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+Praca siły parcia gazu w przemianie S 2 – S 3   ma trzy razy większą wartość od
+pracy przeciwko sile parcia gazu w przemianie S 4 – S 1 .
+P   F
+Gaz pobiera ciepło z  grzejnicy   w przemianie S 1 – S 2   oraz w przemianie S 2 – S 3 .   P   F
+S 2   S 3
+푝
+S 4   S 1
+0                  푉 1                2 푉 1              3 푉 1                      푉
+2 푝 1
+푝 1
+3 푝 1
+0
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 15 ---
+Strona  15   z  29
+MFAP - R0_100
+Zadanie  6 .3.  (0 – 1)
+Dokończ zdanie. Wpisz właściwą liczbę w  wykropkowane miejsce.
+Iloraz
+| 푄 12 |
+| 푄 34 |
+( ciepła wymienionego przez gaz z otoczeniem w przemianie S 1 – S 2   i ciepła
+wymienionego przez gaz z   otoczeniem w przemianie S 3 – S 4 )  jest równy     .....................   .
+Brudnopis
+Zadanie  6 .4.  (0 – 3)
+Oblicz  sprawność silnika cieplnego, który pracuje w cyklu kołowym S 1 – S 2 – S 3 – S 4 – S 1 .
+Zapisz obliczenia.
+6.4.
+0 – 1 –
+2 – 3
+6.3.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 16 ---
+Strona  16   z  29
+MFAP - R0_100
+Zadanie  7 .
+Do obwodu zasilanego akumulatorem o sile elektromotorycznej  ℰ
+i oporze wewnętrznym  푅 푤   podłączano kolejno cztery oporniki :
+풳 ,  풴 ,  풵 ,  풯 ,   o   różnych oporach elektrycznych:  푅 푋 ,  푅 푌 ,  푅 푍 ,  푅 푇 .
+Za każdym razem, gdy podłączony był jeden z oporników,
+mierzono natężenie  퐼   prądu płynącego przez dany opornik oraz
+napięcie  푈   na tym oporniku.  Sytuację ilustruje rysunek obok.
+Wyniki pomiarów przedstawiono na poniższym wykresie
+w   postaci punktów  푋 ,  푌 ,  푍 ,  푇 . Na tej podstawie sporządzono
+fragment wykresu zależności  푈 ( 퐼 ) , która powstałaby, gdyby opór
+dołączonego opornika zmieniał się w sposób ciągły.
+Przyjmij, że opór amperomierza jest równy zero, opór woltomierza jest nieskończenie duży,
+a   wykonane   pomiary są dokładne.
+Zadanie  7 .1.  (0 – 1)
+Dokończ zdanie.  Wybierz   właściwą odpowiedź spośród podanych.
+Opór elektryczny opornika   풯    wynosi
+A.    푅 푇 = 0 , 04   Ω   B.    푅 푇 = 0 , 2   Ω   C.    푅 푇 = 5 , 0   Ω   D.    푅 푇 = 12 , 8   Ω
+Brudnopis
+X
+Y
+Z
+T
+0
+1
+2
+3
+4
+5
+6
+7
+8
+0 1 2 3 4 5 6 7 8 9 10 11 I , A
+U , V
+푅 푋   (lub  푅 푌   lub  푅 푍   lub  푅 푇 )
+ℰ ,   푅 푤
+V
+A
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 17 ---
+Strona  17   z  29
+MFAP - R0_100
+Zadanie  7 .2.  (0 – 2)
+Jeżeli bieguny akumulatora połączymy ze sobą bez żadnego opornika między nimi, to
+w   obwodzie popłynie tzw. prąd zwarcia o natężeniu  퐼 푧 . Jeżeli natomiast do akumulatora
+podłączymy opornik o bardzo dużym oporze (w stosunku do  푅 푤   akumulatora), to napięcie na
+tym oporniku będzie bliskie sile elektromotorycznej  ℰ .
+Dokończ zdania 1. i 2. Wpisz właściwe liczby w wykropkowanych miejscach.
+1.   Siła elektromotoryczna  ℰ   akumulatora jest równa    ...............     V .
+2.   Natężenie  퐼 푧   p rądu  zwarcia aku mulatora jest równe     .............     A .
+Brudnopis
+Zadanie  7 .3.  (0 – 3)
+Oblicz  푹 풘   –   opór wewnętrzny akumulatora. Zapisz obliczenia.
+7.3.
+0 – 1 –
+2 – 3
+7.2.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 18 ---
+Strona  18   z  29
+MFAP - R0_100
+Zadanie 8.
+W zadaniach 8.1. i 8.2. rozważamy bieg promieni świetln ych .
+Zadanie  8 . 1.   (0 – 3)
+Promień światła  P1   biegn ie  równolegle do osi symetrii zwierciadła   sferycznego   Z   i  pada  na
+jego   powierzchnię w punkcie  퐷   pod kątem  훼 .  Następnie p romień światła odbity od
+zwierciadła   Z   w punkcie  퐷   biegnie dalej i  przecina oś symetrii   zwierciadła   w punkcie  푃 .
+Sytuację ilustruje rysunek (na rysunku nie oznaczono punktu  푃   ani promienia  odbitego ).
+Punkt przecięcia osi symetrii zwierciadła   z  jego  powierzchnią oznaczymy jako  푂 .
+Odległość punktu  푃   od punktu  푂   oznaczymy jako  푥 = | 푂푃 | .
+Promień krzywizny zwierciadła wynosi  푅 .
+Punkt  푆   jest środkiem sfery zawierającej powierzchnię zwierc iadła.
+Kreską przerywaną oznaczono linię pomocniczą do konstrukcji, prostopadłą do odcinka  푆퐷 .
+Rysunek
+Na rysunku wyznacz konstrukcyjnie   i oznacz punkt  푷 .
+Następnie w y prowadź  wzór na   풙   w zależności tylko od  푹   oraz od  휶 .
+Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na  풙 .
+Wskazówka: Zauważ, że  | ∠ 퐷푆푂 | = 훼 .
+8.1.
+0 – 1 –
+2 – 3
+Z
+P1
+oś symetrii
+푆
+훼
+퐷
+푂
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 19 ---
+Strona  19   z  29
+MFAP - R0_100
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 20 ---
+Strona  20   z  29
+MFAP - R0_100
+Zadanie  8.2.   (0 – 3)
+Promień   światła   P   biegnie w ośrodku 1. i pada na granicę z ośrodkiem 2. w punkcie  퐴   pod
+kątem  훼 = 60° .  Współczynniki załamania światła w ośrodkach 1. i 2. wynoszą odpowiednio:
+푛 1 = 1 , 83   oraz  푛 2 = 1 , 50 .
+Ustal dalszy bieg promienia  퐏   od punktu  푨 .   Wykorzystaj odpowiednie prawa/zależności
+fizyczne i wykonaj niezbędne obliczenia, które doprowadzą do tego ustalenia.
+Następnie   na   poniższym   rysunku   dorysuj dalszy bieg promienia  퐏   od punktu  푨 .
+Rysunek
+Ośrodek 2.,  푛 2
+Ośrodek 1.,  푛 1
+퐴
+60°
+P
+8.2.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 21 ---
+Strona  21   z  29
+MFAP - R0_100
+BRUDNOPIS
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 22 ---
+Strona  22   z  29
+MFAP - R0_100
+Zadanie  9 .
+Kwadratową ramkę o polu powierzchni  푆 = 0 , 01   m 2   wykonano z cienkiego drutu
+miedzianego.  T ę  r amkę umieszczono   początkowo   w płaszczyźnie prostopadłej do linii
+jednorodnego pola magnetycznego o   indukcji  퐵 = 1 , 0   mT   i zamocowan o   tak, że mogła się
+obracać. Kąt obrotu od położenia początkowego oznaczymy jako  훼 .
+Sytuację ilustrują  rysunek 1. i rysunek 2.
+Rysunek  1 .   Rysunek 2. (widok z góry na bok AB)
+Ramkę wprawiono w ruch obrotowy ze stałą prędkością kątową  휔 = 20 rad s ⁄ .
+Gdy ramka obracała się od położenia  훼 = 0 ∘   do położenia  훼 = 2 ∘ , to średnia wartość siły
+elektromotorycznej SEM indukującej się w ramce wynosiła  ℰ 1   (zobacz rysunek 3.).
+Natomiast gdy ramka obracała się od położenia  훼 = 43 ∘   do położenia  훼 = 45 ∘ ,
+to średnia wartość siły elektromotorycznej SEM indukującej się w ramce wynosiła  ℰ 2
+(zobacz rysunek 4.).
+Rysunek 3. (   훼 = 0°   →   훼 = 2°   )   Rysunek 4.   (  훼 = 43°   →     훼 = 45°   )
+퐵 ⃗ ⃗
+A
+B
+C
+D
+훼
+oś obrotu
+훼
+퐵 ⃗ ⃗
+훼
+A   (D)
+B (C)
+oś obrotu
+położenie
+początkowe
+B (C)
+퐵 ⃗ ⃗   oś obrotu
+A   (D)
+퐵 ⃗ ⃗
+B (C)
+oś obrotu
+A   (D)
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 23 ---
+Strona  23   z  29
+MFAP - R0_100
+Zadanie  9 . 1.   (0 – 1)
+Dokończ zdanie.  Wybierz   odpowiedź A, B albo C i jej uzasadnienie 1., 2. albo 3.
+Relacja między SEM indukującymi się podczas obrotu o kąt  Δ 훼 = 2°   w obu opisanych
+i   zilustrowanych na rysunkach  3 .  oraz   4 . sytuacjach jest następująca :
+A.   ℰ 1 = ℰ 2
+ponieważ
+1.
+w obu sytuacjach kąt zmienił się o tę samą wartość
+Δ 훼 = 2° .
+B.   ℰ 1 > ℰ 2   2.
+zmiana strumienia indukcji pola magnetycznego jest
+większa w sytuacji zilustrowanej na rysunku 4.
+C.   ℰ 1 < ℰ 2   3.
+strumień indukcji pola magnetycznego jest większy
+w   sytuacji zilustrowanej na rysunku 3.
+Brudnopis
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 24 ---
+Strona  24   z  29
+MFAP - R0_100
+Zadanie  9 . 2.  (0 – 3)
+Oblicz  퓔 ퟐ .   Zapisz obliczenia.
+Wskazówka:  Pamiętaj o przeliczeniu jednostek  kąta :  휋   rad   odpowiada  180° .
+9.2.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 25 ---
+Strona  25   z  29
+MFAP - R0_100
+Zadanie  1 0 . (0 – 4)
+Pozyton został rozpędzony w próżni w polu elektrycznym od punktu  푋   do punktu  푌 .
+Napięcie elektryczne między pun ktem   푋   a punktem   푌   było równe  푈 푋푌 = 1 , 50 ⋅ 10 5     V .
+Wartość prędkości pozytonu w punkcie  푋   była równa  v 푋 =
+1
+3 푐   , gdzie  푐   to wartość prędkości
+światła w próżni.
+Przyjmij, że energia spoczynkowa  퐸 0   pozytonu jest równa ( po   zaokrągleniu) :
+퐸 0 = 5 , 11 ⋅ 10 5   eV
+Ładunek elektryczny pozytonu jest równy co do wartości bezwzględnej ładunkowi
+elektrycznemu elektronu.
+Oblicz
+v 풀
+풄
+, czyli  iloraz  wartoś ci   prędkości pozytonu w punkcie  풀   i prędkości światła.
+Zapisz obliczenia.   Wynik podaj zaokrąglony do trzech cyfr znaczących.
+10.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 26 ---
+Strona  26   z  29
+MFAP - R0_100
+Zadanie 1 1 .   (0 – 4)
+Podczas przejścia  elektronu   w atomie wodoru   ze stanu energetycznego o numerze  푛 = 6
+do   stanu energetycznego o numerze  푘 = 2   jest  emitowany  foton.  Energię   tego   fotonu
+oznaczymy   jako  퐸 푓   62 .   Na skutek emisji fotonu atom wodoru doznaje odrzutu .
+Energię kinetyczną atomu wodoru uzyskaną w wyniku odrzutu oznaczymy jako  퐸 푘푖푛   푎푡 .
+Przyjmij   do obliczeń , że :
+•   przed emisją fotonu atom   wodoru spoczywał
+•   wartość prędkości odrzutu atomu wodoru jest dużo mniejsza od wartości prędkości
+światła w próżni
+•   masa atomu wodoru wynosi  푚 푎푡 = 1 , 6735 ⋅ 10 − 27   kg .
+Oblicz   iloraz
+푬 풌풊풏   풂풕
+푬 풇   ퟔퟐ
+.   Zapisz obliczenia.
+Wynik  podaj   zaokrąglony do  dwóch   cyfr znaczących i   w notacji wykładniczej .
+Wskazówka: W obliczeniach możesz  wykorzystać fakt, że   퐸 푘푖푛   푎푡 ≪ 퐸 푓 62   i wykonać  pewne
+uproszczenia.  Szukany ułamek jest większy od zera, ale znacznie mniejszy od jedności.
+11.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 27 ---
+Strona  27   z  29
+MFAP - R0_100
+Zadanie  1 2 .
+Energię można uzyskiwać w wyniku przeprowadzania reakcji rozszczepienia jąder uranu.
+Jądra uranu rozpadają się na inne jądra oraz na neutrony. Neutrony powstające w wyniku
+jednej reakcji rozszczepienia jądra uranu  są przyczyną kolejnych rozszczepień, co mo że
+doprowadzić do reakcji łańcuchowej w materiale paliwa jądrowego.
+Zadanie  1 2 . 1 .  (0 – 1)
+Oceń prawdziwość poniższych stwierdzeń.  Wybierz   P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+Informacja do zadań  1 2 . 2 . i  1 2 . 3 .
+Poniżej zapisano równanie przykładowej reakcji rozszczepienia jądra uranu.
+Symbolem  X   oznaczono jądro, które jest jednym z   produktów tej reakcji:
+U 92 235 + n   ⟶     Kr 36 92 + X + 3 n
+Masy jąder i cząstek uczestniczących w opisanej   reakcji   wynoszą:
+푚 U = 390 , 216 ⋅ 10 − 27   kg
+푚 Kr = 152 , 614 ⋅ 10 − 27   kg
+푚 n = 1 , 675 ⋅ 10 − 27   kg
+Zadanie  12 . 2 .  (0 – 1)
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+Produktem opisanej reakcji, oznaczonym symbolem  X ,   jest:
+A.    Ba 56 140   B.    Ba 56 141   C.    Sr 38 140   D.     Sr 38 141
+Brudnopis
+Suma mas jądra uranu i neutronu inicjującego  reakcję rozszczepienia jest
+większa od sumy mas wszystkich produktów tej reakcji rozszczepienia.
+P   F
+Masa jądra uranu jest większa od sumy mas oddzielnych nukleonów, które
+tworzą jądro uranu.
+P   F
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 28 ---
+Strona  28   z  29
+MFAP - R0_100
+Zadanie  1 2 . 3 .  (0 – 3)
+Łączna e nergia kinetyczna produktów reakcji  rozszczepienia uranu  (opisanej w informacji do
+zadań )  wynosi  퐸 푘푖푛   푝푟표푑 = 173 , 3   MeV .
+Przyjmij, że przed rozszczepieniem jądro uranu spoczywało i   pomiń energię kinetyczną
+neutronu uderzającego w jądro uranu.
+Oblicz masę jądra oznaczonego  symbolem  퐗   w opisanej reakcji.   Zapisz obliczenia.
+Wynik podaj zaokrąglony do czterech cyfr znaczących.
+12.3.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 29 ---
+Strona  29   z  29
+MFAP - R0_100
+BRUDNOPIS
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 30 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 31 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 32 ---
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl

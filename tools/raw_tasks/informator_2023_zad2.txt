@@ -1,0 +1,75 @@
+Zadanie 2. Spadająca kulka
+Pionowo w dół rzucono metalową kulkę o masie 𝑚 = 0,250 kg. Na wysokości ℎ = 1,80 m
+ponad podłożem, w chwili 𝑡0 = 0, kulka osiągnęła prędkość o wartości v0 = 3,20 m/s. Licząc
+od wysokości ℎ, aż do podłoża, kulka spadała swobodnie i się nie obracała. Po upadku na
+twarde podłoże kulka odbiła się od niego, a czas oddziaływania (zderzenia) kulki z podłożem
+był równy ∆t = 0,005 s. Podczas pierwszego zderzenia z podłożem kulka straciła 25% swojej
+energii mechanicznej.
+Do analizy zjawiska przyjmij jego uproszczony model, w którym:
+• pomiń opory powietrza podczas ruchu kulki;
+• załóż, że siła 𝐹𝑅 reakcji podłoża działająca na kulkę podczas zderzenia była stała;
+• przyjmij do obliczeń wartość przyśpieszenia ziemskiego równą 9,81 m/s2.
+Zadanie 2.1. (0–2)
+Na podstawie danych przedstawionych w opisie zadania 2. oblicz czas trwania ruchu
+kulki od chwili 𝒕𝟎 = 0 do chwili pierwszego uderzenia w podłoże.
+Wymaganie ogólne
+II. Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.
+Wymagania szczegółowe
+I. Wymagania przekrojowe. Zdający:
+4) przeprowadza obliczenia liczbowe, posługując się kalkulatorem.
+II. Mechanika. Zdający:
+4) opisuje ruchy prostoliniowe […] jednostajnie zmienne, posługując się zależnościami
+położenia, wartości prędkości i przyśpieszenia oraz drogi od czasu.
+
+-- 15 of 148 --
+
+16 Informator o egzaminie maturalnym z fizyki od roku szkolnego 2022/2023
+Zasady oceniania
+2 pkt – poprawne zastosowanie i rozwiązanie równania ruchu jednostajnie przyśpieszonego
+oraz prawidłowy wynik liczbowy z jednostką (np. jak w krokach 1. i 2.).
+1 pkt – zapisanie równania zależności drogi od czasu w ruchu jednostajnie przyśpieszonym
+prostoliniowym – łącznie z prawidłową identyfikacją drogi, przyśpieszenia i prędkości
+początkowej (np. jak w kroku 1.).
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+Komentarz (krok 1.)
+Zapiszemy wzór na drogę w ruchu jednostajnie przyspieszonym z prędkością początkową.
+W naszym przypadku przebytą drogą jest wysokość ℎ, a przyspieszeniem jest 𝑔.
+ℎ = v0𝑡 + 1
+2 𝑔𝑡2
+Do równania ruchu podstawimy dane podstawione domyślnie w jednostkach podstawowych
+układu SI:
+1,8 = 3,2𝑡 + 4,905𝑡2 → 4,905𝑡2 + 3,2𝑡 − 1,8 = 0
+Komentarz (krok 2.)
+Rozwiążemy równanie kwadratowe i wybierzemy dodatnie rozwiązanie:
+√∆≈ 6,75 → 𝑡 ≈ −3,2 + 6,75
+2 ∙ 4,905 s ≈ 0,36 s
+Uwaga!
+Rozwiązanie równania kwadratowego można przedstawić na symbolach ogólnych:
+1
+2 𝑔𝑡2 + v0𝑡 − ℎ = 0 → √∆= √v0
+2 + 2𝑔ℎ → 𝑡 = −v0 + √v0
+2 + 2𝑔ℎ
+𝑔 ≈ 0,36 s
+Zadanie 2.2. (0–2)
+Wykaż, że wartość prędkości uzyskana przez kulkę tuż przed pierwszym uderzeniem
+w podłoże wynosi v1 ≈ 6,75 m/s.
+
+-- 16 of 148 --
+
+Przykładowe zadania z rozwiązaniami 17
+Wymaganie ogólne
+II. Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.
+Wymagania szczegółowe
+I. Wymagania przekrojowe. Zdający:
+4) przeprowadza obliczenia liczbowe, posługując się kalkulatorem.
+II. Mechanika. Zdający:
+20) posługuje się pojęciami pracy mechanicznej, mocy, energii kinetycznej, energii
+potencjalnej wraz z ich jednostkami; stosuje zasadę zachowania energii
+mechanicznej do obliczeń.
+Zasady oceniania
+2 pkt – poprawna metoda wykazania podanej wartości prędkości oraz prawidłowe obliczenia
+(np. jak w krokach 1. i 2.).
+1 pkt – poprawne zapisanie zasady zachowania energii, łącznie z poprawnym użyciem
+wzorów na energię mechaniczną (w tym – potencjalną i kinetyczną) oraz poprawną
+identyfikacją wielkości we wzo

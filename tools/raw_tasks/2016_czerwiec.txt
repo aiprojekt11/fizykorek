@@ -1,0 +1,93 @@
+Zadanie 1. (0–2)
+Samochód i motocykl poruszały się wzdłuż tej samej prostej z prędkościami o takich samych
+zwrotach. Na wykresie poniżej przedstawiono zależności wartości prędkości od czasu
+w ruchu tych pojazdów. W chwili początkowej samochód i motocykl znajdowały się obok
+siebie.
+Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe, albo F –
+jeśli jest fałszywe.
+1. Droga, jaką przebył motocykl w ciągu pierwszych 6 sekund, była większa
+od drogi, jaką przebył w tym samym czasie samochód. P 	F
+2. 	Po 2 s ruchu pojazdy ponownie znajdowały się obok siebie. 	P 	F
+3. Maksymalna prędkość osiągnięta przez motocyklistę wyniosła 90 km/h,
+a średnia prędkość samochodu w ciągu 9 s ruchu wynosiła 900 m/min. P 	F
+4. W chwili t = 4 s wartość przyspieszenia motocykla wynosiła 5 m/s2 ,
+a wartość przyspieszenia samochodu wynosiła 0. P 	F
+Zadanie 2. (0–2)
+Samochód jedzie bez poślizgu z prędkością 10 m/s względem ziemi.
+Narysuj wektory prędkości względem ziemi punktów A, B, C i D koła samochodu.
+Wpisz wartości prędkości punktów A i C względem ziemi we wskazanych miejscach.
+vA = ……..
+vC = ……..
+0
+5
+10
+15
+20
+25
+30
+0 	1 	2 	3 	4 	5 	6 	7 	8 	9
+v, m/s
+t, s
+motocykl
+samochód
+A
+D
+C
+B
+10 m/s
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 20 --
+
+Strona 3 z 16	MFA_1R
+Zadanie 3. (0–3)
+Kulista łódź podwodna o masie 1300 ton, całkowicie zanurzona, poruszała się ruchem
+jednostajnym pionowo w dół. Po wypompowaniu ze zbiorników (na zewnątrz) wody o masie
+4 ton łódź zaczęła poruszać się ruchem jednostajnym pionowo w górę z tą samą prędkością,
+z jaką się zanurzała.
+a) Uzasadnij, dlaczego wartość siły oporu wody była jednakowa w czasie ruchu łodzi
+w dół i w górę.
+b) 	Oblicz wartość działającej na łódź siły oporu wody.
+Zadanie 4. (0–2)
+Dwie zwojnice I i II nawinięto na wspólny stalowy
+rdzeń, tak jak pokazano na rysunku obok. W czasie
+doświadczenia zamykano i otwierano włącznik K.
+Oceń prawdziwość poniższych zdań. Zaznacz P,
+jeśli zdanie jest prawdziwe, albo F – jeśli jest
+fałszywe.
+1. Po zamknięciu włącznika linie pola magnetycznego wewnątrz zwojnicy I
+skierowane były w prawo. P 	F
+2. Zamknięcie włącznika spowodowało przepływ prądu w prawym obwodzie
+przez opornik od punktu D do E. P 	F
+3. Gdy w lewym obwodzie płynie prąd stały, w prawym obwodzie prąd
+nie płynie. P 	F
+4. W chwili otwarcia włącznika w prawym obwodzie popłynął prąd ze
+zwrotem przeciwnym do zwrotu tego prądu po zamknięciu włącznika. P 	F
++
+D 	E	K
+I 	II
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 20 --
+
+Strona 4 z 16 	MFA_1R
+Zadanie 5. (0–5)
+Mrówka o masie 5 mg porusza się po płycie obracającej się jednostajnie i wykonującej
+3 obroty na sekundę. Mrówka przemieściła się z punktu płyty odległego o 15 cm od osi
+obrotu do punktu odległego od osi o 10 cm. Przyjmij, że mrówka jest punktem materialnym.
+a) Narysuj wykres działającej na mrówkę siły odśrodkowej w zależności od odległości
+mrówki od osi obrotu.
+obliczenia
+b) Oblicz, jaką pracę przeciw sile odśrodkowej mrówka musi wykonać, aby pokonać
+opisaną trasę.
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 20 --
+
+Strona 5 z 16	MFA_1R
+Zadanie 6. (0–3)
+Napompowana piłka ma objętość 3 dm3 . Do pompowania piłki, w której początkowo ilość
+powietrza była bardzo niewielka, użyto pompki o objętości 0,4 dm3 , której zasadę działania
+przedstawiono na rysunku. Gdy tłok wypycha powietrze z pompki do piłki, zawór (wentyl)
+Z1 jest otwarty, a zawór Z2 – zamknięty. Podczas ruchu tłoka w przeciwną stronę zawór Z1
+jest zamknięty, a po

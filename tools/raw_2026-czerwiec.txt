@@ -1,0 +1,687 @@
+Układ graficzny
+© CKE 2022
+WYPEŁNIA ZDAJĄCY
+KOD PESEL
+Egzamin maturalny Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Symbol arkusza
+MFAP-R0-100-2606
+DATA: 12 czerwca 2026 r.
+GODZINA ROZPOCZĘCIA: 9:00
+CZAS TRWANIA: 180 minut
+LICZBA PUNKTÓW DO UZYSKANIA: 60
+Przed rozpoczęciem pracy z arkuszem egzaminacyjnym
+1. Sprawdź, czy nauczyciel przekazał Ci właściwy arkusz egzaminacyjny,
+tj. arkusz we właściwej formule, z właściwego przedmiotu na właściwym
+poziomie.
+2. Jeżeli przekazano Ci niewłaściwy arkusz – natychmiast zgłoś to nauczycielowi.
+Nie rozrywaj banderol.
+3. Jeżeli przekazano Ci właściwy arkusz – rozerwij banderole po otrzymaniu
+takiego polecenia od nauczyciela. Zapoznaj się z instrukcją na stronie 2.
+Miejsce na naklejkę.
+Sprawdź, czy kod na naklejce to
+M-100.
+Jeżeli tak – przyklej naklejkę.
+Jeżeli nie – zgłoś to nauczycielowi.
+Arkusz zawiera informacje prawnie chronione
+do momentu rozpoczęcia egzaminu.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 1 of 32 --
+
+Strona 2 z 29 MFAP-R0_100
+Instrukcja dla zdającego
+1. Sprawdź, czy arkusz egzaminacyjny zawiera 29 stron (zadania 1–11).
+Ewentualny brak zgłoś przewodniczącemu zespołu nadzorującego egzamin.
+2. Na pierwszej stronie arkusza oraz na karcie odpowiedzi wpisz swój numer PESEL
+i przyklej naklejkę z kodem.
+3. Symbol zamieszczony przy zadaniu zamkniętym oznacza, że rozwiązanie tego
+zadania musisz przenieść na kartę odpowiedzi. Ocenie podlegają wyłącznie odpowiedzi
+zaznaczone na karcie odpowiedzi.
+4. Odpowiedzi do zadań zamkniętych oznaczonych symbolem zaznacz na karcie
+odpowiedzi w części przeznaczonej dla zdającego:
+• zamaluj pola do tego przeznaczone
+• błędne zaznaczenie otocz kółkiem i zaznacz właściwe.
+5. Rozwiązania pozostałych zadań zapisz w miejscu na to przeznaczonym przy zadaniu.
+6. W rozwiązaniach zadań rachunkowych przedstaw tok rozumowania prowadzący do
+ostatecznego wyniku oraz pamiętaj o jednostkach. Przedstaw obliczenia pośrednie
+wskazujące na wykorzystanie warunków zadania oraz praw i zależności fizycznych.
+7. Symbol zamieszczony w nagłówku zadania zwraca uwagę na to, że do rozwiązania
+zadania będzie niezbędne użycie kalkulatora pozwalającego obliczać wartości
+logarytmów, funkcji trygonometrycznych oraz funkcji wykładniczych.
+8. Symbol zamieszczony w nagłówku zadania zwraca uwagę na to, że do
+rozwiązania zadania będzie pomocne lub niezbędne użycie linijki.
+9. Pisz czytelnie. Używaj długopisu/pióra tylko z czarnym tuszem/atramentem.
+10. Nie używaj korektora, a błędne zapisy wyraźnie przekreśl.
+11. Nie wpisuj żadnych znaków w tabelkach przeznaczonych dla egzaminatora.
+Tabelki są umieszczone na marginesie przy wybranych zadaniach.
+12. Pamiętaj, że zapisy w brudnopisie nie będą oceniane.
+13. Możesz korzystać z Wybranych wzorów i stałych fizykochemicznych na egzamin
+maturalny z biologii, chemii i fizyki, z linijki oraz z kalkulatora naukowego. Upewnij się,
+czy przekazano Ci broszurę z okładką taką jak widoczna poniżej.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 32 --
+
+Strona 3 z 29
+MFAP-R0_100
+Zadania egzaminacyjne są wydrukowane
+na następnych stronach.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 32 --
+
+Strona 4 z 29 MFAP-R0_100
+Zadanie 1.
+Dwa słupy SA i SB znajdują się w doświadczalnej komorze próżniowej. Ze słupa SA rzucono
+kulkę KA, a ze słupa SB rzucono kulkę KB. Prędkości początkowe obu kulek były skierowane
+poziomo, każda w stronę przeciwnego słupa. Obie kulki upadły w tym samym punkcie 𝑃.
+Opisaną sytuację ilustruje poglądowy rysunek poniżej.
+Przyjmij następujące dane i założenia:
+• odległość między słupami wynosi 𝑑 = 4,8 m
+• wysokości słupów SA i SB są – odpowiednio – równe: ℎ𝐴 = 5,0 m oraz ℎ𝐵 = 7,2 m
+• wartość prędkości początkowej kulki KA jest równa 𝑣0𝐴 = 3,0 m/s
+• przyśpieszenie ziemskie ma wartość 𝑔 = 9,8 m/s2
+oraz
+• kulki poruszają się bez działania sił oporu
+• ruchy opisujemy w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu
+grawitacyjnym
+• kulki traktujemy jako punkty materialne
+• podłoże, na które upadają kulki, jest poziome.
+Zadanie 1.1. (0–1)
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Czas lotu kulki KA od momentu jej wyrzucenia do chwili uderzenia w podłoże
+w punkcie 𝑃 jest krótszy od – analogicznego – czasu lotu kulki KB. P F
+Składowa pozioma przyśpieszenia kulki KA od momentu jej wyrzucenia do chwili
+uderzenia w podłoże w punkcie 𝑃 jest różna od zera. P F
+𝑣Ԧ0𝐴
+KB	𝑣Ԧ0𝐵
+KA
+𝑔Ԧ
+ℎ𝐴 ℎ𝐵
+𝑃
+𝑑
+SA SB
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 32 --
+
+Strona 5 z 29
+MFAP-R0_100
+Zadanie 1.2. (0–4)
+Oblicz 𝒗𝟎𝑩 – wartość prędkości początkowej kulki KB. Zapisz obliczenia.
+1.2.
+0–1–
+2–3–4
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 32 --
+
+Strona 6 z 29 MFAP-R0_100
+Zadanie 2.
+Do końca linki o długości 𝑙 doczepiono kulkę K o masie 𝑚.
+Maksymalna wartość siły napięcia linki, po której przekroczeniu linka ulega zerwaniu, jest
+równa wartości dwukrotnego ciężaru kulki: 𝐹𝑛 𝑚𝑎𝑥 = 2𝑚𝑔.
+Przyjmij, że:
+• linka jest nierozciągliwa, masę linki pomijamy
+• przyśpieszenie ziemskie ma wartość 𝑔 = 9,8 m/s2
+• pomijamy siły oporów działające na kulkę
+• kulkę traktujemy jako punkt materialny
+• ruch kulki opisujemy w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu
+grawitacyjnym.
+Zadanie 2.1. (0–1)
+W doświadczeniu 1. linkę wraz z zawieszoną na niej kulką K podnoszono pionowo ruchem
+jednostajnie przyśpieszonym prostoliniowym.
+Wartość przyśpieszenia maksymalnego opisanego ruchu, przy którym linka się jeszcze nie
+zerwie, oznaczymy jako 𝑎𝑚𝑎𝑥.
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+Wartość 𝑎𝑚𝑎𝑥 w doświadczeniu 1. jest równa
+A. 𝑎𝑚𝑎𝑥 = 1
+2 𝑔 B. 𝑎𝑚𝑎𝑥 = 𝑔 C. 𝑎𝑚𝑎𝑥 = 2𝑔 D. 𝑎𝑚𝑎𝑥 = 3𝑔
+Brudnopis
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 6 of 32 --
+
+Strona 7 z 29
+MFAP-R0_100
+Zadanie 2.2. (0–4)
+W doświadczeniu 2. kulkę K zawieszoną na lince wprawiono w ruch jednostajny po okręgu
+o środku 𝑂 w płaszczyźnie poziomej. Górny koniec linki jest unieruchomiony w punkcie 𝑃.
+Częstotliwość graniczną (maksymalną) ruchu kulki K po okręgu, powyżej której nić ulegnie
+zerwaniu, oznaczymy jako 𝑓𝑚𝑎𝑥.
+Sytuację ilustruje rysunek poniżej, na którym oznaczono przyśpieszenie ziemskie 𝑔Ԧ.
+Wyznacz 𝒇𝒎𝒂𝒙 w doświadczeniu 2. w zależności tylko od wartości przyśpieszenia
+ziemskiego 𝒈 oraz od długości linki 𝒍.
+Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na 𝒇𝒎𝒂𝒙.
+𝑃
+K
+𝑙 𝑔Ԧ
+𝑂
+2.2.
+0–1–
+2–3–4
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 7 of 32 --
+
+Strona 8 z 29 MFAP-R0_100
+Zadanie 3.
+Klocek A porusza się ze stałą prędkością v⃗Ԧ1 w stronę nieruchomego klocka B (zobacz
+rysunek 1.). Do klocka B jest przymocowana sprężyna o współczynniku sprężystości 𝑘.
+W pewnym momencie dochodzi do zderzenia klocków. Podczas tego zderzenia sprężyna
+najpierw jest ściskana, a następnie się rozpręża, w wyniku czego klocek A hamuje, a klocek
+B przyśpiesza (zobacz rysunki 1.–3.).
+Przyjmij następujące dane i założenia:
+• gdy sprężyna jest maksymalnie ściśnięta, to jej odkształcenie względem długości
+swobodnej oznaczymy jako Δ𝑥𝑚𝑎𝑥
+• gdy sprężyna jest maksymalnie ściśnięta, to wartości prędkości obu klocków są sobie
+równe i wynoszą v2
+• masy klocków są sobie równe: 𝑚𝐴 = 𝑚𝐵 = 𝑚
+oraz
+• pomijamy tarcie obu klocków o podłoże oraz opory powietrza
+• pomijamy masę sprężyny
+• wartość siły sprężystości, z jaką sprężyna działa na klocek, jest wprost proporcjonalna do
+zmiany długości sprężyny względem jej długości swobodnej
+• zderzenie klocków jest idealnie sprężyste.
+Rysunek 1.
+Rysunek 2.
+Rysunek 3.
+Zadanie 3.1. (0–1)
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Gdy sprężyna jest maksymalnie ściśnięta, to wartość siły, z jaką sprężyna działa
+na klocek A, jest równa wartości siły, z jaką sprężyna działa na klocek B. P F
+Gdy sprężyna jest maksymalnie ściśnięta, to prędkość względna klocków A i B
+wynosi zero. P F
+v⃗Ԧ1
+A B
+v⃗Ԧ2
+A B
+v⃗Ԧ2
+v⃗Ԧ3
+A B
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 8 of 32 --
+
+Strona 9 z 29
+MFAP-R0_100
+Zadanie 3.2. (0–4)
+Wyznacz 𝚫𝒙𝒎𝒂𝒙 w zależności tylko od: 𝒌, 𝒎 oraz v𝟏.
+Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na 𝚫𝒙𝒎𝒂𝒙.
+3.2.
+0–1–
+2–3–4
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 9 of 32 --
+
+Strona 10 z 29 MFAP-R0_100
+Zadanie 4.
+Bryła sztywna ℬ składa się z cienkiej obręczy o masie 𝑀 i o promieniu 𝑅 oraz z dwóch
+jednakowych, cienkich prętów: każdy o długości 𝑙𝑝𝑟ę𝑡 = 2𝑅 i o masie 𝑚𝑝𝑟ę𝑡 = 𝑀
+2 (zobacz
+rysunek poniżej).
+Początkowo bryła ℬ toczy się po poziomym odcinku 𝑋𝑌 drogi tak, że prędkość środka masy
+𝑂 bryły jest stała, a jej wartość jest równa vℬ = 1,4 m/s.
+Od punktu 𝑌 bryła ℬ zaczyna wtaczać się na odcinek drogi nachylony do poziomu, a wartość
+prędkości środka masy 𝑂 bryły zaczyna maleć.
+Przyjmij, że:
+• bryła toczy się cały czas bez poślizgu
+• obręcz i pręty są jednorodne
+• punkty 𝑃1 i 𝑃2 na rysunku to punkty bryły, które w danej chwili stykają się z podłożem
+• poziomy odcinek drogi 𝑋𝑌 łączy się łukiem z odcinkiem równi pochyłej (zobacz rysunek)
+• przyśpieszenie ziemskie ma wartość 𝑔 = 9,8 m/s2
+• opory powietrza nie występują.
+Na poniższym rysunku przedstawiono położenia bryły w dwóch wybranych chwilach ruchu.
+W tabeli poniżej podano wzory na momenty bezwładności niektórych brył względem
+opisanych osi obrotu.
+Bryła Oś Moment bezwładności
+Pręt o długości 𝑙𝑝𝑟ę𝑡
+i o masie 𝑚𝑝𝑟ę𝑡
+Oś prostopadła do pręta, przechodząca
+przez jego środek 𝐼0 𝑝𝑟ę𝑡 = 1
+12 𝑚𝑝𝑟ę𝑡𝑙𝑝𝑟ę𝑡
+2
+Obręcz o promieniu 𝑅
+i o masie 𝑀
+Oś prostopadła do płaszczyzny obręczy,
+przechodząca przez jej środek 𝐼0 𝑜𝑏𝑟ę𝑐𝑧 = 𝑀𝑅2
+Bryła ℬ (złożona
+z obręczy i prętów)
+Oś prostopadła do bryły (czyli do
+płaszczyzny obręczy), przechodząca
+przez jej środek masy 𝑂 (oś 𝑂)
+𝐼0 ℬ = 4
+3 𝑀𝑅2
+𝑂
+v⃗Ԧℬ
+𝑃2	
+𝑂
+𝑋 𝑌
+𝑃1
+𝑔Ԧ
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 10 of 32 --
+
+Strona 11 z 29
+MFAP-R0_100
+Zadanie 4.1. (0–1)
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+W punkcie 𝑃1 siła tarcia
+A. nie działa.
+B. zależy od prędkości.
+C. jest zwrócona w lewo (←).
+D. jest zwrócona w prawo (→).
+Zadanie 4.2. (0–1)
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+W punkcie 𝑃2 siła tarcia
+A. nie działa.
+B. zależy od prędkości.
+C. jest zwrócona w lewo wzdłuż równi pochyłej (←).
+D. jest zwrócona w prawo wzdłuż równi pochyłej (→).
+Zadanie 4.3. (0–1)
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Moment siły ciężkości bryły ℬ względem punktu 𝑃2 jest równy zero. P F
+Moment pędu bryły ℬ względem środka jej masy 𝑂 jest zachowany podczas
+ruchu bryły wzdłuż równi pochyłej. P F
+Brudnopis	Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 11 of 32 --
+
+Strona 12 z 29 MFAP-R0_100
+Zadanie 4.4. (0–2)
+Wyprowadź wzór na moment bezwładności bryły 𝓑 względem osi 𝑶 – wzór, który jest
+podany w tabeli (strona 10).
+Zapisz odpowiednie zależności i przekształcenia, które prowadzą do uzyskania wzoru
+na moment bezwładności bryły 𝓑 względem osi 𝑶.
+4.4.
+0–1–2
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 12 of 32 --
+
+Strona 13 z 29
+MFAP-R0_100
+Zadanie 4.5. (0–3)
+Oblicz 𝚫𝒉𝒎𝒂𝒙 – maksymalną wysokość, na jaką wzniósł się środek masy bryły 𝓑
+względem swojego początkowego położenia. Zapisz obliczenia.
+4.5.
+0–1–
+2–3
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 13 of 32 --
+
+Strona 14 z 29 MFAP-R0_100
+Zadanie 5.
+Wartość prędkości dźwięku rozchodzącego się w gazie doskonałym można wyrazić wzorem:
+v = √𝜅 ⋅ 𝑥
+𝜌
+gdzie:
+• 𝜅 = 𝐶𝑝
+𝐶𝑉
+jest ilorazem ciepła molowego przy stałym ciśnieniu i ciepła molowego przy stałej
+objętości
+• 𝜌 jest gęstością gazu
+• 𝑥 jest pewną wielkością.
+Zadanie 5.1. (0–3)
+Wyraź jednostkę wielkości 𝒙 za pomocą jednostek podstawowych układu SI.
+Zapisz przekształcenia. Wynik podaj w najprostszej postaci.
+Na podstawie jednostki wielkości 𝒙 określ, któremu parametrowi stanu gazu
+doskonałego – spośród poniżej wymienionych – odpowiada wielkość 𝒙. Zapisz
+odpowiednie przekształcenia jednostek wybranej wielkości, uzasadniające twój wybór.
+objętość, liczba moli, ciśnienie, temperatura, energia wewnętrzna, masa
+5.1.
+0–1–
+2–3
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 14 of 32 --
+
+Strona 15 z 29
+MFAP-R0_100
+Zadanie 5.2. (0–3)
+Gęstość powietrza zależy od temperatury, dlatego dźwięk w zimnym powietrzu rozchodzi się
+wolniej niż w powietrzu gorącym. Zakładamy, że powietrze zachowuje się jak gaz doskonały.
+W poniższej tabeli dla wybranych temperatur przedstawiono wybrane dane.
+Temperatura Gęstość powietrza Prędkość dźwięku
+𝑇1 = 0 ℃ 𝜌1 = 1,29 kg/m3 v1 = 331 m/s
+𝑇2 = 30 ℃ 𝜌2 = 1,16 kg/m3 v2 = ?
+Przyjmij, że wielkość 𝑥 we wzorze w zadaniu 5. jest stała.
+Oblicz v𝟐 – wartość prędkości dźwięku w powietrzu o temperaturze 𝟑𝟎 ℃.
+Zapisz obliczenia.
+5.2.
+0–1–
+2–3
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 15 of 32 --
+
+Strona 16 z 29 MFAP-R0_100
+Zadanie 6.
+Satelita S o masie 𝑚 krąży po orbicie kołowej 𝑂 wokół planety P. Ruch tego satelity odbywa
+się jedynie pod wpływem siły grawitacji planety P.
+Przyjmij następujące dane i założenia:
+• masa planety P wynosi 𝑀 = 4,0 ⋅ 1022 kg
+• promień planety P wynosi 𝑅 = 1000 km
+• promień orbity kołowej 𝑂 wynosi 𝑟 = 2 000 km
+• planeta P ma sferycznie symetryczny rozkład masy
+• pomijamy wpływ innych ciał (oprócz planety P) na ruch satelity S.
+Zadanie 6.1. (0–1)
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Wartość siły grawitacji działającej na satelitę S na orbicie 𝑂 jest cztery razy mniejsza
+od wartości siły grawitacji działającej na satelitę S na powierzchni planety P. P F
+Na ciała znajdujące się wewnątrz satelity krążącego po orbicie 𝑂 nie działa siła
+grawitacji. P F
+Zadanie 6.2. (0–3)
+Oblicz 𝑻 – okres obiegu satelity 𝐒 po orbicie kołowej 𝑶. Zapisz obliczenia.
+6.2.
+0–1–
+2–3
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 16 of 32 --
+
+Strona 17 z 29
+MFAP-R0_100
+Zadanie 6.3. (0–2)
+Oblicz 𝒈𝑷 – wartość przyśpieszenia grawitacyjnego na powierzchni planety 𝐏.
+Zapisz obliczenia. Wynik podaj zaokrąglony do dwóch cyfr znaczących.
+6.3.
+0–1–2
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 17 of 32 --
+
+Strona 18 z 29 MFAP-R0_100
+Zadanie 7.
+Na poniższym wykresie przedstawiono zależność ciśnienia 𝑝 od objętości 𝑉 w cyklu
+przemian termodynamicznych 𝐴 → 𝐵 → 𝐶 → 𝐴 ustalonej masy gazu doskonałego.
+Przyjmij następujące dane i założenia:
+• liczba moli gazu jest równa 𝑛 = 2 mole
+• ciepło molowe tego gazu przy stałej objętości wynosi 𝐶𝑉 = 3
+2 𝑅, gdzie 𝑅 jest stałą gazową
+• stany gazu: 𝐴, 𝐵, 𝐶, znajdują się w punktach kratowych siatki wykresu
+• przemiana 𝐶 → 𝐴 jest izotermiczna.
+Wykres
+Zadanie 7.1. (0–1)
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+W przemianie 𝐶 → 𝐴 gaz oddawał ciepło do otoczenia (chłodnicy). P F
+W całym cyklu gaz pobrał z grzejnika więcej ciepła, niż oddał do chłodnicy. P F
+𝐵	𝐴
+𝑝, 106 Pa
+2
+1
+3
+0
+4
+0 5 10 15 20 25 𝑉, 10−3 m3
+𝐶
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 18 of 32 --
+
+Strona 19 z 29
+MFAP-R0_100
+Zadanie 7.2. (0–2)
+Oblicz 𝑻𝑨 – temperaturę gazu w stanie 𝑨. Zapisz obliczenia.
+Zadanie 7.3. (0–1)
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+Praca całkowita (użyteczna) 𝑊𝑐 gazu w cyklu (tzn. różnica między pracą wykonaną przez gaz
+i pracą wykonaną nad gazem) wynosi
+A. 𝑊𝑐 = 0 J B. 𝑊𝑐 ≈ 23 ⋅ 103 J C. 𝑊𝑐 ≈ 32 ⋅ 103 J D. 𝑊𝑐 ≈ 60 ⋅ 103 J
+Brudnopis
+7.2.
+0–1–2
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 19 of 32 --
+
+Strona 20 z 29 MFAP-R0_100
+Zadanie 8. (0–4)
+Na poniższym rysunku przedstawiono schemat obwodu elektrycznego.
+Ten obwód jest zasilany źródłem napięcia o sile elektromotorycznej ℰ = 24 V. Opór
+wewnętrzny 𝑅𝑤 źródła napięcia jest nieznany. Do źródła napięcia dołączono szeregowo
+opornik ℛ1 o oporze 𝑅1 = 15 Ω oraz amperomierz A o oporze 𝑅A = 5 Ω. Ponadto do
+amperomierza A dołączono równolegle opornik ℛ2 o oporze 𝑅2 = 10 Ω.
+W tej sytuacji amperomierz wskazał, że przepływa przez niego prąd o natężeniu 𝐼A = 0,8 A.
+Rysunek
+Oblicz 𝑹𝒘. Zapisz obliczenia.
+ℛ2
+ℛ1
+Źródło napięcia (ℰ, 𝑅𝑤)
+A
+8.
+0–1–
+2–3–4
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 20 of 32 --
+
+Strona 21 z 29
+MFAP-R0_100
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 21 of 32 --
+
+Strona 22 z 29 MFAP-R0_100
+Zadanie 9. (0–4)
+Promień światła jednobarwnego pada z próżni na pryzmat o przekroju w kształcie trójkąta
+prostokątnego równoramiennego 𝐴𝐵𝐶. Przy przejściu przez powierzchnię 𝐴𝐶 promień
+światła załamuje się w pryzmacie i dociera do powierzchni 𝐵𝐶. Współczynnik załamania
+światła w szkle, z którego wykonany jest pryzmat, oznaczymy jako 𝑛𝑠𝑧.
+Sytuację ilustruje rysunek poniżej. Na rysunku zachowano skalę.
+Uwaga! Końce odcinków przedstawiających fragment promienia w próżni i promień
+w pryzmacie znajdują się w punktach kratowych siatki wymiarowej.
+Oblicz miarę kąta załamania promienia świetlnego w próżni po wyjściu z pryzmatu
+(tzn. miarę kąta załamania na ścianie 𝑩𝑪). Zapisz obliczenia.
+Wskazówka (do jednej z metod rozwiązania): Miara kąta ∠𝐵𝐶𝐴 jest równa sumie miar kąta
+załamania promienia na ścianie 𝐴𝐶 i kąta padania promienia na ścianę 𝐵𝐶.
+𝐶
+𝐵	𝐴
+9.
+0–1–
+2–3–4
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 22 of 32 --
+
+Strona 23 z 29
+MFAP-R0_100
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 23 of 32 --
+
+Strona 24 z 29 MFAP-R0_100
+Zadanie 10.
+Podczas przejścia elektronu w atomie wodoru ze stanu (poziomu) energetycznego
+o numerze 𝑛 ∈ {3,4,5,6} do stanu energetycznego o numerze 𝑘 = 2 jest emitowany foton
+z zakresu światła widzialnego. Takie przejście oznaczymy jako 𝑛 → 2.
+Długość fali, częstotliwość oraz energię fotonu emitowanego przez atom wodoru podczas
+przejścia 𝑛 → 2 oznaczymy – odpowiednio – jako 𝜆𝑛2, 𝑓𝑛2 oraz 𝐸𝑛2.
+Zadanie 10.1. (0–2)
+Uzupełnij poniższą tabelę. Wpisz w puste komórki wartość odpowiedniej wielkości
+wraz z jej jednostką, określoną w nagłówku tabeli.
+𝒏 → 𝟐 𝝀𝒏𝟐, 𝐧𝐦 𝒇𝒏𝟐, 𝐓𝐇𝐳 𝑬𝒏𝟐, 𝐞𝐕
+4 → 2 𝜆42 = 486, 1 nm 𝑓42 = 616,8 THz
+6 → 2 𝜆62 = 410, 2 nm 𝐸62 = 3,024 eV
+Brudnopis
+10.1.
+0–1–2
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 24 of 32 --
+
+Strona 25 z 29
+MFAP-R0_100
+Zadanie 10.2. (0–4)
+Na skutek emisji fotonu podczas przejścia 5 → 2 atom wodoru doznaje odrzutu. W wyniku
+tego atom wodoru uzyskuje prędkość, której wartość oznaczymy jako v𝑎𝑡.
+Przyjmij model zjawiska, w którym:
+• przed emisją fotonu atom wodoru spoczywał
+• v𝑎𝑡 jest dużo mniejsza od 𝑐 (wartości prędkości światła w próżni)
+• pomijamy energię kinetyczną atomu wodoru uzyskaną podczas odrzutu przy emisji
+fotonu (ta energia jest o kilka rzędów wielkości mniejsza od energii emitowanego fotonu)
+• masa atomu wodoru wynosi 𝑚𝑎𝑡 = 1,6735 ⋅ 10−27 kg.
+Oblicz v𝒂𝒕. Zapisz obliczenia.
+Wskazówka: Związek między energią a pędem fotonu jest następujący: 𝐸𝑓𝑜𝑡 = 𝑐𝑝𝑓𝑜𝑡.
+10.2.
+0–1–
+2–3–4
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 25 of 32 --
+
+Strona 26 z 29 MFAP-R0_100
+Zadanie 11.
+Spoczywające jądro żelaza Fe	59 ulega rozpadowi promieniotwórczemu β−, w wyniku którego
+powstają: cząstka β− (elektron), jądro kobaltu Co	59 , a także antyneutrino elektronowe ν̃.
+Antyneutrino ma zerowy ładunek elektryczny, a jego masę możemy pominąć.
+W tym procesie jądro Fe	59 w stanie podstawowym może rozpadać się do niektórych stanów
+wzbudzonych jądra kobaltu. Rozważmy takie procesy, że jądro Fe	59 rozpadło się do jednego
+z pewnych dwóch stanów wzbudzonych jądra kobaltu: Co(X)	59 albo Co(Y)	59 . Wartości energii
+spoczynkowej jąder kobaltu w tych stanach wzbudzonych X, Y wynoszą odpowiednio:
+• 𝐸X Co = 𝐸0 Co + 1,10 MeV
+• 𝐸Y Co = 𝐸0 Co + 1,29 MeV
+gdzie 𝐸0 Co oznacza energię spoczynkową jądra Co	59 w stanie podstawowym.
+Następnie wzbudzone jądro kobaltu Co	59 przechodzi do stanu podstawowego i emituje przy
+tym foton γ. Możliwe schematy całego procesu przedstawiono na diagramach 1.–2. poniżej.
+Energia 𝐸𝑟 wydzielana w całym tym procesie, czyli suma energii kinetycznej cząstki β− oraz
+energii kinetycznej antyneutrina ν̃, oraz energii fotonu γ – w obu przypadkach – wynosi:
+• 𝐸𝑟 = 1,57 MeV
+Pomijamy bardzo małą energię kinetyczną jądra kobaltu.
+Diagram 1. Diagram 2.
+Uwaga! Kreski poziome na diagramach odpowiadają poszczególnym wartościom energii
+spoczynkowej jąder uczestniczących w całym procesie. Zachowano skalę – tzn. różnice
+między wartościami energii spoczynkowej jąder odpowiadają odległościom między kreskami.
+𝐸0 Fe oznacza energię spoczynkową jądra żelaza Fe	59 w stanie podstawowym.
+𝐸0 Fe
+𝐸X Co
+𝐸0 Co
+βX
+−, ν̃X
+γX
+𝐸0 Fe
+𝐸Y Co
+βY
+−, ν̃Y
+γY
+𝐸0 Co
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 26 of 32 --
+
+Strona 27 z 29
+MFAP-R0_100
+Zadanie 11.1. (0–1)
+Poniżej przedstawiono schemat rozpadu β− jądra żelaza Fe	59 .
+Fe	…
+59 → Co	…
+… + β− + ν	̃	0
+0
+Uzupełnij powyższy schemat tak, aby powstało równanie rozpadu 𝛃−.
+Wpisz w wykropkowane miejsca w schemacie właściwe liczby: masową i atomowe.
+Brudnopis
+Zadanie 11.2. (0–3)
+Podczas rozpadu jądra żelaza Fe	59 , powstająca cząstka β− może uzyskać różne wartości
+energii kinetycznej. Te wartości zależą od energii stanu wzbudzonego jądra kobaltu, do którego
+rozpada się jądro żelaza, oraz od energii antyneutrina (zobacz diagramy 1.–2. na stronie 26).
+Oblicz maksymalną możliwą energię kinetyczną cząstki 𝛃− w sytuacji, gdy energia
+kinetyczna antyneutrina jest pomijalnie mała. Zapisz obliczenia.
+11.2.
+0–1–
+2–3
+11.1.
+0–1
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 27 of 32 --
+
+Strona 28 z 29 MFAP-R0_100
+Zadanie 11.3. (0–2)
+Jądro kobaltu Co	59 może przechodzić – w wyniku przemiany γ – ze stanu wzbudzonego Y
+(jądra wzbudzonego Co(Y)	59 ) do stanu wzbudzonego X (jądra wzbudzonego Co(X)	59 ).
+Energię fotonu emitowanego w wyniku takiego przejścia oznaczymy jako 𝐸γYX.
+Oblicz 𝑬𝛄𝐘𝐗. Zapisz obliczenia.
+Zadanie 11.4. (0–1)
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Jądro kobaltu Co(Y)	59 (w stanie wzbudzonym Y) ma większą masę od jądra
+kobaltu Co(X)	59 (w stanie wzbudzonym X). P F
+Energia wiązania jądra kobaltu Co(Y)	59 (w stanie wzbudzonym Y) jest większa od
+energii wiązania jądra kobaltu Co(X)	59 (w stanie wzbudzonym X). P F
+Brudnopis
+11.3.
+0–1–2
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 28 of 32 --
+
+Strona 29 z 29
+MFAP-R0_100
+BRUDNOPIS (nie podlega ocenie)
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 29 of 32 --
+
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 30 of 32 --
+
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 31 of 32 --
+
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 32 of 32 --
+

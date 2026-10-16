@@ -1,0 +1,670 @@
+Układ graficzny
+© CKE 2022
+WYPEŁNIA ZDAJĄCY
+KOD PESEL
+Egzamin maturalny Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Symbol arkusza
+MFAP-R0-100-2605
+DATA: 19 maja 2026 r.
+GODZINA ROZPOCZĘCIA: 9:00
+CZAS TRWANIA: 180 minut
+LICZBA PUNKTÓW DO UZYSKANIA: 60
+Przed rozpoczęciem pracy z arkuszem egzaminacyjnym
+1. Sprawdź, czy nauczyciel przekazał Ci właściwy arkusz egzaminacyjny,
+tj. arkusz we właściwej formule, z właściwego przedmiotu na właściwym
+poziomie.
+2. Jeżeli przekazano Ci niewłaściwy arkusz – natychmiast zgłoś to nauczycielowi.
+Nie rozrywaj banderol.
+3. Jeżeli przekazano Ci właściwy arkusz – rozerwij banderole po otrzymaniu
+takiego polecenia od nauczyciela. Zapoznaj się z instrukcją na stronie 2.
+Miejsce na naklejkę.
+Sprawdź, czy kod na naklejce to
+M-100.
+Jeżeli tak – przyklej naklejkę.
+Jeżeli nie – zgłoś to nauczycielowi.
+Arkusz zawiera informacje prawnie chronione
+do momentu rozpoczęcia egzaminu.
+
+-- 1 of 32 --
+
+Strona 2 z 29 MFAP-R0_100
+Instrukcja dla zdającego
+1. Sprawdź, czy arkusz egzaminacyjny zawiera 29 stron (zadania 1–11).
+Ewentualny brak zgłoś przewodniczącemu zespołu nadzorującego egzamin.
+2. Na pierwszej stronie arkusza oraz na karcie odpowiedzi wpisz swój numer PESEL
+i przyklej naklejkę z kodem.
+3. Symbol zamieszczony przy zadaniu zamkniętym oznacza, że rozwiązanie tego
+zadania musisz przenieść na kartę odpowiedzi. Ocenie podlegają wyłącznie odpowiedzi
+zaznaczone na karcie odpowiedzi.
+4. Odpowiedzi do zadań zamkniętych oznaczonych symbolem zaznacz na karcie
+odpowiedzi w części przeznaczonej dla zdającego:
+• zamaluj pola do tego przeznaczone
+• błędne zaznaczenie otocz kółkiem i zaznacz właściwe.
+5. Rozwiązania pozostałych zadań zapisz w miejscu na to przeznaczonym przy zadaniu.
+6. W rozwiązaniach zadań rachunkowych przedstaw tok rozumowania prowadzący do
+ostatecznego wyniku oraz pamiętaj o jednostkach. Przedstaw obliczenia pośrednie
+wskazujące na wykorzystanie warunków zadania oraz praw i zależności fizycznych.
+7. Symbol zamieszczony w nagłówku zadania zwraca uwagę na to, że do rozwiązania
+zadania będzie niezbędne użycie kalkulatora pozwalającego obliczać wartości
+logarytmów, funkcji trygonometrycznych oraz funkcji wykładniczych.
+8. Symbol zamieszczony w nagłówku zadania zwraca uwagę na to, że do
+rozwiązania zadania będzie pomocne lub niezbędne użycie linijki.
+9. Pisz czytelnie. Używaj długopisu/pióra tylko z czarnym tuszem/atramentem.
+10. Nie używaj korektora, a błędne zapisy wyraźnie przekreśl.
+11. Nie wpisuj żadnych znaków w tabelkach przeznaczonych dla egzaminatora.
+Tabelki są umieszczone na marginesie przy wybranych zadaniach.
+12. Pamiętaj, że zapisy w brudnopisie nie będą oceniane.
+13. Możesz korzystać z Wybranych wzorów i stałych fizykochemicznych na egzamin
+maturalny z biologii, chemii i fizyki, z linijki oraz z kalkulatora naukowego. Upewnij się,
+czy przekazano Ci broszurę z okładką taką jak widoczna poniżej.
+
+-- 2 of 32 --
+
+Strona 3 z 29
+MFAP-R0_100
+Zadania egzaminacyjne są wydrukowane
+na następnych stronach.
+
+-- 3 of 32 --
+
+Strona 4 z 29 MFAP-R0_100
+Zadanie 1.
+W chwili 𝑡0 = 0 s z wysokości ℎ0 ponad podłożem wyrzucono pionowo w górę ciało 𝒞.
+Wartość prędkości ciała 𝒞 w chwili 𝑡0 oznaczymy jako v0. Ciało wzniosło się pionowo na
+wysokość maksymalną ℎ𝑚𝑎𝑥, po czym opadło na podłoże.
+Przyjmij, że:
+• ciało 𝒞 porusza się w komorze próżniowej, bez działania sił oporu, w inercjalnym układzie
+odniesienia, w jednorodnym, ziemskim polu grawitacyjnym
+• przyśpieszenie ziemskie ma wartość 𝑔 = 9,81 m/s2.
+Zadanie 1.1. (0–1)
+Analizujemy ruch ciała 𝒞 od chwili 𝑡0 do momentu uderzenia w podłoże.
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Przyśpieszenie ciała 𝒞 zależy od jego masy. P F
+Czas trwania ruchu ciała 𝒞 zależy od v0. P F
+Informacja do zadań 1.2.–1.3.
+Na poniższym wykresie przedstawiono zależność ℎ(𝑡) – wysokości od czasu – dla ruchu
+ciała 𝒞 od chwili 𝑡0 do momentu uderzenia w podłoże. Na wykresie zaznaczono wybrane
+punkty 𝐴, 𝑊, 𝐵 oraz podano ich współrzędne (za pomocą liczb i symboli).
+Wykres
+A = (0 ;
+h0)
+W = (0,8 ;
+hmax)
+B = (1,8 ; 0)
+0
+2
+4
+0 0,5 1 1,5 2	
+t, s
+h
+
+-- 4 of 32 --
+
+Strona 5 z 29
+MFAP-R0_100
+Zadanie 1.2. (0–2)
+Oblicz v𝟎. Zapisz obliczenia.
+Zadanie 1.3. (0–3)
+Oblicz 𝒉𝟎. Zapisz obliczenia.
+1.2.
+0–1–2
+1.3.
+0–1–
+2–3
+
+-- 5 of 32 --
+
+Strona 6 z 29 MFAP-R0_100
+Zadanie 2.
+Do jednego z końców nierozciągliwej nici o długości 𝑙 zamocowano niewielkie ciało ℬ
+o masie 𝑚. Drugi koniec nici jest unieruchomiony w punkcie 𝑆. Następnie ciało ℬ wprawiono
+w ruch po okręgu o środku w punkcie 𝑆 w płaszczyźnie pionowej.
+Przyjmij model zjawiska, w którym:
+• na ciało ℬ podczas ruchu działają dwie siły:
+𝐹⃗𝑔 – siła grawitacji oraz 𝐹⃗𝑛 – siła reakcji nici
+• pomijamy wszelkie opory ruchu, masę nici, a ciało ℬ
+traktujemy jako punkt materialny
+• ciało ℬ porusza się w inercjalnym układzie odniesienia,
+w jednorodnym, ziemskim polu grawitacyjnym.
+Sytuację ilustruje rysunek powyżej, na którym oznaczono przyśpieszenie ziemskie 𝑔⃗ .
+Zadanie 2.1. (0–2)
+Na poniższym rysunku przedstawiono wektory prędkości ciała ℬ w dwóch różnych chwilach
+czasu podczas opisanego ruchu tego ciała po okręgu.
+Długość boku kratki odpowiada umownej jednostce odległości.
+Rysunek
+Na rysunku powyżej wyznacz konstrukcyjnie środek okręgu, po którym porusza się
+ciało 𝓑. Podpisz środek tego okręgu jako 𝑺.
+Zapisz w wykropkowanym miejscu poniżej długość 𝒍 promienia tego okręgu. Wyraź tę
+długość w umownych jednostkach odległości.
+𝑙 = ........... długości boku kratki
+Uwaga! W tym przykładzie środek 𝑆 okręgu leży w punkcie kratowym.
+vሬ⃗ 1
+vሬ⃗ 2
+𝑆
+ℬ
+𝑙
+𝑔⃗
+2.1.
+0–1–2
+
+-- 6 of 32 --
+
+Strona 7 z 29
+MFAP-R0_100
+Zadanie 2.2. (0–1)
+Na którym rysunku (spośród A–D) prawidłowo przedstawiono siły – grawitacji 𝑭	ሬሬ⃗ 𝒈 oraz
+reakcji nici 𝑭	ሬሬ⃗ 𝒏 – działające na ciało 𝓑 podczas ruchu po okręgu, gdy przechodzi ono
+przez najniższe położenie? Wybierz właściwą odpowiedź spośród podanych.
+A. B.
+C. D.
+Brudnopis
+𝑆
+𝐹⃗𝑔
+𝐹⃗𝑛
+𝐹𝑛 > 𝐹𝑔
+𝑆
+𝐹⃗𝑔
+𝐹⃗𝑛
+𝐹𝑔 > 𝐹𝑛
+𝑆
+𝐹⃗𝑔
+𝐹⃗𝑛
+𝐹𝑛 = 𝐹𝑔
+𝑆
+𝐹⃗𝑔	𝐹⃗𝑛
+𝐹𝑔 = 𝐹𝑛
+
+-- 7 of 32 --
+
+Strona 8 z 29 MFAP-R0_100
+Zadanie 2.3. (0–4)
+Siła 𝐹⃗𝑛, z jaką nić działa na ciało ℬ podczas jego ruchu po okręgu, zmienia swoją wartość.
+Największą wartość tej siły oznaczymy jako 𝐹𝑛 𝑚𝑎𝑥, a najmniejszą – jako 𝐹𝑛 𝑚𝑖𝑛.
+Dany jest iloraz największej i najmniejszej wartości prędkości ciała ℬ podczas jego ruchu po
+okręgu:
+v𝑚𝑎𝑥
+v𝑚𝑖𝑛
+= √3
+Oblicz iloraz 𝑭𝒏 𝒎𝒂𝒙
+𝑭𝒏 𝒎𝒊𝒏
+. Zapisz obliczenia.
+2.3.
+0–1–
+2–3–4
+
+-- 8 of 32 --
+
+Strona 9 z 29
+MFAP-R0_100
+
+-- 9 of 32 --
+
+Strona 10 z 29 MFAP-R0_100
+Zadanie 3.
+Bloczek 𝒲, który jest jednorodnym walcem, podwieszono do sufitu. Przez ten bloczek
+przerzucono linę. Do jednego końca liny przymocowano ciężarek 𝒞, a do drugiego końca liny
+przyłożono zewnętrzną siłę 𝐹⃗ . Siła 𝐹⃗ oraz drugi koniec liny są skierowane pod kątem 𝛼 do
+poziomu (zobacz rysunek obok).
+Przyjmij model zjawiska, w którym:
+• masę walca (bloczka 𝒲) oznaczymy jako 𝑚𝑤
+• promień walca (bloczka 𝒲) oznaczymy jako 𝑅
+• masę ciężarka oznaczymy jako 𝑚𝑐
+• moment bezwładności walca (bloczka 𝒲)
+względem jego osi wyraża się wzorem:
+𝐼0 = 1
+2 𝑚𝑤𝑅2
+• lina jest nierozciągliwa i nie ślizga się po bloczku
+• masę liny pomijamy
+• bloczek może obracać się wokół swojej osi bez tarcia
+• ruch układu rozpatrujemy w inercjalnym układzie odniesienia, w jednorodnym, ziemskim
+polu grawitacyjnym. Przyśpieszenie ziemskie oznaczymy jako 𝑔⃗ .
+Zadanie 3.1. (0–1)
+Rozważamy taką sytuację 1., w której ciężarek oraz bloczek się nie poruszają.
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+Wartość 𝐹 siły 𝐹⃗ w opisanej sytuacji 1. wyraża się wzorem
+A. 𝐹 = 𝑚𝑐𝑔 B. 𝐹 = (𝑚𝑐 + 𝑚𝑤)𝑔 C. 𝐹 = 𝑚𝑐𝑔 ⋅ cos 𝛼 D. 𝐹 = 𝑚𝑐𝑔 ⋅ sin 𝛼
+Brudnopis
+𝒞
+𝒲 𝑅
+𝐹⃗
+𝑔⃗
+𝛼
+
+-- 10 of 32 --
+
+Strona 11 z 29
+MFAP-R0_100
+Zadanie 3.2. (0–4)
+Rozważamy taką sytuację 2., w której bloczek się obraca, a ciężarek porusza się pionowo
+w dół z przyśpieszeniem 𝑎⃗ (skierowanym w dół) o wartości:
+𝑎 = 1
+2 𝑔
+Wyznacz 𝑭 – wartość siły 𝑭	ሬሬ⃗ w opisanej sytuacji 2. – w zależności tylko od wartości
+przyśpieszenia ziemskiego 𝒈 oraz od masy ciężarka 𝒎𝒄 i masy walca 𝒎𝒘.
+Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na 𝑭.
+3.2.
+0–1–
+2–3–4
+
+-- 11 of 32 --
+
+Strona 12 z 29 MFAP-R0_100
+Zadanie 4.
+W pewnym ośrodku materialnym 𝒪1 rozchodzi się ultradźwiękowa fala płaska ℱ o ustalonej
+amplitudzie. W zadaniach 4.1.–4.4. pomijamy efekty związane z pochłanianiem tej fali
+w ośrodku.
+Informacja do zadań 4.1.–4.2.
+Na rysunku 1. przedstawiono obraz fali ℱ w pewnej chwili czasu 𝑡0. Pionowe odcinki
+odpowiadają powierzchniom falowym (fazowym) odległym od siebie kolejno o długość fali 𝜆1.
+Na rysunku 1. wyróżniono odcinki 𝑎 i 𝑏 – pokrywające się z dwiema powierzchniami falowymi
+w chwili 𝑡0. Czas przejścia fali ℱ od 𝑎 do 𝑏 jest równy Δ𝑡𝑎𝑏 = 0,07 ms.
+Rysunek 1.
+Zadanie 4.1. (0–2)
+Oblicz 𝒇 – częstotliwość opisanej fali ultradźwiękowej. Zapisz obliczenia.
+𝒪1
+𝑎 𝑏
+4.1.
+0–1–2
+
+-- 12 of 32 --
+
+Strona 13 z 29
+MFAP-R0_100
+Zadanie 4.2. (0–1)
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+Natężenie fali ℱ w połowie odległości pomiędzy odcinkami 𝑎 i 𝑏 w porównaniu do natężenia tej
+fali na odcinku 𝑏 jest
+A. 4 razy większe. B. 2 razy większe. C. √2 razy większe. D. takie samo.
+Brudnopis
+Zadanie 4.3. (0–1)
+Załóżmy, że fala płaska ℱ dociera do przeszkody, w której jest wąska szczelina.
+Za i przed przeszkodą znajduje się ten sam ośrodek 𝒪1.
+Na którym rysunku (spośród A–D) prawidłowo przedstawiono kolejne powierzchnie
+falowe po przejściu fali przez szczelinę? Wybierz właściwą odpowiedź spośród
+podanych.
+A. B.
+C. D.
+
+-- 13 of 32 --
+
+Strona 14 z 29 MFAP-R0_100
+Zadanie 4.4. (0–3)
+Fala płaska ℱ rozchodząca się w ośrodku 𝒪1 pada na granicę ośrodków 𝒪1 i 𝒪2 pod
+kątem 𝛼1 (zobacz rysunek 2.) i przechodzi do ośrodka 𝒪2. Wartości prędkości fali ℱ
+w ośrodkach 𝒪1 i 𝒪2 oznaczymy – odpowiednio – jako v1 i v2, przy czym:
+v1 = 2v2
+Pozioma linia 𝑘 na rysunku 2. wyznacza kierunek biegu fali ℱ w ośrodku 𝒪1.
+Pionowe linie (np. 𝑙, 𝑚, 𝑛, 𝑝, 𝑞, 𝑠) odpowiadają powierzchniom falowym fali ℱ w ośrodku 𝒪1.
+Kreską przerywaną oznaczono linie pomocnicze. W ośrodku 𝒪2 nie narysowano kierunku
+biegu fali ℱ ani jej powierzchni falowych.
+Rysunek 2.
+Na rysunku 2. dorysuj kierunek biegu fali 𝓕 w ośrodku 𝓞𝟐 oraz dorysuj powierzchnie
+falowe fali 𝓕 w ośrodku 𝓞𝟐 – tzn. narysuj kontynuację linii 𝒌 oraz linii 𝒍, 𝒎, 𝒏, 𝒑, 𝒒, 𝒔.
+Uwzględnij relację (większy, równy, mniejszy) między kątem padania a kątem
+załamania fali na granicy ośrodków oraz uwzględnij prawidłowe ułożenie powierzchni
+falowych względem kierunku biegu fali 𝓕 w ośrodku 𝓞𝟐.
+Uwaga! Nie musisz obliczać/wyznaczać miary kąta załamania.
+Wpisz poniżej wartość ilorazu długości fali – odpowiednio – w ośrodkach 𝓞𝟏 i 𝓞𝟐:
+𝜆1
+𝜆2
+= ..............
+Brudnopis
+𝒪1
+vሬ⃗ 1
+𝒪2
+𝛼1
+𝜆1
+𝑘
+𝑙 𝑚 𝑛 𝑝 𝑞 𝑠
+4.4.
+0–1–
+2–3
+
+-- 14 of 32 --
+
+Strona 15 z 29
+MFAP-R0_100
+Zadanie 5.
+Pewna planetoida ℛ krąży wokół Słońca po orbicie eliptycznej jedynie pod wpływem siły
+grawitacji Słońca. Orbita planetoidy ℛ leży w tej samej płaszczyźnie co orbita Ziemi
+i przecina się z nią w dwóch punktach (zobacz rysunek).
+Przyjmij następujące dane i założenia:
+• największą odległość planetoidy ℛ od środka 𝑆 Słońca oznaczymy jako 𝑟𝐴 = |𝑆𝐴|
+• najmniejsza odległość planetoidy ℛ od środka 𝑆 Słońca jest równa 𝑟𝑃 = |𝑆𝑃| = 0,81 au
+• długość osi wielkiej orbity planetoidy ℛ jest równa |𝑃𝐴| = 5,62 au
+• wartość prędkości planetoidy ℛ w punkcie 𝐴 orbity oznaczymy jako v𝐴
+• wartość prędkości planetoidy ℛ w punkcie 𝑃 orbity jest równa v𝑃 = 43,29 km/s
+• środek orbity planetoidy ℛ oznaczymy jako 𝑂
+oraz
+• orbitę Ziemi traktujemy w przybliżeniu jako orbitę kołową
+• odległość Ziemi od środka Słońca jest równa 𝑟Z = 1,0 au
+• okres obiegu Ziemi dookoła Słońca wynosi 𝑇Z = 1,00 rok ziemski
+• pomijamy wpływ innych ciał (oprócz Słońca) na ruch planetoidy ℛ oraz na ruch Ziemi.
+Rysunek
+Zadanie 5.1. (0–1)
+Na powyższym rysunku narysuj wektor siły 𝑭	ሬሬ⃗ , z jaką Słońce działa na planetoidę 𝓡
+w oznaczonym położeniu na orbicie. Zachowaj odpowiedni kierunek, zwrot oraz punkt
+zaczepienia tego wektora (długość może być dowolna).
+𝑆	𝑃 𝐴	𝑂
+Ziemia
+ℛ
+5.1.
+0–1
+
+-- 15 of 32 --
+
+Strona 16 z 29 MFAP-R0_100
+Zadanie 5.2. (0–2)
+Oblicz 𝑻𝓡 – okres obiegu planetoidy 𝓡 wokół Słońca. Zapisz obliczenia.
+Wynik podaj w latach ziemskich.
+Zadanie 5.3. (0–1)
+Wartość przyśpieszenia planetoidy ℛ w punktach 𝑃 oraz 𝐴 orbity oznaczymy – odpowiednio –
+jako 𝑎𝑃 oraz 𝑎𝐴.
+Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.
+Iloraz 𝑎𝑃
+𝑎𝐴
+jest równy
+A. |𝑆𝐴|
+|𝑆𝑃| B. |𝑆𝑃|
+|𝑆𝐴| C. (|𝑆𝐴|
+|𝑆𝑃|)2
+D. (|𝑆𝑃|
+|𝑆𝐴|)2
+Brudnopis
+5.2.
+0–1–2
+
+-- 16 of 32 --
+
+Strona 17 z 29
+MFAP-R0_100
+Zadanie 5.4. (0–3)
+Oblicz v𝑨 – wartość prędkości planetoidy 𝓡 w punkcie 𝑨 orbity. Zapisz obliczenia.
+5.4.
+0–1–
+2–3
+
+-- 17 of 32 --
+
+Strona 18 z 29 MFAP-R0_100
+Zadanie 6.
+Na poniższym wykresie przedstawiono zależność ciśnienia 𝑝 od objętości 𝑉 dla pewnej
+przemiany termodynamicznej 𝐴 → 𝐵 ustalonej masy gazu doskonałego. Przyjmij, że:
+• ciepło molowe tego gazu przy stałej objętości wynosi 𝐶𝑉 = 3
+2 𝑅, gdzie 𝑅 jest stałą gazową
+• stany 𝐴 i 𝐵 gazu znajdują się w punktach kratowych siatki wykresu
+• 𝐴𝐵 jest odcinkiem prostym.
+Wykres
+Zadanie 6.1. (0–1)
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+W przemianie 𝐴 → 𝐵 temperatura bezwzględna 𝑇 gazu zmienia się wprost
+proporcjonalnie do kwadratu objętości tego gazu. P F
+W przemianie 𝐴 → 𝐵 średnia wartość prędkości cząsteczek gazu wzrasta. P F
+Zadanie 6.2. (0–1)
+Dokończ zdanie. Wpisz właściwą liczbę w wykropkowane miejsce.
+Iloraz temperatur bezwzględnych gazu w stanach 𝐵 i 𝐴 jest równy 𝑇𝐵
+𝑇𝐴
+= ................ .
+Brudnopis
+𝐵
+𝐴
+0 5 10 15 20 25 30 35 𝑉, 10−3 m3
+𝑝, 104 Pa
+2
+1
+3
+0
+4
+5
+6
+6.2.
+0–1
+
+-- 18 of 32 --
+
+Strona 19 z 29
+MFAP-R0_100
+Zadanie 6.3. (0–4)
+Oblicz 𝑸𝑨𝑩 – ciepło pobrane przez gaz w opisanej przemianie 𝑨 → 𝑩.
+Zapisz obliczenia.
+Wskazówka: Skorzystaj z Wybranych wzorów i stałych fizykochemicznych na egzamin
+maturalny z biologii, chemii i fizyki.
+6.3.
+0–1–
+2–3–4
+
+-- 19 of 32 --
+
+Strona 20 z 29 MFAP-R0_100
+Zadanie 7.
+Trzy punktowe ładunki elektryczne: 𝑄1, 𝑄2 i 𝑄3
+umieszczono w wierzchołkach kwadratu (zobacz rysunek
+obok). Ładunki te pozostają nieruchome. Pomiędzy
+ładunkami jest próżnia.
+Długość boku tego kwadratu jest równa 𝑎.
+Wartości ładunków 𝑄1, 𝑄2 i 𝑄3 wyrażają się poprzez
+pewną dodatnią wartość 𝑄 następująco:
+𝑄1 = +𝑄 𝑄2 = −𝑄 𝑄3 = +𝑄
+W wierzchołku kwadratu oznaczonym jako 𝑃 nie ma
+ładunku elektrycznego.
+Zadanie 7.1. (0–1)
+Na którym rysunku (spośród A–D) prawidłowo zaznaczono kierunek i zwrot
+wypadkowej siły elektrycznej działającej na ładunek 𝑸𝟑? Wybierz właściwą odpowiedź
+spośród podanych.
+A. B.
+C. D.
+𝑄1 = +𝑄
+𝑄3 = +𝑄
+𝑃
+𝑎
+𝑄2 = −𝑄
+𝑄1
+𝑄3
+𝑃
+𝑎
+𝑄2
+𝑄1
+𝑄3
+𝑃
+𝑎
+𝑄2
+𝑄1
+𝑄3
+𝑃
+𝑎
+𝑄2 𝑄3
+𝑄2
+𝑄1 𝑃
+𝑎
+
+-- 20 of 32 --
+
+Strona 21 z 29
+MFAP-R0_100
+Zadanie 7.2. (0–4)
+Wektor wypadkowego natężenia pola elektrycznego w punkcie 𝑃 oznaczymy jako 𝐸ሬ⃗ 𝑃.
+Wyznacz 𝑬𝑷 – wartość wektora natężenia 𝑬	ሬሬ⃗ 𝑷 – w zależności tylko od 𝒂, od 𝑸 oraz od
+odpowiedniej stałej fizycznej.
+Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na 𝑬𝑷.
+Uwaga! Zamieszczony rysunek ma charakter pomocniczy.
+𝑄1 = +𝑄
+𝑄3 = +𝑄
+𝑃
+𝑎
+𝑄2 = −𝑄
+Rysunek pomocniczy
+7.2.
+0–1–
+2–3–4
+
+-- 21 of 32 --
+
+Strona 22 z 29 MFAP-R0_100
+Zadanie 8.
+Szklana kula 𝒦 o środku w punkcie 𝑆 jest umieszczona w powietrzu. Współczynnik
+załamania światła w szkle, z którego jest wykonana kula 𝒦, jest równy 𝑛𝑠𝑧 = 1,50.
+Współczynnik załamania światła w powietrzu przyjmujemy równy 𝑛𝑝 = 1,00.
+Wewnątrz kuli 𝒦, w punkcie 𝐷 tuż pod jej powierzchnią, znajduje się mała świecąca dioda.
+Ta dioda emituje światło do wnętrza kuli w taki sposób, że jej światło pada na każdy punkt
+wewnętrznej powierzchni kuli 𝒦.
+Okazuje się, że światło diody wychodzi z kuli 𝒦 jedynie przez fragment jej powierzchni,
+zaznaczony na schematycznym rysunku fioletowym łukiem 𝐴𝐵.
+Na rysunku przedstawiono przekrój kuli 𝒦 w płaszczyźnie zawierającej diodę i środek kuli.
+Miarę kąta ∠𝐵𝐷𝐴 oznaczono jako 𝜑. Kreską przerywaną oznaczono odcinki pomocnicze.
+Rysunek
+Zadanie 8.1. (0–3)
+Oblicz 𝝋. Zapisz obliczenia.
+𝐴 𝑆 𝐵
+𝐷
+𝜑
+8.1.
+0–1–
+2–3
+
+-- 22 of 32 --
+
+Strona 23 z 29
+MFAP-R0_100
+Zadanie 8.2. (0–1)
+Kulę 𝒦 zanurzono w wodzie. Współczynnik załamania światła w wodzie jest równy 𝑛𝑤 = 1,33.
+Dokończ zdanie. Wybierz odpowiedź A albo B oraz odpowiedź 1. albo 2.
+Kąt graniczny dla szkła kuli 𝒦 określony względem wody, w porównaniu do kąta
+granicznego dla szkła kuli 𝒦 określonego względem powietrza, będzie
+A. mniejszy, w związku z czym pole powierzchni,
+przez którą wychodzi światło z kuli,
+1. się zmniejszy.
+B. większy, 2. się zwiększy.
+Brudnopis
+
+-- 23 of 32 --
+
+Strona 24 z 29 MFAP-R0_100
+Zadanie 9. (0–3)
+Elektron porusza się po okręgu w zewnętrznym jednorodnym polu magnetycznym.
+Wartość wektora indukcji magnetycznej tego pola jest równa 𝐵 = 1,70 mT.
+Wektor prędkości vሬ⃗ elektronu jest prostopadły do wektora indukcji magnetycznej 𝐵ሬ⃗ .
+Wartość prędkości elektronu jest dużo mniejsza od wartości prędkości światła w próżni.
+Oblicz 𝑻 – okres obiegu tego elektronu po okręgu. Zapisz obliczenia.
+Wskazówka: Skorzystaj z Wybranych wzorów i stałych fizykochemicznych na egzamin
+maturalny z biologii, chemii i fizyki.
+9.
+0–1–
+2–3
+
+-- 24 of 32 --
+
+Strona 25 z 29
+MFAP-R0_100
+Zadanie 10. (0–3)
+Cząstka β− emitowana podczas rozpadu pewnego jądra ma energię kinetyczną równą
+𝐸𝑘𝑖𝑛 = 1,311 MeV. Energia spoczynkowa cząstki β− jest równa 𝐸0 = 0,511 MeV.
+Wartość prędkości tej cząstki β− oznaczymy jako v.
+Wartość prędkości światła w próżni oznaczymy jako 𝑐.
+Oblicz v
+𝒄 . Zapisz obliczenia. Wynik podaj zaokrąglony do dwóch cyfr znaczących. 10.
+0–1–
+2–3
+
+-- 25 of 32 --
+
+Strona 26 z 29 MFAP-R0_100
+Zadanie 11.
+Izotop neonu Ne	23 ulega rozpadowi promieniotwórczemu w wyniku przemiany β−.
+W wyniku tego rozpadu powstają: cząstka β− (elektron), jądro pewnego pierwiastka, który
+oznaczymy jako X, oraz antyneutrino elektronowe ν̃. Antyneutrino ma zerowy ładunek
+elektryczny, a jego masę możemy pominąć.
+Zadanie 11.1. (0–2)
+Poniżej przedstawiono schemat rozpadu β− jądra neonu Ne	23 .
+Ne	10
+23 → X	…
+… + β− + ν	̃	0
+0
+symbol (lub nazwa) pierwiastka X: .......................
+Uzupełnij powyższy schemat tak, aby powstało równanie rozpadu 𝛃−.
+Wpisz w wykropkowane miejsca w schemacie właściwe liczby: atomową i masową,
+a pod schematem – symbol (lub nazwę) pierwiastka 𝐗, którego jądro powstaje w tym
+rozpadzie.
+Brudnopis
+Zadanie 11.2. (0–1)
+W chwili tuż przed opisanym rozpadem jądro neonu Ne	23 było nieruchome.
+Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Masa jądra neonu Ne	23 jest większa od łącznej sumy mas produktów
+rozpadu β− tego jądra. P F
+Produkty rozpadu β− jądra neonu Ne	23 uzyskują energię kinetyczną. P F
+11.1.
+0–1–2
+
+-- 26 of 32 --
+
+Strona 27 z 29
+MFAP-R0_100
+Zadanie 11.3. (0–4)
+Badano próbkę promieniotwórczą 𝒫 zawierającą jądra izotopu neonu Ne	23 . Łączną masę
+jąder neonu Ne	23 , które pozostają w próbce 𝒫 po upływie czasu 𝑡 od chwili początkowej
+𝑡0 = 0 min, oznaczymy jako 𝑚. Na podstawie pomiarów promieniowania powstającego
+podczas rozpadów β− tych jąder neonu obliczono 𝑚 dla różnych chwil czasu.
+Na poniższym wykresie przedstawiono zależność log10 𝑚 od czasu 𝑡. Wartości logarytmu
+obliczono dla wartości liczbowych masy 𝑚 wyrażonej w pewnych jednostkach umownych.
+Wykres
+Na podstawie wykresu oblicz 𝑻 – czas połowicznego rozpadu jąder neonu 𝐍𝐞	𝟐𝟑 .
+Zapisz obliczenia.
+Wskazówki: 1) Jeśli 𝑎𝑐 = 𝑏 oraz 𝑎 > 0, 𝑎 ≠ 1, 𝑏 > 0, to 𝑐 = log𝑎𝑏.
+2) Możesz wykorzystać wzory:
+log10(𝑥 ⋅ 𝑦) = log10 𝑥 + log10 𝑦 dla 𝑥 > 0, 𝑦 > 0
+log10 (𝑥
+𝑦) = log10 𝑥 − log10 𝑦 dla 𝑥 > 0, 𝑦 > 0
+-0,4
+-0,2
+0
+0,2
+0,4
+0,6
+0,8
+1
+1,2
+1,4
+0 0,5 1 1,5 2 2,5 3	
+t, min
+log10
+m
+11.3.
+0–1–
+2–3–4
+
+-- 27 of 32 --
+
+Strona 28 z 29 MFAP-R0_100
+
+-- 28 of 32 --
+
+Strona 29 z 29
+MFAP-R0_100
+BRUDNOPIS (nie podlega ocenie)
+
+-- 29 of 32 --
+
+
+
+-- 30 of 32 --
+
+
+
+-- 31 of 32 --
+
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+FIZYKA
+Poziom rozszerzony
+Formuła 2023
+
+-- 32 of 32 --
+

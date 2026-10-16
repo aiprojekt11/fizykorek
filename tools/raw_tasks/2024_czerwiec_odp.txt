@@ -1,0 +1,70 @@
+1.1. (0–2)
+Wymagania egzaminacyjne 20241
+Wymagania ogólne Wymagania szczegółowe
+IV. Posługiwanie się informacjami
+pochodzącymi z analizy materiałów
+źródłowych, w tym tekstów
+popularnonaukowych.
+I. Wykorzystanie pojęć i wielkości
+fizycznych do opisu zjawisk oraz
+wskazywanie ich przykładów
+w otaczającej rzeczywistości.
+Zdający:
+I.7) wyodrębnia z tekstów […] informacje
+kluczowe dla opisywanego zjawiska […].
+II.8) opisuje ruch jednostajny po okręgu,
+posługując się pojęciami: […] prędkości liniowej
+[…] prędkości kątowej i przyspieszenia
+dośrodkowego wraz z ich jednostkami;
+II.13) stosuje zasady dynamiki do opisu
+zachowania się ciał.
+Zasady oceniania
+2 pkt – poprawne zaznaczenia w trzech zdaniach.
+1 pkt – poprawne zaznaczenia w dwóch zdaniach.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Pełne rozwiązanie
+PPF
+Zadanie 1.2. (0–4)
+Wymagania egzaminacyjne 2024
+Wymagania ogólne Wymagania szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+II.4) opisuje ruchy prostoliniowe […] jednostajnie
+zmienne, posługując się zależnościami […]
+wartości prędkości i przyspieszenia oraz drogi
+od czasu;
+II.9) stosuje do obliczeń związki między […]
+prędkością kątową, prędkością liniową […];
+II.13) stosuje zasady dynamiki do opisu
+zachowania się ciał;
+II.17) opisuje opory ruchu […].
+1 Rozporządzenie Ministra Edukacji i Nauki z dnia 10 czerwca 2022 r. w sprawie wymagań egzaminacyjnych dla
+egzaminu maturalnego przeprowadzanego w roku szkolnym 2022/2023 i 2023/2024 (Dz.U. z 2022 r. poz. 1246).
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 35 --
+
+Egzamin maturalny z fizyki – termin dodatkowy 2024 r.
+Strona 4 z 35
+Zasady oceniania2
+(dla rozwiązania sposobem 1.)
+4 pkt – poprawna metoda obliczenia stosunku dróg oraz podanie prawidłowego wyniku
+liczbowego.
+3 pkt – spełnienie warunku opisanego w pierwszym lub drugim kryterium za 2 pkt oraz
+zapisanie stosunku dróg jako odpowiedniego stosunku prędkości, oraz powiązanie
+prędkości liniowej i-tej monety z prędkością kątowa deseczki i odległością od osi
+obrotu, np. zapisy równoważne poniższym:
+𝑣𝑖
+2 = 2𝑎𝑠𝑖 oraz 𝑠1: 𝑠2: 𝑠3 = 𝑣1
+2: 𝑣2
+2: 𝑣3
+2 oraz 𝑣𝑖 = 𝜔𝑟𝑖
+2 pkt – zapisanie kinematycznego równania ruchu jednostajnie opóźnionego z
+wyeliminowanym czasem, wiążącego prędkość początkową i-tej monety, drogę jaką
+przebyła i przyśpieszenie oraz zapisanie II zasa

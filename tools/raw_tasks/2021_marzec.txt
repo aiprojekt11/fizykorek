@@ -1,0 +1,90 @@
+Zadanie 1.
+Rozważamy ruch windy, gdy wjeżdżała ona na taras widokowy pewnego wieżowca. W chwili
+początkowej 𝑡଴ = 0 winda ruszyła z miejsca i przez pewien czas jechała do góry ze stałym
+przyśpieszeniem o wartości 0,80 m/s ଶ. Od chwili, gdy winda osiągnęła prędkość maksymalną
+o wartości 18 m/s, dalej poruszała się przez 9 s ruchem jednostajnym. Ostatni etap trasy
+winda jechała ruchem jednostajnie opóźnionym z przyśpieszeniem (potocznie – opóźnieniem)
+o wartości 0,80 m/s ଶ – aż do zatrzymania się. W windzie stał człowiek o masie 75 kg. Przyjmij
+do obliczeń przyśpieszenie ziemskie 𝑔 = 9,8 m/s ଶ.
+Zadanie 1.1. (0–3)
+Na poniższym diagramie współrzędnych narysuj wykres zależności 𝑭(𝒕) – wartości 𝑭
+siły nacisku, z jaką człowiek działał na podłogę windy, od czasu 𝒕 ruchu windy, podczas
+całego opisanego ruchu, licząc od chwili 𝒕 𝟎. Wykonaj i zapisz odpowiednie obliczenia.
+600
+625
+650
+675
+700
+725
+750
+775
+800
+825
+850
+0 	10 	20 	30 	40 	50 	60
+t, s
+F, N
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 26 --
+
+Strona 3 z 26
+EFAP-R0_100
+Zadanie 1.2. (0–2)
+Oblicz drogę, jaką przejechała winda podczas całego opisanego ruchu, licząc od chwili 𝒕 𝟎.
+Wypełnia
+egzaminator
+Nr zadania 	1.1. 	1.2.
+Maks. liczba pkt 	3 	2
+Uzyskana liczba pkt
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 3 of 26 --
+
+Strona 4 z 26 EFAP-R0_100
+Zadanie 2.
+Dwa klocki o masach 𝑚 = 2,0 kg i 𝑀 = 3,0 kg ułożono na poziomym podłożu jeden za drugim
+tak, że stykały się ścianami. Oba klocki początkowo były nieruchome. W pewnej chwili zaczęto
+je pchać stałą siłą 𝐹⃗ przyłożoną do mniejszego klocka i skierowaną równolegle do podłoża
+w kierunku większego klocka (zobacz rys. poniżej). Układ obu klocków uzyskał wskutek tego
+stałe przyśpieszenie o wartości 𝑎 = 0,60 m/s ଶ. Współczynnik tarcia pomiędzy każdym
+z klocków a podłożem wynosi 𝜇 = 0,10. Przyjmij przyśpieszenie ziemskie 𝑔 = 9,8 m/s ଶ.
+Zadanie 2.1. (0–1)
+Dokończ zdanie. Zaznacz właściwą odpowiedź spośród podanych.
+Siła 𝐹⃗ ma wartość (w przybliżeniu z dokładnością do dwóch cyfr znaczących)
+A. 1,2 N 	B. 3,0 N 	C. 4,7 N 	D. 7,9 N
+Brudnopis
+𝑚
+𝑀
+𝐹⃗
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 26 --
+
+Strona 5 z 26
+EFAP-R0_100
+Zadanie 2.2. (0–3)
+Wartość 𝐹௡ siły nacisku, z jaką klocek o masie 𝑚 działa na klocek o masie 𝑀, gdy jest pchany,
+można wyrazić jedynie za pomocą następujących wielkości: wartości 𝐹 siły, z jaką pchano
+układ obu klocków, masy 𝑚 mniejszego klocka oraz masy 𝑀 większego klocka.
+Wyprowadź i zapisz wzór pozwalający obliczyć wartość 𝑭 𝒏 tylko poprzez 𝒎, 𝑴 oraz 𝑭.
+Wypełnia
+egzaminator
+Nr zadania 	2.1. 	2.2.
+Maks. liczba pkt 	1 	3
+Uzyskana liczba pkt
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 26 --
+
+Strona 6 z 26 EFAP-R0_100
+Zadanie 3.
+Sonda kosmiczna o masie 𝑚 = 10 ସ kg początkowo poruszała się swobodnie (jedynie pod
+wpływem grawitacji) dookoła Ziemi po orbicie kołowej o promieniu 𝑟, z prędkością orbitalną
+o wartości 	v௢௥ = 7,56 km/s 	(zobacz 	rys. 1.). 	W 	pewnym 	momencie 	włączono 	silniki
+odrzutowe sondy, odpowiednio zaprogramowane. Przez pewien czas na sondę działała siła
+odrzutu tak, że sonda poruszała się nadal po orbicie kołowej o promieniu 𝑟, a wartość
+prędkości tej sondy rosła (zobacz rys. 2.). Gdy sonda osiągnęła prędkość vሬ⃗ ௣ w chwili 𝑡௣, silniki
+odrzutowe wyłączono (zobacz rys. 3.), a sonda zaczęła się oddalać od Ziemi.
+Prędkość vሬ⃗ ௣ uzyskana przez sondę w odległości 𝑟 od środka Ziemi była na tyle duża, że
+umożliwiała sondzie ciągłe oddalanie s

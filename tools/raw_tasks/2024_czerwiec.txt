@@ -1,0 +1,96 @@
+Zadanie 1.
+Deseczka z wycięciami, w których umieszczono trzy jednakowe monety: M1, M2, M3, obraca
+się ze stałą prędkością kątową 𝜔 po poziomej powierzchni blatu stołu wokół osi obrotu,
+przechodzącej przez punkt 𝑂. W wyniku tego obrotu torami ruchów środków tych monet są
+okręgi o wspólnym środku 𝑂.
+Masy monet są jednakowe i równe 𝑚:
+𝑚1 = 𝑚2 = 𝑚3 = 𝑚
+Odległości środków monet M1, M2, M3 od osi obrotu oznaczymy – odpowiednio – jako:
+𝑟1, 𝑟2, 𝑟3 (zobacz rysunek). Stosunki tych odległości wynoszą 𝑟1: 𝑟2: 𝑟3 = 1: 2: 3, to znaczy:
+𝑟1
+𝑟2
+= 1
+2 oraz 𝑟1
+𝑟3
+= 1
+3 oraz 𝑟2
+𝑟3
+= 2
+3
+Rysunek
+Ruch deseczki i monet rozpatrujemy w inercjalnym układzie odniesienia związanym z ziemią,
+w jednorodnym, ziemskim polu grawitacyjnym.
+Zadanie 1.1. (0–2)
+Rozważamy sytuację, gdy deseczka z monetami obraca się ze stałą prędkością kątową 𝜔.
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+1. Wektory przyśpieszeń w ruchu postępowym monet są skierowane do osi
+obrotu 𝑂. P F
+2. Siła wypadkowa działająca na monetę M3 ma trzy razy większą wartość
+od wartości siły wypadkowej działającej na monetę M1. P F
+3. Prędkości liniowe (prędkości w ruchu postępowym) monet M1, M2 i M3
+mają te same wartości. P F
+oś obrotu
+M1	M2	M3
+𝑟1
+𝑟2
+𝑟3
+𝑂
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 4 of 28 --
+
+Strona 5 z 27
+MFAP_R0_100
+Zadanie 1.2. (0–4)
+Obracająca się deseczka została nagle zatrzymana, wskutek czego monety wypadły
+z wycięć i poruszały się dalej po stole wzdłuż linii prostych. Rozważamy ruch postępowy
+monet od chwili zatrzymania się deseczki do chwili zatrzymania się ostatniej monety na
+stole. W tym czasie monety M1, M2 i M3 przebyły drogi równe odpowiednio: 𝑠1, 𝑠2 i 𝑠3.
+Przyjmij, że współczynnik tarcia kinetycznego o stół jest taki sam dla wszystkich monet
+oraz że monety nie obracały się podczas tego ruchu.
+Oblicz 𝒔𝟏: 𝒔𝟐: 𝒔𝟑. Zapisz obliczenia.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 5 of 28 --
+
+Strona 6 z 27 MFAP_R0_100
+Zadanie 2.
+Dana jest jednorodna, sztywna belka o masie 𝑚 = 120 kg i długości 𝑙 = 2,8 m. Tę belkę
+przymocowano do dwóch pionowych podpór: PA i PB. Podpory PA i PB łączą się z belką
+w punktach 𝐴 i 𝐵. Obie podpory są na sztywno przytwierdzone do poziomego podłoża.
+Mocowanie pojedynczej podpory do belki umożliwia jej obrót bez tarcia w płaszczyźnie
+pionowej. Gdy belka jest przymocowana do obu podpór, to utrzymuje się nieruchomo
+w pozycji poziomej (zobacz rysunek 1.).
+Odległość między punktami 𝐴 i 𝐵 wynosi |𝐴𝐵| = 1,0 m. Na rysunku poniżej przedstawiono
+opisaną sytuację. Punkt środka masy belki oznaczono jako 𝐶. Przyjmij, że belka spoczywa
+poziomo w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym.
+Siły, z jakimi podpory PA i PB działają na belkę w punktach 𝐴 i 𝐵, oznaczymy – odpowiednio –
+jako 𝐹⃗𝐴 i 𝐹⃗𝐵. Siłę ciężkości działającą na belkę oznaczymy jako 𝐹⃗𝐶.
+Rysunek 1.
+Zadanie 2.1. (0–2)
+Na rysunku 2. narysuj i oznacz wektory sił 𝑭	⃗⃗⃗ 𝑨, 𝑭	⃗⃗⃗ 𝑩 i 𝑭	⃗⃗⃗ 𝑪 w opisanej sytuacji.
+Zachowaj odpowiednie kierunki i zwroty tych sił oraz relacje (większy, równy,
+mniejszy) między ich wartościami.
+Rysunek 2.
+𝐴 𝐵 𝐶
+𝑔⃗
+belka
+PA PB
+podłoże
+𝐴 𝐵 𝐶
+𝑔⃗
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 6 of 28 --
+
+Strona 7 z 27
+MFAP_R0_100
+Zadanie 2.2. (0–3)
+Przyjmij do obliczeń 𝑔 = 9,8 m/s2.
+Oblicz 𝑭𝑨 i 𝑭𝑩 – wartości sił 𝑭	⃗⃗⃗ 𝑨 i 𝑭	⃗⃗⃗ 𝑩. Zapisz obliczenia.
+Wi
+ęcej arkuszy znajdziesz na stronie:

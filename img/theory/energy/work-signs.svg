@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Dodatnia, zerowa i ujemna praca</title>
+  <desc id="desc">Trzy przypadki zależne od kąta między siłą a przemieszczeniem: siła zgodna z ruchem, prostopadła i przeciwna do ruchu.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="226" height="304" rx="20"/><rect class="panel" x="267" y="18" width="226" height="304" rx="20"/><rect class="panel" x="516" y="18" width="226" height="304" rx="20"/>
+     <text class="t label green" x="131" y="54" text-anchor="middle">W &gt; 0</text><text class="t small muted" x="131" y="80" text-anchor="middle">siła pomaga</text>
+     <rect class="box" x="78" y="143" width="106" height="60" rx="10"/><line x1="104" y1="124" x2="191" y2="124" stroke="#16a34a" stroke-width="4" marker-end="url(#arrow-green)"/><text class="t small green" x="103" y="113">F</text><line x1="72" y1="238" x2="193" y2="238" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/><text class="t small blue" x="131" y="270" text-anchor="middle">s, α = 0°</text>
+     <text class="t label amber" x="380" y="54" text-anchor="middle">W = 0</text><text class="t small muted" x="380" y="80" text-anchor="middle">siła prostopadła</text>
+     <rect class="box" x="327" y="143" width="106" height="60" rx="10"/><line x1="380" y1="141" x2="380" y2="85" stroke="#d97706" stroke-width="4" marker-end="url(#arrow-red)"/><text class="t small amber" x="394" y="104">F</text><line x1="321" y1="238" x2="442" y2="238" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/><text class="t small blue" x="380" y="270" text-anchor="middle">s, α = 90°</text>
+     <text class="t label red" x="629" y="54" text-anchor="middle">W &lt; 0</text><text class="t small muted" x="629" y="80" text-anchor="middle">siła hamuje</text>
+     <rect class="box" x="576" y="143" width="106" height="60" rx="10"/><line x1="657" y1="124" x2="570" y2="124" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow-red)"/><text class="t small red" x="654" y="113">F</text><line x1="570" y1="238" x2="691" y2="238" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/><text class="t small blue" x="629" y="270" text-anchor="middle">s, α = 180°</text>
+</svg>

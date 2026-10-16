@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Sprężyste zderzenie ciał o jednakowych masach</title>
+  <desc id="desc">Pierwsze ciało porusza się, drugie spoczywa. Po centralnym zderzeniu pierwsze się zatrzymuje, a drugie przejmuje jego prędkość.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:16px;font-weight:600}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:7 7}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.ball{fill:#bfdbfe;stroke:#2563eb;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/><text class="t label" x="190" y="54" text-anchor="middle">PRZED</text><text class="t label" x="575" y="54" text-anchor="middle">PO</text><line x1="380" y1="72" x2="380" y2="280" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 7"/>
+     <line class="surface" x1="58" y1="224" x2="338" y2="224"/><circle class="ball" cx="118" cy="184" r="40"/><text class="t label" x="118" y="191" text-anchor="middle">m</text><line x1="87" y1="129" x2="192" y2="129" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="133" y="112">v</text><circle cx="280" cy="184" r="40" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text class="t label" x="280" y="191" text-anchor="middle">m</text><text class="t small muted" x="280" y="120" text-anchor="middle">v = 0</text>
+     <line class="surface" x1="420" y1="224" x2="702" y2="224"/><circle class="ball" cx="478" cy="184" r="40"/><text class="t label" x="478" y="191" text-anchor="middle">m</text><text class="t small muted" x="478" y="120" text-anchor="middle">v′ = 0</text><circle cx="625" cy="184" r="40" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text class="t label" x="625" y="191" text-anchor="middle">m</text><line x1="594" y1="129" x2="699" y2="129" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/><text class="t small blue" x="638" y="112">v′ = v</text>
+     <text class="t small green" x="575" y="274" text-anchor="middle">zachowane p oraz Eₖ</text>
+</svg>

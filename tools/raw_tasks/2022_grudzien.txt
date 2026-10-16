@@ -1,0 +1,98 @@
+Zadanie 1.
+Na wykresie 1. przedstawiono w kartezjańskim układzie współrzędnych (𝑥, 𝑦) tor ruchu ciała
+w inercjalnym układzie odniesienia. Ruch ciała odbywał się następująco.
+• Ciało rozpoczęło ruch w punkcie 𝐴 (od zerowej prędkości początkowej) i dalej poruszało
+się ruchem jednostajnie przyśpieszonym prostoliniowym aż do punktu 𝐵. W punkcie 𝐵
+ciało osiągnęło prędkość o wartości v𝐵 = v.
+• Od punktu 𝐵 do 𝐶 ciało poruszało się po półokręgu z prędkością o stałej wartości v.
+• Od punktu 𝐶 do 𝐷 ciało poruszało się ruchem jednostajnie opóźnionym prostoliniowym.
+W punkcie 𝐷 ciało się zatrzymało (v𝐷 = 0).
+Wykres 1.
+Zadanie 1.1. (0–4)
+Długość boku kratki na wykresie 2. odpowiada umownej jednostce siły. Wartość siły
+wypadkowej działającej na ciało w punkcie 𝑍 wyrażona w tych jednostkach siły wynosi 4.
+Na wykresie 2. narysuj w punktach 𝒀 oraz 𝒁 wektory sił wypadkowych działających na
+ciało. Uwzględnij odpowiednie: (1) kierunki, (2) zwroty oraz (3) długości wektorów,
+odpowiadające wartościom sił wypadkowych. Zapisz obliczenia uzasadniające
+długość wektora w punkcie 𝒀.
+Wykres 2.
+𝑌
+𝑍
+𝑦, m
+10
+8
+6
+4
+2
+0
+𝐶	𝑍
+𝑌
+𝐴 𝐵
+0 2 4 6 8 10 12 14 𝑥, m
+𝐷
+1.1.
+0–1–
+2–3–4
+
+-- 4 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 5 z 26
+MFAP-R0_100
+Zadanie 1.2. (0–3)
+Wartość prędkości, z jaką ciało poruszało się od punktu 𝐵 do 𝐶, jest równa v = 2,0 m/s.
+Oblicz czas ruchu ciała od punktu 𝑨 do punktu 𝑫. Zapisz obliczenia. 1.2.
+0–1–
+2–3
+
+-- 5 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 6 z 26 MFAP-R0_100
+Zadanie 2. (0–4)
+Dwie kule K1 i K2 o różnych masach – odpowiednio – 𝑚1 i 𝑚2, poruszały się naprzeciw
+siebie w inercjalnym układzie odniesienia z prędkościami o wartościach odpowiednio:
+v1𝑝𝑟𝑧𝑒𝑑 = 2,0 m/s oraz v2𝑝𝑟𝑧𝑒𝑑 = 4,0 m/s. Środki tych kul poruszały się wzdłuż wspólnej
+prostej (zobacz rysunek 1.).
+W pewnym momencie kule K1 i K2 się zderzyły, a wartości prędkości kul po zderzeniu były
+równe odpowiednio: v1𝑝𝑜 = 1,0 m/s oraz v2𝑝𝑜 = 5,0 m/s (zobacz rysunek 2.).
+Rysunek 1.
+Rysunek 2.
+Ustal i zapisz, czy zderzenie kul K1 i K2 było doskonale sprężyste. Powołaj się na
+odpowiednie prawa lub zależności fizyczne i wykonaj niezbędne obliczenia,
+uzasadniające Twoje stwierdzenie.
+K1 K2
+vሬԦ1𝑝𝑟𝑧𝑒𝑑 vሬԦ2𝑝𝑟𝑧𝑒𝑑
+vሬԦ1𝑝𝑜 vሬԦ2𝑝𝑜
+K1 K2
+2.
+0–1–
+2–3–4
+
+-- 6 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 7 z 26
+MFAP-R0_100
+
+-- 7 of 28 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 8 z 26 MFAP-R0_100
+Zadanie 3.
+Dany jest cienki jednorodny pręt o masie 𝑚, długości 𝑙 i końcach w punktach 𝐴 oraz 𝐵. Koniec
+𝐴 pręta jest oparty o klocek na poziomej powierzchni, a koniec 𝐵 pręta jest podtrzymywany.
+W ten sposób pręt tworzy z poziomą powierzchnią kąt 𝛼0 (zobacz rysunek 1.). W pewnej chwili
+𝑡0 zwolniono koniec 𝐵 pręta, wskutek czego pręt zaczął opadać tak, że jego koniec 𝐴 się nie
+przesuwał (zobacz rysunek 2.). Na obu rysunkach oznaczono punkt 𝑆 – środek masy pręta.
+Na rysunku 2. oznaczono kąt 𝛼𝑡, tworzony przez pręt z poziomą powierzchnią w chwili 𝑡
+podczas opadania. Ruch pręta odbywa się w ziemskim polu grawitacyjnym w układzie
+inercjalnym. W zadaniach 3.1.–3.3. pomijamy opory ruchu.
+Momenty bezwładności pręta względem osi obrotu przechodzącej przez punkt 𝐴 oraz
+względem osi obrotu przechodzącej przez punkt 𝑆 dane są – odpowiednio – wzorami:
+𝐼𝐴 = 1
+3 𝑚𝑙2 𝐼𝑆 = 1
+12 𝑚𝑙2
+Rysunek 1. Rysunek 2.
+Zadanie 3.1. (0–1)
+Dokończ zdanie. Zaznacz właściwą odpowiedź spośród

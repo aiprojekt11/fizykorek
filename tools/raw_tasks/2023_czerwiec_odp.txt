@@ -1,0 +1,61 @@
+1.1. (0–2)
+Wymagania egzaminacyjne 2023 i 20241
+Wymagania ogólne Wymaganie szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+II.4) opisuje ruchy prostoliniowe jednostajne
+i jednostajnie zmienne, posługując się
+zależnościami położenia, wartości prędkości
+i przyśpieszenia oraz drogi od czasu.
+Zasady oceniania2
+(dla rozwiązania sposobem 1. i sposobem 2.)
+2 pkt – poprawna metoda wyprowadzenia wzoru v2 = v0
+2 − 2𝑎𝑠 (zastosowanie równań ruchu
+jednostajnie opóźnionego) oraz podanie prawidłowej postaci tego wzoru.
+1 pkt – poprawne zapisanie zależności drogi od czasu i prędkości od czasu (lub
+przyśpieszenia od czasu) dla ruchu jednostajnie opóźnionego, z poprawnym
+uwzględnieniem znaku przy wartości przyśpieszenia, np. zapisy lub zapisy
+równoważne:
+𝑠 = 𝑣0𝑡 − 1
+2 𝑎𝑡2 i 𝑣 = 𝑣0 − 𝑎𝑡
+albo
+𝑠 = 1
+2 (𝑣0 + 𝑣)𝑡 i 𝑎 = 𝑣0 − 𝑣
+𝑡
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Zasady oceniania
+(dla rozwiązania sposobem 3.)
+2 pkt – poprawna metoda wyprowadzenia wzoru v2 = v0
+2 − 2𝑎𝑠 (zastosowanie twierdzenia
+o pracy i energii kinetycznej) oraz podanie prawidłowej postaci tego wzoru.
+1 pkt – zapisanie równania wynikającego z twierdzenia o pracy siły wypadkowej i energii
+kinetycznej oraz wyrażenie siły wypadkowej na podstawie II zasady dynamiki, np.
+zapisy lub zapisy równoważne:
+𝑊𝐹𝑤 = 𝐸𝑘𝑖𝑛 𝑘𝑜𝑛𝑐 − 𝐸𝑘𝑖𝑛 𝑝𝑜𝑐𝑧 oraz 𝐹𝑤 = 𝑎𝑚
+albo
+𝑎𝑚𝑠 = |𝐸𝑘𝑖𝑛 𝑘𝑜𝑛𝑐 − 𝐸𝑘𝑖𝑛 𝑝𝑜𝑐𝑧|
+1 Rozporządzenie Ministra Edukacji i Nauki z dnia 10 czerwca 2022 r. w sprawie wymagań egzaminacyjnych dla
+egzaminu maturalnego przeprowadzanego w roku szkolnym 2022/2023 i 2023/2024 (Dz.U. z 2022 r. poz. 1246).
+2 Pod opisem warunków za przyznanie punktów, w niektórych przypadkach podano przykładowe zapisy (lub
+przykładowe zapisy równoważne), które spełniają te warunki w minimalnym stopniu.
+
+-- 2 of 31 --
+
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Zasady oceniania rozwiązań zadań
+Strona 3 z 31
+LUB
+– zapisanie równania wynikającego z twierdzenia o pracy siły wypadkowej i energii
+kinetycznej oraz zastosowanie wzoru na energię kinetyczną i pracę
+−𝐹𝑤𝑠 = 1
+2 𝑚𝑣2 − 1
+2 𝑚𝑣0
+2
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Uwaga! Powyższe zasady uwzględniają fakt, że zdający może zidentyfikować siłę
+wypadkową działającą na kulkę na dywan

@@ -1,0 +1,917 @@
+
+--- PAGE 1 ---
+Układ graficzny
+© CKE 2022
+WYPEŁNIA ZDAJĄCY
+KOD   PESEL
+Egzamin maturalny   Formuła 2023
+F IZYKA
+Poziom rozszerzony
+Symbol arkusza
+M FAP - R0 - 100 - 2 4 12
+D ATA :  13 grudnia   2024
+G  ODZINA ROZPOCZĘCIA :  14 :00
+C  ZAS TRWANIA :  180  minut
+L ICZBA PUNKTÓW DO UZY SKANIA :  60
+Przed rozpoczęciem pracy z arkuszem egzaminacyjnym
+1.   Sprawdź, czy nauczyciel przekazał Ci  właściwy arkusz egzaminacyjny ,
+tj.   arkusz we  właściwej formule , z  właściwego przedmiotu   na  właściwym
+poziomie .
+2.   Jeżeli przekazano Ci  niewłaściwy   arkusz  –   natychmiast zgłoś to nauczycielowi.
+Nie rozrywaj banderol.
+3.   Jeżeli przekazano Ci  właściwy   arkusz  –   rozerwij banderole po otrzymaniu
+takiego polecenia od nauczycie l a. Zapoznaj się z instrukcją na stronie 2.
+Miejsce na naklejkę.
+Sprawdź, czy kod na naklejce to
+M - 100 .
+Jeżeli tak  –   przyklej   naklejkę.
+Jeżeli nie  –   zgłoś to nauczycielowi.
+Arkusz zawiera informacje prawnie chronione
+do momentu rozpoczęcia egzaminu.
+TEST DIAGNOSTYCZNY
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 2 ---
+Strona  2   z  28
+MFAP_R0_100
+Instrukcja dla zdającego
+1.   Sprawdź, czy arkusz egzaminacyjny  zawiera 2 8   stron   (zadania 1 – 1 0 ).
+Ewentualny brak zgłoś przewodniczącemu zespołu nadzorującego egzamin.
+2.   Na  pierwszej   stronie oraz na karcie odpowiedzi wpisz swój numer PESEL i przyklej
+naklejkę z   kodem.
+3.   W rozwiązaniach zadań rachunkowych przedstaw  tok rozumowania prowadzący do
+ostatecznego wyniku oraz pamiętaj o jednostkach.   Przedstaw obliczenia pośrednie
+wskazujące na   wykorzystanie warunków zadania oraz praw i zależności fizycznych.
+4.   Rozwiązania i odpowiedzi zapisz w miejscu na to przeznaczonym przy każdym zadaniu.
+5.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do rozwiązania
+zadania będzie niezbędne  użycie kalkulatora pozwalającego obliczać wartości
+logarytmów, funkcji trygonometrycznych oraz funkcji wykładniczych.
+6.   Symbol    zamieszczony w nagłówku zadania zwraca uwagę na to, że do
+rozwiązania zadania będzie pomocne lub niezbędne użycie linijki.
+7.   Pisz c zytelnie. Używaj długopisu/pióra tylko z czarnym tuszem/atramentem.
+8.   Nie używaj korektora, a błędne zapisy wyraźnie przekreśl.
+9.   Nie wpisuj żadnych znaków w tabelkach przeznaczonych dla egzaminatora. Tabelki
+umieszczone są na marginesie przy każdym zadaniu.
+10.   Pamiętaj, że zapisy w brudnopisie nie będą oceniane .
+11.   Możesz korzystać z  Wybranych wzorów i stałych fizykochemicznych na   egzamin
+maturalny z biologii, chemii i fizyki ,  z  linijki oraz   z   kalkulatora   naukowego.   Upewnij się,
+czy przekazano Ci broszurę z okładką   taką   jak  widoczna  poniżej.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 3 ---
+Strona  3   z  28
+MFAP_R0_100
+Zadania egzaminacyjne są wydrukowane
+na następnych stronach.
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 4 ---
+Strona  4   z  28
+MFAP_R0_100
+Zadanie 1.
+W   chwili  푡 0 = 0   s   początkowo   n ieruchoma , sztywna   platforma w kształcie koła   o środku  푆
+rozpoczyna obrót   dookoła osi  prostopadłej do platformy i  przechodzącej przez  푆 .   Do chwili
+푡 1 = 8   s   platforma obraca się ze stałym przyśpieszeniem kątowym  휖   i   wykonuje w   tym czasie
+dokładnie jeden   obrót .  W chwili  푡 1   platforma uzyskała prędkość kątową  휔 .  Od chwili  푡 1
+platforma obraca się ze stałą prędkością kątową  휔 .   Promień platformy wynosi  푅 = 4   m .
+Zadanie 1.1. (0 – 2)
+Rysunki 1. i 2. przedstawiają platformę w czasie ,   gdy jej ruch obrotowy jest jednostajnie
+przy ś pieszony. Na rysunku 1.  narysowano   wektor  v ⃗     prędkości punktu  푃 ,   leż ą cego   na brzegu
+platformy.
+Na rysunku 2. narysuj składową styczną   풂 ⃗ ⃗   풔   oraz składową dośrodkową  풂 ⃗ ⃗   풓   wektora
+przyśpieszenia  풂 ⃗ ⃗     punktu  푷 .   Następnie   wyznacz graficznie i   narysuj wektor  풂 ⃗ ⃗   .  Podpisz
+wszystkie narysowane  wektory.
+Uwaga! Długości  składowej stycznej  푎   푠   oraz składowej dośrodkowej  푎   푟   wektora
+przyśpieszenia  푎     mogą być na rysunku umowne.
+Rysunek 1.   Rysunek 2.
+Zadanie 1.2. (0 – 2)
+Oceń prawdziwość   poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+W chwili czasu  푡 = 5   s
+1.
+wszystkie punkty platformy różne od punktu  푆   mają takie samo
+przyśpieszenie kątowe.
+P   F
+2.
+n ajwiększą wartość prędkości   liniowej   mają punkty leżące na brzegu
+platformy.
+P   F
+3.
+w szystkie punkty platformy mają tę samą wartość przyśpieszenia
+dośrodkowego.
+P   F
+v ሬ Ԧ
+푃
+푆
+푃
+푆
+1.2.
+0 – 1 – 2
+1.1.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 5 ---
+Strona  5   z  28
+MFAP_R0_100
+Zadanie 1.3. (0 – 3)
+Oblicz, ile obrotów wykona platforma w czasie  횫 풕 = ퟔퟎ   퐬 , liczonym od chwili  풕 ퟎ = ퟎ   퐬 .
+Zapisz obliczenia .
+1.3.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 6 ---
+Strona  6   z  28
+MFAP_R0_100
+Zadanie  2.
+Ciała  풞 1   i   풞 2   mają różne masy i są bryłami w kształcie  prostopadło ś cianów   o takich samych
+wymiarach. Po włożeniu tych ciał do  naczynia z wodą   zaobserwowano, że:
+•   ciało  풞 1   pozostaje nieruchomo , przy czym
+3
+4
+objętości tego ciała jest zanurzone w wodzie
+•   ciało  풞 2   pozostaje nieruchomo   całkowicie zanurzone w wodzie   (i nie dotyka d na) .
+Przyjmij, że obserwację wykonano w układzie inercjalnym,  w  jednorodnym ,   ziemskim  polu
+grawitacyjnym.   Opisaną sytuację przedstawiono na poniższym rysunku.
+Zadanie  2.1. (0 – 3)
+Punkty  퐶 1   i  퐶 2   na poniższych diagramach 1.   i  2. odpowiadają ciałom  풞 1   i  풞 2 .   Długość boku
+kratki na każdym diagramie odpowiada umownej jednostce siły.
+Na diagram ie   1 . narysowano siłę wyporu   퐹   푤 1 ,   działającą na ciało  풞 1 .
+Na diagramie 1. narysuj i oznacz siłę grawitacji  푭 ⃗ ⃗   품ퟏ ,  działającą na  퓒 ퟏ .
+Na diagramie 2. narysuj i oznacz sił y  grawitacji  푭 ⃗ ⃗   품ퟐ   oraz wyporu  푭 ⃗ ⃗   풘ퟐ ,   d ziałające na  퓒 ퟐ .
+Zachowaj odpowiednie kierunki, zwroty oraz  dokładne długości  wszystkich   wektorów,
+odpowiadające wartościom tych sił.
+Diagram   1 .   Diagram   2 .
+퐶 1
+퐹 Ԧ 푤 1
+퐶 2
+woda
+풞 1
+풞 2   푔 Ԧ
+2.1.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 7 ---
+Strona  7   z  28
+MFAP_R0_100
+Brudnopis
+Zadanie  2.2. (0 – 3)
+Ciało  풞 1   wyjęto z wody i włożono do  naczynia z pewną cieczą   X .
+Zaobserwowano, że ciało   풞 1   pływa   tak ,   że
+2
+3
+jego objętości jest
+zanurzone w tej cieczy   (zobacz rysunek obok).
+Przyjmij do obliczeń gęstość wody  휌 푤 = 1   g / c m 3 . Gęstość cieczy   X   oznaczymy jako  휌 푋 .
+Oblicz  흆 푿 .   Zapisz obliczenia.
+ciecz X
+풞 1
+2.2.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 8 ---
+Strona  8   z  28
+MFAP_R0_100
+Zadanie  3.
+Walec   풲   toczy się po poziomym płaskim podłożu   wzdłuż   osi  푥 .  Walec   jest rozpędzan y   przez
+cienką linkę  nawiniętą  na je go   powierzchnię   boczną , która   to linka   jest ciągnięta   ze   stałą
+poziomą siłą  퐹     (zobacz rysunek 1.).
+Rysunek 1.
+Moment bezwładności  walca   풲   względem je go   osi symetrii   przechodzącej przez środek
+masy   푆   walca  jest równy:
+퐼 0 =
+1
+2
+푚 푅 2
+g dzie   푚   jest masą  walca ,  푅   jest   promieniem walca.
+Do analizy zagadnienia przyjmij model zjawiska, w którym:
+•   walec toczył   się  bez poślizgu
+•   w kierunku poziomym na  walec   działały tylko stała siła tarcia statycznego  푇 ⃗     oraz siła  퐹
+•   siła tarcia  푇 ⃗     między  walcem   a  podłożem   nie osiągnęła   wartości maksymalnej
+•   pomijamy inne (tzn. oprócz tarcia statycznego) opory ruchu
+•   r uch  walca   rozpatrujemy w inercjalnym układzie odniesienia związanym z  podłożem ,
+w   jednorodnym, ziemskim polu grawitacyjnym
+•   pomijamy  m asę  linki.
+Zadanie  3. 1. (0 – 2)
+W pewnej chwili  푡   środek masy  푆   walca   풲   osiągnął prędkość   o wartości  v 푆 = 2 , 5   m/s .
+Na rysunku 2. oznaczono punkty  퐴   i  퐵   na powierzchni  walca  w chwili  푡   (odcinek  푆퐴   jest
+pionowy ,   a odcinek  푆퐵   jest poziomy) .
+Rysunek  2 .
+푆
+푅
+퐹 Ԧ
+p łaskie pod łoż e
+푔 Ԧ   walec  풲
+푥
+푆
+퐹 Ԧ
+퐴
+퐵
+푥
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 9 ---
+Strona  9   z  28
+MFAP_R0_100
+Wpisz  w wykropkowane miejsca poniżej wartości prędkości punktu  푨   i punktu  푩
+walca   względem podłoża .
+v 퐴 =     .............
+m
+s
+v 퐵 =     .............
+m
+s
+Brudnopis
+Zadanie  3. 2 . (0 – 4)
+Wyznacz   współrzędną   푻 풙   siły tarcia   푻 ⃗ ⃗     w zależności tylko od   wartości   푭   siły   푭 ⃗ ⃗   .
+Na podstawie otrzymanego wyniku  zweryfikuj , czy zwrot siły tarcia  푻 ⃗ ⃗     –   przyjęty
+w   rozwiązaniu  –   jest poprawny.  Następnie  n a rysunku 3.   ( na stronie   10) narysuj  siłę
+tarcia   푻 ⃗ ⃗     przyłożoną   w   punkcie  푪   walca   –   uwzględnij jej poprawny kierunek i zwrot.
+Wskazówka:  Przyjmij, że gdy wektor jest skierowany zgodnie ze zwrotem osi  푥 , to jego
+współrzędna jest dodatnia, a gdy wektor jest skierowany przeciwnie do zwrotu osi  푥 , to jego
+współrzędna jest ujemna.
+3.1.
+0 – 1 – 2
+3.2.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 10 ---
+Strona  10   z  28
+MFAP_R0_100
+Rysunek 3.
+푆
+퐹 Ԧ
+퐶
+푥
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 11 ---
+Strona  11   z  28
+MFAP_R0_100
+Zadanie  4 .
+Satelit y   S A  oraz  S B   poruszają się dookoła Ziemi   po orbitach kołowych   O A   i O B   jedynie pod
+wpływem siły grawitacji. Orbity tych satelitów leżą w   jednej płaszczyźnie, a względne
+rozmiary obu orbit przedstawiono na rysunku poniżej.
+Masy obu satelitów są sobie równe :  푚 퐴 = 푚 퐵 = 푚 .
+Promienie orbit kołowych  O A  oraz  O B   oznaczymy odpowiednio jako  푟 퐴   i  푟 퐵 .
+Długość boku pojedynczej kratki odpowiada umownej jednostce odległości.
+Zadanie  4 . 1 . (0 – 2 )
+Oceń prawdziwość poniższych   stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+Zadanie  4 . 2 . (0 – 1)
+Wartość siły grawitacji działającej na  satelitę S A   na orbicie O A   oznaczymy jako   퐹 퐴 , a  wartość
+siły grawitacji działającej na  satelitę S B   na orbicie O B   oznaczymy jako   퐹 퐵 .
+Dokończ zdanie.  Zaznacz   właściwą odpowiedź spośród podanych.
+Poprawną zależność między  퐹 퐴   a  퐹 퐵   określa równanie
+A.     퐹 퐴 =   퐹 퐵   B.     퐹 퐴 = 3 퐹 퐵     C.     퐹 퐴 = 6 퐹 퐵     D.     퐹 퐴 = 9 퐹 퐵
+1.
+Iloraz   푇 퐵 / 푇 퐴    okresów obiegu dookoła Ziemi satelity  S B   i   satelity  S A
+jest   równy  √ 27 .
+P   F
+2.
+Przyśpieszenie satelity   S B   na orbicie O B ,  określone  w układzie
+inercjalnym ,   jest  przyśpieszeniem dośrodkowym .   P   F
+3.   Prędkość orbitalna satelity S B   na orbicie O B   zależy od jego masy.   P   F
+S A
+S B
+Z
+O B
+O A
+4.1.
+0 – 1 – 2
+4.2.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 12 ---
+Strona  12   z  28
+MFAP_R0_100
+Zadanie  4 .3. (0 – 4 )
+Pracę, jaką musi wykonać   siła ciągu  silników   satelity S A ,  aby przenieść go   z   orbity O A   na
+orbitę O B ,  na której  będzie poruszał się z wyłączonymi silnikami, oznaczymy jako  푊 퐴퐵 .
+W obliczeniach pomiń  zmianę masy satelity podczas działania silników odrzutowych.
+Wyznacz   푾 푨푩   w zależności tylko od  wielkości:   promienia   풓 푨   orbity O A ,  masy  풎
+satelity S A , masy  푴 풁   Ziemi oraz stałej grawitacji  푮 .
+Zapisz odpowiednie równania i  przekształcenia oraz podaj postać wzoru   na  푾 푨푩 .
+4.3.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 13 ---
+Strona  13   z  28
+MFAP_R0_100
+Zadanie  5 .
+Na poniższym  wykresie   przedstawiono  zależność   ciśnienia  푝   od objętości  푉   w cyklu
+przemian termodynamicznych ustalonej masy gazu doskonałego.
+Stany gazu w   początkowych i końcowych etapach poszczególnych przemian oznaczono
+symbolami:   G  1 ,   G  2 ,   G  3 ,   G  4 .
+Zadanie  5 . 1 . (0 – 1 )
+Oceń prawdziwość poniższych stwierdzeń.  Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+Zadanie  5 . 2 . (0 – 1)
+Dokończ zdanie. Wpisz właściwą  liczbę   w wykropkowane miejsce.
+Iloraz   temperatur
+푇 2
+푇 4
+gazu w stanach   G  2   i   G  4 ,  jest równy    ......................   .
+Brudnopis
+1 .
+Wartość bezwzględna p rac y  siły parcia gazu w przemianie   G  2   –    G  3   jest
+1 , 5   razy większ a   od wartości bezwzględnej pracy   przeciwko sile parcia
+gazu w przemianie   G  4   –    G  1 .
+P   F
+2 .
+Wartość bezwzględna ciepła wymienionego   przez gaz z otoczeniem
+w   przemianie G 3   –    G  4   jest  3   razy większa od   warto ści bezwzględnej
+ciepła wymienionego   przez gaz z otoczeniem   w przemianie G 1   –    G  2 .
+P   F
+G  2    G  3
+푝
+G  4    G  1
+0                        푉 1                     2 푉 1                   3 푉 1                            푉
+2 푝 1
+푝 1
+3 푝 1
+0
+5.1.
+0 – 1
+5.2.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 14 ---
+Strona  14   z  28
+MFAP_R0_100
+Zadanie  5 . 3 . (0 – 4 )
+P rzemiany gazu  opisane we wstępie do zadania 5.   zachodzą podczas pracy pewnego silnika
+cieplnego S.   Ciepło molowe tego gazu przy stałej objętości wynosi  퐶 푉 =
+3
+2 푅 , gdzie  푅   jest
+stałą gazową.
+Oblicz sprawność silnika cieplnego   S.   Zapisz obliczenia.
+5.3.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 15 ---
+Strona  15   z  28
+MFAP_R0_100
+Zadanie  6 .
+Prostokątna ramka ABCD   prądnicy obraca się w   jednorodnym   polu magnetycznym   퐵 ⃗     ze
+stałą prędkością kątową  휔 = 100 휋
+rad
+s .   Na zaciskach X i Y prądnicy jest  wytwarzane
+napięcie   przemienne   푈 ( 푡 ) , którego zależność od czasu  푡   jest  sinusoidaln a :
+푈 ( 푡 ) = 푈 푚푎푥 sin ( 휔푡 + 휙 0 )         gdzie         휙 0   –   faza początkowa
+Napięcie  skuteczne   na   zaciskac h   X, Y   prądnicy  jest równ e   푈 푠푘 = 24   V .
+Do zacisków   X, Y   prądnicy podłączono opornik o oporze elektrycznym   푅 = 10   Ω .
+Schemat tego obwodu   zewnętrznego   przedstawia rysunek 1.
+Rysunek 1.   (schemat obwodu)
+Położenie   (względem linii pola magnetycznego)  obracającej się ramki   ABCD   prądnicy oraz
+prędkość     v ⃗       boku   AB tej   ramki ,   w chwili   푡 = 0   s ,  przedstawiają   rysunki   2 . i 3.
+Rysunek  2 .   ( widok  perspektywiczny )     Rysunek 3. (widok od strony boku AD)
+W zadaniu pomijamy  pole magnetyczne  wytwarzane przez prąd płynący w ramce .
+Zadanie  6 . 1. ( 0 – 2 )
+N a rysunku 2.   przy boku AB   n arysuj strzałkę , która pokazuje, w którą stronę płynie
+prąd   w   chwili  풕 = ퟎ   퐬   w prądnicy.
+Następnie przy symbolach X, Y zacisków prądnicy   na rysunku 1.   wpisz odpowiedni e
+znak i   (wybran e  spośród „+” oraz „ – ”) oznaczając e   biegunowość   źródła napięcia dla
+obwodu  zewnętrznego ,   w chwili   풕 = ퟎ   퐬 .
+푅
+~
+푈 ( 푡 )
+X   Y
+퐵 ሬ Ԧ
+v ሬ Ԧ
+X
+Y
+A
+B    C
+D
+퐵 ሬ Ԧ
+v ሬ Ԧ
+X   Y
+A    D
+6.1.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 16 ---
+Strona  16   z  28
+MFAP_R0_100
+Zadanie  6 . 2 . (0 – 4 )
+Ustal   wielkości   dotyczące prądu zmiennego przepływającego przez opornik  푹 :
+•   amplitudę  푰 풎풂풙   natężenia   prądu
+•   okres  푻   zmian   natężenia   prądu
+•   natężenie   prądu w chwili  풕 = ퟎ   퐬   (równoważnie  –   fazę początkową  흓 ퟎ )
+Zapisz   wartości tych wielkości i   niezbędne obliczenia   dotyczące  푰 풎풂풙   oraz  푻 .
+Następnie, w   poniższym układzie współrzędnych  ( 풕 , 푰 ) ,   w przedziale   czasu   od  풕 ퟎ = ퟎ   퐬
+do  풕 = ퟎ , ퟎퟒ   퐬 ,  narysuj wykres zależności natężenia   푰   prądu przepływającego przez
+opornik  푹   od czasu   풕 .
+Przyjmij , że  w   chwili  푡 0 = 0   s   natężenie prądu płynącego przez opornik  푅   jest dodatnie.
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+0 0,01 0,02 0,03 0,04
+t , s
+I , A
+6.2.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 17 ---
+Strona  17   z  28
+MFAP_R0_100
+Zadanie  6 . 3 . (0 – 2 )
+Prędkość kątową   ramki   prądnicy zwiększono do  휔 ̃ = 120 휋
+rad
+s .
+Oblicz napięcie skuteczne  푼 ̃ 풔풌   na zaciskach   X,   Y   prądnicy po tej zmianie.
+Zapisz obliczenia.
+Wskazówka: Skorzystaj z  Wybranych wzorów i stałych fizykochemicznych na egzamin
+maturalny z  biologii, chemii i fizyki.
+6.3.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 18 ---
+Strona  18   z  28
+MFAP_R0_100
+Zadanie  7 . (0 – 4 )
+Dwie jednakowe cienkie soczewki skupiające   S1 i S2   ustawiono na ławie  wzdłuż wspólnej
+osi optycznej  푂 .  Ogniska soczewki S1 oznaczymy jako  퐹 1 퐿   i  퐹 1 푃 , a ogniska soczewki S2
+oznaczymy jako  퐹 2 퐿   i  퐹 2 푃 .
+Na rysunkach 1. – 2 . przedstawiono różne położenia soczewek S1, S2 na osi optycznej   푂 .
+Ponadto na każdy m z rysunków p rzedstawiono fragment  promienia P ,   biegnące go
+równolegle do osi optycznej  푂   i  padają ce go   na soczewkę  S1 .
+Kolory wykorzystano w celu odróżnienia obu soczewek i ich ognisk   (nie ma   to   związku
+z   długością fali świetlnej   promienia ) .
+Na  każdym z rysunków 1. i 2.   dorysuj   dalszy bieg promienia P od soczewki S1 do
+soczewki S2 i dalej  –   po przejściu przez S2.
+Kierunek biegu   promienia P za soczewką S2  wyznacz konstrukcyjnie .
+Rysunek 1.
+Rysunek 2.
+S1
+P
+푂      퐹
+1 퐿         퐹 1 푃         퐹 2 퐿
+S2
+퐹 2 푃
+S1
+P
+푂      퐹 1 퐿         퐹 1 푃         퐹 2 퐿
+S2
+퐹 2 푃
+7.
+0 – 1 –
+2 – 3 – 4
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 19 ---
+Strona  19   z  28
+MFAP_R0_100
+Brudnopis
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 20 ---
+Strona  20   z  28
+MFAP_R0_100
+Zadanie  8 .
+N a  diagramie 1.   przedstawiono  aktualne  położenie  względne obserwatora  풪   i dwóch
+galaktyk  훼   oraz   훽 . Odległości między   훼 ,  훽   oraz  풪   są   rzędu dziesiątek   milionów   lat
+świetlnych .
+Na płaszczyźnie  diagramu   1.   naniesiono siatkę ukazującą stosunki odległości między  훼 ,  훽
+oraz   풪 . Długość boku kratki  na diagramie 1.  odpowiada umownej  jednostce odległości .
+Przyjmij następujące  założenia:
+•   prędkości  oddalania się   galaktyk  훼   oraz   훽   od obserwatora  풪   wynikają  jedynie
+z   rozszerzania się Wszechświata   (pomijamy ruch y   lokalne galaktyk)
+•   Wszechświat rozszerza się tak samo we wszystkich kierunkach
+•   przestrzeń  ma euklidesową geometrię .
+Diagram 1.
+Zadanie 8.1. (0 – 2)
+Aktualne p rędkości galaktyk  훼   i  훽   względem  풪   oznaczymy odpowiednio jako   v ⃗   훼   i  v ⃗   훽 .
+Na diagramie 2. narysowano i oznaczono prędkość  v ⃗   훼 .  Długość boku kratki   na diagramie 2.
+odpowiada umownej  jednostce prędkości .
+Diagram 2.
+Na diagramie 2. narysuj  wektor aktualnej prędkości   v ⃗   휷   galaktyki  휷   względem  퓞 .
+Zachowaj odpowiedni kierun ek , zwrot oraz  dokładn ą   długoś ć   wektor a , odpowiadając ą
+wartości   aktualnej  prędkości   v ⃗   휷 .
+훼
+훽   풪
+8.1.
+0 – 1 – 2
+훽   풪
+훼
+v ሬ Ԧ 훼
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 21 ---
+Strona  21   z  28
+MFAP_R0_100
+Brudnopis
+Zadanie 8. 2 . (0 – 1 )
+Na diagramie 3. przedstawiono położenie galaktyki  훼   w   pewnej chwili   푡 푝   odległej przeszłości .
+Położenia galaktyki  훽   w chwili  푡 푝   nie oznaczono.  Długość boku kratki odpowiada umownej
+jednostce odległości   –   tej samej , co na diagramie 1.
+Diagram 3.
+N a diagramie 3.  oznacz   kropką i podpisz jako  휷 ( 풕 풑 )   położenie  galaktyki  휷   w chwili   풕 풑 .
+Uwaga! Położenie  훽 ( 푡 푝 )   znajduje się  w punkcie kratowym siatki diagramu.
+Brudnopis
+훼 ( 푡 푝 )
+풪
+8.2.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 22 ---
+Strona  22   z  28
+MFAP_R0_100
+Zadanie  9 .
+Gdy elektron w atomie przechodzi ze stanu energetycznego o numerze  푛   i energii  퐸 푛   do
+stanu energetycznego o numerze  푘   i energii  퐸 푘 , gdzie  퐸 푛 > 퐸 푘 , to emituje foton. Takie
+przejście elektronu między stanami energetycznymi w atomie oznaczymy jako  푛 → 푘 .
+Atom wodoru emituje światło widzialne   tylko   podczas przejść typu  푛 → 2 , gdzie  푛 ∈ { 3 , 4 , 5 , 6 } .
+Długości fal światła widzialnego   w próżni   mieszczą się w zakresie od około  400   nm   (fiolet) do
+około  800   nm   (czerwień).
+Na diagramie  1.  przedstawiono   pierwsze cztery poziomy energetyczne w   atomie wodoru .
+Na osi energii  zachowano skalę   między długościami odcinków, których końce odpowiadają
+energiom:   퐸 1 ,  퐸 2 ,  퐸 3 ,  퐸 4 .
+Obok osi energii przedstawiono możliwe przejścia  푎 → 푏   elektronu z   poziomu
+energetycznego o numerze   푎 ∈ { 2 , 3 , 4 }   na poziom   o   numerze   푏 ∈ { 1 , 2 , 3 }   (gdzie  푎 > 푏 ).
+Diagram   1.
+4 → 1                                                                 4 → 2                                         4 → 3
+퐸
+3
+퐸 4
+퐸 2
+퐸 1
+퐸
+3 → 1                                                             3 → 2
+2 → 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 23 ---
+Strona  23   z  28
+MFAP_R0_100
+Zadanie  9 . 1 . (0 – 2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest fałszywe.
+1.   Długości fal odpowiadające przejściom   푎 → 1   są mniejsze od  400   nm .   P   F
+2.
+Częstotliwość fotonu emitowanego podczas przejścia  3 → 1   jest  większa
+od częstotliwości fotonu emitowanego podczas przejścia  4 → 2 .
+P   F
+3.
+Atom wodoru   w stanie podstawowym może zostać zjonizowany   w wyniku
+absorpcji fotonu   odpowiadające go światłu fioletowemu.
+P   F
+Brudnopis
+Zadanie  9. 2 .   (0 – 1 )
+Na diagramie 2.  p rzedstawiono   cztery   linie widmowe atomu wodoru w zakresie długości fal
+światła widzialnego. Linie widmowe odpowiadające przejściom  3 → 2   i  4 → 2   oznaczymy   –
+odpowiednio   –   jako L32 i L42.
+Na diagramie 2.  z identyfikuj  linie widmowe L32 oraz L42.
+Wpisz symbole L32 i L42 nad odpowiednimi liniami widmowymi.
+Wskazówka:  W celu rozwiązania zadania  nie ma potrzeby   obliczania długości fal. Wystarczy
+analiza   diagramu 1. oraz   relacji i   związków między odpowiednimi wielkościami.
+Diagram 2.
+Kolory   RGB  dla danej długości fali określono  w grafice według   https://academo.org/demos/wavelength - to - colour - relationship/
+Brudnopis
+400             450             500            550            600            650            700             휆 ,  nm
+9.1.
+0 – 1 – 2
+9.2.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 24 ---
+Strona  24   z  28
+MFAP_R0_100
+Zadanie  9.3. (0 – 3)
+Oblicz   흀 ퟑퟏ   –   długość fali fotonu emitowanego podczas przejścia elektronu między
+stanami energetycznymi  ퟑ → ퟏ   w atomie wodoru.   Zapisz obliczenia.   Wynik podaj
+zaokrąglony do trzech cyfr znaczących.
+Pomiń energię kinetyczną odrzutu atomu.
+Wsk azówka: Skorzystaj z  Wybranych wzorów i stałych fizykochemicznych na egzamin
+maturalny z biologii, chemii i fizyki .
+9.3.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 25 ---
+Strona  25   z  28
+MFAP_R0_100
+Zadanie  10 .
+Cykl protonowy to łańcuch reakcji   termojądrow ych zachodzących w gwiazdach. W wyniku
+tych reakcji z   czterech protonów powstaje stabilne jądro helu.   Energia uwalniana podczas
+tego cyklu jest głównym  ź ródłem  energii  Słońca .
+Pierwszym etapem cyk lu protonowego jest fuzja   (połączenie)   dwóch protonów. W jej wyniku
+powstają: cząstka  e +   (pozyton , nazywany też antyelektronem ),   jądro   izotopu  pewnego
+pierwiastka , któr y   oznaczymy  jako  X ,   oraz   tzw. neutrino elektronowe   ν e .
+Masy jąder i cząstek uczestniczących  w opisan ej fuzji protonów,  wyrażone w   jednostkach
+atomowych, mają następujące wartości:
+푚 p = 1 , 007276   u   –   masa  protonu
+푚 X = 2 , 013553   u   –   masa  powstałego jądra
+푚 e = 0 , 000549   u   –   masa  cząstki  e +
+Neutrino ma  zerowy   ładunek el ektryczny, a jego  masę możemy pominąć .
+Zadanie  10 .1. (0 – 2)
+Poniżej przedstawiono schemat  fuzji dwóch protonów:
+p + p       →     X   …
+…
++     e
++
++       ν 0
+0
+e
+gdzie  X   oznacza jądro   izotopu   pierwiastka   .................
+Uzupełnij powyższ y schemat tak, aby  powstało równanie fuzji dwóch protonów.
+Wpisz w wykropkowane   miejsca   w schemacie  właściwe liczby :   atomow ą i   masową,
+a   pod schematem  –   symbol (lub nazwę)  izotopu  pierwiastka, którego jądro powstaje
+w   t ej   fuzji .
+Brudnopis
+10.1.
+0 – 1 – 2
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 26 ---
+Strona  26   z  28
+MFAP_R0_100
+Zadanie  10 .2. (0 – 1 )
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F  –   jeśli jest  fałszywe.
+Brudnopis
+Zadanie  10 . 3 . (0 – 1 )
+F uzja dwóch protonów jest możliwa, gdy suma energii  kinetycznych   tych dwóch protonów
+jest bardzo duża.
+Sformułuj   uzasadnienie powyższego faktu.   Odwołaj się do konkretnych  własności
+odpowiednich   oddziaływań fizycznych.
+1.
+Suma energii kinetycznych   dwóch protonów jest większa  od sumy  energii
+kinetycznych   jądra  X ,  cząstki   e +   oraz  neutrina   ν e   –   powstałych
+w   opisanej  fuzji .
+P   F
+2 .
+Cząstka  e +   powstaje   podczas   opisanej  fuzji   w   wyniku przemiany  protonu
+w  neutron .
+P   F
+10.2.
+0 – 1
+10.3.
+0 – 1
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 27 ---
+Strona  27   z  28
+MFAP_R0_100
+Zadanie  10 . 4 . (0 – 3)
+Energia   Δ 퐸 푘푖푛   uwalniana  podczas fuzji dwóch protonów   jest równa różnicy energii
+kinetycznych ,  jakie mają w sumie produkty  tuż po fuzji  (jądro  X , cząstka  e +   i neutrino  ν e ) ,
+oraz energii kinetycznych,  jakie mają w sumie dwa protony   przed fuzją .
+Masy jąder i cząstek uczestniczących  w opisan ej fuzji protonów podano we wstępie do
+zadania   ( na stronie   25).   W obliczeniach energii wykorzystaj   związek:
+1   u ⋅ 푐 2 ≈ 931 , 5   MeV   –   푐   to wartość prędkości światła w próżni .
+O blicz   횫 푬 풌풊풏   –   energię uwalnianą  podczas   fuzji  dwóch  protonów.  Wynik podaj w  퐌퐞퐕 ,
+zaokrąglony do dwóch cyfr znaczących.   Zapisz obliczenia.
+Uwaga! W bilansie energii pomijamy energię uzyskaną z anihilacji cząstki  e +   z elektronem
+napotkanym w otoczeniu   (to jest odrębny proces) .
+10.4.
+0 – 1 –
+2 – 3
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 28 ---
+Strona  28   z  28
+MFAP_R0_100
+BRUDNOPIS (nie podlega ocenie)
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 29 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 30 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 31 ---
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl
+
+--- PAGE 32 ---
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+FIZYKA
+Poziom  rozszerzony
+Formuła 2023
+Wi
+ę cej
+arkuszy
+znajdziesz
+na
+stronie:
+arkusze.pl

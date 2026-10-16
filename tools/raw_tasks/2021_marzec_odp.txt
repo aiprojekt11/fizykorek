@@ -1,0 +1,63 @@
+1.1. (0–3)
+Wymagania egzaminacyjne 2021 1
+Wymaganie ogólne 	Wymagania szczegółowe
+I. Znajomość i umiejętność
+wykorzystania pojęć i praw fizyki
+do wyjaśniania procesów i zjawisk
+w przyrodzie.
+IV. Budowa prostych modeli fizycznych
+i matematycznych do opisu zjawisk.
+Zdający:
+1.4) wykorzystuje związki pomiędzy
+położeniem, prędkością i przyspieszeniem
+w ruchu jednostajnym i jednostajnie zmiennym
+do obliczania parametrów ruchu;
+1.8) wyjaśnia ruch ciał na podstawie drugiej
+zasady dynamiki Newtona;
+1.11) […] posługuje się siłami bezwładności do
+opisu ruchu w układzie nieinercjalnym;
+12.2) samodzielnie wykonuje poprawne
+wykresy […].
+Zasady oceniania
+3 pkt – poprawna metoda obliczenia czasu przejazdu windy w pierwszym i trzecim etapie ruchu
+oraz poprawna metoda obliczenia siły nacisku w każdym etapie ruchu, prawidłowe wyniki
+liczbowe z jednostkami oraz narysowanie prawidłowego wykresu 𝐹(𝑡).
+2 pkt – poprawna metoda obliczenia czasu przejazdu windy w pierwszym i trzecim etapie
+ruchu oraz poprawna metoda obliczenia siły nacisku w każdym etapie ruchu oraz
+prawidłowe wyniki liczbowe z jednostkami
+LUB
+– poprawna metoda obliczenia czasu przejazdu windy w pierwszym i trzecim etapie
+ruchu oraz poprawna metoda obliczenia siły nacisku w każdym etapie ruchu, błędy
+rachunkowe w obliczeniach oraz zgodne z otrzymanymi wynikami narysowanie
+wykresu 𝐹(𝑡).
+1 pkt – poprawna metoda obliczenia czasu przejazdu windy w pierwszym i trzecim etapie (tzn.
+zastosowanie równań ruchu zmiennego) ruchu oraz prawidłowe wyniki z jednostkami
+LUB
+– poprawna metoda obliczenia siły nacisku w każdym etapie ruchu, tzn. poprawne
+zastosowanie zasad dynamiki w układzie inercjalnym (lub poprawne zastosowanie
+zasad dynamiki z uwzględnieniem „sił bezwładności” w układzie nieinercjalnym) oraz
+prawidłowe wyniki z jednostkami dla co najmniej dwóch etapów ruchu.
+0 pkt – brak spełnienia powyższych kryteriów.
+1 Załącznik nr 2 do rozporządzenia Ministra Edukacji Narodowej z dnia 20 marca 2020 r. w sprawie szczególnych
+rozwiązań 	w okresie 	czasowego 	ograniczenia 	funkcjonowania 	jednostek 	systemu 	oświaty 	w związku
+z zapobieganiem, przeciwdziałaniem i zwalczaniem COVID-19 (Dz.U. poz. 493, z późn. zm.).
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+
+-- 2 of 30 --
+
+Zasady oceniania rozwiązań zadań
+Strona 3 z 30
+Przykładowe rozwiązanie
+Obliczymy czas pierwszego i trzeciego etapu ruchu:
+𝛥𝑡ଵ = |𝛥𝑣ଵ |
+|𝑎ଵ | = 18 m
+s
+0,8 m
+s ଶ
+= 22,5 s 	𝛥𝑡ଷ = |𝛥𝑣ଷ |
+|𝑎ଷ | = 18 m
+s
+0,8 m
+s ଶ
+= 22,5 s
+Siła nacisku człowieka 
