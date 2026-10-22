@@ -1,0 +1,20 @@
+const fs = require('fs');
+const path = require('path');
+
+const dataCoursesPath = path.join(__dirname, '../js/data-courses.js');
+let raw = fs.readFileSync(dataCoursesPath, 'utf8');
+
+// Budujemy nową, poprawnie sformatowaną i w 100% poprawnie zescape'owaną zawartość teorii:
+const newTheory = `<div class=\\"theory-section\\">\\n  <div class=\\"theory-subtitle\\">1. Definicja pędu ciała</div>\\n  <p>Pęd ($\\\\vec{p}$) to wielkość wektorowa opisująca stan ruchu ciała o masie $m$ poruszającego się z prędkością $\\\\vec{v}$:</p>\\n  <div style=\\"text-align:center;margin:6px 0;\\">$$\\\\vec{p} = m \\\\vec{v}$$</div>\\n  <ul class=\\"theory-list\\">\\n    <li>Wektor pędu $\\\\vec{p}$ ma zawsze <strong>taki sam kierunek i zwrot</strong> jak wektor prędkości $\\\\vec{v}$.</li>\\n    <li>Jednostka pędu w układzie SI: $[p] = \\\\text{kg} \\\\cdot \\\\frac{\\\\text{m}}{\\\\text{s}} = \\\\text{N} \\\\cdot \\\\text{s}$.</li>\\n  </ul>\\n\\n<figure class=\\"theory-figure\\">\\n  <img class=\\"theory-diagram\\" src=\\"img/theory/energy/momentum-definition-custom.png\\" alt=\\"Definicja pędu: ciało o masie m porusza się z prędkością v, wektor pędu p = mv ma ten sam kierunek i zwrot\\" loading=\\"eager\\" decoding=\\"async\\">\\n</figure>\\n\\n  <div class=\\"theory-subtitle\\">2. Zasada Zachowania Pędu (ZZP)</div>\\n  <p>Dla układu ciał, na który nie działają zewnętrzne siły wypadkowe, całkowity wektor pędu układu pozostaje stały:</p>\\n  <div style=\\"text-align:center;margin:6px 0;\\">$$\\\\sum \\\\vec{p}_{\\\\text{pocz}} = \\\\sum \\\\vec{p}_{\\\\text{końc}} \\\\implies m_1 \\\\vec{v}_1 + m_2 \\\\vec{v}_2 = \\\\text{const}$$</div>\\n\\n  <div class=\\"theory-subtitle\\">3. Zderzenie doskonale niesprężyste (sczepianie ciał)</div>\\n  <p>W zderzeniu doskonale niesprężystym ciała łączą się po zderzeniu i poruszają z jedną, wspólną prędkością $\\\\vec{v}$:</p>\\n  <div style=\\"text-align:center;margin:6px 0;\\">$$m_1 \\\\vec{v}_1 + m_2 \\\\vec{v}_2 = (m_1 + m_2) \\\\vec{v} \\\\implies \\\\vec{v} = \\\\frac{m_1 \\\\vec{v}_1 + m_2 \\\\vec{v}_2}{m_1 + m_2}$$</div>\\n  <ul class=\\"theory-list\\">\\n    <li>Dla ciał poruszających się naprzeciwko siebie na jednej prostej uwzględniamy zwroty wektorów:\\n    <div style=\\"text-align:center;margin:4px 0;\\">$$m_1 v_1 - m_2 v_2 = (m_1 + m_2) v$$</div>\\n    Znak prędkości $v$ wskazuje kierunek dalszego wspólnego ruchu układu.</li>\\n  </ul>\\n\\n<figure class=\\"theory-figure\\">\\n  <img class=\\"theory-diagram\\" src=\\"img/theory/energy/collision-inelastic-custom.png\\" alt=\\"Zderzenie niesprężyste dwóch klocków: przed zderzeniem klocki m1 i m2 poruszają się naprzeciwko siebie z prędkościami v1 i v2, po zderzeniu klocki sczepiają się i poruszają razem ze wspólną prędkością v.\\" loading=\\"eager\\" decoding=\\"async\\">\\n</figure>\\n\\n  <div class=\\"theory-subtitle\\">4. Bilans energii – ubytek energii kinetycznej na ciepło</div>\\n  <p>W zderzeniu niesprężystym <strong>energia kinetyczna NIE jest zachowana</strong>. Część energii mechanicznej ulega zamianie na pracę trwałych odkształceń i energię wewnętrzną (ciepło $Q$):</p>\\n  <div style=\\"text-align:center;margin:6px 0;\\">$$Q = \\\\Delta E_k = E_{k,\\\\text{pocz}} - E_{k,\\\\text{końc}} > 0$$</div>\\n\\n  <div class=\\"theory-subtitle\\">5. Zjawisko odrzutu</div>\\n  <p>Dla układu początkowo spoczywającego ($p_{\\\\text{pocz}} = 0$):</p>\\n  <div style=\\"text-align:center;margin:6px 0;\\">$$0 = m v_p - M v_{\\\\text{od}} \\\\implies v_{\\\\text{od}} = \\\\frac{m}{M} v_p$$</div>\\n</div>`;
+
+// Zastępujemy właściwość "theory": "..." w podrozdziale sub-zderzenia-niesprezyste
+const regex = /("id":\s*"sub-zderzenia-niesprezyste"[\s\S]*?"theory":\s*)"[\s\S]*?"(\s*,\s*"formulaCheat")/g;
+
+if (!regex.test(raw)) {
+  console.error('BŁĄD: Nie dopasowano bloku sub-zderzenia-niesprezyste!');
+  process.exit(1);
+}
+
+raw = raw.replace(regex, `$1"${newTheory}"$2`);
+fs.writeFileSync(dataCoursesPath, raw, 'utf8');
+console.log('Pomyślnie zaktualizowano teorię w data-courses.js!');

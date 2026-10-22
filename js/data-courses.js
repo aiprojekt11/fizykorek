@@ -3965,25 +3965,27 @@ window.FIZYKOREK_COURSES = {
                 "image": "img/cke_2026_maj_zad2_ruch.png",
                 "problem": "<div class=\"task-matura\"><h4>Zadanie 2.</h4>\n<p>Do jednego z końców nierozciągliwej nici o długości $l$ zamocowano niewielkie ciało $\\mathcal{B}$ o masie $m$. Drugi koniec nici jest unieruchomiony w punkcie $S$. Następnie ciało $\\mathcal{B}$ wprawiono w ruch po okręgu o środku w punkcie $S$ <u>w płaszczyźnie pionowej</u>.</p>\n<p>Przyjmij model zjawiska, w którym:</p><ul>\n<li>na ciało $\\mathcal{B}$ podczas ruchu działają dwie siły:<br>$\\vec{F}_g$ – siła grawitacji oraz $\\vec{F}_n$ – siła reakcji nici</li>\n<li>pomijamy wszelkie opory ruchu, masę nici, a ciało $\\mathcal{B}$ traktujemy jako punkt materialny</li>\n<li>ciało $\\mathcal{B}$ porusza się w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym.</li></ul>\n<div class=\"chart-container-svg\"><img src=\"img/cke_2026_maj_zad2_ruch.png\" alt=\"Ciało na nici w pionowej płaszczyźnie\" class=\"theory-img\" style=\"max-height: 260px; display: block; margin: 15px auto;\"></div>\n<p>Sytuację ilustruje rysunek powyżej, na którym oznaczono przyśpieszenie ziemskie $\\vec{g}$.</p>\n<h4>Zadanie 2.1. (0–2)</h4><p>Na poniższym rysunku przedstawiono wektory prędkości ciała $\\mathcal{B}$ w dwóch różnych chwilach czasu podczas opisanego ruchu tego ciała po okręgu.</p><p>Długość boku kratki odpowiada umownej jednostce odległości.</p>\n<div class=\"chart-container-svg\"><img src=\"img/cke_2026_maj_zad2_siatka.png\" alt=\"Rysunek – wektory prędkości na siatce\" class=\"theory-img\" style=\"max-height: 400px; display: block; margin: 15px auto;\"></div>\n<p><strong>Na rysunku powyżej wyznacz konstrukcyjnie środek okręgu, po którym porusza się ciało $\\mathcal{B}$. Podpisz środek tego okręgu jako $S$.</strong></p>\n<p><strong>Zapisz w wykropkowanym miejscu poniżej długość $l$ promienia tego okręgu. Wyraź tę długość w umownych jednostkach odległości.</strong></p>\n<p>$l =$ ........... długości boku kratki</p><p><em>Uwaga! W tym przykładzie środek $S$ okręgu leży w punkcie kratowym.</em></p>\n<h4>Zadanie 2.2. (0–1)</h4><p><strong>Na którym rysunku (spośród A–D) prawidłowo przedstawiono siły – grawitacji $\\vec{F}_g$ oraz reakcji nici $\\vec{F}_n$ – działające na ciało $\\mathcal{B}$ podczas ruchu po okręgu, gdy przechodzi ono przez najniższe położenie? Wybierz właściwą odpowiedź spośród podanych.</strong></p>\n<div class=\"chart-container-svg\"><img src=\"img/cke_2026_maj_zad2_opcje.png\" alt=\"Odpowiedzi A–D – siły w najniższym położeniu\" class=\"theory-img\" style=\"max-height: 600px; display: block; margin: 15px auto;\"></div>\n<h4>Zadanie 2.3. (0–4)</h4><p>Siła $\\vec{F}_n$, z jaką nić działa na ciało $\\mathcal{B}$ podczas jego ruchu po okręgu, zmienia swoją wartość. Największą wartość tej siły oznaczymy jako $F_{n\\,max}$, a najmniejszą – jako $F_{n\\,min}$.</p>\n<p>Dany jest iloraz największej i najmniejszej wartości prędkości ciała $\\mathcal{B}$ podczas jego ruchu po okręgu:</p><p style=\"text-align:center\">$\\frac{v_{max}}{v_{min}}=\\sqrt{3}$</p>\n<p><strong>Oblicz iloraz $\\frac{F_{n\\,max}}{F_{n\\,min}}$. Zapisz obliczenia.</strong></p></div>",
                 "solution": {
-                  "intuition": "Siła wypadkowa w kierunku promienia zapewnia przyśpieszenie dośrodkowe. Prędkości na dole i na górze łączy zasada zachowania energii.",
-                  "givens": "Promień $l$, masa $m$, $v_{max}/v_{min}=\\sqrt3$.",
+                  "givens": "Długość nici (promień okręgu): $l$, masa ciała: $m$, stosunek prędkości skrajnych: $\\frac{v_{\\max}}{v_{\\min}} = \\sqrt{3}$, ruch po okręgu w płaszczyźnie pionowej, brak oporów ruchu.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1",
-                      "content": "Przez punkty zaczepienia obu prędkości poprowadź proste prostopadłe do tych prędkości. Ich przecięcie to środek $S$. Leży on 10 kratek poniżej punktu zaczepienia $\\vec v_1$. Promień wynosi $l=10$ długości boku kratki.<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
+                      "title": "Zadanie 2.1 – Konstrukcja środka okręgu i odczyt promienia",
+                      "content": "Wektor prędkości w ruchu po okręgu jest w każdej chwili styczny do toru, co oznacza, że promień łączący ciało ze środkiem okręgu $S$ jest zawsze prostopadły do wektora prędkości $\\vec{v}$:\n1. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_1$ w punkcie jego przyłożenia (pionowo w dół).\n2. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_2$ w punkcie jego przyłożenia.\n3. Punkt przecięcia obu prostych jednoznacznie wyznacza środek okręgu $S$.\n\nOdliczając kratki pionowo od środka $S$ do punktu zaczepienia wektora $\\vec{v}_1$, odczytujemy promień okręgu:\n$$l = 10\\text{ długości kratek}$$\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
                     },
                     {
-                      "title": "Zadanie 2.2",
-                      "content": "W najniższym punkcie przyśpieszenie dośrodkowe jest zwrócone do góry: $F_n-mg=mv^2/l>0$. Stąd $F_n>F_g$, a siły mają przeciwne zwroty. Odpowiedź B."
+                      "title": "Zadanie 2.2 – Wybór sił działających w najniższym położeniu",
+                      "content": "W najniższym położeniu na ciało działają dwie pionowe siły:\n- siła grawitacji $\\vec{F}_g = m\\vec{g}$ skierowana pionowo w dół,\n- siła reakcji (naciągu) nici $\\vec{F}_n$ skierowana pionowo w górę (w stronę środka okręgu $S$).\n\nAby ciało poruszało się po okręgu, siła wypadkowa musi być skierowana do środka okręgu (w górę) i pełnić rolę siły dośrodkowej:\n$$F_{\\text{doś}} = F_n - F_g = \\frac{m v_{\\max}^2}{l} > 0 \\implies F_n > F_g$$\nWektor siły reakcji nici $\\vec{F}_n$ musi mieć zatem większą długość niż wektor ciężaru $\\vec{F}_g$. Warunek ten spełnia wyłącznie **rysunek B**."
                     },
                     {
-                      "title": "Zadanie 2.3",
-                      "content": "Z zachowania energii między dołem i górą: $\\frac12m(v_{max}^2-v_{min}^2)=mg\\cdot2l$. Ponieważ $v_{max}^2=3v_{min}^2$, otrzymujemy $v_{min}^2=2gl$ i $v_{max}^2=6gl$.\nNa dole: $F_{n\\,max}=mg+mv_{max}^2/l=7mg$.\nNa górze: $F_{n\\,min}+mg=mv_{min}^2/l$, więc $F_{n\\,min}=mg$.\nZatem $F_{n\\,max}/F_{n\\,min}=7$."
+                      "title": "Zadanie 2.3 – Równania dynamiki w skrajnych punktach toru",
+                      "content": "Zapisujemy II zasadę dynamiki dla składowych sił wzdłuż promienia okręgu w punktach o prędkości maksymalnej i minimalnej:\n- **W najniższym punkcie (prędkość maksymalna $v_{\\max}$):**\n$$F_{n,\\max} - mg = \\frac{m v_{\\max}^2}{l} \\implies F_{n,\\max} = mg + \\frac{m v_{\\max}^2}{l}$$\n- **W najwyższym punkcie (prędkość minimalna $v_{\\min}$):**\nZarówno siła reakcji nici, jak i siła grawitacji działają w dół (w stronę środka $S$):\n$$F_{n,\\min} + mg = \\frac{m v_{\\min}^2}{l} \\implies F_{n,\\min} = \\frac{m v_{\\min}^2}{l} - mg$$"
+                    },
+                    {
+                      "title": "Zadanie 2.3 – Zastosowanie zasady zachowania energii i obliczenie ilorazu sił",
+                      "content": "Różnica wysokości między najniższym a najwyższym punktem toru wynosi $h = 2l$. Z zasady zachowania energii mechanicznej:\n$$\\frac{1}{2}m v_{\\max}^2 = \\frac{1}{2}m v_{\\min}^2 + mg(2l)$$\nMnożymy obustronnie przez $\\frac{2}{l}$:\n$$\\frac{m v_{\\max}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg$$\nZ treści zadania wiemy, że $v_{\\max} = \\sqrt{3}\\,v_{\\min}$, co oznacza $v_{\\max}^2 = 3v_{\\min}^2$. Podstawiamy:\n$$3\\,\\frac{m v_{\\min}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg \\implies 2\\,\\frac{m v_{\\min}^2}{l} = 4mg \\implies \\frac{m v_{\\min}^2}{l} = 2mg$$\nStąd dla prędkości maksymalnej:\n$$\\frac{m v_{\\max}^2}{l} = 3 \\cdot (2mg) = 6mg$$\nObliczamy wartości sił reakcji nici:\n$$F_{n,\\max} = mg + 6mg = 7mg$$\n$$F_{n,\\min} = 2mg - mg = mg$$\nIloraz poszukiwanych sił wynosi:\n$$\\frac{F_{n,\\max}}{F_{n,\\min}} = \\frac{7mg}{mg} = 7$$"
                     }
                   ],
-                  "answer": "2.1: $l=10$ kratek; 2.2: B; 2.3: $7$.",
-                  "numerical": "2.1: $l=10$ kratek; 2.2: B; 2.3: $7$.",
-                  "trap": "Na górze ciężar i napięcie nici są zwrócone do środka okręgu, więc dodają się."
+                  "answer": "2.1: Konstrukcja prostych prostopadłych, $l = 10\\text{ długości kratek}$;\n2.2: Poprawny rysunek B ($F_n > F_g$);\n2.3: Iloraz wynosi $\\frac{F_{n,\\max}}{F_{n,\\min}} = 7$.",
+                  "trap": "W najwyższym punkcie toru siła ciężkości działa w tym samym zwrocie co siła naciągu nici (w dół, w stronę środka okręgu), dlatego $F_{n,\\min} = \\frac{mv_{\\min}^2}{l} - mg$, a nie ze znakiem plus!"
                 }
               },
               {
@@ -4276,7 +4278,7 @@ window.FIZYKOREK_COURSES = {
             "title": "1. Praca i moc",
             "shortTitle": "Praca i moc",
             "desc": "Praca siły stałej i tarcia, pola pod wykresami F(s) oraz P(t), moc chwilowa, średnia i sprawność urządzeń.",
-            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Praca jako miara przekazywania energii ($W$)</div>\n  <p>Praca siły stałej $\\vec{F}$ na prostoliniowym przemieszczeniu $\\vec{s}$ jest iloczynem skalarnym:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$W = \\vec{F} \\cdot \\vec{s} = F \\cdot s \\cdot \\cos\\alpha$$</div>\n  <ul class=\"theory-list\">\n    <li><strong>$F$</strong> – wartość siły $[\\text{N}]$, <strong>$s$</strong> – przemieszczenie $[\\text{m}]$, <strong>$\\alpha$</strong> – kąt między wektorem siły a wektorem przemieszczenia.</li>\n    <li>Jednostka pracy i energii w układzie SI: $1\\text{ J} = 1\\text{ N} \\cdot 1\\text{ m} = 1\\text{ kg} \\cdot \\text{m}^2/\\text{s}^2$.</li>\n    <li><strong>Twierdzenie o pracy i energii:</strong> praca siły wypadkowej jest równa zmianie energii kinetycznej ciała: $W_{\\text{wyp}} = \\Delta E_k$.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/work-angle-custom.png\" alt=\"Klocek przesuwa się w prawo, a siła F działa pod kątem alfa. Zaznaczono składową F cos alfa równoległą do przemieszczenia.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">2. Znaki pracy i siły bez pracy (kluczowe na maturze)</div>\n  <ul class=\"theory-list\">\n    <li><strong>Praca dodatnia ($W > 0$):</strong> gdy $\\alpha < 90^\\circ$ ($\\cos\\alpha > 0$) – siła wspomaga ruch, zwiększając energię kinetyczną.</li>\n    <li><strong>Praca równa zero ($W = 0$):</strong> gdy siła działa <u>prostopadle</u> do kierunku ruchu ($\\alpha = 90^\\circ \\implies \\cos 90^\\circ = 0$).<br>\n    <em>Ważne:</em> Ciężar ciała ($W_g = 0$) oraz siła reakcji podłoża ($W_N = 0$) <strong>nie wykonują pracy</strong> przy poziomym przemieszczeniu! Podobnie siła dośrodkowa w ruchu po okręgu nie wykonuje pracy ($W_{doś} = 0$).</li>\n    <li><strong>Praca ujemna ($W < 0$):</strong> gdy $\\alpha > 90^\\circ$ ($\\cos\\alpha < 0$) – siła hamuje ruch, odbierając ciału energię mechaniczną.<br>\n    Dla siły tarcia zwrot jest zawsze przeciwny do przemieszczenia ($\\alpha = 180^\\circ \\implies \\cos 180^\\circ = -1$):\n    <div style=\"text-align:center;margin:4px 0;\">$$W_T = -T \\cdot s = -\\mu N s$$</div></li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/work-signs-custom.png\" alt=\"Trzy schematy: siła zgodna z ruchem wykonuje pracę dodatnią, prostopadła pracę zerową, a przeciwna pracę ujemną.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">3. Interpretacja geometryczna – pole pod wykresem $F(s)$</div>\n  <p>Dla dowolnej siły (stałej lub zmiennej) praca jest równa <strong>polu powierzchni pod wykresem $F(s)$</strong>:</p>\n  <ul class=\"theory-list\">\n    <li>Dla siły stałej: pole prostokąta $W = F \\cdot s$.</li>\n    <li>Dla siły sprężystej $F(x) = kx$: pole trójkąta pod wykresem $W = \\frac{1}{2} k x^2$ (równa energii potencjalnej sprężystości).</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/work-graph-custom.png\" alt=\"Wykresy siły od drogi dla siły stałej oraz siły sprężystości (zmiennej).\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">4. Moc ($P$) i sprawność urządzeń ($\\eta$)</div>\n  <ul class=\"theory-list\">\n    <li><strong>Moc średnia:</strong> tempo przekazywania energii: $P = \\frac{W}{t}$ $[\\text{W} = \\text{J}/\\text{s}]$.</li>\n    <li><strong>Moc przy stałej prędkości ($v = \\text{const}$):</strong> $P = F \\cdot v$. Gdy pojazd porusza się ruchem jednostajnym, siła napędowa silnika równoważy opory ruchu ($F_{\\text{napęd}} = F_{\\text{op}}$), więc:\n    <div style=\"text-align:center;margin:4px 0;\">$$P = F_{\\text{op}} \\cdot v$$</div></li>\n    <li><strong>Sprawność urządzenia:</strong> stosunek energii użytecznej do energii całkowitej:\n    <div style=\"text-align:center;margin:4px 0;\">$$\\eta = \\frac{W_u}{W_c} = \\frac{P_u}{P_c} \\le 1 \\quad (\\text{lub } \\eta \\cdot 100\\%)$$</div>\n    Dla dźwigu podnoszącego masę $m$ na wysokość $h$: $W_u = mgh$, a $W_c = P_{\\text{silnika}} \\cdot t$.</li>\n  </ul>\n</div>",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Praca jako miara przekazywania energii ($W$)</div>\n  <p>Praca siły stałej $\\vec{F}$ na prostoliniowym przemieszczeniu $\\vec{s}$ jest iloczynem skalarnym:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$W = \\vec{F} \\cdot \\vec{s} = F \\cdot s \\cdot \\cos\\alpha$$</div>\n  <ul class=\"theory-list\">\n    <li><strong>$F$</strong> – wartość siły $[\\text{N}]$, <strong>$s$</strong> – przemieszczenie $[\\text{m}]$, <strong>$\\alpha$</strong> – kąt między wektorem siły a wektorem przemieszczenia.</li>\n    <li>Jednostka pracy i energii w układzie SI: $1\\text{ J} = 1\\text{ N} \\cdot 1\\text{ m} = 1\\text{ kg} \\cdot \\text{m}^2/\\text{s}^2$.</li>\n    <li><strong>Twierdzenie o pracy i energii:</strong> praca siły wypadkowej jest równa zmianie energii kinetycznej ciała: $W_{\\text{wyp}} = \\Delta E_k$.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/work-angle-custom.png\" alt=\"Klocek przesuwa się w prawo, a siła F działa pod kątem alfa. Zaznaczono składową F cos alfa równoległą do przemieszczenia.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">2. Znaki pracy i siły bez pracy</div>\n  <ul class=\"theory-list\">\n    <li><strong>Praca dodatnia ($W > 0$):</strong> gdy $\\alpha < 90^\\circ$ ($\\cos\\alpha > 0$) – siła wspomaga ruch, zwiększając energię kinetyczną.</li>\n    <li><strong>Praca równa zero ($W = 0$):</strong> gdy siła działa <u>prostopadle</u> do kierunku ruchu ($\\alpha = 90^\\circ \\implies \\cos 90^\\circ = 0$).<br>\n    <em>Ważne:</em> Ciężar ciała ($W_g = 0$) oraz siła sprężystości/reakcji podłoża ($W_{F_n} = 0$, gdzie $F_n$ to siła reakcji/nacisku) <strong>nie wykonują pracy</strong> przy poziomym przemieszczeniu! Podobnie siła dośrodkowa w ruchu po okręgu nie wykonuje pracy ($W_{doś} = 0$).</li>\n    <li><strong>Praca ujemna ($W < 0$):</strong> gdy $\\alpha > 90^\\circ$ ($\\cos\\alpha < 0$) – siła hamuje ruch, odbierając ciału energię mechaniczną.<br>\n    Dla siły tarcia zwrot jest zawsze przeciwny do przemieszczenia ($\\alpha = 180^\\circ \\implies \\cos 180^\\circ = -1$):\n    <div style=\"text-align:center;margin:4px 0;\">$W_T = -T \\cdot s = -\\mu F_n s$</div>\n    gdzie: $T$ – wartość siły tarcia, $\\mu$ – współczynnik tarcia, $F_n$ – siła nacisku na podłoże, $s$ – przemieszczenie (droga).</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/work-signs-custom.png\" alt=\"Trzy schematy: siła zgodna z ruchem wykonuje pracę dodatnią, prostopadła pracę zerową, a przeciwna pracę ujemną.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">3. Interpretacja geometryczna – pole pod wykresem $F(s)$</div>\n  <p>Dla dowolnej siły (stałej lub zmiennej) praca jest równa <strong>polu powierzchni pod wykresem $F(s)$</strong>:</p>\n  <ul class=\"theory-list\">\n    <li>Dla siły stałej: pole prostokąta $W = F \\cdot s$.</li>\n    <li>Dla siły sprężystej $F(x) = kx$: pole trójkąta pod wykresem $W = \\frac{1}{2} k x^2$ (równa energii potencjalnej sprężystości).</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/work-graph-custom.png\" alt=\"Wykresy siły od drogi dla siły stałej oraz siły sprężystości (zmiennej).\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">4. Moc ($P$) i sprawność ($\\eta$)</div>\n  <ul class=\"theory-list\">\n    <li><strong>Moc średnia ($P$):</strong> szybkość przekazywania energii (wykonywania pracy):\n    <div style=\"text-align:center;margin:6px 0;\">$$P = \\frac{W}{t}$$</div>\n    gdzie: $W$ – praca $[\\text{J}]$, $t$ – czas $[\\text{s}]$. Jednostka w SI: wat $[1\\text{ W} = 1\\text{ J}/\\text{s}]$.</li>\n    <li><strong>Wyprowadzenie wzoru na moc ze stałą prędkością ($P = F \\cdot v$):</strong><br>Wychodzimy bezpośrednio z definicji pracy siły stałej $W = F \\cdot s$ wzdłuż toru ruchu i podstawiamy do definicji mocy:\n    <div style=\"text-align:center;margin:6px 0;\">$$P = \\frac{W}{t} = \\frac{F \\cdot s}{t} = F \\cdot \\left(\\frac{s}{t}\\right) = F \\cdot v$$</div>\n    gdzie: $F$ – wartość siły, $v = \\frac{s}{t}$ – stała prędkość ciała. Wzór ten łączy dynamikę z kinematyką.</li>\n    <li><strong>Sprawność ($\\eta$):</strong> stosunek energii użytecznej do całkowicie dostarczonej:\n    <div style=\"text-align:center;margin:6px 0;\">$$\\eta = \\frac{W_u}{W_c} = \\frac{P_u}{P_c} \\le 1 \\quad (\\text{lub } \\eta \\cdot 100\\%)$$</div>\n    gdzie: $W_u, P_u$ – praca i moc użyteczna, $W_c, P_c$ – praca i moc całkowita (dostarczona). Ze względu na straty (tarcia, opory, ciepło) sprawność jest zawsze mniejsza od $1$ ($100\\%$).</li>\n  </ul></div>",
             "formulaCheat": "W = F \\cdot s \\cdot \\cos\\alpha, \\quad P = \\frac{W}{t} = F \\cdot v, \\quad \\eta = \\frac{P_u}{P_c}",
             "tasks": [
               {
@@ -4599,7 +4601,7 @@ window.FIZYKOREK_COURSES = {
             "title": "2. Rodzaje energii i zasada zachowania energii",
             "shortTitle": "Rodzaje energii",
             "desc": "Energia kinetyczna, potencjalna grawitacji i sprężystości, twierdzenie o pracy i energii oraz bilans energii mechanicznej z pracą tarcia.",
-            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Formy energii mechanicznej</div>\n  <ul class=\"theory-list\">\n    <li><strong>Energia kinetyczna ($E_k$):</strong> energia ciała w ruchu o masie $m$ i szybkości $v$:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_k = \\frac{m v^2}{2}$$</div></li>\n    <li><strong>Energia potencjalna grawitacji ($E_p$):</strong> energia ciała uniesionego na wysokość $h$:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_p = mgh$$</div></li>\n    <li><strong>Energia potencjalna sprężystości ($E_s$):</strong> energia sprężyny odkształconej o $x$:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_s = \\frac{1}{2} k x^2$$</div></li>\n  </ul>\n\n  <div class=\"theory-subtitle\">2. Zasada Zachowania Energii Mechanicznej</div>\n  <p>Gdy w układzie nie ma oporów ani tarcia, suma energii kinetycznej i potencjalnej jest stała w każdej chwili ruchu:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$E_{\\text{mech}} = E_k + E_p = \\text{const} \\iff E_{k1} + E_{p1} = E_{k2} + E_{p2}$$</div>\n  <p>Energia nie znika, lecz zamienia się jedna w drugą – ile energii potencjalnej ubywa, dokładnie tyle energii kinetycznej przybywa ($\\Delta E_k = -\\Delta E_p$).</p>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/energy-conservation-custom.png\" alt=\"Zasada zachowania energii mechanicznej: Ek + Ep = const. Ciało zsuwa się bez tarcia z góry na dół, zamieniając energię potencjalną w kinetyczną.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">3. Bilans energii z uwzględnieniem tarcia i oporów</div>\n  <p>Siły niezachowawcze (tarcie, opór powietrza) rozpraszają energię mechaniczną, zamieniając ją w ciepło ($Q = |W_T|$):</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$E_{\\text{mech},\\text{pocz}} = E_{\\text{mech},\\text{końc}} + Q$$</div>\n  <p>Chociaż maleje energia mechaniczna, całkowita energia układu wraz z otoczeniem jest zawsze zachowana.</p>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/friction-heat-custom.png\" alt=\"Bilans energii z uwzględnieniem tarcia i oporów: Emech,pocz = Emech,końc + Q. Energia mechaniczna początkowa przechodzi w energię mechaniczną końcową oraz wydzielone ciepło Q.\" loading=\"eager\" decoding=\"async\">\n</figure>\n</div>",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Formy energii mechanicznej</div>\n  <ul class=\"theory-list\">\n    <li><strong>Energia kinetyczna ($E_k$):</strong> energia ciała w ruchu o masie $m$ i szybkości $v$:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_k = \\frac{m v^2}{2}$$</div></li>\n    <li><strong>Energia potencjalna grawitacji ($E_p$):</strong> energia ciała uniesionego na wysokość $h$:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_p = mgh$$</div></li>\n    <li><strong>Energia potencjalna sprężystości ($E_s$):</strong> energia sprężyny odkształconej o $x$:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_s = \\frac{1}{2} k x^2$$</div></li>\n  </ul>\n\n  <div class=\"theory-subtitle\">2. Zasada Zachowania Energii Mechanicznej</div>\n  <p>Gdy w układzie nie ma oporów ani tarcia, suma energii kinetycznej i potencjalnej jest stała w każdej chwili ruchu:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$E_{\\text{mech}} = E_k + E_p = \\text{const} \\iff E_{k1} + E_{p1} = E_{k2} + E_{p2}$$</div>\n  <p>Energia nie znika, lecz zamienia się jedna w drugą – ile energii potencjalnej ubywa, dokładnie tyle energii kinetycznej przybywa ($\\Delta E_k = -\\Delta E_p$).</p>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/energy-conservation-custom.png\" alt=\"Zasada zachowania energii mechanicznej: Ek + Ep = const. Ciało zsuwa się bez tarcia z góry na dół, zamieniając energię potencjalną w kinetyczną.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">4. Bilans energii z uwzględnieniem tarcia i oporów</div>\n  <p>Siły niezachowawcze (tarcie, opór powietrza) rozpraszają energię mechaniczną, zamieniając ją w ciepło ($Q = |W_T|$):</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$E_{\\text{mech},\\text{pocz}} = E_{\\text{mech},\\text{końc}} + Q$$</div>\n  <p>Chociaż maleje energia mechaniczna, całkowita energia układu wraz z otoczeniem jest zawsze zachowana.</p>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/friction-heat-custom.png\" alt=\"Bilans energii z uwzględnieniem tarcia i oporów: Emech,pocz = Emech,końc + Q. Energia mechaniczna początkowa przechodzi w energię mechaniczną końcową oraz wydzielone ciepło Q.\" loading=\"eager\" decoding=\"async\">\n</figure>\n</div>",
             "formulaCheat": "E_k = \\frac{m v^2}{2}, \\quad E_p = mgh, \\quad E_s = \\frac{k x^2}{2}, \\quad W_w = \\Delta E_k, \\quad W_t = \\Delta E_{\\text{mech}}",
             "tasks": [
               {
@@ -4955,9 +4957,9 @@ window.FIZYKOREK_COURSES = {
             "icon": "💥",
             "title": "3. Zderzenia niesprężyste",
             "shortTitle": "Zderzenia niesprężyste",
-            "desc": "Zasada zachowania pędu, sczepianie ciał, zjawisko odrzutu, zderzenia skośne w 2D i ubytek energii kinetycznej w zderzeniu.",
-            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Zasada Zachowania Pędu (ZZP)</div>\n  <p>Dla układu ciał, na który nie działają zewnętrzne siły wypadkowe, całkowity wektor pędu układu pozostaje stały:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$\\sum \\vec{p}_{\\text{pocz}} = \\sum \\vec{p}_{\\text{końc}} \\implies m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = \\text{const}$$</div>\n\n  <div class=\"theory-subtitle\">2. Zderzenie doskonale niesprężyste (sczepianie ciał)</div>\n  <p>W zderzeniu doskonale niesprężystym ciała łączą się po zderzeniu i poruszają z jedną, wspólną prędkością $\\vec{v}$:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = (m_1 + m_2) \\vec{v} \\implies \\vec{v} = \\frac{m_1 \\vec{v}_1 + m_2 \\vec{v}_2}{m_1 + m_2}$$</div>\n  <ul class=\"theory-list\">\n    <li>Dla ciał poruszających się naprzeciwko siebie na jednej prostej uwzględniamy zwroty wektorów:\n    <div style=\"text-align:center;margin:4px 0;\">$$m_1 v_1 - m_2 v_2 = (m_1 + m_2) v$$</div>\n    Znak prędkości $v$ wskazuje kierunek dalszego wspólnego ruchu układu.</li>\n  </ul>\n\n<div class=\"theory-placeholder\">\n  <div class=\"theory-placeholder-title\">Opis schematu (miejsce na grafikę)</div>\n  <p class=\"theory-placeholder-desc\">Przed zderzeniem dwa ciała poruszają się osobno, a po zderzeniu są sczepione i mają wspólną prędkość.</p>\n  <div class=\"theory-placeholder-caption\">Po sczepieniu ciała mają <strong>wspólną prędkość</strong>. Pęd jest zachowany, lecz część energii kinetycznej przechodzi w ciepło i odkształcenia.</div>\n</div>\n\n    <div class=\"theory-subtitle\">3. Bilans energii – ubytek energii kinetycznej na ciepło</div>\n  <p>W zderzeniu niesprężystym <strong>energia kinetyczna NIE jest zachowana</strong>. Część energii mechanicznej ulega zamianie na pracę trwałych odkształceń i energię wewnętrzną (ciepło $Q$):</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$Q = \\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} = \\left(\\frac{m_1 v_1^2}{2} + \\frac{m_2 v_2^2}{2}\\right) - \\frac{(m_1 + m_2) v^2}{2} > 0$$</div>\n  <div class=\"theory-callout-rule\">\n    <strong>Klasyczny przypadek z zadań CKE:</strong> Gdy ciało o masie $m$ zderza się niesprężyście z nieruchomym ciałem o <em>takiej samej</em> masie $m$, wspólna prędkość wynosi $v = \\frac{v_1}{2}$, a utracie na ciepło ulega <strong>dokładnie 50%</strong> początkowej energii kinetycznej.\n  </div>\n\n  <div class=\"theory-subtitle\">4. Wahadło balistyczne (dwuetapowy schemat)</div>\n  <ul class=\"theory-list\">\n    <li><strong>Etap 1 (zderzenie):</strong> Pocisk o masie $m$ wbija się w wiszący klocek o masie $M$. Proces trwa ułamek sekundy – stosujemy <strong>Zasadę Zachowania Pędu</strong>:\n    <div style=\"text-align:center;margin:4px 0;\">$$m v = (m + M) u \\implies u = \\frac{m}{m + M} v$$</div></li>\n    <li><strong>Etap 2 (wznoszenie):</strong> Klocek z pociskiem wznosi się na wysokość $h$. Po zderzeniu nie ma oporów – stosujemy <strong>Zasadę Zachowania Energii</strong>:\n    <div style=\"text-align:center;margin:4px 0;\">$$\\frac{(m + M) u^2}{2} = (m + M) gh \\implies u = \\sqrt{2gh}$$</div></li>\n  </ul>\n\n<div class=\"theory-placeholder\">\n  <div class=\"theory-placeholder-title\">Opis schematu (miejsce na grafikę)</div>\n  <p class=\"theory-placeholder-desc\">Dwa etapy wahadła balistycznego: pocisk wbija się w klocek, a następnie połączone ciała wznoszą się na wysokość h.</p>\n  <div class=\"theory-placeholder-caption\">Rozdziel proces na etapy: podczas krótkiego zderzenia stosuj <strong>zachowanie pędu</strong>, a podczas wznoszenia <strong>zachowanie energii</strong>.</div>\n</div>\n\n    <div class=\"theory-subtitle\">5. Zjawisko odrzutu</div>\n  <p>Dla układu początkowo spoczywającego ($p_{\\text{pocz}} = 0$):</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$0 = m v_p - M v_{\\text{od}} \\implies v_{\\text{od}} = \\frac{m}{M} v_p$$</div>\n</div>",
-            "formulaCheat": "m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = (m_1 + m_2)\\vec{v}, \\quad \\Delta E_k = E_{k,i} - E_{k,f}",
+            "desc": "Zasada zachowania pędu, sczepianie ciał i ubytek energii kinetycznej w zderzeniu.",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Definicja pędu ciała</div>\n  <p>Pęd ($\\vec{p}$) opisuje stan ruchu ciała – jest miarą tego, jak trudno jest ciało rozpędzić lub zatrzymać:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$\\vec{p} = m \\vec{v}$</div>\n  <ul class=\"theory-list\">\n    <li>Wektor $\\vec{p}$ ma zawsze ten sam kierunek i zwrot co wektor prędkości $\\vec{v}$.</li>\n    <li>Jednostka w SI: $[p] = \\text{kg} \\cdot \\frac{\\text{m}}{\\text{s}} = \\text{N} \\cdot \\text{s}$.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/momentum-definition-custom.png\" alt=\"Definicja pędu: ciało o masie m porusza się z prędkością v, wektor pędu p = mv ma ten sam kierunek i zwrot\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">2. Zasada Zachowania Pędu (ZZP)</div>\n  <p>Dla izolowanego układu ciał (brak zewnętrznych sił wypadkowych) całkowity pęd jest stały:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$\\sum \\vec{p}_{\\text{pocz}} = \\sum \\vec{p}_{\\text{końc}} \\implies m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = \\text{const}$</div>\n\n  <div class=\"theory-subtitle\">3. Zderzenie doskonale niesprężyste (sczepianie ciał)</div>\n  <p>Ciała łączą się i poruszają z jedną, wspólną prędkością $\\vec{v}$:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = (m_1 + m_2) \\vec{v} \\implies \\vec{v} = \\frac{m_1 \\vec{v}_1 + m_2 \\vec{v}_2}{m_1 + m_2}$</div>\n  <ul class=\"theory-list\">\n    <li>Ruch naprzeciwko siebie po jednej prostej (uwzględniamy zwroty):\n    <div style=\"text-align:center;margin:4px 0;\">$m_1 v_1 - m_2 v_2 = (m_1 + m_2) v$</div>\n    Znak prędkości $v$ wyznacza kierunek ruchu sczepionych ciał.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/collision-inelastic-custom.png\" alt=\"Zderzenie niesprężyste dwóch klocków: przed zderzeniem klocki m1 i m2 poruszają się naprzeciwko siebie z prędkościami v1 i v2, po zderzeniu klocki sczepiają się i poruszają razem ze wspólną prędkością v.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">4. Bilans energii – ubytek energii kinetycznej na ciepło</div>\n  <p>W zderzeniu niesprężystym pęd jest zachowany, lecz energia kinetyczna maleje – część energii mechanicznej zamienia się w ciepło ($Q$) i pracę odkształceń:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$Q = \\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} > 0$</div>\n</div>",
+            "formulaCheat": "m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = (m_1 + m_2)\\vec{v}, \\quad \\Delta E_k = E_{k,\text{pocz}} - E_{k,\text{końc}}",
             "tasks": [
               {
                 "id": "p-zad-26",
@@ -4973,67 +4975,67 @@ window.FIZYKOREK_COURSES = {
                 "correctOption": "B",
                 "problem": "<p class=\"problem-paragraph\">Wózek $2\\text{ kg}$ jedzie w prawo z szybkością $3\\text{ m/s}$ i zderza się z nieruchomym wózkiem $1\\text{ kg}$. Wózki po zderzeniu sczepiają się. Wskaż wspólną prędkość.</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$1\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$2\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$3\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$6\\text{ m/s}$ w prawo</span></div>\n</div>",
                 "solution": {
-                  "givens": "$m_1 = 2\\text{ kg}$, $v_1 = 3\\text{ m/s}$, $m_2 = 1\\text{ kg}$, $v_2 = 0\\text{ m/s}$.",
+                  "givens": "$m_1 = 2\\text{ kg}$, $v_1 = 3\\text{ m/s}$, $m_2 = 1\\text{ kg}$, $v_2 = 0$.",
                   "steps": [
                     {
                       "title": "Zastosowanie zasady zachowania pędu",
-                      "content": "$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$2 \\cdot 3 + 1 \\cdot 0 = (2 + 1) v \\implies 6 = 3v \\implies v = 2\\text{ m/s}\\quad\\text{(w prawo)}$$"
+                      "content": "Zderzenie jest niesprężyste, więc wózki poruszają się z jedną wspólną prędkością $v$:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$2\\text{ kg} \\cdot 3\\text{ m/s} + 1\\text{ kg} \\cdot 0 = (2\\text{ kg} + 1\\text{ kg}) v \\implies 6 = 3v \\implies v = 2\\text{ m/s}$$"
                     }
                   ],
-                  "answer": "Poprawna odpowiedź: B ($2\\text{ m/s}$ w prawo). Pęd układu się zachowuje, natomiast część energii kinetycznej zamienia się w ciepło i pracę odkształcenia."
+                  "answer": "Poprawna odpowiedź: B ($2\\text{ m/s}$ w prawo)."
                 }
               },
               {
                 "id": "p-zad-27",
                 "number": 27,
                 "title": "Zadanie 27. Zderzenie czołowe niesprężyste",
-                "difficulty": 2,
+                "difficulty": 1,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
                 "tags": [
                   "Zderzenie niesprężyste",
-                  "Zachowanie pędu",
-                  "Prędkości ze znakami"
+                  "Wektory pędu",
+                  "Ruch naprzeciw"
                 ],
                 "problem": "<p class=\"problem-paragraph\">Wózek $1\\text{ kg}$ porusza się w prawo z $6\\text{ m/s}$, a wózek $2\\text{ kg}$ w lewo z $2\\text{ m/s}$. Zderzają się niesprężyście i poruszają dalej razem. Oblicz wartość i zwrot wspólnej prędkości.</p>",
                 "solution": {
                   "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +6\\text{ m/s}$ (w prawo), $m_2 = 2\\text{ kg}$, $v_2 = -2\\text{ m/s}$ (w lewo).",
                   "steps": [
                     {
-                      "title": "Zapis zasady zachowania pędu ze znakami",
-                      "content": "Wybieramy zwrot dodatni w prawo:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$1 \\cdot 6 + 2 \\cdot (-2) = (1 + 2) v \\implies 6 - 4 = 3v \\implies 2 = 3v$$"
+                      "title": "Zastosowanie zasady zachowania pędu ze zwrotami",
+                      "content": "Przyjmując zwrot w prawo jako dodatni:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$1\\text{ kg} \\cdot 6\\text{ m/s} + 2\\text{ kg} \\cdot (-2\\text{ m/s}) = (1\\text{ kg} + 2\\text{ kg}) v$$\n$$6 - 4 = 3v \\implies 2 = 3v \\implies v = \\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$$"
                     },
                     {
-                      "title": "Wyznaczenie wartości i zwrotu prędkości",
-                      "content": "$$v = \\frac{2}{3}\\text{ m/s} \\approx 0{,}667\\text{ m/s}$$\nDodatni znak wyniku wskazuje, że układ porusza się w prawo."
+                      "title": "Interpretacja zwrotu prędkości",
+                      "content": "Dodatni znak wyniku ($v > 0$) oznacza, że sczepione wózki kontynuują ruch w prawo (zgodnie ze zwrotem początkowym pierwszego wózka)."
                     }
                   ],
-                  "answer": "Wspólna prędkość wynosi $\\frac{2}{3}\\text{ m/s} \\approx 0{,}667\\text{ m/s}$ ze zwrotem w prawo."
+                  "answer": "Wspólna prędkość wynosi $\\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$ ze zwrotem w prawo."
                 }
               },
               {
                 "id": "p-zad-28",
                 "number": 28,
-                "title": "Zadanie 28. Odrzut łodzi po wyrzuceniu plecaka",
+                "title": "Zadanie 28. Wyrzucenie ładunku z łodzi (zasada zachowania pędu)",
                 "difficulty": 2,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
                 "tags": [
-                  "Zjawisko odrzutu",
-                  "Zachowanie pędu"
+                  "Zachowanie pędu",
+                  "Układ izolowany"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Nieruchoma łódź z osobą ma masę $80\\text{ kg}$. Osoba wyrzuca poziomo plecak o masie $4\\text{ kg}$ z prędkością $5\\text{ m/s}$ względem ziemi w prawo. Oblicz prędkość łodzi z osobą po wyrzuceniu. Pomijamy poziomy impuls zewnętrzny.</p>",
+                "problem": "<p class=\"problem-paragraph\">Nieruchoma łódź z osobą ma masę $80\\text{ kg}$. Osoba wyrzuca poziomo plecak o masie $4\\text{ kg}$ z prędkością $5\\text{ m/s}$ w prawo. Oblicz prędkość łodzi z osobą po wyrzuceniu plecaka. Pomijamy opory wody.</p>",
                 "solution": {
-                  "givens": "$M = 80\\text{ kg}$ (łódź + osoba), $m_p = 4\\text{ kg}$, $v_p = +5\\text{ m/s}$ (w prawo), pęd początkowy wynosi zero.",
+                  "givens": "$M = 80\\text{ kg}$, $m_p = 4\\text{ kg}$, $v_p = +5\\text{ m/s}$ (w prawo), $p_{\\text{pocz}} = 0$.",
                   "steps": [
                     {
                       "title": "Zasada zachowania pędu w układzie izolowanym",
-                      "content": "Początkowy pęd układu wynosił 0. Po wyrzuceniu pęd całkowity nadal musi być zerowy:\n$$0 = m_p v_p + M v_Ł$$\n$$0 = 4 \\cdot 5 + 80 \\cdot v_Ł \\implies 80 v_Ł = -20$$"
+                      "content": "Układ początkowo spoczywał, więc całkowity pęd początkowy wynosi zero ($p_{\\text{pocz}} = 0$):\n$$p_{\\text{pocz}} = p_{\\text{końc}} \\implies 0 = M v_Ł + m_p v_p$$\n$$0 = 80\\text{ kg} \\cdot v_Ł + 4\\text{ kg} \\cdot 5\\text{ m/s} \\implies 80 v_Ł = -20 \\implies v_Ł = -\\frac{20}{80} = -0{,}25\\text{ m/s}$$"
                     },
                     {
-                      "title": "Wyznaczenie prędkości łodzi",
-                      "content": "$$v_Ł = -\\frac{20}{80} = -0{,}25\\text{ m/s}$$"
+                      "title": "Interpretacja znaku i wartości prędkości",
+                      "content": "Znak minus oznacza, że łódź porusza się w lewo (przeciwnie do zwrotu wyrzuconego plecaka) z szybkością $0{,}25\\text{ m/s}$."
                     }
                   ],
-                  "answer": "Łódź z osobą porusza się z szybkością $0{,}25\\text{ m/s}$ w lewo (znak minus oznacza zwrot przeciwny do wyrzuconego plecaka)."
+                  "answer": "Łódź z osobą porusza się z szybkością $0{,}25\\text{ m/s}$ w lewo."
                 }
               },
               {
@@ -5044,34 +5046,30 @@ window.FIZYKOREK_COURSES = {
                 "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
                 "tags": [
                   "Zderzenie 2D",
-                  "Wektory pędu",
-                  "Rozkład na osie"
+                  "Pęd wektorowy",
+                  "Składowe pędu"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Dwa wózki po zderzeniu sczepiają się. Pierwszy ma masę $2\\text{ kg}$ i prędkość $3\\text{ m/s}$ na wschód, drugi ma masę $1\\text{ kg}$ i prędkość $4\\text{ m/s}$ na północ. Wyznacz składowe, wartość i kierunek wspólnej prędkości.</p>",
+                "problem": "<p class=\"problem-paragraph\">Dwa wózki po zderzeniu sczepiają się. Pierwszy ma masę $2\\text{ kg}$ i prędkość $3\\text{ m/s}$ na wschód, drugi ma masę $1\\text{ kg}$ i prędkość $4\\text{ m/s}$ na północ. Wyznacz składowe oraz wartość wspólnej prędkości po zderzeniu.</p>",
                 "solution": {
-                  "givens": "$m_1 = 2\\text{ kg}$, $\\vec{v}_1 = [3, 0]\\text{ m/s}$ (wschód); $m_2 = 1\\text{ kg}$, $\\vec{v}_2 = [0, 4]\\text{ m/s}$ (północ).",
+                  "givens": "$m_1 = 2\\text{ kg}$, $\\vec{v}_1 = [3, 0]\\text{ m/s}$ (wschód), $m_2 = 1\\text{ kg}$, $\\vec{v}_2 = [0, 4]\\text{ m/s}$ (północ).",
                   "steps": [
                     {
-                      "title": "Zachowanie pędu wzdłuż poszczególnych osi",
-                      "content": "Łączna masa po sczepieniu: $M = m_1 + m_2 = 3\\text{ kg}$.\nOś $x$ (wschód):\n$$(m_1 + m_2) v_x = m_1 v_{1x} \\implies 3 v_x = 2 \\cdot 3 \\implies v_x = 2\\text{ m/s}$$\nOś $y$ (północ):\n$$(m_1 + m_2) v_y = m_2 v_{2y} \\implies 3 v_y = 1 \\cdot 4 \\implies v_y = \\frac{4}{3}\\text{ m/s} \\approx 1{,}33\\text{ m/s}$$"
+                      "title": "Zasada zachowania pędu dla poszczególnych osi",
+                      "content": "Łączna masa po sczepieniu: $M = m_1 + m_2 = 2\\text{ kg} + 1\\text{ kg} = 3\\text{ kg}$.\nDla osi $x$ (kierunek wschód):\n$$(m_1 + m_2) v_x = m_1 v_{1x} \\implies 3\\text{ kg} \\cdot v_x = 2\\text{ kg} \\cdot 3\\text{ m/s} \\implies v_x = 2\\text{ m/s}$$\nDla osi $y$ (kierunek północ):\n$$(m_1 + m_2) v_y = m_2 v_{2y} \\implies 3\\text{ kg} \\cdot v_y = 1\\text{ kg} \\cdot 4\\text{ m/s} \\implies v_y = \\frac{4}{3}\\text{ m/s} \\approx 1{,}33\\text{ m/s}$$"
                     },
                     {
-                      "title": "Wypadkowa wartość prędkości",
-                      "content": "$$v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{2^2 + \\left(\\frac{4}{3}\\right)^2} = \\sqrt{4 + \\frac{16}{9}} = \\sqrt{\\frac{52}{9}} \\approx 2{,}40\\text{ m/s}$$"
-                    },
-                    {
-                      "title": "Kierunek wektora prędkości",
-                      "content": "$$\\tan\\alpha = \\frac{v_y}{v_x} = \\frac{4/3}{2} = \\frac{2}{3} \\approx 0{,}667 \\implies \\alpha \\approx 33{,}7^\\circ$$"
+                      "title": "Wyznaczenie wartości prędkości wypadkowej",
+                      "content": "Z twierdzenia Pitagorasa:\n$$v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{2^2 + \\left(\\frac{4}{3}\\right)^2} = \\sqrt{4 + \\frac{16}{9}} = \\sqrt{\\frac{52}{9}} = \\frac{\\sqrt{52}}{3} \\approx 2{,}40\\text{ m/s}$$"
                     }
                   ],
-                  "answer": "Składowe prędkości: $v_x = 2\\text{ m/s}$, $v_y = \\frac{4}{3}\\text{ m/s}$. Wartość prędkości wynosi około $2{,}40\\text{ m/s}$, skierowana pod kątem $33{,}7^\\circ$ na północ od kierunku wschodniego."
+                  "answer": "Składowe prędkości wynoszą $v_x = 2\\text{ m/s}$ oraz $v_y = \\frac{4}{3}\\text{ m/s}$, a wartość prędkości wypadkowej wynosi około $2{,}40\\text{ m/s}$."
                 }
               },
               {
                 "id": "p-zad-30",
                 "number": 30,
                 "title": "Zadanie 30. Względny ubytek energii w zderzeniu niesprężystym",
-                "difficulty": 1,
+                "difficulty": 2,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
                 "tags": [
                   "Zderzenie niesprężyste",
@@ -5084,19 +5082,19 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$m_1 = 2\\text{ kg}$, $v_1 = 4\\text{ m/s}$, $m_2 = 2\\text{ kg}$, $v_2 = 0$.",
                   "steps": [
                     {
-                      "title": "Prędkość po sczepieniu z zachowania pędu",
-                      "content": "$$2 \\cdot 4 = (2 + 2) v \\implies 8 = 4v \\implies v = 2\\text{ m/s}$$"
+                      "title": "Wspólna prędkość z zasady zachowania pędu",
+                      "content": "$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$2\\text{ kg} \\cdot 4\\text{ m/s} + 0 = (2\\text{ kg} + 2\\text{ kg}) v \\implies 8 = 4v \\implies v = 2\\text{ m/s}$$"
                     },
                     {
-                      "title": "Porównanie energii kinetycznych",
-                      "content": "Energia początkowa:\n$$E_{ki} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 2 \\cdot 4^2 = 16\\text{ J}$$\nEnergia końcowa po sczepieniu:\n$$E_{kf} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 8\\text{ J}$$"
+                      "title": "Porównanie energii kinetycznych przed i po zderzeniu",
+                      "content": "Energia kinetyczna początkowa:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 2\\text{ kg} \\cdot (4\\text{ m/s})^2 = 16\\text{ J}$$\nEnergia kinetyczna końcowa po sczepieniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4\\text{ kg} \\cdot (2\\text{ m/s})^2 = 8\\text{ J}$$"
                     },
                     {
-                      "title": "Wyznaczenie ubytku względnego",
-                      "content": "$$\\Delta E = 16\\text{ J} - 8\\text{ J} = 8\\text{ J} \\implies \\frac{\\Delta E}{E_{ki}} = \\frac{8}{16} = 0{,}50 = 50\\%$$"
+                      "title": "Wyznaczenie względnego ubytku energii",
+                      "content": "$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{E_{k,\\text{pocz}} - E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} = \\frac{16\\text{ J} - 8\\text{ J}}{16\\text{ J}} = \\frac{8}{16} = 0{,}50 = 50\\%$$"
                     }
                   ],
-                  "answer": "Poprawna odpowiedź: C ($50\\%$). W zderzeniu niesprężystym ciał o równej masie traci się zawsze $50\\%$ energii kinetycznej."
+                  "answer": "Poprawna odpowiedź: C ($50\\%$). W zderzeniu niesprężystym ciał o jednakowej masie utracie ulega dokładnie $50\\%$ energii kinetycznej."
                 }
               },
               {
@@ -5107,24 +5105,20 @@ window.FIZYKOREK_COURSES = {
                 "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
                 "tags": [
                   "Zderzenie niesprężyste",
-                  "Plastelina",
-                  "Bilans energii"
+                  "Bilans energii",
+                  "Ubytek energii"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Kula plasteliny $0{,}10\\text{ kg}$ leci poziomo z szybkością $20\\text{ m/s}$ i przykleja się do nieruchomego klocka $0{,}90\\text{ kg}$ na gładkim stole. Oblicz wspólną szybkość. Jaką część początkowej energii kinetycznej utracił układ?</p>",
+                "problem": "<p class=\"problem-paragraph\">Kula plasteliny $0{,}10\\text{ kg}$ leci poziomo z szybkością $20\\text{ m/s}$ i przykleja się do nieruchomego klocka $0{,}90\\text{ kg}$ na gładkim stole. Oblicz wspólną szybkość oraz określ, jaka część początkowej energii kinetycznej została utracona.</p>",
                 "solution": {
                   "givens": "$m_1 = 0{,}10\\text{ kg}$, $v_1 = 20\\text{ m/s}$, $m_2 = 0{,}90\\text{ kg}$, $v_2 = 0$.",
                   "steps": [
                     {
-                      "title": "Wspólna prędkość z zasady zachowania pędu",
-                      "content": "Początkowy pęd: $p = m_1 v_1 = 0{,}10 \\cdot 20 = 2\\text{ kg}\\cdot\\text{m/s}$.\nCałkowita masa: $M = 0{,}10 + 0{,}90 = 1{,}0\\text{ kg}$.\n$$v = \\frac{p}{M} = \\frac{2\\text{ kg}\\cdot\\text{m/s}}{1{,}0\\text{ kg}} = 2\\text{ m/s}$$"
+                      "title": "Wyznaczenie wspólnej szybkości z zasady zachowania pędu",
+                      "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies v = \\frac{m_1 v_1}{m_1 + m_2} = \\frac{0{,}10\\text{ kg} \\cdot 20\\text{ m/s}}{0{,}10\\text{ kg} + 0{,}90\\text{ kg}} = \\frac{2}{1{,}0} = 2\\text{ m/s}$$"
                     },
                     {
-                      "title": "Bilans energii kinetycznej",
-                      "content": "Energia przed uderzeniem:\n$$E_i = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}10 \\cdot 20^2 = 20\\text{ J}$$\nEnergia po uderzeniu:\n$$E_f = \\frac{1}{2}M v^2 = \\frac{1}{2} \\cdot 1{,}0 \\cdot 2^2 = 2\\text{ J}$$"
-                    },
-                    {
-                      "title": "Ubytek energii",
-                      "content": "Ubytek energii: $\\Delta E = 20\\text{ J} - 2\\text{ J} = 18\\text{ J}$.\n$$\\frac{\\Delta E}{E_i} = \\frac{18\\text{ J}}{20\\text{ J}} = 0{,}90 = 90\\%$$"
+                      "title": "Bilans energii kinetycznej i ubytek względny",
+                      "content": "Energia początkowa:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}10\\text{ kg} \\cdot (20\\text{ m/s})^2 = 20\\text{ J}$$\nEnergia końcowa:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 1{,}0\\text{ kg} \\cdot (2\\text{ m/s})^2 = 2\\text{ J}$$\nUbytek energii wynosi $\\Delta E_k = 20\\text{ J} - 2\\text{ J} = 18\\text{ J}$, co stanowi:\n$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{18\\text{ J}}{20\\text{ J}} = 0{,}90 = 90\\%$$"
                     }
                   ],
                   "answer": "Wspólna szybkość wynosi $2\\text{ m/s}$. Układ utracił $18\\text{ J}$ energii kinetycznej, co stanowi $90\\%$ energii początkowej."
@@ -5138,28 +5132,28 @@ window.FIZYKOREK_COURSES = {
                 "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
                 "tags": [
                   "Zderzenie niesprężyste",
-                  "Tarcie",
-                  "Dwuetapowe"
+                  "Praca tarcia",
+                  "Droga hamowania"
                 ],
                 "problem": "<p class=\"problem-paragraph\">Wózek $1\\text{ kg}$ jedzie z $8\\text{ m/s}$ i zderza się niesprężyście z nieruchomym wózkiem $3\\text{ kg}$. Po zderzeniu oba wózki poruszają się po szorstkim torze, na którym siła tarcia ma wartość $4\\text{ N}$. Oblicz drogę do zatrzymania układu.</p>",
                 "solution": {
                   "givens": "$m_1 = 1\\text{ kg}$, $v_1 = 8\\text{ m/s}$, $m_2 = 3\\text{ kg}$, $v_2 = 0$, $T = 4\\text{ N}$.",
                   "steps": [
                     {
-                      "title": "Prędkość po zderzeniu z pędu",
-                      "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies 1 \\cdot 8 = (1 + 3) v \\implies 8 = 4v \\implies v = 2\\text{ m/s}$$"
+                      "title": "Wyznaczenie prędkości po zderzeniu z zasady zachowania pędu",
+                      "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies v = \\frac{m_1 v_1}{m_1 + m_2} = \\frac{1\\text{ kg} \\cdot 8\\text{ m/s}}{1\\text{ kg} + 3\\text{ kg}} = \\frac{8}{4} = 2\\text{ m/s}$$"
                     },
                     {
-                      "title": "Energia kinetyczna po zderzeniu",
-                      "content": "Energia kinetyczna sczepionych wózków tuż po zderzeniu:\n$$E_{kf} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 8\\text{ J}$$"
+                      "title": "Energia kinetyczna sczepionych ciał tuż po zderzeniu",
+                      "content": "$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4\\text{ kg} \\cdot (2\\text{ m/s})^2 = 8\\text{ J}$$"
                     },
                     {
-                      "title": "Droga hamowania pod wpływem pracy tarcia",
-                      "content": "Praca tarcia niweluje energię $E_{kf}$:\n$$W_t = -T \\cdot s \\implies -4s = -8 \\implies s = 2\\text{ m}$$"
+                      "title": "Wyznaczenie drogi hamowania z twierdzenia o pracy i energii",
+                      "content": "Praca siły tarcia niweczy energię kinetyczną układu ($W_t = -E_{k,\\text{końc}}$):\n$$-T \\cdot s = -E_{k,\\text{końc}} \\implies s = \\frac{E_{k,\\text{końc}}}{T} = \\frac{8\\text{ J}}{4\\text{ N}} = 2\\text{ m}$$"
                     }
                   ],
                   "answer": "Droga do zatrzymania układu wynosi $2\\text{ m}$.",
-                  "trap": "Nie wolno używać energii sprzed zderzenia ($E_i = 32\\text{ J}$) jako energii do wyhamowania, ponieważ aż $24\\text{ J}$ zostało bezpowrotnie rozproszone w samym akcie zderzenia!"
+                  "trap": "Nie wolno brać energii sprzed zderzenia ($E_{k,\\text{pocz}} = 32\\text{ J}$), ponieważ aż $24\\text{ J}$ zostało bezpowrotnie zamienione na ciepło w samym akcie zderzenia!"
                 }
               },
               {
@@ -5169,29 +5163,28 @@ window.FIZYKOREK_COURSES = {
                 "difficulty": 3,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
                 "tags": [
-                  "Zderzenie niesprężyste",
                   "Zjazd z równi",
-                  "Ubytek energii",
-                  "Zadanie maturalne"
+                  "Zderzenie niesprężyste",
+                  "Bilans energii"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Klocek $m_1 = 0{,}50\\text{ kg}$ zsuwa się bez tarcia z wysokości $1{,}8\\text{ m}$ i na poziomym torze zderza się niesprężyście z nieruchomym klockiem $m_2 = 1{,}0\\text{ kg}$. Po zderzeniu klocki poruszają się razem. Oblicz szybkość pierwszego klocka tuż przed zderzeniem, wspólną szybkość tuż po zderzeniu i ubytek energii kinetycznej w samym zderzeniu.</p>\n",
+                "problem": "<p class=\"problem-paragraph\">Klocek $m_1 = 0{,}50\\text{ kg}$ zsuwa się bez tarcia z wysokości $1{,}8\\text{ m}$ i na poziomym torze zderza się niesprężyście z nieruchomym klockiem $m_2 = 1{,}0\\text{ kg}$. Po zderzeniu klocki poruszają się razem. Oblicz szybkość pierwszego klocka tuż przed zderzeniem, wspólną szybkość tuż po zderzeniu i ubytek energii kinetycznej w samym zderzeniu.</p>",
                 "solution": {
                   "givens": "$m_1 = 0{,}50\\text{ kg}$, $h = 1{,}8\\text{ m}$, $m_2 = 1{,}0\\text{ kg}$, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
-                      "title": "Szybkość pierwszego klocka tuż przed zderzeniem",
-                      "content": "Z zasady zachowania energii na gładkim zjeździe:\n$$m_1 gh = \\frac{1}{2}m_1 v_1^2 \\implies v_1 = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 1{,}8} = \\sqrt{36} = 6\\text{ m/s}$$"
+                      "title": "Szybkość pierwszego klocka przed zderzeniem (z ZZE)",
+                      "content": "$$m_1 gh = \\frac{1}{2}m_1 v_1^2 \\implies v_1 = \\sqrt{2gh} = \\sqrt{2 \\cdot 10\\text{ m/s}^2 \\cdot 1{,}8\\text{ m}} = \\sqrt{36} = 6\\text{ m/s}$$"
                     },
                     {
-                      "title": "Wspólna szybkość klocków tuż po zderzeniu",
-                      "content": "W zderzeniu niesprężystym zachowany jest pęd:\n$$m_1 v_1 = (m_1 + m_2) v \\implies 0{,}50 \\cdot 6 = (0{,}50 + 1{,}0) v \\implies 3 = 1{,}5 v \\implies v = 2\\text{ m/s}$$"
+                      "title": "Wspólna szybkość po zderzeniu (z ZZP)",
+                      "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies v = \\frac{m_1 v_1}{m_1 + m_2} = \\frac{0{,}50\\text{ kg} \\cdot 6\\text{ m/s}}{0{,}50\\text{ kg} + 1{,}0\\text{ kg}} = \\frac{3}{1{,}5} = 2\\text{ m/s}$$"
                     },
                     {
-                      "title": "Ubytek energii kinetycznej w zderzeniu",
-                      "content": "Energia tuż przed zderzeniem:\n$$E_i = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}50 \\cdot 6^2 = 9\\text{ J}$$\nEnergia tuż po zderzeniu:\n$$E_f = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 1{,}50 \\cdot 2^2 = 3\\text{ J}$$\nUbytek energii w samym zderzeniu:\n$$\\Delta E = E_i - E_f = 9\\text{ J} - 3\\text{ J} = 6\\text{ J}$$"
+                      "title": "Wyznaczenie ubytku energii kinetycznej w zderzeniu",
+                      "content": "Energia tuż przed zderzeniem:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}50\\text{ kg} \\cdot (6\\text{ m/s})^2 = 9\\text{ J}$$\nEnergia tuż po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 1{,}50\\text{ kg} \\cdot (2\\text{ m/s})^2 = 3\\text{ J}$$\nUbytek energii kinetycznej zamienionej na ciepło:\n$$\\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} = 9\\text{ J} - 3\\text{ J} = 6\\text{ J}$$"
                     }
                   ],
-                  "answer": "Szybkość przed zderzeniem: $6\\text{ m/s}$, wspólna szybkość po zderzeniu: $2\\text{ m/s}$, ubytek energii w zderzeniu: $6\\text{ J}$."
+                  "answer": "Szybkość przed zderzeniem: $6\\text{ m/s}$, wspólna szybkość po zderzeniu: $2\\text{ m/s}$, ubytek energii kinetycznej: $6\\text{ J}$."
                 }
               }
             ]
@@ -5204,7 +5197,7 @@ window.FIZYKOREK_COURSES = {
             "shortTitle": "Zderzenia sprężyste",
             "desc": "Zderzenia doskonale sprężyste: jednoczesne zachowanie pędu i energii kinetycznej, wymiana prędkości dla równych mas i zderzenia 2D.",
             "formulaCheat": "\\sum \\vec{p}_{\\text{pocz}} = \\sum \\vec{p}_{\\text{końc}}, \\quad \\sum E_{k,\\text{pocz}} = \\sum E_{k,\\text{końc}}",
-            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Definicja zderzenia doskonale sprężystego</div>\n  <p>Zderzenie, w którym <strong>nie występują straty energii na ciepło ani odkształcenia trwałe</strong>. Obowiązuje fundamentalny układ dwóch zasad zachowania:</p>\n  <div style=\"text-align:center;margin:8px 0;\">\n  $$\\begin{cases} \n  m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = m_1 \\vec{v}_1' + m_2 \\vec{v}_2' & \\text{(Zasada Zachowania Pędu)} \\\\[8pt]\n  \\dfrac{m_1 v_1^2}{2} + \\dfrac{m_2 v_2^2}{2} = \\dfrac{m_1 v_1'^2}{2} + \\dfrac{m_2 v_2'^2}{2} & \\text{(Zasada Zachowania Energii)}\n  \\end{cases}$$\n  </div>\n\n  <div class=\"theory-subtitle\">2. Szczególny przypadek: równe masy ($m_1 = m_2$)</div>\n  <p>Z układu powyższych dwóch równań wynika fundamentalny wniosek: przy centralnym zderzeniu sprężystym ciał o jednakowych masach dochodzi do <strong>całkowitej wymiany prędkości</strong>:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$v_1' = v_2 \\quad \\text{oraz} \\quad v_2' = v_1$$</div>\n  <ul class=\"theory-list\">\n    <li>Gdy ciało 1 uderza w spoczywające ciało 2 ($v_2 = 0$):\n    <div style=\"text-align:center;margin:4px 0;\">$$v_1' = 0 \\quad (\\text{ciało 1 zatrzymuje się w miejscu}), \\qquad v_2' = v_1 \\quad (\\text{ciało 2 przejmuje całą prędkość i energię})$$</div></li>\n  </ul>\n\n<div class=\"theory-placeholder\">\n  <div class=\"theory-placeholder-title\">Opis schematu (miejsce na grafikę)</div>\n  <p class=\"theory-placeholder-desc\">Sprężyste zderzenie dwóch jednakowych mas. Pierwsza poruszająca się kula zatrzymuje się, a druga przejmuje jej prędkość.</p>\n  <div class=\"theory-placeholder-caption\">Przy równych masach i centralnym zderzeniu sprężystym ciała <strong>wymieniają się prędkościami</strong>.</div>\n</div>\n\n    <div class=\"theory-subtitle\">3. Zderzenie za pośrednictwem sprężyny (bilans energii w stanie pośrednim)</div>\n  <p>Gdy klocek uderza w drugi klocek połączony ze sprężyną (zadanie z matury CKE 2026):</p>\n  <ul class=\"theory-list\">\n    <li><strong>W chwili maksymalnego ściśnięcia sprężyny:</strong> prędkość względna klocków wynosi zero ($v_{\\text{wzgl}} = 0$). Oba klocki poruszają się z tą samą prędkością $v_{\\text{śr}} = \\frac{m_1 v_1}{m_1 + m_2}$ (z ZZP).</li>\n    <li><strong>Bilans energii z ZZE:</strong> różnica początkowej i chwilowej energii kinetycznej układu została zmagazynowana w sprężynie jako energia potencjalna sprężystości:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_s = \\frac{1}{2} k (\\Delta x_{\\max})^2 = E_{k,\\text{pocz}} - E_{k,\\text{śr}}$$</div>\n    Gdy sprężyna się rozpręży, oddaje 100% tej energii z powrotem do energii kinetycznej klocków.</li>\n  </ul>\n\n<div class=\"theory-placeholder\">\n  <div class=\"theory-placeholder-title\">Opis schematu (miejsce na grafikę)</div>\n  <p class=\"theory-placeholder-desc\">Dwa klocki zderzają się przez sprężynę. Przy maksymalnym ściśnięciu poruszają się z tą samą prędkością.</p>\n  <div class=\"theory-placeholder-caption\">Przy maksymalnym ściśnięciu prędkość względna wynosi zero, a sprężyna przechowuje <strong>maksymalną energię sprężystości</strong>.</div>\n</div>\n\n    <div class=\"theory-subtitle\">4. Odbicie sprężyste od ściany ($M \\gg m$)</div>\n  <p>Gdy ciało o masie $m$ uderza prostopadle ze sprężystością w nieruchomą ścianę lub podłoże o bardzo dużej masie ($M \\to \\infty$):</p>\n  <ul class=\"theory-list\">\n    <li>Z Zasady Zachowania Energii wartość prędkości nie ulega zmianie: $|v'| = |v|$.</li>\n    <li>Zwrot wektora prędkości ulega odwróceniu: $v' = -v$.</li>\n    <li>Zmiana pędu ciała wynosi: $\\Delta p = m v' - m v = m(-v) - mv = -2mv$ (wartość bezwzględna $|\\Delta p| = 2mv$).</li>\n  </ul>\n\n  <div class=\"theory-placeholder\">\n  <div class=\"theory-placeholder-title\">Opis schematu (miejsce na grafikę)</div>\n  <p class=\"theory-placeholder-desc\">Ciało odbija się sprężyście od nieruchomej ściany. Szybkość pozostaje taka sama, a zwrot prędkości się odwraca.</p>\n  <div class=\"theory-placeholder-caption\">Po odbiciu szybkość jest taka sama, lecz zwrot przeciwny: <strong>v′ = −v</strong>, dlatego |Δp| = 2mv.</div>\n</div>\n</div>",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Definicja i fundamentalny układ równań</div>\n  <p>Zderzenie doskonale sprężyste to proces, w którym <strong>nie występują straty energii kinetycznej na ciepło ani odkształcenia trwałe</strong> ($\\Delta E_k = 0$). Układ izolowany spełnia jednocześnie <strong>dwa prawa zachowania</strong>:</p>\n  <div style=\"text-align:center;margin:8px 0;\">\n  $$\\begin{cases} m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2' & \\text{(ZZP)} \\\\ \\frac{1}{2}m_1 v_1^2 + \\frac{1}{2}m_2 v_2^2 = \\frac{1}{2}m_1 (v_1')^2 + \\frac{1}{2}m_2 (v_2')^2 & \\text{(ZZE)} \\end{cases}$$\n  </div>\n  <ul class=\"theory-list\">\n    <li><strong>$v_1, v_2$</strong> – prędkości ciał przed zderzeniem.</li>\n    <li><strong>$v_1', v_2'$</strong> – prędkości ciał po zderzeniu.</li>\n    <li>Warunek sprężystości: $\\Delta E_k = 0$ (energia kinetyczna układu zostaje w $100\\%$ zachowana).</li>\n  </ul>\n\n  <div class=\"theory-subtitle\">2. Kluczowa zależność prędkości względnych w zderzeniu sprężystym (1D)</div>\n  <p>Z powyższego układu równań (ZZP i ZZE) wynika bezpośrednio fundamentalna zależność:</p>\n  <ul class=\"theory-list\">\n    <li><strong>Krok 1 (pogrupowanie mas):</strong>\n    <div style=\"text-align:center;margin:4px 0;\">$$m_1(v_1 - v_1') = m_2(v_2' - v_2) \\quad \\text{(z ZZP)}$$</div>\n    <div style=\"text-align:center;margin:4px 0;\">$$m_1(v_1^2 - (v_1')^2) = m_2((v_2')^2 - v_2^2) \\quad \\text{(z ZZE)}$$</div></li>\n    <li><strong>Krok 2 (różnica kwadratów):</strong> rozpisujemy $a^2 - b^2 = (a - b)(a + b)$ w równaniu energii:\n    <div style=\"text-align:center;margin:4px 0;\">$$m_1(v_1 - v_1')(v_1 + v_1') = m_2(v_2' - v_2)(v_2' + v_2)$$</div></li>\n    <li><strong>Krok 3 (podzielenie równań stronami):</strong> otrzymujemy relację sum prędkości:\n    <div style=\"text-align:center;margin:4px 0;\">$$v_1 + v_1' = v_2' + v_2$$</div></li>\n  </ul>\n  <div class=\"theory-callout-rule\">\n    <strong>Fundamentalna reguła prędkości względnych:</strong>\n    <div style=\"text-align:center;margin:6px 0;font-size:1.15em;\">$$v_1 - v_2 = -(v_1' - v_2')$$</div>\n    <strong>Sens fizyczny:</strong> Prędkość względna ciał po zderzeniu sprężystym ma dokładnie <strong>taką samą wartość, lecz przeciwny zwrot</strong> niż przed zderzeniem (ciała oddalają się od siebie z taką samą szybkością względną, z jaką się zbliżały).\n  </div>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/collision-elastic-custom.png\" alt=\"Zderzenie sprężyste 1D: przed zderzeniem prędkość zbliżania v1 - v2, po zderzeniu prędkość oddalania -(v1' - v2')\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">3. Zderzenia sprężyste pod kątem (2D)</div>\n  <p>Gdy zderzenie nie zachodzi wzdłuż jednej prostej (ruch w płaszczyźnie $xy$):</p>\n  <ul class=\"theory-list\">\n    <li><strong>Zasada Zachowania Pędu (dla każdej osi osobno):</strong>\n    <div style=\"text-align:center;margin:6px 0;\">\n    $$\\begin{cases} m_1 v_{1x} + m_2 v_{2x} = m_1 v_{1x}' + m_2 v_{2x}' \\\\ m_1 v_{1y} + m_2 v_{2y} = m_1 v_{1y}' + m_2 v_{2y}' \\end{cases}$$\n    </div></li>\n    <li><strong>Zasada Zachowania Energii (wielkość skalarna):</strong>\n    <div style=\"text-align:center;margin:6px 0;\">$$\\frac{1}{2}m_1 v_1^2 + \\frac{1}{2}m_2 v_2^2 = \\frac{1}{2}m_1 (v_1')^2 + \\frac{1}{2}m_2 (v_2')^2$$</div>\n    gdzie kwadrat prędkości wyznaczamy z twierdzenia Pitagorasa: $v^2 = v_x^2 + v_y^2$.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/energy/collision-2d-custom.png\" alt=\"Zderzenie sprężyste 2D pod kątem: przed zderzeniem kula 1 porusza się wzdłuż osi x, kula 2 spoczywa; po zderzeniu kule rozpraszają się pod kątami alfa i beta, a ich pędy w pionie się równoważą.\" loading=\"eager\" decoding=\"async\">\n</figure>\n</div>",
             "tasks": [
               {
                 "id": "p-zad-34",
@@ -5214,17 +5207,17 @@ window.FIZYKOREK_COURSES = {
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
                   "Zderzenie sprężyste",
-                  "Zasady zachowania",
+                  "Prawa zachowania",
                   "Zadanie zamknięte"
                 ],
                 "correctOption": "C",
-                "problem": "<p class=\"problem-paragraph\">W izolowanym układzie zderzenie jest doskonale sprężyste, gdy zachowują się:</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">tylko pęd</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">tylko energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">pęd i energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">pęd, energia kinetyczna i masa każdej kuli</span></div>\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Wskaż wielkości, które są zachowane w izolowanym zderzeniu doskonale sprężystym dwóch ciał.</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">Tylko pęd</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">Tylko energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">Pęd i energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">Pęd i prędkości obu ciał</span></div>\n</div>",
                 "solution": {
-                  "givens": "Izolowany układ mechaniczny.",
+                  "givens": "Układ izolowany, zderzenie doskonale sprężyste.",
                   "steps": [
                     {
-                      "title": "Definicja zderzenia sprężystego",
-                      "content": "W każdym izolowanym układzie pęd jest zawsze zachowany (wynika z III zasady dynamiki Newtona). Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy dodatkowo zachowana jest całkowita energia kinetyczna układu (brak rozproszenia energii na ciepło czy trwałe deformacje)."
+                      "title": "Zasady zachowania w zderzeniu sprężystym",
+                      "content": "W każdym zderzeniu w układzie izolowanym zachowany jest pęd ($\\sum \\vec{p}_{\\text{pocz}} = \\sum \\vec{p}_{\\text{końc}}$). Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy nie występują straty energii na ciepło ani odkształcenia trwałe, czyli zachowana jest również całkowita energia kinetyczna ($\\sum E_{k,\\text{pocz}} = \\sum E_{k,\\text{końc}}$)."
                     }
                   ],
                   "answer": "Poprawna odpowiedź: C (pęd i energia kinetyczna)."
@@ -5242,16 +5235,16 @@ window.FIZYKOREK_COURSES = {
                   "Zadanie zamknięte"
                 ],
                 "correctOption": "A",
-                "problem": "<p class=\"problem-paragraph\">Kula $1\\text{ kg}$ poruszająca się z szybkością $4\\text{ m/s}$ zderza się centralnie i sprężyście z nieruchomą kulą o tej samej masie. Wskaż prędkości obu kul po zderzeniu.</p>\n<div class=\"problem-options-list\" data-correct=\"A\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$v_1' = 2\\text{ m/s},\\ v_2' = 2\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$v_1' = 4\\text{ m/s},\\ v_2' = 0$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$v_1' = 4\\text{ m/s}$ w lewo$,\\ v_2' = 0$</span></div>\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Kula o masie $1\\text{ kg}$ porusza się w prawo z szybkością $4\\text{ m/s}$ i uderza sprężyście w nieruchomą kulę o tej samej masie. Wskaż prędkości kul po zderzeniu.</p>\n<div class=\"problem-options-list\" data-correct=\"A\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$v_1' = -2\\text{ m/s},\\ v_2' = +2\\text{ m/s}$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$v_1' = +2\\text{ m/s},\\ v_2' = +2\\text{ m/s}$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$v_1' = -4\\text{ m/s},\\ v_2' = 0$</span></div>\n</div>",
                 "solution": {
                   "givens": "$m_1 = m_2 = 1\\text{ kg}$, $v_1 = 4\\text{ m/s}$ (w prawo), $v_2 = 0$.",
                   "steps": [
                     {
-                      "title": "Wymiana prędkości ciał o równych masach",
-                      "content": "W centralnym zderzeniu sprężystym ciał o jednakowych masach dochodzi do całkowitej wymiany prędkości:\n$$v_1' = v_2 = 0$$\n$$v_2' = v_1 = 4\\text{ m/s}\\quad\\text{(w prawo)}$$"
+                      "title": "Zastosowanie układu równań pędu i prędkości względnych",
+                      "content": "Dla zderzenia sprężystego ciał o jednakowej masie ($m_1 = m_2$):\n$$\\begin{cases} v_1 + v_2 = v_1' + v_2' \\\\\\\\ v_1 - v_2 = -(v_1' - v_2') \\end{cases}$$\nPodstawiając $v_1 = 4\\text{ m/s}$ oraz $v_2 = 0$:\n$$\\begin{cases} v_1' + v_2' = 4 \\\\\\\\ -v_1' + v_2' = 4 \\end{cases} \\implies v_1' = 0, \\quad v_2' = 4\\text{ m/s}$$\nCiała o jednakowych masach w centralnym zderzeniu sprężystym wymieniają się prędkościami."
                     }
                   ],
-                  "answer": "Poprawna odpowiedź: A ($v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo). Kula uderzająca zatrzymuje się, a kula uderzana przejmuje całą prędkość."
+                  "answer": "Poprawna odpowiedź: A ($v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo). Kula uderzająca zatrzymuje się, a kula uderzana przejmuje całą jej prędkość i energię."
                 }
               },
               {
@@ -5262,22 +5255,23 @@ window.FIZYKOREK_COURSES = {
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
                   "Zderzenie sprężyste",
-                  "Odbicie"
+                  "Układ równań",
+                  "Prędkości względne"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Kula $m_1 = 1\\text{ kg}$ z prędkością $6\\text{ m/s}$ uderza centralnie i sprężyście w nieruchomą kulę $m_2 = 2\\text{ kg}$. Oblicz prędkości obu kul po zderzeniu.</p>",
+                "problem": "<p class=\"problem-paragraph\">Kula o masie $1\\text{ kg}$ porusza się w prawo z szybkością $6\\text{ m/s}$ i zderza się centralnie i sprężyście z nieruchomą kulą o masie $2\\text{ kg}$. Oblicz prędkości obu kul po zderzeniu.</p>",
                 "solution": {
-                  "givens": "$m_1 = 1\\text{ kg}$, $v_1 = 6\\text{ m/s}$, $m_2 = 2\\text{ kg}$, $v_2 = 0$.",
+                  "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +6\\text{ m/s}$, $m_2 = 2\\text{ kg}$, $v_2 = 0$.",
                   "steps": [
                     {
-                      "title": "Równania pędu i względnej prędkości",
-                      "content": "Pęd: $1 \\cdot 6 + 2 \\cdot 0 = 1 \\cdot v_1' + 2 \\cdot v_2' \\implies 6 = v_1' + 2v_2'$.\nW zderzeniu sprężystym prędkość oddalania równa się prędkości zbliżania:\n$$v_2' - v_1' = v_1 - v_2 = 6 \\implies v_1' = v_2' - 6$$"
+                      "title": "Układ równań pędu i prędkości względnych",
+                      "content": "Zasada zachowania pędu:\n$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2' \\implies 1 \\cdot 6 + 2 \\cdot 0 = v_1' + 2v_2' \\implies v_1' + 2v_2' = 6$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_1 - v_2 = -(v_1' - v_2') \\implies 6 - 0 = -v_1' + v_2' \\implies -v_1' + v_2' = 6$$"
                     },
                     {
-                      "title": "Rozwiązanie układu równań",
-                      "content": "Podstawiając $v_1'$ do równania pędu:\n$$6 = (v_2' - 6) + 2v_2' \\implies 12 = 3v_2' \\implies v_2' = 4\\text{ m/s}$$\n$$v_1' = 4 - 6 = -2\\text{ m/s}$$"
+                      "title": "Rozwiązanie układu równań liniowych",
+                      "content": "Dodając oba równania stronami, eliminujemy $v_1'$:\n$$3v_2' = 12 \\implies v_2' = 4\\text{ m/s}$$\nPodstawiając do drugiego równania:\n$$v_1' = v_2' - 6 = 4 - 6 = -2\\text{ m/s}$$\nZnak minus oznacza, że lżejsza kula odbija się i zawraca w lewo."
                     }
                   ],
-                  "answer": "$v_1' = -2\\text{ m/s}$ (lżejsza kula odbija się i porusza w lewo z szybkością $2\\text{ m/s}$), $v_2' = 4\\text{ m/s}$ (cięższa kula porusza się w prawo z szybkością $4\\text{ m/s}$)."
+                  "answer": "Prędkości po zderzeniu wynoszą: $v_1' = -2\\text{ m/s}$ (w lewo) oraz $v_2' = 4\\text{ m/s}$ (w prawo)."
                 }
               },
               {
@@ -5288,23 +5282,23 @@ window.FIZYKOREK_COURSES = {
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
                   "Zderzenie sprężyste",
-                  "Układ środka masy",
-                  "Zerowy pęd"
+                  "Zerowy pęd",
+                  "Układ równań"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Dwie kule o masach $m_1 = 2\\text{ kg}$ i $m_2 = 1\\text{ kg}$ poruszają się wzdłuż jednej prostej: pierwsza w prawo z $2\\text{ m/s}$, druga w lewo z $4\\text{ m/s}$. Po zderzeniu sprężystym oblicz ich prędkości.</p>",
+                "problem": "<p class=\"problem-paragraph\">Dwie kule o masach $m_1 = 2\\text{ kg}$ i $m_2 = 1\\text{ kg}$ poruszają się naprzeciwko siebie z szybkościami odpowiednio $v_1 = 2\\text{ m/s}$ (w prawo) oraz $v_2 = 4\\text{ m/s}$ (w lewo). Zderzenie jest centralne i doskonale sprężyste. Wyznacz prędkości kul po zderzeniu.</p>",
                 "solution": {
-                  "givens": "$m_1 = 2\\text{ kg}$, $v_1 = +2\\text{ m/s}$, $m_2 = 1\\text{ kg}$, $v_2 = -4\\text{ m/s}$.",
+                  "givens": "$m_1 = 2\\text{ kg}$, $v_1 = +2\\text{ m/s}$ (w prawo), $m_2 = 1\\text{ kg}$, $v_2 = -4\\text{ m/s}$ (w lewo).",
                   "steps": [
                     {
-                      "title": "Wyznaczenie całkowitego pędu układu",
-                      "content": "$$p = m_1 v_1 + m_2 v_2 = 2 \\cdot 2 + 1 \\cdot (-4) = 4 - 4 = 0$$"
+                      "title": "Układ równań zachowania pędu i prędkości względnych",
+                      "content": "Całkowity pęd początkowy układu wynosi:\n$$p_{\\text{pocz}} = m_1 v_1 + m_2 v_2 = 2 \\cdot 2 + 1 \\cdot (-4) = 4 - 4 = 0$$\nZasada zachowania pędu po zderzeniu:\n$$m_1 v_1' + m_2 v_2' = 0 \\implies 2v_1' + v_2' = 0 \\implies v_2' = -2v_1'$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_1 - v_2 = -(v_1' - v_2') \\implies 2 - (-4) = -v_1' + v_2' \\implies -v_1' + v_2' = 6$$"
                     },
                     {
-                      "title": "Wyznaczenie prędkości po zderzeniu",
-                      "content": "Gdy całkowity pęd początkowy wynosi zero, w zderzeniu sprężystym kule po prostu odwracają zwroty swoich prędkości:\n$$v_1' = -v_1 = -2\\text{ m/s}\\quad\\text{(w lewo)}$$\n$$v_2' = -v_2 = +4\\text{ m/s}\\quad\\text{(w prawo)}$$\nKontrola energii: $\\frac{1}{2} \\cdot 2 \\cdot 2^2 + \\frac{1}{2} \\cdot 1 \\cdot 4^2 = 4 + 8 = 12\\text{ J}$ (energia zachowana)."
+                      "title": "Wyznaczenie prędkości końcowych",
+                      "content": "Podstawiając $v_2' = -2v_1'$ do równania prędkości względnych:\n$$-v_1' + (-2v_1') = 6 \\implies -3v_1' = 6 \\implies v_1' = -2\\text{ m/s}$$\n$$v_2' = -2v_1' = -2 \\cdot (-2) = +4\\text{ m/s}$$\nGdy całkowity pęd układu wynosi zero, ciała po zderzeniu sprężystym odwracają zwroty swoich prędkości, zachowując ich wartości."
                     }
                   ],
-                  "answer": "Prędkości kul po zderzeniu wynoszą: $v_1' = -2\\text{ m/s}$ (w lewo) oraz $v_2' = +4\\text{ m/s}$ (w prawo)."
+                  "answer": "Prędkości po zderzeniu wynoszą: $v_1' = -2\\text{ m/s}$ (w lewo) oraz $v_2' = +4\\text{ m/s}$ (w prawo)."
                 }
               },
               {
@@ -5315,106 +5309,104 @@ window.FIZYKOREK_COURSES = {
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
                   "Zderzenie sprężyste",
-                  "Zachowanie energii",
-                  "Zadanie maturalne"
+                  "Bilans energii",
+                  "Zachowanie pędu"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Wózek $1\\text{ kg}$ jedzie w prawo z $5\\text{ m/s}$ i zderza się z nieruchomym wózkiem $4\\text{ kg}$. Po zderzeniu pierwszy wózek jedzie w lewo z szybkością $3\\text{ m/s}$. Sprawdź, czy zderzenie mogło być sprężyste.</p>\n",
+                "problem": "<p class=\"problem-paragraph\">Wózek o masie $m_1 = 1\\text{ kg}$ jadący z prędkością $+5\\text{ m/s}$ uderza w spoczywający wózek o masie $m_2 = 4\\text{ kg}$. Po zderzeniu pierwszy wózek cofa się z prędkością $v_1' = -3\\text{ m/s}$. Ustal, czy to zderzenie mogło być doskonale sprężyste.</p>",
                 "solution": {
-                  "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +5\\text{ m/s}$, $m_2 = 4\\text{ kg}$, $v_2 = 0$, $v_1' = -3\\text{ m/s}$ (w lewo).",
+                  "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +5\\text{ m/s}$, $m_2 = 4\\text{ kg}$, $v_2 = 0$, $v_1' = -3\\text{ m/s}$.",
                   "steps": [
                     {
-                      "title": "Obliczenie prędkości drugiego wózka z zasady zachowania pędu",
-                      "content": "Pęd przed zderzeniem: $p = 1 \\cdot 5 = 5\\text{ kg}\\cdot\\text{m/s}$.\n$$1 \\cdot (-3) + 4 \\cdot v_2' = 5 \\implies -3 + 4v_2' = 5 \\implies 4v_2' = 8 \\implies v_2' = 2\\text{ m/s}$$"
+                      "title": "Wyznaczenie prędkości drugiego wózka z zasady zachowania pędu",
+                      "content": "$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'$$\n$$1 \\cdot 5 + 4 \\cdot 0 = 1 \\cdot (-3) + 4 \\cdot v_2' \\implies 5 = -3 + 4v_2' \\implies 4v_2' = 8 \\implies v_2' = 2\\text{ m/s}$$"
                     },
                     {
                       "title": "Porównanie energii kinetycznych przed i po zderzeniu",
-                      "content": "Energia przed zderzeniem:\n$$E_i = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 1 \\cdot 5^2 = 12{,}5\\text{ J}$$\nEnergia po zderzeniu:\n$$E_f = \\frac{1}{2}m_1 (v_1')^2 + \\frac{1}{2}m_2 (v_2')^2 = \\frac{1}{2} \\cdot 1 \\cdot (-3)^2 + \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 4{,}5 + 8 = 12{,}5\\text{ J}$$"
+                      "content": "Energia kinetyczna przed zderzeniem:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 1\\text{ kg} \\cdot (5\\text{ m/s})^2 = 12{,}5\\text{ J}$$\nEnergia kinetyczna po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}m_1 (v_1')^2 + \\frac{1}{2}m_2 (v_2')^2 = \\frac{1}{2} \\cdot 1 \\cdot (-3)^2 + \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 4{,}5\\text{ J} + 8\\text{ J} = 12{,}5\\text{ J}$$\nPonieważ $E_{k,\\text{końc}} = E_{k,\\text{pocz}} = 12{,}5\\text{ J}$, energia kinetyczna została w $100\\%$ zachowana."
                     }
                   ],
-                  "answer": "Tak, zderzenie mogło być doskonale sprężyste, ponieważ energia kinetyczna układu została w pełni zachowana ($E_f = E_i = 12{,}5\\text{ J}$)."
+                  "answer": "Tak, zderzenie mogło być doskonale sprężyste, ponieważ energia kinetyczna układu została w pełni zachowana ($E_{k,\\text{końc}} = E_{k,\\text{pocz}} = 12{,}5\\text{ J}$)."
                 }
               },
               {
                 "id": "p-zad-39",
                 "number": 39,
                 "title": "Zadanie 39. Dwuwymiarowe zderzenie sprężyste jednakowych kul",
-                "difficulty": 2,
+                "difficulty": 3,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
-                  "Zderzenie sprężyste 2D",
-                  "Kąt prosty",
-                  "Zadanie maturalne"
+                  "Zderzenie 2D",
+                  "Zachowanie energii",
+                  "Wektory pędu"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Dwie jednakowe kule poruszają się początkowo: A z szybkością $5\\text{ m/s}$ na wschód, B spoczywa. Po sprężystym zderzeniu w płaszczyźnie kula A ma szybkość $3\\text{ m/s}$. Oblicz szybkość kuli B i kąt między prędkościami kul po zderzeniu.</p>\n",
+                "problem": "<p class=\"problem-paragraph\">Dwie jednakowe kule poruszają się początkowo: A z szybkością $5\\text{ m/s}$, B spoczywa. Po sprężystym zderzeniu w płaszczyźnie kula A ma szybkość $3\\text{ m/s}$. Oblicz szybkość kuli B i wykaż, że wektory prędkości kul po zderzeniu są prostopadłe.</p>",
                 "solution": {
-                  "givens": "$m_A = m_B = m$, $v_0 = 5\\text{ m/s}$ (wschód), $v_B = 0$, $v_A' = 3\\text{ m/s}$.",
+                  "givens": "$m_A = m_B = m$, $v_0 = 5\\text{ m/s}$, $v_B = 0$, $v_A' = 3\\text{ m/s}$.",
                   "steps": [
                     {
                       "title": "Obliczenie szybkości kuli B z zasady zachowania energii",
-                      "content": "Dla jednakowych mas energia kinetyczna daje:\n$$v_0^2 = (v_A')^2 + (v_B')^2 \\implies 5^2 = 3^2 + (v_B')^2 \\implies 25 = 9 + (v_B')^2$$\n$$(v_B')^2 = 16 \\implies v_B' = 4\\text{ m/s}$$"
+                      "content": "Dla jednakowych mas masa $m$ upraszcza się w równaniu energii:\n$$\\frac{1}{2}m v_0^2 = \\frac{1}{2}m (v_A')^2 + \\frac{1}{2}m (v_B')^2 \\implies v_0^2 = (v_A')^2 + (v_B')^2$$\n$$5^2 = 3^2 + (v_B')^2 \\implies 25 = 9 + (v_B')^2 \\implies (v_B')^2 = 16 \\implies v_B' = 4\\text{ m/s}$$"
                     },
                     {
-                      "title": "Wyznaczenie kąta między wektorami prędkości z pędu",
-                      "content": "Z wektorowej zasady zachowania pędu: $\\vec{v}_0 = \\vec{v}_A' + \\vec{v}_B'$.\nPodnosząc skalarnie do kwadratu:\n$$v_0^2 = (v_A')^2 + (v_B')^2 + 2 \\vec{v}_A' \\cdot \\vec{v}_B'$$\nPorównując z bilansem energii, otrzymujemy: $2 \\vec{v}_A' \\cdot \\vec{v}_B' = 0 \\implies \\vec{v}_A' \\perp \\vec{v}_B'$."
+                      "title": "Wyznaczenie kąta między wektorami prędkości z wektorowej ZZP",
+                      "content": "Z zasady zachowania pędu: $\\vec{v}_0 = \\vec{v}_A' + \\vec{v}_B'.$\nPodnosząc to równanie skalarnie do kwadratu:\n$$v_0^2 = (\\vec{v}_A' + \\vec{v}_B')^2 = (v_A')^2 + (v_B')^2 + 2\\vec{v}_A' \\cdot \\vec{v}_B'$$\nPorównując z równaniem energii ($v_0^2 = (v_A')^2 + (v_B')^2$), otrzymujemy:\n$$2\\vec{v}_A' \\cdot \\vec{v}_B' = 0 \\implies \\vec{v}_A' \\perp \\vec{v}_B' \\implies \\alpha = 90^\\circ$$"
                     }
                   ],
-                  "answer": "Szybkość kuli B wynosi $4\\text{ m/s}$, a kąt między wektorami prędkości kul po zderzeniu wynosi $90^\\circ$."
+                  "answer": "Szybkość kuli B wynosi $4\\text{ m/s}$, a kąt między wektorami prędkości obu kul po zderzeniu wynosi $90^\\circ$."
                 }
               },
               {
                 "id": "p-zad-40",
                 "number": 40,
-                "title": "Zadanie 40. Zderzenie sprężyste z rozproszeniem kuli na północ",
-                "difficulty": 2,
+                "title": "Zadanie 40. Zderzenie sprężyste 2D pod kątem",
+                "difficulty": 3,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
-                  "Zderzenie sprężyste 2D",
-                  "Wektory pędu"
+                  "Zderzenie 2D",
+                  "Symetria",
+                  "Rozproszenie pod kątem"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Kula $0{,}20\\text{ kg}$ porusza się na wschód z szybkością $10\\text{ m/s}$ i zderza się sprężyście z nieruchomą kulą o tej samej masie. Po zderzeniu pierwsza kula porusza się na północ. Wyznacz szybkość obu kul i kierunek ruchu drugiej kuli.</p>",
+                "problem": "<p class=\"problem-paragraph\">Kula o masie $0{,}20\\text{ kg}$ porusza się z szybkością $10\\text{ m/s}$ i zderza się sprężyście z nieruchomą kulą o tej samej masie. Po zderzeniu kula 1 odchyla się pod kątem $45^\\circ$ względem pierwotnego kierunku ruchu. Wyznacz szybkości obu kul po zderzeniu oraz kąt odchylenia kuli 2.</p>",
                 "solution": {
-                  "givens": "$m_1 = m_2 = 0{,}20\\text{ kg}$, $v_0 = 10\\text{ m/s}$ (wschód), po zderzeniu pierwsza kula porusza się na północ.",
+                  "givens": "$m_1 = m_2 = 0{,}20\\text{ kg}$, $v_0 = 10\\text{ m/s}$, $v_2 = 0$, kąt odchylenia kuli 1: $\\alpha = 45^\\circ$.",
                   "steps": [
                     {
-                      "title": "Analiza wektorów pędu",
-                      "content": "Początkowy wektor prędkości jest sumą wektorów końcowych ($\\vec{v}_0 = \\vec{v}_1' + \\vec{v}_2'$). Skoro $\\vec{v}_1'$ biegnie na północ, $\\vec{v}_2'$ musi mieć składową wschodnią oraz składową południową."
+                      "title": "Wyznaczenie kierunku ruchu kuli 2 z prostopadłości wektorów",
+                      "content": "Dla zderzenia sprężystego kul o jednakowej masie z kulą spoczywającą kąt między wektorami prędkości po zderzeniu wynosi $90^\\circ$ ($\\vec{v}_1' \\perp \\vec{v}_2'$).\nSkoro kula 1 odchyliła się o $45^\\circ$ w jedną stronę, to kula 2 musi odchylić się o kąt $90^\\circ - 45^\\circ = 45^\\circ$ w drugą stronę."
                     },
                     {
-                      "title": "Bilans energii i składowych",
-                      "content": "Zachowanie energii: $10^2 = (v_1')^2 + (v_2')^2$.\nWarunek pędu w osi pionowej (północ–południe) wymaga równych co do wartości i przeciwnych składowych:\n$$v_1' = v_2' = \\frac{10}{\\sqrt{2}}\\text{ m/s} = 5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$$"
-                    },
-                    {
-                      "title": "Kierunek ruchu drugiej kuli",
-                      "content": "Składowa wschodnia i południowa drugiej kuli są równe, więc kąt wynosi $45^\\circ$ na południe od wschodu."
+                      "title": "Wyznaczenie wartości prędkości z symetrii i zachowania energii",
+                      "content": "Z równości kątów i zachowania pędu w osi pionowej wynika symetria szybkości: $v_1' = v_2'.$\nZ zasady zachowania energii kinetycznej:\n$$v_0^2 = (v_1')^2 + (v_2')^2 = 2(v_1')^2$$\n$$10^2 = 2(v_1')^2 \\implies (v_1')^2 = 50 \\implies v_1' = v_2' = \\sqrt{50} = 5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$$"
                     }
                   ],
-                  "answer": "Szybkości obu kul po zderzeniu wynoszą $v_1' = v_2' = 5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$. Druga kula porusza się pod kątem $45^\\circ$ na południe od kierunku wschodniego."
+                  "answer": "Szybkości obu kul po zderzeniu są równe i wynoszą $5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$. Kula 2 odchyla się o kąt $45^\\circ$ w przeciwną stronę niż kula 1."
                 }
               },
               {
                 "id": "p-zad-41",
                 "number": 41,
                 "title": "Zadanie 41. Zderzenie sprężyste ciał o różnych masach i prędkościach",
-                "difficulty": 2,
+                "difficulty": 3,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
-                  "Zderzenie centralne sprężyste",
-                  "Wzory na zderzenie sprężyste"
+                  "Zderzenie sprężyste",
+                  "Układ równań liniowych",
+                  "Prędkości względne"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Kula $m_1 = 1\\text{ kg}$ porusza się w prawo z $8\\text{ m/s}$ i zderza się sprężyście z kulą $m_2 = 3\\text{ kg}$ poruszającą się w prawo z $2\\text{ m/s}$. Wyznacz prędkości po zderzeniu. Czy pierwsza kula odbije się?</p>",
+                "problem": "<p class=\"problem-paragraph\">Kula $m_1 = 1\\text{ kg}$ porusza się w prawo z szybkością $8\\text{ m/s}$ i dogania kulę $m_2 = 3\\text{ kg}$ poruszającą się w prawo z szybkością $2\\text{ m/s}$. Zderzenie jest centralne i doskonale sprężyste. Wyznacz prędkości obu kul po zderzeniu.</p>",
                 "solution": {
                   "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +8\\text{ m/s}$, $m_2 = 3\\text{ kg}$, $v_2 = +2\\text{ m/s}$.",
                   "steps": [
                     {
-                      "title": "Zastosowanie wzorów na prędkości po zderzeniu sprężystym",
-                      "content": "$$v_1' = \\frac{m_1 - m_2}{m_1 + m_2}v_1 + \\frac{2m_2}{m_1 + m_2}v_2 = \\frac{1 - 3}{1 + 3} \\cdot 8 + \\frac{2 \\cdot 3}{1 + 3} \\cdot 2 = -\\frac{2}{4} \\cdot 8 + \\frac{6}{4} \\cdot 2 = -4 + 3 = -1\\text{ m/s}$$\n$$v_2' = \\frac{2m_1}{m_1 + m_2}v_1 + \\frac{m_2 - m_1}{m_1 + m_2}v_2 = \\frac{2 \\cdot 1}{4} \\cdot 8 + \\frac{3 - 1}{4} \\cdot 2 = 4 + 1 = 5\\text{ m/s}$$"
+                      "title": "Układ równań pędu i prędkości względnych",
+                      "content": "Zasada zachowania pędu:\n$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'$$\n$$1 \\cdot 8 + 3 \\cdot 2 = 1 \\cdot v_1' + 3 \\cdot v_2' \\implies 8 + 6 = v_1' + 3v_2' \\implies v_1' + 3v_2' = 14$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_1 - v_2 = -(v_1' - v_2') \\implies 8 - 2 = -v_1' + v_2' \\implies -v_1' + v_2' = 6$$"
                     },
                     {
-                      "title": "Kontrola pędu i interpretacja znaku",
-                      "content": "Pęd przed: $1 \\cdot 8 + 3 \\cdot 2 = 14\\text{ kg}\\cdot\\text{m/s}$.\nPęd po: $1 \\cdot (-1) + 3 \\cdot 5 = 14\\text{ kg}\\cdot\\text{m/s}$.\nUjemny znak $v_1'$ oznacza zmianę zwrotu ruchu."
+                      "title": "Rozwiązanie układu równań liniowych",
+                      "content": "Dodając oba równania stronami, eliminujemy $v_1'$:\n$$(v_1' + 3v_2') + (-v_1' + v_2') = 14 + 6 \\implies 4v_2' = 20 \\implies v_2' = 5\\text{ m/s}$$\nPodstawiając do drugiego równania:\n$$v_1' = v_2' - 6 = 5 - 6 = -1\\text{ m/s}$$\nZnak minus oznacza, że kula 1 odbija się i zawraca w lewo z szybkością $1\\text{ m/s}$."
                     }
                   ],
-                  "answer": "Prędkości po zderzeniu: $v_1' = -1\\text{ m/s}$ oraz $v_2' = 5\\text{ m/s}$. Pierwsza kula odbija się i porusza w lewo z szybkością $1\\text{ m/s}$."
+                  "answer": "Prędkości po zderzeniu wynoszą: $v_1' = -1\\text{ m/s}$ (w lewo) oraz $v_2' = 5\\text{ m/s}$ (w prawo)."
                 }
               },
               {
@@ -5424,29 +5416,28 @@ window.FIZYKOREK_COURSES = {
                 "difficulty": 3,
                 "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
                 "tags": [
-                  "Zderzenie sprężyste",
-                  "Wyprowadzenie wzoru",
-                  "Ułamek energii",
-                  "Zadanie maturalne"
+                  "Zadanie wieloetapowe",
+                  "Układ równań",
+                  "Bilans energii"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Na gładkim poziomym torze wózek A o masie $m$ porusza się w prawo z szybkością $v$. Wózek B o masie $3m$ spoczywa. Zderzenie jest centralne i doskonale sprężyste.</p>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(a)</strong>\n  <span class=\"problem-subquestion-text\">Wyprowadź prędkości obu wózków po zderzeniu w zależności od $v$.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(b)</strong>\n  <span class=\"problem-subquestion-text\">Sprawdź zachowanie pędu i energii kinetycznej.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(c)</strong>\n  <span class=\"problem-subquestion-text\">Ustal, jaka część początkowej energii kinetycznej A pozostanie przy A.</span>\n</div>\n",
+                "problem": "<p class=\"problem-paragraph\">Na gładkim poziomym torze wózek A o masie $m$ porusza się w prawo z szybkością $v$. Wózek B o masie $3m$ spoczywa. Zderzenie jest centralne i doskonale sprężyste.</p>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(a)</strong>\n  <span class=\"problem-subquestion-text\">Wyprowadź prędkości obu wózków po zderzeniu w zależności od $v$.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(b)</strong>\n  <span class=\"problem-subquestion-text\">Sprawdź zachowanie pędu i energii kinetycznej.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(c)</strong>\n  <span class=\"problem-subquestion-text\">Ustal, jaka część początkowej energii kinetycznej wózka A pozostanie przy nim po zderzeniu.</span>\n</div>",
                 "solution": {
                   "givens": "$m_A = m$, $v_A = v$, $m_B = 3m$, $v_B = 0$.",
                   "steps": [
                     {
-                      "title": "(a) Wyprowadzenie prędkości po zderzeniu",
-                      "content": "Niech prędkości po zderzeniu wynoszą $u_A$ i $u_B$.\nZ zachowania pędu:\n$$mv = mu_A + 3mu_B \\implies v = u_A + 3u_B \\implies u_A = v - 3u_B$$\nZ zachowania energii kinetycznej:\n$$\\frac{1}{2}mv^2 = \\frac{1}{2}mu_A^2 + \\frac{1}{2}(3m)u_B^2 \\implies v^2 = u_A^2 + 3u_B^2$$\nPodstawiając $u_A = v - 3u_B$:\n$$v^2 = (v - 3u_B)^2 + 3u_B^2 = v^2 - 6v u_B + 9u_B^2 + 3u_B^2$$\n$$12u_B^2 - 6v u_B = 0 \\implies 6u_B (2u_B - v) = 0$$\nOdrzucając stan początkowy ($u_B = 0$), otrzymujemy:\n$$u_B = \\frac{v}{2}$$\n$$u_A = v - 3\\left(\\frac{v}{2}\\right) = -\\frac{v}{2}$$"
+                      "title": "(a) Wyprowadzenie prędkości po zderzeniu z układu równań",
+                      "content": "Zasada zachowania pędu:\n$$m v_A + 3m v_B = m v_A' + 3m v_B' \\implies m v = m(v_A' + 3v_B') \\implies v_A' + 3v_B' = v$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_A - v_B = -(v_A' - v_B') \\implies v - 0 = -v_A' + v_B' \\implies -v_A' + v_B' = v$$\nDodając równania stronami:\n$$4v_B' = 2v \\implies v_B' = \\frac{v}{2}$$\nPodstawiając do drugiego równania:\n$$v_A' = v_B' - v = \\frac{v}{2} - v = -\\frac{v}{2}$$\nWózek A odbija się i porusza w lewo z szybkością $\\frac{v}{2}$, a wózek B porusza się w prawo z szybkością $\\frac{v}{2}$."
                     },
                     {
-                      "title": "(b) Kontrola zachowania pędu i energii",
-                      "content": "Pęd po zderzeniu:\n$$p_f = m u_A + 3m u_B = m\\left(-\\frac{v}{2}\\right) + 3m\\left(\\frac{v}{2}\\right) = mv = p_i$$\nEnergia kinetyczna po zderzeniu:\n$$E_f = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 + \\frac{1}{2}(3m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2 + \\frac{3}{8}mv^2 = \\frac{4}{8}mv^2 = \\frac{1}{2}mv^2 = E_i$$\nObie wielkości są zachowane."
+                      "title": "(b) Kontrola zachowania pędu i energii kinetycznej",
+                      "content": "Pęd po zderzeniu:\n$$p_{\\text{końc}} = m v_A' + 3m v_B' = m\\left(-\\frac{v}{2}\\right) + 3m\\left(\\frac{v}{2}\\right) = -\\frac{1}{2}mv + \\frac{3}{2}mv = mv = p_{\\text{pocz}}$$\nEnergia kinetyczna po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}m(v_A')^2 + \\frac{1}{2}(3m)(v_B')^2 = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 + \\frac{3}{2}m\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2 + \\frac{3}{8}mv^2 = \\frac{1}{2}mv^2 = E_{k,\\text{pocz}}$$\nObie wielkości są ściśle zachowane."
                     },
                     {
                       "title": "(c) Ułamek energii kinetycznej wózka A",
-                      "content": "Energia kinetyczna wózka A po zderzeniu:\n$$E_{kA}' = \\frac{1}{2}m u_A^2 = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2$$\nPoczątkowa energia wózka A to $E_{kA} = \\frac{1}{2}mv^2$.\n$$\\frac{E_{kA}'}{E_{kA}} = \\frac{\\frac{1}{8}mv^2}{\\frac{1}{2}mv^2} = \\frac{1}{4} = 25\\%$$"
+                      "content": "Energia kinetyczna wózka A po zderzeniu:\n$$E_{kA}' = \\frac{1}{2}m(v_A')^2 = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2$$\nStosunek do początkowej energii $E_{kA} = \\frac{1}{2}mv^2$:\n$$\\frac{E_{kA}'}{E_{kA}} = \\frac{\\frac{1}{8}mv^2}{\\frac{1}{2}mv^2} = \\frac{1}{4} = 25\\%$$"
                     }
                   ],
-                  "answer": "(a) $u_A = -\\frac{v}{2}$ (wózek A odbija się w lewo z szybkością $v/2$), $u_B = \\frac{v}{2}$ (wózek B porusza się w prawo z szybkością $v/2$). (b) Pęd wynosi $mv$, energia kinetyczna $\\frac{1}{2}mv^2$ — obie wielkości są zachowane. (c) Przy wózku A pozostaje $\\frac{1}{4}$ ($25\\%$) początkowej energii kinetycznej."
+                  "answer": "(a) $v_A' = -\\frac{v}{2}$ (wózek A odbija się w lewo z szybkością $v/2$), $v_B' = \\frac{v}{2}$ (wózek B porusza się w prawo z szybkością $v/2$). (b) Pęd wynosi $mv$, energia kinetyczna $\\frac{1}{2}mv^2$ — obie wielkości są zachowane. (c) Przy wózku A pozostaje $\\frac{1}{4}$ ($25\\%$) początkowej energii kinetycznej."
                 }
               }
             ]
@@ -5482,25 +5473,23 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "Zderzenie klocka ze sprężyną jest procesem ciągłym. W chwili maksymalnego ściśnięcia sprężyny oba klocki poruszają się z taką samą prędkością chwilową (ich prędkość względna wynosi zero). Układ jest izolowany, dlatego stosujemy Zasadę Zachowania Pędu, a ubytek energii kinetycznej jest w całości zmagazynowany w energii potencjalnej sprężystości.",
-                  "givens": "$m_A = m_B = m$, prędkość początkowa klocka A: $v_1$, klocek B początkowo spoczywa ($v_B = 0$), sprężyna o współczynniku $k$, brak oporów i tarcia.",
+                  "givens": "$m_A = m_B = m$, prędkość początkowa klocka A: $v_1$, klocek B początkowo spoczywa ($v_{B,\\text{pocz}} = 0$), sprężyna o współczynniku sprężystości $k$, brak oporów ruchu i tarcia.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1 – Analiza sił i prędkości względnej",
-                      "content": "1. Zgodnie z <strong>III zasadą dynamiki Newtona</strong> oraz pomijalną masą sprężyny, siła wywierana przez sprężynę na klocek A ma taką samą wartość jak siła wywierana na klocek B: $F_{s\\to A} = F_{s\\to B} = k\\Delta x$. Zdanie jest **prawdziwe (P)**.<br><br>2. Maksymalne odkształcenie sprężyny występuje w momencie zwrotnym odkształcenia – klocki przestają się do siebie zbliżać, a jeszcze nie zaczynają oddalać. W tym ułamku sekundy ich prędkości są identyczne ($v_A = v_B = v_2$), a więc ich prędkość względna wynosi $v_{\\text{wzgl}} = v_A - v_B = 0$. Zdanie jest **prawdziwe (P)**."
+                      "title": "Zadanie 3.1 – Analiza prawdziwości stwierdzeń (III zasada dynamiki i ruch względny)",
+                      "content": "1. Zgodnie z **III zasadą dynamiki Newtona** oraz założeniem o pomijalnej masie sprężyny, siła wywierana przez sprężynę na klocek A ma w każdej chwili dokładnie taką samą wartość jak siła wywierana na klocek B:\n$$F_{s\\to A} = F_{s\\to B} = k\\Delta x$$\nStwierdzenie 1. jest **prawdziwe (P)**.\n\n2. Maksymalne ściśnięcie sprężyny następuje w punkcie zwrotnym odkształcenia – klocki przestają się zbliżać, a jeszcze nie zaczynają oddalać. W tym ułamku sekundy poruszają się z tą samą prędkością chwilową ($v_A = v_B = v_2$), zatem ich prędkość względna wynosi:\n$$v_{\\text{wzgl}} = v_A - v_B = 0$$\nStwierdzenie 2. jest **prawdziwe (P)**."
                     },
                     {
-                      "title": "Zadanie 3.2 – Wyznaczenie prędkości chwilowej z Zasady Zachowania Pędu",
-                      "content": "W płaszczyźnie poziomej na klocki nie działają siły zewnętrzne, więc całkowity pęd układu jest stały w każdej chwili ruchu:\n$$p_{\\text{pocz}} = p_{\\text{śr}}$$\n$$m \\cdot v_1 + 0 = (m + m) \\cdot v_2 = 2m \\cdot v_2$$\nStąd prędkość obu klocków przy maksymalnym ściśnięciu sprężyny wynosi:\n$$v_2 = \\frac{v_1}{2}$$"
+                      "title": "Zadanie 3.2 – Prędkość chwilowa klocków z zasady zachowania pędu",
+                      "content": "W płaszczyźnie poziomej na układ nie działają żadne siły zewnętrzne, więc całkowity pęd układu jest zachowany w każdej chwili ruchu:\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m v_1 + 0 = (m + m) v_2 = 2m v_2$$\nDzieląc obustronnie przez $2m$, otrzymujemy prędkość obu klocków przy maksymalnym ściśnięciu sprężyny:\n$$v_2 = \\frac{v_1}{2}$$"
                     },
                     {
                       "title": "Zadanie 3.2 – Bilans energii mechanicznej i wyznaczenie odkształcenia $\\Delta x_{\\max}$",
-                      "content": "Zderzenie jest sprężyste i nie ma tarcia, więc całkowita energia mechaniczna układu jest zachowana:\n$$E_{\\text{pocz}} = E_{\\text{śr}}$$\nPoczątkowo układ posiada jedynie energię kinetyczną klocka A. W chwili maksymalnego ściśnięcia posiada energię kinetyczną obu klocków oraz energię potencjalną sprężystości sprężyny:\n$$\\frac{m v_1^2}{2} = \\frac{(2m) v_2^2}{2} + \\frac{1}{2} k (\\Delta x_{\\max})^2$$\nPodstawiamy $v_2 = \\frac{v_1}{2}$:\n$$\\frac{m v_1^2}{2} = m \\left(\\frac{v_1}{2}\\right)^2 + \\frac{1}{2} k (\\Delta x_{\\max})^2$$\n$$\\frac{m v_1^2}{2} = \\frac{m v_1^2}{4} + \\frac{1}{2} k (\\Delta x_{\\max})^2$$\nOdejmujemy $\\frac{m v_1^2}{4}$ od obu stron równania:\n$$\\frac{m v_1^2}{4} = \\frac{1}{2} k (\\Delta x_{\\max})^2$$\nMnożymy obustronnie przez 2 i dzielimy przez $k$:\n$$(\\Delta x_{\\max})^2 = \\frac{m v_1^2}{2k}$$\nWyciągamy pierwiastek kwadratowy:\n$$\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}}$$"
+                      "content": "Układ jest izolowany, a ruch odbywa się bez tarcia, więc całkowita energia mechaniczna układu jest zachowana:\n$$E_{\\text{pocz}} = E_{\\text{końc}}$$\nPoczątkowo układ posiada wyłącznie energię kinetyczną klocka A. W chwili maksymalnego odkształcenia sprężyny posiada energię kinetyczną obu klocków oraz energię potencjalną sprężystości sprężyny:\n$$\\frac{1}{2}m v_1^2 = \\frac{1}{2}(2m) v_2^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nPodstawiamy wyznaczoną prędkość $v_2 = \\frac{v_1}{2}$:\n$$\\frac{1}{2}m v_1^2 = m \\left(\\frac{v_1}{2}\\right)^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\n$$\\frac{1}{2}m v_1^2 = \\frac{1}{4}m v_1^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nOdejmujemy $\\frac{1}{4}m v_1^2$ od obu stron równania:\n$$\\frac{1}{4}m v_1^2 = \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nMnożymy obustronnie przez 2 i dzielimy przez współczynnik $k$:\n$$(\\Delta x_{\\max})^2 = \\frac{m v_1^2}{2k}$$\nWyciągamy pierwiastek kwadratowy:\n$$\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}} \\qquad \\left(\\text{lub } \\sqrt{\\frac{m v_1^2}{2k}}\\right)$$"
                     }
                   ],
-                  "numerical": "3.1: P, P; 3.2: $\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}}$",
-                  "answer": "3.1: 1-P, 2-P;\n3.2: $\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}}$ (lub $\\sqrt{\\frac{m v_1^2}{2k}}$).",
-                  "trap": "W chwili maksymalnego ściśnięcia sprężyny klocki nie zatrzymują się w układzie odniesienia podłoża! Układ porusza się ze środkiem masy z prędkością $v_1/2$, więc część energii początkowej pozostaje w energii kinetycznej ruchu postępowego.",
+                  "answer": "3.1: 1 – Prawda (P), 2 – Prawda (P);\n3.2: $\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}}$ (lub $\\sqrt{\\frac{m v_1^2}{2k}}$).",
+                  "trap": "W chwili maksymalnego ściśnięcia sprężyny klocki nie zatrzymują się w układzie odniesienia podłoża! Układ porusza się dalej z prędkością środka masy $v_1/2$, więc część energii początkowej pozostaje w energii kinetycznej ruchu postępowego obu klocków.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://naukagryzie.pl/arkusze/matura-rozszerzona/fizyka/czerwiec-2026-formula-2023-cke/odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–11</a>."
                 },
                 "solutionSource": {
@@ -5535,29 +5524,27 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "W ruchu po okręgu w płaszczyźnie pionowej promień jest zawsze prostopadły do wektora prędkości. Siła naciągu nici pełni rolę siły dośrodkowej, a prędkości w najniższym i najwyższym punkcie toru łączy Zasada Zachowania Energii Mechanicznej.",
-                  "givens": "Długość nici $l$ (promień okręgu), masa ciała $m$, prędkość maksymalna $v_{\\max}$ na dole, minimalna $v_{\\min}$ na górze, $\\frac{v_{\\max}}{v_{\\min}} = \\sqrt{3}$.",
+                  "givens": "Długość nici (promień okręgu): $l$, masa ciała: $m$, stosunek prędkości skrajnych: $\\frac{v_{\\max}}{v_{\\min}} = \\sqrt{3}$, ruch po okręgu w płaszczyźnie pionowej, brak oporów ruchu.",
                   "steps": [
                     {
                       "title": "Zadanie 2.1 – Konstrukcja środka okręgu i odczyt promienia",
-                      "content": "Wektor prędkości w ruchu po okręgu jest styczny do toru w danym punkcie, co oznacza, że promień łączący ciało ze środkiem okręgu $S$ jest zawsze prostopadły do wektora prędkości $\\vec{v}$:\n1. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_1$ w punkcie jego przyłożenia (linia pionowa w dół).\n2. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_2$ w punkcie jego przyłożenia.\n3. Punkt przecięcia obu prostych jednoznacznie wyznacza środek okręgu $S$.\n\nOdliczając kratki pionowo od środka $S$ do punktu zaczepienia wektora $\\vec{v}_1$, odczytujemy promień okręgu:\n$$l = 10\\text{ długości kratek}$$\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
+                      "content": "Wektor prędkości w ruchu po okręgu jest w każdej chwili styczny do toru, co oznacza, że promień łączący ciało ze środkiem okręgu $S$ jest zawsze prostopadły do wektora prędkości $\\vec{v}$:\n1. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_1$ w punkcie jego przyłożenia (pionowo w dół).\n2. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_2$ w punkcie jego przyłożenia.\n3. Punkt przecięcia obu prostych jednoznacznie wyznacza środek okręgu $S$.\n\nOdliczając kratki pionowo od środka $S$ do punktu zaczepienia wektora $\\vec{v}_1$, odczytujemy promień okręgu:\n$$l = 10\\text{ długości kratek}$$\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
                     },
                     {
-                      "title": "Zadanie 2.2 – Wybór sił w najniższym punkcie toru",
-                      "content": "W najniższym położeniu na ciało działają dwie pionowe siły:\n- ciężar $\\vec{F}_g = m\\vec{g}$ skierowany w dół,\n- siła reakcji (naciągu) nici $\\vec{F}_n$ skierowana pionowo w górę (do środka okręgu $S$).\nAby ciało poruszało się po okręgu, siła wypadkowa musi być skierowana do środka okręgu (w górę) i pełnić rolę siły dośrodkowej: $F_{\\text{doś}} = F_n - F_g > 0 \\implies F_n > F_g$.\nWektor $\\vec{F}_n$ musi być zatem dłuższy od wektora $\\vec{F}_g$. Warunek ten spełnia wyłącznie **rysunek B**."
+                      "title": "Zadanie 2.2 – Wybór sił działających w najniższym położeniu",
+                      "content": "W najniższym położeniu na ciało działają dwie pionowe siły:\n- siła grawitacji $\\vec{F}_g = m\\vec{g}$ skierowana pionowo w dół,\n- siła reakcji (naciągu) nici $\\vec{F}_n$ skierowana pionowo w górę (w stronę środka okręgu $S$).\n\nAby ciało poruszało się po okręgu, siła wypadkowa musi być skierowana do środka okręgu (w górę) i pełnić rolę siły dośrodkowej:\n$$F_{\\text{doś}} = F_n - F_g = \\frac{m v_{\\max}^2}{l} > 0 \\implies F_n > F_g$$\nWektor siły reakcji nici $\\vec{F}_n$ musi mieć zatem większą długość niż wektor ciężaru $\\vec{F}_g$. Warunek ten spełnia wyłącznie **rysunek B**."
                     },
                     {
-                      "title": "Zadanie 2.3 – Równania dynamiki w punktach skrajnych",
-                      "content": "Zapisujemy II zasadę dynamiki dla składowych sił wzdłuż promienia okręgu:\n- **W najniższym punkcie (prędkość maksymalna $v_{\\max}$):**\n$$F_{n\\,\\max} - mg = \\frac{m v_{\\max}^2}{l} \\implies F_{n\\,\\max} = mg + \\frac{m v_{\\max}^2}{l}$$\n- **W najwyższym punkcie (prędkość minimalna $v_{\\min}$):**\nZarówno naciąg nici, jak i grawitacja działają w dół (do środka):\n$$F_{n\\,\\min} + mg = \\frac{m v_{\\min}^2}{l} \\implies F_{n\\,\\min} = \\frac{m v_{\\min}^2}{l} - mg$$"
+                      "title": "Zadanie 2.3 – Równania dynamiki w skrajnych punktach toru",
+                      "content": "Zapisujemy II zasadę dynamiki dla składowych sił wzdłuż promienia okręgu w punktach o prędkości maksymalnej i minimalnej:\n- **W najniższym punkcie (prędkość maksymalna $v_{\\max}$):**\n$$F_{n,\\max} - mg = \\frac{m v_{\\max}^2}{l} \\implies F_{n,\\max} = mg + \\frac{m v_{\\max}^2}{l}$$\n- **W najwyższym punkcie (prędkość minimalna $v_{\\min}$):**\nZarówno siła reakcji nici, jak i siła grawitacji działają w dół (w stronę środka $S$):\n$$F_{n,\\min} + mg = \\frac{m v_{\\min}^2}{l} \\implies F_{n,\\min} = \\frac{m v_{\\min}^2}{l} - mg$$"
                     },
                     {
-                      "title": "Zadanie 2.3 – Wykorzystanie Zasady Zachowania Energii i obliczenie ilorazu",
-                      "content": "Różnica wysokości między najniższym a najwyższym punktem toru wynosi $h = 2l$. Z Zasady Zachowania Energii Mechanicznej:\n$$\\frac{m v_{\\max}^2}{2} = \\frac{m v_{\\min}^2}{2} + mg(2l)$$\nMnożymy przez $\\frac{2}{l}$:\n$$\\frac{m v_{\\max}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg$$\nZ treści zadania wiemy, że $v_{\\max} = \\sqrt{3}\\,v_{\\min} \\implies v_{\\max}^2 = 3v_{\\min}^2$. Podstawiamy:\n$$3\\,\\frac{m v_{\\min}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg \\implies 2\\,\\frac{m v_{\\min}^2}{l} = 4mg \\implies \\frac{m v_{\\min}^2}{l} = 2mg$$\nStąd dla prędkości maksymalnej:\n$$\\frac{m v_{\\max}^2}{l} = 3 \\cdot (2mg) = 6mg$$\nObliczamy wartości naciągów nici:\n$$F_{n\\,\\max} = mg + 6mg = 7mg$$\n$$F_{n\\,\\min} = 2mg - mg = mg$$\nIloraz sił wynosi:\n$$\\frac{F_{n\\,\\max}}{F_{n\\,\\min}} = \\frac{7mg}{mg} = 7$$"
+                      "title": "Zadanie 2.3 – Zastosowanie zasady zachowania energii i obliczenie ilorazu sił",
+                      "content": "Różnica wysokości między najniższym a najwyższym punktem toru wynosi $h = 2l$. Z zasady zachowania energii mechanicznej:\n$$\\frac{1}{2}m v_{\\max}^2 = \\frac{1}{2}m v_{\\min}^2 + mg(2l)$$\nMnożymy obustronnie przez $\\frac{2}{l}$:\n$$\\frac{m v_{\\max}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg$$\nZ treści zadania wiemy, że $v_{\\max} = \\sqrt{3}\\,v_{\\min}$, co oznacza $v_{\\max}^2 = 3v_{\\min}^2$. Podstawiamy:\n$$3\\,\\frac{m v_{\\min}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg \\implies 2\\,\\frac{m v_{\\min}^2}{l} = 4mg \\implies \\frac{m v_{\\min}^2}{l} = 2mg$$\nStąd dla prędkości maksymalnej:\n$$\\frac{m v_{\\max}^2}{l} = 3 \\cdot (2mg) = 6mg$$\nObliczamy wartości sił reakcji nici:\n$$F_{n,\\max} = mg + 6mg = 7mg$$\n$$F_{n,\\min} = 2mg - mg = mg$$\nIloraz poszukiwanych sił wynosi:\n$$\\frac{F_{n,\\max}}{F_{n,\\min}} = \\frac{7mg}{mg} = 7$$"
                     }
                   ],
-                  "numerical": "2.1: $l = 10$; 2.2: B; 2.3: $\\frac{F_{n\\,\\max}}{F_{n\\,\\min}} = 7$",
-                  "answer": "2.1: Konstrukcja prostych prostopadłych, $l = 10$ kratek;\n2.2: Poprawny rysunek B;\n2.3: $\\frac{F_{n\\,\\max}}{F_{n\\,\\min}} = 7$.",
-                  "trap": "W najwyższym punkcie toru siła ciężkości działa w tym samym zwrocie co naciąg nici (w dół, do środka), stąd $F_{n\\,\\min} = \\frac{mv_{\\min}^2}{l} - mg$, a nie ze znakiem plus!",
+                  "answer": "2.1: Konstrukcja prostych prostopadłych, $l = 10\\text{ długości kratek}$;\n2.2: Poprawny rysunek B ($F_n > F_g$);\n2.3: Iloraz wynosi $\\frac{F_{n,\\max}}{F_{n,\\min}} = 7$.",
+                  "trap": "W najwyższym punkcie toru siła ciężkości działa w tym samym zwrocie co siła naciągu nici (w dół, w stronę środka okręgu), dlatego $F_{n,\\min} = \\frac{mv_{\\min}^2}{l} - mg$, a nie ze znakiem plus!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-maj-matura-rozszerzona-odpowiedzi.pdf#page=10\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 10–14</a>."
                 },
                 "solutionSource": {
@@ -5592,25 +5579,23 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "W zderzeniu sprężystym spełniona jest zarówno Zasada Zachowania Pędu, jak i Zasada Zachowania Energii Kinetycznej. Siły wzajemnego oddziaływania kulek podczas zderzenia stanowią parę sił akcji i reakcji opisaną III zasadą dynamiki Newtona.",
-                  "givens": "Kula K1 o masie $m_1$ z prędkością początkową $v_1$, kula K2 o masie $m_2$ spoczywa ($v_{2\\text{pocz}} = 0$). Po zderzeniu obie kule mają tę samą wartość prędkości $v_2$, lecz przeciwne zwroty: $u_1 = -v_2$, $u_2 = +v_2$.",
+                  "givens": "Kula K1 o masie $m_1$ z prędkością początkową $v_1$, kula K2 o masie $m_2$ początkowo spoczywa ($v_{2,\\text{pocz}} = 0$). Zderzenie sprężyste centralne. Po zderzeniu obie kule mają tę samą wartość prędkości $v_2$, lecz przeciwne zwroty ($v_1' = -v_2$, $v_2' = +v_2$).",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Siły wzajemnego oddziaływania (III zasada dynamiki)",
-                      "content": "Podczas zderzenia kule oddziałują na siebie siłami sprężystości:\n- Siła $\\vec{F}_{21}$ (działająca na kulę K1 od kuli K2) jest zaczepiona w środku kuli K1 i skierowana poziomo w lewo (hamuje kulę K1).\n- Siła $\\vec{F}_{12}$ (działająca na kulę K2 od kuli K1) jest zaczepiona w środku kuli K2 i skierowana poziomo w prawo (rozpędza kulę K2).\nZgodnie z **III zasadą dynamiki Newtona** siły te mają ten sam kierunek, przeciwne zwroty oraz **dokładnie równe wartości** ($|\\vec{F}_{21}| = |\\vec{F}_{12}|$), bez względu na stosunek mas kul!\nOba wektory zaczepiamy w środkach odpowiednich kul i rysujemy wzdłuż prostej łączącej ich środki z zachowaniem jednakowej długości wektorów (np. 5 kratek w kluczu CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-styczen-z2-sily-rozwiazanie.png\" alt=\"Siły oddziaływania kul według klucza CKE\" class=\"theory-img\" style=\"max-height:280px;display:block;margin:15px auto;\"></div>"
+                      "title": "Zadanie 2.1 – Wektory sił wzajemnego oddziaływania kul (III zasada dynamiki)",
+                      "content": "W chwili zderzenia kule oddziałują na siebie siłami sprężystości:\n- Siła $\\vec{F}_{21}$ (wywierana na kulę K1 przez kulę K2) jest zaczepiona w środku kuli K1 i skierowana poziomo w lewo (wyhamowuje kulę K1).\n- Siła $\\vec{F}_{12}$ (wywierana na kulę K2 przez kulę K1) jest zaczepiona w środku kuli K2 i skierowana poziomo w prawo (rozpędza kulę K2).\n\nZgodnie z **III zasadą dynamiki Newtona** siły te tworzą parę akcja–reakcja: leżą na prostej łączącej środki kul, mają przeciwne zwroty oraz **dokładnie równe wartości** ($|\\vec{F}_{21}| = |\\vec{F}_{12}|$), bez względu na relację między masami kul!\nOba wektory rysujemy zaczepione w środkach kul z zachowaniem identycznej długości (np. 5 kratek w kluczu CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-styczen-z2-sily-rozwiazanie.png\" alt=\"Rysunek wektorów sił według klucza CKE\" class=\"theory-img\" style=\"max-height:280px;display:block;margin:15px auto;\"></div>"
                     },
                     {
-                      "title": "Zadanie 2.2 – Zapisanie Zasad Zachowania Pędu i Energii",
-                      "content": "Przyjmujemy oś $x$ skierowaną w prawo:\n1. **Zasada Zachowania Pędu:**\n$$m_1 v_1 + 0 = -m_1 v_2 + m_2 v_2$$\nPrzenosimy wyrazy z $m_1$ na lewą stronę:\n$$m_1 (v_1 + v_2) = m_2 v_2 \\quad \\implies \\quad \\frac{m_2}{m_1} = \\frac{v_1 + v_2}{v_2} = \\frac{v_1}{v_2} + 1 \\quad \\text{(Równanie 1)}$$\n\n2. **Zasada Zachowania Energii Kinetycznej (zderzenie idealnie sprężyste):**\n$$\\frac{m_1 v_1^2}{2} = \\frac{m_1 v_2^2}{2} + \\frac{m_2 v_2^2}{2}$$\nMnożymy przez 2 i grupujemy wyrazy z $m_1$:\n$$m_1 (v_1^2 - v_2^2) = m_2 v_2^2 \\quad \\implies \\quad \\frac{m_2}{m_1} = \\frac{v_1^2 - v_2^2}{v_2^2} = \\left(\\frac{v_1}{v_2}\right)^2 - 1 \\quad \\text{(Równanie 2)}$$"
+                      "title": "Zadanie 2.2 – Zasada zachowania pędu i zderzenie sprężyste",
+                      "content": "Przyjmujemy oś $x$ skierowaną w prawo.\n1. **Zasada zachowania pędu:**\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m_1 v_1 + 0 = -m_1 v_2 + m_2 v_2$$\nGrupujemy wyrazy z masą $m_1$:\n$$m_1 (v_1 + v_2) = m_2 v_2 \\implies \\frac{m_2}{m_1} = \\frac{v_1 + v_2}{v_2} = \\frac{v_1}{v_2} + 1 \\quad \\text{(Równanie 1)}$$\n\n2. **Zasada zachowania energii kinetycznej (zderzenie sprężyste):**\n$$E_{k,\\text{pocz}} = E_{k,\\text{końc}}$$\n$$\\frac{1}{2}m_1 v_1^2 + 0 = \\frac{1}{2}m_1 v_2^2 + \\frac{1}{2}m_2 v_2^2$$\nMnożymy obustronnie przez 2 i przenosimy wyrazy z $m_1$ na lewą stronę:\n$$m_1 (v_1^2 - v_2^2) = m_2 v_2^2 \\implies \\frac{m_2}{m_1} = \\frac{v_1^2 - v_2^2}{v_2^2} = \\left(\\frac{v_1}{v_2}\\right)^2 - 1 \\quad \\text{(Równanie 2)}$$"
                     },
                     {
                       "title": "Zadanie 2.2 – Wyznaczenie ilorazu mas $\\frac{m_2}{m_1}$",
-                      "content": "Przyrównujemy prawe strony Równania 1 i Równania 2:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2}\right)^2 - 1$$\nRozpisujemy różnicę kwadratów: $\\left(\\frac{v_1}{v_2}\right)^2 - 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$$\nPonieważ $v_1 + v_2 > 0$, możemy podzielić obie strony przez $\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$1 = \\frac{v_1}{v_2} - 1 \\quad \\implies \\quad \\frac{v_1}{v_2} = 2$$\nPodstawiamy obliczony stosunek $\\frac{v_1}{v_2} = 2$ do Równania 1:\n$$\\frac{m_2}{m_1} = \\frac{v_1}{v_2} + 1 = 2 + 1 = 3$$"
+                      "content": "Przyrównujemy prawe strony Równania 1 i Równania 2:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2}\\right)^2 - 1$$\nRozpisujemy prawą stronę ze wzoru skróconego mnożenia na różnicę kwadratów: $\\left(\\frac{v_1}{v_2}\\right)^2 - 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$$\nPonieważ $v_1 + v_2 > 0$, możemy podzielić obie strony przez $\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$1 = \\frac{v_1}{v_2} - 1 \\implies \\frac{v_1}{v_2} = 2$$\nPodstawiamy obliczony stosunek $\\frac{v_1}{v_2} = 2$ do Równania 1:\n$$\\frac{m_2}{m_1} = \\frac{v_1}{v_2} + 1 = 2 + 1 = 3$$"
                     }
                   ],
-                  "numerical": "2.1: Siły równej długości, przeciwne zwroty; 2.2: $\\frac{m_2}{m_1} = 3$",
-                  "answer": "2.1: Wektor na K1 w lewo, wektor na K2 w prawo, równe długości;\n2.2: $\\frac{m_2}{m_1} = 3$.",
-                  "trap": "Częsty błąd: rysowanie dłuższego wektora siły dla kuli o większej masie. III zasada dynamiki gwarantuje bezwzględną równość wartości sił akcji i reakcji!",
+                  "answer": "2.1: Wektory sił $\\vec{F}_{21}$ i $\\vec{F}_{12}$ zaczepione w środkach kul, o jednakowych długościach i przeciwnych zwrotach;\n2.2: Iloraz mas wynosi $\\frac{m_2}{m_1} = 3$.",
+                  "trap": "Częsty błąd na maturze to rysowanie dłuższego wektora siły dla kuli o większej masie. III zasada dynamiki Newtona gwarantuje bezwzględną równość wartości sił akcji i reakcji ($|\\vec{F}_{21}| = |\\vec{F}_{12}|$)!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–12</a>."
                 },
                 "solutionSource": {
@@ -5645,25 +5630,23 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "Dla sprężystego centralnego zderzenia dwóch ciał o identycznych masach następuje całkowita wymiana prędkości (kula przejmuje wektor prędkości drugiej kuli). Gdy dochodzi do trwałego sczepienia (zderzenie doskonale niesprężyste), pęd jest zachowany, lecz część energii kinetycznej bezpowrotnie przechodzi w pracę odkształcenia i ciepło.",
-                  "givens": "$m_1 = m_2 = m$, prędkości początkowe: $\\vec{v}_1 = [2v_2]$ (w prawo), $\\vec{v}_2 = [-v_2]$ (w lewo, $v_1 = 2v_2$).",
+                  "givens": "Masy kul: $m_1 = m_2 = m$, prędkości początkowe: $\\vec{v}_1$ o wartości $2v_2$ (skierowana w prawo), $\\vec{v}_2$ o wartości $v_2$ (skierowana w lewo, czyli $v_1 = 2v_2$).",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Zderzenie doskonale sprężyste identycznych mas",
-                      "content": "Dla centralnego zderzenia sprężystego ciał o jednakowych masach ($m_1 = m_2$) z układu Zasad Zachowania Pędu i Energii wynika fundamentalna reguła: **ciała wymieniają się prędkościami wraz ze zwrotami**:\n- Kula K1 po zderzeniu uzyskuje prędkość kuli K2: $\\vec{u}_1 = \\vec{v}_2$ (wektor skierowany w lewo o długości odpowiadającej $v_2$).\n- Kula K2 po zderzeniu uzyskuje prędkość kuli K1: $\\vec{u}_2 = \\vec{v}_1$ (wektor skierowany w prawo o długości odpowiadającej $2v_2$).\nRelację tę poprawnie przedstawia **rysunek B**."
+                      "title": "Zadanie 2.1 – Centralne zderzenie sprężyste ciał o jednakowych masach",
+                      "content": "Dla centralnego zderzenia idealnie sprężystego ciał o identycznych masach ($m_1 = m_2$) z zasad zachowania pędu i energii wynika reguła wymiany prędkości wraz ze zwrotami:\n$$\\vec{v}_1' = \\vec{v}_2 \\qquad \\text{oraz} \\qquad \\vec{v}_2' = \\vec{v}_1$$\nOznacza to, że po zderzeniu:\n- kula K1 przejmuje wektor prędkości kuli K2: porusza się w lewo z szybkością $v_2$,\n- kula K2 przejmuje wektor prędkości kuli K1: porusza się w prawo z szybkością $2v_2$.\n\nRelację tę poprawnie przedstawia **rysunek B**."
                     },
                     {
-                      "title": "Zadanie 2.2 – Wyznaczenie prędkości wspólnej po połączeniu (ZZP)",
-                      "content": "Przyjmijmy oś $x$ skierowaną w prawo. Z Zasady Zachowania Pędu dla trwałego połączenia obu kul:\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m v_1 - m v_2 = (m + m) \\cdot u$$\nPodstawiamy $v_1 = 2v_2$:\n$$m(2v_2) - m v_2 = 2m \\cdot u \\implies m v_2 = 2m \\cdot u \\implies u = \\frac{v_2}{2}$$\nPołączone kule poruszają się wspólnie w prawo z prędkością $u = 0{,}5\\,v_2$."
+                      "title": "Zadanie 2.2 – Wyznaczenie prędkości po sczepieniu z zasady zachowania pędu",
+                      "content": "W zderzeniu niesprężystym (kule trwale się łączą) całkowity pęd układu jest ściśle zachowany. Przyjmując oś $x$ skierowaną w prawo:\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m v_1 - m v_2 = (m + m) u$$\nPodstawiamy $v_1 = 2v_2$:\n$$m(2v_2) - m v_2 = 2m u \\implies m v_2 = 2m u \\implies u = \\frac{v_2}{2} = 0{,}5\\,v_2$$\nPołączone kule poruszają się w prawo ze wspólną prędkością $u = \\frac{v_2}{2}$."
                     },
                     {
                       "title": "Zadanie 2.2 – Obliczenie utraconej części energii kinetycznej",
-                      "content": "Obliczamy całkowitą początkową energię kinetyczną obu kul:\n$$E_{k,\\text{pocz}} = \\frac{m v_1^2}{2} + \\frac{m v_2^2}{2} = \\frac{m(2v_2)^2}{2} + \\frac{m v_2^2}{2} = \\frac{4m v_2^2}{2} + \\frac{m v_2^2}{2} = \\frac{5}{2} m v_2^2 = 2{,}5\\,m v_2^2$$\nObliczamy końcową energię kinetyczną połączonego układu:\n$$E_{k,\\text{końc}} = \\frac{(2m) u^2}{2} = m u^2 = m \\left(\\frac{v_2}{2}\\right)^2 = \\frac{m v_2^2}{4} = 0{,}25\\,m v_2^2$$\nUtracona energia kinetyczna wynosi:\n$$\\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} = 2{,}5\\,m v_2^2 - 0{,}25\\,m v_2^2 = 2{,}25\\,m v_2^2$$\nSzukany ułamek (część utraconej energii) to:\n$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{2{,}25\\,m v_2^2}{2{,}5\\,m v_2^2} = \\frac{2{,}25}{2{,}5} = \\frac{9}{10} = 0{,}90 \\quad (90\\%)$$"
+                      "content": "1. Obliczamy całkowitą początkową energię kinetyczną obu kul:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m v_1^2 + \\frac{1}{2}m v_2^2 = \\frac{1}{2}m(2v_2)^2 + \\frac{1}{2}m v_2^2 = \\frac{4}{2}m v_2^2 + \\frac{1}{2}m v_2^2 = \\frac{5}{2}m v_2^2 = 2{,}5\\,m v_2^2$$\n2. Obliczamy energię kinetyczną połączonego układu po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(2m) u^2 = m u^2 = m \\left(\\frac{v_2}{2}\\right)^2 = \\frac{1}{4}m v_2^2 = 0{,}25\\,m v_2^2$$\n3. Obliczamy ubytek energii kinetycznej:\n$$\\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} = 2{,}5\\,m v_2^2 - 0{,}25\\,m v_2^2 = 2{,}25\\,m v_2^2 = \\frac{9}{4}m v_2^2$$\n4. Wyznaczamy stosunek utraconej energii do energii początkowej:\n$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{2{,}25\\,m v_2^2}{2{,}5\\,m v_2^2} = \\frac{2{,}25}{2{,}5} = \\frac{9}{10} = 0{,}90 = 90\\%$$"
                     }
                   ],
-                  "numerical": "2.1: B; 2.2: $\\frac{\\Delta E_k}{E_k} = 0{,}9$ ($90\\%$)",
-                  "answer": "2.1: Odpowiedź B;\n2.2: Układ utracił $\\frac{9}{10}$ (czyli $0{,}90$ lub $90\\%$) początkowej energii kinetycznej.",
-                  "trap": "Nie wolno dodawać prędkości skalarnie przy wyznaczaniu pędu – kule poruszają się naprzeciwko siebie, więc pędy mają przeciwne zwroty: $p_{\\text{pocz}} = m(2v_2) - mv_2 = mv_2$.",
+                  "answer": "2.1: Poprawny rysunek B;\n2.2: Układ utracił $\\frac{9}{10}$ (czyli $0{,}90$ lub $90\\%$) początkowej energii kinetycznej.",
+                  "trap": "Nie wolno dodawać prędkości skalarnie przy wyznaczaniu pędu – kule poruszają się naprzeciwko siebie, więc pędy mają przeciwne zwroty: $p_{\\text{pocz}} = m(2v_2) - mv_2 = mv_2$, a nie $3mv_2$!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf#page=7\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 7–10</a>."
                 },
                 "solutionSource": {
@@ -5698,21 +5681,19 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "Zderzenie gładkich krążków bez tarcia oznacza, że siły wzajemnego oddziaływania działają wyłącznie wzdłuż prostej łączącej ich środki w momencie zderzenia (kierunek normalny, równoległy do osi x). Składowa prędkości krążka K1 prostopadła do tej linii (kierunek styczny) nie ulega żadnej zmianie, ponieważ nie działa na nią żadna siła.",
-                  "givens": "Jednakowe masy $m_1 = m_2 = m$, krążek K2 początkowo spoczywa, brak tarcia, zderzenie idealnie sprężyste.",
+                  "givens": "Jednakowe masy krążków: $m_1 = m_2 = m$, krążek K2 początkowo spoczywa w początku układu współrzędnych, brak oporów i tarcia, zderzenie idealnie sprężyste. Linia środków w chwili zderzenia równoległa do osi $x$.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Rysunek sił wzajemnego oddziaływania",
-                      "content": "W chwili zderzenia brak tarcia sprawia, że siły kontaktowe działają ściśle wzdłuż prostej przechodzącej przez środki obu krążków (linii normalnej, równoległej do osi $x$):\n- Siła $\\vec{F}_{12}$ (działająca na krążek K1) jest zaczepiona w środku krążka K1 i skierowana wzdłuż osi $x$ w lewo.\n- Siła $\\vec{F}_{21}$ (działająca na krążek K2) jest zaczepiona w środku krążka K2 i skierowana wzdłuż osi $x$ w prawo.\nZgodnie z **III zasadą dynamiki Newtona** siły te leżą na jednej prostej, mają przeciwne zwroty i **równe wartości** ($|\\vec{F}_{12}| = |\\vec{F}_{21}|$). Wektory rysujemy poziomo o jednakowej długości (4 kratki według klucza CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2023-maj-z2-sily-rozwiazanie.png\" alt=\"Siły działające podczas zderzenia krążków według klucza CKE\" class=\"theory-img\" style=\"max-height:340px;display:block;margin:15px auto;\"></div>"
+                      "title": "Zadanie 2.1 – Wektory sił wzajemnego oddziaływania krążków",
+                      "content": "W chwili zderzenia brak tarcia sprawia, że siły kontaktowe działają ściśle w kierunku normalnym (prostopadłym do powierzchni styku), czyli wzdłuż prostej łączącej środki obu krążków (kierunek osi $x$):\n- Siła $\\vec{F}_{12}$ (działająca na krążek K1 od krążka K2): zaczepiona w środku krążka K1 i skierowana poziomo w lewo (wzdłuż osi $x$).\n- Siła $\\vec{F}_{21}$ (działająca na krążek K2 od krążka K1): zaczepiona w środku krążka K2 i skierowana poziomo w prawo (wzdłuż osi $x$).\n\nZgodnie z **III zasadą dynamiki Newtona** siły te leżą na jednej prostej, mają przeciwne zwroty oraz **równe wartości** ($|\\vec{F}_{12}| = |\\vec{F}_{21}|$). Wektory rysujemy poziomo o jednakowej długości (4 kratki według klucza CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2023-maj-z2-sily-rozwiazanie.png\" alt=\"Siły działające podczas zderzenia krążków według klucza CKE\" class=\"theory-img\" style=\"max-height:340px;display:block;margin:15px auto;\"></div>"
                     },
                     {
-                      "title": "Zadanie 2.2 – Analiza wektorów prędkości po zderzeniu",
-                      "content": "Rozkładamy ruch na kierunek wzdłuż linii środków (oś $x$) oraz kierunek prostopadły do linii środków (oś $y$):\n1. **Wzdłuż osi $y$ (stycznej):** Nie działa żadna siła, więc krążek K2 nie uzyskuje składowej $v_y$ ($u_{2y} = 0$). Składowa prędkości krążka K1 pozostaje nienaruszona: $\\vec{u}_{1y} = \\vec{v}_y$.\n2. **Wzdłuż osi $x$ (normalnej):** Dochodzi do sprężystego zderzenia ciał o jednakowych masach. Krążek K1 przekazuje całą swoją składową prędkości normalnej spoczywającemu krążkowi K2:\n$$u_{1x} = 0, \\qquad \\vec{u}_{2x} = \\vec{v}_x$$\n3. **Podsumowanie wektorów prędkości:**\n- Krążek K1 ma po zderzeniu jedynie składową $\\vec{u}_1 = \\vec{v}_y$ (skierowaną pionowo w dół),\n- Krążek K2 ma po zderzeniu jedynie składową $\\vec{u}_2 = \\vec{v}_x$ (skierowaną poziomo w prawo).\nWarunek ten idealnie spełnia **rysunek C**."
+                      "title": "Zadanie 2.2 – Rozkład ruchu na osie i wektory prędkości po zderzeniu",
+                      "content": "Rozkładamy ruch na kierunek prostopadły do powierzchni styku (oś $x$ – kierunek normalny) oraz kierunek styczny (oś $y$):\n1. **Wzdłuż osi $y$ (stycznej):** Nie działa żadna siła ($F_y = 0$). Zatem krążek K2 nie uzyskuje składowej prędkości pionowej ($v_{2y}' = 0$), a składowa pionowa prędkości krążka K1 pozostaje całkowicie niezmieniona:\n$$\\vec{v}_{1y}' = \\vec{v}_{1y} = -v_y$$\n2. **Wzdłuż osi $x$ (normalnej):** Zachodzi sprężyste zderzenie centralne ciał o identycznych masach. Ciała wymieniają się prędkościami w tej osi:\n- krążek K1 wyhamowuje do zera w osi $x$: $v_{1x}' = 0$,\n- spoczywający początkowo krążek K2 przejmuje całą składową prędkości poziomej: $v_{2x}' = v_x$.\n\n3. **Podsumowanie wektorów po zderzeniu:**\n- Krążek K1 ma wyłącznie prędkość pionową w dół: $\\vec{v}_1' = [0; -v_y]$,\n- Krążek K2 ma wyłącznie prędkość poziomą w prawo: $\\vec{v}_2' = [v_x; 0]$.\n\nWarunek ten idealnie spełnia **rysunek C**."
                     }
                   ],
-                  "numerical": "2.1: Siły wzdłuż linii środków o równych wartościach; 2.2: C",
-                  "answer": "2.1: Siły wzdłuż linii łączącej środki krążków, równe długości wektorów;\n2.2: Odpowiedź C.",
-                  "trap": "Klocek/krążek uderzany K2 może uzyskać prędkość wyłącznie w kierunku działającej na niego siły normalnej (w prawo wzdłuż linii środków), nie może mieć żadnej składowej pionowej przy braku tarcia!",
+                  "answer": "2.1: Wektory sił $\\vec{F}_{12}$ i $\\vec{F}_{21}$ leżą na linii środków krążków (oś $x$), mają jednakowe długości i przeciwne zwroty;\n2.2: Poprawny rysunek C.",
+                  "trap": "Uderzany krążek K2 może uzyskać prędkość wyłącznie w kierunku działającej na niego siły normalnej (w prawo wzdłuż linii środków). Przy braku tarcia nie ma możliwości przekazania żadnego pędu w osi pionowej (stycznej)!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2023-maj-matura-rozszerzona-odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–9</a>."
                 },
                 "solutionSource": {
@@ -5748,25 +5729,23 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "Spadek kulki modelujemy z Zasady Zachowania Energii Mechanicznej lub równań ruchu jednostajnie przyspieszonego. Podczas odbicia od podłoża prędkość zmienia zwrot na przeciwny, a siła reakcji podłoża musi z II zasady dynamiki nie tylko nadać kulce przyspieszenie w górę (zmienić pęd), ale także zrównoważyć ściągający w dół ciężar kulki.",
-                  "givens": "$m = 0{,}250\\text{ kg}$, $h = 1{,}80\\text{ m}$, $v_0 = 3{,}20\\text{ m/s}$, czas zderzenia $\\Delta t = 5{,}00\\cdot 10^{-3}\\text{ s}$, $g = 9{,}81\\text{ m/s}^2$, strata energii przy zderzeniu: $25\\%$.",
+                  "givens": "Masa kulki: $m = 0{,}250\\text{ kg}$, wysokość początkowa: $h = 1{,}80\\text{ m}$, prędkość początkowa: $v_0 = 3{,}20\\text{ m/s}$ (skierowana pionowo w dół), czas zderzenia z podłożem: $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, przyśpieszenie ziemskie: $g = 9{,}81\\text{ m/s}^2$, strata energii mechanicznej przy odbiciu: $25\\%$.",
                   "steps": [
                     {
                       "title": "Zadanie 2.1 – Obliczenie czasu spadania kulki",
-                      "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
+                      "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe w jednostkach SI:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
                     },
                     {
-                      "title": "Zadanie 2.2 – Wykazanie prędkości $v_1$ tuż przed uderzeniem (ZZE)",
-                      "content": "Przyjmując zerowy poziom energii potencjalnej na podłożu ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{m v_0^2}{2} + mgh = \\frac{m v_1^2}{2}$$\nDzielimy przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20)^2 + 2 \\cdot 9{,}81 \\cdot 1{,}80} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$"
+                      "title": "Zadanie 2.2 – Wykazanie prędkości tuż przed uderzeniem z zasady zachowania energii",
+                      "content": "Przyjmując poziom zerowy energii potencjalnej na powierzchni podłoża ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{1}{2}m v_0^2 + mgh = \\frac{1}{2}m v_1^2$$\nDzielimy obustronnie przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$\n*(co należało wykazać).*"
                     },
                     {
-                      "title": "Zadanie 2.3 – Obliczenie prędkości po odbiciu i siły reakcji podłoża",
-                      "content": "1. **Prędkość po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii mechanicznej (kinetycznej), więc po odbiciu ma $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{m v_2^2}{2} = 0{,}75 \\cdot \\frac{m v_1^2}{2} \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495 \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia i siła reakcji podłoża:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie i pędzie):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250 \\cdot (6{,}7495 + 5{,}845)}{0{,}005} = 50 \\cdot 12{,}5945 \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45 + 629{,}7 \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
+                      "title": "Zadanie 2.3 – Prędkość po odbiciu i siła reakcji podłoża z II zasady dynamiki",
+                      "content": "1. **Prędkość kulki tuż po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii kinetycznej, więc po odbiciu zachowała $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}m v_2^2 = 0{,}75 \\cdot \\left(\\frac{1}{2}m v_1^2\\right) \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495\\text{ m/s} \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia kulki z podłożem:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (skierowana pionowo w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie siły i zmianie pędu):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250\\text{ kg} \\cdot (6{,}7495\\text{ m/s} + 5{,}845\\text{ m/s})}{0{,}005\\text{ s}} = 50 \\cdot 12{,}5945\\text{ N} \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45\\text{ N} + 629{,}7\\text{ N} \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
                     }
                   ],
-                  "numerical": "2.1: $t \\approx 0{,}36\\text{ s}$; 2.2: $v_1 \\approx 6{,}75\\text{ m/s}$; 2.3: $F_R \\approx 632\\text{ N}$",
-                  "answer": "2.1: $t \\approx 0{,}36\\text{ s}$ (dokładnie ok. $0{,}362\\text{ s}$);\n2.2: $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: $F_R \\approx 632\\text{ N}$.",
-                  "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć stale działający ciężar kulki ($F_R = F_{\\text{wyp}} + mg$).",
+                  "answer": "2.1: Czas spadania wynosi $t \\approx 0{,}36\\text{ s}$ (dokładnie $0{,}362\\text{ s}$);\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: Siła reakcji podłoża wynosi $F_R \\approx 632\\text{ N}$.",
+                  "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć stale działający ciężar kulki: $F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://bip.cke.gov.pl/attachments/download/10000#page=15\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 15–19</a>."
                 },
                 "solutionSource": {
@@ -5801,25 +5780,23 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "Zdjęcia stroboskopowe w równych odstępach czasu oznaczają, że przesunięcie na siatce między kolejnymi punktami jest wprost proporcjonalne do wektora prędkości. Stosujemy Zasadę Zachowania Pędu niezależnie dla składowych x oraz y, a sprężystość zderzenia sprawdzamy przez bilans całkowitej energii kinetycznej.",
-                  "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), jednakowe odstępy czasu $\\Delta t$.",
+                  "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), równe odstępy czasu $\\Delta t$, ruch w płaszczyźnie poziomej bez oporów ruchu.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu",
-                      "content": "Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (między punktami 1–3):**\nCiało A porusza się poziomo w prawo o 18,5 kratki na 1 krok czasowy: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (między punktami 4–6):**\nCiało A: przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{u}_A = [8{,}5;\\; -7{,}5]$.\nCiało B: przesuwa się o 8 kratek w prawo i 6 kratek w górę: $\\vec{u}_B = [8{,}0;\\; +6{,}0]$."
+                      "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu stroboskopowego",
+                      "content": "Ponieważ kolejne zdjęcia wykonywano w jednakowych odstępach czasu $\\Delta t$, przesunięcie wektora położenia na siatce między kolejnymi błyskami stroboskopu jest wprost proporcjonalne do wektora prędkości ciała. Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (punkty 1–3):**\nCiało A przemieszcza się poziomo w prawo o 18,5 kratki na krok: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (punkty 4–6):**\nCiało A przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{v}_A' = [8{,}5;\\; -7{,}5]$.\nCiało B przesuwa się o 8,0 kratek w prawo i 6,0 kratek w górę: $\\vec{v}_B' = [8{,}0;\\; +6{,}0]$."
                     },
                     {
-                      "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z ZZP w osi Y",
-                      "content": "Początkowo układ nie miał żadnego pędu w pionie ($p_{y,\\text{pocz}} = 0$). Z Zasady Zachowania Pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot u_{Ay} + m_B \\cdot u_{By}$$\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50$$\n$$m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n*(Sprawdzenie w osi x: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – pęd w osi x jest ściśle zachowany).* "
+                      "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z zasady zachowania pędu w osi Y",
+                      "content": "Układ jest izolowany, więc całkowity pęd jest zachowany niezależnie w osi $x$ oraz w osi $y$.\nPrzed zderzeniem pęd w osi pionowej $y$ wynosił zero ($p_{y,\\text{pocz}} = 0$). Z zasady zachowania pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot v_{Ay}' + m_B \\cdot v_{By}'$$\nPodstawiamy wartości składowych:\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50 \\implies m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n\n*(Sprawdzenie w osi $x$: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – zasada zachowania pędu w osi poziomej jest spełniona tożsamościowo).*"
                     },
                     {
                       "title": "Zadanie 3.2 – Ocena sprężystości zderzenia (bilans energii kinetycznej)",
-                      "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy energia kinetyczna układu po zderzeniu jest równa energii przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał po zderzeniu (twierdzenie Pitagorasa):**\n$$u_A^2 = u_{Ax}^2 + u_{Ay}^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$u_B^2 = u_{Bx}^2 + u_{By}^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot (18{,}5)^2 = 0{,}10 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A u_A^2 + \\frac{1}{2} m_B u_B^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (iloraz $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii)."
+                      "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy całkowita energia kinetyczna układu po zderzeniu jest równa energii kinetycznej przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał (z twierdzenia Pitagorasa):**\n$$v_A^2 = (18{,}5)^2 = 342{,}25$$\n$$(v_A')^2 = (v_{Ax}')^2 + (v_{Ay}')^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$(v_B')^2 = (v_{Bx}')^2 + (v_{By}')^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A (v_A')^2 + \\frac{1}{2} m_B (v_B')^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (stosunek energii wynosi $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii mechanicznej)."
                     }
                   ],
-                  "numerical": "3.1: $m_B = 250\\text{ g}$; 3.2: zderzenie niesprężyste, $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$",
-                  "answer": "3.1: Wykazano $m_B = 250\\text{ g}$;\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej uległa rozproszeniu, stosunek energii wynosi ok. $0{,}74$).",
-                  "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $u^2 = u_x^2 + u_y^2$, a nie braniu pojedynczej współrzędnej!",
+                  "answer": "3.1: Masa ciała B wynosi $m_B = 250\\text{ g}$ ($0{,}250\\text{ kg}$);\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej została rozproszona, energia po zderzeniu wynosi ok. $74\\%$ energii początkowej).",
+                  "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $v^2 = v_x^2 + v_y^2$. Nie wolno porównywać samych pojedynczych współrzędnych!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://bip.cke.gov.pl/attachments/download/10000#page=21\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 21–23</a>."
                 },
                 "solutionSource": {
@@ -5855,25 +5832,23 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "Spadek kulki modelujemy z Zasady Zachowania Energii Mechanicznej lub równań ruchu jednostajnie przyspieszonego. Podczas odbicia od podłoża prędkość zmienia zwrot na przeciwny, a siła reakcji podłoża musi z II zasady dynamiki nie tylko nadać kulce przyspieszenie w górę (zmienić pęd), ale także zrównoważyć ściągający w dół ciężar kulki.",
-                  "givens": "$m = 0{,}250\\text{ kg}$, $h = 1{,}80\\text{ m}$, $v_0 = 3{,}20\\text{ m/s}$, czas zderzenia $\\Delta t = 5{,}00\\cdot 10^{-3}\\text{ s}$, $g = 9{,}81\\text{ m/s}^2$, strata energii przy zderzeniu: $25\\%$.",
+                  "givens": "Masa kulki: $m = 0{,}250\\text{ kg}$, wysokość początkowa: $h = 1{,}80\\text{ m}$, prędkość początkowa: $v_0 = 3{,}20\\text{ m/s}$ (skierowana pionowo w dół), czas zderzenia z podłożem: $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, przyśpieszenie ziemskie: $g = 9{,}81\\text{ m/s}^2$, strata energii mechanicznej przy odbiciu: $25\\%$.",
                   "steps": [
                     {
                       "title": "Zadanie 2.1 – Obliczenie czasu spadania kulki",
-                      "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
+                      "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe w jednostkach SI:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
                     },
                     {
-                      "title": "Zadanie 2.2 – Wykazanie prędkości $v_1$ tuż przed uderzeniem (ZZE)",
-                      "content": "Przyjmując zerowy poziom energii potencjalnej na podłożu ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{m v_0^2}{2} + mgh = \\frac{m v_1^2}{2}$$\nDzielimy przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20)^2 + 2 \\cdot 9{,}81 \\cdot 1{,}80} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$"
+                      "title": "Zadanie 2.2 – Wykazanie prędkości tuż przed uderzeniem z zasady zachowania energii",
+                      "content": "Przyjmując poziom zerowy energii potencjalnej na powierzchni podłoża ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{1}{2}m v_0^2 + mgh = \\frac{1}{2}m v_1^2$$\nDzielimy obustronnie przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$\n*(co należało wykazać).*"
                     },
                     {
-                      "title": "Zadanie 2.3 – Obliczenie prędkości po odbiciu i siły reakcji podłoża",
-                      "content": "1. **Prędkość po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii mechanicznej (kinetycznej), więc po odbiciu ma $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{m v_2^2}{2} = 0{,}75 \\cdot \\frac{m v_1^2}{2} \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495 \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia i siła reakcji podłoża:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie i pędzie):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250 \\cdot (6{,}7495 + 5{,}845)}{0{,}005} = 50 \\cdot 12{,}5945 \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45 + 629{,}7 \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
+                      "title": "Zadanie 2.3 – Prędkość po odbiciu i siła reakcji podłoża z II zasady dynamiki",
+                      "content": "1. **Prędkość kulki tuż po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii kinetycznej, więc po odbiciu zachowała $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}m v_2^2 = 0{,}75 \\cdot \\left(\\frac{1}{2}m v_1^2\\right) \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495\\text{ m/s} \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia kulki z podłożem:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (skierowana pionowo w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie siły i zmianie pędu):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250\\text{ kg} \\cdot (6{,}7495\\text{ m/s} + 5{,}845\\text{ m/s})}{0{,}005\\text{ s}} = 50 \\cdot 12{,}5945\\text{ N} \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45\\text{ N} + 629{,}7\\text{ N} \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
                     }
                   ],
-                  "numerical": "2.1: $t \\approx 0{,}36\\text{ s}$; 2.2: $v_1 \\approx 6{,}75\\text{ m/s}$; 2.3: $F_R \\approx 632\\text{ N}$",
-                  "answer": "2.1: $t \\approx 0{,}36\\text{ s}$ (dokładnie ok. $0{,}362\\text{ s}$);\n2.2: $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: $F_R \\approx 632\\text{ N}$.",
-                  "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć ściągający w dół ciężar kulki ($F_R = F_{\\text{wyp}} + mg$).",
+                  "answer": "2.1: Czas spadania wynosi $t \\approx 0{,}36\\text{ s}$ (dokładnie $0{,}362\\text{ s}$);\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: Siła reakcji podłoża wynosi $F_R \\approx 632\\text{ N}$.",
+                  "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć stale działający ciężar kulki: $F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/Informator_EM2023_fizyka.pdf#page=15\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 15–19</a>."
                 },
                 "solutionSource": {
@@ -5908,25 +5883,23 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "intuition": "Zdjęcia stroboskopowe w równych odstępach czasu oznaczają, że przesunięcie na siatce między kolejnymi punktami jest wprost proporcjonalne do wektora prędkości. Stosujemy Zasadę Zachowania Pędu niezależnie dla składowych x oraz y, a sprężystość zderzenia sprawdzamy przez bilans całkowitej energii kinetycznej.",
-                  "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), jednakowe odstępy czasu $\\Delta t$.",
+                  "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), równe odstępy czasu $\\Delta t$, ruch w płaszczyźnie poziomej bez oporów ruchu.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu",
-                      "content": "Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (między punktami 1–3):**\nCiało A porusza się poziomo w prawo o 18,5 kratki na 1 krok czasowy: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (między punktami 4–6):**\nCiało A: przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{u}_A = [8{,}5;\\; -7{,}5]$.\nCiało B: przesuwa się o 8 kratek w prawo i 6 kratek w górę: $\\vec{u}_B = [8{,}0;\\; +6{,}0]$."
+                      "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu stroboskopowego",
+                      "content": "Ponieważ kolejne zdjęcia wykonywano w jednakowych odstępach czasu $\\Delta t$, przesunięcie wektora położenia na siatce między kolejnymi błyskami stroboskopu jest wprost proporcjonalne do wektora prędkości ciała. Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (punkty 1–3):**\nCiało A przemieszcza się poziomo w prawo o 18,5 kratki na krok: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (punkty 4–6):**\nCiało A przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{v}_A' = [8{,}5;\\; -7{,}5]$.\nCiało B przesuwa się o 8,0 kratek w prawo i 6,0 kratek w górę: $\\vec{v}_B' = [8{,}0;\\; +6{,}0]$."
                     },
                     {
-                      "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z ZZP w osi Y",
-                      "content": "Początkowo układ nie miał żadnego pędu w pionie ($p_{y,\\text{pocz}} = 0$). Z Zasady Zachowania Pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot u_{Ay} + m_B \\cdot u_{By}$$\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50$$\n$$m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n*(Sprawdzenie w osi x: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – pęd w osi x jest ściśle zachowany).* "
+                      "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z zasady zachowania pędu w osi Y",
+                      "content": "Układ jest izolowany, więc całkowity pęd jest zachowany niezależnie w osi $x$ oraz w osi $y$.\nPrzed zderzeniem pęd w osi pionowej $y$ wynosił zero ($p_{y,\\text{pocz}} = 0$). Z zasady zachowania pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot v_{Ay}' + m_B \\cdot v_{By}'$$\nPodstawiamy wartości składowych:\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50 \\implies m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n\n*(Sprawdzenie w osi $x$: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – zasada zachowania pędu w osi poziomej jest spełniona tożsamościowo).*"
                     },
                     {
                       "title": "Zadanie 3.2 – Ocena sprężystości zderzenia (bilans energii kinetycznej)",
-                      "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy energia kinetyczna układu po zderzeniu jest równa energii przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał po zderzeniu (twierdzenie Pitagorasa):**\n$$u_A^2 = u_{Ax}^2 + u_{Ay}^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$u_B^2 = u_{Bx}^2 + u_{By}^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot (18{,}5)^2 = 0{,}10 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A u_A^2 + \\frac{1}{2} m_B u_B^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (iloraz $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii)."
+                      "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy całkowita energia kinetyczna układu po zderzeniu jest równa energii kinetycznej przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał (z twierdzenia Pitagorasa):**\n$$v_A^2 = (18{,}5)^2 = 342{,}25$$\n$$(v_A')^2 = (v_{Ax}')^2 + (v_{Ay}')^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$(v_B')^2 = (v_{Bx}')^2 + (v_{By}')^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A (v_A')^2 + \\frac{1}{2} m_B (v_B')^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (stosunek energii wynosi $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii mechanicznej)."
                     }
                   ],
-                  "numerical": "3.1: $m_B = 250\\text{ g}$; 3.2: zderzenie niesprężyste, $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$",
-                  "answer": "3.1: Wykazano $m_B = 250\\text{ g}$;\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej uległa rozproszeniu, stosunek energii wynosi ok. $0{,}74$).",
-                  "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $u^2 = u_x^2 + u_y^2$, a nie braniu pojedynczej współrzędnej!",
+                  "answer": "3.1: Masa ciała B wynosi $m_B = 250\\text{ g}$ ($0{,}250\\text{ kg}$);\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej została rozproszona, energia po zderzeniu wynosi ok. $74\\%$ energii początkowej).",
+                  "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $v^2 = v_x^2 + v_y^2$. Nie wolno porównywać samych pojedynczych współrzędnych!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/Informator_EM2023_fizyka.pdf#page=21\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 21–23</a>."
                 },
                 "solutionSource": {
@@ -6613,67 +6586,67 @@ window.FIZYKOREK_COURSES = {
             "correctOption": "B",
             "problem": "<p class=\"problem-paragraph\">Wózek $2\\text{ kg}$ jedzie w prawo z szybkością $3\\text{ m/s}$ i zderza się z nieruchomym wózkiem $1\\text{ kg}$. Wózki po zderzeniu sczepiają się. Wskaż wspólną prędkość.</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$1\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$2\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$3\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$6\\text{ m/s}$ w prawo</span></div>\n</div>",
             "solution": {
-              "givens": "$m_1 = 2\\text{ kg}$, $v_1 = 3\\text{ m/s}$, $m_2 = 1\\text{ kg}$, $v_2 = 0\\text{ m/s}$.",
+              "givens": "$m_1 = 2\\text{ kg}$, $v_1 = 3\\text{ m/s}$, $m_2 = 1\\text{ kg}$, $v_2 = 0$.",
               "steps": [
                 {
                   "title": "Zastosowanie zasady zachowania pędu",
-                  "content": "$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$2 \\cdot 3 + 1 \\cdot 0 = (2 + 1) v \\implies 6 = 3v \\implies v = 2\\text{ m/s}\\quad\\text{(w prawo)}$$"
+                  "content": "Zderzenie jest niesprężyste, więc wózki poruszają się z jedną wspólną prędkością $v$:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$2\\text{ kg} \\cdot 3\\text{ m/s} + 1\\text{ kg} \\cdot 0 = (2\\text{ kg} + 1\\text{ kg}) v \\implies 6 = 3v \\implies v = 2\\text{ m/s}$$"
                 }
               ],
-              "answer": "Poprawna odpowiedź: B ($2\\text{ m/s}$ w prawo). Pęd układu się zachowuje, natomiast część energii kinetycznej zamienia się w ciepło i pracę odkształcenia."
+              "answer": "Poprawna odpowiedź: B ($2\\text{ m/s}$ w prawo)."
             }
           },
           {
             "id": "p-zad-27",
             "number": 27,
             "title": "Zadanie 27. Zderzenie czołowe niesprężyste",
-            "difficulty": 2,
+            "difficulty": 1,
             "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
             "tags": [
               "Zderzenie niesprężyste",
-              "Zachowanie pędu",
-              "Prędkości ze znakami"
+              "Wektory pędu",
+              "Ruch naprzeciw"
             ],
             "problem": "<p class=\"problem-paragraph\">Wózek $1\\text{ kg}$ porusza się w prawo z $6\\text{ m/s}$, a wózek $2\\text{ kg}$ w lewo z $2\\text{ m/s}$. Zderzają się niesprężyście i poruszają dalej razem. Oblicz wartość i zwrot wspólnej prędkości.</p>",
             "solution": {
               "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +6\\text{ m/s}$ (w prawo), $m_2 = 2\\text{ kg}$, $v_2 = -2\\text{ m/s}$ (w lewo).",
               "steps": [
                 {
-                  "title": "Zapis zasady zachowania pędu ze znakami",
-                  "content": "Wybieramy zwrot dodatni w prawo:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$1 \\cdot 6 + 2 \\cdot (-2) = (1 + 2) v \\implies 6 - 4 = 3v \\implies 2 = 3v$$"
+                  "title": "Zastosowanie zasady zachowania pędu ze zwrotami",
+                  "content": "Przyjmując zwrot w prawo jako dodatni:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$1\\text{ kg} \\cdot 6\\text{ m/s} + 2\\text{ kg} \\cdot (-2\\text{ m/s}) = (1\\text{ kg} + 2\\text{ kg}) v$$\n$$6 - 4 = 3v \\implies 2 = 3v \\implies v = \\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$$"
                 },
                 {
-                  "title": "Wyznaczenie wartości i zwrotu prędkości",
-                  "content": "$$v = \\frac{2}{3}\\text{ m/s} \\approx 0{,}667\\text{ m/s}$$\nDodatni znak wyniku wskazuje, że układ porusza się w prawo."
+                  "title": "Interpretacja zwrotu prędkości",
+                  "content": "Dodatni znak wyniku ($v > 0$) oznacza, że sczepione wózki kontynuują ruch w prawo (zgodnie ze zwrotem początkowym pierwszego wózka)."
                 }
               ],
-              "answer": "Wspólna prędkość wynosi $\\frac{2}{3}\\text{ m/s} \\approx 0{,}667\\text{ m/s}$ ze zwrotem w prawo."
+              "answer": "Wspólna prędkość wynosi $\\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$ ze zwrotem w prawo."
             }
           },
           {
             "id": "p-zad-28",
             "number": 28,
-            "title": "Zadanie 28. Odrzut łodzi po wyrzuceniu plecaka",
+            "title": "Zadanie 28. Wyrzucenie ładunku z łodzi (zasada zachowania pędu)",
             "difficulty": 2,
             "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
             "tags": [
-              "Zjawisko odrzutu",
-              "Zachowanie pędu"
+              "Zachowanie pędu",
+              "Układ izolowany"
             ],
-            "problem": "<p class=\"problem-paragraph\">Nieruchoma łódź z osobą ma masę $80\\text{ kg}$. Osoba wyrzuca poziomo plecak o masie $4\\text{ kg}$ z prędkością $5\\text{ m/s}$ względem ziemi w prawo. Oblicz prędkość łodzi z osobą po wyrzuceniu. Pomijamy poziomy impuls zewnętrzny.</p>",
+            "problem": "<p class=\"problem-paragraph\">Nieruchoma łódź z osobą ma masę $80\\text{ kg}$. Osoba wyrzuca poziomo plecak o masie $4\\text{ kg}$ z prędkością $5\\text{ m/s}$ w prawo. Oblicz prędkość łodzi z osobą po wyrzuceniu plecaka. Pomijamy opory wody.</p>",
             "solution": {
-              "givens": "$M = 80\\text{ kg}$ (łódź + osoba), $m_p = 4\\text{ kg}$, $v_p = +5\\text{ m/s}$ (w prawo), pęd początkowy wynosi zero.",
+              "givens": "$M = 80\\text{ kg}$, $m_p = 4\\text{ kg}$, $v_p = +5\\text{ m/s}$ (w prawo), $p_{\\text{pocz}} = 0$.",
               "steps": [
                 {
                   "title": "Zasada zachowania pędu w układzie izolowanym",
-                  "content": "Początkowy pęd układu wynosił 0. Po wyrzuceniu pęd całkowity nadal musi być zerowy:\n$$0 = m_p v_p + M v_Ł$$\n$$0 = 4 \\cdot 5 + 80 \\cdot v_Ł \\implies 80 v_Ł = -20$$"
+                  "content": "Układ początkowo spoczywał, więc całkowity pęd początkowy wynosi zero ($p_{\\text{pocz}} = 0$):\n$$p_{\\text{pocz}} = p_{\\text{końc}} \\implies 0 = M v_Ł + m_p v_p$$\n$$0 = 80\\text{ kg} \\cdot v_Ł + 4\\text{ kg} \\cdot 5\\text{ m/s} \\implies 80 v_Ł = -20 \\implies v_Ł = -\\frac{20}{80} = -0{,}25\\text{ m/s}$$"
                 },
                 {
-                  "title": "Wyznaczenie prędkości łodzi",
-                  "content": "$$v_Ł = -\\frac{20}{80} = -0{,}25\\text{ m/s}$$"
+                  "title": "Interpretacja znaku i wartości prędkości",
+                  "content": "Znak minus oznacza, że łódź porusza się w lewo (przeciwnie do zwrotu wyrzuconego plecaka) z szybkością $0{,}25\\text{ m/s}$."
                 }
               ],
-              "answer": "Łódź z osobą porusza się z szybkością $0{,}25\\text{ m/s}$ w lewo (znak minus oznacza zwrot przeciwny do wyrzuconego plecaka)."
+              "answer": "Łódź z osobą porusza się z szybkością $0{,}25\\text{ m/s}$ w lewo."
             }
           },
           {
@@ -6684,34 +6657,30 @@ window.FIZYKOREK_COURSES = {
             "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
             "tags": [
               "Zderzenie 2D",
-              "Wektory pędu",
-              "Rozkład na osie"
+              "Pęd wektorowy",
+              "Składowe pędu"
             ],
-            "problem": "<p class=\"problem-paragraph\">Dwa wózki po zderzeniu sczepiają się. Pierwszy ma masę $2\\text{ kg}$ i prędkość $3\\text{ m/s}$ na wschód, drugi ma masę $1\\text{ kg}$ i prędkość $4\\text{ m/s}$ na północ. Wyznacz składowe, wartość i kierunek wspólnej prędkości.</p>",
+            "problem": "<p class=\"problem-paragraph\">Dwa wózki po zderzeniu sczepiają się. Pierwszy ma masę $2\\text{ kg}$ i prędkość $3\\text{ m/s}$ na wschód, drugi ma masę $1\\text{ kg}$ i prędkość $4\\text{ m/s}$ na północ. Wyznacz składowe oraz wartość wspólnej prędkości po zderzeniu.</p>",
             "solution": {
-              "givens": "$m_1 = 2\\text{ kg}$, $\\vec{v}_1 = [3, 0]\\text{ m/s}$ (wschód); $m_2 = 1\\text{ kg}$, $\\vec{v}_2 = [0, 4]\\text{ m/s}$ (północ).",
+              "givens": "$m_1 = 2\\text{ kg}$, $\\vec{v}_1 = [3, 0]\\text{ m/s}$ (wschód), $m_2 = 1\\text{ kg}$, $\\vec{v}_2 = [0, 4]\\text{ m/s}$ (północ).",
               "steps": [
                 {
-                  "title": "Zachowanie pędu wzdłuż poszczególnych osi",
-                  "content": "Łączna masa po sczepieniu: $M = m_1 + m_2 = 3\\text{ kg}$.\nOś $x$ (wschód):\n$$(m_1 + m_2) v_x = m_1 v_{1x} \\implies 3 v_x = 2 \\cdot 3 \\implies v_x = 2\\text{ m/s}$$\nOś $y$ (północ):\n$$(m_1 + m_2) v_y = m_2 v_{2y} \\implies 3 v_y = 1 \\cdot 4 \\implies v_y = \\frac{4}{3}\\text{ m/s} \\approx 1{,}33\\text{ m/s}$$"
+                  "title": "Zasada zachowania pędu dla poszczególnych osi",
+                  "content": "Łączna masa po sczepieniu: $M = m_1 + m_2 = 2\\text{ kg} + 1\\text{ kg} = 3\\text{ kg}$.\nDla osi $x$ (kierunek wschód):\n$$(m_1 + m_2) v_x = m_1 v_{1x} \\implies 3\\text{ kg} \\cdot v_x = 2\\text{ kg} \\cdot 3\\text{ m/s} \\implies v_x = 2\\text{ m/s}$$\nDla osi $y$ (kierunek północ):\n$$(m_1 + m_2) v_y = m_2 v_{2y} \\implies 3\\text{ kg} \\cdot v_y = 1\\text{ kg} \\cdot 4\\text{ m/s} \\implies v_y = \\frac{4}{3}\\text{ m/s} \\approx 1{,}33\\text{ m/s}$$"
                 },
                 {
-                  "title": "Wypadkowa wartość prędkości",
-                  "content": "$$v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{2^2 + \\left(\\frac{4}{3}\\right)^2} = \\sqrt{4 + \\frac{16}{9}} = \\sqrt{\\frac{52}{9}} \\approx 2{,}40\\text{ m/s}$$"
-                },
-                {
-                  "title": "Kierunek wektora prędkości",
-                  "content": "$$\\tan\\alpha = \\frac{v_y}{v_x} = \\frac{4/3}{2} = \\frac{2}{3} \\approx 0{,}667 \\implies \\alpha \\approx 33{,}7^\\circ$$"
+                  "title": "Wyznaczenie wartości prędkości wypadkowej",
+                  "content": "Z twierdzenia Pitagorasa:\n$$v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{2^2 + \\left(\\frac{4}{3}\\right)^2} = \\sqrt{4 + \\frac{16}{9}} = \\sqrt{\\frac{52}{9}} = \\frac{\\sqrt{52}}{3} \\approx 2{,}40\\text{ m/s}$$"
                 }
               ],
-              "answer": "Składowe prędkości: $v_x = 2\\text{ m/s}$, $v_y = \\frac{4}{3}\\text{ m/s}$. Wartość prędkości wynosi około $2{,}40\\text{ m/s}$, skierowana pod kątem $33{,}7^\\circ$ na północ od kierunku wschodniego."
+              "answer": "Składowe prędkości wynoszą $v_x = 2\\text{ m/s}$ oraz $v_y = \\frac{4}{3}\\text{ m/s}$, a wartość prędkości wypadkowej wynosi około $2{,}40\\text{ m/s}$."
             }
           },
           {
             "id": "p-zad-30",
             "number": 30,
             "title": "Zadanie 30. Względny ubytek energii w zderzeniu niesprężystym",
-            "difficulty": 1,
+            "difficulty": 2,
             "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
             "tags": [
               "Zderzenie niesprężyste",
@@ -6724,19 +6693,19 @@ window.FIZYKOREK_COURSES = {
               "givens": "$m_1 = 2\\text{ kg}$, $v_1 = 4\\text{ m/s}$, $m_2 = 2\\text{ kg}$, $v_2 = 0$.",
               "steps": [
                 {
-                  "title": "Prędkość po sczepieniu z zachowania pędu",
-                  "content": "$$2 \\cdot 4 = (2 + 2) v \\implies 8 = 4v \\implies v = 2\\text{ m/s}$$"
+                  "title": "Wspólna prędkość z zasady zachowania pędu",
+                  "content": "$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$2\\text{ kg} \\cdot 4\\text{ m/s} + 0 = (2\\text{ kg} + 2\\text{ kg}) v \\implies 8 = 4v \\implies v = 2\\text{ m/s}$$"
                 },
                 {
-                  "title": "Porównanie energii kinetycznych",
-                  "content": "Energia początkowa:\n$$E_{ki} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 2 \\cdot 4^2 = 16\\text{ J}$$\nEnergia końcowa po sczepieniu:\n$$E_{kf} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 8\\text{ J}$$"
+                  "title": "Porównanie energii kinetycznych przed i po zderzeniu",
+                  "content": "Energia kinetyczna początkowa:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 2\\text{ kg} \\cdot (4\\text{ m/s})^2 = 16\\text{ J}$$\nEnergia kinetyczna końcowa po sczepieniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4\\text{ kg} \\cdot (2\\text{ m/s})^2 = 8\\text{ J}$$"
                 },
                 {
-                  "title": "Wyznaczenie ubytku względnego",
-                  "content": "$$\\Delta E = 16\\text{ J} - 8\\text{ J} = 8\\text{ J} \\implies \\frac{\\Delta E}{E_{ki}} = \\frac{8}{16} = 0{,}50 = 50\\%$$"
+                  "title": "Wyznaczenie względnego ubytku energii",
+                  "content": "$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{E_{k,\\text{pocz}} - E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} = \\frac{16\\text{ J} - 8\\text{ J}}{16\\text{ J}} = \\frac{8}{16} = 0{,}50 = 50\\%$$"
                 }
               ],
-              "answer": "Poprawna odpowiedź: C ($50\\%$). W zderzeniu niesprężystym ciał o równej masie traci się zawsze $50\\%$ energii kinetycznej."
+              "answer": "Poprawna odpowiedź: C ($50\\%$). W zderzeniu niesprężystym ciał o jednakowej masie utracie ulega dokładnie $50\\%$ energii kinetycznej."
             }
           },
           {
@@ -6747,24 +6716,20 @@ window.FIZYKOREK_COURSES = {
             "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
             "tags": [
               "Zderzenie niesprężyste",
-              "Plastelina",
-              "Bilans energii"
+              "Bilans energii",
+              "Ubytek energii"
             ],
-            "problem": "<p class=\"problem-paragraph\">Kula plasteliny $0{,}10\\text{ kg}$ leci poziomo z szybkością $20\\text{ m/s}$ i przykleja się do nieruchomego klocka $0{,}90\\text{ kg}$ na gładkim stole. Oblicz wspólną szybkość. Jaką część początkowej energii kinetycznej utracił układ?</p>",
+            "problem": "<p class=\"problem-paragraph\">Kula plasteliny $0{,}10\\text{ kg}$ leci poziomo z szybkością $20\\text{ m/s}$ i przykleja się do nieruchomego klocka $0{,}90\\text{ kg}$ na gładkim stole. Oblicz wspólną szybkość oraz określ, jaka część początkowej energii kinetycznej została utracona.</p>",
             "solution": {
               "givens": "$m_1 = 0{,}10\\text{ kg}$, $v_1 = 20\\text{ m/s}$, $m_2 = 0{,}90\\text{ kg}$, $v_2 = 0$.",
               "steps": [
                 {
-                  "title": "Wspólna prędkość z zasady zachowania pędu",
-                  "content": "Początkowy pęd: $p = m_1 v_1 = 0{,}10 \\cdot 20 = 2\\text{ kg}\\cdot\\text{m/s}$.\nCałkowita masa: $M = 0{,}10 + 0{,}90 = 1{,}0\\text{ kg}$.\n$$v = \\frac{p}{M} = \\frac{2\\text{ kg}\\cdot\\text{m/s}}{1{,}0\\text{ kg}} = 2\\text{ m/s}$$"
+                  "title": "Wyznaczenie wspólnej szybkości z zasady zachowania pędu",
+                  "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies v = \\frac{m_1 v_1}{m_1 + m_2} = \\frac{0{,}10\\text{ kg} \\cdot 20\\text{ m/s}}{0{,}10\\text{ kg} + 0{,}90\\text{ kg}} = \\frac{2}{1{,}0} = 2\\text{ m/s}$$"
                 },
                 {
-                  "title": "Bilans energii kinetycznej",
-                  "content": "Energia przed uderzeniem:\n$$E_i = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}10 \\cdot 20^2 = 20\\text{ J}$$\nEnergia po uderzeniu:\n$$E_f = \\frac{1}{2}M v^2 = \\frac{1}{2} \\cdot 1{,}0 \\cdot 2^2 = 2\\text{ J}$$"
-                },
-                {
-                  "title": "Ubytek energii",
-                  "content": "Ubytek energii: $\\Delta E = 20\\text{ J} - 2\\text{ J} = 18\\text{ J}$.\n$$\\frac{\\Delta E}{E_i} = \\frac{18\\text{ J}}{20\\text{ J}} = 0{,}90 = 90\\%$$"
+                  "title": "Bilans energii kinetycznej i ubytek względny",
+                  "content": "Energia początkowa:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}10\\text{ kg} \\cdot (20\\text{ m/s})^2 = 20\\text{ J}$$\nEnergia końcowa:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 1{,}0\\text{ kg} \\cdot (2\\text{ m/s})^2 = 2\\text{ J}$$\nUbytek energii wynosi $\\Delta E_k = 20\\text{ J} - 2\\text{ J} = 18\\text{ J}$, co stanowi:\n$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{18\\text{ J}}{20\\text{ J}} = 0{,}90 = 90\\%$$"
                 }
               ],
               "answer": "Wspólna szybkość wynosi $2\\text{ m/s}$. Układ utracił $18\\text{ J}$ energii kinetycznej, co stanowi $90\\%$ energii początkowej."
@@ -6778,28 +6743,28 @@ window.FIZYKOREK_COURSES = {
             "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
             "tags": [
               "Zderzenie niesprężyste",
-              "Tarcie",
-              "Dwuetapowe"
+              "Praca tarcia",
+              "Droga hamowania"
             ],
             "problem": "<p class=\"problem-paragraph\">Wózek $1\\text{ kg}$ jedzie z $8\\text{ m/s}$ i zderza się niesprężyście z nieruchomym wózkiem $3\\text{ kg}$. Po zderzeniu oba wózki poruszają się po szorstkim torze, na którym siła tarcia ma wartość $4\\text{ N}$. Oblicz drogę do zatrzymania układu.</p>",
             "solution": {
               "givens": "$m_1 = 1\\text{ kg}$, $v_1 = 8\\text{ m/s}$, $m_2 = 3\\text{ kg}$, $v_2 = 0$, $T = 4\\text{ N}$.",
               "steps": [
                 {
-                  "title": "Prędkość po zderzeniu z pędu",
-                  "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies 1 \\cdot 8 = (1 + 3) v \\implies 8 = 4v \\implies v = 2\\text{ m/s}$$"
+                  "title": "Wyznaczenie prędkości po zderzeniu z zasady zachowania pędu",
+                  "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies v = \\frac{m_1 v_1}{m_1 + m_2} = \\frac{1\\text{ kg} \\cdot 8\\text{ m/s}}{1\\text{ kg} + 3\\text{ kg}} = \\frac{8}{4} = 2\\text{ m/s}$$"
                 },
                 {
-                  "title": "Energia kinetyczna po zderzeniu",
-                  "content": "Energia kinetyczna sczepionych wózków tuż po zderzeniu:\n$$E_{kf} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 8\\text{ J}$$"
+                  "title": "Energia kinetyczna sczepionych ciał tuż po zderzeniu",
+                  "content": "$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4\\text{ kg} \\cdot (2\\text{ m/s})^2 = 8\\text{ J}$$"
                 },
                 {
-                  "title": "Droga hamowania pod wpływem pracy tarcia",
-                  "content": "Praca tarcia niweluje energię $E_{kf}$:\n$$W_t = -T \\cdot s \\implies -4s = -8 \\implies s = 2\\text{ m}$$"
+                  "title": "Wyznaczenie drogi hamowania z twierdzenia o pracy i energii",
+                  "content": "Praca siły tarcia niweczy energię kinetyczną układu ($W_t = -E_{k,\\text{końc}}$):\n$$-T \\cdot s = -E_{k,\\text{końc}} \\implies s = \\frac{E_{k,\\text{końc}}}{T} = \\frac{8\\text{ J}}{4\\text{ N}} = 2\\text{ m}$$"
                 }
               ],
               "answer": "Droga do zatrzymania układu wynosi $2\\text{ m}$.",
-              "trap": "Nie wolno używać energii sprzed zderzenia ($E_i = 32\\text{ J}$) jako energii do wyhamowania, ponieważ aż $24\\text{ J}$ zostało bezpowrotnie rozproszone w samym akcie zderzenia!"
+              "trap": "Nie wolno brać energii sprzed zderzenia ($E_{k,\\text{pocz}} = 32\\text{ J}$), ponieważ aż $24\\text{ J}$ zostało bezpowrotnie zamienione na ciepło w samym akcie zderzenia!"
             }
           },
           {
@@ -6809,29 +6774,28 @@ window.FIZYKOREK_COURSES = {
             "difficulty": 3,
             "source": "Zbiór autorski Matura 2027 • Zderzenia niesprężyste",
             "tags": [
-              "Zderzenie niesprężyste",
               "Zjazd z równi",
-              "Ubytek energii",
-              "Zadanie maturalne"
+              "Zderzenie niesprężyste",
+              "Bilans energii"
             ],
-            "problem": "<p class=\"problem-paragraph\">Klocek $m_1 = 0{,}50\\text{ kg}$ zsuwa się bez tarcia z wysokości $1{,}8\\text{ m}$ i na poziomym torze zderza się niesprężyście z nieruchomym klockiem $m_2 = 1{,}0\\text{ kg}$. Po zderzeniu klocki poruszają się razem. Oblicz szybkość pierwszego klocka tuż przed zderzeniem, wspólną szybkość tuż po zderzeniu i ubytek energii kinetycznej w samym zderzeniu.</p>\n",
+            "problem": "<p class=\"problem-paragraph\">Klocek $m_1 = 0{,}50\\text{ kg}$ zsuwa się bez tarcia z wysokości $1{,}8\\text{ m}$ i na poziomym torze zderza się niesprężyście z nieruchomym klockiem $m_2 = 1{,}0\\text{ kg}$. Po zderzeniu klocki poruszają się razem. Oblicz szybkość pierwszego klocka tuż przed zderzeniem, wspólną szybkość tuż po zderzeniu i ubytek energii kinetycznej w samym zderzeniu.</p>",
             "solution": {
               "givens": "$m_1 = 0{,}50\\text{ kg}$, $h = 1{,}8\\text{ m}$, $m_2 = 1{,}0\\text{ kg}$, $g = 10\\text{ m/s}^2$.",
               "steps": [
                 {
-                  "title": "Szybkość pierwszego klocka tuż przed zderzeniem",
-                  "content": "Z zasady zachowania energii na gładkim zjeździe:\n$$m_1 gh = \\frac{1}{2}m_1 v_1^2 \\implies v_1 = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 1{,}8} = \\sqrt{36} = 6\\text{ m/s}$$"
+                  "title": "Szybkość pierwszego klocka przed zderzeniem (z ZZE)",
+                  "content": "$$m_1 gh = \\frac{1}{2}m_1 v_1^2 \\implies v_1 = \\sqrt{2gh} = \\sqrt{2 \\cdot 10\\text{ m/s}^2 \\cdot 1{,}8\\text{ m}} = \\sqrt{36} = 6\\text{ m/s}$$"
                 },
                 {
-                  "title": "Wspólna szybkość klocków tuż po zderzeniu",
-                  "content": "W zderzeniu niesprężystym zachowany jest pęd:\n$$m_1 v_1 = (m_1 + m_2) v \\implies 0{,}50 \\cdot 6 = (0{,}50 + 1{,}0) v \\implies 3 = 1{,}5 v \\implies v = 2\\text{ m/s}$$"
+                  "title": "Wspólna szybkość po zderzeniu (z ZZP)",
+                  "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies v = \\frac{m_1 v_1}{m_1 + m_2} = \\frac{0{,}50\\text{ kg} \\cdot 6\\text{ m/s}}{0{,}50\\text{ kg} + 1{,}0\\text{ kg}} = \\frac{3}{1{,}5} = 2\\text{ m/s}$$"
                 },
                 {
-                  "title": "Ubytek energii kinetycznej w zderzeniu",
-                  "content": "Energia tuż przed zderzeniem:\n$$E_i = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}50 \\cdot 6^2 = 9\\text{ J}$$\nEnergia tuż po zderzeniu:\n$$E_f = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 1{,}50 \\cdot 2^2 = 3\\text{ J}$$\nUbytek energii w samym zderzeniu:\n$$\\Delta E = E_i - E_f = 9\\text{ J} - 3\\text{ J} = 6\\text{ J}$$"
+                  "title": "Wyznaczenie ubytku energii kinetycznej w zderzeniu",
+                  "content": "Energia tuż przed zderzeniem:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 0{,}50\\text{ kg} \\cdot (6\\text{ m/s})^2 = 9\\text{ J}$$\nEnergia tuż po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 1{,}50\\text{ kg} \\cdot (2\\text{ m/s})^2 = 3\\text{ J}$$\nUbytek energii kinetycznej zamienionej na ciepło:\n$$\\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} = 9\\text{ J} - 3\\text{ J} = 6\\text{ J}$$"
                 }
               ],
-              "answer": "Szybkość przed zderzeniem: $6\\text{ m/s}$, wspólna szybkość po zderzeniu: $2\\text{ m/s}$, ubytek energii w zderzeniu: $6\\text{ J}$."
+              "answer": "Szybkość przed zderzeniem: $6\\text{ m/s}$, wspólna szybkość po zderzeniu: $2\\text{ m/s}$, ubytek energii kinetycznej: $6\\text{ J}$."
             }
           },
           {
@@ -6842,17 +6806,17 @@ window.FIZYKOREK_COURSES = {
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
               "Zderzenie sprężyste",
-              "Zasady zachowania",
+              "Prawa zachowania",
               "Zadanie zamknięte"
             ],
             "correctOption": "C",
-            "problem": "<p class=\"problem-paragraph\">W izolowanym układzie zderzenie jest doskonale sprężyste, gdy zachowują się:</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">tylko pęd</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">tylko energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">pęd i energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">pęd, energia kinetyczna i masa każdej kuli</span></div>\n</div>",
+            "problem": "<p class=\"problem-paragraph\">Wskaż wielkości, które są zachowane w izolowanym zderzeniu doskonale sprężystym dwóch ciał.</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">Tylko pęd</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">Tylko energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">Pęd i energia kinetyczna</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">Pęd i prędkości obu ciał</span></div>\n</div>",
             "solution": {
-              "givens": "Izolowany układ mechaniczny.",
+              "givens": "Układ izolowany, zderzenie doskonale sprężyste.",
               "steps": [
                 {
-                  "title": "Definicja zderzenia sprężystego",
-                  "content": "W każdym izolowanym układzie pęd jest zawsze zachowany (wynika z III zasady dynamiki Newtona). Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy dodatkowo zachowana jest całkowita energia kinetyczna układu (brak rozproszenia energii na ciepło czy trwałe deformacje)."
+                  "title": "Zasady zachowania w zderzeniu sprężystym",
+                  "content": "W każdym zderzeniu w układzie izolowanym zachowany jest pęd ($\\sum \\vec{p}_{\\text{pocz}} = \\sum \\vec{p}_{\\text{końc}}$). Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy nie występują straty energii na ciepło ani odkształcenia trwałe, czyli zachowana jest również całkowita energia kinetyczna ($\\sum E_{k,\\text{pocz}} = \\sum E_{k,\\text{końc}}$)."
                 }
               ],
               "answer": "Poprawna odpowiedź: C (pęd i energia kinetyczna)."
@@ -6870,16 +6834,16 @@ window.FIZYKOREK_COURSES = {
               "Zadanie zamknięte"
             ],
             "correctOption": "A",
-            "problem": "<p class=\"problem-paragraph\">Kula $1\\text{ kg}$ poruszająca się z szybkością $4\\text{ m/s}$ zderza się centralnie i sprężyście z nieruchomą kulą o tej samej masie. Wskaż prędkości obu kul po zderzeniu.</p>\n<div class=\"problem-options-list\" data-correct=\"A\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$v_1' = 2\\text{ m/s},\\ v_2' = 2\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$v_1' = 4\\text{ m/s},\\ v_2' = 0$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$v_1' = 4\\text{ m/s}$ w lewo$,\\ v_2' = 0$</span></div>\n</div>",
+            "problem": "<p class=\"problem-paragraph\">Kula o masie $1\\text{ kg}$ porusza się w prawo z szybkością $4\\text{ m/s}$ i uderza sprężyście w nieruchomą kulę o tej samej masie. Wskaż prędkości kul po zderzeniu.</p>\n<div class=\"problem-options-list\" data-correct=\"A\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$v_1' = -2\\text{ m/s},\\ v_2' = +2\\text{ m/s}$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$v_1' = +2\\text{ m/s},\\ v_2' = +2\\text{ m/s}$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$v_1' = -4\\text{ m/s},\\ v_2' = 0$</span></div>\n</div>",
             "solution": {
               "givens": "$m_1 = m_2 = 1\\text{ kg}$, $v_1 = 4\\text{ m/s}$ (w prawo), $v_2 = 0$.",
               "steps": [
                 {
-                  "title": "Wymiana prędkości ciał o równych masach",
-                  "content": "W centralnym zderzeniu sprężystym ciał o jednakowych masach dochodzi do całkowitej wymiany prędkości:\n$$v_1' = v_2 = 0$$\n$$v_2' = v_1 = 4\\text{ m/s}\\quad\\text{(w prawo)}$$"
+                  "title": "Zastosowanie układu równań pędu i prędkości względnych",
+                  "content": "Dla zderzenia sprężystego ciał o jednakowej masie ($m_1 = m_2$):\n$$\\begin{cases} v_1 + v_2 = v_1' + v_2' \\\\\\\\ v_1 - v_2 = -(v_1' - v_2') \\end{cases}$$\nPodstawiając $v_1 = 4\\text{ m/s}$ oraz $v_2 = 0$:\n$$\\begin{cases} v_1' + v_2' = 4 \\\\\\\\ -v_1' + v_2' = 4 \\end{cases} \\implies v_1' = 0, \\quad v_2' = 4\\text{ m/s}$$\nCiała o jednakowych masach w centralnym zderzeniu sprężystym wymieniają się prędkościami."
                 }
               ],
-              "answer": "Poprawna odpowiedź: A ($v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo). Kula uderzająca zatrzymuje się, a kula uderzana przejmuje całą prędkość."
+              "answer": "Poprawna odpowiedź: A ($v_1' = 0,\\ v_2' = 4\\text{ m/s}$ w prawo). Kula uderzająca zatrzymuje się, a kula uderzana przejmuje całą jej prędkość i energię."
             }
           },
           {
@@ -6890,22 +6854,23 @@ window.FIZYKOREK_COURSES = {
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
               "Zderzenie sprężyste",
-              "Odbicie"
+              "Układ równań",
+              "Prędkości względne"
             ],
-            "problem": "<p class=\"problem-paragraph\">Kula $m_1 = 1\\text{ kg}$ z prędkością $6\\text{ m/s}$ uderza centralnie i sprężyście w nieruchomą kulę $m_2 = 2\\text{ kg}$. Oblicz prędkości obu kul po zderzeniu.</p>",
+            "problem": "<p class=\"problem-paragraph\">Kula o masie $1\\text{ kg}$ porusza się w prawo z szybkością $6\\text{ m/s}$ i zderza się centralnie i sprężyście z nieruchomą kulą o masie $2\\text{ kg}$. Oblicz prędkości obu kul po zderzeniu.</p>",
             "solution": {
-              "givens": "$m_1 = 1\\text{ kg}$, $v_1 = 6\\text{ m/s}$, $m_2 = 2\\text{ kg}$, $v_2 = 0$.",
+              "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +6\\text{ m/s}$, $m_2 = 2\\text{ kg}$, $v_2 = 0$.",
               "steps": [
                 {
-                  "title": "Równania pędu i względnej prędkości",
-                  "content": "Pęd: $1 \\cdot 6 + 2 \\cdot 0 = 1 \\cdot v_1' + 2 \\cdot v_2' \\implies 6 = v_1' + 2v_2'$.\nW zderzeniu sprężystym prędkość oddalania równa się prędkości zbliżania:\n$$v_2' - v_1' = v_1 - v_2 = 6 \\implies v_1' = v_2' - 6$$"
+                  "title": "Układ równań pędu i prędkości względnych",
+                  "content": "Zasada zachowania pędu:\n$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2' \\implies 1 \\cdot 6 + 2 \\cdot 0 = v_1' + 2v_2' \\implies v_1' + 2v_2' = 6$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_1 - v_2 = -(v_1' - v_2') \\implies 6 - 0 = -v_1' + v_2' \\implies -v_1' + v_2' = 6$$"
                 },
                 {
-                  "title": "Rozwiązanie układu równań",
-                  "content": "Podstawiając $v_1'$ do równania pędu:\n$$6 = (v_2' - 6) + 2v_2' \\implies 12 = 3v_2' \\implies v_2' = 4\\text{ m/s}$$\n$$v_1' = 4 - 6 = -2\\text{ m/s}$$"
+                  "title": "Rozwiązanie układu równań liniowych",
+                  "content": "Dodając oba równania stronami, eliminujemy $v_1'$:\n$$3v_2' = 12 \\implies v_2' = 4\\text{ m/s}$$\nPodstawiając do drugiego równania:\n$$v_1' = v_2' - 6 = 4 - 6 = -2\\text{ m/s}$$\nZnak minus oznacza, że lżejsza kula odbija się i zawraca w lewo."
                 }
               ],
-              "answer": "$v_1' = -2\\text{ m/s}$ (lżejsza kula odbija się i porusza w lewo z szybkością $2\\text{ m/s}$), $v_2' = 4\\text{ m/s}$ (cięższa kula porusza się w prawo z szybkością $4\\text{ m/s}$)."
+              "answer": "Prędkości po zderzeniu wynoszą: $v_1' = -2\\text{ m/s}$ (w lewo) oraz $v_2' = 4\\text{ m/s}$ (w prawo)."
             }
           },
           {
@@ -6916,23 +6881,23 @@ window.FIZYKOREK_COURSES = {
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
               "Zderzenie sprężyste",
-              "Układ środka masy",
-              "Zerowy pęd"
+              "Zerowy pęd",
+              "Układ równań"
             ],
-            "problem": "<p class=\"problem-paragraph\">Dwie kule o masach $m_1 = 2\\text{ kg}$ i $m_2 = 1\\text{ kg}$ poruszają się wzdłuż jednej prostej: pierwsza w prawo z $2\\text{ m/s}$, druga w lewo z $4\\text{ m/s}$. Po zderzeniu sprężystym oblicz ich prędkości.</p>",
+            "problem": "<p class=\"problem-paragraph\">Dwie kule o masach $m_1 = 2\\text{ kg}$ i $m_2 = 1\\text{ kg}$ poruszają się naprzeciwko siebie z szybkościami odpowiednio $v_1 = 2\\text{ m/s}$ (w prawo) oraz $v_2 = 4\\text{ m/s}$ (w lewo). Zderzenie jest centralne i doskonale sprężyste. Wyznacz prędkości kul po zderzeniu.</p>",
             "solution": {
-              "givens": "$m_1 = 2\\text{ kg}$, $v_1 = +2\\text{ m/s}$, $m_2 = 1\\text{ kg}$, $v_2 = -4\\text{ m/s}$.",
+              "givens": "$m_1 = 2\\text{ kg}$, $v_1 = +2\\text{ m/s}$ (w prawo), $m_2 = 1\\text{ kg}$, $v_2 = -4\\text{ m/s}$ (w lewo).",
               "steps": [
                 {
-                  "title": "Wyznaczenie całkowitego pędu układu",
-                  "content": "$$p = m_1 v_1 + m_2 v_2 = 2 \\cdot 2 + 1 \\cdot (-4) = 4 - 4 = 0$$"
+                  "title": "Układ równań zachowania pędu i prędkości względnych",
+                  "content": "Całkowity pęd początkowy układu wynosi:\n$$p_{\\text{pocz}} = m_1 v_1 + m_2 v_2 = 2 \\cdot 2 + 1 \\cdot (-4) = 4 - 4 = 0$$\nZasada zachowania pędu po zderzeniu:\n$$m_1 v_1' + m_2 v_2' = 0 \\implies 2v_1' + v_2' = 0 \\implies v_2' = -2v_1'$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_1 - v_2 = -(v_1' - v_2') \\implies 2 - (-4) = -v_1' + v_2' \\implies -v_1' + v_2' = 6$$"
                 },
                 {
-                  "title": "Wyznaczenie prędkości po zderzeniu",
-                  "content": "Gdy całkowity pęd początkowy wynosi zero, w zderzeniu sprężystym kule po prostu odwracają zwroty swoich prędkości:\n$$v_1' = -v_1 = -2\\text{ m/s}\\quad\\text{(w lewo)}$$\n$$v_2' = -v_2 = +4\\text{ m/s}\\quad\\text{(w prawo)}$$\nKontrola energii: $\\frac{1}{2} \\cdot 2 \\cdot 2^2 + \\frac{1}{2} \\cdot 1 \\cdot 4^2 = 4 + 8 = 12\\text{ J}$ (energia zachowana)."
+                  "title": "Wyznaczenie prędkości końcowych",
+                  "content": "Podstawiając $v_2' = -2v_1'$ do równania prędkości względnych:\n$$-v_1' + (-2v_1') = 6 \\implies -3v_1' = 6 \\implies v_1' = -2\\text{ m/s}$$\n$$v_2' = -2v_1' = -2 \\cdot (-2) = +4\\text{ m/s}$$\nGdy całkowity pęd układu wynosi zero, ciała po zderzeniu sprężystym odwracają zwroty swoich prędkości, zachowując ich wartości."
                 }
               ],
-              "answer": "Prędkości kul po zderzeniu wynoszą: $v_1' = -2\\text{ m/s}$ (w lewo) oraz $v_2' = +4\\text{ m/s}$ (w prawo)."
+              "answer": "Prędkości po zderzeniu wynoszą: $v_1' = -2\\text{ m/s}$ (w lewo) oraz $v_2' = +4\\text{ m/s}$ (w prawo)."
             }
           },
           {
@@ -6943,106 +6908,104 @@ window.FIZYKOREK_COURSES = {
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
               "Zderzenie sprężyste",
-              "Zachowanie energii",
-              "Zadanie maturalne"
+              "Bilans energii",
+              "Zachowanie pędu"
             ],
-            "problem": "<p class=\"problem-paragraph\">Wózek $1\\text{ kg}$ jedzie w prawo z $5\\text{ m/s}$ i zderza się z nieruchomym wózkiem $4\\text{ kg}$. Po zderzeniu pierwszy wózek jedzie w lewo z szybkością $3\\text{ m/s}$. Sprawdź, czy zderzenie mogło być sprężyste.</p>\n",
+            "problem": "<p class=\"problem-paragraph\">Wózek o masie $m_1 = 1\\text{ kg}$ jadący z prędkością $+5\\text{ m/s}$ uderza w spoczywający wózek o masie $m_2 = 4\\text{ kg}$. Po zderzeniu pierwszy wózek cofa się z prędkością $v_1' = -3\\text{ m/s}$. Ustal, czy to zderzenie mogło być doskonale sprężyste.</p>",
             "solution": {
-              "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +5\\text{ m/s}$, $m_2 = 4\\text{ kg}$, $v_2 = 0$, $v_1' = -3\\text{ m/s}$ (w lewo).",
+              "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +5\\text{ m/s}$, $m_2 = 4\\text{ kg}$, $v_2 = 0$, $v_1' = -3\\text{ m/s}$.",
               "steps": [
                 {
-                  "title": "Obliczenie prędkości drugiego wózka z zasady zachowania pędu",
-                  "content": "Pęd przed zderzeniem: $p = 1 \\cdot 5 = 5\\text{ kg}\\cdot\\text{m/s}$.\n$$1 \\cdot (-3) + 4 \\cdot v_2' = 5 \\implies -3 + 4v_2' = 5 \\implies 4v_2' = 8 \\implies v_2' = 2\\text{ m/s}$$"
+                  "title": "Wyznaczenie prędkości drugiego wózka z zasady zachowania pędu",
+                  "content": "$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'$$\n$$1 \\cdot 5 + 4 \\cdot 0 = 1 \\cdot (-3) + 4 \\cdot v_2' \\implies 5 = -3 + 4v_2' \\implies 4v_2' = 8 \\implies v_2' = 2\\text{ m/s}$$"
                 },
                 {
                   "title": "Porównanie energii kinetycznych przed i po zderzeniu",
-                  "content": "Energia przed zderzeniem:\n$$E_i = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 1 \\cdot 5^2 = 12{,}5\\text{ J}$$\nEnergia po zderzeniu:\n$$E_f = \\frac{1}{2}m_1 (v_1')^2 + \\frac{1}{2}m_2 (v_2')^2 = \\frac{1}{2} \\cdot 1 \\cdot (-3)^2 + \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 4{,}5 + 8 = 12{,}5\\text{ J}$$"
+                  "content": "Energia kinetyczna przed zderzeniem:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 1\\text{ kg} \\cdot (5\\text{ m/s})^2 = 12{,}5\\text{ J}$$\nEnergia kinetyczna po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}m_1 (v_1')^2 + \\frac{1}{2}m_2 (v_2')^2 = \\frac{1}{2} \\cdot 1 \\cdot (-3)^2 + \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 4{,}5\\text{ J} + 8\\text{ J} = 12{,}5\\text{ J}$$\nPonieważ $E_{k,\\text{końc}} = E_{k,\\text{pocz}} = 12{,}5\\text{ J}$, energia kinetyczna została w $100\\%$ zachowana."
                 }
               ],
-              "answer": "Tak, zderzenie mogło być doskonale sprężyste, ponieważ energia kinetyczna układu została w pełni zachowana ($E_f = E_i = 12{,}5\\text{ J}$)."
+              "answer": "Tak, zderzenie mogło być doskonale sprężyste, ponieważ energia kinetyczna układu została w pełni zachowana ($E_{k,\\text{końc}} = E_{k,\\text{pocz}} = 12{,}5\\text{ J}$)."
             }
           },
           {
             "id": "p-zad-39",
             "number": 39,
             "title": "Zadanie 39. Dwuwymiarowe zderzenie sprężyste jednakowych kul",
-            "difficulty": 2,
+            "difficulty": 3,
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
-              "Zderzenie sprężyste 2D",
-              "Kąt prosty",
-              "Zadanie maturalne"
+              "Zderzenie 2D",
+              "Zachowanie energii",
+              "Wektory pędu"
             ],
-            "problem": "<p class=\"problem-paragraph\">Dwie jednakowe kule poruszają się początkowo: A z szybkością $5\\text{ m/s}$ na wschód, B spoczywa. Po sprężystym zderzeniu w płaszczyźnie kula A ma szybkość $3\\text{ m/s}$. Oblicz szybkość kuli B i kąt między prędkościami kul po zderzeniu.</p>\n",
+            "problem": "<p class=\"problem-paragraph\">Dwie jednakowe kule poruszają się początkowo: A z szybkością $5\\text{ m/s}$, B spoczywa. Po sprężystym zderzeniu w płaszczyźnie kula A ma szybkość $3\\text{ m/s}$. Oblicz szybkość kuli B i wykaż, że wektory prędkości kul po zderzeniu są prostopadłe.</p>",
             "solution": {
-              "givens": "$m_A = m_B = m$, $v_0 = 5\\text{ m/s}$ (wschód), $v_B = 0$, $v_A' = 3\\text{ m/s}$.",
+              "givens": "$m_A = m_B = m$, $v_0 = 5\\text{ m/s}$, $v_B = 0$, $v_A' = 3\\text{ m/s}$.",
               "steps": [
                 {
                   "title": "Obliczenie szybkości kuli B z zasady zachowania energii",
-                  "content": "Dla jednakowych mas energia kinetyczna daje:\n$$v_0^2 = (v_A')^2 + (v_B')^2 \\implies 5^2 = 3^2 + (v_B')^2 \\implies 25 = 9 + (v_B')^2$$\n$$(v_B')^2 = 16 \\implies v_B' = 4\\text{ m/s}$$"
+                  "content": "Dla jednakowych mas masa $m$ upraszcza się w równaniu energii:\n$$\\frac{1}{2}m v_0^2 = \\frac{1}{2}m (v_A')^2 + \\frac{1}{2}m (v_B')^2 \\implies v_0^2 = (v_A')^2 + (v_B')^2$$\n$$5^2 = 3^2 + (v_B')^2 \\implies 25 = 9 + (v_B')^2 \\implies (v_B')^2 = 16 \\implies v_B' = 4\\text{ m/s}$$"
                 },
                 {
-                  "title": "Wyznaczenie kąta między wektorami prędkości z pędu",
-                  "content": "Z wektorowej zasady zachowania pędu: $\\vec{v}_0 = \\vec{v}_A' + \\vec{v}_B'$.\nPodnosząc skalarnie do kwadratu:\n$$v_0^2 = (v_A')^2 + (v_B')^2 + 2 \\vec{v}_A' \\cdot \\vec{v}_B'$$\nPorównując z bilansem energii, otrzymujemy: $2 \\vec{v}_A' \\cdot \\vec{v}_B' = 0 \\implies \\vec{v}_A' \\perp \\vec{v}_B'$."
+                  "title": "Wyznaczenie kąta między wektorami prędkości z wektorowej ZZP",
+                  "content": "Z zasady zachowania pędu: $\\vec{v}_0 = \\vec{v}_A' + \\vec{v}_B'.$\nPodnosząc to równanie skalarnie do kwadratu:\n$$v_0^2 = (\\vec{v}_A' + \\vec{v}_B')^2 = (v_A')^2 + (v_B')^2 + 2\\vec{v}_A' \\cdot \\vec{v}_B'$$\nPorównując z równaniem energii ($v_0^2 = (v_A')^2 + (v_B')^2$), otrzymujemy:\n$$2\\vec{v}_A' \\cdot \\vec{v}_B' = 0 \\implies \\vec{v}_A' \\perp \\vec{v}_B' \\implies \\alpha = 90^\\circ$$"
                 }
               ],
-              "answer": "Szybkość kuli B wynosi $4\\text{ m/s}$, a kąt między wektorami prędkości kul po zderzeniu wynosi $90^\\circ$."
+              "answer": "Szybkość kuli B wynosi $4\\text{ m/s}$, a kąt między wektorami prędkości obu kul po zderzeniu wynosi $90^\\circ$."
             }
           },
           {
             "id": "p-zad-40",
             "number": 40,
-            "title": "Zadanie 40. Zderzenie sprężyste z rozproszeniem kuli na północ",
-            "difficulty": 2,
+            "title": "Zadanie 40. Zderzenie sprężyste 2D pod kątem",
+            "difficulty": 3,
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
-              "Zderzenie sprężyste 2D",
-              "Wektory pędu"
+              "Zderzenie 2D",
+              "Symetria",
+              "Rozproszenie pod kątem"
             ],
-            "problem": "<p class=\"problem-paragraph\">Kula $0{,}20\\text{ kg}$ porusza się na wschód z szybkością $10\\text{ m/s}$ i zderza się sprężyście z nieruchomą kulą o tej samej masie. Po zderzeniu pierwsza kula porusza się na północ. Wyznacz szybkość obu kul i kierunek ruchu drugiej kuli.</p>",
+            "problem": "<p class=\"problem-paragraph\">Kula o masie $0{,}20\\text{ kg}$ porusza się z szybkością $10\\text{ m/s}$ i zderza się sprężyście z nieruchomą kulą o tej samej masie. Po zderzeniu kula 1 odchyla się pod kątem $45^\\circ$ względem pierwotnego kierunku ruchu. Wyznacz szybkości obu kul po zderzeniu oraz kąt odchylenia kuli 2.</p>",
             "solution": {
-              "givens": "$m_1 = m_2 = 0{,}20\\text{ kg}$, $v_0 = 10\\text{ m/s}$ (wschód), po zderzeniu pierwsza kula porusza się na północ.",
+              "givens": "$m_1 = m_2 = 0{,}20\\text{ kg}$, $v_0 = 10\\text{ m/s}$, $v_2 = 0$, kąt odchylenia kuli 1: $\\alpha = 45^\\circ$.",
               "steps": [
                 {
-                  "title": "Analiza wektorów pędu",
-                  "content": "Początkowy wektor prędkości jest sumą wektorów końcowych ($\\vec{v}_0 = \\vec{v}_1' + \\vec{v}_2'$). Skoro $\\vec{v}_1'$ biegnie na północ, $\\vec{v}_2'$ musi mieć składową wschodnią oraz składową południową."
+                  "title": "Wyznaczenie kierunku ruchu kuli 2 z prostopadłości wektorów",
+                  "content": "Dla zderzenia sprężystego kul o jednakowej masie z kulą spoczywającą kąt między wektorami prędkości po zderzeniu wynosi $90^\\circ$ ($\\vec{v}_1' \\perp \\vec{v}_2'$).\nSkoro kula 1 odchyliła się o $45^\\circ$ w jedną stronę, to kula 2 musi odchylić się o kąt $90^\\circ - 45^\\circ = 45^\\circ$ w drugą stronę."
                 },
                 {
-                  "title": "Bilans energii i składowych",
-                  "content": "Zachowanie energii: $10^2 = (v_1')^2 + (v_2')^2$.\nWarunek pędu w osi pionowej (północ–południe) wymaga równych co do wartości i przeciwnych składowych:\n$$v_1' = v_2' = \\frac{10}{\\sqrt{2}}\\text{ m/s} = 5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$$"
-                },
-                {
-                  "title": "Kierunek ruchu drugiej kuli",
-                  "content": "Składowa wschodnia i południowa drugiej kuli są równe, więc kąt wynosi $45^\\circ$ na południe od wschodu."
+                  "title": "Wyznaczenie wartości prędkości z symetrii i zachowania energii",
+                  "content": "Z równości kątów i zachowania pędu w osi pionowej wynika symetria szybkości: $v_1' = v_2'.$\nZ zasady zachowania energii kinetycznej:\n$$v_0^2 = (v_1')^2 + (v_2')^2 = 2(v_1')^2$$\n$$10^2 = 2(v_1')^2 \\implies (v_1')^2 = 50 \\implies v_1' = v_2' = \\sqrt{50} = 5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$$"
                 }
               ],
-              "answer": "Szybkości obu kul po zderzeniu wynoszą $v_1' = v_2' = 5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$. Druga kula porusza się pod kątem $45^\\circ$ na południe od kierunku wschodniego."
+              "answer": "Szybkości obu kul po zderzeniu są równe i wynoszą $5\\sqrt{2}\\text{ m/s} \\approx 7{,}07\\text{ m/s}$. Kula 2 odchyla się o kąt $45^\\circ$ w przeciwną stronę niż kula 1."
             }
           },
           {
             "id": "p-zad-41",
             "number": 41,
             "title": "Zadanie 41. Zderzenie sprężyste ciał o różnych masach i prędkościach",
-            "difficulty": 2,
+            "difficulty": 3,
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
-              "Zderzenie centralne sprężyste",
-              "Wzory na zderzenie sprężyste"
+              "Zderzenie sprężyste",
+              "Układ równań liniowych",
+              "Prędkości względne"
             ],
-            "problem": "<p class=\"problem-paragraph\">Kula $m_1 = 1\\text{ kg}$ porusza się w prawo z $8\\text{ m/s}$ i zderza się sprężyście z kulą $m_2 = 3\\text{ kg}$ poruszającą się w prawo z $2\\text{ m/s}$. Wyznacz prędkości po zderzeniu. Czy pierwsza kula odbije się?</p>",
+            "problem": "<p class=\"problem-paragraph\">Kula $m_1 = 1\\text{ kg}$ porusza się w prawo z szybkością $8\\text{ m/s}$ i dogania kulę $m_2 = 3\\text{ kg}$ poruszającą się w prawo z szybkością $2\\text{ m/s}$. Zderzenie jest centralne i doskonale sprężyste. Wyznacz prędkości obu kul po zderzeniu.</p>",
             "solution": {
               "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +8\\text{ m/s}$, $m_2 = 3\\text{ kg}$, $v_2 = +2\\text{ m/s}$.",
               "steps": [
                 {
-                  "title": "Zastosowanie wzorów na prędkości po zderzeniu sprężystym",
-                  "content": "$$v_1' = \\frac{m_1 - m_2}{m_1 + m_2}v_1 + \\frac{2m_2}{m_1 + m_2}v_2 = \\frac{1 - 3}{1 + 3} \\cdot 8 + \\frac{2 \\cdot 3}{1 + 3} \\cdot 2 = -\\frac{2}{4} \\cdot 8 + \\frac{6}{4} \\cdot 2 = -4 + 3 = -1\\text{ m/s}$$\n$$v_2' = \\frac{2m_1}{m_1 + m_2}v_1 + \\frac{m_2 - m_1}{m_1 + m_2}v_2 = \\frac{2 \\cdot 1}{4} \\cdot 8 + \\frac{3 - 1}{4} \\cdot 2 = 4 + 1 = 5\\text{ m/s}$$"
+                  "title": "Układ równań pędu i prędkości względnych",
+                  "content": "Zasada zachowania pędu:\n$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'$$\n$$1 \\cdot 8 + 3 \\cdot 2 = 1 \\cdot v_1' + 3 \\cdot v_2' \\implies 8 + 6 = v_1' + 3v_2' \\implies v_1' + 3v_2' = 14$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_1 - v_2 = -(v_1' - v_2') \\implies 8 - 2 = -v_1' + v_2' \\implies -v_1' + v_2' = 6$$"
                 },
                 {
-                  "title": "Kontrola pędu i interpretacja znaku",
-                  "content": "Pęd przed: $1 \\cdot 8 + 3 \\cdot 2 = 14\\text{ kg}\\cdot\\text{m/s}$.\nPęd po: $1 \\cdot (-1) + 3 \\cdot 5 = 14\\text{ kg}\\cdot\\text{m/s}$.\nUjemny znak $v_1'$ oznacza zmianę zwrotu ruchu."
+                  "title": "Rozwiązanie układu równań liniowych",
+                  "content": "Dodając oba równania stronami, eliminujemy $v_1'$:\n$$(v_1' + 3v_2') + (-v_1' + v_2') = 14 + 6 \\implies 4v_2' = 20 \\implies v_2' = 5\\text{ m/s}$$\nPodstawiając do drugiego równania:\n$$v_1' = v_2' - 6 = 5 - 6 = -1\\text{ m/s}$$\nZnak minus oznacza, że kula 1 odbija się i zawraca w lewo z szybkością $1\\text{ m/s}$."
                 }
               ],
-              "answer": "Prędkości po zderzeniu: $v_1' = -1\\text{ m/s}$ oraz $v_2' = 5\\text{ m/s}$. Pierwsza kula odbija się i porusza w lewo z szybkością $1\\text{ m/s}$."
+              "answer": "Prędkości po zderzeniu wynoszą: $v_1' = -1\\text{ m/s}$ (w lewo) oraz $v_2' = 5\\text{ m/s}$ (w prawo)."
             }
           },
           {
@@ -7052,29 +7015,28 @@ window.FIZYKOREK_COURSES = {
             "difficulty": 3,
             "source": "Zbiór autorski Matura 2027 • Zderzenia sprężyste",
             "tags": [
-              "Zderzenie sprężyste",
-              "Wyprowadzenie wzoru",
-              "Ułamek energii",
-              "Zadanie maturalne"
+              "Zadanie wieloetapowe",
+              "Układ równań",
+              "Bilans energii"
             ],
-            "problem": "<p class=\"problem-paragraph\">Na gładkim poziomym torze wózek A o masie $m$ porusza się w prawo z szybkością $v$. Wózek B o masie $3m$ spoczywa. Zderzenie jest centralne i doskonale sprężyste.</p>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(a)</strong>\n  <span class=\"problem-subquestion-text\">Wyprowadź prędkości obu wózków po zderzeniu w zależności od $v$.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(b)</strong>\n  <span class=\"problem-subquestion-text\">Sprawdź zachowanie pędu i energii kinetycznej.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(c)</strong>\n  <span class=\"problem-subquestion-text\">Ustal, jaka część początkowej energii kinetycznej A pozostanie przy A.</span>\n</div>\n",
+            "problem": "<p class=\"problem-paragraph\">Na gładkim poziomym torze wózek A o masie $m$ porusza się w prawo z szybkością $v$. Wózek B o masie $3m$ spoczywa. Zderzenie jest centralne i doskonale sprężyste.</p>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(a)</strong>\n  <span class=\"problem-subquestion-text\">Wyprowadź prędkości obu wózków po zderzeniu w zależności od $v$.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(b)</strong>\n  <span class=\"problem-subquestion-text\">Sprawdź zachowanie pędu i energii kinetycznej.</span>\n</div>\n<div class=\"problem-subquestion-item\">\n  <strong class=\"problem-subquestion-letter\">(c)</strong>\n  <span class=\"problem-subquestion-text\">Ustal, jaka część początkowej energii kinetycznej wózka A pozostanie przy nim po zderzeniu.</span>\n</div>",
             "solution": {
               "givens": "$m_A = m$, $v_A = v$, $m_B = 3m$, $v_B = 0$.",
               "steps": [
                 {
-                  "title": "(a) Wyprowadzenie prędkości po zderzeniu",
-                  "content": "Niech prędkości po zderzeniu wynoszą $u_A$ i $u_B$.\nZ zachowania pędu:\n$$mv = mu_A + 3mu_B \\implies v = u_A + 3u_B \\implies u_A = v - 3u_B$$\nZ zachowania energii kinetycznej:\n$$\\frac{1}{2}mv^2 = \\frac{1}{2}mu_A^2 + \\frac{1}{2}(3m)u_B^2 \\implies v^2 = u_A^2 + 3u_B^2$$\nPodstawiając $u_A = v - 3u_B$:\n$$v^2 = (v - 3u_B)^2 + 3u_B^2 = v^2 - 6v u_B + 9u_B^2 + 3u_B^2$$\n$$12u_B^2 - 6v u_B = 0 \\implies 6u_B (2u_B - v) = 0$$\nOdrzucając stan początkowy ($u_B = 0$), otrzymujemy:\n$$u_B = \\frac{v}{2}$$\n$$u_A = v - 3\\left(\\frac{v}{2}\\right) = -\\frac{v}{2}$$"
+                  "title": "(a) Wyprowadzenie prędkości po zderzeniu z układu równań",
+                  "content": "Zasada zachowania pędu:\n$$m v_A + 3m v_B = m v_A' + 3m v_B' \\implies m v = m(v_A' + 3v_B') \\implies v_A' + 3v_B' = v$$\nRelacja prędkości względnych w zderzeniu sprężystym:\n$$v_A - v_B = -(v_A' - v_B') \\implies v - 0 = -v_A' + v_B' \\implies -v_A' + v_B' = v$$\nDodając równania stronami:\n$$4v_B' = 2v \\implies v_B' = \\frac{v}{2}$$\nPodstawiając do drugiego równania:\n$$v_A' = v_B' - v = \\frac{v}{2} - v = -\\frac{v}{2}$$\nWózek A odbija się i porusza w lewo z szybkością $\\frac{v}{2}$, a wózek B porusza się w prawo z szybkością $\\frac{v}{2}$."
                 },
                 {
-                  "title": "(b) Kontrola zachowania pędu i energii",
-                  "content": "Pęd po zderzeniu:\n$$p_f = m u_A + 3m u_B = m\\left(-\\frac{v}{2}\\right) + 3m\\left(\\frac{v}{2}\\right) = mv = p_i$$\nEnergia kinetyczna po zderzeniu:\n$$E_f = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 + \\frac{1}{2}(3m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2 + \\frac{3}{8}mv^2 = \\frac{4}{8}mv^2 = \\frac{1}{2}mv^2 = E_i$$\nObie wielkości są zachowane."
+                  "title": "(b) Kontrola zachowania pędu i energii kinetycznej",
+                  "content": "Pęd po zderzeniu:\n$$p_{\\text{końc}} = m v_A' + 3m v_B' = m\\left(-\\frac{v}{2}\\right) + 3m\\left(\\frac{v}{2}\\right) = -\\frac{1}{2}mv + \\frac{3}{2}mv = mv = p_{\\text{pocz}}$$\nEnergia kinetyczna po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}m(v_A')^2 + \\frac{1}{2}(3m)(v_B')^2 = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 + \\frac{3}{2}m\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2 + \\frac{3}{8}mv^2 = \\frac{1}{2}mv^2 = E_{k,\\text{pocz}}$$\nObie wielkości są ściśle zachowane."
                 },
                 {
                   "title": "(c) Ułamek energii kinetycznej wózka A",
-                  "content": "Energia kinetyczna wózka A po zderzeniu:\n$$E_{kA}' = \\frac{1}{2}m u_A^2 = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2$$\nPoczątkowa energia wózka A to $E_{kA} = \\frac{1}{2}mv^2$.\n$$\\frac{E_{kA}'}{E_{kA}} = \\frac{\\frac{1}{8}mv^2}{\\frac{1}{2}mv^2} = \\frac{1}{4} = 25\\%$$"
+                  "content": "Energia kinetyczna wózka A po zderzeniu:\n$$E_{kA}' = \\frac{1}{2}m(v_A')^2 = \\frac{1}{2}m\\left(-\\frac{v}{2}\\right)^2 = \\frac{1}{8}mv^2$$\nStosunek do początkowej energii $E_{kA} = \\frac{1}{2}mv^2$:\n$$\\frac{E_{kA}'}{E_{kA}} = \\frac{\\frac{1}{8}mv^2}{\\frac{1}{2}mv^2} = \\frac{1}{4} = 25\\%$$"
                 }
               ],
-              "answer": "(a) $u_A = -\\frac{v}{2}$ (wózek A odbija się w lewo z szybkością $v/2$), $u_B = \\frac{v}{2}$ (wózek B porusza się w prawo z szybkością $v/2$). (b) Pęd wynosi $mv$, energia kinetyczna $\\frac{1}{2}mv^2$ — obie wielkości są zachowane. (c) Przy wózku A pozostaje $\\frac{1}{4}$ ($25\\%$) początkowej energii kinetycznej."
+              "answer": "(a) $v_A' = -\\frac{v}{2}$ (wózek A odbija się w lewo z szybkością $v/2$), $v_B' = \\frac{v}{2}$ (wózek B porusza się w prawo z szybkością $v/2$). (b) Pęd wynosi $mv$, energia kinetyczna $\\frac{1}{2}mv^2$ — obie wielkości są zachowane. (c) Przy wózku A pozostaje $\\frac{1}{4}$ ($25\\%$) początkowej energii kinetycznej."
             }
           },
           {
@@ -7099,20 +7061,23 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Pęd układu jest zachowany. W chwili maksymalnego ściśnięcia część energii kinetycznej jest zmagazynowana w sprężynie.",
-              "givens": "$m_A=m_B=m$, prędkość początkowa A: $v_1$, B spoczywa.",
+              "givens": "$m_A = m_B = m$, prędkość początkowa klocka A: $v_1$, klocek B początkowo spoczywa ($v_{B,\\text{pocz}} = 0$), sprężyna o współczynniku sprężystości $k$, brak oporów ruchu i tarcia.",
               "steps": [
                 {
-                  "title": "Zadanie 3.1",
-                  "content": "Oba zdania są prawdziwe (P, P). Sprężyna o pomijalnej masie działa na klocki siłami o równych wartościach. W chwili maksymalnego ściśnięcia klocki mają tę samą prędkość, więc ich prędkość względna wynosi zero."
+                  "title": "Zadanie 3.1 – Analiza prawdziwości stwierdzeń (III zasada dynamiki i ruch względny)",
+                  "content": "1. Zgodnie z **III zasadą dynamiki Newtona** oraz założeniem o pomijalnej masie sprężyny, siła wywierana przez sprężynę na klocek A ma w każdej chwili dokładnie taką samą wartość jak siła wywierana na klocek B:\n$$F_{s\\to A} = F_{s\\to B} = k\\Delta x$$\nStwierdzenie 1. jest **prawdziwe (P)**.\n\n2. Maksymalne ściśnięcie sprężyny następuje w punkcie zwrotnym odkształcenia – klocki przestają się zbliżać, a jeszcze nie zaczynają oddalać. W tym ułamku sekundy poruszają się z tą samą prędkością chwilową ($v_A = v_B = v_2$), zatem ich prędkość względna wynosi:\n$$v_{\\text{wzgl}} = v_A - v_B = 0$$\nStwierdzenie 2. jest **prawdziwe (P)**."
                 },
                 {
-                  "title": "Zadanie 3.2",
-                  "content": "Z zachowania pędu $mv_1=2mv_2$, więc $v_2=v_1/2$.\nZ zachowania energii: $\\frac12mv_1^2=2\\cdot\\frac12mv_2^2+\\frac12k(\\Delta x_{max})^2$.\nPo podstawieniu $v_2$: $\\frac14mv_1^2=\\frac12k(\\Delta x_{max})^2$.\nStąd $\\Delta x_{max}=v_1\\sqrt{\\frac{m}{2k}}$."
+                  "title": "Zadanie 3.2 – Prędkość chwilowa klocków z zasady zachowania pędu",
+                  "content": "W płaszczyźnie poziomej na układ nie działają żadne siły zewnętrzne, więc całkowity pęd układu jest zachowany w każdej chwili ruchu:\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m v_1 + 0 = (m + m) v_2 = 2m v_2$$\nDzieląc obustronnie przez $2m$, otrzymujemy prędkość obu klocków przy maksymalnym ściśnięciu sprężyny:\n$$v_2 = \\frac{v_1}{2}$$"
+                },
+                {
+                  "title": "Zadanie 3.2 – Bilans energii mechanicznej i wyznaczenie odkształcenia $\\Delta x_{\\max}$",
+                  "content": "Układ jest izolowany, a ruch odbywa się bez tarcia, więc całkowita energia mechaniczna układu jest zachowana:\n$$E_{\\text{pocz}} = E_{\\text{końc}}$$\nPoczątkowo układ posiada wyłącznie energię kinetyczną klocka A. W chwili maksymalnego odkształcenia sprężyny posiada energię kinetyczną obu klocków oraz energię potencjalną sprężystości sprężyny:\n$$\\frac{1}{2}m v_1^2 = \\frac{1}{2}(2m) v_2^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nPodstawiamy wyznaczoną prędkość $v_2 = \\frac{v_1}{2}$:\n$$\\frac{1}{2}m v_1^2 = m \\left(\\frac{v_1}{2}\\right)^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\n$$\\frac{1}{2}m v_1^2 = \\frac{1}{4}m v_1^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nOdejmujemy $\\frac{1}{4}m v_1^2$ od obu stron równania:\n$$\\frac{1}{4}m v_1^2 = \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nMnożymy obustronnie przez 2 i dzielimy przez współczynnik $k$:\n$$(\\Delta x_{\\max})^2 = \\frac{m v_1^2}{2k}$$\nWyciągamy pierwiastek kwadratowy:\n$$\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}} \\qquad \\left(\\text{lub } \\sqrt{\\frac{m v_1^2}{2k}}\\right)$$"
                 }
               ],
-              "answer": "3.1: P, P; 3.2: $\\Delta x_{max}=v_1\\sqrt{\\frac{m}{2k}}$.",
-              "trap": "Przy maksymalnym ściśnięciu oba klocki nadal się poruszają. Nie cała początkowa energia kinetyczna jest energią sprężystości.",
+              "answer": "3.1: 1 – Prawda (P), 2 – Prawda (P);\n3.2: $\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}}$ (lub $\\sqrt{\\frac{m v_1^2}{2k}}$).",
+              "trap": "W chwili maksymalnego ściśnięcia sprężyny klocki nie zatrzymują się w układzie odniesienia podłoża! Układ porusza się dalej z prędkością środka masy $v_1/2$, więc część energii początkowej pozostaje w energii kinetycznej ruchu postępowego obu klocków.",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://naukagryzie.pl/arkusze/matura-rozszerzona/fizyka/czerwiec-2026-formula-2023-cke/odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–11</a>."
             },
             "solutionSource": {
@@ -7147,24 +7112,27 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Siła wypadkowa w kierunku promienia zapewnia przyśpieszenie dośrodkowe. Prędkości na dole i na górze łączy zasada zachowania energii.",
-              "givens": "Promień $l$, masa $m$, $v_{max}/v_{min}=\\sqrt3$.",
+              "givens": "Długość nici (promień okręgu): $l$, masa ciała: $m$, stosunek prędkości skrajnych: $\\frac{v_{\\max}}{v_{\\min}} = \\sqrt{3}$, ruch po okręgu w płaszczyźnie pionowej, brak oporów ruchu.",
               "steps": [
                 {
-                  "title": "Zadanie 2.1",
-                  "content": "Przez punkty zaczepienia obu prędkości poprowadź proste prostopadłe do tych prędkości. Ich przecięcie to środek $S$. Leży on 10 kratek poniżej punktu zaczepienia $\\vec v_1$. Promień wynosi $l=10$ długości boku kratki.<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
+                  "title": "Zadanie 2.1 – Konstrukcja środka okręgu i odczyt promienia",
+                  "content": "Wektor prędkości w ruchu po okręgu jest w każdej chwili styczny do toru, co oznacza, że promień łączący ciało ze środkiem okręgu $S$ jest zawsze prostopadły do wektora prędkości $\\vec{v}$:\n1. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_1$ w punkcie jego przyłożenia (pionowo w dół).\n2. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_2$ w punkcie jego przyłożenia.\n3. Punkt przecięcia obu prostych jednoznacznie wyznacza środek okręgu $S$.\n\nOdliczając kratki pionowo od środka $S$ do punktu zaczepienia wektora $\\vec{v}_1$, odczytujemy promień okręgu:\n$$l = 10\\text{ długości kratek}$$\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
                 },
                 {
-                  "title": "Zadanie 2.2",
-                  "content": "W najniższym punkcie przyśpieszenie dośrodkowe jest zwrócone do góry: $F_n-mg=mv^2/l>0$. Stąd $F_n>F_g$, a siły mają przeciwne zwroty. Odpowiedź B."
+                  "title": "Zadanie 2.2 – Wybór sił działających w najniższym położeniu",
+                  "content": "W najniższym położeniu na ciało działają dwie pionowe siły:\n- siła grawitacji $\\vec{F}_g = m\\vec{g}$ skierowana pionowo w dół,\n- siła reakcji (naciągu) nici $\\vec{F}_n$ skierowana pionowo w górę (w stronę środka okręgu $S$).\n\nAby ciało poruszało się po okręgu, siła wypadkowa musi być skierowana do środka okręgu (w górę) i pełnić rolę siły dośrodkowej:\n$$F_{\\text{doś}} = F_n - F_g = \\frac{m v_{\\max}^2}{l} > 0 \\implies F_n > F_g$$\nWektor siły reakcji nici $\\vec{F}_n$ musi mieć zatem większą długość niż wektor ciężaru $\\vec{F}_g$. Warunek ten spełnia wyłącznie **rysunek B**."
                 },
                 {
-                  "title": "Zadanie 2.3",
-                  "content": "Z zachowania energii między dołem i górą: $\\frac12m(v_{max}^2-v_{min}^2)=mg\\cdot2l$. Ponieważ $v_{max}^2=3v_{min}^2$, otrzymujemy $v_{min}^2=2gl$ i $v_{max}^2=6gl$.\nNa dole: $F_{n\\,max}=mg+mv_{max}^2/l=7mg$.\nNa górze: $F_{n\\,min}+mg=mv_{min}^2/l$, więc $F_{n\\,min}=mg$.\nZatem $F_{n\\,max}/F_{n\\,min}=7$."
+                  "title": "Zadanie 2.3 – Równania dynamiki w skrajnych punktach toru",
+                  "content": "Zapisujemy II zasadę dynamiki dla składowych sił wzdłuż promienia okręgu w punktach o prędkości maksymalnej i minimalnej:\n- **W najniższym punkcie (prędkość maksymalna $v_{\\max}$):**\n$$F_{n,\\max} - mg = \\frac{m v_{\\max}^2}{l} \\implies F_{n,\\max} = mg + \\frac{m v_{\\max}^2}{l}$$\n- **W najwyższym punkcie (prędkość minimalna $v_{\\min}$):**\nZarówno siła reakcji nici, jak i siła grawitacji działają w dół (w stronę środka $S$):\n$$F_{n,\\min} + mg = \\frac{m v_{\\min}^2}{l} \\implies F_{n,\\min} = \\frac{m v_{\\min}^2}{l} - mg$$"
+                },
+                {
+                  "title": "Zadanie 2.3 – Zastosowanie zasady zachowania energii i obliczenie ilorazu sił",
+                  "content": "Różnica wysokości między najniższym a najwyższym punktem toru wynosi $h = 2l$. Z zasady zachowania energii mechanicznej:\n$$\\frac{1}{2}m v_{\\max}^2 = \\frac{1}{2}m v_{\\min}^2 + mg(2l)$$\nMnożymy obustronnie przez $\\frac{2}{l}$:\n$$\\frac{m v_{\\max}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg$$\nZ treści zadania wiemy, że $v_{\\max} = \\sqrt{3}\\,v_{\\min}$, co oznacza $v_{\\max}^2 = 3v_{\\min}^2$. Podstawiamy:\n$$3\\,\\frac{m v_{\\min}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg \\implies 2\\,\\frac{m v_{\\min}^2}{l} = 4mg \\implies \\frac{m v_{\\min}^2}{l} = 2mg$$\nStąd dla prędkości maksymalnej:\n$$\\frac{m v_{\\max}^2}{l} = 3 \\cdot (2mg) = 6mg$$\nObliczamy wartości sił reakcji nici:\n$$F_{n,\\max} = mg + 6mg = 7mg$$\n$$F_{n,\\min} = 2mg - mg = mg$$\nIloraz poszukiwanych sił wynosi:\n$$\\frac{F_{n,\\max}}{F_{n,\\min}} = \\frac{7mg}{mg} = 7$$"
                 }
               ],
-              "answer": "2.1: $l=10$ kratek; 2.2: B; 2.3: $7$.",
-              "trap": "Na górze ciężar i napięcie nici są zwrócone do środka okręgu, więc dodają się.",
+              "answer": "2.1: Konstrukcja prostych prostopadłych, $l = 10\\text{ długości kratek}$;\n2.2: Poprawny rysunek B ($F_n > F_g$);\n2.3: Iloraz wynosi $\\frac{F_{n,\\max}}{F_{n,\\min}} = 7$.",
+              "trap": "W najwyższym punkcie toru siła ciężkości działa w tym samym zwrocie co siła naciągu nici (w dół, w stronę środka okręgu), dlatego $F_{n,\\min} = \\frac{mv_{\\min}^2}{l} - mg$, a nie ze znakiem plus!",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-maj-matura-rozszerzona-odpowiedzi.pdf#page=10\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 10–14</a>."
             },
             "solutionSource": {
@@ -7199,20 +7167,23 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "W zderzeniu sprężystym zachowane są pęd i energia kinetyczna układu. Siły wzajemnego oddziaływania spełniają III zasadę dynamiki.",
-              "givens": "Przed zderzeniem K1 ma prędkość $v_1$, a K2 spoczywa. Po zderzeniu prędkości mają wartości $v_2$ i przeciwne zwroty.",
+              "givens": "Kula K1 o masie $m_1$ z prędkością początkową $v_1$, kula K2 o masie $m_2$ początkowo spoczywa ($v_{2,\\text{pocz}} = 0$). Zderzenie sprężyste centralne. Po zderzeniu obie kule mają tę samą wartość prędkości $v_2$, lecz przeciwne zwroty ($v_1' = -v_2$, $v_2' = +v_2$).",
               "steps": [
                 {
-                  "title": "Zadanie 2.1",
-                  "content": "Siłę działającą na K1 rysujemy w lewo, a siłę działającą na K2 w prawo. Wektory zaczepiamy w środkach kul, na prostej łączącej te środki. Długości wektorów są jednakowe.<div class=\"chart-container-svg\"><img src=\"img/energy/2026-styczen-z2-sily-rozwiazanie.png\" alt=\"Siły oddziaływania kul według klucza CKE\" class=\"theory-img\" style=\"max-height:280px;display:block;margin:15px auto;\"></div>"
+                  "title": "Zadanie 2.1 – Wektory sił wzajemnego oddziaływania kul (III zasada dynamiki)",
+                  "content": "W chwili zderzenia kule oddziałują na siebie siłami sprężystości:\n- Siła $\\vec{F}_{21}$ (wywierana na kulę K1 przez kulę K2) jest zaczepiona w środku kuli K1 i skierowana poziomo w lewo (wyhamowuje kulę K1).\n- Siła $\\vec{F}_{12}$ (wywierana na kulę K2 przez kulę K1) jest zaczepiona w środku kuli K2 i skierowana poziomo w prawo (rozpędza kulę K2).\n\nZgodnie z **III zasadą dynamiki Newtona** siły te tworzą parę akcja–reakcja: leżą na prostej łączącej środki kul, mają przeciwne zwroty oraz **dokładnie równe wartości** ($|\\vec{F}_{21}| = |\\vec{F}_{12}|$), bez względu na relację między masami kul!\nOba wektory rysujemy zaczepione w środkach kul z zachowaniem identycznej długości (np. 5 kratek w kluczu CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-styczen-z2-sily-rozwiazanie.png\" alt=\"Rysunek wektorów sił według klucza CKE\" class=\"theory-img\" style=\"max-height:280px;display:block;margin:15px auto;\"></div>"
                 },
                 {
-                  "title": "Zadanie 2.2",
-                  "content": "Przyjmujemy zwrot dodatni w prawo. Zachowanie pędu:\n$m_1v_1=-m_1v_2+m_2v_2$.\nZachowanie energii kinetycznej:\n$m_1v_1^2=(m_1+m_2)v_2^2$.\nOznaczamy $r=m_2/m_1$. Z pierwszego równania $v_1=(r-1)v_2$, a z drugiego $v_1^2=(1+r)v_2^2$.\nPo podstawieniu: $(r-1)^2=1+r$.\n$r^2-3r=0$, więc $r(r-3)=0$.\nMasy są dodatnie, zatem $r=3$, czyli $m_2/m_1=3$."
+                  "title": "Zadanie 2.2 – Zasada zachowania pędu i zderzenie sprężyste",
+                  "content": "Przyjmujemy oś $x$ skierowaną w prawo.\n1. **Zasada zachowania pędu:**\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m_1 v_1 + 0 = -m_1 v_2 + m_2 v_2$$\nGrupujemy wyrazy z masą $m_1$:\n$$m_1 (v_1 + v_2) = m_2 v_2 \\implies \\frac{m_2}{m_1} = \\frac{v_1 + v_2}{v_2} = \\frac{v_1}{v_2} + 1 \\quad \\text{(Równanie 1)}$$\n\n2. **Zasada zachowania energii kinetycznej (zderzenie sprężyste):**\n$$E_{k,\\text{pocz}} = E_{k,\\text{końc}}$$\n$$\\frac{1}{2}m_1 v_1^2 + 0 = \\frac{1}{2}m_1 v_2^2 + \\frac{1}{2}m_2 v_2^2$$\nMnożymy obustronnie przez 2 i przenosimy wyrazy z $m_1$ na lewą stronę:\n$$m_1 (v_1^2 - v_2^2) = m_2 v_2^2 \\implies \\frac{m_2}{m_1} = \\frac{v_1^2 - v_2^2}{v_2^2} = \\left(\\frac{v_1}{v_2}\\right)^2 - 1 \\quad \\text{(Równanie 2)}$$"
+                },
+                {
+                  "title": "Zadanie 2.2 – Wyznaczenie ilorazu mas $\\frac{m_2}{m_1}$",
+                  "content": "Przyrównujemy prawe strony Równania 1 i Równania 2:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2}\\right)^2 - 1$$\nRozpisujemy prawą stronę ze wzoru skróconego mnożenia na różnicę kwadratów: $\\left(\\frac{v_1}{v_2}\\right)^2 - 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$$\nPonieważ $v_1 + v_2 > 0$, możemy podzielić obie strony przez $\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$1 = \\frac{v_1}{v_2} - 1 \\implies \\frac{v_1}{v_2} = 2$$\nPodstawiamy obliczony stosunek $\\frac{v_1}{v_2} = 2$ do Równania 1:\n$$\\frac{m_2}{m_1} = \\frac{v_1}{v_2} + 1 = 2 + 1 = 3$$"
                 }
               ],
-              "answer": "2.1: równe i przeciwne siły, jak na rysunku.\n2.2: $m_2/m_1=3$.",
-              "trap": "Prędkość kuli K1 po zderzeniu ma ujemną współrzędną.",
+              "answer": "2.1: Wektory sił $\\vec{F}_{21}$ i $\\vec{F}_{12}$ zaczepione w środkach kul, o jednakowych długościach i przeciwnych zwrotach;\n2.2: Iloraz mas wynosi $\\frac{m_2}{m_1} = 3$.",
+              "trap": "Częsty błąd na maturze to rysowanie dłuższego wektora siły dla kuli o większej masie. III zasada dynamiki Newtona gwarantuje bezwzględną równość wartości sił akcji i reakcji ($|\\vec{F}_{21}| = |\\vec{F}_{12}|$)!",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–12</a>."
             },
             "solutionSource": {
@@ -7247,20 +7218,23 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Dwie jednakowe masy w sprężystym zderzeniu centralnym wymieniają się prędkościami. Po trwałym połączeniu zachowany jest pęd, ale maleje energia kinetyczna.",
-              "givens": "$m_1=m_2=m$, $v_1=2v_2$; przed zderzeniem kule poruszają się w przeciwnych kierunkach.",
+              "givens": "Masy kul: $m_1 = m_2 = m$, prędkości początkowe: $\\vec{v}_1$ o wartości $2v_2$ (skierowana w prawo), $\\vec{v}_2$ o wartości $v_2$ (skierowana w lewo, czyli $v_1 = 2v_2$).",
               "steps": [
                 {
-                  "title": "Zadanie 2.1",
-                  "content": "K1 przejmuje prędkość K2 (w lewo, wartość $v_2$), a K2 przejmuje prędkość K1 (w prawo, wartość $2v_2$). Odpowiedź B."
+                  "title": "Zadanie 2.1 – Centralne zderzenie sprężyste ciał o jednakowych masach",
+                  "content": "Dla centralnego zderzenia idealnie sprężystego ciał o identycznych masach ($m_1 = m_2$) z zasad zachowania pędu i energii wynika reguła wymiany prędkości wraz ze zwrotami:\n$$\\vec{v}_1' = \\vec{v}_2 \\qquad \\text{oraz} \\qquad \\vec{v}_2' = \\vec{v}_1$$\nOznacza to, że po zderzeniu:\n- kula K1 przejmuje wektor prędkości kuli K2: porusza się w lewo z szybkością $v_2$,\n- kula K2 przejmuje wektor prędkości kuli K1: porusza się w prawo z szybkością $2v_2$.\n\nRelację tę poprawnie przedstawia **rysunek B**."
                 },
                 {
-                  "title": "Zadanie 2.2",
-                  "content": "Oś kierujemy w prawo. Pęd początkowy to $m(2v_2)-mv_2=mv_2$.\nPo trwałym połączeniu kul: $2mu=mv_2$, więc $u=v_2/2$.\nEnergia przed zderzeniem:\n$E_p=\\frac12m(2v_2)^2+\\frac12mv_2^2=\\frac52mv_2^2$.\nEnergia po zderzeniu:\n$E_k=\\frac12(2m)(v_2/2)^2=\\frac14mv_2^2$.\nPozostała część energii: $E_k/E_p=1/10$.\nUtracona część: $(E_p-E_k)/E_p=9/10=90\\%$."
+                  "title": "Zadanie 2.2 – Wyznaczenie prędkości po sczepieniu z zasady zachowania pędu",
+                  "content": "W zderzeniu niesprężystym (kule trwale się łączą) całkowity pęd układu jest ściśle zachowany. Przyjmując oś $x$ skierowaną w prawo:\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m v_1 - m v_2 = (m + m) u$$\nPodstawiamy $v_1 = 2v_2$:\n$$m(2v_2) - m v_2 = 2m u \\implies m v_2 = 2m u \\implies u = \\frac{v_2}{2} = 0{,}5\\,v_2$$\nPołączone kule poruszają się w prawo ze wspólną prędkością $u = \\frac{v_2}{2}$."
+                },
+                {
+                  "title": "Zadanie 2.2 – Obliczenie utraconej części energii kinetycznej",
+                  "content": "1. Obliczamy całkowitą początkową energię kinetyczną obu kul:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m v_1^2 + \\frac{1}{2}m v_2^2 = \\frac{1}{2}m(2v_2)^2 + \\frac{1}{2}m v_2^2 = \\frac{4}{2}m v_2^2 + \\frac{1}{2}m v_2^2 = \\frac{5}{2}m v_2^2 = 2{,}5\\,m v_2^2$$\n2. Obliczamy energię kinetyczną połączonego układu po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(2m) u^2 = m u^2 = m \\left(\\frac{v_2}{2}\\right)^2 = \\frac{1}{4}m v_2^2 = 0{,}25\\,m v_2^2$$\n3. Obliczamy ubytek energii kinetycznej:\n$$\\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} = 2{,}5\\,m v_2^2 - 0{,}25\\,m v_2^2 = 2{,}25\\,m v_2^2 = \\frac{9}{4}m v_2^2$$\n4. Wyznaczamy stosunek utraconej energii do energii początkowej:\n$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{2{,}25\\,m v_2^2}{2{,}5\\,m v_2^2} = \\frac{2{,}25}{2{,}5} = \\frac{9}{10} = 0{,}90 = 90\\%$$"
                 }
               ],
-              "answer": "2.1: B.\n2.2: utracone $9/10$ energii, czyli $90\\%$.",
-              "trap": "W bilansie pędu uwzględniamy zwroty; w energii występują kwadraty wartości prędkości.",
+              "answer": "2.1: Poprawny rysunek B;\n2.2: Układ utracił $\\frac{9}{10}$ (czyli $0{,}90$ lub $90\\%$) początkowej energii kinetycznej.",
+              "trap": "Nie wolno dodawać prędkości skalarnie przy wyznaczaniu pędu – kule poruszają się naprzeciwko siebie, więc pędy mają przeciwne zwroty: $p_{\\text{pocz}} = m(2v_2) - mv_2 = mv_2$, a nie $3mv_2$!",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf#page=7\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 7–10</a>."
             },
             "solutionSource": {
@@ -7295,20 +7269,19 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Siły zderzenia gładkich krążków działają wzdłuż linii ich środków. Składowa prędkości prostopadła do tej linii nie zmienia się.",
-              "givens": "Masy są równe. K2 początkowo spoczywa. Zderzenie jest doskonale sprężyste.",
+              "givens": "Jednakowe masy krążków: $m_1 = m_2 = m$, krążek K2 początkowo spoczywa w początku układu współrzędnych, brak oporów i tarcia, zderzenie idealnie sprężyste. Linia środków w chwili zderzenia równoległa do osi $x$.",
               "steps": [
                 {
-                  "title": "Zadanie 2.1",
-                  "content": "Na K1 działa siła w lewo, a na K2 w prawo. Obie są poziome, mają jednakową wartość i są przyłożone odpowiednio w środkach masy krążków.<div class=\"chart-container-svg\"><img src=\"img/energy/2023-maj-z2-sily-rozwiazanie.png\" alt=\"Siły działające podczas zderzenia krążków według klucza CKE\" class=\"theory-img\" style=\"max-height:340px;display:block;margin:15px auto;\"></div>"
+                  "title": "Zadanie 2.1 – Wektory sił wzajemnego oddziaływania krążków",
+                  "content": "W chwili zderzenia brak tarcia sprawia, że siły kontaktowe działają ściśle w kierunku normalnym (prostopadłym do powierzchni styku), czyli wzdłuż prostej łączącej środki obu krążków (kierunek osi $x$):\n- Siła $\\vec{F}_{12}$ (działająca na krążek K1 od krążka K2): zaczepiona w środku krążka K1 i skierowana poziomo w lewo (wzdłuż osi $x$).\n- Siła $\\vec{F}_{21}$ (działająca na krążek K2 od krążka K1): zaczepiona w środku krążka K2 i skierowana poziomo w prawo (wzdłuż osi $x$).\n\nZgodnie z **III zasadą dynamiki Newtona** siły te leżą na jednej prostej, mają przeciwne zwroty oraz **równe wartości** ($|\\vec{F}_{12}| = |\\vec{F}_{21}|$). Wektory rysujemy poziomo o jednakowej długości (4 kratki według klucza CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2023-maj-z2-sily-rozwiazanie.png\" alt=\"Siły działające podczas zderzenia krążków według klucza CKE\" class=\"theory-img\" style=\"max-height:340px;display:block;margin:15px auto;\"></div>"
                 },
                 {
-                  "title": "Zadanie 2.2",
-                  "content": "Siły nie mają składowych w kierunku $y$, dlatego $v_{1y}=v_y$, a $v_{2y}=0$.\nW kierunku $x$ jednakowe masy w sprężystym zderzeniu wymieniają się składowymi prędkości: $v_{1x}=0$, $v_{2x}=v_x$.\nPo zderzeniu $\\vec v_1=\\vec v_y$ i $\\vec v_2=\\vec v_x$. Odpowiedź C."
+                  "title": "Zadanie 2.2 – Rozkład ruchu na osie i wektory prędkości po zderzeniu",
+                  "content": "Rozkładamy ruch na kierunek prostopadły do powierzchni styku (oś $x$ – kierunek normalny) oraz kierunek styczny (oś $y$):\n1. **Wzdłuż osi $y$ (stycznej):** Nie działa żadna siła ($F_y = 0$). Zatem krążek K2 nie uzyskuje składowej prędkości pionowej ($v_{2y}' = 0$), a składowa pionowa prędkości krążka K1 pozostaje całkowicie niezmieniona:\n$$\\vec{v}_{1y}' = \\vec{v}_{1y} = -v_y$$\n2. **Wzdłuż osi $x$ (normalnej):** Zachodzi sprężyste zderzenie centralne ciał o identycznych masach. Ciała wymieniają się prędkościami w tej osi:\n- krążek K1 wyhamowuje do zera w osi $x$: $v_{1x}' = 0$,\n- spoczywający początkowo krążek K2 przejmuje całą składową prędkości poziomej: $v_{2x}' = v_x$.\n\n3. **Podsumowanie wektorów po zderzeniu:**\n- Krążek K1 ma wyłącznie prędkość pionową w dół: $\\vec{v}_1' = [0; -v_y]$,\n- Krążek K2 ma wyłącznie prędkość poziomą w prawo: $\\vec{v}_2' = [v_x; 0]$.\n\nWarunek ten idealnie spełnia **rysunek C**."
                 }
               ],
-              "answer": "2.1: równe, przeciwne siły wzdłuż osi x.\n2.2: C.",
-              "trap": "Prędkość jest wektorem. W tym zderzeniu wymieniają się tylko jej składowe wzdłuż osi x.",
+              "answer": "2.1: Wektory sił $\\vec{F}_{12}$ i $\\vec{F}_{21}$ leżą na linii środków krążków (oś $x$), mają jednakowe długości i przeciwne zwroty;\n2.2: Poprawny rysunek C.",
+              "trap": "Uderzany krążek K2 może uzyskać prędkość wyłącznie w kierunku działającej na niego siły normalnej (w prawo wzdłuż linii środków). Przy braku tarcia nie ma możliwości przekazania żadnego pędu w osi pionowej (stycznej)!",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2023-maj-matura-rozszerzona-odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–9</a>."
             },
             "solutionSource": {
@@ -7344,24 +7317,23 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Przed uderzeniem zachowana jest energia mechaniczna kulki. Przy odbiciu prędkość zmienia zwrot, a energia maleje o 25%.",
-              "givens": "$m=0{,}250\\text{ kg}$, $h=1{,}80\\text{ m}$, $v_0=3{,}20\\text{ m/s}$.\n$\\Delta t=0{,}005\\text{ s}$, $g=9{,}81\\text{ m/s}^2$.",
+              "givens": "Masa kulki: $m = 0{,}250\\text{ kg}$, wysokość początkowa: $h = 1{,}80\\text{ m}$, prędkość początkowa: $v_0 = 3{,}20\\text{ m/s}$ (skierowana pionowo w dół), czas zderzenia z podłożem: $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, przyśpieszenie ziemskie: $g = 9{,}81\\text{ m/s}^2$, strata energii mechanicznej przy odbiciu: $25\\%$.",
               "steps": [
                 {
-                  "title": "Zadanie 2.1",
-                  "content": "Dla osi skierowanej w dół: $h=v_0t+\\frac12gt^2$.\nDodatni pierwiastek tego równania:\n$t=\\frac{-v_0+\\sqrt{v_0^2+2gh}}g$.\nPo podstawieniu danych: $t\\approx0{,}362\\text{ s}$."
+                  "title": "Zadanie 2.1 – Obliczenie czasu spadania kulki",
+                  "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe w jednostkach SI:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
                 },
                 {
-                  "title": "Zadanie 2.2",
-                  "content": "Przyjmujemy zerową energię potencjalną na podłożu:\n$\\frac12mv_1^2=\\frac12mv_0^2+mgh$.\n$v_1=\\sqrt{v_0^2+2gh}$.\n$v_1=\\sqrt{3{,}20^2+2\\cdot9{,}81\\cdot1{,}80}\\text{ m/s}$.\n$v_1\\approx6{,}75\\text{ m/s}$."
+                  "title": "Zadanie 2.2 – Wykazanie prędkości tuż przed uderzeniem z zasady zachowania energii",
+                  "content": "Przyjmując poziom zerowy energii potencjalnej na powierzchni podłoża ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{1}{2}m v_0^2 + mgh = \\frac{1}{2}m v_1^2$$\nDzielimy obustronnie przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$\n*(co należało wykazać).*"
                 },
                 {
-                  "title": "Zadanie 2.3",
-                  "content": "Energia po odbiciu stanowi $75\\%$ energii tuż przed uderzeniem: $v_2^2=0{,}75v_1^2$.\n$v_2=\\sqrt{0{,}75}\\,v_1\\approx5{,}85\\text{ m/s}$.\nOś kierujemy w górę. Zmiana pędu to $\\Delta p=mv_2-(-mv_1)$.\nImpuls siły wypadkowej: $(F_R-mg)\\Delta t=m(v_2+v_1)$.\n$F_R=mg+\\frac{m(v_1+v_2)}{\\Delta t}$.\nPo podstawieniu danych: $F_R\\approx632\\text{ N}$."
+                  "title": "Zadanie 2.3 – Prędkość po odbiciu i siła reakcji podłoża z II zasady dynamiki",
+                  "content": "1. **Prędkość kulki tuż po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii kinetycznej, więc po odbiciu zachowała $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}m v_2^2 = 0{,}75 \\cdot \\left(\\frac{1}{2}m v_1^2\\right) \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495\\text{ m/s} \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia kulki z podłożem:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (skierowana pionowo w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie siły i zmianie pędu):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250\\text{ kg} \\cdot (6{,}7495\\text{ m/s} + 5{,}845\\text{ m/s})}{0{,}005\\text{ s}} = 50 \\cdot 12{,}5945\\text{ N} \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45\\text{ N} + 629{,}7\\text{ N} \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
                 }
               ],
-              "answer": "2.1: $t\\approx0{,}36\\text{ s}$.\n2.2: $v_1\\approx6{,}75\\text{ m/s}$.\n2.3: $F_R\\approx632\\text{ N}$.",
-              "trap": "Siła reakcji podłoża jest większa od siły wypadkowej o ciężar kulki.",
+              "answer": "2.1: Czas spadania wynosi $t \\approx 0{,}36\\text{ s}$ (dokładnie $0{,}362\\text{ s}$);\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: Siła reakcji podłoża wynosi $F_R \\approx 632\\text{ N}$.",
+              "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć stale działający ciężar kulki: $F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$.",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://bip.cke.gov.pl/attachments/download/10000#page=15\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 15–19</a>."
             },
             "solutionSource": {
@@ -7396,20 +7368,23 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Sprawdzamy zachowanie pędu w dwóch kierunkach, a sprężystość oceniamy przez porównanie energii kinetycznych.",
-              "givens": "$m_A=0{,}20\\text{ kg}$. Jednostką prędkości jest bok najmniejszej kratki podzielony przez odstęp czasu między zdjęciami.",
+              "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), równe odstępy czasu $\\Delta t$, ruch w płaszczyźnie poziomej bez oporów ruchu.",
               "steps": [
                 {
-                  "title": "Zadanie 3.1",
-                  "content": "Z diagramu odczytujemy składowe prędkości w jednostkach umownych:\nprzed zderzeniem: $\\vec v_A=[18{,}5;0]$, $\\vec v_B=[0;0]$;\npo zderzeniu: $\\vec u_A=[8{,}5;-7{,}5]$, $\\vec u_B=[8;6]$.\nZachowanie pędu w kierunku $y$:\n$0=-7{,}5m_A+6m_B$.\n$m_B=\\frac{7{,}5}{6}\\cdot200\\text{ g}=250\\text{ g}$.\nSprawdzenie w kierunku $x$:\n$0{,}20\\cdot18{,}5=0{,}20\\cdot8{,}5+0{,}25\\cdot8$."
+                  "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu stroboskopowego",
+                  "content": "Ponieważ kolejne zdjęcia wykonywano w jednakowych odstępach czasu $\\Delta t$, przesunięcie wektora położenia na siatce między kolejnymi błyskami stroboskopu jest wprost proporcjonalne do wektora prędkości ciała. Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (punkty 1–3):**\nCiało A przemieszcza się poziomo w prawo o 18,5 kratki na krok: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (punkty 4–6):**\nCiało A przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{v}_A' = [8{,}5;\\; -7{,}5]$.\nCiało B przesuwa się o 8,0 kratek w prawo i 6,0 kratek w górę: $\\vec{v}_B' = [8{,}0;\\; +6{,}0]$."
                 },
                 {
-                  "title": "Zadanie 3.2",
-                  "content": "W zderzeniu doskonale sprężystym suma energii kinetycznych przed zderzeniem i po nim musi być taka sama.\nPrzed zderzeniem, w tych samych jednostkach umownych energii:\n$E_p=\\frac12\\cdot0{,}20\\cdot18{,}5^2=34{,}225$.\nKwadraty prędkości po zderzeniu:\n$u_A^2=8{,}5^2+7{,}5^2=128{,}5$,\n$u_B^2=8^2+6^2=100$.\n$E_k=\\frac12\\cdot0{,}20\\cdot128{,}5+\\frac12\\cdot0{,}25\\cdot100$.\n$E_k=25{,}35$.\nIloraz jest niezależny od wyboru jednostek:\n$E_k/E_p=25{,}35/34{,}225\\approx0{,}74$.\nUbyło około $26\\%$ energii kinetycznej. Zderzenie nie było doskonale sprężyste."
+                  "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z zasady zachowania pędu w osi Y",
+                  "content": "Układ jest izolowany, więc całkowity pęd jest zachowany niezależnie w osi $x$ oraz w osi $y$.\nPrzed zderzeniem pęd w osi pionowej $y$ wynosił zero ($p_{y,\\text{pocz}} = 0$). Z zasady zachowania pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot v_{Ay}' + m_B \\cdot v_{By}'$$\nPodstawiamy wartości składowych:\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50 \\implies m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n\n*(Sprawdzenie w osi $x$: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – zasada zachowania pędu w osi poziomej jest spełniona tożsamościowo).*"
+                },
+                {
+                  "title": "Zadanie 3.2 – Ocena sprężystości zderzenia (bilans energii kinetycznej)",
+                  "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy całkowita energia kinetyczna układu po zderzeniu jest równa energii kinetycznej przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał (z twierdzenia Pitagorasa):**\n$$v_A^2 = (18{,}5)^2 = 342{,}25$$\n$$(v_A')^2 = (v_{Ax}')^2 + (v_{Ay}')^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$(v_B')^2 = (v_{Bx}')^2 + (v_{By}')^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A (v_A')^2 + \\frac{1}{2} m_B (v_B')^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (stosunek energii wynosi $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii mechanicznej)."
                 }
               ],
-              "answer": "3.1: $m_B=250\\text{ g}$.\n3.2: zderzenie niesprężyste; $E_k/E_p\\approx0{,}74$.",
-              "trap": "Kwadrat wartości prędkości jest sumą kwadratów jej prostopadłych składowych.",
+              "answer": "3.1: Masa ciała B wynosi $m_B = 250\\text{ g}$ ($0{,}250\\text{ kg}$);\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej została rozproszona, energia po zderzeniu wynosi ok. $74\\%$ energii początkowej).",
+              "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $v^2 = v_x^2 + v_y^2$. Nie wolno porównywać samych pojedynczych współrzędnych!",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://bip.cke.gov.pl/attachments/download/10000#page=21\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 21–23</a>."
             },
             "solutionSource": {
@@ -7445,24 +7420,23 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Przed uderzeniem zachowana jest energia mechaniczna kulki. Przy odbiciu prędkość zmienia zwrot, a energia maleje o 25%.",
-              "givens": "$m=0{,}250\\text{ kg}$, $h=1{,}80\\text{ m}$, $v_0=3{,}20\\text{ m/s}$.\n$\\Delta t=0{,}005\\text{ s}$, $g=9{,}81\\text{ m/s}^2$.",
+              "givens": "Masa kulki: $m = 0{,}250\\text{ kg}$, wysokość początkowa: $h = 1{,}80\\text{ m}$, prędkość początkowa: $v_0 = 3{,}20\\text{ m/s}$ (skierowana pionowo w dół), czas zderzenia z podłożem: $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, przyśpieszenie ziemskie: $g = 9{,}81\\text{ m/s}^2$, strata energii mechanicznej przy odbiciu: $25\\%$.",
               "steps": [
                 {
-                  "title": "Zadanie 2.1",
-                  "content": "Dla osi skierowanej w dół: $h=v_0t+\\frac12gt^2$.\nDodatni pierwiastek tego równania:\n$t=\\frac{-v_0+\\sqrt{v_0^2+2gh}}g$.\nPo podstawieniu danych: $t\\approx0{,}362\\text{ s}$."
+                  "title": "Zadanie 2.1 – Obliczenie czasu spadania kulki",
+                  "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe w jednostkach SI:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
                 },
                 {
-                  "title": "Zadanie 2.2",
-                  "content": "Przyjmujemy zerową energię potencjalną na podłożu:\n$\\frac12mv_1^2=\\frac12mv_0^2+mgh$.\n$v_1=\\sqrt{v_0^2+2gh}$.\n$v_1=\\sqrt{3{,}20^2+2\\cdot9{,}81\\cdot1{,}80}\\text{ m/s}$.\n$v_1\\approx6{,}75\\text{ m/s}$."
+                  "title": "Zadanie 2.2 – Wykazanie prędkości tuż przed uderzeniem z zasady zachowania energii",
+                  "content": "Przyjmując poziom zerowy energii potencjalnej na powierzchni podłoża ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{1}{2}m v_0^2 + mgh = \\frac{1}{2}m v_1^2$$\nDzielimy obustronnie przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$\n*(co należało wykazać).*"
                 },
                 {
-                  "title": "Zadanie 2.3",
-                  "content": "Energia po odbiciu stanowi $75\\%$ energii tuż przed uderzeniem: $v_2^2=0{,}75v_1^2$.\n$v_2=\\sqrt{0{,}75}\\,v_1\\approx5{,}85\\text{ m/s}$.\nOś kierujemy w górę. Zmiana pędu to $\\Delta p=mv_2-(-mv_1)$.\nImpuls siły wypadkowej: $(F_R-mg)\\Delta t=m(v_2+v_1)$.\n$F_R=mg+\\frac{m(v_1+v_2)}{\\Delta t}$.\nPo podstawieniu danych: $F_R\\approx632\\text{ N}$."
+                  "title": "Zadanie 2.3 – Prędkość po odbiciu i siła reakcji podłoża z II zasady dynamiki",
+                  "content": "1. **Prędkość kulki tuż po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii kinetycznej, więc po odbiciu zachowała $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}m v_2^2 = 0{,}75 \\cdot \\left(\\frac{1}{2}m v_1^2\\right) \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495\\text{ m/s} \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia kulki z podłożem:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (skierowana pionowo w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie siły i zmianie pędu):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250\\text{ kg} \\cdot (6{,}7495\\text{ m/s} + 5{,}845\\text{ m/s})}{0{,}005\\text{ s}} = 50 \\cdot 12{,}5945\\text{ N} \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45\\text{ N} + 629{,}7\\text{ N} \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
                 }
               ],
-              "answer": "2.1: $t\\approx0{,}36\\text{ s}$.\n2.2: $v_1\\approx6{,}75\\text{ m/s}$.\n2.3: $F_R\\approx632\\text{ N}$.",
-              "trap": "Siła reakcji podłoża jest większa od siły wypadkowej o ciężar kulki.",
+              "answer": "2.1: Czas spadania wynosi $t \\approx 0{,}36\\text{ s}$ (dokładnie $0{,}362\\text{ s}$);\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: Siła reakcji podłoża wynosi $F_R \\approx 632\\text{ N}$.",
+              "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć stale działający ciężar kulki: $F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$.",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/Informator_EM2023_fizyka.pdf#page=15\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 15–19</a>."
             },
             "solutionSource": {
@@ -7497,20 +7471,23 @@ window.FIZYKOREK_COURSES = {
             ],
             "formula": "2023",
             "solution": {
-              "intuition": "Sprawdzamy zachowanie pędu w dwóch kierunkach, a sprężystość oceniamy przez porównanie energii kinetycznych.",
-              "givens": "$m_A=0{,}20\\text{ kg}$. Jednostką prędkości jest bok najmniejszej kratki podzielony przez odstęp czasu między zdjęciami.",
+              "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), równe odstępy czasu $\\Delta t$, ruch w płaszczyźnie poziomej bez oporów ruchu.",
               "steps": [
                 {
-                  "title": "Zadanie 3.1",
-                  "content": "Z diagramu odczytujemy składowe prędkości w jednostkach umownych:\nprzed zderzeniem: $\\vec v_A=[18{,}5;0]$, $\\vec v_B=[0;0]$;\npo zderzeniu: $\\vec u_A=[8{,}5;-7{,}5]$, $\\vec u_B=[8;6]$.\nZachowanie pędu w kierunku $y$:\n$0=-7{,}5m_A+6m_B$.\n$m_B=\\frac{7{,}5}{6}\\cdot200\\text{ g}=250\\text{ g}$.\nSprawdzenie w kierunku $x$:\n$0{,}20\\cdot18{,}5=0{,}20\\cdot8{,}5+0{,}25\\cdot8$."
+                  "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu stroboskopowego",
+                  "content": "Ponieważ kolejne zdjęcia wykonywano w jednakowych odstępach czasu $\\Delta t$, przesunięcie wektora położenia na siatce między kolejnymi błyskami stroboskopu jest wprost proporcjonalne do wektora prędkości ciała. Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (punkty 1–3):**\nCiało A przemieszcza się poziomo w prawo o 18,5 kratki na krok: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (punkty 4–6):**\nCiało A przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{v}_A' = [8{,}5;\\; -7{,}5]$.\nCiało B przesuwa się o 8,0 kratek w prawo i 6,0 kratek w górę: $\\vec{v}_B' = [8{,}0;\\; +6{,}0]$."
                 },
                 {
-                  "title": "Zadanie 3.2",
-                  "content": "W zderzeniu doskonale sprężystym suma energii kinetycznych przed zderzeniem i po nim musi być taka sama.\nPrzed zderzeniem, w tych samych jednostkach umownych energii:\n$E_p=\\frac12\\cdot0{,}20\\cdot18{,}5^2=34{,}225$.\nKwadraty prędkości po zderzeniu:\n$u_A^2=8{,}5^2+7{,}5^2=128{,}5$,\n$u_B^2=8^2+6^2=100$.\n$E_k=\\frac12\\cdot0{,}20\\cdot128{,}5+\\frac12\\cdot0{,}25\\cdot100$.\n$E_k=25{,}35$.\nIloraz jest niezależny od wyboru jednostek:\n$E_k/E_p=25{,}35/34{,}225\\approx0{,}74$.\nUbyło około $26\\%$ energii kinetycznej. Zderzenie nie było doskonale sprężyste."
+                  "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z zasady zachowania pędu w osi Y",
+                  "content": "Układ jest izolowany, więc całkowity pęd jest zachowany niezależnie w osi $x$ oraz w osi $y$.\nPrzed zderzeniem pęd w osi pionowej $y$ wynosił zero ($p_{y,\\text{pocz}} = 0$). Z zasady zachowania pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot v_{Ay}' + m_B \\cdot v_{By}'$$\nPodstawiamy wartości składowych:\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50 \\implies m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n\n*(Sprawdzenie w osi $x$: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – zasada zachowania pędu w osi poziomej jest spełniona tożsamościowo).*"
+                },
+                {
+                  "title": "Zadanie 3.2 – Ocena sprężystości zderzenia (bilans energii kinetycznej)",
+                  "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy całkowita energia kinetyczna układu po zderzeniu jest równa energii kinetycznej przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał (z twierdzenia Pitagorasa):**\n$$v_A^2 = (18{,}5)^2 = 342{,}25$$\n$$(v_A')^2 = (v_{Ax}')^2 + (v_{Ay}')^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$(v_B')^2 = (v_{Bx}')^2 + (v_{By}')^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A (v_A')^2 + \\frac{1}{2} m_B (v_B')^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (stosunek energii wynosi $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii mechanicznej)."
                 }
               ],
-              "answer": "3.1: $m_B=250\\text{ g}$.\n3.2: zderzenie niesprężyste; $E_k/E_p\\approx0{,}74$.",
-              "trap": "Kwadrat wartości prędkości jest sumą kwadratów jej prostopadłych składowych.",
+              "answer": "3.1: Masa ciała B wynosi $m_B = 250\\text{ g}$ ($0{,}250\\text{ kg}$);\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej została rozproszona, energia po zderzeniu wynosi ok. $74\\%$ energii początkowej).",
+              "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $v^2 = v_x^2 + v_y^2$. Nie wolno porównywać samych pojedynczych współrzędnych!",
               "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/Informator_EM2023_fizyka.pdf#page=21\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 21–23</a>."
             },
             "solutionSource": {
