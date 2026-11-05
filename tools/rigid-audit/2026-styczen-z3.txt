@@ -1,0 +1,357 @@
+SOURCE: data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona.pdf
+PAGES: 8, 9
+
+[PAPER 8]
+Strona 8 z 29 MFAP-R0_100
+Zadanie 3.
+Jednorodną sztywną płytę 𝒫 umieszczono na dwóch równoległych do siebie osiach z kołami.
+Przyjmij następujące dane oraz oznaczenia:
+• siłę ciężkości działającą na płytę oznaczymy jako 𝑄⃗⃗𝑃
+• osie oznaczymy jako O1 oraz O2
+• koła umieszczone na końcach każdej osi są jednakowe
+• środek masy płyty oznaczymy jako 𝑆
+• osie O1 oraz O2 działają na płytę – odpowiednio – siłami reakcji 𝐹⃗1 oraz 𝐹⃗2
+• krawędzie płyty oznaczymy jako A i B, odległości wzajemne między krawędziami płyty
+a osiami są następujące:
+|AO1| = 2 m |O1O2| = 4 m |O2B| = 3 m
+• układ rozpatrujemy w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu
+grawitacyjnym.
+Sytuację ilustruje rysunek 1.
+Rysunek 1.
+Zadanie 3.1. (0–1)
+Rozważamy sytuację 1., gdy na płycie nie ma żadnego obciążenia (jak na rysunku 1.).
+Dokończ zdanie. Wybierz odpowiedź A albo B oraz odpowiedź 1., 2. albo 3.
+Między wartościami 𝐹1, 𝐹2, 𝑄𝑃 sił działających na płytę w sytuacji 1. zachodzą relacje
+𝐹2 > 𝐹1
+oraz
+1. 𝐹1 + 𝐹2 = 𝑄𝑃
+A.
+2. 𝐹1 + 𝑄𝑃 = 𝐹2
+𝐹2 < 𝐹1	B. 3. 𝑄𝑃 + 𝐹2 = 𝐹1
+Brudnopis
+O1 O2
+A B
+2 m 4 m 3 m
+𝑔⃗
+𝑆
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[PAPER 9]
+Strona 9 z 29
+MFAP-R0_100
+Zadanie 3.2. (0–3)
+Rozważamy sytuację 2., gdy na płycie położono mały klocek 𝒦.
+Siła ciężkości 𝑄⃗⃗𝐾 działająca na klocek ma wartość 𝑄𝐾 = 0,4 ⋅ 𝑄𝑃.
+Odległość środka klocka 𝒦 od osi przechodzącej przez środek 𝑆 płyty oznaczymy jako 𝑥.
+Siły reakcji osi O1 oraz O2, działające na płytę w sytuacji 2., mają równe wartości: 𝐹1 = 𝐹2.
+Sytuację 2. ilustruje rysunek 2.
+Rysunek 2.
+Oblicz 𝒙. Zapisz obliczenia.
+3.2.
+0–1–
+2–3
+𝑥 𝑔⃗
+𝑆
+O2	O1 𝒦
+A B
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+KEY: data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf
+KEY CANDIDATES: 13, 14, 15, 16, 17, 18
+
+[KEY 13]
+Zasady oceniania rozwiązań zadań
+Strona 13 z 49
+Zadanie 3.1. (0–1)
+Wymagania ogólne Wymagania szczegółowe
+I. Wykorzystanie pojęć i wielkości
+fizycznych do opisu zjawisk oraz
+wskazywanie ich przykładów
+w otaczającej rzeczywistości.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+I.7) wyodrębnia z […] rysunków
+schematycznych lub blokowych informacje
+kluczowe dla opisywanego zjawiska […].
+II.13) stosuje zasady dynamiki do opisu
+zachowania się ciał.
+III.3) stosuje warunki statyki bryły sztywnej;
+posługuje się pojęciem momentu sił wraz
+z jednostką.
+Zasady oceniania
+1 pkt – odpowiedź poprawna.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Rozwiązanie
+A1
+Zadanie 3.2. (0–3)
+Wymagania ogólne Wymagania szczegółowe
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+I.7) wyodrębnia z […] rysunków
+schematycznych lub blokowych informacje
+kluczowe dla opisywanego zjawiska bądź
+problemu […].
+II.13) stosuje zasady dynamiki do opisu
+zachowania się ciał.
+III.3) stosuje warunki statyki bryły sztywnej;
+posługuje się pojęciem momentu sił wraz
+z jednostką.
+Zasady oceniania
+3 pkt – poprawna metoda obliczenia 𝑥 oraz podanie prawidłowego wyniku liczbowego
+z jednostką: 𝑥 = 1,75 m
+2 pkt – zapisanie poprawnego równania równowagi momentów sił z prawidłowym
+oznaczeniem sił oraz ramion tych sił, oraz zapisanie poprawnego równania
+równowagi sił z prawidłowym oznaczeniem sił, np. zapisy równoważne poniższym:
+|𝑆𝑂1| ⋅ 𝐹1 = 𝑥 ⋅ 𝑄𝐾 + |𝑆𝑂2| ⋅ 𝐹2 oraz 𝐹1 + 𝐹2 = 𝑄𝐾 + 𝑄𝑃
+LUB
+– zapisanie poprawnego równania równowagi sił z prawidłowym oznaczeniem oraz
+wykorzystanie warunków zadania, oraz wyznaczenie związku między siłą reakcji
+którejkolwiek osi a ciężarem płyty, np. zapisy równoważne poniższym:
+𝐹1 + 𝐹2 = 𝑄𝐾 + 𝑄𝑃 oraz (𝐹1 = 𝐹2 i 𝑄𝐾 = 0,4𝑄𝑃) → 𝐹1 = 0,7𝑄𝑃
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 14]
+Próbny egzamin maturalny z fizyki – styczeń 2026 r.
+Strona 14 z 49
+1 pkt – zapisanie poprawnego równania równowagi momentów sił z prawidłowym
+oznaczeniem sił oraz ramion tych sił, np. zapisy równoważne poniższym:
+|𝑆𝑂1| ⋅ 𝐹1 = 𝑥 ⋅ 𝑄𝐾 + |𝑆𝑂2| ⋅ 𝐹2
+LUB
+– zapisanie poprawnego równania równowagi sił z prawidłowym uwzględnieniem sił,
+np. zapisy równoważne poniższym:
+𝐹1 + 𝐹2 = 𝑄𝐾 + 𝑄𝑃
+LUB
+– zapisanie warunku równowagi sił oraz zapisanie warunku równowagi momentów sił
+działających na płytę (tzn. zapis może być w postaci bardzo ogólnej, wystarczy zapis
+równań z oznaczeniem wypadkowego momentu sił oraz siły wypadkowej – bez
+rozpisywania sił oraz ramion sił, może być także opis słowny), np. zapisy
+równoważne poniższym:
+𝑀	⃗⃗⃗𝑤𝑦𝑝𝑎𝑑𝑘𝑜𝑤𝑦 = 0 oraz 𝐹⃗𝑤𝑦𝑝𝑎𝑑𝑘𝑜𝑤𝑎 = 0
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązania
+Płyta pozostaje nieruchoma. To oznacza, że momenty sił działających na płytę równoważą
+się oraz siły działające na płytę równoważą się. Na rysunku przedstawiliśmy siły działające
+na płytę zgodnie z oznaczeniami w zadaniu (ciężar klocka jest równy wektorowo sile nacisku
+klocka na płytę, zatem nie wprowadzamy dodatkowego oznaczenia na siłę nacisku).
+Zapiszemy warunek równowagi momentów sił względem punktu 𝑆 (momenty siły nacisku
+klocka oraz siły reakcji osi O2 mają ten sam zwrot):
+1) |𝑆𝑂1| ⋅ 𝐹1 = 𝑥 ⋅ 𝑄𝐾 + |𝑆𝑂2| ⋅ 𝐹2
+Zapiszemy warunek równowagi sił:
+2) 𝐹1 + 𝐹2 = 𝑄𝐾 + 𝑄𝑃
+Zapiszemy warunek zadania:
+3) 𝐹1 = 𝐹2
+Obliczymy długości ramion sił 𝐹⃗1 oraz 𝐹⃗2:
+4a) |𝑆𝑂1| = 1
+2 |𝐴𝐵| − |𝐴𝑂1| = 1
+2 (2 m + 4 m + 3 m) − 2 m = 2,5 m
+4b) |𝑆𝑂2| = 1
+2 |𝐴𝐵| − |𝐵𝑂2| = 1
+2 (2 m + 4 m + 3 m) − 3 m = 1,5 m
+𝑥 𝑔⃗
+𝑆
+𝐹⃗1 𝐹⃗2
+𝑄⃗⃗𝑃
+𝑄⃗⃗𝐾
+O1 O2
+A B
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 15]
+Zasady oceniania rozwiązań zadań
+Strona 15 z 49
+Równania 1), 2) i 3) zapiszemy w układzie równań:
+5) {
+|𝑆𝑂1| ⋅ 𝐹1 = 𝑥 ⋅ 𝑄𝐾 + |𝑆𝑂2| ⋅ 𝐹2
+𝐹1 + 𝐹2 = 𝑄𝐾 + 𝑄𝑃
+𝐹1 = 𝐹2
+Wykorzystamy związki podane w zadaniu oraz podstawimy długości ramion sił obliczone
+w 4a) i 4b), następnie rozwiążemy układ równań, a przy okazji wyznaczymy wartości sił
+reakcji::
+6a) {
+2,5 m ⋅ 𝐹1 = 𝑥 ⋅ 0,4𝑄𝑃 + 1,5 m ⋅ 𝐹1
+𝐹1 + 𝐹1 = 0,4𝑄𝑃 + 𝑄𝑃
+𝐹1 = 𝐹2
+6b) {
+1 m ⋅ 𝐹1 = 𝑥 ⋅ 0,4𝑄𝑃
+2𝐹1 = 1,4𝑄𝑃
+𝐹1 = 𝐹2
+6c) {
+1 m ⋅ 0,7𝑄𝑃 = 𝑥 ⋅ 0,4𝑄𝑃
+𝐹1 = 0,7𝑄𝑃
+𝐹1 = 𝐹2
+6d) {
+𝑥 = 1,75 m
+𝐹1 = 0,7𝑄𝑃
+𝐹2 = 0,7𝑄𝑃
+Zadanie 4.1. (0–1)
+Wymagania ogólne Wymagania szczegółowe
+I. Wykorzystanie pojęć i wielkości
+fizycznych do opisu zjawisk oraz
+wskazywanie ich przykładów
+w otaczającej rzeczywistości.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+I.7) wyodrębnia z tekstów […] rysunków
+schematycznych lub blokowych informacje
+kluczowe dla opisywanego zjawiska […].
+X.2) posługuje się pojęciem natężenia fali wraz
+z jej jednostką (W/m2) oraz
+proporcjonalnością do kwadratu amplitudy.
+Zasady oceniania
+1 pkt – odpowiedź poprawna.
+0 pkt – odpowiedź niepoprawna albo brak odpowiedzi.
+Rozwiązanie
+D
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 16]
+Próbny egzamin maturalny z fizyki – styczeń 2026 r.
+Strona 16 z 49
+Zadanie 4.2. (0–4)
+Wymagania ogólne Wymagania szczegółowe
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+I.7) wyodrębnia z tekstów, […] rysunków
+schematycznych […] informacje kluczowe dla
+opisywanego zjawiska […]; przedstawia te
+informacje w różnych postaciach.
+X.9) stosuje zasadę superpozycji fal; wyjaśnia
+zjawisko interferencji fal; podaje warunki
+wzmocnienia oraz wygaszenia się fal.
+Zasady oceniania
+4 pkt – poprawna metoda obliczenia współrzędnych czterech punktów, w których zachodzi
+minimum interferencyjne, oraz podanie prawidłowych współrzędnych z jednostkami:
+𝑥11 = 2,5 m 𝑥12 = 3,5 m 𝑥21 = 1,5 m 𝑥22 = 0,5 m
+oraz poprawne zaznaczenie punktów na osi.
+3 pkt – poprawne zastosowanie warunku na minimum interferencyjne dla dwóch przypadków
+(dodatniej i ujemnej różnicy odległości) oraz prawidłowe obliczenie z tego warunku
+współrzędnych trzech punktów, np. zapisy równoważne poniższym:
+|𝑥 − (4 m − 𝑥)| = (2𝑛 − 1) ⋅ 1 m → 𝑥11 = 2,5 m 𝑥12 = 3,5 m 𝑥21 = 1,5 m
+2 pkt – zapisanie warunku na minimum interferencyjne z uwzględnieniem długości fali
+i odległości punktu minimum interferencyjnego od obu głośników oraz uwzględnienie
+dwóch przypadków (dodatniej i ujemnej różnicy odległości), oraz wyrażenie obu
+odległości punktu od głośników za pomocą współrzędnej 𝑥, np. zapisy równoważne
+poniższym:
+|𝑥 − (4 m − 𝑥)| = (2𝑛 − 1) ⋅ 𝜆
+2
+albo
+𝑥 − (4 m − 𝑥) = +(2𝑛 − 1) ⋅ 𝜆
+2 oraz 𝑥 − (4 m − 𝑥) = −(2𝑛 − 1) ⋅ 𝜆
+2
+LUB
+– poprawne zastosowanie warunku na minimum interferencyjne dla jednego przypadku
+(dodatniej albo ujemnej różnicy odległości) oraz prawidłowe obliczenie z tego
+warunku współrzędnych dwóch punktów, np. zapisy równoważne poniższym:
+𝑥 − (4 m − 𝑥) = +(2𝑛 − 1) ⋅ 1 m → 𝑥1 = 2,5 m 𝑥2 = 3,5 m
+albo
+𝑥 − (4 m − 𝑥) = −(2𝑛 − 1) ⋅ 1 m → 𝑥1 = 1,5 m 𝑥2 = 0,5 m
+1 pkt – zapisanie warunku na minimum interferencyjne z uwzględnieniem długości fali
+i odległości punktu minimum interferencyjnego od obu głośników, np. zapisy
+równoważne poniższym:
+|G1𝑋| − |𝑋G2| = (2𝑛 − 1) ⋅ 𝜆
+2
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 17]
+Zasady oceniania rozwiązań zadań
+Strona 17 z 49
+Przykładowe pełne rozwiązania
+Załóżmy, że 𝑋 jest punktem na osi 𝑥, leżącym między głośnikami G1 i G2, w którym wystąpi
+minimum interferencyjne. Zapiszemy warunek na minimum interferencyjne w punkcie 𝑋:
+1) ||G1𝑋| − |𝑋G2|| = (2𝑛 − 1) ⋅ 𝜆
+2 dla 𝑛 ∈ ℤ+ oraz 𝑋 ∈ G1G2
+Zwracamy uwagę, że w tym wzorze pojawia się wartość bezwzględna różnicy – ponieważ
+warunek jest niezmienniczy ze względu na zamianę miejscami odległości, jakie pokonuje fala
+od źródeł do punktu 𝑋.
+Współrzędną punktu 𝑋 oznaczymy jako 𝑥. Wtedy:
+2a) |G1𝑋| = 𝑥 2b) |𝑋G2| = 4 m − 𝑥
+Przepiszemy równanie 1) z uwzględnieniem 2a) i 2b):
+3a) |𝑥 − (4 m − 𝑥)| = (2𝑛 − 1) ⋅ 𝜆
+2
+3b) |2𝑥 − 4 m| = (2𝑛 − 1) ⋅ 2 m
+2
+3c) |2𝑥 − 4 m| = (2𝑛 − 1) ⋅ 1 m
+Rozwiążemy równanie 3c). Rozważymy dwa przypadki.
+1. Przypadek, gdy 2 < 𝑥1 < 4:
+4a) 2𝑥1 − 4 m = (2𝑛 − 1) ⋅ 1 m
+4b) 𝑥1 = (2𝑛 − 1)
+2 ⋅ 1 m + 2 m
+4c) 𝑥11 = (2 ⋅ 1 − 1)
+2 ⋅ 1 m + 2 m = 2,5 m dla 𝑛 = 1
+𝑥12 = (2 ⋅ 2 − 1)
+2 ⋅ 1 m + 2 m = 3,5 m dla 𝑛 = 2
+Dla 𝑛 = 3 → 𝑥13 = 4,5 m co oznacza, że 𝑋 leży poza odcinkiem G1G2.
+2. Przypadek, gdy 0 < 𝑥2 < 2:
+5a) − (2𝑥2 − 4 m) = (2𝑛 − 1) ⋅ 1 m
+5b) 𝑥2 = − (2𝑛 − 1)
+2 ⋅ 1 m + 2 m
+5c) 𝑥21 = − (2 ⋅ 1 − 1)
+2 ⋅ 1 m + 2 m = 1,5 m dla 𝑛 = 1
+𝑥22 = − (2 ⋅ 2 − 1)
+2 ⋅ 1 m + 2 m = 0,5 m dla 𝑛 = 2
+Dla 𝑛 = 3 → 𝑥23 = −0,5 m co oznacza, że 𝑋 leży poza odcinkiem G1G2.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 18]
+Próbny egzamin maturalny z fizyki – styczeń 2026 r.
+Strona 18 z 49
+Zaznaczymy na osi 𝑥 punkty między głośnikami, w których zawsze wystąpi minimum
+interferencyjne:
+Zadanie 5. (0–4)
+Wymagania ogólne Wymagania szczegółowe
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+IV.4) wskazuje siłę grawitacji jako siłę
+dośrodkową w ruchu po orbicie kołowej, oblicza
+wartość prędkości na orbicie kołowej
+o dowolnym promieniu […];
+IV.7) oblicza zmiany energii potencjalnej
+grawitacji i stosuje zasadę zachowania energii
+do ruchu pod wpływem siły grawitacji;
+posługuje się pojęciem drugiej prędkości
+kosmicznej (prędkości ucieczki).
+Zasady oceniania
+Rozwiązanie będzie podlegało ocenie, gdy zdający spełni co najmniej jeden z poniższych
+warunków lub ich kombinację, określoną dalej w schemacie punktowania.
+Warunek RÓŻNICA
+Zapisanie różnicy:
+Δ𝑣𝐴 = 𝑣𝐴 − 𝑣𝑜𝑟 𝐴
+Warunek ZZE
+Zapisanie zasady zachowania energii mechanicznej (symbolicznie lub słownie)
+z uwzględnieniem (poprzez oznaczenie) energii mechanicznej sondy na orbicie po
+zwiększeniu prędkości i energii mechanicznej sondy poza sferą oddziaływania ze Słońcem,
+np. zapisy równoważne poniższym:
+𝐸𝑚𝑒𝑐ℎ 𝑟𝐴 = 𝐸𝑚𝑒𝑐ℎ ∞ 𝐴
+𝑥, m	0
+𝐴
+G1 G2
+4	1 2 3 5 6	−1	−2
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl

@@ -1,0 +1,337 @@
+SOURCE: data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona.pdf
+PAGES: 6, 7
+
+[PAPER 6]
+Strona 6 z 27 MFAP_R0_100
+Zadanie 2.
+Dana jest jednorodna, sztywna belka o masie 𝑚 = 120 kg i długości 𝑙 = 2,8 m. Tę belkę
+przymocowano do dwóch pionowych podpór: PA i PB. Podpory PA i PB łączą się z belką
+w punktach 𝐴 i 𝐵. Obie podpory są na sztywno przytwierdzone do poziomego podłoża.
+Mocowanie pojedynczej podpory do belki umożliwia jej obrót bez tarcia w płaszczyźnie
+pionowej. Gdy belka jest przymocowana do obu podpór, to utrzymuje się nieruchomo
+w pozycji poziomej (zobacz rysunek 1.).
+Odległość między punktami 𝐴 i 𝐵 wynosi |𝐴𝐵| = 1,0 m. Na rysunku poniżej przedstawiono
+opisaną sytuację. Punkt środka masy belki oznaczono jako 𝐶. Przyjmij, że belka spoczywa
+poziomo w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym.
+Siły, z jakimi podpory PA i PB działają na belkę w punktach 𝐴 i 𝐵, oznaczymy – odpowiednio –
+jako 𝐹⃗𝐴 i 𝐹⃗𝐵. Siłę ciężkości działającą na belkę oznaczymy jako 𝐹⃗𝐶.
+Rysunek 1.
+Zadanie 2.1. (0–2)
+Na rysunku 2. narysuj i oznacz wektory sił 𝑭	⃗⃗⃗ 𝑨, 𝑭	⃗⃗⃗ 𝑩 i 𝑭	⃗⃗⃗ 𝑪 w opisanej sytuacji.
+Zachowaj odpowiednie kierunki i zwroty tych sił oraz relacje (większy, równy,
+mniejszy) między ich wartościami.
+Rysunek 2.
+𝐴 𝐵 𝐶
+𝑔⃗
+belka
+PA PB
+podłoże
+𝐴 𝐵 𝐶
+𝑔⃗
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[PAPER 7]
+Strona 7 z 27
+MFAP_R0_100
+Zadanie 2.2. (0–3)
+Przyjmij do obliczeń 𝑔 = 9,8 m/s2.
+Oblicz 𝑭𝑨 i 𝑭𝑩 – wartości sił 𝑭	⃗⃗⃗ 𝑨 i 𝑭	⃗⃗⃗ 𝑩. Zapisz obliczenia.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+KEY: data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona-odpowiedzi.pdf
+KEY CANDIDATES: 7, 8, 9, 10, 11, 12
+
+[KEY 7]
+Zasady oceniania rozwiązań zadań
+Strona 7 z 35
+Sposób 2.
+Zastosujemy związek między zmianą energii kinetycznej oraz pracą siły wypadkowej dla
+przypadku ruchu i-tej monety po stole aż do zatrzymania. Siła wypadkowa działająca na i-tą
+monetę jest równa sile tarcia. Zapiszemy oba związki i zastosujemy wzór na siłę tarcia:
+1) Δ𝐸𝑘𝑖𝑛 = −𝑇𝑖 ⋅ 𝑠𝑖 oraz 2) 𝑇𝑖 = −𝜇𝑚𝑖𝑔 oraz 3) 𝑣𝑘 𝑖 = 0
+Zatem z zależności 1) i 2) i 3) wynika:
+4a) 0 − 1
+2 𝑚𝑖𝑣𝑖
+2 = −𝜇𝑚𝑖𝑔 ⋅ 𝑠𝑖 → 4b) 1
+2 𝑚𝑖𝑣𝑖
+2 = 𝜇𝑚𝑖𝑔 ⋅ 𝑠𝑖
+Z zależności 4a) lub 4b) wynika, że:
+5a) 𝑣𝑖
+2 = 2𝜇𝑔 ⋅ 𝑠𝑖 → 5b) 𝑣𝑖
+2 ∝ 𝑠𝑖
+Zależności 5a) lub 5b) wyrażają proporcję prostą między kwadratem prędkości początkowej
+monety a drogą przebytą przez daną monetę. Zatem można zapisać proporcję równoważną:
+6) 𝑠1: 𝑠2: 𝑠3 = 𝑣1
+2: 𝑣2
+2: 𝑣3
+2
+Powiążemy prędkość liniową i-tej monety z prędkością kątowa deseczki oraz z odległością
+monety od osi obrotu:
+7) 𝑣𝑖 = 𝜔𝑟𝑖
+Wzór 7) wykorzystamy w proporcji 6) i zapiszemy proporcję równoważną:
+8) 𝑠1: 𝑠2: 𝑠3 = 𝑟1
+2: 𝑟2
+2: 𝑟3
+2
+Wykorzystamy dane z zadania i zapiszemy wynik:
+9) 𝑠1: 𝑠2: 𝑠3 = 12: 22: 32 = 1: 4: 9
+Zadanie 2.1. (0–2)
+Wymagania egzaminacyjne 2024
+Wymagania ogólne Wymagania szczegółowe
+IV. Posługiwanie się informacjami
+pochodzącymi z analizy materiałów
+źródłowych, w tym tekstów
+popularnonaukowych.
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+I.6) tworzy […] rysunki schematyczne lub
+blokowe dla zilustrowania zjawisk […];
+I.7) wyodrębnia z tekstów […], rysunków
+schematycznych […] informacje kluczowe dla
+opisywanego zjawiska […].
+III.3) stosuje warunki statyki bryły sztywnej […].
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 8]
+Egzamin maturalny z fizyki – termin dodatkowy 2024 r.
+Strona 8 z 35
+Zasady oceniania
+2 pkt – poprawne narysowanie wektorów sił 𝐹⃗𝐴, 𝐹⃗𝐵 i 𝐹⃗𝐶 zaczepionych odpowiednio
+w punktach 𝐴, 𝐵 i 𝐶 z poprawnym uwzględnieniem kierunków, zwrotów i relacji
+między wartościami (długościami) tych wektorów (wystarczy większy, mniejszy,
+równy).
+1 pkt – poprawne narysowanie wektorów sił 𝐹⃗𝐴, 𝐹⃗𝐵 i 𝐹⃗𝐶 zaczepionych odpowiednio
+w punktach 𝐴, 𝐵 i 𝐶 z poprawnym uwzględnieniem kierunków i zwrotów tych
+wektorów.
+0 pkt – rozwiązanie niepoprawne albo brak rozwiązania.
+Rozwiązanie
+Zadanie 2.2. (0–3)
+Wymagania egzaminacyjne 2024
+Wymagania ogólne Wymagania szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+I.7) wyodrębnia z tekstów […], rysunków
+schematycznych […] informacje kluczowe dla
+opisywanego zjawiska […].
+III.3) stosuje warunki statyki bryły sztywnej;
+posługuje się pojęciem momentu sił wraz
+z jednostką.
+𝐴 𝐵 𝐶
+𝑔⃗
+𝐹⃗𝐴
+𝐹⃗𝐵
+𝐹⃗𝐶
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 9]
+Zasady oceniania rozwiązań zadań
+Strona 9 z 35
+Zasady oceniania
+3 pkt – poprawne zapisanie równań opisujących warunki równowagi belki, prawidłowe
+rozwiązanie układu tych równań oraz podanie prawidłowych wyników liczbowych
+z jednostkami:|𝐹𝐴| ≈ 470 N oraz |𝐹𝐵| ≈ 1646 N (wynik może być podany bez
+wartości bezwzględnej i zaokrąglony do dwóch cyfr znaczących).
+2 pkt – poprawne zapisanie równania równowagi momentów sił (z prawidłową identyfikacją
+wielkości: sił i ramion tych sił) względem dowolnego punktu belki oraz zapisanie
+poprawnego równania równowagi sił
+LUB
+– poprawne zapisanie dwóch równań równowagi momentów sił (z prawidłową
+identyfikacją wielkości: sił i ramion tych sił) względem dwóch różnych punktów belki
+(np. jak w sposobie 4.).
+Uwaga! Znaki określające zwroty sił w równaniach mogą być przyjęte dowolnie,
+natomiast muszą być konsekwentnie stosowane.
+1 pkt – zapisanie poprawnego równania równowagi momentów sił względem dowolnego
+punktu belki łącznie z prawidłową identyfikacją sił i ich ramion (np. pierwsze równanie
+w kroku 1. w sposobach 1.–3.).
+Uwaga! Znaki określające zwroty sił w równaniu równowagi momentów sił mogą być
+przyjęte dowolnie.
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązania
+Wartość siły 𝐹⃗𝐶 oznaczamy jako 𝐹𝑔.
+Sposób 1.
+Krok 1. Zapiszemy równanie równowagi momentów sił (względem punktu 𝐵) oraz równanie
+równowagi sił:
+𝐹𝐴 ∙ |𝐴𝐵| = 𝐹𝑔 ∙ |𝐵𝐶| 𝐹𝑔 + 𝐹𝐴 = 𝐹𝐵 oraz 𝐹𝑔 = 𝑚𝑔
+Krok 2. Podstawiamy dane do równań:
+𝐹𝐴 ∙ 1 m = 1176 N ∙ 0,4 m 1176 N + 𝐹𝐴 = 𝐹𝐵
+Krok 3. Rozwiązujemy oba równania:
+{ 𝐹𝐴 = 470,4 N
+1176 N + 𝐹𝐴 = 𝐹𝐵
+→ { 𝐹𝐴 = 470,4 N
+1176 N + 470,4 N = 𝐹𝐵
+→ {𝐹𝐴 = 470,4 N
+𝐹𝐵 = 1646,4 N
+Sposób 2.
+Krok 1. Zapiszemy równanie równowagi momentów sił (względem punktu 𝐴) oraz równanie
+równowagi sił:
+𝐹𝐵 ∙ |𝐴𝐵| = 𝐹𝑔 ∙ |𝐴𝐶| 𝐹𝑔 + 𝐹𝐴 = 𝐹𝐵 oraz 𝐹𝑔 = 𝑚𝑔
+Krok 2. Podstawiamy dane do równań:
+𝐹𝐵 ∙ 1 m = 1176 N ∙ 1,4 m 1176 N + 𝐹𝐴 = 𝐹𝐵
+Krok 3. Rozwiązujemy oba równania:
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 10]
+Egzamin maturalny z fizyki – termin dodatkowy 2024 r.
+Strona 10 z 35
+{𝐹𝐵 = 1646,4 N
+1176 N + 𝐹𝐴 = 𝐹𝐵
+→ { 𝐹𝐵 = 1646,4 N
+1176 N + 𝐹𝐴 = 1646,4 N → {𝐹𝐵 = 1646,4 N
+𝐹𝐴 = 470,4 N
+Sposób 3.
+Krok 1. Zapiszemy równanie równowagi momentów sił (względem punktu 𝐶) oraz równanie
+równowagi sił:
+𝐹𝐵 ∙ |𝐶𝐵| = 𝐹𝐴 ∙ |𝐶𝐴| 𝐹𝑔 + 𝐹𝐴 = 𝐹𝐵 oraz 𝐹𝑔 = 𝑚𝑔
+Krok 2. Podstawiamy dane do równań:
+𝐹𝐵 ∙ 0,4 m = 𝐹𝐴 ∙ 1,4 m 1176 N + 𝐹𝐴 = 𝐹𝐵
+Krok 3. Rozwiązujemy układ równań:
+{𝐹𝐵 = 3,5 ⋅ 𝐹𝐴
+1176 N + 𝐹𝐴 = 𝐹𝐵
+→ {𝐹𝐵 = 3,5 ⋅ 𝐹𝐴
+1176 N + 𝐹𝐴 = 3,5 ⋅ 𝐹𝐴
+{𝐹𝐵 = 3,5 ⋅ 𝐹𝐴
+1176 N = 2,5 ⋅ 𝐹𝐴
+→ {𝐹𝐵 = 1646,4 N
+𝐹𝐴 = 470,4 N
+Sposób 4.
+Krok 1. Zapiszemy dwa równania równowagi momentów sił (względem punktu 𝐶 oraz
+względem punktu 𝐵):
+𝐹𝐵 ∙ |𝐶𝐵| = 𝐹𝐴 ∙ |𝐶𝐴| 𝐹𝐴 ∙ |𝐴𝐵| = 𝐹𝑔 ∙ |𝐶𝐵| oraz 𝐹𝑔 = 𝑚𝑔
+Krok 2. Podstawiamy dane do równań:
+𝐹𝐵 ∙ 0,4 m = 𝐹𝐴 ∙ 1,4 m 𝐹𝐴 ∙ 1 m = 1176 N ∙ 0,4 m
+Krok 3. Rozwiązujemy układ równań:
+{𝐹𝐵 = 3,5 ⋅ 𝐹𝐴
+𝐹𝐴 = 470,4 N → {𝐹𝐵 = 1646,4 N
+𝐹𝐴 = 470,4 N
+Zadanie 3.1. (0–2)
+Wymagania egzaminacyjne 2024
+Wymagania ogólne Wymagania szczegółowe
+IV. Posługiwanie się informacjami
+pochodzącymi z analizy materiałów
+źródłowych, w tym tekstów
+popularnonaukowych.
+I. Wykorzystanie pojęć i wielkości
+fizycznych do opisu zjawisk oraz
+wskazywanie ich przykładów
+w otaczającej rzeczywistości.
+Zdający:
+I.7) wyodrębnia z […] wykresów […] informacje
+kluczowe dla opisywanego zjawiska […].
+V.2) analizuje ruch pod wpływem siły
+sprężystości; posługuje się pojęciem ruchu
+harmonicznego […];
+V.4) analizuje zależności […] przyspieszenia
+od czasu dla ciała w ruchu drgającym
+harmonicznym oraz interpretuje wykresy tych
+zależności.
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 11]
+Zasady oceniania rozwiązań zadań
+Strona 11 z 35
+Zasady oceniania
+2 pkt – poprawne zaznaczenia w trzech zdaniach.
+1 pkt – poprawne zaznaczenia w dwóch zdaniach.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Pełne rozwiązanie
+FFP
+Zadanie 3.2. (0–2)
+Wymagania egzaminacyjne 2024
+Wymagania ogólne Wymagania szczegółowe
+I. Wykorzystanie pojęć i wielkości
+fizycznych do opisu zjawisk oraz
+wskazywanie ich przykładów
+w otaczającej rzeczywistości.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+I.7) wyodrębnia z […] wykresów […] informacje
+kluczowe dla opisywanego zjawiska […].
+V.2) analizuje ruch pod wpływem siły
+sprężystości;
+V.4) analizuje zależności […] przyspieszenia
+od czasu dla ciała w ruchu drgającym
+harmonicznym oraz interpretuje wykresy tych
+zależności.
+Zasady oceniania
+2 pkt – poprawne dokończenie dwóch zdań.
+1 pkt – poprawne dokończenie jednego zdania.
+0 pkt – rozwiązanie niepoprawne albo brak rozwiązania.
+Rozwiązanie
+1. Maksymalna wartość siły wypadkowej działającej na ciało 𝒞 podczas opisanego ruchu
+drgającego wynosi ...................... N.
+2. Częstotliwość drgań ciała 𝒞 jest równa ................... Hz.
+0,025
+0,3125
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl
+
+[KEY 12]
+Egzamin maturalny z fizyki – termin dodatkowy 2024 r.
+Strona 12 z 35
+Zadanie 3.3. (0–3)
+Wymagania egzaminacyjne 2024
+Wymagania ogólne Wymagania szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+I.7) wyodrębnia z […] wykresów […] informacje
+kluczowe dla opisywanego zjawiska […].
+V.3) opisuje ruch harmoniczny, posługując się
+pojęciami wychylenia, amplitudy, częstości
+kołowej […];
+V.4) analizuje zależności […] prędkości
+i przyspieszenia od czasu dla ciała w ruchu
+drgającym harmonicznym oraz interpretuje
+wykresy tych zależności.
+Zasady oceniania
+3 pkt – poprawna metoda obliczenia prędkości w chwili 𝑡 = 0,8 s oraz podanie prawidłowego
+wyniku liczbowego z jednostką.
+2 pkt – zauważenie i zapisanie (słownie lub wzorami), że w chwili 𝑡 = 0,8 s, gdy
+przyśpieszenie jest równe zero, to prędkość jest maksymalna oraz wyprowadzenie
+(lub bezpośrednie zapisanie) związku między prędkością maksymalną a
+przyśpieszeniem maksymalnym i okresem/częstotliwością/częstością kołową.
+𝑣𝑥(𝑡 = 0,8 s) = 𝑣𝑥 𝑚𝑎𝑥 oraz 𝑎𝑥 𝑚𝑎𝑥 = 𝜔 𝑣𝑥 𝑚𝑎𝑥
+1 pkt – zauważenie i zapisanie (słownie lub wzorami), że w chwili 𝑡 = 0,8 s, gdy
+przyśpieszenie jest równe zero, to prędkość jest maksymalna, np. zapisy
+równoważne poniższym:
+𝑣𝑥(𝑡 = 0,8 s) = 𝑣𝑥 𝑚𝑎𝑥
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązania
+Zauważmy, że w chwili 𝑡 = 0,8 s przyśpieszenie ciężarka jest równe zero. Zatem ciężarek
+przechodzi przez położenie równowagi sił i jego prędkość jest maksymalna:
+𝑎𝑥(𝑡 = 0,8 s) = 0 → 𝑣𝑥(𝑡 = 0,8 s) = 𝑣𝑥 𝑚𝑎𝑥
+Wykorzystamy związki pomiędzy prędkością maksymalną a amplitudą drgań i częstością
+oraz pomiędzy przyśpieszeniem maksymalnym a amplitudą drgań i częstością. Z tych
+związków wyprowadzimy zależność między prędkością maksymalną a przyśpieszeniem
+maksymalnym i częstością:
+( 𝑣𝑥 𝑚𝑎𝑥 = 𝜔 𝑥𝑚𝑎𝑥 oraz 𝑎𝑥 𝑚𝑎𝑥 = 𝜔2 𝑥𝑚𝑎𝑥 ) → 𝑎𝑥 𝑚𝑎𝑥 = 𝜔 𝑣𝑥 𝑚𝑎𝑥
+Obliczymy prędkość maksymalną:
+𝑣𝑥 𝑚𝑎𝑥 = 𝑎𝑥 𝑚𝑎𝑥
+𝜔 → 𝑣𝑥 𝑚𝑎𝑥 ≈
+0,25 m
+s2
+2 ⋅ 3,142
+3,2 s
+≈ 0,13 m
+s
+Wi
+ęcej arkuszy znajdziesz na stronie: arkusze.pl

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Warunki równowagi statycznej belki na dwóch podporach</title>
+  <desc id="desc">Belka o długości L podparta w punktach A i B. Ciężar Q w środku. Siły reakcji Ra i Rb równoważą ciężar. Suma sił = 0, suma momentów = 0.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d97706"/></marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:15px;font-weight:600}.tiny{font-size:13px;font-weight:500}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.purple{fill:#7c3aed}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:6 6}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.disc{fill:#e0e7ff;stroke:#4f46e5;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/>
+     <!-- Belka -->
+     <rect x="100" y="130" width="560" height="24" rx="6" fill="#cbd5e1" stroke="#475569" stroke-width="3"/>
+     <!-- Podpora A (trójkąt) -->
+     <polygon points="160,185 140,225 180,225" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+     <line class="surface" x1="120" y1="225" x2="200" y2="225"/>
+     <text class="t label" x="130" y="250">Podpora A</text>
+     <!-- Podpora B (trójkąt) -->
+     <polygon points="600,185 580,225 620,225" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+     <line class="surface" x1="560" y1="225" x2="640" y2="225"/>
+     <text class="t label" x="570" y="250">Podpora B</text>
+     <!-- Siła reakcji R_A -->
+     <line x1="160" y1="185" x2="160" y2="70" stroke="#16a34a" stroke-width="4" marker-end="url(#arrow-green)"/>
+     <text class="t label green" x="175" y="85">R_A</text>
+     <!-- Siła reakcji R_B -->
+     <line x1="600" y1="185" x2="600" y2="70" stroke="#16a34a" stroke-width="4" marker-end="url(#arrow-green)"/>
+     <text class="t label green" x="615" y="85">R_B</text>
+     <!-- Ciężar belki Q w środku masy -->
+     <circle cx="380" cy="142" r="5" fill="#dc2626"/>
+     <line x1="380" y1="142" x2="380" y2="250" stroke="#dc2626" stroke-width="5" marker-end="url(#arrow-red)"/>
+     <text class="t label red" x="395" y="235">Q = mg</text>
+     <!-- Wymiary L/2 i L -->
+     <line x1="160" y1="115" x2="380" y2="115" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+     <line x1="380" y1="115" x2="160" y2="115" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+     <text class="t small blue" x="260" y="108">L / 2</text>
+     <line x1="380" y1="115" x2="600" y2="115" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+     <line x1="600" y1="115" x2="380" y2="115" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+     <text class="t small blue" x="480" y="108">L / 2</text>
+     <!-- Dolny panel z warunkami -->
+     <rect x="235" y="260" width="290" height="42" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+     <text class="t small" x="380" y="287" text-anchor="middle">ΣF = 0 ⇒ R_A + R_B = Q  |  ΣM_A = 0</text>
+</svg>

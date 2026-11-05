@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Rozkład prędkości w toczącym się kole (bez poślizgu)</title>
+  <desc id="desc">Koło toczy się w prawo. W punkcie styku C prędkość wynosi 0 (chwilowy środek obrotu). W środku koła v, na samej górze 2v, a po bokach v*sqrt(2).</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d97706"/></marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:15px;font-weight:600}.tiny{font-size:13px;font-weight:500}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.purple{fill:#7c3aed}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:6 6}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.disc{fill:#e0e7ff;stroke:#4f46e5;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/>
+     <!-- Podłoże -->
+     <line class="surface" x1="50" y1="270" x2="710" y2="270"/>
+     <line x1="50" y1="274" x2="710" y2="274" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="8 6"/>
+     <!-- Koło -->
+     <circle cx="340" cy="160" r="110" class="disc" opacity="0.9"/>
+     <circle cx="340" cy="160" r="6" fill="#4f46e5"/>
+     <!-- Środek masy O -->
+     <line x1="340" y1="160" x2="445" y2="160" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/>
+     <text class="t label blue" x="455" y="166">v_cm = v</text>
+     <text class="t small" x="325" y="150">O</text>
+     <!-- Szczyt A -->
+     <circle cx="340" cy="50" r="6" fill="#16a34a"/>
+     <line x1="340" y1="50" x2="550" y2="50" stroke="#16a34a" stroke-width="5" marker-end="url(#arrow-green)"/>
+     <text class="t label green" x="560" y="56">v_A = 2v</text>
+     <text class="t small" x="325" y="42">A</text>
+     <!-- Punkt styku C (chwilowy środek obrotu) -->
+     <circle cx="340" cy="270" r="6" fill="#dc2626"/>
+     <text class="t label red" x="355" y="295">v_C = 0</text>
+     <text class="t small" x="325" y="262">C</text>
+     <!-- Prawy punkt B -->
+     <circle cx="450" cy="160" r="6" fill="#d97706"/>
+     <line x1="450" y1="160" x2="525" y2="235" stroke="#d97706" stroke-width="4" marker-end="url(#arrow-amber)"/>
+     <text class="t small amber" x="535" y="245">v_B = v√2</text>
+     <!-- Lewy panel objaśniający -->
+     <rect x="40" y="45" width="230" height="205" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+     <text class="t label" x="155" y="78" text-anchor="middle">Chwilowy środek obrotu</text>
+     <line x1="55" y1="90" x2="255" y2="90" stroke="#e2e8f0" stroke-width="2"/>
+     <text class="t small" x="55" y="118">Punkt styku <tspan class="red">C</tspan> spoczywa:</text>
+     <text class="t small red" x="55" y="142">v_C = v_postęp - ωR = 0</text>
+     <text class="t small" x="55" y="172">Szczyt <tspan class="green">A</tspan> sumuje prędkości:</text>
+     <text class="t small green" x="55" y="196">v_A = v_postęp + ωR = 2v</text>
+     <text class="t tiny muted" x="55" y="230">Toczenie = postęp + obrót</text>
+</svg>

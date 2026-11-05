@@ -1,0 +1,47 @@
+<div class="theory-section">
+  <div class="theory-subtitle">1. Wielkości kątowe w ruchu obrotowym</div>
+  <p>Bryła sztywna to ciało, w którym odległości między dowolnymi punktami są stałe. W ruchu wokół ustalonej osi wszystkie punkty bryły zakreślają ten sam kąt w tym samym czasie:</p>
+  <ul class="theory-list">
+    <li><strong>Kąt obrotu (położenie kątowe $\alpha$):</strong> miara obrotu w radianach $[\text{rad}]$. Pełny obrót to $2\pi\text{ rad} = 360^\circ$.</li>
+    <li><strong>Prędkość kątowa ($\omega$):</strong> szybkość zmiany kąta obrotu:
+    <div style="text-align:center;margin:6px 0;">$$\omega = \frac{\Delta \alpha}{\Delta t} = \frac{2\pi}{T} = 2\pi f$$</div>
+    gdzie: $T$ – okres obrotu $[\text{s}]$, $f = \frac{1}{T}$ – częstotliwość $[\text{Hz} = 1/\text{s}]$. Jednostka w SI: $[\omega] = \text{rad}/\text{s} = 1/\text{s}$.</li>
+    <li><strong>Przyspieszenie kątowe ($\varepsilon$):</strong> szybkość zmiany prędkości kątowej:
+    <div style="text-align:center;margin:6px 0;">$$\varepsilon = \frac{\Delta \omega}{\Delta t}$$</div>
+    Jednostka w SI: $[\varepsilon] = \text{rad}/\text{s}^2 = 1/\text{s}^2$. Dla ruchu jednostajnego $\varepsilon = 0$.</li>
+  </ul>
+
+  <div class="theory-subtitle">2. Związki między wielkościami kątowymi a liniowymi</div>
+  <p>Punkt bryły odległy o promień $r$ od osi obrotu porusza się po okręgu:</p>
+  <ul class="theory-list">
+    <li><strong>Droga po łuku ($s$):</strong> $s = \alpha \cdot r$.</li>
+    <li><strong>Prędkość liniowa ($v$):</strong> $v = \omega \cdot r$ (punkty na skraju bryły poruszają się najszybciej, w osi $r=0 \implies v=0$).</li>
+    <li><strong>Przyspieszenie styczne ($a_t$):</strong> zmienia wartość prędkości liniowej:
+    <div style="text-align:center;margin:4px 0;">$$a_t = \varepsilon \cdot r$$</div></li>
+    <li><strong>Przyspieszenie dośrodkowe ($a_d$):</strong> zakrzywia tor ruchu (skierowane prostopadle do osi):
+    <div style="text-align:center;margin:4px 0;">$$a_d = \frac{v^2}{r} = \omega^2 \cdot r$$</div></li>
+    <li><strong>Całkowite przyspieszenie liniowe ($a$):</strong> wektorowa suma prostopadłych składowych:
+    <div style="text-align:center;margin:4px 0;">$$a = \sqrt{a_t^2 + a_d^2}$$</div></li>
+  </ul>
+
+<div class="theory-placeholder">
+  <div class="theory-placeholder-title">Opis schematu (miejsce na grafikę)</div>
+  <p class="theory-placeholder-desc">Ruch obrotowy tarczy wokół osi O: tarcza o promieniu R obracająca się z prędkością kątową omega i przyspieszeniem kątowym epsilon. Na brzegu tarczy w odległości r od osi zaznaczony punkt ze składowymi wektorów: prędkość liniowa v = omega * r (styczna do toru), przyspieszenie styczne a_t = epsilon * r (styczne do toru) oraz przyspieszenie dośrodkowe a_d = omega^2 * r (skierowane wzdłuż promienia do środka obrotu O). Obok wektorowa suma a = sqrt(a_t^2 + a_d^2).</p>
+  <div class="theory-placeholder-caption">Wszystkie punkty bryły mają jednakowe omega i epsilon, natomiast wielkości liniowe (v, a_t, a_d) rosną proporcjonalnie do odległości r od osi.</div>
+</div>
+
+  <div class="theory-subtitle">3. Kinematyka toczenia bez poślizgu</div>
+  <p>Toczenie koła lub walca po podłożu jest złożeniem dwóch jednoczesnych ruchów: <strong>ruchu postępowego</strong> ze stałą prędkością środka masy $v$ oraz <strong>ruchu obrotowego</strong> wokół środka masy z prędkością kątową $\omega = \frac{v}{R}$:</p>
+  <ul class="theory-list">
+    <li><strong>Warunek braku poślizgu:</strong> $v = \omega R$ oraz $a = \varepsilon R$.</li>
+    <li><strong>Punkt styku z podłożem ($v = 0$):</strong> prędkość postępowa $v$ i liniowa obrotowa $-\omega R$ znoszą się do zera ($v_{\text{styk}} = 0$). Jest to <strong>chwilowy środek obrotu</strong> — punkt styku chwilowo spoczywa względem podłoża.</li>
+    <li><strong>Środek koła ($v_{\text{cm}} = v$):</strong> porusza się z prędkością postępową środka masy.</li>
+    <li><strong>Najwyższy punkt koła ($v_{\text{góra}} = 2v$):</strong> wektory prędkości się sumują ($v + \omega R = 2v$) — szczyt koła porusza się dwa razy szybciej niż środek.</li>
+  </ul>
+
+<div class="theory-placeholder">
+  <div class="theory-placeholder-title">Opis schematu (miejsce na grafikę)</div>
+  <p class="theory-placeholder-desc">Rozkład prędkości w toczącym się kole bez poślizgu: koło o promieniu R toczy się po poziomej powierzchni z prędkością środka masy v. Zaznaczone wektory prędkości w czterech kluczowych punktach: w punkcie styku z podłożem C prędkość wynosi v_C = 0 (chwilowy środek obrotu – punkt styku chwilowo spoczywa); w środku masy O prędkość wynosi v_O = v; na szczycie koła A prędkość wynosi v_A = 2v (skierowana poziomo w prawo); w skrajnym prawym punkcie B prędkość wypadkowa v_B = v * sqrt(2) skierowana pod kątem 45 stopni w dół.</p>
+  <div class="theory-placeholder-caption">Toczenie bez poślizgu to złożenie ruchu postępowego i obrotowego: punkt styku z podłożem ma prędkość zero (chwilowy środek obrotu), a szczyt koła porusza się z prędkością 2v.</div>
+</div>
+</div>

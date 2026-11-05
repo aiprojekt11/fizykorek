@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 460" width="1024" height="460">
+  <defs>
+    <!-- Markery strzałek -->
+    <marker id="arr-dark" markerWidth="7" markerHeight="5.5" refX="6" refY="2.75" orient="auto">
+      <polygon points="0 0, 7 2.75, 0 5.5" fill="#182c40" />
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#1261a0" />
+    </marker>
+    <marker id="arr-teal" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#14736b" />
+    </marker>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#b65512" />
+    </marker>
+    <marker id="arr-orange-rev" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto">
+      <polygon points="8 0, 0 3, 8 6" fill="#b65512" />
+    </marker>
+
+    <style>
+      .math {
+        font-family: 'KaTeX_Math', 'Latin Modern Math', 'CMU Serif', 'Times New Roman', Georgia, serif;
+        font-style: italic;
+        fill: #182c40;
+      }
+      .math-rm {
+        font-family: 'KaTeX_Main', 'Latin Modern Roman', 'CMU Serif', 'Times New Roman', Georgia, serif;
+        font-style: normal;
+        fill: #182c40;
+      }
+      .text-heading {
+        font-family: 'KaTeX_Main', 'Latin Modern Roman', 'CMU Serif', 'Times New Roman', Georgia, serif;
+        font-size: 17.5px;
+        fill: #182c40;
+      }
+      .text-body {
+        font-family: 'KaTeX_Main', 'Latin Modern Roman', 'CMU Serif', 'Times New Roman', Georgia, serif;
+        font-size: 15px;
+        fill: #182c40;
+      }
+      .text-muted {
+        font-family: 'KaTeX_Main', 'Latin Modern Roman', 'CMU Serif', 'Times New Roman', Georgia, serif;
+        font-size: 13.5px;
+        fill: #64778a;
+      }
+
+      .blue   { fill: #1261a0; }
+      .teal   { fill: #14736b; }
+      .orange { fill: #b65512; }
+      .slate  { fill: #64778a; }
+
+      .body-light { fill: #f5f8fb; stroke: #64778a; stroke-width: 2; }
+      .body-side  { fill: #e6eef5; stroke: #64778a; stroke-width: 2; }
+      .body-dense { fill: #dce5ed; stroke: #64778a; stroke-width: 2; }
+      .incline-surface { stroke: #64778a; stroke-width: 2.4; stroke-linecap: round; }
+      .ground     { stroke: #64778a; stroke-width: 2.2; stroke-linecap: round; }
+      .hatch      { stroke: #cbd2d8; stroke-width: 1.2; }
+      .dim-line   { stroke: #768798; stroke-width: 1.4; }
+      .wit-line   { stroke: #cbd2d8; stroke-width: 1.3; }
+      .card       { fill: #f2f6f9; rx: 12px; }
+    </style>
+  </defs>
+
+  <!-- Tło -->
+  <rect width="1024" height="460" fill="#ffffff" />
+
+  <!-- ===================================================================== -->
+  <!-- GÓRNA CZĘŚĆ: RÓWNIA POCHYŁA Z TRZEMA BRYŁAMI (y: 20 .. 275)           -->
+  <!-- ===================================================================== -->
+
+  <!-- Równia: trójkąt od x=70,y=45 (szczyt) do x=940,y=245 (podstawa) -->
+  <!-- Kąt nachylenia ok. 13 stopni, długość podstawy 870, wysokość h = 200 -->
+
+  <!-- Wypełnienie bloku równi -->
+  <polygon points="70,45 940,245 70,245" fill="#f8fafc" stroke="none" />
+  <line x1="70" y1="45" x2="940" y2="245" class="incline-surface" />
+  <line x1="45" y1="245" x2="980" y2="245" class="ground" />
+
+  <!-- Kreskowanie podłoża poziomego -->
+  <g class="hatch">
+    <line x1="60" y1="245" x2="50" y2="256" />
+    <line x1="120" y1="245" x2="110" y2="256" />
+    <line x1="180" y1="245" x2="170" y2="256" />
+    <line x1="240" y1="245" x2="230" y2="256" />
+    <line x1="300" y1="245" x2="290" y2="256" />
+    <line x1="360" y1="245" x2="350" y2="256" />
+    <line x1="420" y1="245" x2="410" y2="256" />
+    <line x1="480" y1="245" x2="470" y2="256" />
+    <line x1="540" y1="245" x2="530" y2="256" />
+    <line x1="600" y1="245" x2="590" y2="256" />
+    <line x1="660" y1="245" x2="650" y2="256" />
+    <line x1="720" y1="245" x2="710" y2="256" />
+    <line x1="780" y1="245" x2="770" y2="256" />
+    <line x1="840" y1="245" x2="830" y2="256" />
+    <line x1="900" y1="245" x2="890" y2="256" />
+    <line x1="960" y1="245" x2="950" y2="256" />
+  </g>
+
+  <!-- Wymiar wysokości h po lewej stronie -->
+  <line x1="70" y1="45" x2="70" y2="245" stroke="#768798" stroke-width="1.4" stroke-dasharray="4,4" />
+  <line x1="52" y1="45" x2="52" y2="245" stroke="#b65512" stroke-width="2" marker-start="url(#arr-orange-rev)" marker-end="url(#arr-orange)" />
+  <line x1="42" y1="45" x2="62" y2="45" class="wit-line" />
+  <line x1="42" y1="245" x2="62" y2="245" class="wit-line" />
+  <text x="36" y="152" text-anchor="end" class="math orange" font-size="22">h</text>
+
+  <!-- Stan początkowy na szczycie: E_p = mgh, E_k = 0 -->
+  <g transform="translate(130, 24)">
+    <text x="0" y="0" text-anchor="middle" class="text-heading" font-size="15px">Szczyt równi (<tspan class="math">v = </tspan><tspan class="math-rm">0</tspan>):</text>
+    <text x="0" y="20" text-anchor="middle" class="math teal" font-size="18">E<tspan class="math-rm" font-size="12" dy="3">p</tspan><tspan dy="-3"> = mgh</tspan></text>
+  </g>
+
+  <!-- Trzy staczające się bryły w kolejności wyścigu: -->
+  <!-- Kąt równi theta = arctan(200/870) = 12.94° -->
+  <!-- Wektor wzdłuż równi: dx = cos(theta)*s, dy = sin(theta)*s -->
+
+  <!-- 1. KULA PEŁNA (najdalej z przodu, blisko dołu, x = 740, y = 175) -->
+  <g transform="translate(740, 175)">
+    <circle cx="0" cy="0" r="28" class="body-light" />
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#dce5ed" stroke-width="1.4" />
+    <circle cx="0" cy="0" r="3.5" fill="#182c40" />
+    <!-- Wektor prędkości wzdłuż równi (długi, najszybszy) -->
+    <line x1="0" y1="0" x2="72" y2="16.5" stroke="#1261a0" stroke-width="3" marker-end="url(#arr-blue)" />
+    <text x="78" y="14" class="math blue" font-size="19">v<tspan class="math-rm" font-size="12" dy="3">k</tspan></text>
+    <!-- Etykieta pozycji 1 -->
+    <circle cx="0" cy="-38" r="11" fill="#1261a0" />
+    <text x="0" y="-33.5" text-anchor="middle" fill="#ffffff" class="math-rm" font-size="13" font-weight="700">1</text>
+    <text x="0" y="-54" text-anchor="middle" class="text-heading" font-size="15px">Kula pełna</text>
+  </g>
+
+  <!-- 2. WALEC PEŁNY (w środku stawki, x = 500, y = 120) -->
+  <g transform="translate(500, 120)">
+    <circle cx="0" cy="0" r="28" class="body-side" />
+    <circle cx="0" cy="0" r="3.5" fill="#182c40" />
+    <!-- Wektor prędkości wzdłuż równi (średni) -->
+    <line x1="0" y1="0" x2="56" y2="13" stroke="#14736b" stroke-width="2.7" marker-end="url(#arr-teal)" />
+    <text x="62" y="11" class="math teal" font-size="19">v<tspan class="math-rm" font-size="12" dy="3">w</tspan></text>
+    <!-- Etykieta pozycji 2 -->
+    <circle cx="0" cy="-38" r="11" fill="#14736b" />
+    <text x="0" y="-33.5" text-anchor="middle" fill="#ffffff" class="math-rm" font-size="13" font-weight="700">2</text>
+    <text x="0" y="-54" text-anchor="middle" class="text-heading" font-size="15px">Walec pełny</text>
+  </g>
+
+  <!-- 3. OBRĘCZ / PIERŚCIEŃ (najwolniejsza, z tyłu, x = 270, y = 67) -->
+  <g transform="translate(270, 67)">
+    <circle cx="0" cy="0" r="28" class="body-dense" />
+    <circle cx="0" cy="0" r="19" fill="#ffffff" stroke="#64778a" stroke-width="1.8" />
+    <circle cx="0" cy="0" r="3.5" fill="#182c40" />
+    <!-- Wektor prędkości wzdłuż równi (najkrótszy) -->
+    <line x1="0" y1="0" x2="42" y2="9.6" stroke="#b65512" stroke-width="2.5" marker-end="url(#arr-orange)" />
+    <text x="48" y="8" class="math orange" font-size="19">v<tspan class="math-rm" font-size="12" dy="3">p</tspan></text>
+    <!-- Etykieta pozycji 3 -->
+    <circle cx="0" cy="-38" r="11" fill="#b65512" />
+    <text x="0" y="-33.5" text-anchor="middle" fill="#ffffff" class="math-rm" font-size="13" font-weight="700">3</text>
+    <text x="0" y="-54" text-anchor="middle" class="text-heading" font-size="15px">Obręcz</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- DOLNE KARTY: WYPROWADZENIE I KOLEJNOŚĆ W WYŚCIGU                     -->
+  <!-- ===================================================================== -->
+
+  <!-- Karta I (lewa, szerokość 445): Zasada zachowania energii i wyprowadzenie -->
+  <g transform="translate(48, 290)">
+    <rect x="0" y="0" width="445" height="150" class="card" />
+    <text x="22" y="28" class="text-heading">I. Bilans energii na dole równi</text>
+
+    <!-- Wzór: mgh = 1/2 mv^2 + 1/2 I omega^2 -->
+    <g transform="translate(24, 68)">
+      <text x="0" y="0" class="math" font-size="22">mgh</text>
+      <text x="48" y="0" class="math-rm" font-size="20">=</text>
+
+      <!-- 1/2 mv^2 -->
+      <text x="75" y="-8" text-anchor="middle" class="math-rm blue" font-size="16">1</text>
+      <line x1="68" y1="-5" x2="82" y2="-5" stroke="#1261a0" stroke-width="1.4" />
+      <text x="75" y="11" text-anchor="middle" class="math-rm blue" font-size="16">2</text>
+      <text x="89" y="0" class="math blue" font-size="21">mv</text>
+      <text x="114" y="-9" class="math-rm blue" font-size="13">2</text>
+
+      <text x="130" y="0" class="math-rm" font-size="20">+</text>
+
+      <!-- 1/2 I omega^2 -->
+      <text x="156" y="-8" text-anchor="middle" class="math-rm teal" font-size="16">1</text>
+      <line x1="149" y1="-5" x2="163" y2="-5" stroke="#14736b" stroke-width="1.4" />
+      <text x="156" y="11" text-anchor="middle" class="math-rm teal" font-size="16">2</text>
+      <text x="171" y="0" class="math teal" font-size="21">Iω</text>
+      <text x="195" y="-9" class="math-rm teal" font-size="13">2</text>
+    </g>
+
+    <text x="22" y="106" class="text-body">Podstawiamy związek kinematyczny: <tspan class="math teal">ω = v / R</tspan></text>
+    <text x="22" y="130" class="text-muted">Masa <tspan class="math">m</tspan> oraz promień <tspan class="math">R</tspan> zawsze się skracają przy wyznaczaniu <tspan class="math">v</tspan>!</text>
+  </g>
+
+  <!-- Karta II (prawa, szerokość 465): Wyniki dla poszczególnych brył -->
+  <g transform="translate(511, 290)">
+    <rect x="0" y="0" width="465" height="150" class="card" />
+    <text x="22" y="28" class="text-heading">II. Wyniki wyścigu (prędkości na dole)</text>
+
+    <!-- Kula -->
+    <text x="22" y="60" class="text-body"><tspan class="math blue" font-weight="700">1. Kula pełna</tspan> (<tspan class="math teal">I = ⅖mR²</tspan>):</text>
+    <text x="260" y="60" class="math blue" font-size="19">v = √(¹⁰⁄₇ gh) ≈ 1,20 √gh</text>
+
+    <!-- Walec -->
+    <text x="22" y="94" class="text-body"><tspan class="math teal" font-weight="700">2. Walec pełny</tspan> (<tspan class="math teal">I = ½mR²</tspan>):</text>
+    <text x="260" y="94" class="math teal" font-size="19">v = √(⁴⁄₃ gh) ≈ 1,15 √gh</text>
+
+    <!-- Obręcz -->
+    <text x="22" y="128" class="text-body"><tspan class="math orange" font-weight="700">3. Obręcz</tspan> (<tspan class="math teal">I = mR²</tspan>):</text>
+    <text x="260" y="128" class="math orange" font-size="19">v = √(gh) = 1,00 √gh</text>
+  </g>
+</svg>

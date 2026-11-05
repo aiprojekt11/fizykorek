@@ -3965,27 +3965,25 @@ window.FIZYKOREK_COURSES = {
                 "image": "img/cke_2026_maj_zad2_ruch.png",
                 "problem": "<div class=\"task-matura\"><h4>Zadanie 2.</h4>\n<p>Do jednego z końców nierozciągliwej nici o długości $l$ zamocowano niewielkie ciało $\\mathcal{B}$ o masie $m$. Drugi koniec nici jest unieruchomiony w punkcie $S$. Następnie ciało $\\mathcal{B}$ wprawiono w ruch po okręgu o środku w punkcie $S$ <u>w płaszczyźnie pionowej</u>.</p>\n<p>Przyjmij model zjawiska, w którym:</p><ul>\n<li>na ciało $\\mathcal{B}$ podczas ruchu działają dwie siły:<br>$\\vec{F}_g$ – siła grawitacji oraz $\\vec{F}_n$ – siła reakcji nici</li>\n<li>pomijamy wszelkie opory ruchu, masę nici, a ciało $\\mathcal{B}$ traktujemy jako punkt materialny</li>\n<li>ciało $\\mathcal{B}$ porusza się w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym.</li></ul>\n<div class=\"chart-container-svg\"><img src=\"img/cke_2026_maj_zad2_ruch.png\" alt=\"Ciało na nici w pionowej płaszczyźnie\" class=\"theory-img\" style=\"max-height: 260px; display: block; margin: 15px auto;\"></div>\n<p>Sytuację ilustruje rysunek powyżej, na którym oznaczono przyśpieszenie ziemskie $\\vec{g}$.</p>\n<h4>Zadanie 2.1. (0–2)</h4><p>Na poniższym rysunku przedstawiono wektory prędkości ciała $\\mathcal{B}$ w dwóch różnych chwilach czasu podczas opisanego ruchu tego ciała po okręgu.</p><p>Długość boku kratki odpowiada umownej jednostce odległości.</p>\n<div class=\"chart-container-svg\"><img src=\"img/cke_2026_maj_zad2_siatka.png\" alt=\"Rysunek – wektory prędkości na siatce\" class=\"theory-img\" style=\"max-height: 400px; display: block; margin: 15px auto;\"></div>\n<p><strong>Na rysunku powyżej wyznacz konstrukcyjnie środek okręgu, po którym porusza się ciało $\\mathcal{B}$. Podpisz środek tego okręgu jako $S$.</strong></p>\n<p><strong>Zapisz w wykropkowanym miejscu poniżej długość $l$ promienia tego okręgu. Wyraź tę długość w umownych jednostkach odległości.</strong></p>\n<p>$l =$ ........... długości boku kratki</p><p><em>Uwaga! W tym przykładzie środek $S$ okręgu leży w punkcie kratowym.</em></p>\n<h4>Zadanie 2.2. (0–1)</h4><p><strong>Na którym rysunku (spośród A–D) prawidłowo przedstawiono siły – grawitacji $\\vec{F}_g$ oraz reakcji nici $\\vec{F}_n$ – działające na ciało $\\mathcal{B}$ podczas ruchu po okręgu, gdy przechodzi ono przez najniższe położenie? Wybierz właściwą odpowiedź spośród podanych.</strong></p>\n<div class=\"chart-container-svg\"><img src=\"img/cke_2026_maj_zad2_opcje.png\" alt=\"Odpowiedzi A–D – siły w najniższym położeniu\" class=\"theory-img\" style=\"max-height: 600px; display: block; margin: 15px auto;\"></div>\n<h4>Zadanie 2.3. (0–4)</h4><p>Siła $\\vec{F}_n$, z jaką nić działa na ciało $\\mathcal{B}$ podczas jego ruchu po okręgu, zmienia swoją wartość. Największą wartość tej siły oznaczymy jako $F_{n\\,max}$, a najmniejszą – jako $F_{n\\,min}$.</p>\n<p>Dany jest iloraz największej i najmniejszej wartości prędkości ciała $\\mathcal{B}$ podczas jego ruchu po okręgu:</p><p style=\"text-align:center\">$\\frac{v_{max}}{v_{min}}=\\sqrt{3}$</p>\n<p><strong>Oblicz iloraz $\\frac{F_{n\\,max}}{F_{n\\,min}}$. Zapisz obliczenia.</strong></p></div>",
                 "solution": {
-                  "givens": "Długość nici (promień okręgu): $l$, masa ciała: $m$, stosunek prędkości skrajnych: $\\frac{v_{\\max}}{v_{\\min}} = \\sqrt{3}$, ruch po okręgu w płaszczyźnie pionowej, brak oporów ruchu.",
+                  "intuition": "Promień okręgu jest prostopadły do wektora prędkości. W najniższym i najwyższym położeniu łączymy II zasadę dynamiki dla ruchu po okręgu z zasadą zachowania energii mechanicznej.",
+                  "givens": "Długość nici (promień okręgu) $l$, masa ciała $m$, $\\frac{v_{max}}{v_{min}} = \\sqrt{3}$.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Konstrukcja środka okręgu i odczyt promienia",
-                      "content": "Wektor prędkości w ruchu po okręgu jest w każdej chwili styczny do toru, co oznacza, że promień łączący ciało ze środkiem okręgu $S$ jest zawsze prostopadły do wektora prędkości $\\vec{v}$:\n1. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_1$ w punkcie jego przyłożenia (pionowo w dół).\n2. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_2$ w punkcie jego przyłożenia.\n3. Punkt przecięcia obu prostych jednoznacznie wyznacza środek okręgu $S$.\n\nOdliczając kratki pionowo od środka $S$ do punktu zaczepienia wektora $\\vec{v}_1$, odczytujemy promień okręgu:\n$$l = 10\\text{ długości kratek}$$\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
+                      "title": "Zadanie 2.1",
+                      "content": "Wektor prędkości w ruchu po okręgu jest styczny do toru, więc promień łączący ciało ze środkiem okręgu $S$ jest prostopadły do wektora prędkości. Prowadzimy proste prostopadłe do obu wektorów prędkości w punktach ich przyłożenia:\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>\nPunkt przecięcia tych prostych wyznacza środek okręgu $S$. Odliczając kratki wzdłuż pionowego promienia od środka $S$ do położenia ciała, odczytujemy długość promienia:\n$$l = 10\\text{ długości boku kratki}$$"
                     },
                     {
-                      "title": "Zadanie 2.2 – Wybór sił działających w najniższym położeniu",
-                      "content": "W najniższym położeniu na ciało działają dwie pionowe siły:\n- siła grawitacji $\\vec{F}_g = m\\vec{g}$ skierowana pionowo w dół,\n- siła reakcji (naciągu) nici $\\vec{F}_n$ skierowana pionowo w górę (w stronę środka okręgu $S$).\n\nAby ciało poruszało się po okręgu, siła wypadkowa musi być skierowana do środka okręgu (w górę) i pełnić rolę siły dośrodkowej:\n$$F_{\\text{doś}} = F_n - F_g = \\frac{m v_{\\max}^2}{l} > 0 \\implies F_n > F_g$$\nWektor siły reakcji nici $\\vec{F}_n$ musi mieć zatem większą długość niż wektor ciężaru $\\vec{F}_g$. Warunek ten spełnia wyłącznie **rysunek B**."
+                      "title": "Zadanie 2.2",
+                      "content": "W najniższym położeniu wypadkowa siła dośrodkowa jest skierowana pionowo w górę (w stronę środka okręgu $S$):\n$$F_d = F_n - F_g = \\frac{mv_{max}^2}{l} > 0 \\implies F_n > F_g$$\nWektor siły reakcji nici $\\vec{F}_n$ (w górę) musi być dłuższy od wektora ciężaru $\\vec{F}_g$ (w dół). Odpowiedź: B."
                     },
                     {
-                      "title": "Zadanie 2.3 – Równania dynamiki w skrajnych punktach toru",
-                      "content": "Zapisujemy II zasadę dynamiki dla składowych sił wzdłuż promienia okręgu w punktach o prędkości maksymalnej i minimalnej:\n- **W najniższym punkcie (prędkość maksymalna $v_{\\max}$):**\n$$F_{n,\\max} - mg = \\frac{m v_{\\max}^2}{l} \\implies F_{n,\\max} = mg + \\frac{m v_{\\max}^2}{l}$$\n- **W najwyższym punkcie (prędkość minimalna $v_{\\min}$):**\nZarówno siła reakcji nici, jak i siła grawitacji działają w dół (w stronę środka $S$):\n$$F_{n,\\min} + mg = \\frac{m v_{\\min}^2}{l} \\implies F_{n,\\min} = \\frac{m v_{\\min}^2}{l} - mg$$"
-                    },
-                    {
-                      "title": "Zadanie 2.3 – Zastosowanie zasady zachowania energii i obliczenie ilorazu sił",
-                      "content": "Różnica wysokości między najniższym a najwyższym punktem toru wynosi $h = 2l$. Z zasady zachowania energii mechanicznej:\n$$\\frac{1}{2}m v_{\\max}^2 = \\frac{1}{2}m v_{\\min}^2 + mg(2l)$$\nMnożymy obustronnie przez $\\frac{2}{l}$:\n$$\\frac{m v_{\\max}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg$$\nZ treści zadania wiemy, że $v_{\\max} = \\sqrt{3}\\,v_{\\min}$, co oznacza $v_{\\max}^2 = 3v_{\\min}^2$. Podstawiamy:\n$$3\\,\\frac{m v_{\\min}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg \\implies 2\\,\\frac{m v_{\\min}^2}{l} = 4mg \\implies \\frac{m v_{\\min}^2}{l} = 2mg$$\nStąd dla prędkości maksymalnej:\n$$\\frac{m v_{\\max}^2}{l} = 3 \\cdot (2mg) = 6mg$$\nObliczamy wartości sił reakcji nici:\n$$F_{n,\\max} = mg + 6mg = 7mg$$\n$$F_{n,\\min} = 2mg - mg = mg$$\nIloraz poszukiwanych sił wynosi:\n$$\\frac{F_{n,\\max}}{F_{n,\\min}} = \\frac{7mg}{mg} = 7$$"
+                      "title": "Zadanie 2.3",
+                      "content": "Siła reakcji nici jest największa w najniższym położeniu ($v_{max}$), a najmniejsza w najwyższym położeniu ($v_{min}$). Z II zasady dynamiki:\n$$F_{n\\,max} - mg = \\frac{mv_{max}^2}{l} \\implies F_{n\\,max} = \\frac{mv_{max}^2}{l} + mg$$\n$$F_{n\\,min} + mg = \\frac{mv_{min}^2}{l} \\implies F_{n\\,min} = \\frac{mv_{min}^2}{l} - mg$$\nZ zasady zachowania energii mechanicznej między najniższym a najwyższym punktem toru (różnica wysokości $h = 2l$):\n$$\\frac{1}{2}mv_{max}^2 = \\frac{1}{2}mv_{min}^2 + mg(2l) \\implies \\frac{mv_{max}^2}{l} = \\frac{mv_{min}^2}{l} + 4mg$$\nPonieważ $\\frac{v_{max}}{v_{min}} = \\sqrt{3}$, więc $v_{max}^2 = 3v_{min}^2$. Podstawiamy do równania energii:\n$$3\\frac{mv_{min}^2}{l} = \\frac{mv_{min}^2}{l} + 4mg \\implies \\frac{mv_{min}^2}{l} = 2mg \\quad\\text{oraz}\\quad \\frac{mv_{max}^2}{l} = 6mg$$\nObliczamy wartości sił reakcji nici i ich iloraz:\n$$F_{n\\,max} = 6mg + mg = 7mg, \\qquad F_{n\\,min} = 2mg - mg = mg$$\n$$\\frac{F_{n\\,max}}{F_{n\\,min}} = \\frac{7mg}{mg} = 7$$"
                     }
                   ],
-                  "answer": "2.1: Konstrukcja prostych prostopadłych, $l = 10\\text{ długości kratek}$;\n2.2: Poprawny rysunek B ($F_n > F_g$);\n2.3: Iloraz wynosi $\\frac{F_{n,\\max}}{F_{n,\\min}} = 7$.",
-                  "trap": "W najwyższym punkcie toru siła ciężkości działa w tym samym zwrocie co siła naciągu nici (w dół, w stronę środka okręgu), dlatego $F_{n,\\min} = \\frac{mv_{\\min}^2}{l} - mg$, a nie ze znakiem plus!"
+                  "answer": "2.1: Konstrukcja na rysunku, $l = 10$ długości boku kratki;\n2.2: B;\n2.3: $\\frac{F_{n\\,max}}{F_{n\\,min}} = 7$.",
+                  "trap": "W najwyższym punkcie toru siła ciężkości i siła reakcji nici mają ten sam zwrot (w dół, do środka okręgu), dlatego $F_{n\\,min} = \\frac{mv_{min}^2}{l} - mg$.",
+                  "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-maj-matura-rozszerzona-odpowiedzi.pdf#page=10\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 10–14</a>."
                 }
               },
               {
@@ -4386,19 +4384,14 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<p class=\"problem-paragraph\">Ładunek $10\\text{ kg}$ podnoszony jest pionowo ruchem jednostajnym na wysokość $2\\text{ m}$. Oblicz pracę siły podnoszącej oraz pracę ciężaru.</p>",
                 "solution": {
-                  "givens": "$m = 10\\text{ kg}$, $h = 2\\text{ m}$, $g = 10\\text{ m/s}^2$, ruch jednostajny ($v = \\text{const}$).",
+                  "givens": "$m = 10\\text{ kg}$, $h = 2\\text{ m}$, $g = 10\\text{ m/s}^2$, ruch jednostajny ($F_p = mg = 100\\text{ N}$).",
                   "steps": [
                     {
-                      "title": "Praca siły podnoszącej",
-                      "content": "W ruchu jednostajnym siła wypadkowa wynosi zero, zatem siła podnosząca ma wartość równą ciężarowi: $F_p = mg = 10 \\cdot 10 = 100\\text{ N}$.\nSiła podnosząca ma zwrot w górę, zgodny z ruchem:\n$$W_p = F_p \\cdot h = mgh = 100\\text{ N} \\cdot 2\\text{ m} = +200\\text{ J}$$"
-                    },
-                    {
-                      "title": "Praca siły ciężkości",
-                      "content": "Siła ciężkości ma zwrot w dół, przeciwny do kierunku podnoszenia ($\\alpha = 180^\\circ$):\n$$W_g = -mg \\cdot h = -100\\text{ N} \\cdot 2\\text{ m} = -200\\text{ J}$$"
+                      "title": "Praca siły podnoszącej i siły ciężkości",
+                      "content": "Siła podnosząca działa zgodnie z przemieszczeniem ($\\alpha = 0^\\circ$), a siła ciężkości przeciwnie ($\\alpha = 180^\\circ$):\n$$W_p = F_p \\cdot h = mgh = 100\\text{ N} \\cdot 2\\text{ m} = +200\\text{ J}$$\n$$W_g = -mg \\cdot h = -100\\text{ N} \\cdot 2\\text{ m} = -200\\text{ J}$$"
                     }
                   ],
-                  "answer": "Praca siły podnoszącej wynosi $+200\\text{ J}$, a praca siły ciężkości wynosi $-200\\text{ J}$ (praca wypadkowa $W_w = 0$).",
-                  "trap": "W ruchu jednostajnym praca wypadkowa wszystkich sił wynosi zero, ponieważ energia kinetyczna ciała się nie zmienia (ΔEk = 0)."
+                  "answer": "Praca siły podnoszącej wynosi $+200\\text{ J}$, a praca siły ciężkości $-200\\text{ J}$."
                 }
               },
               {
@@ -4416,15 +4409,11 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$F_1 = 12\\text{ N}$ (w prawo), $F_2 = 5\\text{ N}$ (w lewo), $s = 3\\text{ m}$ (w prawo).",
                   "steps": [
                     {
-                      "title": "Obliczenie pracy każdej siły z osobna",
-                      "content": "$$W_1 = F_1 \\cdot s = 12\\text{ N} \\cdot 3\\text{ m} = +36\\text{ J}$$\n$$W_2 = -F_2 \\cdot s = -5\\text{ N} \\cdot 3\\text{ m} = -15\\text{ J}$$"
-                    },
-                    {
-                      "title": "Obliczenie pracy wypadkowej",
-                      "content": "Praca wypadkowa to suma prac składowych (lub praca siły wypadkowej $F_w = 12 - 5 = 7\\text{ N}$):\n$$W_w = W_1 + W_2 = 36\\text{ J} + (-15\\text{ J}) = 21\\text{ J}$$\n$$(W_w = F_w \\cdot s = 7\\text{ N} \\cdot 3\\text{ m} = 21\\text{ J})$$"
+                      "title": "Prace sił składowych i praca wypadkowa",
+                      "content": "$$W_1 = F_1 \\cdot s = 12\\text{ N} \\cdot 3\\text{ m} = 36\\text{ J}$$\n$$W_2 = -F_2 \\cdot s = -5\\text{ N} \\cdot 3\\text{ m} = -15\\text{ J}$$\n$$W_w = W_1 + W_2 = 36\\text{ J} - 15\\text{ J} = 21\\text{ J}$$"
                     }
                   ],
-                  "answer": "$W_1 = 36\\text{ J}$, $W_2 = -15\\text{ J}$, a praca wypadkowa wynosi $W_w = 21\\text{ J}$."
+                  "answer": "$W_1 = 36\\text{ J}$, $W_2 = -15\\text{ J}$, praca wypadkowa $W_w = 21\\text{ J}$."
                 }
               },
               {
@@ -4441,19 +4430,11 @@ window.FIZYKOREK_COURSES = {
                 "problem": "<p class=\"problem-paragraph\">Wartość poziomej siły działającej wzdłuż ruchu zależy od drogi zgodnie z wykresem. Oblicz pracę na odcinku $0 \\le s \\le 4\\text{ m}$.</p>",
                 "chartSvg": "<svg viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:380px; width:100%; height:auto; font-family:system-ui,-apple-system,sans-serif;\">\n  <defs>\n    <marker id=\"arrow-p7\" viewBox=\"0 0 10 10\" refX=\"6\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#1e293b\"/>\n    </marker>\n  </defs>\n  <polygon points=\"60,180 160,70 260,70 260,180\" fill=\"rgba(37,99,235,0.08)\"/>\n  <line x1=\"50\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#1e293b\" stroke-width=\"2\" marker-end=\"url(#arrow-p7)\"/>\n  <line x1=\"60\" y1=\"190\" x2=\"60\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"2\" marker-end=\"url(#arrow-p7)\"/>\n  <text x=\"345\" y=\"185\" font-size=\"14\" font-weight=\"600\" fill=\"#1e293b\" font-style=\"italic\">s [m]</text>\n  <text x=\"60\" y=\"22\" font-size=\"14\" font-weight=\"600\" fill=\"#1e293b\" font-style=\"italic\" text-anchor=\"middle\">F [N]</text>\n  <line x1=\"160\" y1=\"70\" x2=\"160\" y2=\"180\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/>\n  <line x1=\"260\" y1=\"70\" x2=\"260\" y2=\"180\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/>\n  <line x1=\"60\" y1=\"70\" x2=\"160\" y2=\"70\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/>\n  <polyline points=\"60,180 160,70 260,70\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <circle cx=\"60\" cy=\"180\" r=\"3.5\" fill=\"#2563eb\"/>\n  <circle cx=\"160\" cy=\"70\" r=\"3.5\" fill=\"#2563eb\"/>\n  <circle cx=\"260\" cy=\"70\" r=\"3.5\" fill=\"#2563eb\"/>\n  <line x1=\"160\" y1=\"177\" x2=\"160\" y2=\"183\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"202\" font-size=\"13\" font-weight=\"500\" fill=\"#334155\" text-anchor=\"middle\">2</text>\n  <line x1=\"260\" y1=\"177\" x2=\"260\" y2=\"183\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n  <text x=\"260\" y=\"202\" font-size=\"13\" font-weight=\"500\" fill=\"#334155\" text-anchor=\"middle\">4</text>\n  <line x1=\"57\" y1=\"70\" x2=\"63\" y2=\"70\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n  <text x=\"50\" y=\"75\" font-size=\"13\" font-weight=\"500\" fill=\"#334155\" text-anchor=\"end\">6</text>\n  <text x=\"50\" y=\"195\" font-size=\"12\" fill=\"#64748b\" text-anchor=\"end\">0</text>\n</svg>",
                 "solution": {
-                  "givens": "Wykres $F(s)$: od $s=0$ do $s=2\\text{ m}$ siła rośnie liniowo do $6\\text{ N}$, od $s=2\\text{ m}$ do $s=4\\text{ m}$ siła ma stałą wartość $6\\text{ N}$.",
+                  "givens": "Wykres $F(s)$: trójkąt na odcinku $0 \\le s \\le 2\\text{ m}$ (wysokość $6\\text{ N}$) oraz prostokąt na odcinku $2 \\le s \\le 4\\text{ m}$ (wysokość $6\\text{ N}$).",
                   "steps": [
                     {
-                      "title": "Podział pola pod wykresem na figury elementarne",
-                      "content": "Praca zmiennej siły jest geometrycznie równa polu powierzchni pod wykresem $F(s)$. Dzielimy obszar na trójkąt ($0 \\le s \\le 2$) oraz prostokąt ($2 \\le s \\le 4$)."
-                    },
-                    {
-                      "title": "Obliczenie pól składowych",
-                      "content": "Pole trójkąta:\n$$W_1 = \\frac{1}{2} \\cdot \\text{podstawa} \\cdot \\text{wysokość} = \\frac{1}{2} \\cdot 2\\text{ m} \\cdot 6\\text{ N} = 6\\text{ J}$$\nPole prostokąta:\n$$W_2 = (4 - 2)\\text{ m} \\cdot 6\\text{ N} = 2\\text{ m} \\cdot 6\\text{ N} = 12\\text{ J}$$"
-                    },
-                    {
-                      "title": "Wyznaczenie całkowitej pracy",
-                      "content": "$$W = W_1 + W_2 = 6\\text{ J} + 12\\text{ J} = 18\\text{ J}$$"
+                      "title": "Obliczenie pola pod wykresem F(s)",
+                      "content": "Praca jest równa polu powierzchni pod wykresem $F(s)$ (suma pola trójkąta i prostokąta):\n$$W = \\frac{1}{2} \\cdot 2\\text{ m} \\cdot 6\\text{ N} + (4 - 2)\\text{ m} \\cdot 6\\text{ N} = 6\\text{ J} + 12\\text{ J} = 18\\text{ J}$$"
                     }
                   ],
                   "answer": "Praca na odcinku $0 \\le s \\le 4\\text{ m}$ wynosi $18\\text{ J}$."
@@ -4498,15 +4479,11 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$m = 200\\text{ kg}$, $h = 6\\text{ m}$, $t = 10\\text{ s}$, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
-                      "title": "Praca użyteczna podnoszenia",
-                      "content": "$$W = mgh = 200\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 6\\text{ m} = 12\\,000\\text{ J}$$"
-                    },
-                    {
                       "title": "Obliczenie mocy średniej",
-                      "content": "$$P_{\\text{śr}} = \\frac{W}{t} = \\frac{12\\,000\\text{ J}}{10\\text{ s}} = 1200\\text{ W} = 1{,}2\\text{ kW}$$"
+                      "content": "$$P = \\frac{W}{t} = \\frac{mgh}{t} = \\frac{200\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 6\\text{ m}}{10\\text{ s}} = 1200\\text{ W} = 1{,}2\\text{ kW}$$"
                     }
                   ],
-                  "answer": "Moc średnia użyteczna dźwigu wynosi $1200\\text{ W} = 1{,}2\\text{ kW}$."
+                  "answer": "Moc średnia użyteczna dźwigu wynosi $1200\\text{ W}$ ($1{,}2\\text{ kW}$)."
                 }
               },
               {
@@ -4549,15 +4526,11 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$P_u = 800\\text{ W}$, $P_c = 1{,}0\\text{ kW} = 1000\\text{ W}$, $t = 5\\text{ min} = 300\\text{ s}$.",
                   "steps": [
                     {
-                      "title": "Obliczenie sprawności",
-                      "content": "$$\\eta = \\frac{P_u}{P_c} = \\frac{800\\text{ W}}{1000\\text{ W}} = 0{,}80 = 80\\%$$"
-                    },
-                    {
-                      "title": "Obliczenie pobranej energii",
-                      "content": "$$E = P_c \\cdot t = 1000\\text{ W} \\cdot 300\\text{ s} = 3{,}0 \\cdot 10^5\\text{ J} = 300\\text{ kJ}$$"
+                      "title": "Sprawność i pobrana energia",
+                      "content": "$$\\eta = \\frac{P_u}{P_c} = \\frac{800\\text{ W}}{1000\\text{ W}} = 0{,}80 = 80\\%$$\n$$E = P_c \\cdot t = 1000\\text{ W} \\cdot 300\\text{ s} = 300\\,000\\text{ J} = 300\\text{ kJ}$$"
                     }
                   ],
-                  "answer": "Sprawność urządzenia wynosi $\\eta = 80\\%$, a pobrana energia w czasie $5\\text{ min}$ to $300\\text{ kJ}$ ($3{,}0 \\cdot 10^5\\text{ J}$)."
+                  "answer": "Sprawność wynosi $80\\%$, a pobrana energia to $300\\text{ kJ}$."
                 }
               },
               {
@@ -4574,19 +4547,11 @@ window.FIZYKOREK_COURSES = {
                 "problem": "<p class=\"problem-paragraph\">Moc silnika podczas rozruchu wózka jest przedstawiona na wykresie. Wózek otrzymuje całą tę energię jako energię mechaniczną. Oblicz pracę wykonaną przez silnik w czasie $0 \\le t \\le 4\\text{ s}$.</p>\n",
                 "chartSvg": "<svg viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:380px; width:100%; height:auto; font-family:system-ui,-apple-system,sans-serif;\">\n  <defs>\n    <marker id=\"arrow-p12\" viewBox=\"0 0 10 10\" refX=\"6\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#1e293b\"/>\n    </marker>\n  </defs>\n  <polygon points=\"60,180 160,70 260,70 260,180\" fill=\"rgba(37,99,235,0.08)\"/>\n  <line x1=\"50\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#1e293b\" stroke-width=\"2\" marker-end=\"url(#arrow-p12)\"/>\n  <line x1=\"60\" y1=\"190\" x2=\"60\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"2\" marker-end=\"url(#arrow-p12)\"/>\n  <text x=\"345\" y=\"185\" font-size=\"14\" font-weight=\"600\" fill=\"#1e293b\" font-style=\"italic\">t [s]</text>\n  <text x=\"60\" y=\"22\" font-size=\"14\" font-weight=\"600\" fill=\"#1e293b\" font-style=\"italic\" text-anchor=\"middle\">P [W]</text>\n  <line x1=\"160\" y1=\"70\" x2=\"160\" y2=\"180\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/>\n  <line x1=\"260\" y1=\"70\" x2=\"260\" y2=\"180\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/>\n  <line x1=\"60\" y1=\"70\" x2=\"160\" y2=\"70\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/>\n  <polyline points=\"60,180 160,70 260,70\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  <circle cx=\"60\" cy=\"180\" r=\"3.5\" fill=\"#2563eb\"/>\n  <circle cx=\"160\" cy=\"70\" r=\"3.5\" fill=\"#2563eb\"/>\n  <circle cx=\"260\" cy=\"70\" r=\"3.5\" fill=\"#2563eb\"/>\n  <line x1=\"160\" y1=\"177\" x2=\"160\" y2=\"183\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"202\" font-size=\"13\" font-weight=\"500\" fill=\"#334155\" text-anchor=\"middle\">2</text>\n  <line x1=\"260\" y1=\"177\" x2=\"260\" y2=\"183\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n  <text x=\"260\" y=\"202\" font-size=\"13\" font-weight=\"500\" fill=\"#334155\" text-anchor=\"middle\">4</text>\n  <line x1=\"57\" y1=\"70\" x2=\"63\" y2=\"70\" stroke=\"#1e293b\" stroke-width=\"1.5\"/>\n  <text x=\"50\" y=\"75\" font-size=\"13\" font-weight=\"500\" fill=\"#334155\" text-anchor=\"end\">60</text>\n  <text x=\"50\" y=\"195\" font-size=\"12\" fill=\"#64748b\" text-anchor=\"end\">0</text>\n</svg>",
                 "solution": {
-                  "givens": "Wykres $P(t)$: wzrost od 0 do $60\\text{ W}$ w czasie pierwszych $2\\text{ s}$, potem stała moc $60\\text{ W}$ od $t = 2\\text{ s}$ do $t = 4\\text{ s}$.",
+                  "givens": "Wykres $P(t)$: trójkąt dla $0 \\le t \\le 2\\text{ s}$ oraz prostokąt dla $2 \\le t \\le 4\\text{ s}$ (wysokość $60\\text{ W}$).",
                   "steps": [
                     {
-                      "title": "Interpretacja pracy jako pola pod wykresem P(t)",
-                      "content": "Ponieważ $P = \\frac{dW}{dt}$, pole pod wykresem mocy w czasie odpowiada wykonanej pracy mechanicznej $W$. Dzielimy pole na trójkąt i prostokąt."
-                    },
-                    {
-                      "title": "Obliczenie pól składowych",
-                      "content": "Pole trójkąta ($0 \\le t \\le 2\\text{ s}$):\n$$W_1 = \\frac{1}{2} \\cdot 2\\text{ s} \\cdot 60\\text{ W} = 60\\text{ J}$$\nPole prostokąta ($2 \\le t \\le 4\\text{ s}$):\n$$W_2 = (4 - 2)\\text{ s} \\cdot 60\\text{ W} = 2\\text{ s} \\cdot 60\\text{ W} = 120\\text{ J}$$"
-                    },
-                    {
-                      "title": "Suma prac",
-                      "content": "$$W = W_1 + W_2 = 60\\text{ J} + 120\\text{ J} = 180\\text{ J}$$"
+                      "title": "Obliczenie pola pod wykresem P(t)",
+                      "content": "Praca jest równa polu powierzchni pod wykresem mocy od czasu $P(t)$:\n$$W = \\frac{1}{2} \\cdot 2\\text{ s} \\cdot 60\\text{ W} + (4 - 2)\\text{ s} \\cdot 60\\text{ W} = 60\\text{ J} + 120\\text{ J} = 180\\text{ J}$$"
                     }
                   ],
                   "answer": "Praca wykonana przez silnik wynosi $180\\text{ J}$."
@@ -4711,18 +4676,14 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<p class=\"problem-paragraph\">Klocek $4\\text{ kg}$ ślizga się po poziomej powierzchni z szybkością $5\\text{ m/s}$. Działa na niego tylko tarcie o wartości $10\\text{ N}$. Oblicz drogę do zatrzymania, używając twierdzenia o pracy i energii kinetycznej.</p>",
                 "solution": {
-                  "givens": "$m = 4\\text{ kg}$, $v_1 = 5\\text{ m/s}$, $v_2 = 0\\text{ m/s}$, $T = 10\\text{ N}$.",
+                  "givens": "$m = 4\\text{ kg}$, $v_1 = 5\\text{ m/s}$, $v_2 = 0$, $T = 10\\text{ N}$.",
                   "steps": [
                     {
-                      "title": "Początkowa energia kinetyczna",
-                      "content": "$$E_{k1} = \\frac{1}{2}m v_1^2 = \\frac{1}{2} \\cdot 4\\text{ kg} \\cdot 5^2\\text{ m}^2/\\text{s}^2 = 50\\text{ J}$$"
-                    },
-                    {
-                      "title": "Zastosowanie twierdzenia W = ΔEk",
-                      "content": "Praca tarcia wynosi $W_t = -T \\cdot s = -10s$. Końcowa energia $E_{k2} = 0$:\n$$W_t = E_{k2} - E_{k1} \\implies -10s = 0 - 50\\text{ J} \\implies 10s = 50 \\implies s = 5\\text{ m}$$"
+                      "title": "Zastosowanie twierdzenia o pracy i energii kinetycznej",
+                      "content": "Praca siły tarcia jest równa zmianie energii kinetycznej klocka ($W_T = \\Delta E_k$):\n$$-T \\cdot s = 0 - \\frac{1}{2}mv_1^2 \\implies 10s = \\frac{1}{2} \\cdot 4 \\cdot 5^2 = 50 \\implies s = 5\\text{ m}$$"
                     }
                   ],
-                  "answer": "Droga klocka do zatrzymania wynosi $5\\text{ m}$."
+                  "answer": "Droga do zatrzymania wynosi $5\\text{ m}$."
                 }
               },
               {
@@ -4764,15 +4725,11 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$h_1 = 3\\text{ m}$, $h_2 = 1\\text{ m}$, $v_1 = 2\\text{ m/s}$, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
-                      "title": "Bilans całkowitej energii mechanicznej",
-                      "content": "$$\\frac{1}{2}mv_1^2 + mgh_1 = \\frac{1}{2}mv_2^2 + mgh_2$$\nDzieląc obustronnie przez masę $m$:\n$$v_2^2 = v_1^2 + 2g(h_1 - h_2)$$"
-                    },
-                    {
-                      "title": "Obliczenie wartości liczbowej",
-                      "content": "$$v_2^2 = 2^2 + 2 \\cdot 10 \\cdot (3 - 1) = 4 + 40 = 44$$\n$$v_2 = \\sqrt{44} \\approx 6{,}63\\text{ m/s}$$"
+                      "title": "Zasada zachowania energii mechanicznej",
+                      "content": "$$\\frac{1}{2}mv_1^2 + mgh_1 = \\frac{1}{2}mv_2^2 + mgh_2$$\n$$v_2 = \\sqrt{v_1^2 + 2g(h_1 - h_2)} = \\sqrt{2^2 + 2 \\cdot 10 \\cdot (3 - 1)} = \\sqrt{44} \\approx 6{,}63\\text{ m/s}$$"
                     }
                   ],
-                  "answer": "Szybkość w punkcie końcowym wynosi około $6{,}63\\text{ m/s}$ (dokładnie $\\sqrt{44}\\text{ m/s} = 2\\sqrt{11}\\text{ m/s}$)."
+                  "answer": "Szybkość w punkcie końcowym wynosi $\\sqrt{44}\\text{ m/s} \\approx 6{,}63\\text{ m/s}$."
                 }
               },
               {
@@ -4788,18 +4745,14 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<p class=\"problem-paragraph\">Wózek $1\\text{ kg}$ porusza się po poziomym gładkim torze z szybkością $4\\text{ m/s}$ i ściska sprężynę o sztywności $200\\text{ N/m}$. Oblicz maksymalne ściśnięcie sprężyny.</p>",
                 "solution": {
-                  "givens": "$m = 1\\text{ kg}$, $v = 4\\text{ m/s}$, $k = 200\\text{ N/m}$, tor gładki (brak tarcia).",
+                  "givens": "$m = 1\\text{ kg}$, $v = 4\\text{ m/s}$, $k = 200\\text{ N/m}$.",
                   "steps": [
                     {
-                      "title": "Zasada zachowania energii",
-                      "content": "W chwili maksymalnego odkształcenia wózek chwilowo się zatrzymuje ($v = 0$), a cała jego energia kinetyczna przekształca się w energię potencjalną sprężystości:\n$$\\frac{1}{2}mv^2 = \\frac{1}{2}kx^2 \\implies mv^2 = kx^2$$"
-                    },
-                    {
-                      "title": "Wyznaczenie ugięcia x",
-                      "content": "$$1 \\cdot 4^2 = 200 \\cdot x^2 \\implies 16 = 200x^2 \\implies x^2 = \\frac{16}{200} = 0{,}08$$\n$$x = \\sqrt{0{,}08} \\approx 0{,}40\\text{ m}$$"
+                      "title": "Zasada zachowania energii mechanicznej",
+                      "content": "Cała energia kinetyczna wózka zamienia się w energię potencjalną sprężystości:\n$$\\frac{1}{2}mv^2 = \\frac{1}{2}kx^2 \\implies x = v\\sqrt{\\frac{m}{k}} = 4\\sqrt{\\frac{1}{200}} = \\sqrt{0{,}08} \\approx 0{,}28\\text{ m}$$"
                     }
                   ],
-                  "answer": "Maksymalne ściśnięcie sprężyny wynosi $0{,}40\\text{ m} = 40\\text{ cm}$."
+                  "answer": "Maksymalne ściśnięcie sprężyny wynosi około $0{,}28\\text{ m}$ ($28\\text{ cm}$)."
                 }
               },
               {
@@ -4815,22 +4768,14 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<p class=\"problem-paragraph\">Klocek $2\\text{ kg}$ zsuwa się ze spoczynku po równi o wysokości $2\\text{ m}$. Podczas ruchu tarcie wykonuje pracę $-8\\text{ J}$. Oblicz szybkość klocka na dole.</p>",
                 "solution": {
-                  "givens": "$m = 2\\text{ kg}$, $h = 2\\text{ m}$, $W_t = -8\\text{ J}$, $v_0 = 0$, $g = 10\\text{ m/s}^2$.",
+                  "givens": "$m = 2\\text{ kg}$, $h = 2\\text{ m}$, $W_t = -8\\text{ J}$, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
-                      "title": "Początkowa energia na szczycie równi",
-                      "content": "$$E_1 = mgh = 2\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 2\\text{ m} = 40\\text{ J}$$"
-                    },
-                    {
-                      "title": "Bilans energii z uwzględnieniem pracy tarcia",
-                      "content": "Praca siły tarcia zmniejsza energię mechaniczną klocka:\n$$E_2 = E_1 + W_t = 40\\text{ J} + (-8\\text{ J}) = 32\\text{ J}$$"
-                    },
-                    {
-                      "title": "Wyznaczenie szybkości końcowej",
-                      "content": "Na dole równi $E_p = 0$, cała pozostała energia to energia kinetyczna:\n$$E_k = \\frac{1}{2}mv^2 \\implies \\frac{1}{2} \\cdot 2 \\cdot v^2 = 32 \\implies v^2 = 32 \\implies v = \\sqrt{32} \\approx 5{,}66\\text{ m/s}$$"
+                      "title": "Bilans energii mechanicznej",
+                      "content": "$$\\frac{1}{2}mv^2 = mgh + W_t = 2 \\cdot 10 \\cdot 2 - 8 = 32\\text{ J}$$\n$$\\frac{1}{2} \\cdot 2 \\cdot v^2 = 32 \\implies v = \\sqrt{32} \\approx 5{,}66\\text{ m/s}$$"
                     }
                   ],
-                  "answer": "Szybkość klocka u podstawy równi wynosi około $5{,}66\\text{ m/s}$ (dokładnie $\\sqrt{32}\\text{ m/s} = 4\\sqrt{2}\\text{ m/s}$)."
+                  "answer": "Szybkość klocka na dole równi wynosi $\\sqrt{32}\\text{ m/s} \\approx 5{,}66\\text{ m/s}$."
                 }
               },
               {
@@ -4850,15 +4795,11 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$m = 10\\text{ kg}$, $F = 40\\text{ N}$, $T = 10\\text{ N}$, $s = 5\\text{ m}$, $v_0 = 0$.",
                   "steps": [
                     {
-                      "title": "Praca siły wypadkowej",
-                      "content": "Wypadkowa siła w kierunku ruchu: $F_w = F - T = 40\\text{ N} - 10\\text{ N} = 30\\text{ N}$.\n$$W_w = F_w \\cdot s = 30\\text{ N} \\cdot 5\\text{ m} = 150\\text{ J}$$"
-                    },
-                    {
-                      "title": "Obliczenie szybkości z przyrostu energii kinetycznej",
-                      "content": "Start ze spoczynku oznacza $E_{k0} = 0$, więc $\\Delta E_k = W_w$:\n$$\\frac{1}{2}mv^2 = 150\\text{ J} \\implies \\frac{1}{2} \\cdot 10 \\cdot v^2 = 150 \\implies 5v^2 = 150 \\implies v^2 = 30$$\n$$v = \\sqrt{30} \\approx 5{,}48\\text{ m/s}$$"
+                      "title": "Twierdzenie o pracy i energii kinetycznej",
+                      "content": "$$\\frac{1}{2}mv^2 = (F - T) \\cdot s = (40\\text{ N} - 10\\text{ N}) \\cdot 5\\text{ m} = 150\\text{ J}$$\n$$\\frac{1}{2} \\cdot 10 \\cdot v^2 = 150 \\implies v^2 = 30 \\implies v = \\sqrt{30} \\approx 5{,}48\\text{ m/s}$$"
                     }
                   ],
-                  "answer": "Szybkość końcowa sanek wynosi około $5{,}48\\text{ m/s}$ (dokładnie $\\sqrt{30}\\text{ m/s}$)."
+                  "answer": "Szybkość końcowa sanek wynosi $\\sqrt{30}\\text{ m/s} \\approx 5{,}48\\text{ m/s}$."
                 }
               },
               {
@@ -4931,22 +4872,14 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<p class=\"problem-paragraph\">Ciało $2\\text{ kg}$ zjeżdża ze spoczynku z wysokości $4\\text{ m}$ i po gładkim odcinku poziomym wjeżdża na szorstką drogę. Tarcie na drodze poziomej ma wartość $8\\text{ N}$. Oblicz drogę na tej drodze do zatrzymania. Następnie podaj, jaka część początkowej energii mechanicznej została rozproszona podczas zjazdu.</p>\n",
                 "solution": {
-                  "givens": "$m = 2\\text{ kg}$, $h = 4\\text{ m}$, $T = 8\\text{ N}$ (na drodze poziomej), równia i odcinek początkowy są idealnie gładkie, $g = 10\\text{ m/s}^2$.",
+                  "givens": "$m = 2\\text{ kg}$, $h = 4\\text{ m}$, $T = 8\\text{ N}$, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
-                      "title": "Energia początkowa ciała",
-                      "content": "Początkowa energia mechaniczna na szczycie równi:\n$$E = mgh = 2\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 4\\text{ m} = 80\\text{ J}$$\nZjazd ze stoku i odcinek płaski są gładkie (brak sił tarcia), więc ciało wjeżdża na odcinek szorstki z pełną energią $E_k = 80\\text{ J}$."
-                    },
-                    {
-                      "title": "Droga do zatrzymania na drodze szorstkiej",
-                      "content": "Cała energia kinetyczna ciała zostaje zniwelowana przez pracę siły tarcia:\n$$W_t = -T \\cdot s \\implies -8s = -80 \\implies s = 10\\text{ m}$$"
-                    },
-                    {
-                      "title": "Część energii rozproszona podczas samego zjazdu",
-                      "content": "Podczas samego zjazdu z równi nie działały żadne siły oporu ani tarcie. Zatem podczas zjazdu rozproszono dokładnie $0\\%$ energii początkowej (całe rozproszenie następuje dopiero na drodze poziomej)."
+                      "title": "Bilans energii i droga hamowania",
+                      "content": "Początkowa energia potencjalna zostaje rozproszona przez pracę siły tarcia na odcinku poziomym:\n$$mgh = T \\cdot s \\implies 2 \\cdot 10 \\cdot 4 = 8s \\implies 80 = 8s \\implies s = 10\\text{ m}$$\nPodczas samego zjazdu z gładkiej równi nie ma tarcia, więc rozproszono $0\\%$ energii."
                     }
                   ],
-                  "answer": "Droga do zatrzymania na szorstkiej nawierzchni wynosi $10\\text{ m}$. Podczas samego zjazdu z równi rozproszono $0\\%$ początkowej energii."
+                  "answer": "Droga do zatrzymania wynosi $10\\text{ m}$. Podczas samego zjazdu z równi rozproszono $0\\%$ energii."
                 }
               }
             ]
@@ -5001,15 +4934,11 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$m_1 = 1\\text{ kg}$, $v_1 = +6\\text{ m/s}$ (w prawo), $m_2 = 2\\text{ kg}$, $v_2 = -2\\text{ m/s}$ (w lewo).",
                   "steps": [
                     {
-                      "title": "Zastosowanie zasady zachowania pędu ze zwrotami",
-                      "content": "Przyjmując zwrot w prawo jako dodatni:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$1\\text{ kg} \\cdot 6\\text{ m/s} + 2\\text{ kg} \\cdot (-2\\text{ m/s}) = (1\\text{ kg} + 2\\text{ kg}) v$$\n$$6 - 4 = 3v \\implies 2 = 3v \\implies v = \\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$$"
-                    },
-                    {
-                      "title": "Interpretacja zwrotu prędkości",
-                      "content": "Dodatni znak wyniku ($v > 0$) oznacza, że sczepione wózki kontynuują ruch w prawo (zgodnie ze zwrotem początkowym pierwszego wózka)."
+                      "title": "Zasada zachowania pędu",
+                      "content": "Przyjmując zwrot w prawo jako dodatni:\n$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$1 \\cdot 6 + 2 \\cdot (-2) = (1 + 2)v \\implies 2 = 3v \\implies v = \\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$$\nDodatni wynik oznacza zwrot w prawo."
                     }
                   ],
-                  "answer": "Wspólna prędkość wynosi $\\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$ ze zwrotem w prawo."
+                  "answer": "Wspólna prędkość wynosi $\\frac{2}{3}\\text{ m/s} \\approx 0{,}67\\text{ m/s}$ i jest zwrócona w prawo."
                 }
               },
               {
@@ -5024,18 +4953,14 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<p class=\"problem-paragraph\">Nieruchoma łódź z osobą ma masę $80\\text{ kg}$. Osoba wyrzuca poziomo plecak o masie $4\\text{ kg}$ z prędkością $5\\text{ m/s}$ w prawo. Oblicz prędkość łodzi z osobą po wyrzuceniu plecaka. Pomijamy opory wody.</p>",
                 "solution": {
-                  "givens": "$M = 80\\text{ kg}$, $m_p = 4\\text{ kg}$, $v_p = +5\\text{ m/s}$ (w prawo), $p_{\\text{pocz}} = 0$.",
+                  "givens": "$M = 80\\text{ kg}$, $m_p = 4\\text{ kg}$, $v_p = +5\\text{ m/s}$ (w prawo), $p_{pocz} = 0$.",
                   "steps": [
                     {
-                      "title": "Zasada zachowania pędu w układzie izolowanym",
-                      "content": "Układ początkowo spoczywał, więc całkowity pęd początkowy wynosi zero ($p_{\\text{pocz}} = 0$):\n$$p_{\\text{pocz}} = p_{\\text{końc}} \\implies 0 = M v_Ł + m_p v_p$$\n$$0 = 80\\text{ kg} \\cdot v_Ł + 4\\text{ kg} \\cdot 5\\text{ m/s} \\implies 80 v_Ł = -20 \\implies v_Ł = -\\frac{20}{80} = -0{,}25\\text{ m/s}$$"
-                    },
-                    {
-                      "title": "Interpretacja znaku i wartości prędkości",
-                      "content": "Znak minus oznacza, że łódź porusza się w lewo (przeciwnie do zwrotu wyrzuconego plecaka) z szybkością $0{,}25\\text{ m/s}$."
+                      "title": "Zasada zachowania pędu",
+                      "content": "$$0 = M v_L + m_p v_p \\implies 80 v_L + 4 \\cdot 5 = 0 \\implies v_L = -\\frac{20}{80} = -0{,}25\\text{ m/s}$$\nZnak minus oznacza ruch łodzi w lewo."
                     }
                   ],
-                  "answer": "Łódź z osobą porusza się z szybkością $0{,}25\\text{ m/s}$ w lewo."
+                  "answer": "Łódź porusza się z prędkością $0{,}25\\text{ m/s}$ w lewo."
                 }
               },
               {
@@ -5079,22 +5004,14 @@ window.FIZYKOREK_COURSES = {
                 "correctOption": "C",
                 "problem": "<p class=\"problem-paragraph\">Wózek $2\\text{ kg}$ o szybkości $4\\text{ m/s}$ uderza w nieruchomy wózek $2\\text{ kg}$ i sczepia się z nim. Jaka część początkowej energii kinetycznej układu została utracona w zderzeniu?</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$0\\%$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$25\\%$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$50\\%$</span></div>\n  <div class=\"problem-option-item\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$75\\%$</span></div>\n</div>",
                 "solution": {
-                  "givens": "$m_1 = 2\\text{ kg}$, $v_1 = 4\\text{ m/s}$, $m_2 = 2\\text{ kg}$, $v_2 = 0$.",
+                  "givens": "$m_1 = m_2 = 2\\text{ kg}$, $v_1 = 4\\text{ m/s}$, $v_2 = 0$.",
                   "steps": [
                     {
-                      "title": "Wspólna prędkość z zasady zachowania pędu",
-                      "content": "$$m_1 v_1 + m_2 v_2 = (m_1 + m_2) v$$\n$$2\\text{ kg} \\cdot 4\\text{ m/s} + 0 = (2\\text{ kg} + 2\\text{ kg}) v \\implies 8 = 4v \\implies v = 2\\text{ m/s}$$"
-                    },
-                    {
-                      "title": "Porównanie energii kinetycznych przed i po zderzeniu",
-                      "content": "Energia kinetyczna początkowa:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2} \\cdot 2\\text{ kg} \\cdot (4\\text{ m/s})^2 = 16\\text{ J}$$\nEnergia kinetyczna końcowa po sczepieniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4\\text{ kg} \\cdot (2\\text{ m/s})^2 = 8\\text{ J}$$"
-                    },
-                    {
-                      "title": "Wyznaczenie względnego ubytku energii",
-                      "content": "$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{E_{k,\\text{pocz}} - E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} = \\frac{16\\text{ J} - 8\\text{ J}}{16\\text{ J}} = \\frac{8}{16} = 0{,}50 = 50\\%$$"
+                      "title": "Zasada zachowania pędu i ubytek energii",
+                      "content": "Z zasady zachowania pędu: $m_1 v_1 = (m_1 + m_2)v \\implies 2 \\cdot 4 = 4v \\implies v = 2\\text{ m/s}$.\nEnergia początkowa i końcowa:\n$$E_{k\\,pocz} = \\frac{1}{2} \\cdot 2 \\cdot 4^2 = 16\\text{ J}, \\qquad E_{k\\,kon} = \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 8\\text{ J}$$\n$$\\frac{\\Delta E_k}{E_{k\\,pocz}} = \\frac{16 - 8}{16} = 50\\%$$"
                     }
                   ],
-                  "answer": "Poprawna odpowiedź: C ($50\\%$). W zderzeniu niesprężystym ciał o jednakowej masie utracie ulega dokładnie $50\\%$ energii kinetycznej."
+                  "answer": "Poprawna odpowiedź: C ($50\\%$)."
                 }
               },
               {
@@ -5140,20 +5057,11 @@ window.FIZYKOREK_COURSES = {
                   "givens": "$m_1 = 1\\text{ kg}$, $v_1 = 8\\text{ m/s}$, $m_2 = 3\\text{ kg}$, $v_2 = 0$, $T = 4\\text{ N}$.",
                   "steps": [
                     {
-                      "title": "Wyznaczenie prędkości po zderzeniu z zasady zachowania pędu",
-                      "content": "$$m_1 v_1 = (m_1 + m_2) v \\implies v = \\frac{m_1 v_1}{m_1 + m_2} = \\frac{1\\text{ kg} \\cdot 8\\text{ m/s}}{1\\text{ kg} + 3\\text{ kg}} = \\frac{8}{4} = 2\\text{ m/s}$$"
-                    },
-                    {
-                      "title": "Energia kinetyczna sczepionych ciał tuż po zderzeniu",
-                      "content": "$$E_{k,\\text{końc}} = \\frac{1}{2}(m_1 + m_2) v^2 = \\frac{1}{2} \\cdot 4\\text{ kg} \\cdot (2\\text{ m/s})^2 = 8\\text{ J}$$"
-                    },
-                    {
-                      "title": "Wyznaczenie drogi hamowania z twierdzenia o pracy i energii",
-                      "content": "Praca siły tarcia niweczy energię kinetyczną układu ($W_t = -E_{k,\\text{końc}}$):\n$$-T \\cdot s = -E_{k,\\text{końc}} \\implies s = \\frac{E_{k,\\text{końc}}}{T} = \\frac{8\\text{ J}}{4\\text{ N}} = 2\\text{ m}$$"
+                      "title": "Prędkość po zderzeniu (ZZP) i droga hamowania",
+                      "content": "Z zasady zachowania pędu wyznaczamy prędkość po zderzeniu:\n$$m_1 v_1 = (m_1 + m_2)v \\implies 1 \\cdot 8 = 4v \\implies v = 2\\text{ m/s}$$\nZ twierdzenia o pracy i energii po zderzeniu:\n$$T \\cdot s = \\frac{1}{2}(m_1 + m_2)v^2 \\implies 4s = \\frac{1}{2} \\cdot 4 \\cdot 2^2 = 8 \\implies s = 2\\text{ m}$$"
                     }
                   ],
-                  "answer": "Droga do zatrzymania układu wynosi $2\\text{ m}$.",
-                  "trap": "Nie wolno brać energii sprzed zderzenia ($E_{k,\\text{pocz}} = 32\\text{ J}$), ponieważ aż $24\\text{ J}$ zostało bezpowrotnie zamienione na ciepło w samym akcie zderzenia!"
+                  "answer": "Droga do zatrzymania układu wynosi $2\\text{ m}$."
                 }
               },
               {
@@ -5473,23 +5381,20 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "$m_A = m_B = m$, prędkość początkowa klocka A: $v_1$, klocek B początkowo spoczywa ($v_{B,\\text{pocz}} = 0$), sprężyna o współczynniku sprężystości $k$, brak oporów ruchu i tarcia.",
+                  "intuition": "W chwili maksymalnego ściśnięcia sprężyny oba klocki poruszają się z jednakową prędkością $v_2$. Prędkość $v_2$ wyznaczamy z zasady zachowania pędu, a maksymalne odkształcenie $\\Delta x_{max}$ z zasady zachowania energii mechanicznej.",
+                  "givens": "$m_A = m_B = m$, prędkość początkowa klocka A: $v_1$, klocek B początkowo spoczywa, współczynnik sprężystości $k$.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1 – Analiza prawdziwości stwierdzeń (III zasada dynamiki i ruch względny)",
-                      "content": "1. Zgodnie z **III zasadą dynamiki Newtona** oraz założeniem o pomijalnej masie sprężyny, siła wywierana przez sprężynę na klocek A ma w każdej chwili dokładnie taką samą wartość jak siła wywierana na klocek B:\n$$F_{s\\to A} = F_{s\\to B} = k\\Delta x$$\nStwierdzenie 1. jest **prawdziwe (P)**.\n\n2. Maksymalne ściśnięcie sprężyny następuje w punkcie zwrotnym odkształcenia – klocki przestają się zbliżać, a jeszcze nie zaczynają oddalać. W tym ułamku sekundy poruszają się z tą samą prędkością chwilową ($v_A = v_B = v_2$), zatem ich prędkość względna wynosi:\n$$v_{\\text{wzgl}} = v_A - v_B = 0$$\nStwierdzenie 2. jest **prawdziwe (P)**."
+                      "title": "Zadanie 3.1",
+                      "content": "1. P – masę sprężyny pomijamy, więc zgodnie z III zasadą dynamiki sprężyna działa na oba klocki siłami o tej samej wartości $F = k\\Delta x_{max}$.\n2. P – w chwili maksymalnego ściśnięcia sprężyny wartości prędkości obu klocków są równe ($v_2$), więc ich prędkość względna wynosi zero."
                     },
                     {
-                      "title": "Zadanie 3.2 – Prędkość chwilowa klocków z zasady zachowania pędu",
-                      "content": "W płaszczyźnie poziomej na układ nie działają żadne siły zewnętrzne, więc całkowity pęd układu jest zachowany w każdej chwili ruchu:\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m v_1 + 0 = (m + m) v_2 = 2m v_2$$\nDzieląc obustronnie przez $2m$, otrzymujemy prędkość obu klocków przy maksymalnym ściśnięciu sprężyny:\n$$v_2 = \\frac{v_1}{2}$$"
-                    },
-                    {
-                      "title": "Zadanie 3.2 – Bilans energii mechanicznej i wyznaczenie odkształcenia $\\Delta x_{\\max}$",
-                      "content": "Układ jest izolowany, a ruch odbywa się bez tarcia, więc całkowita energia mechaniczna układu jest zachowana:\n$$E_{\\text{pocz}} = E_{\\text{końc}}$$\nPoczątkowo układ posiada wyłącznie energię kinetyczną klocka A. W chwili maksymalnego odkształcenia sprężyny posiada energię kinetyczną obu klocków oraz energię potencjalną sprężystości sprężyny:\n$$\\frac{1}{2}m v_1^2 = \\frac{1}{2}(2m) v_2^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nPodstawiamy wyznaczoną prędkość $v_2 = \\frac{v_1}{2}$:\n$$\\frac{1}{2}m v_1^2 = m \\left(\\frac{v_1}{2}\\right)^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\n$$\\frac{1}{2}m v_1^2 = \\frac{1}{4}m v_1^2 + \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nOdejmujemy $\\frac{1}{4}m v_1^2$ od obu stron równania:\n$$\\frac{1}{4}m v_1^2 = \\frac{1}{2}k(\\Delta x_{\\max})^2$$\nMnożymy obustronnie przez 2 i dzielimy przez współczynnik $k$:\n$$(\\Delta x_{\\max})^2 = \\frac{m v_1^2}{2k}$$\nWyciągamy pierwiastek kwadratowy:\n$$\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}} \\qquad \\left(\\text{lub } \\sqrt{\\frac{m v_1^2}{2k}}\\right)$$"
+                      "title": "Zadanie 3.2",
+                      "content": "Z zasady zachowania pędu wyznaczamy prędkość $v_2$ obu klocków w chwili maksymalnego ściśnięcia sprężyny:\n$$mv_1 = (m + m)v_2 \\implies v_2 = \\frac{1}{2}v_1$$\nZ zasady zachowania energii mechanicznej początkowa energia kinetyczna klocka A jest równa sumie energii kinetycznej obu klocków i energii potencjalnej sprężystości:\n$$\\frac{1}{2}mv_1^2 = \\frac{1}{2}(2m)v_2^2 + \\frac{1}{2}k(\\Delta x_{max})^2$$\nPodstawiamy $v_2 = \\frac{1}{2}v_1$:\n$$\\frac{1}{2}mv_1^2 = m\\left(\\frac{v_1}{2}\\right)^2 + \\frac{1}{2}k(\\Delta x_{max})^2$$\n$$\\frac{1}{4}mv_1^2 = \\frac{1}{2}k(\\Delta x_{max})^2 \\implies \\Delta x_{max} = v_1\\sqrt{\\frac{m}{2k}}$$"
                     }
                   ],
-                  "answer": "3.1: 1 – Prawda (P), 2 – Prawda (P);\n3.2: $\\Delta x_{\\max} = v_1 \\sqrt{\\frac{m}{2k}}$ (lub $\\sqrt{\\frac{m v_1^2}{2k}}$).",
-                  "trap": "W chwili maksymalnego ściśnięcia sprężyny klocki nie zatrzymują się w układzie odniesienia podłoża! Układ porusza się dalej z prędkością środka masy $v_1/2$, więc część energii początkowej pozostaje w energii kinetycznej ruchu postępowego obu klocków.",
+                  "answer": "3.1: 1 – P, 2 – P;\n3.2: $\\Delta x_{max} = v_1\\sqrt{\\frac{m}{2k}}$.",
+                  "trap": "W chwili maksymalnego ściśnięcia sprężyny klocki się nie zatrzymują – oba poruszają się dalej z prędkością $v_2 = \\frac{1}{2}v_1$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://naukagryzie.pl/arkusze/matura-rozszerzona/fizyka/czerwiec-2026-formula-2023-cke/odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–11</a>."
                 },
                 "solutionSource": {
@@ -5524,27 +5429,24 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Długość nici (promień okręgu): $l$, masa ciała: $m$, stosunek prędkości skrajnych: $\\frac{v_{\\max}}{v_{\\min}} = \\sqrt{3}$, ruch po okręgu w płaszczyźnie pionowej, brak oporów ruchu.",
+                  "intuition": "Promień okręgu jest prostopadły do wektora prędkości. W najniższym i najwyższym położeniu łączymy II zasadę dynamiki dla ruchu po okręgu z zasadą zachowania energii mechanicznej.",
+                  "givens": "Długość nici (promień okręgu) $l$, masa ciała $m$, $\\frac{v_{max}}{v_{min}} = \\sqrt{3}$.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Konstrukcja środka okręgu i odczyt promienia",
-                      "content": "Wektor prędkości w ruchu po okręgu jest w każdej chwili styczny do toru, co oznacza, że promień łączący ciało ze środkiem okręgu $S$ jest zawsze prostopadły do wektora prędkości $\\vec{v}$:\n1. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_1$ w punkcie jego przyłożenia (pionowo w dół).\n2. Prowadzimy prostą prostopadłą do wektora prędkości $\\vec{v}_2$ w punkcie jego przyłożenia.\n3. Punkt przecięcia obu prostych jednoznacznie wyznacza środek okręgu $S$.\n\nOdliczając kratki pionowo od środka $S$ do punktu zaczepienia wektora $\\vec{v}_1$, odczytujemy promień okręgu:\n$$l = 10\\text{ długości kratek}$$\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>"
+                      "title": "Zadanie 2.1",
+                      "content": "Wektor prędkości w ruchu po okręgu jest styczny do toru, więc promień łączący ciało ze środkiem okręgu $S$ jest prostopadły do wektora prędkości. Prowadzimy proste prostopadłe do obu wektorów prędkości w punktach ich przyłożenia:\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z2-konstrukcja-rozwiazanie.png\" alt=\"Konstrukcja środka i promienia okręgu według klucza CKE\" class=\"theory-img\" style=\"max-height:440px;display:block;margin:15px auto;\"></div>\nPunkt przecięcia tych prostych wyznacza środek okręgu $S$. Odliczając kratki wzdłuż pionowego promienia od środka $S$ do położenia ciała, odczytujemy długość promienia:\n$$l = 10\\text{ długości boku kratki}$$"
                     },
                     {
-                      "title": "Zadanie 2.2 – Wybór sił działających w najniższym położeniu",
-                      "content": "W najniższym położeniu na ciało działają dwie pionowe siły:\n- siła grawitacji $\\vec{F}_g = m\\vec{g}$ skierowana pionowo w dół,\n- siła reakcji (naciągu) nici $\\vec{F}_n$ skierowana pionowo w górę (w stronę środka okręgu $S$).\n\nAby ciało poruszało się po okręgu, siła wypadkowa musi być skierowana do środka okręgu (w górę) i pełnić rolę siły dośrodkowej:\n$$F_{\\text{doś}} = F_n - F_g = \\frac{m v_{\\max}^2}{l} > 0 \\implies F_n > F_g$$\nWektor siły reakcji nici $\\vec{F}_n$ musi mieć zatem większą długość niż wektor ciężaru $\\vec{F}_g$. Warunek ten spełnia wyłącznie **rysunek B**."
+                      "title": "Zadanie 2.2",
+                      "content": "W najniższym położeniu wypadkowa siła dośrodkowa jest skierowana pionowo w górę (w stronę środka okręgu $S$):\n$$F_d = F_n - F_g = \\frac{mv_{max}^2}{l} > 0 \\implies F_n > F_g$$\nWektor siły reakcji nici $\\vec{F}_n$ (w górę) musi być dłuższy od wektora ciężaru $\\vec{F}_g$ (w dół). Odpowiedź: B."
                     },
                     {
-                      "title": "Zadanie 2.3 – Równania dynamiki w skrajnych punktach toru",
-                      "content": "Zapisujemy II zasadę dynamiki dla składowych sił wzdłuż promienia okręgu w punktach o prędkości maksymalnej i minimalnej:\n- **W najniższym punkcie (prędkość maksymalna $v_{\\max}$):**\n$$F_{n,\\max} - mg = \\frac{m v_{\\max}^2}{l} \\implies F_{n,\\max} = mg + \\frac{m v_{\\max}^2}{l}$$\n- **W najwyższym punkcie (prędkość minimalna $v_{\\min}$):**\nZarówno siła reakcji nici, jak i siła grawitacji działają w dół (w stronę środka $S$):\n$$F_{n,\\min} + mg = \\frac{m v_{\\min}^2}{l} \\implies F_{n,\\min} = \\frac{m v_{\\min}^2}{l} - mg$$"
-                    },
-                    {
-                      "title": "Zadanie 2.3 – Zastosowanie zasady zachowania energii i obliczenie ilorazu sił",
-                      "content": "Różnica wysokości między najniższym a najwyższym punktem toru wynosi $h = 2l$. Z zasady zachowania energii mechanicznej:\n$$\\frac{1}{2}m v_{\\max}^2 = \\frac{1}{2}m v_{\\min}^2 + mg(2l)$$\nMnożymy obustronnie przez $\\frac{2}{l}$:\n$$\\frac{m v_{\\max}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg$$\nZ treści zadania wiemy, że $v_{\\max} = \\sqrt{3}\\,v_{\\min}$, co oznacza $v_{\\max}^2 = 3v_{\\min}^2$. Podstawiamy:\n$$3\\,\\frac{m v_{\\min}^2}{l} = \\frac{m v_{\\min}^2}{l} + 4mg \\implies 2\\,\\frac{m v_{\\min}^2}{l} = 4mg \\implies \\frac{m v_{\\min}^2}{l} = 2mg$$\nStąd dla prędkości maksymalnej:\n$$\\frac{m v_{\\max}^2}{l} = 3 \\cdot (2mg) = 6mg$$\nObliczamy wartości sił reakcji nici:\n$$F_{n,\\max} = mg + 6mg = 7mg$$\n$$F_{n,\\min} = 2mg - mg = mg$$\nIloraz poszukiwanych sił wynosi:\n$$\\frac{F_{n,\\max}}{F_{n,\\min}} = \\frac{7mg}{mg} = 7$$"
+                      "title": "Zadanie 2.3",
+                      "content": "Siła reakcji nici jest największa w najniższym położeniu ($v_{max}$), a najmniejsza w najwyższym położeniu ($v_{min}$). Z II zasady dynamiki:\n$$F_{n\\,max} - mg = \\frac{mv_{max}^2}{l} \\implies F_{n\\,max} = \\frac{mv_{max}^2}{l} + mg$$\n$$F_{n\\,min} + mg = \\frac{mv_{min}^2}{l} \\implies F_{n\\,min} = \\frac{mv_{min}^2}{l} - mg$$\nZ zasady zachowania energii mechanicznej między najniższym a najwyższym punktem toru (różnica wysokości $h = 2l$):\n$$\\frac{1}{2}mv_{max}^2 = \\frac{1}{2}mv_{min}^2 + mg(2l) \\implies \\frac{mv_{max}^2}{l} = \\frac{mv_{min}^2}{l} + 4mg$$\nPonieważ $\\frac{v_{max}}{v_{min}} = \\sqrt{3}$, więc $v_{max}^2 = 3v_{min}^2$. Podstawiamy do równania energii:\n$$3\\frac{mv_{min}^2}{l} = \\frac{mv_{min}^2}{l} + 4mg \\implies \\frac{mv_{min}^2}{l} = 2mg \\quad\\text{oraz}\\quad \\frac{mv_{max}^2}{l} = 6mg$$\nObliczamy wartości sił reakcji nici i ich iloraz:\n$$F_{n\\,max} = 6mg + mg = 7mg, \\qquad F_{n\\,min} = 2mg - mg = mg$$\n$$\\frac{F_{n\\,max}}{F_{n\\,min}} = \\frac{7mg}{mg} = 7$$"
                     }
                   ],
-                  "answer": "2.1: Konstrukcja prostych prostopadłych, $l = 10\\text{ długości kratek}$;\n2.2: Poprawny rysunek B ($F_n > F_g$);\n2.3: Iloraz wynosi $\\frac{F_{n,\\max}}{F_{n,\\min}} = 7$.",
-                  "trap": "W najwyższym punkcie toru siła ciężkości działa w tym samym zwrocie co siła naciągu nici (w dół, w stronę środka okręgu), dlatego $F_{n,\\min} = \\frac{mv_{\\min}^2}{l} - mg$, a nie ze znakiem plus!",
+                  "answer": "2.1: Konstrukcja na rysunku, $l = 10$ długości boku kratki;\n2.2: B;\n2.3: $\\frac{F_{n\\,max}}{F_{n\\,min}} = 7$.",
+                  "trap": "W najwyższym punkcie toru siła ciężkości i siła reakcji nici mają ten sam zwrot (w dół, do środka okręgu), dlatego $F_{n\\,min} = \\frac{mv_{min}^2}{l} - mg$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-maj-matura-rozszerzona-odpowiedzi.pdf#page=10\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 10–14</a>."
                 },
                 "solutionSource": {
@@ -5579,23 +5481,20 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Kula K1 o masie $m_1$ z prędkością początkową $v_1$, kula K2 o masie $m_2$ początkowo spoczywa ($v_{2,\\text{pocz}} = 0$). Zderzenie sprężyste centralne. Po zderzeniu obie kule mają tę samą wartość prędkości $v_2$, lecz przeciwne zwroty ($v_1' = -v_2$, $v_2' = +v_2$).",
+                  "intuition": "Siły wzajemnego oddziaływania kul są równe co do wartości i przeciwnie zwrócone (III zasada dynamiki). Iloraz mas wyznaczamy z układu równań zasady zachowania pędu i zasady zachowania energii kinetycznej.",
+                  "givens": "Przed zderzeniem: kula K1 ma prędkość $v_1$, kula K2 spoczywa. Po zderzeniu: obie kule mają przeciwne zwroty i jednakową wartość prędkości $v_2$.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Wektory sił wzajemnego oddziaływania kul (III zasada dynamiki)",
-                      "content": "W chwili zderzenia kule oddziałują na siebie siłami sprężystości:\n- Siła $\\vec{F}_{21}$ (wywierana na kulę K1 przez kulę K2) jest zaczepiona w środku kuli K1 i skierowana poziomo w lewo (wyhamowuje kulę K1).\n- Siła $\\vec{F}_{12}$ (wywierana na kulę K2 przez kulę K1) jest zaczepiona w środku kuli K2 i skierowana poziomo w prawo (rozpędza kulę K2).\n\nZgodnie z **III zasadą dynamiki Newtona** siły te tworzą parę akcja–reakcja: leżą na prostej łączącej środki kul, mają przeciwne zwroty oraz **dokładnie równe wartości** ($|\\vec{F}_{21}| = |\\vec{F}_{12}|$), bez względu na relację między masami kul!\nOba wektory rysujemy zaczepione w środkach kul z zachowaniem identycznej długości (np. 5 kratek w kluczu CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-styczen-z2-sily-rozwiazanie.png\" alt=\"Rysunek wektorów sił według klucza CKE\" class=\"theory-img\" style=\"max-height:280px;display:block;margin:15px auto;\"></div>"
+                      "title": "Zadanie 2.1",
+                      "content": "Zgodnie z III zasadą dynamiki Newtona podczas zderzenia kule działają na siebie siłami o tym samym kierunku, przeciwnych zwrotach i równych wartościach ($F_{21} = F_{12}$):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2026-styczen-z2-sily-rozwiazanie.png\" alt=\"Rysunek wektorów sił według klucza CKE\" class=\"theory-img\" style=\"max-height:280px;display:block;margin:15px auto;\"></div>\nW środku kuli K1 przykładamy wektor $\\vec{F}_{21}$ zwrócony w lewo, a w środku kuli K2 wektor $\\vec{F}_{12}$ zwrócony w prawo. Oba wektory mają jednakową długość (po 5 kratek)."
                     },
                     {
-                      "title": "Zadanie 2.2 – Zasada zachowania pędu i zderzenie sprężyste",
-                      "content": "Przyjmujemy oś $x$ skierowaną w prawo.\n1. **Zasada zachowania pędu:**\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m_1 v_1 + 0 = -m_1 v_2 + m_2 v_2$$\nGrupujemy wyrazy z masą $m_1$:\n$$m_1 (v_1 + v_2) = m_2 v_2 \\implies \\frac{m_2}{m_1} = \\frac{v_1 + v_2}{v_2} = \\frac{v_1}{v_2} + 1 \\quad \\text{(Równanie 1)}$$\n\n2. **Zasada zachowania energii kinetycznej (zderzenie sprężyste):**\n$$E_{k,\\text{pocz}} = E_{k,\\text{końc}}$$\n$$\\frac{1}{2}m_1 v_1^2 + 0 = \\frac{1}{2}m_1 v_2^2 + \\frac{1}{2}m_2 v_2^2$$\nMnożymy obustronnie przez 2 i przenosimy wyrazy z $m_1$ na lewą stronę:\n$$m_1 (v_1^2 - v_2^2) = m_2 v_2^2 \\implies \\frac{m_2}{m_1} = \\frac{v_1^2 - v_2^2}{v_2^2} = \\left(\\frac{v_1}{v_2}\\right)^2 - 1 \\quad \\text{(Równanie 2)}$$"
-                    },
-                    {
-                      "title": "Zadanie 2.2 – Wyznaczenie ilorazu mas $\\frac{m_2}{m_1}$",
-                      "content": "Przyrównujemy prawe strony Równania 1 i Równania 2:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2}\\right)^2 - 1$$\nRozpisujemy prawą stronę ze wzoru skróconego mnożenia na różnicę kwadratów: $\\left(\\frac{v_1}{v_2}\\right)^2 - 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$\\frac{v_1}{v_2} + 1 = \\left(\\frac{v_1}{v_2} - 1\\right)\\left(\\frac{v_1}{v_2} + 1\\right)$$\nPonieważ $v_1 + v_2 > 0$, możemy podzielić obie strony przez $\\left(\\frac{v_1}{v_2} + 1\\right)$:\n$$1 = \\frac{v_1}{v_2} - 1 \\implies \\frac{v_1}{v_2} = 2$$\nPodstawiamy obliczony stosunek $\\frac{v_1}{v_2} = 2$ do Równania 1:\n$$\\frac{m_2}{m_1} = \\frac{v_1}{v_2} + 1 = 2 + 1 = 3$$"
+                      "title": "Zadanie 2.2",
+                      "content": "Zapisujemy zasadę zachowania pędu (oś $x$ skierowana w prawo) oraz zasadę zachowania energii kinetycznej:\n$$\\begin{cases} m_1 v_1 = -m_1 v_2 + m_2 v_2 \\\\ \\frac{1}{2}m_1 v_1^2 = \\frac{1}{2}m_1 v_2^2 + \\frac{1}{2}m_2 v_2^2 \\end{cases} \\implies \\begin{cases} m_1(v_1 + v_2) = m_2 v_2 \\\\ m_1(v_1^2 - v_2^2) = m_2 v_2^2 \\end{cases}$$\nDzielimy drugie równanie stronami przez pierwsze, korzystając ze wzoru $v_1^2 - v_2^2 = (v_1 - v_2)(v_1 + v_2)$:\n$$v_1 - v_2 = v_2 \\implies v_1 = 2v_2$$\nPodstawiamy $v_1 = 2v_2$ do równania pędu:\n$$m_1(2v_2 + v_2) = m_2 v_2 \\implies 3m_1 v_2 = m_2 v_2 \\implies \\frac{m_2}{m_1} = 3$$"
                     }
                   ],
-                  "answer": "2.1: Wektory sił $\\vec{F}_{21}$ i $\\vec{F}_{12}$ zaczepione w środkach kul, o jednakowych długościach i przeciwnych zwrotach;\n2.2: Iloraz mas wynosi $\\frac{m_2}{m_1} = 3$.",
-                  "trap": "Częsty błąd na maturze to rysowanie dłuższego wektora siły dla kuli o większej masie. III zasada dynamiki Newtona gwarantuje bezwzględną równość wartości sił akcji i reakcji ($|\\vec{F}_{21}| = |\\vec{F}_{12}|$)!",
+                  "answer": "2.1: Wektory sił o równych długościach i przeciwnych zwrotach zaczepione w środkach kul;\n2.2: $\\frac{m_2}{m_1} = 3$.",
+                  "trap": "Niezależnie od różnicy mas kul, siły wzajemnego oddziaływania w trakcie zderzenia mają identyczne wartości ($F_{21} = F_{12}$).",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–12</a>."
                 },
                 "solutionSource": {
@@ -5630,23 +5529,20 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Masy kul: $m_1 = m_2 = m$, prędkości początkowe: $\\vec{v}_1$ o wartości $2v_2$ (skierowana w prawo), $\\vec{v}_2$ o wartości $v_2$ (skierowana w lewo, czyli $v_1 = 2v_2$).",
+                  "intuition": "W centralnym zderzeniu sprężystym kule o jednakowych masach wymieniają się wektorami prędkości. Gdy kule łączą się trwale, wspólną prędkość wyznaczamy z zasady zachowania pędu.",
+                  "givens": "$m_1 = m_2 = m$, przed zderzeniem: $v_1 = 2v_2$ (w prawo), $v_2$ (w lewo).",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Centralne zderzenie sprężyste ciał o jednakowych masach",
-                      "content": "Dla centralnego zderzenia idealnie sprężystego ciał o identycznych masach ($m_1 = m_2$) z zasad zachowania pędu i energii wynika reguła wymiany prędkości wraz ze zwrotami:\n$$\\vec{v}_1' = \\vec{v}_2 \\qquad \\text{oraz} \\qquad \\vec{v}_2' = \\vec{v}_1$$\nOznacza to, że po zderzeniu:\n- kula K1 przejmuje wektor prędkości kuli K2: porusza się w lewo z szybkością $v_2$,\n- kula K2 przejmuje wektor prędkości kuli K1: porusza się w prawo z szybkością $2v_2$.\n\nRelację tę poprawnie przedstawia **rysunek B**."
+                      "title": "Zadanie 2.1",
+                      "content": "W centralnym zderzeniu doskonale sprężystym dwie kule o równych masach wymieniają się prędkościami:\n$$\\vec{v}_1' = \\vec{v}_2, \\qquad \\vec{v}_2' = \\vec{v}_1$$\nPo zderzeniu kula K1 porusza się w lewo z prędkością o wartości $v_2$, a kula K2 w prawo z prędkością o wartości $2v_2$. Odpowiedź: B."
                     },
                     {
-                      "title": "Zadanie 2.2 – Wyznaczenie prędkości po sczepieniu z zasady zachowania pędu",
-                      "content": "W zderzeniu niesprężystym (kule trwale się łączą) całkowity pęd układu jest ściśle zachowany. Przyjmując oś $x$ skierowaną w prawo:\n$$p_{\\text{pocz}} = p_{\\text{końc}}$$\n$$m v_1 - m v_2 = (m + m) u$$\nPodstawiamy $v_1 = 2v_2$:\n$$m(2v_2) - m v_2 = 2m u \\implies m v_2 = 2m u \\implies u = \\frac{v_2}{2} = 0{,}5\\,v_2$$\nPołączone kule poruszają się w prawo ze wspólną prędkością $u = \\frac{v_2}{2}$."
-                    },
-                    {
-                      "title": "Zadanie 2.2 – Obliczenie utraconej części energii kinetycznej",
-                      "content": "1. Obliczamy całkowitą początkową energię kinetyczną obu kul:\n$$E_{k,\\text{pocz}} = \\frac{1}{2}m v_1^2 + \\frac{1}{2}m v_2^2 = \\frac{1}{2}m(2v_2)^2 + \\frac{1}{2}m v_2^2 = \\frac{4}{2}m v_2^2 + \\frac{1}{2}m v_2^2 = \\frac{5}{2}m v_2^2 = 2{,}5\\,m v_2^2$$\n2. Obliczamy energię kinetyczną połączonego układu po zderzeniu:\n$$E_{k,\\text{końc}} = \\frac{1}{2}(2m) u^2 = m u^2 = m \\left(\\frac{v_2}{2}\\right)^2 = \\frac{1}{4}m v_2^2 = 0{,}25\\,m v_2^2$$\n3. Obliczamy ubytek energii kinetycznej:\n$$\\Delta E_k = E_{k,\\text{pocz}} - E_{k,\\text{końc}} = 2{,}5\\,m v_2^2 - 0{,}25\\,m v_2^2 = 2{,}25\\,m v_2^2 = \\frac{9}{4}m v_2^2$$\n4. Wyznaczamy stosunek utraconej energii do energii początkowej:\n$$\\frac{\\Delta E_k}{E_{k,\\text{pocz}}} = \\frac{2{,}25\\,m v_2^2}{2{,}5\\,m v_2^2} = \\frac{2{,}25}{2{,}5} = \\frac{9}{10} = 0{,}90 = 90\\%$$"
+                      "title": "Zadanie 2.2",
+                      "content": "Z zasady zachowania pędu (oś $x$ skierowana w prawo) wyznaczamy prędkość $u$ połączonych kul:\n$$mv_1 - mv_2 = (m + m)u$$\nPodstawiamy $v_1 = 2v_2$:\n$$m(2v_2) - mv_2 = 2mu \\implies u = \\frac{1}{2}v_2$$\nObliczamy łączną energię kinetyczną przed zderzeniem ($E_{k\\,pocz}$) oraz po zderzeniu ($E_{k\\,kon}$):\n$$E_{k\\,pocz} = \\frac{1}{2}m(2v_2)^2 + \\frac{1}{2}mv_2^2 = \\frac{5}{2}mv_2^2 = 2{,}5\\,mv_2^2$$\n$$E_{k\\,kon} = \\frac{1}{2}(2m)u^2 = m\\left(\\frac{1}{2}v_2\\right)^2 = \\frac{1}{4}mv_2^2 = 0{,}25\\,mv_2^2$$\nUtracona część początkowej energii kinetycznej wynosi:\n$$\\frac{\\Delta E_k}{E_{k\\,pocz}} = \\frac{E_{k\\,pocz} - E_{k\\,kon}}{E_{k\\,pocz}} = \\frac{2{,}5\\,mv_2^2 - 0{,}25\\,mv_2^2}{2{,}5\\,mv_2^2} = \\frac{2{,}25}{2{,}5} = 0{,}9 = \\frac{9}{10}\\quad (90\\%)$$"
                     }
                   ],
-                  "answer": "2.1: Poprawny rysunek B;\n2.2: Układ utracił $\\frac{9}{10}$ (czyli $0{,}90$ lub $90\\%$) początkowej energii kinetycznej.",
-                  "trap": "Nie wolno dodawać prędkości skalarnie przy wyznaczaniu pędu – kule poruszają się naprzeciwko siebie, więc pędy mają przeciwne zwroty: $p_{\\text{pocz}} = m(2v_2) - mv_2 = mv_2$, a nie $3mv_2$!",
+                  "answer": "2.1: B;\n2.2: Układ utracił $\\frac{9}{10}$ (czyli $0{,}9$ lub $90\\%$) początkowej energii kinetycznej.",
+                  "trap": "Kule poruszają się w przeciwne strony, więc ich pędy początkowe mają przeciwne znaki: $p_{pocz} = mv_1 - mv_2 = mv_2$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf#page=7\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 7–10</a>."
                 },
                 "solutionSource": {
@@ -5681,19 +5577,20 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Jednakowe masy krążków: $m_1 = m_2 = m$, krążek K2 początkowo spoczywa w początku układu współrzędnych, brak oporów i tarcia, zderzenie idealnie sprężyste. Linia środków w chwili zderzenia równoległa do osi $x$.",
+                  "intuition": "Przy braku tarcia krążki oddziałują na siebie wyłącznie wzdłuż prostej łączącej ich środki (oś $x$). Składowa prędkości wzdłuż osi $y$ nie ulega zmianie.",
+                  "givens": "Masy krążków są równe ($m_1 = m_2 = m$), krążek K2 początkowo spoczywa, brak tarcia, zderzenie doskonale sprężyste.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Wektory sił wzajemnego oddziaływania krążków",
-                      "content": "W chwili zderzenia brak tarcia sprawia, że siły kontaktowe działają ściśle w kierunku normalnym (prostopadłym do powierzchni styku), czyli wzdłuż prostej łączącej środki obu krążków (kierunek osi $x$):\n- Siła $\\vec{F}_{12}$ (działająca na krążek K1 od krążka K2): zaczepiona w środku krążka K1 i skierowana poziomo w lewo (wzdłuż osi $x$).\n- Siła $\\vec{F}_{21}$ (działająca na krążek K2 od krążka K1): zaczepiona w środku krążka K2 i skierowana poziomo w prawo (wzdłuż osi $x$).\n\nZgodnie z **III zasadą dynamiki Newtona** siły te leżą na jednej prostej, mają przeciwne zwroty oraz **równe wartości** ($|\\vec{F}_{12}| = |\\vec{F}_{21}|$). Wektory rysujemy poziomo o jednakowej długości (4 kratki według klucza CKE):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2023-maj-z2-sily-rozwiazanie.png\" alt=\"Siły działające podczas zderzenia krążków według klucza CKE\" class=\"theory-img\" style=\"max-height:340px;display:block;margin:15px auto;\"></div>"
+                      "title": "Zadanie 2.1",
+                      "content": "Ponieważ pomijamy tarcie, siły wzajemnego oddziaływania są prostopadłe do powierzchni styku i działają wzdłuż prostej łączącej środki krążków (równolegle do osi $x$):\n<div class=\"chart-container-svg\"><img src=\"img/energy/2023-maj-z2-sily-rozwiazanie.png\" alt=\"Siły działające podczas zderzenia krążków według klucza CKE\" class=\"theory-img\" style=\"max-height:340px;display:block;margin:15px auto;\"></div>\nZgodnie z III zasadą dynamiki siła $\\vec{F}_{12}$ (działająca na krążek K1, zwrócona w lewo) oraz siła $\\vec{F}_{21}$ (działająca na krążek K2, zwrócona w prawo) mają równe wartości (po 4 kratki) i przeciwne zwroty."
                     },
                     {
-                      "title": "Zadanie 2.2 – Rozkład ruchu na osie i wektory prędkości po zderzeniu",
-                      "content": "Rozkładamy ruch na kierunek prostopadły do powierzchni styku (oś $x$ – kierunek normalny) oraz kierunek styczny (oś $y$):\n1. **Wzdłuż osi $y$ (stycznej):** Nie działa żadna siła ($F_y = 0$). Zatem krążek K2 nie uzyskuje składowej prędkości pionowej ($v_{2y}' = 0$), a składowa pionowa prędkości krążka K1 pozostaje całkowicie niezmieniona:\n$$\\vec{v}_{1y}' = \\vec{v}_{1y} = -v_y$$\n2. **Wzdłuż osi $x$ (normalnej):** Zachodzi sprężyste zderzenie centralne ciał o identycznych masach. Ciała wymieniają się prędkościami w tej osi:\n- krążek K1 wyhamowuje do zera w osi $x$: $v_{1x}' = 0$,\n- spoczywający początkowo krążek K2 przejmuje całą składową prędkości poziomej: $v_{2x}' = v_x$.\n\n3. **Podsumowanie wektorów po zderzeniu:**\n- Krążek K1 ma wyłącznie prędkość pionową w dół: $\\vec{v}_1' = [0; -v_y]$,\n- Krążek K2 ma wyłącznie prędkość poziomą w prawo: $\\vec{v}_2' = [v_x; 0]$.\n\nWarunek ten idealnie spełnia **rysunek C**."
+                      "title": "Zadanie 2.2",
+                      "content": "Rozpatrujemy ruch krążków wzdłuż obu osi układu współrzędnych:\n- Wzdłuż osi $y$ nie działa żadna siła, więc składowa pionowa prędkości krążka K1 nie zmienia się ($\\vec{v}_{1y}' = \\vec{v}_y$), a krążek K2 nie uzyskuje prędkości wzdłuż osi $y$ ($v_{2y}' = 0$).\n- Wzdłuż osi $x$ zachodzi centralne zderzenie sprężyste ciał o równych masach, więc krążki wymieniają się składowymi poziomymi prędkości ($v_{1x}' = 0$, $\\vec{v}_{2x}' = \\vec{v}_x$).\nPo zderzeniu krążek K1 porusza się pionowo w dół z prędkością $\\vec{v}_1' = \\vec{v}_y$, a krążek K2 poziomo w prawo z prędkością $\\vec{v}_2' = \\vec{v}_x$. Odpowiedź: C."
                     }
                   ],
-                  "answer": "2.1: Wektory sił $\\vec{F}_{12}$ i $\\vec{F}_{21}$ leżą na linii środków krążków (oś $x$), mają jednakowe długości i przeciwne zwroty;\n2.2: Poprawny rysunek C.",
-                  "trap": "Uderzany krążek K2 może uzyskać prędkość wyłącznie w kierunku działającej na niego siły normalnej (w prawo wzdłuż linii środków). Przy braku tarcia nie ma możliwości przekazania żadnego pędu w osi pionowej (stycznej)!",
+                  "answer": "2.1: Siły $\\vec{F}_{12}$ i $\\vec{F}_{21}$ wzdłuż osi $x$, o równych długościach i przeciwnych zwrotach;\n2.2: C.",
+                  "trap": "Bez tarcia między krążkami nie można przekazać pędu w kierunku stycznym (wzdłuż osi $y$).",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2023-maj-matura-rozszerzona-odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–9</a>."
                 },
                 "solutionSource": {
@@ -5729,23 +5626,24 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Masa kulki: $m = 0{,}250\\text{ kg}$, wysokość początkowa: $h = 1{,}80\\text{ m}$, prędkość początkowa: $v_0 = 3{,}20\\text{ m/s}$ (skierowana pionowo w dół), czas zderzenia z podłożem: $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, przyśpieszenie ziemskie: $g = 9{,}81\\text{ m/s}^2$, strata energii mechanicznej przy odbiciu: $25\\%$.",
+                  "intuition": "Prędkość tuż przed uderzeniem wyznaczamy z zasady zachowania energii mechanicznej, czas spadania ze wzoru na prędkość w ruchu jednostajnie przyśpieszonym, a siłę reakcji podłoża z II zasady dynamiki ($F_w = \\Delta p / \\Delta t$).",
+                  "givens": "$m = 0{,}250\\text{ kg}$, $h = 1{,}80\\text{ m}$, $v_0 = 3{,}20\\text{ m/s}$, $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, $g = 9{,}81\\text{ m/s}^2$, strata energii przy odbiciu: $25\\%$.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Obliczenie czasu spadania kulki",
-                      "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe w jednostkach SI:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
+                      "title": "Zadanie 2.1",
+                      "content": "Z równania ruchu jednostajnie przyśpieszonego $h = v_0 t + \\frac{1}{2}gt^2$ (lub korzystając z wyznaczonej w zadaniu 2.2 prędkości końcowej $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$):\n$$v_1 = v_0 + gt \\implies t = \\frac{v_1 - v_0}{g}$$\n$$t = \\frac{6{,}75\\text{ m/s} - 3{,}20\\text{ m/s}}{9{,}81\\text{ m/s}^2} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
                     },
                     {
-                      "title": "Zadanie 2.2 – Wykazanie prędkości tuż przed uderzeniem z zasady zachowania energii",
-                      "content": "Przyjmując poziom zerowy energii potencjalnej na powierzchni podłoża ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{1}{2}m v_0^2 + mgh = \\frac{1}{2}m v_1^2$$\nDzielimy obustronnie przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$\n*(co należało wykazać).*"
+                      "title": "Zadanie 2.2",
+                      "content": "Z zasady zachowania energii mechanicznej podczas spadania kulki:\n$$mgh + \\frac{1}{2}mv_0^2 = \\frac{1}{2}mv_1^2 \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}75\\text{ m/s}$$"
                     },
                     {
-                      "title": "Zadanie 2.3 – Prędkość po odbiciu i siła reakcji podłoża z II zasady dynamiki",
-                      "content": "1. **Prędkość kulki tuż po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii kinetycznej, więc po odbiciu zachowała $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}m v_2^2 = 0{,}75 \\cdot \\left(\\frac{1}{2}m v_1^2\\right) \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495\\text{ m/s} \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia kulki z podłożem:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (skierowana pionowo w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie siły i zmianie pędu):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250\\text{ kg} \\cdot (6{,}7495\\text{ m/s} + 5{,}845\\text{ m/s})}{0{,}005\\text{ s}} = 50 \\cdot 12{,}5945\\text{ N} \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45\\text{ N} + 629{,}7\\text{ N} \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
+                      "title": "Zadanie 2.3",
+                      "content": "Po odbiciu kulka zachowuje $75\\%$ energii kinetycznej sprzed uderzenia:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}mv_2^2 = 0{,}75 \\cdot \\frac{1}{2}mv_1^2 \\implies v_2 = v_1\\sqrt{0{,}75} \\approx 6{,}75\\text{ m/s} \\cdot 0{,}866 \\approx 5{,}85\\text{ m/s}$$\nWartość zmiany pędu kulki podczas odbicia (prędkość zmienia zwrot na przeciwny):\n$$\\Delta p = mv_2 - (-mv_1) = m(v_1 + v_2)$$\nZ II zasady dynamiki siła wypadkowa to $F_w = F_R - mg = \\frac{\\Delta p}{\\Delta t}$, skąd:\n$$F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t} = 0{,}250 \\cdot 9{,}81 + \\frac{0{,}250 \\cdot (6{,}75 + 5{,}85)}{5{,}00 \\cdot 10^{-3}} \\approx 2{,}45\\text{ N} + 630\\text{ N} \\approx 632\\text{ N}$$"
                     }
                   ],
-                  "answer": "2.1: Czas spadania wynosi $t \\approx 0{,}36\\text{ s}$ (dokładnie $0{,}362\\text{ s}$);\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: Siła reakcji podłoża wynosi $F_R \\approx 632\\text{ N}$.",
-                  "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć stale działający ciężar kulki: $F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$.",
+                  "answer": "2.1: $t \\approx 0{,}36\\text{ s}$;\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: $F_R \\approx 632\\text{ N}$.",
+                  "trap": "Siła wypadkowa podczas odbicia wynosi $F_w = F_R - mg$, więc siła reakcji podłoża jest większa od siły wypadkowej o ciężar kulki $mg$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://bip.cke.gov.pl/attachments/download/10000#page=15\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 15–19</a>."
                 },
                 "solutionSource": {
@@ -5780,23 +5678,20 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), równe odstępy czasu $\\Delta t$, ruch w płaszczyźnie poziomej bez oporów ruchu.",
+                  "intuition": "Zdjęcia wykonywano w równych odstępach czasu $\\Delta t$, więc przemieszczenia między kolejnymi punktami na siatce są proporcjonalne do prędkości. Masę ciała B wyznaczamy z zasady zachowania pędu w osi $y$, a sprężystość zderzenia oceniamy z bilansu energii kinetycznej.",
+                  "givens": "$m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa, równe odstępy czasu $\\Delta t$.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu stroboskopowego",
-                      "content": "Ponieważ kolejne zdjęcia wykonywano w jednakowych odstępach czasu $\\Delta t$, przesunięcie wektora położenia na siatce między kolejnymi błyskami stroboskopu jest wprost proporcjonalne do wektora prędkości ciała. Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (punkty 1–3):**\nCiało A przemieszcza się poziomo w prawo o 18,5 kratki na krok: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (punkty 4–6):**\nCiało A przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{v}_A' = [8{,}5;\\; -7{,}5]$.\nCiało B przesuwa się o 8,0 kratek w prawo i 6,0 kratek w górę: $\\vec{v}_B' = [8{,}0;\\; +6{,}0]$."
+                      "title": "Zadanie 3.1",
+                      "content": "Wyrażamy prędkości w kratkach na jeden odstęp czasu $\\Delta t$. Przed zderzeniem ciało A porusza się wzdłuż osi $x$, więc początkowy pęd układu wzdłuż osi $y$ wynosi zero ($p_{y\\,pocz} = 0$).\nZ diagramu odczytujemy przemieszczenia pionowe w jednym kroku czasowym $\\Delta t$ po zderzeniu (np. między położeniami 4 i 5):\n$$\\Delta y_A' = -7{,}5\\text{ kratki}, \\qquad \\Delta y_B' = +6{,}0\\text{ kratek}$$\nZ zasady zachowania pędu wzdłuż osi $y$:\n$$0 = m_A v_{Ay}' + m_B v_{By}' \\implies m_A |\\Delta y_A'| = m_B |\\Delta y_B'|$$\n$$200\\text{ g} \\cdot 7{,}5 = m_B \\cdot 6{,}0 \\implies m_B = \\frac{200\\text{ g} \\cdot 7{,}5}{6{,}0} = 250\\text{ g}$$"
                     },
                     {
-                      "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z zasady zachowania pędu w osi Y",
-                      "content": "Układ jest izolowany, więc całkowity pęd jest zachowany niezależnie w osi $x$ oraz w osi $y$.\nPrzed zderzeniem pęd w osi pionowej $y$ wynosił zero ($p_{y,\\text{pocz}} = 0$). Z zasady zachowania pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot v_{Ay}' + m_B \\cdot v_{By}'$$\nPodstawiamy wartości składowych:\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50 \\implies m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n\n*(Sprawdzenie w osi $x$: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – zasada zachowania pędu w osi poziomej jest spełniona tożsamościowo).*"
-                    },
-                    {
-                      "title": "Zadanie 3.2 – Ocena sprężystości zderzenia (bilans energii kinetycznej)",
-                      "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy całkowita energia kinetyczna układu po zderzeniu jest równa energii kinetycznej przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał (z twierdzenia Pitagorasa):**\n$$v_A^2 = (18{,}5)^2 = 342{,}25$$\n$$(v_A')^2 = (v_{Ax}')^2 + (v_{Ay}')^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$(v_B')^2 = (v_{Bx}')^2 + (v_{By}')^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A (v_A')^2 + \\frac{1}{2} m_B (v_B')^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (stosunek energii wynosi $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii mechanicznej)."
+                      "title": "Zadanie 3.2",
+                      "content": "Odczytujemy z diagramu składowe przemieszczeń na jeden odstęp czasu $\\Delta t$:\n- przed zderzeniem: $\\Delta x_A = 18{,}5$, $\\Delta y_A = 0$ oraz $\\Delta x_B = 0$, $\\Delta y_B = 0$,\n- po zderzeniu: $\\Delta x_A' = 8{,}5$, $\\Delta y_A' = -7{,}5$ oraz $\\Delta x_B' = 8{,}0$, $\\Delta y_B' = 6{,}0$.\nPorównujemy energię kinetyczną układu przed zderzeniem i po zderzeniu (w jednostkach umownych, korzystając z $v^2 = v_x^2 + v_y^2$):\n$$E_{k\\,pocz} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 18{,}5^2 = 34{,}225$$\n$$E_{k\\,kon} = \\frac{1}{2} m_A \\left[(v_{Ax}')^2 + (v_{Ay}')^2\\right] + \\frac{1}{2} m_B \\left[(v_{Bx}')^2 + (v_{By}')^2\\right]$$\n$$E_{k\\,kon} = \\frac{1}{2} \\cdot 0{,}20 \\cdot (8{,}5^2 + 7{,}5^2) + \\frac{1}{2} \\cdot 0{,}25 \\cdot (8{,}0^2 + 6{,}0^2) = 12{,}85 + 12{,}50 = 25{,}35$$\nPonieważ $E_{k\\,kon} < E_{k\\,pocz}$, całkowita energia kinetyczna zmalała – zderzenie nie było doskonale sprężyste."
                     }
                   ],
-                  "answer": "3.1: Masa ciała B wynosi $m_B = 250\\text{ g}$ ($0{,}250\\text{ kg}$);\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej została rozproszona, energia po zderzeniu wynosi ok. $74\\%$ energii początkowej).",
-                  "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $v^2 = v_x^2 + v_y^2$. Nie wolno porównywać samych pojedynczych współrzędnych!",
+                  "answer": "3.1: Wykazano $m_B = 250\\text{ g}$;\n3.2: Zderzenie nie było doskonale sprężyste, ponieważ $E_{k\\,kon} < E_{k\\,pocz}$.",
+                  "trap": "Kwadrat prędkości na płaszczyźnie wyznaczamy z twierdzenia Pitagorasa: $v^2 = v_x^2 + v_y^2$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://bip.cke.gov.pl/attachments/download/10000#page=21\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 21–23</a>."
                 },
                 "solutionSource": {
@@ -5832,23 +5727,24 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Masa kulki: $m = 0{,}250\\text{ kg}$, wysokość początkowa: $h = 1{,}80\\text{ m}$, prędkość początkowa: $v_0 = 3{,}20\\text{ m/s}$ (skierowana pionowo w dół), czas zderzenia z podłożem: $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, przyśpieszenie ziemskie: $g = 9{,}81\\text{ m/s}^2$, strata energii mechanicznej przy odbiciu: $25\\%$.",
+                  "intuition": "Prędkość tuż przed uderzeniem wyznaczamy z zasady zachowania energii mechanicznej, czas spadania ze wzoru na prędkość w ruchu jednostajnie przyśpieszonym, a siłę reakcji podłoża z II zasady dynamiki ($F_w = \\Delta p / \\Delta t$).",
+                  "givens": "$m = 0{,}250\\text{ kg}$, $h = 1{,}80\\text{ m}$, $v_0 = 3{,}20\\text{ m/s}$, $\\Delta t = 5{,}00 \\cdot 10^{-3}\\text{ s}$, $g = 9{,}81\\text{ m/s}^2$, strata energii przy odbiciu: $25\\%$.",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1 – Obliczenie czasu spadania kulki",
-                      "content": "Kierujemy oś pionową w dół z początkiem na wysokości wyrzutu. Równanie drogi w ruchu jednostajnie przyspieszonym z prędkością początkową $v_0$:\n$$h = v_0 t + \\frac{1}{2}gt^2 \\implies \\frac{1}{2}gt^2 + v_0 t - h = 0$$\nPodstawiamy wartości liczbowe w jednostkach SI:\n$$4{,}905\\,t^2 + 3{,}20\\,t - 1{,}80 = 0$$\nObliczamy wyróżnik trójmianu kwadratowego $\\Delta$:\n$$\\Delta = (3{,}20)^2 - 4 \\cdot 4{,}905 \\cdot (-1{,}80) = 10{,}24 + 35{,}316 = 45{,}556$$\n$$\\sqrt{\\Delta} \\approx 6{,}7495$$\nWybieramy pierwiastek dodatni (czas $t > 0$):\n$$t = \\frac{-3{,}20 + 6{,}7495}{2 \\cdot 4{,}905} = \\frac{3{,}5495}{9{,}81} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
+                      "title": "Zadanie 2.1",
+                      "content": "Z równania ruchu jednostajnie przyśpieszonego $h = v_0 t + \\frac{1}{2}gt^2$ (lub korzystając z wyznaczonej w zadaniu 2.2 prędkości końcowej $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$):\n$$v_1 = v_0 + gt \\implies t = \\frac{v_1 - v_0}{g}$$\n$$t = \\frac{6{,}75\\text{ m/s} - 3{,}20\\text{ m/s}}{9{,}81\\text{ m/s}^2} \\approx 0{,}362\\text{ s} \\approx 0{,}36\\text{ s}$$"
                     },
                     {
-                      "title": "Zadanie 2.2 – Wykazanie prędkości tuż przed uderzeniem z zasady zachowania energii",
-                      "content": "Przyjmując poziom zerowy energii potencjalnej na powierzchni podłoża ($h = 0$), całkowita energia mechaniczna kulki jest zachowana (brak oporów powietrza):\n$$E_{\\text{mech},\\text{góra}} = E_{\\text{mech},\\text{dół}}$$\n$$\\frac{1}{2}m v_0^2 + mgh = \\frac{1}{2}m v_1^2$$\nDzielimy obustronnie przez masę $m$ i mnożymy przez 2:\n$$v_1^2 = v_0^2 + 2gh \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\nPodstawiamy dane liczbowe:\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}7495\\text{ m/s} \\approx 6{,}75\\text{ m/s}$$\n*(co należało wykazać).*"
+                      "title": "Zadanie 2.2",
+                      "content": "Z zasady zachowania energii mechanicznej podczas spadania kulki:\n$$mgh + \\frac{1}{2}mv_0^2 = \\frac{1}{2}mv_1^2 \\implies v_1 = \\sqrt{v_0^2 + 2gh}$$\n$$v_1 = \\sqrt{(3{,}20\\text{ m/s})^2 + 2 \\cdot 9{,}81\\text{ m/s}^2 \\cdot 1{,}80\\text{ m}} = \\sqrt{10{,}24 + 35{,}316} = \\sqrt{45{,}556} \\approx 6{,}75\\text{ m/s}$$"
                     },
                     {
-                      "title": "Zadanie 2.3 – Prędkość po odbiciu i siła reakcji podłoża z II zasady dynamiki",
-                      "content": "1. **Prędkość kulki tuż po odbiciu $v_2$:**\nKulka straciła $25\\%$ energii kinetycznej, więc po odbiciu zachowała $75\\%$ energii początkowej:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}m v_2^2 = 0{,}75 \\cdot \\left(\\frac{1}{2}m v_1^2\\right) \\implies v_2 = \\sqrt{0{,}75}\\,v_1$$\n$$v_2 = \\sqrt{0{,}75} \\cdot 6{,}7495\\text{ m/s} \\approx 0{,}8660 \\cdot 6{,}7495\\text{ m/s} \\approx 5{,}845\\text{ m/s}$$\n\n2. **Dynamika zderzenia kulki z podłożem:**\nPodczas kontaktu z podłożem na kulkę działają dwie siły: siła reakcji podłoża $\\vec{F}_R$ (skierowana pionowo w górę) oraz grawitacja $m\\vec{g}$ (w dół). Siła wypadkowa wynosi:\n$$F_{\\text{wyp}} = F_R - mg$$\nZ II zasady dynamiki Newtona w postaci pędowej (twierdzenie o impulsie siły i zmianie pędu):\n$$F_{\\text{wyp}} \\cdot \\Delta t = \\Delta p = m v_2 - (-m v_1) = m(v_1 + v_2)$$\n$$(F_R - mg) \\cdot \\Delta t = m(v_1 + v_2) \\implies F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$$\nPodstawiamy wartości liczbowe:\n$$mg = 0{,}250\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 = 2{,}4525\\text{ N}$$\n$$\\frac{m(v_1 + v_2)}{\\Delta t} = \\frac{0{,}250\\text{ kg} \\cdot (6{,}7495\\text{ m/s} + 5{,}845\\text{ m/s})}{0{,}005\\text{ s}} = 50 \\cdot 12{,}5945\\text{ N} \\approx 629{,}7\\text{ N}$$\n$$F_R = 2{,}45\\text{ N} + 629{,}7\\text{ N} \\approx 632{,}2\\text{ N} \\approx 632\\text{ N}$$"
+                      "title": "Zadanie 2.3",
+                      "content": "Po odbiciu kulka zachowuje $75\\%$ energii kinetycznej sprzed uderzenia:\n$$E_{k2} = 0{,}75\\,E_{k1} \\implies \\frac{1}{2}mv_2^2 = 0{,}75 \\cdot \\frac{1}{2}mv_1^2 \\implies v_2 = v_1\\sqrt{0{,}75} \\approx 6{,}75\\text{ m/s} \\cdot 0{,}866 \\approx 5{,}85\\text{ m/s}$$\nWartość zmiany pędu kulki podczas odbicia (prędkość zmienia zwrot na przeciwny):\n$$\\Delta p = mv_2 - (-mv_1) = m(v_1 + v_2)$$\nZ II zasady dynamiki siła wypadkowa to $F_w = F_R - mg = \\frac{\\Delta p}{\\Delta t}$, skąd:\n$$F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t} = 0{,}250 \\cdot 9{,}81 + \\frac{0{,}250 \\cdot (6{,}75 + 5{,}85)}{5{,}00 \\cdot 10^{-3}} \\approx 2{,}45\\text{ N} + 630\\text{ N} \\approx 632\\text{ N}$$"
                     }
                   ],
-                  "answer": "2.1: Czas spadania wynosi $t \\approx 0{,}36\\text{ s}$ (dokładnie $0{,}362\\text{ s}$);\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: Siła reakcji podłoża wynosi $F_R \\approx 632\\text{ N}$.",
-                  "trap": "Siła reakcji podłoża $F_R$ to nie jest sama siła wypadkowa! Podłoże musi nie tylko wyhamować kulkę i odbić ją w górę, ale również zrównoważyć stale działający ciężar kulki: $F_R = mg + \\frac{m(v_1 + v_2)}{\\Delta t}$.",
+                  "answer": "2.1: $t \\approx 0{,}36\\text{ s}$;\n2.2: Wykazano $v_1 = \\sqrt{v_0^2 + 2gh} \\approx 6{,}75\\text{ m/s}$;\n2.3: $F_R \\approx 632\\text{ N}$.",
+                  "trap": "Siła wypadkowa podczas odbicia wynosi $F_w = F_R - mg$, więc siła reakcji podłoża jest większa od siły wypadkowej o ciężar kulki $mg$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/Informator_EM2023_fizyka.pdf#page=15\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 15–19</a>."
                 },
                 "solutionSource": {
@@ -5883,23 +5779,20 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "formula": "2023",
                 "solution": {
-                  "givens": "Masa ciała A: $m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa ($B_1 - B_3$), równe odstępy czasu $\\Delta t$, ruch w płaszczyźnie poziomej bez oporów ruchu.",
+                  "intuition": "Zdjęcia wykonywano w równych odstępach czasu $\\Delta t$, więc przemieszczenia między kolejnymi punktami na siatce są proporcjonalne do prędkości. Masę ciała B wyznaczamy z zasady zachowania pędu w osi $y$, a sprężystość zderzenia oceniamy z bilansu energii kinetycznej.",
+                  "givens": "$m_A = 200\\text{ g} = 0{,}20\\text{ kg}$, ciało B początkowo spoczywa, równe odstępy czasu $\\Delta t$.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1 – Odczyt wektorów przesunięć z diagramu stroboskopowego",
-                      "content": "Ponieważ kolejne zdjęcia wykonywano w jednakowych odstępach czasu $\\Delta t$, przesunięcie wektora położenia na siatce między kolejnymi błyskami stroboskopu jest wprost proporcjonalne do wektora prędkości ciała. Przyjmujemy jednostkę umowną: 1 kratka na jeden odstęp czasu $\\Delta t$ ($[\\text{kr}/\\Delta t]$):\n- **Przed zderzeniem (punkty 1–3):**\nCiało A przemieszcza się poziomo w prawo o 18,5 kratki na krok: $\\vec{v}_A = [18{,}5;\\; 0]$.\nCiało B spoczywa w miejscu: $\\vec{v}_B = [0;\\; 0]$.\n- **Po zderzeniu (punkty 4–6):**\nCiało A przesuwa się o 8,5 kratki w prawo i 7,5 kratki w dół: $\\vec{v}_A' = [8{,}5;\\; -7{,}5]$.\nCiało B przesuwa się o 8,0 kratek w prawo i 6,0 kratek w górę: $\\vec{v}_B' = [8{,}0;\\; +6{,}0]$."
+                      "title": "Zadanie 3.1",
+                      "content": "Wyrażamy prędkości w kratkach na jeden odstęp czasu $\\Delta t$. Przed zderzeniem ciało A porusza się wzdłuż osi $x$, więc początkowy pęd układu wzdłuż osi $y$ wynosi zero ($p_{y\\,pocz} = 0$).\nZ diagramu odczytujemy przemieszczenia pionowe w jednym kroku czasowym $\\Delta t$ po zderzeniu (np. między położeniami 4 i 5):\n$$\\Delta y_A' = -7{,}5\\text{ kratki}, \\qquad \\Delta y_B' = +6{,}0\\text{ kratek}$$\nZ zasady zachowania pędu wzdłuż osi $y$:\n$$0 = m_A v_{Ay}' + m_B v_{By}' \\implies m_A |\\Delta y_A'| = m_B |\\Delta y_B'|$$\n$$200\\text{ g} \\cdot 7{,}5 = m_B \\cdot 6{,}0 \\implies m_B = \\frac{200\\text{ g} \\cdot 7{,}5}{6{,}0} = 250\\text{ g}$$"
                     },
                     {
-                      "title": "Zadanie 3.1 – Wyznaczenie masy ciała B z zasady zachowania pędu w osi Y",
-                      "content": "Układ jest izolowany, więc całkowity pęd jest zachowany niezależnie w osi $x$ oraz w osi $y$.\nPrzed zderzeniem pęd w osi pionowej $y$ wynosił zero ($p_{y,\\text{pocz}} = 0$). Z zasady zachowania pędu dla osi $y$:\n$$p_{y,\\text{pocz}} = p_{y,\\text{końc}}$$\n$$0 = m_A \\cdot v_{Ay}' + m_B \\cdot v_{By}'$$\nPodstawiamy wartości składowych:\n$$0 = 0{,}20\\text{ kg} \\cdot (-7{,}5) + m_B \\cdot (+6{,}0)$$\n$$6{,}0 \\cdot m_B = 0{,}20 \\cdot 7{,}5 = 1{,}50 \\implies m_B = \\frac{1{,}50}{6{,}0} = 0{,}250\\text{ kg} = 250\\text{ g}$$\n\n*(Sprawdzenie w osi $x$: $p_{x,\\text{pocz}} = 0{,}20 \\cdot 18{,}5 = 3{,}70$; $p_{x,\\text{końc}} = 0{,}20 \\cdot 8{,}5 + 0{,}25 \\cdot 8{,}0 = 1{,}70 + 2{,}00 = 3{,}70$ – zasada zachowania pędu w osi poziomej jest spełniona tożsamościowo).*"
-                    },
-                    {
-                      "title": "Zadanie 3.2 – Ocena sprężystości zderzenia (bilans energii kinetycznej)",
-                      "content": "Zderzenie jest doskonale sprężyste wtedy i tylko wtedy, gdy całkowita energia kinetyczna układu po zderzeniu jest równa energii kinetycznej przed zderzeniem ($E_{k,\\text{końc}} = E_{k,\\text{pocz}}$).\n1. **Kwadraty wartości prędkości ciał (z twierdzenia Pitagorasa):**\n$$v_A^2 = (18{,}5)^2 = 342{,}25$$\n$$(v_A')^2 = (v_{Ax}')^2 + (v_{Ay}')^2 = (8{,}5)^2 + (-7{,}5)^2 = 72{,}25 + 56{,}25 = 128{,}5$$\n$$(v_B')^2 = (v_{Bx}')^2 + (v_{By}')^2 = (8{,}0)^2 + (6{,}0)^2 = 64{,}0 + 36{,}0 = 100{,}0$$\n2. **Energia kinetyczna przed zderzeniem (w jednostkach umownych):**\n$$E_{k,\\text{pocz}} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 342{,}25 = 34{,}225$$\n3. **Energia kinetyczna po zderzeniu:**\n$$E_{k,\\text{końc}} = \\frac{1}{2} m_A (v_A')^2 + \\frac{1}{2} m_B (v_B')^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 128{,}5 + \\frac{1}{2} \\cdot 0{,}25 \\cdot 100{,}0$$\n$$E_{k,\\text{końc}} = 12{,}85 + 12{,}50 = 25{,}35$$\n4. **Wniosek:**\nPonieważ $E_{k,\\text{końc}} = 25{,}35 < E_{k,\\text{pocz}} = 34{,}225$, układ utracił około $26\\%$ początkowej energii kinetycznej (stosunek energii wynosi $\\frac{E_{k,\\text{końc}}}{E_{k,\\text{pocz}}} \\approx 0{,}74$).\nZderzenie **nie było doskonale sprężyste** (było zderzeniem niesprężystym ze stratami energii mechanicznej)."
+                      "title": "Zadanie 3.2",
+                      "content": "Odczytujemy z diagramu składowe przemieszczeń na jeden odstęp czasu $\\Delta t$:\n- przed zderzeniem: $\\Delta x_A = 18{,}5$, $\\Delta y_A = 0$ oraz $\\Delta x_B = 0$, $\\Delta y_B = 0$,\n- po zderzeniu: $\\Delta x_A' = 8{,}5$, $\\Delta y_A' = -7{,}5$ oraz $\\Delta x_B' = 8{,}0$, $\\Delta y_B' = 6{,}0$.\nPorównujemy energię kinetyczną układu przed zderzeniem i po zderzeniu (w jednostkach umownych, korzystając z $v^2 = v_x^2 + v_y^2$):\n$$E_{k\\,pocz} = \\frac{1}{2} m_A v_A^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 18{,}5^2 = 34{,}225$$\n$$E_{k\\,kon} = \\frac{1}{2} m_A \\left[(v_{Ax}')^2 + (v_{Ay}')^2\\right] + \\frac{1}{2} m_B \\left[(v_{Bx}')^2 + (v_{By}')^2\\right]$$\n$$E_{k\\,kon} = \\frac{1}{2} \\cdot 0{,}20 \\cdot (8{,}5^2 + 7{,}5^2) + \\frac{1}{2} \\cdot 0{,}25 \\cdot (8{,}0^2 + 6{,}0^2) = 12{,}85 + 12{,}50 = 25{,}35$$\nPonieważ $E_{k\\,kon} < E_{k\\,pocz}$, całkowita energia kinetyczna zmalała – zderzenie nie było doskonale sprężyste."
                     }
                   ],
-                  "answer": "3.1: Masa ciała B wynosi $m_B = 250\\text{ g}$ ($0{,}250\\text{ kg}$);\n3.2: Zderzenie nie było doskonale sprężyste (część energii kinetycznej została rozproszona, energia po zderzeniu wynosi ok. $74\\%$ energii początkowej).",
-                  "trap": "Obliczając wartość prędkości pod kątem, należy pamiętać o zsumowaniu kwadratów obu składowych: $v^2 = v_x^2 + v_y^2$. Nie wolno porównywać samych pojedynczych współrzędnych!",
+                  "answer": "3.1: Wykazano $m_B = 250\\text{ g}$;\n3.2: Zderzenie nie było doskonale sprężyste, ponieważ $E_{k\\,kon} < E_{k\\,pocz}$.",
+                  "trap": "Kwadrat prędkości na płaszczyźnie wyznaczamy z twierdzenia Pitagorasa: $v^2 = v_x^2 + v_y^2$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/Informator_EM2023_fizyka.pdf#page=21\" target=\"_blank\" rel=\"noopener noreferrer\">Informator CKE – rozwiązania, s. 21–23</a>."
                 },
                 "solutionSource": {
@@ -7506,17 +7399,1278 @@ window.FIZYKOREK_COURSES = {
         "id": "m-bryla",
         "title": "Dział 4: Bryła Sztywna i Ruch Obrotowy",
         "icon": "⚙️",
-        "badge": "W przygotowaniu",
-        "isComingSoon": true,
-        "desc": "Ruch obrotowy bryły sztywnej, moment siły, moment bezwładności, toczenie bez poślizgu i zasada zachowania momentu pędu.",
+        "badge": "4 Etapy Wprowadzające + 13 Zadań CKE",
+        "isComingSoon": false,
+        "desc": "Statyka i dynamika bryły sztywnej, moment siły, moment bezwładności oraz toczenie — komplet zadań nowej formuły 2023–2026 z rozwiązaniami według kluczy CKE.",
         "subchapters": [
           {
-            "id": "sub-bryla-matura",
-            "title": "Zadania maturalne CKE (Bryła Sztywna)",
-            "shortTitle": "Matura CKE",
+            "id": "sub-bryla-ruch",
             "number": 1,
             "icon": "🔄",
-            "desc": "Zadania maturalne CKE dotyczące ruchu obrotowego bryły sztywnej, momentu siły, momentu bezwładności i toczenia.",
+            "title": "1. Ruch postępowy i obrotowy, środek masy",
+            "shortTitle": "Ruch i środek masy",
+            "desc": "Opis ruchu bryły jako całości oraz jej obrotu wokół osi. Prędkość, przyspieszenie, toczenie i położenie środka masy.",
+            "formulaCheat": "\\omega = 2\\pi f = \\frac{2\\pi}{T}, \\quad v = \\omega r, \\quad a_s = \\varepsilon r, \\quad a_d = \\omega^2 r, \\quad v_{\\text{cm}} = \\omega R",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Wielkości kątowe w ruchu obrotowym</div>\n  <p>Bryła sztywna to ciało, w którym odległości między dowolnymi punktami są stałe. W ruchu wokół ustalonej osi wszystkie punkty bryły zakreślają ten sam kąt w tym samym czasie:</p>\n  <ul class=\"theory-list\">\n    <li><strong>Kąt obrotu (położenie kątowe $\\alpha$):</strong> miara obrotu w radianach $[\\text{rad}]$. Pełny obrót to $2\\pi\\text{ rad} = 360^\\circ$.</li>\n    <li><strong>Prędkość kątowa ($\\omega$):</strong> szybkość zmiany kąta obrotu:\n    <div style=\"text-align:center;margin:6px 0;\">$$\\omega = \\frac{\\Delta \\alpha}{\\Delta t} = \\frac{2\\pi}{T} = 2\\pi f$$</div>\n    gdzie: $T$ – okres obrotu $[\\text{s}]$, $f = \\frac{1}{T}$ – częstotliwość $[\\text{Hz} = 1/\\text{s}]$. Jednostka w SI: $[\\omega] = \\text{rad}/\\text{s} = 1/\\text{s}$.</li>\n    <li><strong>Przyspieszenie kątowe ($\\varepsilon$):</strong> szybkość zmiany prędkości kątowej:\n    <div style=\"text-align:center;margin:6px 0;\">$$\\varepsilon = \\frac{\\Delta \\omega}{\\Delta t}$$</div>\n    Jednostka w SI: $[\\varepsilon] = \\text{rad}/\\text{s}^2 = 1/\\text{s}^2$. Dla ruchu jednostajnego $\\varepsilon = 0$.</li>\n  </ul>\n\n  <div class=\"theory-subtitle\">2. Związki między wielkościami kątowymi a liniowymi</div>\n  <p>Punkt bryły odległy o promień $r$ od osi obrotu porusza się po okręgu:</p>\n  <ul class=\"theory-list\">\n    <li><strong>Droga po łuku ($s$):</strong> $s = \\alpha \\cdot r$.</li>\n    <li><strong>Prędkość liniowa ($v$):</strong> $v = \\omega \\cdot r$ (punkty na skraju bryły poruszają się najszybciej, w osi $r=0 \\implies v=0$).</li>\n    <li><strong>Przyspieszenie styczne ($a_s$):</strong> zmienia wartość prędkości liniowej:\n    <div style=\"text-align:center;margin:4px 0;\">$a_s = \\varepsilon \\cdot r$</div></li>\n    <li><strong>Przyspieszenie dośrodkowe ($a_d$):</strong> zakrzywia tor ruchu (skierowane prostopadle do osi):\n    <div style=\"text-align:center;margin:4px 0;\">$$a_d = \\frac{v^2}{r} = \\omega^2 \\cdot r$$</div></li>\n    <li><strong>Całkowite przyspieszenie liniowe ($a$):</strong> wektorowa suma prostopadłych składowych:\n    <div style=\"text-align:center;margin:4px 0;\">$a = \\sqrt{a_s^2 + a_d^2}$</div></li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/user-ruch_obrotowy_tarczy.svg\" alt=\"Ruch obrotowy tarczy wokół osi O: punkt P na brzegu tarczy z prędkością liniową v, przyspieszeniem stycznym as i dośrodkowym ad.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">3. Kinematyka toczenia bez poślizgu</div>\n  <p>Toczenie koła lub walca po podłożu jest złożeniem dwóch jednoczesnych ruchów: <strong>ruchu postępowego</strong> ze stałą prędkością środka masy $v$ oraz <strong>ruchu obrotowego</strong> wokół środka masy z prędkością kątową $\\omega = \\frac{v}{R}$:</p>\n  <ul class=\"theory-list\">\n    <li><strong>Warunek braku poślizgu:</strong> $v = \\omega R$ oraz $a = \\varepsilon R$.</li>\n    <li><strong>Punkt styku z podłożem ($v = 0$):</strong> prędkość postępowa $v$ i liniowa obrotowa $-\\omega R$ znoszą się do zera ($v_{\\text{styk}} = 0$). Jest to <strong>chwilowy środek obrotu</strong> — punkt styku chwilowo spoczywa względem podłoża.</li>\n    <li><strong>Środek koła ($v_{\\text{cm}} = v$):</strong> porusza się z prędkością postępową środka masy.</li>\n    <li><strong>Najwyższy punkt koła ($v_{\\text{góra}} = 2v$):</strong> wektory prędkości się sumują ($v + \\omega R = 2v$) — szczyt koła porusza się dwa razy szybciej niż środek.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/user-toczenie_bez_poslizgu.svg\" alt=\"Rozkład wektorów prędkości w toczącym się kole bez poślizgu: punkt styku C spoczywa (v_C = 0), środek koła O porusza się z prędkością v, punkt A na szczycie koła z prędkością 2v, punkt B z prędkością pierwiastek z 2 razy v.\" loading=\"eager\" decoding=\"async\">\n</figure>\n</div>",
+            "tasks": [
+              {
+                "id": "b-zad-1",
+                "number": 1,
+                "title": "Zadanie 1. Prędkość kątowa punktów tarczy",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Ruch obrotowy",
+                  "Prędkość kątowa",
+                  "Zadanie zamknięte"
+                ],
+                "correctOption": "B",
+                "problem": "<p class=\"problem-paragraph\">Jednorodna tarcza obraca się wokół nieruchomej osi. Która wielkość jest jednakowa dla wszystkich punktów tarczy?</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">prędkość liniowa</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">prędkość kątowa</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">przyspieszenie dośrodkowe</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">droga przebyta w jednym obrocie</span></div>\n</div>",
+                "solution": {
+                  "givens": "Jednorodna tarcza w obrocie wokół nieruchomej osi.",
+                  "steps": [
+                    {
+                      "title": "Niezmienniki obrotu bryły sztywnej",
+                      "content": "Wszystkie punkty bryły sztywnej obracają się o ten sam kąt $\\Delta\\alpha$ w tym samym czasie $\\Delta t$, zatem mają identyczną prędkość kątową $\\omega = \\frac{\\Delta\\alpha}{\\Delta t}$, częstotliwość $f$ oraz okres $T$.\nPozostałe wielkości zależą liniowo od odległości $r$ od osi obrotu:\n$$v = \\omega r, \\quad a_d = \\omega^2 r, \\quad s = 2\\pi r$$"
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: B (prędkość kątowa).",
+                  "trap": "Nie myl prędkości kątowej $\\omega$, która charakteryzuje obrót całej bryły, z prędkością liniową $v = \\omega r$, która zależy od odległości punktu od osi obrotu."
+                }
+              },
+              {
+                "id": "b-zad-2",
+                "number": 2,
+                "title": "Zadanie 2. Częstotliwość, okres i prędkość kątowa",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Ruch obrotowy",
+                  "Okres i częstotliwość",
+                  "Prędkość kątowa"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Koło wykonuje $120$ obrotów na minutę. Oblicz częstotliwość, okres i prędkość kątową koła.</p>",
+                "solution": {
+                  "givens": "Liczba obrotów $n = 120$, czas $t = 1\\text{ min} = 60\\text{ s}$.",
+                  "steps": [
+                    {
+                      "title": "Wyznaczenie częstotliwości i okresu",
+                      "content": "Częstotliwość to liczba pełnych obrotów na sekundę:\n$$f = \\frac{n}{t} = \\frac{120}{60\\text{ s}} = 2\\text{ Hz}$$\nOkres to odwrotność częstotliwości:\n$$T = \\frac{1}{f} = \\frac{1}{2\\text{ Hz}} = 0{,}50\\text{ s}$$"
+                    },
+                    {
+                      "title": "Obliczenie prędkości kątowej",
+                      "content": "Prędkość kątową obliczamy ze związku $\\omega = 2\\pi f$:\n$$\\omega = 2\\pi \\cdot 2\\text{ s}^{-1} = 4\\pi\\text{ rad/s} \\approx 12{,}57\\text{ rad/s}$$"
+                    }
+                  ],
+                  "numerical": "$f = 2\\text{ Hz}$, $T = 0{,}50\\text{ s}$, $\\omega = 4\\pi\\text{ rad/s} \\approx 12{,}6\\text{ rad/s}$",
+                  "answer": "Częstotliwość wynosi $2\\text{ Hz}$, okres $0{,}50\\text{ s}$, a prędkość kątowa $4\\pi\\text{ rad/s} \\approx 12{,}6\\text{ rad/s}$."
+                }
+              },
+              {
+                "id": "b-zad-3",
+                "number": 3,
+                "title": "Zadanie 3. Prędkość liniowa punktu na obwodzie koła",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Ruch obrotowy",
+                  "Związek v = ωr"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Punkt na obwodzie koła o promieniu $0{,}25\\text{ m}$ porusza się z prędkością kątową $8\\text{ rad/s}$. Oblicz jego prędkość liniową.</p>",
+                "solution": {
+                  "givens": "$r = 0{,}25\\text{ m}$, $\\omega = 8\\text{ rad/s}$.",
+                  "steps": [
+                    {
+                      "title": "Zastosowanie relacji prędkości liniowej i kątowej",
+                      "content": "Prędkość liniowa punktu odległego o $r$ od osi wynosi:\n$$v = \\omega r = 8\\text{ rad/s} \\cdot 0{,}25\\text{ m} = 2\\text{ m/s}$$"
+                    }
+                  ],
+                  "numerical": "$v = 8 \\cdot 0{,}25 = 2\\text{ m/s}$",
+                  "answer": "Prędkość liniowa punktu wynosi $2\\text{ m/s}$."
+                }
+              },
+              {
+                "id": "b-zad-4",
+                "number": 4,
+                "title": "Zadanie 4. Porównanie prędkości i okresów punktów tarczy",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Ruch obrotowy",
+                  "Zadanie zamknięte",
+                  "Punkty na tarczy"
+                ],
+                "correctOption": "A",
+                "problem": "<p class=\"problem-paragraph\">Punkty A i B należą do tej samej obracającej się tarczy. Odległość B od osi jest dwa razy większa niż odległość A. Wskaż poprawną zależność.</p>\n<div class=\"problem-options-list\" data-correct=\"A\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$v_B = 2v_A\\text{ i }T_B = T_A$</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$v_B = v_A\\text{ i }T_B = 2T_A$</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$v_B = 4v_A\\text{ i }T_B = T_A$</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$v_B = 2v_A\\text{ i }T_B = 2T_A$</span></div>\n</div>",
+                "solution": {
+                  "givens": "$r_B = 2r_A$, punkty należą do tej samej bryły sztywnej.",
+                  "steps": [
+                    {
+                      "title": "Porównanie okresu i prędkości liniowej",
+                      "content": "Wszystkie punkty bryły wykonują jeden pełny obrót w tym samym czasie, więc $T_B = T_A$ oraz $\\omega_B = \\omega_A$.\nZ relacji $v = \\omega r$ wynika:\n$$v_B = \\omega r_B = \\omega (2r_A) = 2(\\omega r_A) = 2v_A$$"
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: A ($v_B = 2v_A\\text{ i }T_B = T_A$).",
+                  "trap": "Okres $T$ zależy od obrotu całej tarczy i jest identyczny dla każdego jej punktu bez względu na odległość od osi."
+                }
+              },
+              {
+                "id": "b-zad-5",
+                "number": 5,
+                "title": "Zadanie 5. Przyspieszenie kątowe i kąt obrotu wirnika",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Ruch obrotowy",
+                  "Przyspieszenie kątowe",
+                  "Kąt obrotu"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Prędkość kątowa wirnika wzrasta jednostajnie od $4\\text{ rad/s}$ do $16\\text{ rad/s}$ w czasie $3\\text{ s}$. Oblicz przyspieszenie kątowe i kąt obrotu.</p>",
+                "solution": {
+                  "givens": "$\\omega_0 = 4\\text{ rad/s}$, $\\omega = 16\\text{ rad/s}$, $t = 3\\text{ s}$.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie przyspieszenia kątowego",
+                      "content": "W ruchu jednostajnie zmiennym przyspieszenie kątowe jest stałe:\n$$\\varepsilon = \\frac{\\Delta\\omega}{t} = \\frac{16\\text{ rad/s} - 4\\text{ rad/s}}{3\\text{ s}} = \\frac{12}{3} = 4\\text{ rad/s}^2$$"
+                    },
+                    {
+                      "title": "Obliczenie kąta obrotu",
+                      "content": "Kąt obrotu możemy obliczyć przez prędkość średnią:\n$$\\omega_{\\text{śr}} = \\frac{\\omega_0 + \\omega}{2} = \\frac{4 + 16}{2} = 10\\text{ rad/s}$$\n$$\\Delta\\varphi = \\omega_{\\text{śr}} \\cdot t = 10\\text{ rad/s} \\cdot 3\\text{ s} = 30\\text{ rad}$$"
+                    }
+                  ],
+                  "numerical": "$\\varepsilon = 4\\text{ rad/s}^2$, $\\Delta\\varphi = 30\\text{ rad}$",
+                  "answer": "Przyspieszenie kątowe wynosi $4\\text{ rad/s}^2$, a kąt obrotu $30\\text{ rad}$."
+                }
+              },
+              {
+                "id": "b-zad-6",
+                "number": 6,
+                "title": "Zadanie 6. Wykres prędkości kątowej ω(t)",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Ruch obrotowy",
+                  "Wykres ω(t)",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Wykres przedstawia prędkość kątową koła $\\omega(t)$. Oblicz przyspieszenie kątowe w chwili $t = 2\\text{ s}$ i $t = 12\\text{ s}$ oraz całkowity kąt obrotu od $t = 0$ do $t = 14\\text{ s}$.</p>\n<div class=\"chart-container-svg\" style=\"max-width:540px;margin:16px auto;\">\n  <svg viewBox=\"0 0 500 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;font-family:system-ui,sans-serif;\">\n    <defs>\n      <marker id=\"arr\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\">\n        <polygon points=\"0 0, 7 3.5, 0 7\" fill=\"#334155\" />\n      </marker>\n    </defs>\n    <!-- Background grid -->\n    <rect width=\"500\" height=\"260\" fill=\"#f8fafc\" rx=\"8\" />\n    <!-- Axes -->\n    <line x1=\"60\" y1=\"210\" x2=\"460\" y2=\"210\" stroke=\"#334155\" stroke-width=\"2\" marker-end=\"url(#arr)\" />\n    <line x1=\"60\" y1=\"210\" x2=\"60\" y2=\"30\" stroke=\"#334155\" stroke-width=\"2\" marker-end=\"url(#arr)\" />\n    <!-- Labels on axes -->\n    <text x=\"455\" y=\"235\" font-size=\"14\" font-weight=\"600\" fill=\"#334155\">t [s]</text>\n    <text x=\"65\" y=\"25\" font-size=\"14\" font-weight=\"600\" fill=\"#334155\">ω [rad/s]</text>\n    <!-- Ticks & Dashed lines -->\n    <!-- y = 8 (pixel y = 70) -->\n    <line x1=\"55\" y1=\"70\" x2=\"60\" y2=\"70\" stroke=\"#334155\" stroke-width=\"1.5\" />\n    <text x=\"42\" y=\"75\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" text-anchor=\"end\">8</text>\n    <line x1=\"60\" y1=\"70\" x2=\"340\" y2=\"70\" stroke=\"#94a3b8\" stroke-dasharray=\"4,4\" stroke-width=\"1.5\" />\n    <!-- x = 0 (pixel 60) -->\n    <text x=\"48\" y=\"226\" font-size=\"13\" font-weight=\"600\" fill=\"#64748b\">0</text>\n    <!-- x = 4 (pixel 160) -->\n    <line x1=\"160\" y1=\"210\" x2=\"160\" y2=\"215\" stroke=\"#334155\" stroke-width=\"1.5\" />\n    <text x=\"160\" y=\"230\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" text-anchor=\"middle\">4</text>\n    <line x1=\"160\" y1=\"210\" x2=\"160\" y2=\"70\" stroke=\"#94a3b8\" stroke-dasharray=\"4,4\" stroke-width=\"1.5\" />\n    <!-- x = 10 (pixel 340) -->\n    <line x1=\"340\" y1=\"210\" x2=\"340\" y2=\"215\" stroke=\"#334155\" stroke-width=\"1.5\" />\n    <text x=\"340\" y=\"230\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" text-anchor=\"middle\">10</text>\n    <line x1=\"340\" y1=\"210\" x2=\"340\" y2=\"70\" stroke=\"#94a3b8\" stroke-dasharray=\"4,4\" stroke-width=\"1.5\" />\n    <!-- x = 14 (pixel 440) -->\n    <line x1=\"440\" y1=\"210\" x2=\"440\" y2=\"215\" stroke=\"#334155\" stroke-width=\"1.5\" />\n    <text x=\"440\" y=\"230\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" text-anchor=\"middle\">14</text>\n    <!-- Main Plot line -->\n    <polyline points=\"60,210 160,70 340,70 440,210\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\" />\n    <circle cx=\"60\" cy=\"210\" r=\"4.5\" fill=\"#2563eb\" />\n    <circle cx=\"160\" cy=\"70\" r=\"4.5\" fill=\"#2563eb\" />\n    <circle cx=\"340\" cy=\"70\" r=\"4.5\" fill=\"#2563eb\" />\n    <circle cx=\"440\" cy=\"210\" r=\"4.5\" fill=\"#2563eb\" />\n  </svg>\n</div>",
+                "solution": {
+                  "givens": "Etapy z wykresu: $t \\in [0, 4\\text{ s}]$ wzrost $\\omega$ od $0$ do $8\\text{ rad/s}$; $t \\in [4, 10\\text{ s}]$ stała $\\omega = 8\\text{ rad/s}$; $t \\in [10, 14\\text{ s}]$ spadek do zera.",
+                  "steps": [
+                    {
+                      "title": "Przyspieszenie kątowe jako nachylenie wykresu",
+                      "content": "W chwili $t = 2\\text{ s}$ koło znajduje się na pierwszym odcinku ($t \\in [0, 4\\text{ s}]$):\n$$\\varepsilon_1 = \\frac{8\\text{ rad/s} - 0}{4\\text{ s} - 0} = 2\\text{ rad/s}^2$$\nW chwili $t = 12\\text{ s}$ koło hamuje ($t \\in [10, 14\\text{ s}]$):\n$$\\varepsilon_3 = \\frac{0 - 8\\text{ rad/s}}{14\\text{ s} - 10\\text{ s}} = \\frac{-8}{4} = -2\\text{ rad/s}^2$$"
+                    },
+                    {
+                      "title": "Całkowity kąt obrotu z pola pod wykresem",
+                      "content": "Pole figury pod wykresem $\\omega(t)$ to trapez o podstawach $a = 14\\text{ s}$, $b = 10 - 4 = 6\\text{ s}$ i wysokości $h = 8\\text{ rad/s}$:\n$$\\Delta\\varphi = \\frac{a + b}{2} \\cdot h = \\frac{14 + 6}{2} \\cdot 8 = 10 \\cdot 8 = 80\\text{ rad}$$"
+                    }
+                  ],
+                  "numerical": "$\\varepsilon(2\\text{ s}) = 2\\text{ rad/s}^2$, $\\varepsilon(12\\text{ s}) = -2\\text{ rad/s}^2$, $\\Delta\\varphi = 80\\text{ rad}$",
+                  "answer": "Przyspieszenie w $t = 2\\text{ s}$ wynosi $2\\text{ rad/s}^2$, w $t = 12\\text{ s}$ wynosi $-2\\text{ rad/s}^2$, a całkowity kąt obrotu wynosi $80\\text{ rad}$."
+                }
+              },
+              {
+                "id": "b-zad-7",
+                "number": 7,
+                "title": "Zadanie 7. Toczenie bez poślizgu i prędkości punktów koła",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Toczenie bez poślizgu",
+                  "Prędkości punktów",
+                  "Ruch złożony"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Koło o promieniu $0{,}20\\text{ m}$ toczy się bez poślizgu z prędkością środka $3\\text{ m/s}$. Oblicz prędkość kątową koła oraz wartości prędkości punktu najwyższego i punktu styku z podłożem względem ziemi.</p>",
+                "solution": {
+                  "givens": "$R = 0{,}20\\text{ m}$, $v_{\\text{śr}} = 3\\text{ m/s}$, toczenie bez poślizgu.",
+                  "steps": [
+                    {
+                      "title": "Warunek toczenia bez poślizgu",
+                      "content": "Przy braku poślizgu prędkość kątowa koła związana jest z prędkością środka masy relacją:\n$$\\omega = \\frac{v_{\\text{śr}}}{R} = \\frac{3\\text{ m/s}}{0{,}20\\text{ m}} = 15\\text{ rad/s}$$"
+                    },
+                    {
+                      "title": "Składanie ruchu postępowego i obrotowego",
+                      "content": "Prędkość każdego punktu jest sumą wektorową prędkości postępowej środka oraz prędkości obrotowej względem środka ($v_{\\text{obr}} = \\omega R = 3\\text{ m/s}$):\n1. Punkt najwyższy: wektory prędkości postępowej i obrotowej są skierowane zgodnie w prawo:\n$$v_g = v_{\\text{śr}} + \\omega R = 3 + 3 = 6\\text{ m/s}$$\n2. Punkt styku z podłożem: wektor obrotowy ma zwrot w lewo i znosi się z wektorem postępowym:\n$$v_d = v_{\\text{śr}} - \\omega R = 3 - 3 = 0\\text{ m/s}$$"
+                    }
+                  ],
+                  "numerical": "$\\omega = 15\\text{ rad/s}$, $v_g = 6\\text{ m/s}$, $v_d = 0\\text{ m/s}$",
+                  "answer": "Prędkość kątowa wynosi $15\\text{ rad/s}$. Prędkość punktu najwyższego wynosi $6\\text{ m/s}$, a punktu styku z podłożem $0\\text{ m/s}$."
+                }
+              },
+              {
+                "id": "b-zad-8",
+                "number": 8,
+                "title": "Zadanie 8. Prędkość punktu najwyższego w toczeniu",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Toczenie bez poślizgu",
+                  "Zadanie zamknięte",
+                  "Prędkość punktu"
+                ],
+                "correctOption": "D",
+                "problem": "<p class=\"problem-paragraph\">Koło toczy się bez poślizgu w prawo. Jeżeli środek koła ma prędkość $v$, to prędkość punktu najwyższego względem podłoża wynosi:</p>\n<div class=\"problem-options-list\" data-correct=\"D\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$0$</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$v$</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$\\sqrt{2}v$</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$2v$</span></div>\n</div>",
+                "solution": {
+                  "givens": "Prędkość środka koła $v_{\\text{śr}} = v$, brak poślizgu ($\\omega R = v$).",
+                  "steps": [
+                    {
+                      "title": "Suma prędkości w najwyższym punkcie",
+                      "content": "W najwyższym punkcie prędkość ruchu postępowego ($v$ w prawo) i prędkość ruchu obrotowego ($v_{\\text{obr}} = \\omega R = v$ w prawo) mają ten sam kierunek i zwrot:\n$$v_{\\text{max}} = v + v = 2v$$"
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: D ($2v$).",
+                  "trap": "Pamiętaj, że punkt styku koła chwilowo spoczywa ($v = 0$), środek ma prędkość $v$, a punkt szczytowy porusza się z prędkością $2v$ względem ziemi."
+                }
+              },
+              {
+                "id": "b-zad-9",
+                "number": 9,
+                "title": "Zadanie 9. Przyspieszenie kątowe i obrót kół samochodu",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Toczenie bez poślizgu",
+                  "Ruch jednostajnie przyspieszony",
+                  "Kąt obrotu"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Samochód rusza ze spoczynku i po $6\\text{ s}$ osiąga prędkość $12\\text{ m/s}$. Promień kół wynosi $0{,}30\\text{ m}$, a ruch jest jednostajnie przyspieszony bez poślizgu. Oblicz przyspieszenie kątowe kół i kąt ich obrotu w tym czasie.</p>",
+                "solution": {
+                  "givens": "$v_0 = 0$, $v = 12\\text{ m/s}$, $t = 6\\text{ s}$, $R = 0{,}30\\text{ m}$.",
+                  "steps": [
+                    {
+                      "title": "Wyznaczenie przyspieszenia liniowego i kątowego",
+                      "content": "Przyspieszenie liniowe samochodu wynosi:\n$$a = \\frac{\\Delta v}{t} = \\frac{12\\text{ m/s}}{6\\text{ s}} = 2\\text{ m/s}^2$$\nZ braku poślizgu $a = \\varepsilon R$, więc przyspieszenie kątowe kół wynosi:\n$$\\varepsilon = \\frac{a}{R} = \\frac{2\\text{ m/s}^2}{0{,}30\\text{ m}} = \\frac{20}{3}\\text{ rad/s}^2 \\approx 6{,}67\\text{ rad/s}^2$$"
+                    },
+                    {
+                      "title": "Droga i kąt obrotu",
+                      "content": "Droga przebyta przez samochód:\n$$s = \\frac{a t^2}{2} = \\frac{2 \\cdot 6^2}{2} = 36\\text{ m}$$\nKąt obrotu kół odpowiada rozwinięciu obwodu:\n$$\\Delta\\varphi = \\frac{s}{R} = \\frac{36\\text{ m}}{0{,}30\\text{ m}} = 120\\text{ rad}$$"
+                    }
+                  ],
+                  "numerical": "$\\varepsilon = \\frac{20}{3}\\text{ rad/s}^2 \\approx 6{,}67\\text{ rad/s}^2$, $\\Delta\\varphi = 120\\text{ rad}$",
+                  "answer": "Przyspieszenie kątowe wynosi $\\frac{20}{3}\\text{ rad/s}^2 \\approx 6{,}67\\text{ rad/s}^2$, a kąt obrotu kół to $120\\text{ rad}$."
+                }
+              },
+              {
+                "id": "b-zad-10",
+                "number": 10,
+                "title": "Zadanie 10. Przekładnia łańcuchowa w rowerze",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Przekładnia",
+                  "Ruch obrotowy",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Przednia zębatka roweru ma promień $0{,}10\\text{ m}$, tylna $0{,}04\\text{ m}$, a promień tylnego koła wynosi $0{,}35\\text{ m}$. Przednia zębatka obraca się z prędkością kątową $3\\text{ rad/s}$. Łańcuch nie ślizga się, a tylna zębatka obraca się razem z kołem. Oblicz prędkość roweru.</p>",
+                "solution": {
+                  "givens": "$r_1 = 0{,}10\\text{ m}$, $r_2 = 0{,}04\\text{ m}$, $R_{\\text{koła}} = 0{,}35\\text{ m}$, $\\omega_1 = 3\\text{ rad/s}$.",
+                  "steps": [
+                    {
+                      "title": "Prędkość liniowa łańcucha",
+                      "content": "Łańcuch przesuwa się ze stałą prędkością liniową równą prędkości obwodowej przedniej zębatki:\n$$v_ł = \\omega_1 r_1 = 3\\text{ rad/s} \\cdot 0{,}10\\text{ m} = 0{,}30\\text{ m/s}$$"
+                    },
+                    {
+                      "title": "Prędkość kątowa tylnej zębatki i koła",
+                      "content": "Tylna zębatka napędzana łańcuchem osiąga prędkość kątową:\n$$\\omega_2 = \\frac{v_ł}{r_2} = \\frac{0{,}30\\text{ m/s}}{0{,}04\\text{ m}} = 7{,}5\\text{ rad/s}$$\nKoło tylne obraca się na tej samej osi ze wspólną prędkością kątową $\\omega_2$."
+                    },
+                    {
+                      "title": "Prędkość liniowa roweru",
+                      "content": "Przy toczeniu tylnego koła bez poślizgu:\n$$v = \\omega_2 R_{\\text{koła}} = 7{,}5\\text{ rad/s} \\cdot 0{,}35\\text{ m} = 2{,}625\\text{ m/s} \\approx 2{,}63\\text{ m/s}$$"
+                    }
+                  ],
+                  "numerical": "$v = 7{,}5 \\cdot 0{,}35 = 2{,}625\\text{ m/s} \\approx 2{,}63\\text{ m/s}$",
+                  "answer": "Prędkość roweru wynosi $2{,}625\\text{ m/s} \\approx 2{,}63\\text{ m/s}$ (ok. $9{,}45\\text{ km/h}$)."
+                }
+              },
+              {
+                "id": "b-zad-11",
+                "number": 11,
+                "title": "Zadanie 11. Rozkład wektorów prędkości na toczącym się kole",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Toczenie bez poślizgu",
+                  "Wektory prędkości",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Koło toczy się bez poślizgu w prawo z prędkością środka równą $v$. Punkty A, B, C i D leżą odpowiednio: na górze koła, w środku, w punkcie styku oraz na lewym skraju obwodu. Wyznacz wartości i kierunki ich prędkości względem podłoża.</p>\n<div class=\"chart-container-svg\" style=\"max-width:440px;margin:16px auto;\">\n  <svg viewBox=\"0 0 360 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;font-family:system-ui,sans-serif;\">\n    <defs>\n      <marker id=\"arr11\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\">\n        <polygon points=\"0 0, 7 3.5, 0 7\" fill=\"#2563eb\" />\n      </marker>\n      <marker id=\"arrRot\" markerWidth=\"6\" markerHeight=\"6\" refX=\"5\" refY=\"3\" orient=\"auto\">\n        <polygon points=\"0 0, 6 3, 0 6\" fill=\"#0f172a\" />\n      </marker>\n    </defs>\n    <!-- Ground line -->\n    <line x1=\"20\" y1=\"220\" x2=\"340\" y2=\"220\" stroke=\"#334155\" stroke-width=\"2.5\" />\n    <!-- Wheel -->\n    <circle cx=\"180\" cy=\"130\" r=\"90\" fill=\"#f1f5f9\" stroke=\"#1e293b\" stroke-width=\"2.5\" />\n    <!-- Points -->\n    <!-- Center B -->\n    <circle cx=\"180\" cy=\"130\" r=\"4\" fill=\"#0f172a\" />\n    <text x=\"170\" y=\"135\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\">B</text>\n    <!-- Velocity v of center -->\n    <line x1=\"180\" y1=\"130\" x2=\"245\" y2=\"130\" stroke=\"#2563eb\" stroke-width=\"2.5\" marker-end=\"url(#arr11)\" />\n    <text x=\"215\" y=\"122\" font-size=\"14\" font-weight=\"600\" font-style=\"italic\" fill=\"#2563eb\">v</text>\n    <!-- Rotation arrow omega -->\n    <path d=\"M 195 150 A 25 25 0 0 1 170 155\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"1.8\" marker-end=\"url(#arrRot)\" />\n    <text x=\"190\" y=\"168\" font-size=\"14\" font-weight=\"600\" font-style=\"italic\" fill=\"#0f172a\">ω</text>\n    <!-- Top point A -->\n    <circle cx=\"180\" cy=\"40\" r=\"4\" fill=\"#0f172a\" />\n    <text x=\"175\" y=\"32\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\">A</text>\n    <!-- Bottom contact point C -->\n    <circle cx=\"180\" cy=\"220\" r=\"4\" fill=\"#0f172a\" />\n    <text x=\"175\" y=\"238\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\">C</text>\n    <!-- Left point D -->\n    <circle cx=\"90\" cy=\"130\" r=\"4\" fill=\"#0f172a\" />\n    <text x=\"73\" y=\"135\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\">D</text>\n  </svg>\n</div>",
+                "solution": {
+                  "givens": "Prędkość środka koła $v_{\\text{śr}} = v$, promień $R$, toczenie bez poślizgu ($\\omega R = v$).",
+                  "steps": [
+                    {
+                      "title": "Zasada dodawania wektorów prędkości w toczeniu",
+                      "content": "Prędkość wypadkowa każdego punktu $\\vec{v}_i$ jest sumą wektorową prędkości środka masy $\\vec{v}$ (ruch postępowy, wektor poziomy w prawo) oraz prędkości obrotowej $\\vec{v}_{\\text{obr}}$ o stałej wartości $\\omega R = v$, stycznej do okręgu w danym punkcie."
+                    },
+                    {
+                      "title": "Wyznaczenie prędkości poszczególnych punktów",
+                      "content": "1. Punkt A (szczyt koła): wektor obrotu jest poziomy w prawo: $v_A = v + v = 2v$ (zwrot poziomy w prawo).\n2. Punkt B (środek koła): prędkość obrotowa wynosi zero ($r = 0$): $v_B = v$ (zwrot poziomy w prawo).\n3. Punkt C (punkt styku): wektor obrotu jest poziomy w lewo: $v_C = v - v = 0$ (chwilowy spoczynek).\n4. Punkt D (lewy skraj): ruch postępowy daje wektor $v$ w prawo, a obrót daje wektor $v$ pionowo w dół. Wektory są prostopadłe:\n$$v_D = \\sqrt{v^2 + v^2} = \\sqrt{2}v$$\nKierunek wektora $\\vec{v}_D$ tworzy kąt $45^\\circ$ z poziomem (skierowany ukośnie w prawo i w dół)."
+                    }
+                  ],
+                  "answer": "Wartości i kierunki: $v_A = 2v$ (poziomo w prawo), $v_B = v$ (poziomo w prawo), $v_C = 0$ (chwilowy spoczynek), $v_D = \\sqrt{2}v$ (pod kątem $45^\\circ$ w dół w prawo)."
+                }
+              }
+            ]
+          },
+          {
+            "id": "sub-bryla-moment-sily",
+            "number": 2,
+            "icon": "↗️",
+            "title": "2. Moment siły i moment bezwładności",
+            "shortTitle": "Moment siły i bezwładności",
+            "desc": "Ramię siły, moment względem punktu i osi oraz warunki równowagi bryły sztywnej.",
+            "formulaCheat": "$M=Frsinalpha$ &nbsp; $sum M=0$ &nbsp; $sum\u000bec F=0$",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Moment siły ($M$) i ramię siły ($d$)</div>\n  <p>Moment siły względem osi obrotu opisuje zdolność siły do wywołania lub zmiany ruchu obrotowego bryły:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$M = F \\cdot r \\cdot \\sin\\alpha = F \\cdot d$$</div>\n  <ul class=\"theory-list\">\n    <li><strong>$F$</strong> – wartość działającej siły $[\\text{N}]$, <strong>$r$</strong> – odległość punktu przyłożenia od osi $[\\text{m}]$, <strong>$\\alpha$</strong> – kąt między wektorem położenia $\\vec{r}$ a wektorem siły $\\vec{F}$.</li>\n    <li><strong>Ramię siły ($d = r\\sin\\alpha$):</strong> najkrótsza (prostopadła) odległość osi obrotu od prostej, wzdłuż której działa siła.</li>\n    <li>Jednostka w SI: $[M] = \\text{N} \\cdot \\text{m}$ (niutonometr).</li>\n    <li><strong>Warunek zerowego momentu ($M = 0$):</strong> gdy prosta działania siły przechodzi przez oś obrotu ($d = 0 \\implies M = 0$). Taka siła nie jest w stanie wywołać obrotu.</li>\n    <li>Maksymalny moment uzyskujemy przy działaniu prostopadłym ($\\alpha = 90^\\circ \\implies \\sin 90^\\circ = 1 \\implies M = F \\cdot r$).</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/user-moment_sily.svg\" alt=\"Ramię siły i moment siły: z lewej strony siła F pod kątem alfa z ramieniem d = r sin alfa; z prawej strony siła wzdłuż osi ramienia z d = 0 i momentem M = 0.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">2. Moment bezwładności ($I$) i twierdzenie Steinera</div>\n  <p><strong>Moment bezwładności ($I$)</strong> jest miarą bezwładności bryły w ruchu obrotowym (odpowiednikiem masy $m$ w ruchu postępowym) i określa, jak trudno zmienić prędkość kątową ciała:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$I = \\sum m_i r_i^2 \\quad [\\text{kg} \\cdot \\text{m}^2]$$</div>\n  <ul class=\"theory-list\">\n    <li><strong>Zależność od rozkładu masy:</strong> wartość $I$ zależy nie tylko od całkowitej masy bryły $m$, ale przede wszystkim od tego, jak daleko od osi obrotu masa ta jest rozmieszczona (rośnie z kwadratem odległości $r^2$). Im dalej od osi skupiona jest masa, tym większy moment bezwładności.</li>\n    <li><strong>Momenty bezwładności podstawowych brył jednorodnych ($I_0$)</strong> względem osi przechodzącej przez środek masy:\n      <ul style=\"margin:4px 0 4px 18px;\">\n        <li><strong>Obręcz cienkościenna (pierścień):</strong> $I_0 = mR^2$ (cała masa w odległości $R$ od osi)</li>\n        <li><strong>Walec / krążek pełny:</strong> $I_0 = \\frac{1}{2}mR^2$ (oś wzdłuż osi symetrii walca)</li>\n        <li><strong>Kula pełna:</strong> $I_0 = \\frac{2}{5}mR^2$ (oś przez środek kuli)</li>\n        <li><strong>Cienki pręt o długości $L$:</strong> $I_0 = \\frac{1}{12}mL^2$ (oś prostopadła do pręta przez jego środek)</li>\n      </ul>\n    </li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/rigid-moments-of-inertia.svg\" alt=\"Momenty bezwładności podstawowych brył względem osi symetrii przechodzącej przez środek masy: obręcz cienkościenna I0 = mR^2, walec pełny I0 = 1/2 mR^2, kula pełna I0 = 2/5 mR^2, cienki pręt I0 = 1/12 mL^2.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <ul class=\"theory-list\">\n    <li><strong>Twierdzenie Steinera (o osiach równoległych):</strong> jeżeli bryłę obracamy wokół nowej osi, która jest <u>równoległa</u> do osi przechodzącej przez środek masy $S$ i przesunięta względem niej o odległość $d$, to moment bezwładności $I$ względem tej nowej osi wynosi:\n    <div style=\"text-align:center;margin:6px 0;\">$$I = I_0 + m d^2$$</div>\n    gdzie:\n      <ul style=\"margin:4px 0 4px 18px;\">\n        <li><strong>$I_0$</strong> – moment bezwładności bryły względem osi przechodzącej przez jej środek masy $S$,</li>\n        <li><strong>$m$</strong> – całkowita masa bryły,</li>\n        <li><strong>$d$</strong> – prostopadła odległość między osią przechodzącą przez środek masy a nową osią obrotu.</li>\n      </ul>\n    </li>\n    <li><strong>Przykłady zastosowania twierdzenia Steinera:</strong>\n      <ul style=\"margin:4px 0 4px 18px;\">\n        <li>Walec obracany wokół osi na pobocznicy ($d = R$): $I = \\frac{1}{2}mR^2 + mR^2 = \\frac{3}{2}mR^2$.</li>\n        <li>Cienki pręt obracany wokół osi na jego końcu ($d = \\frac{L}{2}$): $I = \\frac{1}{12}mL^2 + m\\left(\\frac{L}{2}\\right)^2 = \\frac{1}{3}mL^2$.</li>\n      </ul>\n    </li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/rigid-steiner-theorem.svg\" alt=\"Twierdzenie Steinera o osiach równoległych: przesunięcie osi obrotu ze środka masy S o odległość d zwiększa moment bezwładności zgodnie ze wzorem I = I0 + md^2.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">3. II zasada dynamiki dla ruchu obrotowego</div>\n  <p>Wypadkowy moment sił zewnętrznych nadaje bryle przyspieszenie kątowe wprost proporcjonalne do tego momentu:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$M_{\\text{wyp}} = I \\cdot \\varepsilon \\iff \\varepsilon = \\frac{M_{\\text{wyp}}}{I}$$</div>\n\n  <div class=\"theory-subtitle\">4. Warunki równowagi statycznej bryły sztywnej</div>\n  <p>Aby bryła sztywna pozostawała w spoczynku, spełnione muszą być <strong>jednocześnie dwa warunki równowagi</strong>:</p>\n  <div style=\"text-align:center;margin:6px 0;\">\n  $$\\begin{cases} \\sum \\vec{F} = \\vec{0} & \\text{(I warunek: brak ruchu postępowego – wypadkowa sił równa zero)} \\\\ \\sum M = 0 & \\text{(II warunek: brak obrotu – suma momentów sił względem dowolnego punktu równa zero)} \\end{cases}$$\n  </div>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/user-rownowaga_belki.svg\" alt=\"Warunki równowagi belki na dwóch podporach: równowaga sił R_A + R_B = Q oraz równowaga momentów względem podpory A: Q * (L/2) = R_B * L.\" loading=\"eager\" decoding=\"async\">\n</figure>\n</div>",
+            "tasks": [
+              {
+                "id": "b-zad-12",
+                "number": 12,
+                "title": "Zadanie 12. Moment siły prostopadłej do ramienia",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment siły",
+                  "Definicja M = F·r"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Siła $20\\text{ N}$ działa prostopadle do ramienia długości $0{,}30\\text{ m}$. Oblicz wartość momentu siły.</p>",
+                "solution": {
+                  "givens": "$F = 20\\text{ N}$, $r = 0{,}30\\text{ m}$, $\\alpha = 90^\\circ$.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie wartości momentu siły",
+                      "content": "Dla siły działającej prostopadle do ramienia ($\\sin 90^\\circ = 1$):\n$$M = F \\cdot r = 20\\text{ N} \\cdot 0{,}30\\text{ m} = 6\\text{ N}\\cdot\\text{m}$$"
+                    }
+                  ],
+                  "numerical": "$M = 6\\text{ N}\\cdot\\text{m}$",
+                  "answer": "Wartość momentu siły wynosi $6\\text{ N}\\cdot\\text{m}$."
+                }
+              },
+              {
+                "id": "b-zad-13",
+                "number": 13,
+                "title": "Zadanie 13. Moment siły działającej pod kątem 30°",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment siły",
+                  "Zadanie zamknięte",
+                  "Kąt nachylenia"
+                ],
+                "correctOption": "B",
+                "problem": "<p class=\"problem-paragraph\">Siła $30\\text{ N}$ działa na punkt odległy o $0{,}40\\text{ m}$ od osi. Kąt między wektorem ramienia a siłą wynosi $30^\\circ$. Moment siły ma wartość:</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$3\\text{ N}\\cdot\\text{m}$</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$6\\text{ N}\\cdot\\text{m}$</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$10{,}4\\text{ N}\\cdot\\text{m}$</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$12\\text{ N}\\cdot\\text{m}$</span></div>\n</div>",
+                "solution": {
+                  "givens": "$F = 30\\text{ N}$, $r = 0{,}40\\text{ m}$, $\\alpha = 30^\\circ$, $\\sin 30^\\circ = 0{,}5$.",
+                  "steps": [
+                    {
+                      "title": "Zastosowanie definicji momentu siły",
+                      "content": "Wartość momentu siły wyznaczamy ze wzoru uwzględniającego kąt $\\alpha$:\n$$M = F \\cdot r \\cdot \\sin\\alpha = 30\\text{ N} \\cdot 0{,}40\\text{ m} \\cdot \\sin 30^\\circ = 12 \\cdot 0{,}5 = 6\\text{ N}\\cdot\\text{m}$$"
+                    }
+                  ],
+                  "answer": "Poprawna jest odpowiedź B ($6\\text{ N}\\cdot\\text{m}$).",
+                  "trap": "Pamiętaj o uwzględnieniu sinusa kąta między ramieniem a siłą – ramię prostopadłe wynosi $d = r\\sin\\alpha = 0{,}20\\text{ m}$."
+                }
+              },
+              {
+                "id": "b-zad-14",
+                "number": 14,
+                "title": "Zadanie 14. Wypadkowy moment trzech sił na tarczy",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment siły",
+                  "Wypadkowy moment",
+                  "Kierunek obrotu"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Na tarczę działają trzy siły: $F_1 = 10\\text{ N}$ stycznie w odległości $0{,}40\\text{ m}$ i przeciwnie do ruchu wskazówek zegara, $F_2 = 20\\text{ N}$ stycznie w odległości $0{,}10\\text{ m}$ w przeciwnym zwrocie oraz $F_3 = 30\\text{ N}$ w odległości $0{,}20\\text{ m}$ pod kątem $30^\\circ$ do promienia, w zwrocie dodatnim. Oblicz wypadkowy moment sił i przewidywany zwrot przyspieszenia kątowego.</p>",
+                "solution": {
+                  "givens": "$F_1 = 10\\text{ N}, r_1 = 0{,}40\\text{ m}$; $F_2 = 20\\text{ N}, r_2 = 0{,}10\\text{ m}$; $F_3 = 30\\text{ N}, r_3 = 0{,}20\\text{ m}, \\alpha_3 = 30^\\circ$. Konwencja: przeciwnie do ruchu wskazówek zegara (+).",
+                  "steps": [
+                    {
+                      "title": "Obliczenie momentów poszczególnych sił",
+                      "content": "1. Moment siły $F_1$ (styczna, zwrot dodatni):\n$$M_1 = +F_1 \\cdot r_1 = +10\\text{ N} \\cdot 0{,}40\\text{ m} = +4\\text{ N}\\cdot\\text{m}$$\n2. Moment siły $F_2$ (styczna, zwrot ujemny):\n$$M_2 = -F_2 \\cdot r_2 = -20\\text{ N} \\cdot 0{,}10\\text{ m} = -2\\text{ N}\\cdot\\text{m}$$\n3. Moment siły $F_3$ (pod kątem $30^\\circ$, zwrot dodatni):\n$$M_3 = +F_3 \\cdot r_3 \\cdot \\sin 30^\\circ = +30\\text{ N} \\cdot 0{,}20\\text{ m} \\cdot 0{,}5 = +3\\text{ N}\\cdot\\text{m}$$"
+                    },
+                    {
+                      "title": "Wypadkowy moment sił i zwrot przyspieszenia kątowego",
+                      "content": "Sumujemy momenty sił z uwzględnieniem znaków:\n$$M_w = M_1 + M_2 + M_3 = +4 - 2 + 3 = +5\\text{ N}\\cdot\\text{m}$$\nZgodnie z II zasadą dynamiki dla ruchu obrotowego ($M_w = I\\varepsilon$) dodatni znak momentu wypadkowego oznacza, że przyspieszenie kątowe $\\varepsilon$ jest skierowane przeciwnie do ruchu wskazówek zegara."
+                    }
+                  ],
+                  "numerical": "$M_w = +5\\text{ N}\\cdot\\text{m}$",
+                  "answer": "Wypadkowy moment sił wynosi $+5\\text{ N}\\cdot\\text{m}$, a przyspieszenie kątowe jest skierowane przeciwnie do ruchu wskazówek zegara."
+                }
+              },
+              {
+                "id": "b-zad-15",
+                "number": 15,
+                "title": "Zadanie 15. Równowaga nieważkiej belki z klockami",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Równowaga belki",
+                  "Dźwignia",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Na końcach nieważkiej belki zawieszono klocki. Klocek $m_1 = 3\\text{ kg}$ znajduje się $0{,}60\\text{ m}$ na lewo od osi O, a klocek $m_2$ – $0{,}40\\text{ m}$ na prawo. Oblicz $m_2$, jeżeli belka pozostaje pozioma.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad15-belka.png\" alt=\"Nieważka belka z osią O i klockami m1 i m2\" class=\"task-image\" />\n</div>",
+                "solution": {
+                  "givens": "$m_1 = 3\\text{ kg}$, $r_1 = 0{,}60\\text{ m}$, $r_2 = 0{,}40\\text{ m}$.",
+                  "steps": [
+                    {
+                      "title": "Warunek równowagi obrotowej belki",
+                      "content": "Belka jest nieważka, a moment siły reakcji osi O wynosi zero (jej ramię względem osi jest zerowe). Aby belka pozostała w równowadze poziomej, suma momentów sił względem osi O musi wynosić zero:\n$$\\sum M_O = 0 \\implies m_1 g \\cdot r_1 = m_2 g \\cdot r_2$$"
+                    },
+                    {
+                      "title": "Wyznaczenie masy $m_2$",
+                      "content": "Przyspieszenie ziemskie $g$ upraszcza się po obu stronach równania:\n$$m_2 = \\frac{m_1 \\cdot r_1}{r_2} = \\frac{3\\text{ kg} \\cdot 0{,}60\\text{ m}}{0{,}40\\text{ m}} = 4{,}5\\text{ kg}$$"
+                    }
+                  ],
+                  "numerical": "$m_2 = 4{,}5\\text{ kg}$",
+                  "answer": "Masa klocka wynosi $m_2 = 4{,}5\\text{ kg}$."
+                }
+              },
+              {
+                "id": "b-zad-16",
+                "number": 16,
+                "title": "Zadanie 16. Położenie podpory jednorodnej belki z obciążnikami",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Równowaga belki",
+                  "Ciężar belki",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodna belka długości $4\\text{ m}$ i masie $10\\text{ kg}$ ma na końcach zawieszone klocki $m_1 = 5\\text{ kg}$ i $m_2 = 2\\text{ kg}$. Podporę P przesuwa się od środka masy S belki w stronę cięższego klocka. Oblicz odległość $x = |PS|$, dla której belka będzie w równowadze.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad16-belka.png\" alt=\"Jednorodna belka o długości 4 m z podporą P przesuniętą o x od środka masy S\" class=\"task-image\" />\n</div>",
+                "solution": {
+                  "givens": "$L = 4\\text{ m}$, masa belki $M = 10\\text{ kg}$, $m_1 = 5\\text{ kg}$, $m_2 = 2\\text{ kg}$, środek masy S znajduje się $2\\text{ m}$ od każdego z końców.",
+                  "steps": [
+                    {
+                      "title": "Ustalenie ramion sił względem podpory P",
+                      "content": "Podpora P jest przesunięta o $x$ w stronę cięższego klocka $m_1$ (w lewo od środka S):\n- Odległość klocka $m_1$ od podpory P: $r_1 = 2 - x$\n- Odległość środka masy belki S od podpory P: $r_S = x$ (ciężar belki $Mg$ działa w dół po prawej stronie podpory)\n- Odległość klocka $m_2$ od podpory P: $r_2 = 2 + x$ (działa po prawej stronie podpory)"
+                    },
+                    {
+                      "title": "Równanie równowagi momentów sił względem punktu P",
+                      "content": "Suma momentów obracających belkę w lewo musi równoważyć sumę momentów obracających ją w prawo:\n$$m_1 g \\cdot (2 - x) = m_2 g \\cdot (2 + x) + M g \\cdot x$$\nDzieląc obustronnie przez $g$:\n$$5(2 - x) = 2(2 + x) + 10x$$\n$$10 - 5x = 4 + 2x + 10x$$\n$$10 - 4 = 17x \\implies 6 = 17x \\implies x = \\frac{6}{17}\\text{ m} \\approx 0{,}353\\text{ m}$$"
+                    }
+                  ],
+                  "numerical": "$x = \\frac{6}{17}\\text{ m} \\approx 0{,}353\\text{ m}$",
+                  "answer": "Odległość podpory P od środka masy belki wynosi $x = \\frac{6}{17}\\text{ m} \\approx 0{,}353\\text{ m}$ (ok. $35{,}3\\text{ cm}$)."
+                }
+              },
+              {
+                "id": "b-zad-17",
+                "number": 17,
+                "title": "Zadanie 17. Siły reakcji podpór sztywnej belki ze zwisającym końcem",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Reakcje podpór",
+                  "Statyka bryły",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodna belka o masie $60\\text{ kg}$ jest połączona ze sztywnymi pionowymi podporami w punktach A i B odległych o $1{,}0\\text{ m}$. Środek masy C leży $1{,}4\\text{ m}$ na prawo od A. Połączenia mogą działać na belkę zarówno w górę, jak i w dół. Narysuj zwroty sił $F_A$ i $F_B$, a następnie oblicz ich wartości.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad17-belka.png\" alt=\"Jednorodna belka podparta w punktach A i B z ciężarem mg w środku masy C\" class=\"task-image\" />\n</div>",
+                "solution": {
+                  "givens": "$m = 60\\text{ kg}$, $Q = mg = 600\\text{ N}$, $|AB| = 1{,}0\\text{ m}$, $|AC| = 1{,}4\\text{ m}$.",
+                  "steps": [
+                    {
+                      "title": "Równowaga momentów sił względem punktu A",
+                      "content": "Przyjmijmy zwrot sił pionowych ku górze za dodatni. Względem podpory A moment siły $F_A$ znika:\n$$\\sum M_A = 0 \\implies F_B \\cdot |AB| - mg \\cdot |AC| = 0$$\n$$F_B \\cdot 1{,}0\\text{ m} = 600\\text{ N} \\cdot 1{,}4\\text{ m} = 840\\text{ N}\\cdot\\text{m} \\implies F_B = +840\\text{ N}$$\nDodatni znak potwierdza, że siła $F_B$ jest skierowana pionowo w górę."
+                    },
+                    {
+                      "title": "Warunek równowagi sił w pionie i wyznaczenie $F_A$",
+                      "content": "Suma sił działających na belkę w pionie musi wynosić zero:\n$$F_A + F_B - mg = 0 \\implies F_A = mg - F_B = 600\\text{ N} - 840\\text{ N} = -240\\text{ N}$$\nUjemny znak oznacza, że siła $F_A$ działa pionowo w dół — połączenie A musi przytrzymywać lewy koniec belki, zapobiegając jej uniesieniu."
+                    }
+                  ],
+                  "numerical": "$F_B = 840\\text{ N}$ (w górę), $F_A = -240\\text{ N}$ (w dół)",
+                  "answer": "Zwrot siły $F_B$ jest skierowany w górę i ma wartość $840\\text{ N}$. Zwrot siły $F_A$ jest skierowany w dół i ma wartość $240\\text{ N}$."
+                }
+              },
+              {
+                "id": "b-zad-18",
+                "number": 18,
+                "title": "Zadanie 18. Moment bezwładności układu mas punktowych",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment bezwładności",
+                  "Masy punktowe"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Dwie masy punktowe obracają się wokół wspólnej osi: $m_1 = 1\\text{ kg}$ w odległości $0{,}30\\text{ m}$ oraz $m_2 = 2\\text{ kg}$ w odległości $0{,}20\\text{ m}$. Oblicz moment bezwładności układu.</p>",
+                "solution": {
+                  "givens": "$m_1 = 1\\text{ kg}, r_1 = 0{,}30\\text{ m}$; $m_2 = 2\\text{ kg}, r_2 = 0{,}20\\text{ m}$.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie momentu bezwładności",
+                      "content": "Dla układu mas punktowych moment bezwładności wynosi:\n$$I = \\sum m_i r_i^2 = m_1 r_1^2 + m_2 r_2^2$$\n$$I = 1\\text{ kg} \\cdot (0{,}30\\text{ m})^2 + 2\\text{ kg} \\cdot (0{,}20\\text{ m})^2 = 0{,}09 + 2 \\cdot 0{,}04 = 0{,}09 + 0{,}08 = 0{,}17\\text{ kg}\\cdot\\text{m}^2$$"
+                    }
+                  ],
+                  "numerical": "$I = 0{,}17\\text{ kg}\\cdot\\text{m}^2$",
+                  "answer": "Moment bezwładności układu wynosi $0{,}17\\text{ kg}\\cdot\\text{m}^2$."
+                }
+              },
+              {
+                "id": "b-zad-19",
+                "number": 19,
+                "title": "Zadanie 19. Zmiana odległości masy punktowej od osi",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment bezwładności",
+                  "Zadanie zamknięte",
+                  "Masa punktowa"
+                ],
+                "correctOption": "C",
+                "problem": "<p class=\"problem-paragraph\">Tę samą masę punktową przesunięto z odległości $R$ do odległości $R/2$ od osi. Jej moment bezwładności względem tej osi:</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">nie zmienił się</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">zmaleje dwukrotnie</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">zmaleje czterokrotnie</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">wzrośnie czterokrotnie</span></div>\n</div>",
+                "solution": {
+                  "givens": "$r_1 = R$, $r_2 = R/2$, masa $m = \\text{const}$.",
+                  "steps": [
+                    {
+                      "title": "Porównanie momentów bezwładności",
+                      "content": "Dla masy punktowej $I = m r^2$. Podstawiając nową odległość:\n$$I_2 = m \\left(\\frac{R}{2}\\right)^2 = m \\frac{R^2}{4} = \\frac{I_1}{4}$$\nMoment bezwładności maleje czterokrotnie."
+                    }
+                  ],
+                  "answer": "Poprawna jest odpowiedź C (zmaleje czterokrotnie).",
+                  "trap": "Moment bezwładności zależy od kwadratu odległości od osi ($r^2$), dlatego dwukrotne zbliżenie masy zmniejsza $I$ aż czterokrotnie."
+                }
+              },
+              {
+                "id": "b-zad-20",
+                "number": 20,
+                "title": "Zadanie 20. Przyspieszenie kątowe krążka i pierścienia",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Dynamika obrotowa",
+                  "II zasada dynamiki",
+                  "Zadanie zamknięte"
+                ],
+                "correctOption": "C",
+                "problem": "<p class=\"problem-paragraph\">Jednorodny krążek i cienki pierścień mają jednakowe masy i promienie. Działa na nie taki sam moment siły. Korzystając z $I_k = \\frac{1}{2}mR^2$ oraz $I_p = mR^2$, wskaż poprawną zależność między przyspieszeniami kątowymi.</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$\\varepsilon_k = \\frac{1}{2}\\varepsilon_p$</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$\\varepsilon_k = \\varepsilon_p$</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$\\varepsilon_k = 2\\varepsilon_p$</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$\\varepsilon_k = 4\\varepsilon_p$</span></div>\n</div>",
+                "solution": {
+                  "givens": "$I_k = \\frac{1}{2}mR^2$, $I_p = mR^2$, $M_k = M_p = M$.",
+                  "steps": [
+                    {
+                      "title": "Zastosowanie II zasady dynamiki dla ruchu obrotowego",
+                      "content": "Z równania dynamiki obrotowej $M = I\\varepsilon \\implies \\varepsilon = \\frac{M}{I}$.\nPodstawiając momenty bezwładności:\n$$\\varepsilon_k = \\frac{M}{\\frac{1}{2}mR^2} = \\frac{2M}{mR^2}$$\n$$\\varepsilon_p = \\frac{M}{mR^2}$$\nStąd natychmiast wynika relacja:\n$$\\varepsilon_k = 2\\varepsilon_p$$"
+                    }
+                  ],
+                  "answer": "Poprawna jest odpowiedź C ($\\varepsilon_k = 2\\varepsilon_p$).",
+                  "trap": "Im mniejszy moment bezwładności bryły, tym większe przyspieszenie kątowe nadaje jej ten sam moment siły."
+                }
+              },
+              {
+                "id": "b-zad-21",
+                "number": 21,
+                "title": "Zadanie 21. Ruch układu dwóch współosiowych bębnów",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Współosiowe bębny",
+                  "Naprężenia nici",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Dwa współosiowe bębny są połączone na sztywno. Na bęben o promieniu $r_1 = 0{,}10\\text{ m}$ nawinięto nić z klockiem $m_1 = 4\\text{ kg}$, a na bęben o promieniu $r_2 = 0{,}20\\text{ m}$ – nić z klockiem $m_2 = 1\\text{ kg}$. Nici rozwijają się po przeciwnych stronach. Moment bezwładności bębnów wynosi $I = 0{,}30\\text{ kg}\\cdot\\text{m}^2$. Ustal kierunek ruchu, a następnie oblicz $\\varepsilon$, przyspieszenia klocków i naprężenia obu nici.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad21-bebny.png\" alt=\"Współosiowe bębny z klockami m1 i m2\" class=\"task-image\" />\n</div>",
+                "solution": {
+                  "givens": "$r_1 = 0{,}10\\text{ m}, m_1 = 4\\text{ kg}$; $r_2 = 0{,}20\\text{ m}, m_2 = 1\\text{ kg}$; $I = 0{,}30\\text{ kg}\\cdot\\text{m}^2$, $g = 10\\text{ m/s}^2$.",
+                  "steps": [
+                    {
+                      "title": "Ustalenie kierunku ruchu układu",
+                      "content": "Momenty sił ciężkości względem osi obrotu działają w przeciwnych zwrotach:\n$$M_{g1} = m_1 g r_1 = 4\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 0{,}10\\text{ m} = 4\\text{ N}\\cdot\\text{m}$$\n$$M_{g2} = m_2 g r_2 = 1\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 0{,}20\\text{ m} = 2\\text{ N}\\cdot\\text{m}$$\nPonieważ $M_{g1} > M_{g2}$, klocek $m_1$ opada, a klocek $m_2$ unosi się."
+                    },
+                    {
+                      "title": "Równania dynamiki dla klocków i bębnów",
+                      "content": "Przyjmując zwrot ruchu klocka $m_1$ w dół za dodatni:\n1. Klocek $m_1$: $m_1 g - T_1 = m_1 a_1 = m_1 \\varepsilon r_1$\n2. Klocek $m_2$: $T_2 - m_2 g = m_2 a_2 = m_2 \\varepsilon r_2$\n3. Bębny: $T_1 r_1 - T_2 r_2 = I\\varepsilon$\nPo wyznaczeniu $T_1 = m_1(g - \\varepsilon r_1)$ i $T_2 = m_2(g + \\varepsilon r_2)$ i podstawieniu do równania bębnów:\n$$\\varepsilon = \\frac{m_1 g r_1 - m_2 g r_2}{I + m_1 r_1^2 + m_2 r_2^2} = \\frac{4 - 2}{0{,}30 + 4 \\cdot 0{,}01 + 1 \\cdot 0{,}04} = \\frac{2}{0{,}38} = \\frac{100}{19}\\text{ rad/s}^2 \\approx 5{,}26\\text{ rad/s}^2$$"
+                    },
+                    {
+                      "title": "Obliczenie przyspieszeń liniowych i naprężeń nici",
+                      "content": "Przyspieszenia liniowe klocków:\n$$a_1 = \\varepsilon r_1 = \\frac{100}{19} \\cdot 0{,}10 = \\frac{10}{19}\\text{ m/s}^2 \\approx 0{,}526\\text{ m/s}^2 \\quad (\\text{w dół})$$\n$$a_2 = \\varepsilon r_2 = \\frac{100}{19} \\cdot 0{,}20 = \\frac{20}{19}\\text{ m/s}^2 \\approx 1{,}05\\text{ m/s}^2 \\quad (\\text{w górę})$$\nNaprężenia nici:\n$$T_1 = m_1(g - a_1) = 4 \\cdot \\left(10 - \\frac{10}{19}\\right) = \\frac{720}{19}\\text{ N} \\approx 37{,}9\\text{ N}$$\n$$T_2 = m_2(g + a_2) = 1 \\cdot \\left(10 + \\frac{20}{19}\\right) = \\frac{210}{19}\\text{ N} \\approx 11{,}1\\text{ N}$$"
+                    }
+                  ],
+                  "numerical": "$\\varepsilon = \\frac{100}{19}\\text{ rad/s}^2 \\approx 5{,}26\\text{ rad/s}^2$, $a_1 \\approx 0{,}526\\text{ m/s}^2$, $a_2 \\approx 1{,}05\\text{ m/s}^2$, $T_1 \\approx 37{,}9\\text{ N}$, $T_2 \\approx 11{,}1\\text{ N}$",
+                  "answer": "Klocek $m_1$ opada, a $m_2$ unosi się. Przyspieszenie kątowe wynosi $\\varepsilon \\approx 5{,}26\\text{ rad/s}^2$. Przyspieszenia klocków: $a_1 \\approx 0{,}526\\text{ m/s}^2$ (w dół), $a_2 \\approx 1{,}05\\text{ m/s}^2$ (w górę). Naprężenia nici: $T_1 \\approx 37{,}9\\text{ N}$, $T_2 \\approx 11{,}1\\text{ N}$."
+                }
+              },
+              {
+                "id": "b-zad-22",
+                "number": 22,
+                "title": "Zadanie 22. Ruch klocka na stole przez masywny krążek",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Masywny krążek",
+                  "Tarcie",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Klocek $m_1 = 2\\text{ kg}$ leży na stole i jest połączony nicią z wiszącym klockiem $m_2 = 1\\text{ kg}$. Nić przechodzi przez jednorodny krążek o masie $M = 2\\text{ kg}$; $I = \\frac{1}{2}MR^2$. Współczynnik tarcia kinetycznego klocka o stół wynosi $\\mu = 0{,}20$. Oblicz przyspieszenie układu oraz naprężenia $T_1$ i $T_2$. Wyjaśnij, dlaczego naprężenia nie są równe.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad22-stol.png\" alt=\"Układ klocka m1 na stole, masywnego krążka M i klocka wiszącego m2\" class=\"task-image\" />\n</div>",
+                "solution": {
+                  "givens": "$m_1 = 2\\text{ kg}, m_2 = 1\\text{ kg}, M = 2\\text{ kg}, I = \\frac{1}{2}MR^2, \\mu = 0{,}20, g = 10\\text{ m/s}^2$.",
+                  "steps": [
+                    {
+                      "title": "Wyznaczenie siły tarcia i układu równań dynamiki",
+                      "content": "Wartość siły tarcia klocka o stół:\n$$f = \\mu m_1 g = 0{,}20 \\cdot 2\\text{ kg} \\cdot 10\\text{ m/s}^2 = 4\\text{ N}$$\nRównania ruchu:\n1. Klocek $m_1$: $T_1 - f = m_1 a$\n2. Klocek $m_2$: $m_2 g - T_2 = m_2 a$\n3. Krążek o masie $M$: $(T_2 - T_1)R = I\\varepsilon = (\\frac{1}{2}MR^2)\\frac{a}{R} \\implies T_2 - T_1 = \\frac{M}{2}a$"
+                    },
+                    {
+                      "title": "Obliczenie przyspieszenia układu",
+                      "content": "Sumując stronami powyższe trzy równania:\n$$m_2 g - f = \\left(m_1 + m_2 + \\frac{M}{2}\\right)a$$\n$$10 - 4 = (2 + 1 + 1)a \\implies 6 = 4a \\implies a = 1{,}5\\text{ m/s}^2$$"
+                    },
+                    {
+                      "title": "Obliczenie naprężeń nici i wyjaśnienie ich różnicy",
+                      "content": "Podstawiając przyspieszenie $a$ do równań klocków:\n$$T_1 = m_1 a + f = 2 \\cdot 1{,}5 + 4 = 7\\text{ N}$$\n$$T_2 = m_2(g - a) = 1 \\cdot (10 - 1{,}5) = 8{,}5\\text{ N}$$\nNaprężenia $T_1$ i $T_2$ nie są równe, ponieważ krążek jest masywny ($I > 0$). Różnica sił $(T_2 - T_1)$ wytwarza wypadkowy moment siły $(T_2 - T_1)R$, który nadaje krążkowi przyspieszenie kątowe $\\varepsilon = a/R$."
+                    }
+                  ],
+                  "numerical": "$a = 1{,}5\\text{ m/s}^2, T_1 = 7\\text{ N}, T_2 = 8{,}5\\text{ N}$",
+                  "answer": "Przyspieszenie układu wynosi $1{,}5\\text{ m/s}^2$, naprężenia nici: $T_1 = 7\\text{ N}$ oraz $T_2 = 8{,}5\\text{ N}$. Różnica naprężeń wytwarza moment siły rozpędzający masywny krążek."
+                }
+              },
+              {
+                "id": "b-zad-23",
+                "number": 23,
+                "title": "Zadanie 23. Walec toczący się po stole połączony z wiszącym klockiem",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Toczenie bez poślizgu",
+                  "Siła tarcia",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodny walec o masie $m = 1\\text{ kg}$ toczy się bez poślizgu po stole. Do jego osi przymocowano lekką nić przełożoną przez nieważki bloczek; na drugim końcu wisi klocek o tej samej masie $m$. Przyjmij $I = \\frac{1}{2}mR^2$. Wyznacz zwrot tarcia działającego na walec oraz oblicz przyspieszenie układu, naprężenie nici i wartość tarcia.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad23-walec.png\" alt=\"Jednorodny walec na stole z nicią przymocowaną do osi i wiszącym klockiem\" class=\"task-image\" />\n</div>",
+                "solution": {
+                  "givens": "Walec: $m = 1\\text{ kg}, I = \\frac{1}{2}mR^2$; klocek: $m = 1\\text{ kg}$, bloczek nieważki, $g = 10\\text{ m/s}^2$.",
+                  "steps": [
+                    {
+                      "title": "Ustalenie zwrotu siły tarcia statycznego",
+                      "content": "Naprężenie nici $T$ działa w osi walca, więc jego moment względem środka masy wynosi zero ($M_T = 0$). Aby walec toczył się w prawo bez poślizgu, musi uzyskać obrót zgodny z ruchem wskazówek zegara. Jedyną siłą dającą moment względem środka walca jest siła tarcia statycznego $f$ w punkcie styku z podłożem. Aby wytworzyć moment zgodny z ruchem wskazówek zegara, siła tarcia $f$ musi być skierowana **w lewo** (przeciwnie do ruchu postępowego)."
+                    },
+                    {
+                      "title": "Równania ruchu dla walca i klocka",
+                      "content": "1. Walec (ruch postępowy): $T - f = ma$\n2. Walec (ruch obrotowy wokół osi środka): $f \\cdot R = I\\varepsilon = (\\frac{1}{2}mR^2)\\frac{a}{R} \\implies f = \\frac{1}{2}ma$\nZ powyższych równań: $T = ma + f = ma + \\frac{1}{2}ma = \\frac{3}{2}ma$\n3. Wiszący klocek: $mg - T = ma$"
+                    },
+                    {
+                      "title": "Wyznaczenie przyspieszenia, tarcia i naprężenia nici",
+                      "content": "Podstawiając $T = \\frac{3}{2}ma$ do równania klocka:\n$$mg - \\frac{3}{2}ma = ma \\implies mg = \\frac{5}{2}ma \\implies a = \\frac{2}{5}g = \\frac{2 \\cdot 10}{5} = 4\\text{ m/s}^2$$\nObliczenie wartości tarcia i naprężenia:\n$$f = \\frac{1}{2}ma = \\frac{1}{2} \\cdot 1\\text{ kg} \\cdot 4\\text{ m/s}^2 = 2\\text{ N}$$\n$$T = \\frac{3}{2}ma = \\frac{3}{2} \\cdot 1\\text{ kg} \\cdot 4\\text{ m/s}^2 = 6\\text{ N}$$"
+                    }
+                  ],
+                  "numerical": "$a = 4\\text{ m/s}^2, f = 2\\text{ N}, T = 6\\text{ N}$",
+                  "answer": "Tarcie działa na walec w lewo i ma wartość $f = 2\\text{ N}$. Przyspieszenie układu wynosi $a = 4\\text{ m/s}^2$, a naprężenie nici wynosi $T = 6\\text{ N}$."
+                }
+              }
+            ]
+          },
+          {
+            "id": "sub-bryla-energia",
+            "number": 3,
+            "icon": "⚡",
+            "title": "3. Energia bryły sztywnej",
+            "shortTitle": "Energia bryły",
+            "desc": "Energia kinetyczna obrotu i toczenia bez poślizgu, zasada zachowania energii na równi pochyłej oraz praca i moc w ruchu obrotowym.",
+            "formulaCheat": "E_{k,\\text{obr}} = \\frac{1}{2}I\\omega^2, \\quad E_k = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2, \\quad mgh = E_k, \\quad W = M\\Delta\\alpha, \\quad P = M\\omega",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Energia kinetyczna ruchu obrotowego ($E_{k,\\text{obr}}$)</div>\n  <p>Bryła sztywna o momencie bezwładności $I$ obracająca się z prędkością kątową $\\omega$ posiada energię kinetyczną obrotu:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$E_{k,\\text{obr}} = \\frac{1}{2} I \\omega^2$$</div>\n  <ul class=\"theory-list\">\n    <li>Jest to bezpośredni odpowiednik energii kinetycznej z ruchu postępowego $E_k = \\frac{1}{2}mv^2$ (masę $m$ zastępuje moment bezwładności $I$, a prędkość liniową $v$ – prędkość kątowa $\\omega$).</li>\n    <li>Jednostką energii w układzie SI jest dżul $[1\\text{ J}]$.</li>\n  </ul>\n\n  <div class=\"theory-subtitle\">2. Całkowita energia kinetyczna w toczeniu bez poślizgu</div>\n  <p>Ciało toczące się bez poślizgu wykonuje jednocześnie ruch postępowy i obrotowy. Jego całkowita energia kinetyczna jest sumą obu tych energii:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$E_k = E_{k,\\text{post}} + E_{k,\\text{obr}} = \\frac{1}{2} m v^2 + \\frac{1}{2} I \\omega^2$$</div>\n  <ul class=\"theory-list\">\n    <li><strong>Warunek braku poślizgu:</strong> prędkość środka masy i prędkość kątową wiąże zależność:\n    <div style=\"text-align:center;margin:4px 0;\">$$v = \\omega R \\iff \\omega = \\frac{v}{R}$$</div></li>\n    <li>W zadaniach w miejsce $I$ wstawiamy wzór z karty wzorów dla danej bryły, a za $\\omega$ podstawiamy $\\frac{v}{R}$.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/energia_toczenia.svg\" alt=\"Całkowita energia kinetyczna w toczeniu bez poślizgu: suma energii ruchu postępowego i obrotowego.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">3. Zasada Zachowania Energii na równi pochyłej</div>\n  <p>Gdy bryła stacza się bez poślizgu ze spoczynku z wysokości $h$, początkowa energia potencjalna grawitacji zamienia się w całkowitą energię kinetyczną:</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$mgh = \\frac{1}{2} m v^2 + \\frac{1}{2} I \\omega^2$$</div>\n  <ul class=\"theory-list\">\n    <li><strong>Rola tarcia statycznego:</strong> siła tarcia statycznego nie wykonuje pracy ($W_T = 0$), ponieważ punkt styku bryły z podłożem w każdej chwili chwilowo spoczywa. Tarcie wymusza jedynie ruch obrotowy – całkowita energia mechaniczna jest zachowana.</li>\n    <li><strong>Wniosek:</strong> ponieważ część energii trafia w ruch obrotowy, tocząca się bryła osiąga na dole równi mniejszą prędkość liniową niż ciało zsuwające się bez tarcia.</li>\n  </ul>\n\n<figure class=\"theory-figure\">\n  <img class=\"theory-diagram\" src=\"img/theory/rigid/wyscig_bryl.svg\" alt=\"Staczanie się brył z równi pochyłej.\" loading=\"eager\" decoding=\"async\">\n</figure>\n\n  <div class=\"theory-subtitle\">4. Praca i moc w ruchu obrotowym</div>\n  <ul class=\"theory-list\">\n    <li><strong>Praca momentu siły ($W$):</strong> praca wykonana przez stały moment siły $M$ przy obrocie o kąt $\\Delta\\alpha$ (w radianach):\n    <div style=\"text-align:center;margin:4px 0;\">$$W = M \\cdot \\Delta\\alpha$$</div></li>\n    <li><strong>Moc w ruchu obrotowym ($P$):</strong>\n    <div style=\"text-align:center;margin:4px 0;\">$$P = M \\cdot \\omega$$</div>\n    (odpowiednik wzoru $P = F \\cdot v$ z ruchu postępowego).</li>\n  </ul>\n</div>",
+            "tasks": [
+              {
+                "id": "b-zad-24",
+                "number": 24,
+                "title": "Zadanie 24. Wzrost energii kinetycznej przy podwojeniu prędkości kątowej",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Energia kinetyczna",
+                  "Ruch obrotowy",
+                  "Zadanie zamknięte"
+                ],
+                "correctOption": "C",
+                "problem": "<p class=\"problem-paragraph\">Prędkość kątową bryły o stałym momencie bezwładności zwiększono dwukrotnie. Jej energia kinetyczna ruchu obrotowego:</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">nie zmieniła się</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">wzrosła dwukrotnie</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">wzrosła czterokrotnie</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">wzrosła ośmiokrotnie</span></div>\n</div>",
+                "solution": {
+                  "givens": "$I = \\text{const}$, $\\omega' = 2\\omega$.",
+                  "steps": [
+                    {
+                      "title": "Kwadratowa zależność energii od prędkości kątowej",
+                      "content": "Wzór na energię kinetyczną w ruchu obrotowym:\n$$E_{\\text{obr}} = \\frac{1}{2}I\\omega^2$$\nPodstawiając nową prędkość $\\omega' = 2\\omega$:\n$$E'_{\\text{obr}} = \\frac{1}{2}I(2\\omega)^2 = 4 \\cdot \\left(\\frac{1}{2}I\\omega^2\\right) = 4 E_{\\text{obr}}$$"
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: C (wzrosła czterokrotnie).",
+                  "trap": "Energia zależy od kwadratu prędkości kątowej ($\\omega^2$), a nie od jej pierwszej potęgi."
+                }
+              },
+              {
+                "id": "b-zad-25",
+                "number": 25,
+                "title": "Zadanie 25. Energia kinetyczna wirnika",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Energia ruchu obrotowego",
+                  "Obliczenia energii"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Wirnik o momencie bezwładności $0{,}40\\text{ kg}\\cdot\\text{m}^2$ obraca się z prędkością $10\\text{ rad/s}$. Oblicz jego energię kinetyczną.</p>",
+                "solution": {
+                  "givens": "$I = 0{,}40\\text{ kg}\\cdot\\text{m}^2$, $\\omega = 10\\text{ rad/s}$.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie energii kinetycznej",
+                      "content": "Stosujemy wzór na energię ruchu obrotowego bryły sztywnej:\n$$E_k = \\frac{1}{2}I\\omega^2 = \\frac{1}{2} \\cdot 0{,}40\\text{ kg}\\cdot\\text{m}^2 \\cdot (10\\text{ rad/s})^2 = 0{,}20 \\cdot 100 = 20\\text{ J}$$"
+                    }
+                  ],
+                  "numerical": "$E_k = 20\\text{ J}$",
+                  "answer": "Energia kinetyczna wirnika wynosi $20\\text{ J}$."
+                }
+              },
+              {
+                "id": "b-zad-26",
+                "number": 26,
+                "title": "Zadanie 26. Rozkład energii w toczącym się walcu",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Toczenie bez poślizgu",
+                  "Energia kinetyczna",
+                  "Walec"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodny walec o masie $2\\text{ kg}$ toczy się bez poślizgu z prędkością środka $3\\text{ m/s}$. Przyjmij $I = \\frac{1}{2}mR^2$. Oblicz energię ruchu postępowego, obrotowego i całkowitą energię kinetyczną walca.</p>",
+                "solution": {
+                  "givens": "$m = 2\\text{ kg}$, $v = 3\\text{ m/s}$, $I = \\frac{1}{2}mR^2$, $\\omega = \\frac{v}{R}$.",
+                  "steps": [
+                    {
+                      "title": "Energia ruchu postępowego środka masy",
+                      "content": "Ruch postępowy opisuje klasyczny wzór:\n$$E_{\\text{post}} = \\frac{1}{2}mv^2 = \\frac{1}{2} \\cdot 2\\text{ kg} \\cdot (3\\text{ m/s})^2 = 9\\text{ J}$$"
+                    },
+                    {
+                      "title": "Energia ruchu obrotowego wokół środka masy",
+                      "content": "Podstawiamy $I = \\frac{1}{2}mR^2$ oraz $\\omega = \\frac{v}{R}$:\n$$E_{\\text{obr}} = \\frac{1}{2}I\\omega^2 = \\frac{1}{2}\\left(\\frac{1}{2}mR^2\\right)\\left(\\frac{v}{R}\\right)^2 = \\frac{1}{4}mv^2 = \\frac{1}{4} \\cdot 2 \\cdot 9 = 4{,}5\\text{ J}$$"
+                    },
+                    {
+                      "title": "Całkowita energia kinetyczna",
+                      "content": "Sumujemy oba wkłady energii:\n$$E_k = E_{\\text{post}} + E_{\\text{obr}} = 9\\text{ J} + 4{,}5\\text{ J} = 13{,}5\\text{ J}$$"
+                    }
+                  ],
+                  "numerical": "$E_{\\text{post}} = 9\\text{ J}$, $E_{\\text{obr}} = 4{,}5\\text{ J}$, $E_k = 13{,}5\\text{ J}$",
+                  "answer": "Energia ruchu postępowego wynosi $9\\text{ J}$, obrotowego $4{,}5\\text{ J}$, a całkowita energia kinetyczna wynosi $13{,}5\\text{ J}$."
+                }
+              },
+              {
+                "id": "b-zad-27",
+                "number": 27,
+                "title": "Zadanie 27. Stosunek energii obrotowej do postępowej dla kuli",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Kula",
+                  "Toczenie bez poślizgu",
+                  "Zadanie zamknięte"
+                ],
+                "correctOption": "B",
+                "problem": "<p class=\"problem-paragraph\">Jednorodna kula toczy się bez poślizgu. Dla $I = \\frac{2}{5}mR^2$ stosunek energii kinetycznej ruchu obrotowego do energii ruchu postępowego wynosi:</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$\\frac{1}{5}$</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$\\frac{2}{5}$</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$\\frac{1}{2}$</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$\\frac{5}{2}$</span></div>\n</div>",
+                "solution": {
+                  "givens": "$I = \\frac{2}{5}mR^2$, $\\omega = \\frac{v}{R}$.",
+                  "steps": [
+                    {
+                      "title": "Wyznaczenie ilorazu energii",
+                      "content": "W ruchu bez poślizgu $\\omega = \\frac{v}{R}$:\n$$\\frac{E_{\\text{obr}}}{E_{\\text{post}}} = \\frac{\\frac{1}{2}I\\omega^2}{\\frac{1}{2}mv^2} = \\frac{I \\left(\\frac{v}{R}\\right)^2}{mv^2} = \\frac{I}{mR^2}$$\nDla kuli $I = \\frac{2}{5}mR^2$, zatem:\n$$\\frac{E_{\\text{obr}}}{E_{\\text{post}}} = \\frac{\\frac{2}{5}mR^2}{mR^2} = \\frac{2}{5}$$"
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: B ($\\frac{2}{5}$).",
+                  "trap": "Stosunek ten dla toczącej się kuli wynosi dokładnie 2/5 i wynika wprost z podstawienia wzoru na moment bezwładności do ilorazu energii."
+                }
+              },
+              {
+                "id": "b-zad-28",
+                "number": 28,
+                "title": "Zadanie 28. Praca wykonana nad obracającym się kołem",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Praca",
+                  "Twierdzenie o pracy i energii",
+                  "Ruch obrotowy"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Koło o momencie bezwładności $2\\text{ kg}\\cdot\\text{m}^2$ zwiększa częstotliwość obrotów z $5\\text{ Hz}$ do $10\\text{ Hz}$. Oblicz pracę wykonaną nad kołem.</p>",
+                "solution": {
+                  "givens": "$I = 2\\text{ kg}\\cdot\\text{m}^2$, $f_1 = 5\\text{ Hz}$, $f_2 = 10\\text{ Hz}$.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie prędkości kątowych",
+                      "content": "Prędkości kątowe wynoszą odpowiednio:\n$$\\omega_1 = 2\\pi f_1 = 10\\pi\\text{ rad/s}$$\n$$\\omega_2 = 2\\pi f_2 = 20\\pi\\text{ rad/s}$$"
+                    },
+                    {
+                      "title": "Zastosowanie twierdzenia o pracy i energii",
+                      "content": "Wykonana praca jest równa przyrostowi energii kinetycznej koła:\n$$W = \\Delta E_{\\text{obr}} = \\frac{1}{2}I(\\omega_2^2 - \\omega_1^2)$$\n$$W = \\frac{1}{2} \\cdot 2 \\cdot \\left((20\\pi)^2 - (10\\pi)^2\\right) = 400\\pi^2 - 100\\pi^2 = 300\\pi^2\\text{ J} \\approx 2961\\text{ J} \\approx 2{,}96\\text{ kJ}$$"
+                    }
+                  ],
+                  "numerical": "$W = 300\\pi^2\\text{ J} \\approx 2{,}96\\text{ kJ}$",
+                  "answer": "Praca wykonana nad kołem wynosi $300\\pi^2\\text{ J} \\approx 2{,}96\\text{ kJ}$."
+                }
+              },
+              {
+                "id": "b-zad-29",
+                "number": 29,
+                "title": "Zadanie 29. Moc mechaniczna silnika w ruchu obrotowym",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moc mechaniczna",
+                  "Ruch obrotowy"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Silnik działa na wał stałym momentem $12\\text{ N}\\cdot\\text{m}$. W pewnej chwili wał obraca się z prędkością $20\\text{ rad/s}$. Oblicz moc mechaniczną silnika w tej chwili.</p>",
+                "solution": {
+                  "givens": "$M = 12\\text{ N}\\cdot\\text{m}$, $\\omega = 20\\text{ rad/s}$.",
+                  "steps": [
+                    {
+                      "title": "Definicja mocy w ruchu obrotowym",
+                      "content": "Moc chwilowa w ruchu obrotowym wyraża się iloczynem momentu siły i prędkości kątowej:\n$$P = M \\cdot \\omega = 12\\text{ N}\\cdot\\text{m} \\cdot 20\\text{ rad/s} = 240\\text{ W}$$"
+                    }
+                  ],
+                  "numerical": "$P = 240\\text{ W}$",
+                  "answer": "Moc mechaniczna silnika wynosi $240\\text{ W}$."
+                }
+              },
+              {
+                "id": "b-zad-30",
+                "number": 30,
+                "title": "Zadanie 30. Staczanie się walca ze spoczynku",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zasada zachowania energii",
+                  "Staczanie walca",
+                  "Ruch po równi"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodny walec stacza się bez poślizgu ze spoczynku z wysokości $1{,}2\\text{ m}$. Przyjmij $I = \\frac{1}{2}mR^2$. Oblicz prędkość środka walca na dole.</p>",
+                "solution": {
+                  "givens": "$h = 1{,}2\\text{ m}$, $I = \\frac{1}{2}mR^2$, $g = 10\\text{ m/s}^2$.",
+                  "steps": [
+                    {
+                      "title": "Bilans energii mechanicznej",
+                      "content": "Początkowa energia potencjalna zamienia się na sumę energii kinetycznej ruchu postępowego i obrotowego:\n$$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$$\nPodstawiając $I = \\frac{1}{2}mR^2$ oraz $\\omega = \\frac{v}{R}$:\n$$mgh = \\frac{1}{2}mv^2 + \\frac{1}{4}mv^2 = \\frac{3}{4}mv^2$$"
+                    },
+                    {
+                      "title": "Wyznaczenie prędkości końcowej",
+                      "content": "Dzielimy obustronnie przez masę $m$:\n$$gh = \\frac{3}{4}v^2 \\implies v^2 = \\frac{4gh}{3}$$\n$$v = \\sqrt{\\frac{4 \\cdot 10 \\cdot 1{,}2}{3}} = \\sqrt{\\frac{48}{3}} = \\sqrt{16} = 4\\text{ m/s}$$"
+                    }
+                  ],
+                  "numerical": "$v = 4\\text{ m/s}$",
+                  "answer": "Prędkość środka walca na dole równi wynosi $4\\text{ m/s}$."
+                }
+              },
+              {
+                "id": "b-zad-31",
+                "number": 31,
+                "title": "Zadanie 31. Wysokość staczania jednorodnej kuli",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zasada zachowania energii",
+                  "Kula",
+                  "Ruch po równi"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodna kula stoczyła się bez poślizgu ze spoczynku i osiągnęła prędkość środka $5\\text{ m/s}$. Przyjmij $I = \\frac{2}{5}mR^2$. Oblicz różnicę wysokości między początkiem i końcem ruchu.</p>",
+                "solution": {
+                  "givens": "$v = 5\\text{ m/s}$, $I = \\frac{2}{5}mR^2$, $g = 10\\text{ m/s}^2$.",
+                  "steps": [
+                    {
+                      "title": "Zasada zachowania energii dla toczącej się kuli",
+                      "content": "Bilans energii:\n$$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2 = \\frac{1}{2}mv^2 + \\frac{1}{2}\\left(\\frac{2}{5}mR^2\\right)\\left(\\frac{v}{R}\\right)^2$$\n$$mgh = \\frac{1}{2}mv^2 + \\frac{1}{5}mv^2 = \\frac{7}{10}mv^2$$"
+                    },
+                    {
+                      "title": "Wyznaczenie wysokości $h$",
+                      "content": "Skracamy masę $m$ i wyznaczamy $h$:\n$$h = \\frac{7v^2}{10g} = \\frac{7 \\cdot 5^2}{10 \\cdot 10} = \\frac{7 \\cdot 25}{100} = \\frac{175}{100} = 1{,}75\\text{ m}$$"
+                    }
+                  ],
+                  "numerical": "$h = 1{,}75\\text{ m}$",
+                  "answer": "Różnica wysokości wynosi $1{,}75\\text{ m}$."
+                }
+              },
+              {
+                "id": "b-zad-32",
+                "number": 32,
+                "title": "Zadanie 32. Wyścig brył toczących się po równi",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Toczenie bez poślizgu",
+                  "Wyścig brył",
+                  "Zadanie zamknięte"
+                ],
+                "correctOption": "B",
+                "problem": "<p class=\"problem-paragraph\">Z tej samej wysokości staczają się bez poślizgu: cienki pierścień, jednorodny walec i jednorodna kula. Masy i promienie mogą być różne. Która kolejność prędkości na dole jest poprawna?</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$v_p > v_w > v_k$</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$v_k > v_w > v_p$</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$v_w > v_k > v_p$</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$v_p = v_w = v_k$</span></div>\n</div>",
+                "solution": {
+                  "givens": "Pierścień ($I = mR^2$), walec ($I = \\frac{1}{2}mR^2$), kula ($I = \\frac{2}{5}mR^2$).",
+                  "steps": [
+                    {
+                      "title": "Wyznaczenie prędkości końcowej z bilansu energii",
+                      "content": "Z zasady zachowania energii początkowa energia potencjalna zamienia się w sumę energii kinetycznej postępowej i obrotowej:\\n$$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$$\\nPodstawiając warunek toczenia bez poślizgu $\\omega = \\frac{v}{R}$ dla każdej z brył:\\n1. Kula pełna ($I = \\frac{2}{5}mR^2$): $mgh = \\frac{1}{2}mv^2 + \\frac{1}{5}mv^2 = \\frac{7}{10}mv^2 \\implies v_k = \\sqrt{\\frac{10}{7}gh} \\approx 1{,}20\\sqrt{gh}$\\n2. Walec pełny ($I = \\frac{1}{2}mR^2$): $mgh = \\frac{1}{2}mv^2 + \\frac{1}{4}mv^2 = \\frac{3}{4}mv^2 \\implies v_w = \\sqrt{\\frac{4}{3}gh} \\approx 1{,}15\\sqrt{gh}$\\n3. Pierścień ($I = mR^2$): $mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}mv^2 = mv^2 \\implies v_p = \\sqrt{gh} = 1{,}00\\sqrt{gh}$\\nZatem $v_k > v_w > v_p$. Kula dociera na dół najszybciej, a pierścień najwolniej."
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: B ($v_k > v_w > v_p$).",
+                  "trap": "Masa $m$ oraz promień $R$ skracają się w równaniu zachowania energii – o prędkości końcowej decyduje to, jak duża część energii zostaje związana w ruchu obrotowym danej bryły."
+                }
+              },
+              {
+                "id": "b-zad-33",
+                "number": 33,
+                "title": "Zadanie 33. Kinematyka i dynamika staczania walca po równi",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Ruch po równi",
+                  "Czas zjazdu",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodny walec stacza się bez poślizgu po równi długości $3\\text{ m}$ nachylonej pod kątem $30^\\circ$. Startuje ze spoczynku. Korzystając z $I = \\frac{1}{2}mR^2$, oblicz przyspieszenie środka, czas zjazdu i prędkość na dole.</p>",
+                "solution": {
+                  "givens": "$s = 3\\text{ m}$, $\\alpha = 30^\\circ$, $I = \\frac{1}{2}mR^2$, $g = 10\\text{ m/s}^2$.",
+                  "steps": [
+                    {
+                      "title": "Przyspieszenie liniowe toczącego się walca",
+                      "content": "Z równań dynamiki toczenia bez poślizgu:\n$$a = \\frac{g \\sin\\alpha}{1 + \\frac{I}{mR^2}} = \\frac{10 \\cdot \\sin 30^\\circ}{1 + \\frac{1}{2}} = \\frac{5}{\\frac{3}{2}} = \\frac{10}{3}\\text{ m/s}^2 \\approx 3{,}33\\text{ m/s}^2$$"
+                    },
+                    {
+                      "title": "Czas zjazdu z równi",
+                      "content": "Walec rusza ze spoczynku ($s = \\frac{a t^2}{2}$):\n$$t = \\sqrt{\\frac{2s}{a}} = \\sqrt{\\frac{2 \\cdot 3\\text{ m}}{\\frac{10}{3}\\text{ m/s}^2}} = \\sqrt{\\frac{18}{10}} = \\sqrt{1{,}8}\\text{ s} \\approx 1{,}34\\text{ s}$$"
+                    },
+                    {
+                      "title": "Prędkość na dole równi",
+                      "content": "Prędkość końcowa w ruchu jednostajnie przyspieszonym:\n$$v = \\sqrt{2as} = \\sqrt{2 \\cdot \\frac{10}{3} \\cdot 3} = \\sqrt{20}\\text{ m/s} \\approx 4{,}47\\text{ m/s}$$"
+                    }
+                  ],
+                  "numerical": "$a = \\frac{10}{3}\\text{ m/s}^2 \\approx 3{,}33\\text{ m/s}^2$, $t = \\sqrt{1{,}8}\\text{ s} \\approx 1{,}34\\text{ s}$, $v = \\sqrt{20}\\text{ m/s} \\approx 4{,}47\\text{ m/s}$",
+                  "answer": "Przyspieszenie walca wynosi $\\frac{10}{3}\\text{ m/s}^2 \\approx 3{,}33\\text{ m/s}^2$, czas zjazdu ok. $1{,}34\\text{ s}$, a prędkość na dole równi $\\sqrt{20}\\text{ m/s} \\approx 4{,}47\\text{ m/s}$."
+                }
+              },
+              {
+                "id": "b-zad-34",
+                "number": 34,
+                "title": "Zadanie 34. Wjazd walca na równię i rola tarcia statycznego",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zasada zachowania energii",
+                  "Tarcie statyczne",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodny walec toczy się bez poślizgu po poziomie z prędkością $4\\text{ m/s}$, a następnie wjeżdża na równię. Przyjmij $I = \\frac{1}{2}mR^2$ i pomiń straty. Oblicz maksymalną wysokość, na którą wjedzie środek walca. Wyjaśnij, dlaczego tarcie statyczne nie zmniejsza energii mechanicznej.</p>",
+                "solution": {
+                  "givens": "$v = 4\\text{ m/s}$, $I = \\frac{1}{2}mR^2$, brak poślizgu.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie maksymalnej wysokości z bilansu energii",
+                      "content": "Początkowa całkowita energia kinetyczna walca wynosi:\n$$E_k = \\frac{1}{2}mv^2 + \\frac{1}{4}mv^2 = \\frac{3}{4}mv^2$$\nNa maksymalnej wysokości walec na ułamek sekundy zatrzymuje się ($v = \\omega = 0$):\n$$mgh = \\frac{3}{4}mv^2 \\implies h = \\frac{3v^2}{4g}$$\n$$h = \\frac{3 \\cdot 4^2}{4 \\cdot 10} = \\frac{48}{40} = 1{,}2\\text{ m}$$"
+                    },
+                    {
+                      "title": "Wyjaśnienie roli siły tarcia statycznego",
+                      "content": "W toczeniu bez poślizgu punkt styku koła z podłożem w każdej chwili czasu ma zerową prędkość chwilową względem podłoża. Przemieszczenie punktu przyłożenia siły wynosi w każdej chwili zero, zatem praca elementarna siły tarcia statycznego $dW = \\vec{F}_s \\cdot d\\vec{r} = 0$. Tarcie statyczne jedynie sprzęga ruch postępowy z obrotowym, nie powodując rozpraszania energii mechanicznej na ciepło."
+                    }
+                  ],
+                  "numerical": "$h = 1{,}2\\text{ m}$",
+                  "answer": "Maksymalna wysokość wynosi $1{,}2\\text{ m}$. Tarcie statyczne nie zmniejsza energii mechanicznej, ponieważ prędkość chwilowa punktu przyłożenia tej siły wynosi zero (brak poślizgu), więc siła tarcia statycznego nie wykonuje pracy."
+                }
+              }
+            ]
+          },
+          {
+            "id": "sub-bryla-moment-pedu",
+            "number": 4,
+            "icon": "🌀",
+            "title": "4. Moment pędu",
+            "shortTitle": "Moment pędu",
+            "desc": "Moment pędu bryły, związek z prędkością kątową oraz zasada zachowania momentu pędu.",
+            "formulaCheat": "$L=Iomega$ &nbsp; $Delta L=MDelta t$ &nbsp; $L=mathrm{const}$, gdy $M_{zew}=0$",
+            "theory": "<div class=\"theory-section\">\n  <div class=\"theory-subtitle\">1. Definicja momentu pędu ($\\vec{L}$)</div>\n  <p>Moment pędu jest miarą ilości ruchu obrotowego bryły sztywnej wokół osi (obrotowy odpowiednik pędu liniowego $\\vec{p} = m\\vec{v}$):</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$\\vec{L} = I \\vec{\\omega} \\implies L = I \\omega$$</div>\n  <ul class=\"theory-list\">\n    <li><strong>Dla punktu materialnego:</strong> $\\vec{L} = \\vec{r} \\times \\vec{p} \\implies L = m v r \\sin\\alpha$. Dla toru kołowego ($r \\perp v$): $L = mvr$.</li>\n    <li>Wektor $\\vec{L}$ leży na osi obrotu i ma taki sam zwrot jak wektor prędkości kątowej $\\vec{\\omega}$ (wyznaczany <strong>regułą prawej dłoni</strong>: zgięte palce wskazują obrót, odgięty kciuk wskazuje $\\vec{L}$).</li>\n    <li>Jednostka w układzie SI: $[L] = \\text{kg} \\cdot \\text{m}^2/\\text{s} = \\text{J} \\cdot \\text{s} = \\text{N} \\cdot \\text{m} \\cdot \\text{s}$.</li>\n    <li><strong>Związek z momentem siły (uogólniona II zasada dynamiki):</strong>\n    <div style=\"text-align:center;margin:4px 0;\">$$M_{\\text{wyp}} = \\frac{\\Delta L}{\\Delta t}$$</div>\n    Moment siły jest szybkością zmiany momentu pędu.</li>\n  </ul>\n\n<figure class=\"theory-figure\"><img class=\"theory-diagram\" src=\"img/theory/rigid/angular-momentum-created.svg\" alt=\"Moment pędu i prawa dłoń\"></figure>\n\n  <div class=\"theory-subtitle\">2. Zasada Zachowania Momentu Pędu (ZZMP)</div>\n  <p>Gdy na układ ciał nie działają zewnętrzne momenty sił lub ich suma wektorowa jest równa zero ($M_{\\text{zewn,wyp}} = 0$):</p>\n  <div style=\"text-align:center;margin:6px 0;\">$$\\vec{L}_{\\text{całk}} = \\text{const} \\iff I_1 \\omega_1 = I_2 \\omega_2$$</div>\n\n  <div class=\"theory-subtitle\">3. Zjawisko piruetu (efekt łyżwiarza)</div>\n  <p>Gdy łyżwiarz przyciąga rozłożone ramiona do osi obrotu:</p>\n  <ul class=\"theory-list\">\n    <li>Masa przybliża się do osi $\\implies$ <strong>moment bezwładności maleje</strong> ($I_2 < I_1$).</li>\n    <li>Z Zasady Zachowania Momentu Pędu ($I_1 \\omega_1 = I_2 \\omega_2$) wynika, że <strong>prędkość kątowa rośnie</strong>:\n    <div style=\"text-align:center;margin:4px 0;\">$$\\omega_2 = \\frac{I_1}{I_2} \\omega_1 > \\omega_1$$</div></li>\n    <li><strong>Bilans energii kinetycznej:</strong> zapisując energię obrotową przez moment pędu:\n    <div style=\"text-align:center;margin:4px 0;\">$$E_k = \\frac{1}{2}I\\omega^2 = \\frac{L^2}{2I}$$</div>\n    Ponieważ $I$ zmalało, a $L = \\text{const}$, energia kinetyczna <strong>rośnie</strong> ($E_{k2} > E_{k1}$) kosztem pracy wykonanej przez mięśnie łyżwiarza przyciągające ramiona ($W_{\\text{mięśni}} = \\Delta E_k > 0$).</li>\n  </ul>\n\n<figure class=\"theory-figure\"><img class=\"theory-diagram\" src=\"img/theory/rigid/skater-created.svg\" alt=\"Piruet łyżwiarza\"></figure>\n\n  <div class=\"theory-subtitle\">4. Zderzenia i oddziaływania z obracającą się bryłą</div>\n  <p>Gdy punkt materialny (np. pocisk) o masie $m$ poruszający się z prędkością $v$ wbija się w spoczywający pręt w odległości $r$ od osi obrotu:</p>\n  <ul class=\"theory-list\">\n    <li>Początkowy moment pędu układu względem osi obrotu: $L_{\\text{pocz}} = mvr$.</li>\n    <li>Końcowy moment bezwładności po wbiciu pocisku: $I_{\\text{końc}} = I_{\\text{pręta}} + mr^2$.</li>\n    <li>Z Zasady Zachowania Momentu Pędu wyznaczamy prędkość kątową układu:\n    <div style=\"text-align:center;margin:4px 0;\">$$mvr = (I_{\\text{pręta}} + mr^2)\\omega \\implies \\omega = \\frac{mvr}{I_{\\text{pręta}} + mr^2}$$</div></li>\n  </ul>\n</div>",
+            "tasks": [
+              {
+                "id": "b-zad-35",
+                "number": 35,
+                "title": "Zadanie 35. Kierunek i zwrot wektora momentu pędu",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment pędu",
+                  "Reguła prawej dłoni",
+                  "Zadanie zamknięte"
+                ],
+                "correctOption": "B",
+                "problem": "<p class=\"problem-paragraph\">Tarcza obraca się zgodnie z ruchem wskazówek zegara, gdy patrzymy na nią z przodu. Wektor momentu pędu jest skierowany:</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">do obserwatora</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">od obserwatora, w głąb kartki</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">w prawo</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">stycznie do obwodu</span></div>\n</div>",
+                "solution": {
+                  "givens": "Obrót tarczy zgodnie z ruchem wskazówek zegara (patrząc z przodu).",
+                  "steps": [
+                    {
+                      "title": "Zastosowanie reguły prawej dłoni",
+                      "content": "Wektor momentu pędu $\\vec{L} = I\\vec{\\omega}$ ma kierunek osi obrotu (jest prostopadły do płaszczyzny tarczy). Zgodnie z regułą prawej dłoni: gdy ugięte palce prawej dłoni wskazują zwrot obrotu (zgodny z ruchem wskazówek zegara), odgięty kciuk wskazuje zwrot od obserwatora w głąb kartki."
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: B (od obserwatora, w głąb kartki).",
+                  "trap": "Wektor momentu pędu jest prostopadły do płaszczyzny ruchu – nie jest skierowany stycznie ani w prawo."
+                }
+              },
+              {
+                "id": "b-zad-36",
+                "number": 36,
+                "title": "Zadanie 36. Wartość momentu pędu obracającej się bryły",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment pędu",
+                  "Definicja L = I·ω"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Bryła o momencie bezwładności $0{,}50\\text{ kg}\\cdot\\text{m}^2$ obraca się z prędkością $12\\text{ rad/s}$. Oblicz wartość jej momentu pędu.</p>",
+                "solution": {
+                  "givens": "$I = 0{,}50\\text{ kg}\\cdot\\text{m}^2$, $\\omega = 12\\text{ rad/s}$.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie wartości momentu pędu",
+                      "content": "Stosujemy definicję momentu pędu dla bryły obracającej się wokół osi symetrii:\n$$L = I \\omega = 0{,}50\\text{ kg}\\cdot\\text{m}^2 \\cdot 12\\text{ rad/s} = 6\\text{ kg}\\cdot\\text{m}^2/\\text{s}$$"
+                    }
+                  ],
+                  "numerical": "$L = 6\\text{ kg}\\cdot\\text{m}^2/\\text{s}$",
+                  "answer": "Wartość momentu pędu bryły wynosi $6\\text{ kg}\\cdot\\text{m}^2/\\text{s}$."
+                }
+              },
+              {
+                "id": "b-zad-37",
+                "number": 37,
+                "title": "Zadanie 37. Równość momentów pędu dla różnych momentów bezwładności",
+                "difficulty": 1,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Moment pędu",
+                  "Zadanie zamknięte",
+                  "Prędkość kątowa"
+                ],
+                "correctOption": "C",
+                "problem": "<p class=\"problem-paragraph\">Dwie bryły mają momenty bezwładności $I_2 = 2I_1$. Aby ich momenty pędu były równe, prędkości kątowe muszą spełniać:</p>\n<div class=\"problem-options-list\" data-correct=\"C\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$\\omega_2 = 2\\omega_1$</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$\\omega_2 = \\omega_1$</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$\\omega_2 = \\frac{1}{2}\\omega_1$</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$\\omega_2 = \\frac{1}{4}\\omega_1$</span></div>\n</div>",
+                "solution": {
+                  "givens": "$I_2 = 2I_1$, $L_1 = L_2$.",
+                  "steps": [
+                    {
+                      "title": "Porównanie iloczynów $I\\omega$",
+                      "content": "Warunek równości momentów pędu:\n$$L_1 = L_2 \\implies I_1 \\omega_1 = I_2 \\omega_2$$\nPodstawiając $I_2 = 2I_1$:\n$$I_1 \\omega_1 = 2I_1 \\omega_2 \\implies \\omega_2 = \\frac{1}{2}\\omega_1$$"
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: C ($\\omega_2 = \\frac{1}{2}\\omega_1$).",
+                  "trap": "Bryła o dwukrotnie większym momencie bezwładności musi obracać się dwa razy wolniej, aby mieć taki sam moment pędu."
+                }
+              },
+              {
+                "id": "b-zad-38",
+                "number": 38,
+                "title": "Zadanie 38. Impuls momentu siły i zmiana momentu pędu",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Impuls momentu siły",
+                  "Zmiana momentu pędu"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Na wirnik przez $2\\text{ s}$ działa stały moment siły $5\\text{ N}\\cdot\\text{m}$, zgodny z jego obrotem. Początkowy moment pędu wirnika wynosi $4\\text{ kg}\\cdot\\text{m}^2/\\text{s}$, a $I = 2\\text{ kg}\\cdot\\text{m}^2$. Oblicz końcowy moment pędu i prędkość kątową.</p>",
+                "solution": {
+                  "givens": "$\\Delta t = 2\\text{ s}$, $M = 5\\text{ N}\\cdot\\text{m}$, $L_0 = 4\\text{ kg}\\cdot\\text{m}^2/\\text{s}$, $I = 2\\text{ kg}\\cdot\\text{m}^2$.",
+                  "steps": [
+                    {
+                      "title": "Obliczenie impulsu momentu siły",
+                      "content": "Impuls momentu siły równy jest przyrostowi momentu pędu:\n$$\\Delta L = M \\cdot \\Delta t = 5\\text{ N}\\cdot\\text{m} \\cdot 2\\text{ s} = 10\\text{ kg}\\cdot\\text{m}^2/\\text{s}$$"
+                    },
+                    {
+                      "title": "Wyznaczenie końcowego momentu pędu i prędkości kątowej",
+                      "content": "Końcowy moment pędu:\n$$L_k = L_0 + \\Delta L = 4 + 10 = 14\\text{ kg}\\cdot\\text{m}^2/\\text{s}$$\nKońcowa prędkość kątowa:\n$$\\omega_k = \\frac{L_k}{I} = \\frac{14\\text{ kg}\\cdot\\text{m}^2/\\text{s}}{2\\text{ kg}\\cdot\\text{m}^2} = 7\\text{ rad/s}$$"
+                    }
+                  ],
+                  "numerical": "$L_k = 14\\text{ kg}\\cdot\\text{m}^2/\\text{s}$, $\\omega_k = 7\\text{ rad/s}$",
+                  "answer": "Końcowy moment pędu wynosi $14\\text{ kg}\\cdot\\text{m}^2/\\text{s}$, a prędkość kątowa wynosi $7\\text{ rad/s}$."
+                }
+              },
+              {
+                "id": "b-zad-39",
+                "number": 39,
+                "title": "Zadanie 39. Efekt łyżwiarza i zmiana energii kinetycznej",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zachowanie momentu pędu",
+                  "Efekt łyżwiarza",
+                  "Zadanie zamknięte"
+                ],
+                "correctOption": "B",
+                "problem": "<p class=\"problem-paragraph\">Łyżwiarz zmniejsza swój moment bezwładności trzykrotnie, a zewnętrzny moment siły jest pomijalny. Wskaż poprawne stwierdzenie.</p>\n<div class=\"problem-options-list\" data-correct=\"B\">\n  <div class=\"problem-option-item\" data-option=\"A\"><span class=\"problem-option-letter\">A</span><span class=\"problem-option-text\">$\\omega$ maleje trzykrotnie, a energia jest stała</span></div>\n  <div class=\"problem-option-item\" data-option=\"B\"><span class=\"problem-option-letter\">B</span><span class=\"problem-option-text\">$\\omega$ rośnie trzykrotnie, a energia rośnie trzykrotnie</span></div>\n  <div class=\"problem-option-item\" data-option=\"C\"><span class=\"problem-option-letter\">C</span><span class=\"problem-option-text\">$\\omega$ rośnie dziewięciokrotnie, a energia jest stała</span></div>\n  <div class=\"problem-option-item\" data-option=\"D\"><span class=\"problem-option-letter\">D</span><span class=\"problem-option-text\">$\\omega$ jest stała, a energia maleje trzykrotnie</span></div>\n</div>",
+                "solution": {
+                  "givens": "$I_k = \\frac{1}{3}I_p$, brak zewnętrznych momentów sił ($M_{\\text{zew}} = 0$).",
+                  "steps": [
+                    {
+                      "title": "Zasada zachowania momentu pędu",
+                      "content": "W układzie izolowanym $L = \\text{const}$:\n$$I_p \\omega_p = I_k \\omega_k \\implies I_p \\omega_p = \\left(\\frac{1}{3}I_p\\right) \\omega_k \\implies \\omega_k = 3\\omega_p$$\nPrędkość kątowa rośnie trzykrotnie."
+                    },
+                    {
+                      "title": "Zmiana energii kinetycznej ruchu obrotowego",
+                      "content": "Energię kinetyczną wyrażamy przez zachowany moment pędu $L$:\n$$E_k = \\frac{L^2}{2I}$$\nGdy $I$ maleje 3-krotnie, mianownik maleje 3-krotnie, więc energia wzrasta trzykrotnie:\n$$E'_k = 3E_k$$\nEnergię tę dostarczają mięśnie łyżwiarza wykonujące pracę przy przyciąganiu ramion do tułowia wbrew sile odśrodkowej bezwładności."
+                    }
+                  ],
+                  "answer": "Poprawna odpowiedź: B ($\\omega$ rośnie trzykrotnie, a energia rośnie trzykrotnie).",
+                  "trap": "Energia kinetyczna nie jest zachowana, ponieważ mięśnie wykonują dodatnią pracę wewnętrzną, która zamienia się na energię kinetyczną obrotu."
+                }
+              },
+              {
+                "id": "b-zad-40",
+                "number": 40,
+                "title": "Zadanie 40. Ruch osoby po obracającej się platformie",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zachowanie momentu pędu",
+                  "Platforma obrotowa",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Jednorodna platforma o masie $100\\text{ kg}$ i promieniu $2\\text{ m}$ obraca się z prędkością $2\\text{ rad/s}$. Osoba o masie $50\\text{ kg}$ stoi początkowo w środku, po czym przechodzi na brzeg. Przyjmij $I_p = \\frac{1}{2}MR^2$ i osobę traktuj jako masę punktową. Oblicz końcową prędkość kątową.</p>",
+                "solution": {
+                  "givens": "$M = 100\\text{ kg}$, $R = 2\\text{ m}$, $\\omega_0 = 2\\text{ rad/s}$, $m = 50\\text{ kg}$.",
+                  "steps": [
+                    {
+                      "title": "Początkowy moment bezwładności układu",
+                      "content": "Platforma ma moment bezwładności:\n$$I_p = \\frac{1}{2}MR^2 = \\frac{1}{2} \\cdot 100 \\cdot 2^2 = 200\\text{ kg}\\cdot\\text{m}^2$$\nOsoba początkowo stoi dokładnie w osi obrotu ($r = 0$), więc jej wkład wynosi zero:\n$$I_1 = I_p = 200\\text{ kg}\\cdot\\text{m}^2$$"
+                    },
+                    {
+                      "title": "Końcowy moment bezwładności po przejściu na brzeg",
+                      "content": "Gdy osoba staje na brzegu platformy ($r = R = 2\\text{ m}$), jej moment bezwładności wynosi:\n$$I_{\\text{osoba}} = m R^2 = 50\\text{ kg} \\cdot (2\\text{ m})^2 = 200\\text{ kg}\\cdot\\text{m}^2$$\nCałkowity końcowy moment bezwładności układu:\n$$I_2 = I_p + I_{\\text{osoba}} = 200 + 200 = 400\\text{ kg}\\cdot\\text{m}^2$$"
+                    },
+                    {
+                      "title": "Końcowa prędkość kątowa z zasady zachowania momentu pędu",
+                      "content": "Wobec braku zewnętrznych momentów sił:\n$$I_1 \\omega_0 = I_2 \\omega_k \\implies 200 \\cdot 2 = 400 \\cdot \\omega_k \\implies \\omega_k = \\frac{400}{400} = 1\\text{ rad/s}$$"
+                    }
+                  ],
+                  "numerical": "$\\omega_k = 1\\text{ rad/s}$",
+                  "answer": "Końcowa prędkość kątowa platformy wynosi $1\\text{ rad/s}$."
+                }
+              },
+              {
+                "id": "b-zad-41",
+                "number": 41,
+                "title": "Zadanie 41. Przesuwanie ciężarków na obracającym się pręcie",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zachowanie momentu pędu",
+                  "Masy na pręcie"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Dwie masy punktowe po $2\\text{ kg}$ obracają się na lekkim pręcie w odległości $0{,}50\\text{ m}$ od osi z prędkością $4\\text{ rad/s}$. Następnie obie przesuwają się do odległości $1{,}0\\text{ m}$. Oblicz nową prędkość kątową, jeżeli zewnętrzny moment siły jest pomijalny.</p>",
+                "solution": {
+                  "givens": "$m = 2\\text{ kg}$ (każda masa), $r_1 = 0{,}50\\text{ m}$, $r_2 = 1{,}0\\text{ m}$, $\\omega_1 = 4\\text{ rad/s}$.",
+                  "steps": [
+                    {
+                      "title": "Początkowy i końcowy moment bezwładności układu",
+                      "content": "Pomijamy masę pręta:\n$$I_1 = 2 \\cdot m r_1^2 = 2 \\cdot 2\\text{ kg} \\cdot (0{,}50\\text{ m})^2 = 4 \\cdot 0{,}25 = 1\\text{ kg}\\cdot\\text{m}^2$$\nPo odsunięciu mas na odległość $r_2 = 1{,}0\\text{ m}$:\n$$I_2 = 2 \\cdot m r_2^2 = 2 \\cdot 2\\text{ kg} \\cdot (1{,}0\\text{ m})^2 = 4\\text{ kg}\\cdot\\text{m}^2$$"
+                    },
+                    {
+                      "title": "Wyznaczenie nowej prędkości kątowej",
+                      "content": "Z zasady zachowania momentu pędu:\n$$I_1 \\omega_1 = I_2 \\omega_2 \\implies 1 \\cdot 4 = 4 \\cdot \\omega_2 \\implies \\omega_2 = 1\\text{ rad/s}$$"
+                    }
+                  ],
+                  "numerical": "$\\omega_2 = 1\\text{ rad/s}$",
+                  "answer": "Nowa prędkość kątowa wynosi $1\\text{ rad/s}$."
+                }
+              },
+              {
+                "id": "b-zad-42",
+                "number": 42,
+                "title": "Zadanie 42. Niesprężyste zderzenie pocisku z obracającym się prętem",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zderzenie obrotowe",
+                  "Zachowanie momentu pędu",
+                  "Ubytek energii",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Pocisk o masie $0{,}020\\text{ kg}$ leci z prędkością $200\\text{ m/s}$ prostopadle do cienkiego pręta o masie $1{,}2\\text{ kg}$ i długości $1{,}0\\text{ m}$. Pręt może obracać się wokół osi przechodzącej przez środek. Pocisk trafia w koniec pręta i w nim pozostaje. Przyjmij $I_p = \\frac{1}{12}Ml^2$. Oblicz prędkość kątową układu tuż po zderzeniu oraz ubytek energii kinetycznej.</p>",
+                "solution": {
+                  "givens": "$m = 0{,}020\\text{ kg}$, $v = 200\\text{ m/s}$, $M = 1{,}2\\text{ kg}$, $l = 1{,}0\\text{ m}$, ramię uderzenia $r = \\frac{l}{2} = 0{,}50\\text{ m}$.",
+                  "steps": [
+                    {
+                      "title": "Początkowy moment pędu układu",
+                      "content": "Pręt początkowo spoczywa. Pocisk lecący prostopadle w odległości $r = 0{,}50\\text{ m}$ od osi ma moment pędu:\n$$L_1 = m v r = 0{,}020\\text{ kg} \\cdot 200\\text{ m/s} \\cdot 0{,}50\\text{ m} = 2\\text{ kg}\\cdot\\text{m}^2/\\text{s}$$"
+                    },
+                    {
+                      "title": "Moment bezwładności pręta z pociskiem",
+                      "content": "Moment pręta względem osi przez środek:\n$$I_{\\text{pręt}} = \\frac{1}{12} M l^2 = \\frac{1}{12} \\cdot 1{,}2 \\cdot 1^2 = 0{,}10\\text{ kg}\\cdot\\text{m}^2$$\nMoment pocisku tkwiącego w końcu pręta:\n$$I_{\\text{pocisk}} = m r^2 = 0{,}020 \\cdot (0{,}50)^2 = 0{,}005\\text{ kg}\\cdot\\text{m}^2$$\nCałkowity moment bezwładności:\n$$I = I_{\\text{pręt}} + I_{\\text{pocisk}} = 0{,}10 + 0{,}005 = 0{,}105\\text{ kg}\\cdot\\text{m}^2$$"
+                    },
+                    {
+                      "title": "Prędkość kątowa tuż po zderzeniu",
+                      "content": "Z zasady zachowania momentu pędu:\n$$L_1 = I \\omega \\implies \\omega = \\frac{2}{0{,}105} = \\frac{2000}{105} = \\frac{400}{21}\\text{ rad/s} \\approx 19{,}05\\text{ rad/s}$$"
+                    },
+                    {
+                      "title": "Bilans energii i ubytek",
+                      "content": "Początkowa energia kinetyczna pocisku:\n$$E_1 = \\frac{1}{2}mv^2 = \\frac{1}{2} \\cdot 0{,}020 \\cdot 200^2 = 400\\text{ J}$$\nKońcowa energia kinetyczna układu po zderzeniu:\n$$E_2 = \\frac{L_1^2}{2I} = \\frac{2^2}{2 \\cdot 0{,}105} = \\frac{4}{0{,}21} \\approx 19{,}05\\text{ J}$$\nUbytek energii kinetycznej:\n$$\\Delta E = E_1 - E_2 = 400 - 19{,}05 \\approx 380{,}95\\text{ J} \\approx 381\\text{ J}$$"
+                    }
+                  ],
+                  "numerical": "$\\omega \\approx 19{,}0\\text{ rad/s}$, $\\Delta E \\approx 381\\text{ J}$",
+                  "answer": "Prędkość kątowa tuż po zderzeniu wynosi $\\frac{400}{21}\\text{ rad/s} \\approx 19{,}0\\text{ rad/s}$, a ubytek energii kinetycznej wynosi ok. $381\\text{ J}$."
+                }
+              },
+              {
+                "id": "b-zad-43",
+                "number": 43,
+                "title": "Zadanie 43. Plastelina spadająca pionowo na obracającą się tarczę",
+                "difficulty": 2,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Zachowanie momentu pędu",
+                  "Zderzenie niesprężyste",
+                  "Ubytek energii"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Tarcza o momencie bezwładności $0{,}40\\text{ kg}\\cdot\\text{m}^2$ obraca się z prędkością $10\\text{ rad/s}$. Na jej brzegu, w odległości $0{,}50\\text{ m}$ od osi, spada pionowo mały kawałek plasteliny o masie $0{,}20\\text{ kg}$ i przykleja się. Początkowy moment pędu plasteliny względem osi jest zerowy. Oblicz końcową prędkość kątową i ubytek energii kinetycznej.</p>",
+                "solution": {
+                  "givens": "$I_0 = 0{,}40\\text{ kg}\\cdot\\text{m}^2$, $\\omega_0 = 10\\text{ rad/s}$, $m = 0{,}20\\text{ kg}$, $r = 0{,}50\\text{ m}$.",
+                  "steps": [
+                    {
+                      "title": "Początkowy moment pędu tarczy",
+                      "content": "Plastelina spada pionowo, więc nie wnosi momentu pędu względem pionowej osi obrotu:\n$$L_1 = I_0 \\omega_0 = 0{,}40 \\cdot 10 = 4\\text{ kg}\\cdot\\text{m}^2/\\text{s}$$"
+                    },
+                    {
+                      "title": "Końcowy moment bezwładności i prędkość kątowa",
+                      "content": "Po przyklejeniu plasteliny moment bezwładności rośnie o $m r^2$:\n$$I_k = I_0 + m r^2 = 0{,}40 + 0{,}20 \\cdot (0{,}50)^2 = 0{,}40 + 0{,}05 = 0{,}45\\text{ kg}\\cdot\\text{m}^2$$\nZ zasady zachowania momentu pędu:\n$$\\omega_k = \\frac{L_1}{I_k} = \\frac{4}{0{,}45} = \\frac{400}{45} = \\frac{80}{9}\\text{ rad/s} \\approx 8{,}89\\text{ rad/s}$$"
+                    },
+                    {
+                      "title": "Ubytek energii kinetycznej",
+                      "content": "Początkowa energia kinetyczna:\n$$E_1 = \\frac{1}{2}I_0 \\omega_0^2 = \\frac{1}{2} \\cdot 0{,}40 \\cdot 100 = 20\\text{ J}$$\nKońcowa energia kinetyczna:\n$$E_2 = \\frac{L_1^2}{2 I_k} = \\frac{16}{2 \\cdot 0{,}45} = \\frac{16}{0{,}90} \\approx 17{,}78\\text{ J}$$\nUbytek energii kinetycznej wynosi:\n$$\\Delta E = E_1 - E_2 = 20 - 17{,}78 \\approx 2{,}22\\text{ J}$$"
+                    }
+                  ],
+                  "numerical": "$\\omega_k = \\frac{80}{9}\\text{ rad/s} \\approx 8{,}89\\text{ rad/s}$, $\\Delta E \\approx 2{,}22\\text{ J}$",
+                  "answer": "Końcowa prędkość kątowa wynosi $\\frac{80}{9}\\text{ rad/s} \\approx 8{,}89\\text{ rad/s}$, a ubytek energii wynosi ok. $2{,}22\\text{ J}$."
+                }
+              },
+              {
+                "id": "b-zad-44",
+                "number": 44,
+                "title": "Zadanie 44. Sprzęgło tarczowe i rozproszenie energii",
+                "difficulty": 3,
+                "source": "Zbiór autorski Matura 2027 • Bryła sztywna",
+                "tags": [
+                  "Sprzęgło tarczowe",
+                  "Zachowanie momentu pędu",
+                  "Rozproszenie energii",
+                  "Styl maturalny"
+                ],
+                "problem": "<p class=\"problem-paragraph\">Dwie współosiowe tarcze mogą obracać się niezależnie. Pierwsza ma $I_1 = 0{,}20\\text{ kg}\\cdot\\text{m}^2$ i $\\omega_1 = 20\\text{ rad/s}$, druga ma $I_2 = 0{,}30\\text{ kg}\\cdot\\text{m}^2$ i spoczywa. Tarcze zostają dociśnięte i obracają się wspólnie. Oblicz wspólną prędkość kątową, ubytek energii kinetycznej i procent początkowej energii, który został rozproszony.</p>",
+                "solution": {
+                  "givens": "$I_1 = 0{,}20\\text{ kg}\\cdot\\text{m}^2$, $\\omega_1 = 20\\text{ rad/s}$, $I_2 = 0{,}30\\text{ kg}\\cdot\\text{m}^2$, $\\omega_2 = 0$.",
+                  "steps": [
+                    {
+                      "title": "Wyznaczenie wspólnej prędkości kątowej",
+                      "content": "Z zasady zachowania momentu pędu dla układu dwóch tarcz:\n$$I_1 \\omega_1 = (I_1 + I_2)\\omega_k$$\n$$0{,}20 \\cdot 20 = (0{,}20 + 0{,}30)\\omega_k \\implies 4 = 0{,}50 \\omega_k \\implies \\omega_k = 8\\text{ rad/s}$$"
+                    },
+                    {
+                      "title": "Bilans energii początkowej i końcowej",
+                      "content": "Energia początkowa:\n$$E_1 = \\frac{1}{2}I_1 \\omega_1^2 = \\frac{1}{2} \\cdot 0{,}20 \\cdot 20^2 = 0{,}10 \\cdot 400 = 40\\text{ J}$$\nEnergia końcowa po wyrównaniu prędkości:\n$$E_2 = \\frac{1}{2}(I_1 + I_2)\\omega_k^2 = \\frac{1}{2} \\cdot 0{,}50 \\cdot 8^2 = 0{,}25 \\cdot 64 = 16\\text{ J}$$\nUbytek energii kinetycznej:\n$$\\Delta E = E_1 - E_2 = 40\\text{ J} - 16\\text{ J} = 24\\text{ J}$$"
+                    },
+                    {
+                      "title": "Procent rozproszonej energii",
+                      "content": "Procent utraconej energii kinetycznej wynosi:\n$$\\frac{\\Delta E}{E_1} \\cdot 100\\% = \\frac{24\\text{ J}}{40\\text{ J}} \\cdot 100\\% = 60\\%$$"
+                    }
+                  ],
+                  "numerical": "$\\omega_k = 8\\text{ rad/s}$, $\\Delta E = 24\\text{ J}$ ($60\\%$)",
+                  "answer": "Wspólna prędkość kątowa wynosi $8\\text{ rad/s}$, ubytek energii wynosi $24\\text{ J}$, a rozproszeniu uległo $60\\%$ początkowej energii układu."
+                }
+              }
+            ]
+          },
+          {
+            "id": "sub-bryla-matura",
+            "title": "5. Zadania maturalne CKE — bryła sztywna",
+            "shortTitle": "Matura CKE",
+            "number": 5,
+            "icon": "🔄",
+            "desc": "Nowa formuła: arkusze CKE z lat 2023–2026, arkusz pokazowy oraz informatory 2025 i 2023. Arkusze są ułożone od najnowszych do najstarszych, a następnie informatory.",
             "formulaCheat": "M = I \\epsilon \\qquad I = \\sum m_i r_i^2 \\qquad L = I \\omega \\qquad E_{obr} = \\frac{I \\omega^2}{2} \\qquad v = \\omega R",
             "tasks": [
               {
@@ -7544,32 +8698,33 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 4.</h4><p>Bryła sztywna $\\mathcal B$ składa się z cienkiej obręczy o masie $M$ i o promieniu $R$ oraz z dwóch jednakowych, cienkich prętów: każdy o długości $l_{pręt}=2R$ i o masie $m_{pręt}=\\frac M2$ (zobacz rysunek poniżej).</p><p>Początkowo bryła $\\mathcal B$ toczy się po poziomym odcinku $XY$ drogi tak, że prędkość środka masy $O$ bryły jest stała, a jej wartość jest równa $v_{\\mathcal B}=1{,}4\\text{ m/s}$.</p><p>Od punktu $Y$ bryła $\\mathcal B$ zaczyna wtaczać się na odcinek drogi nachylony do poziomu, a wartość prędkości środka masy $O$ bryły zaczyna maleć.</p><p>Przyjmij, że:</p><ul><li>bryła toczy się cały czas <u>bez poślizgu</u></li><li>obręcz i pręty są jednorodne</li><li>punkty $P_1$ i $P_2$ na rysunku to punkty bryły, które w danej chwili stykają się z podłożem</li><li>poziomy odcinek drogi $XY$ łączy się łukiem z odcinkiem równi pochyłej (zobacz rysunek)</li><li>przyśpieszenie ziemskie ma wartość $g=9{,}8\\text{ m/s}^2$</li><li>opory powietrza nie występują.</li></ul><p>Na poniższym rysunku przedstawiono położenia bryły w dwóch wybranych chwilach ruchu.</p><div class=\"chart-container-svg\"><img src=\"img/energy/2026-czerwiec-z4-rysunek.png\" alt=\"Bryła B tocząca się po poziomie i równi\" class=\"theory-img\" style=\"max-height:500px;display:block;margin:15px auto;\"></div><p>W tabeli poniżej podano wzory na momenty bezwładności niektórych brył względem opisanych osi obrotu.</p><div class=\"energy-table-scroll\"><table class=\"energy-data-table\"><thead><tr><th>Bryła</th><th>Oś</th><th>Moment bezwładności</th></tr></thead><tbody><tr><td>Pręt o długości $l_{pręt}$ i o masie $m_{pręt}$</td><td>Oś prostopadła do pręta, przechodząca przez jego środek</td><td>$I_{0\\ pręt}=\\frac1{12}m_{pręt}l_{pręt}^2$</td></tr><tr><td>Obręcz o promieniu $R$ i o masie $M$</td><td>Oś prostopadła do płaszczyzny obręczy, przechodząca przez jej środek</td><td>$I_{0\\ obręcz}=MR^2$</td></tr><tr><td>Bryła $\\mathcal B$ (złożona z obręczy i prętów)</td><td>Oś prostopadła do bryły (czyli do płaszczyzny obręczy), przechodząca przez jej środek masy $O$ (oś $O$)</td><td>$I_{0\\mathcal B}=\\frac43MR^2$</td></tr></tbody></table></div><h4>Zadanie 4.1. (0–1)</h4><p><strong>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</strong></p><p>W punkcie $P_1$ siła tarcia</p><p><strong>A.</strong> nie działa.</p><p><strong>B.</strong> zależy od prędkości.</p><p><strong>C.</strong> jest zwrócona w lewo (←).</p><p><strong>D.</strong> jest zwrócona w prawo (→).</p><h4>Zadanie 4.2. (0–1)</h4><p><strong>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</strong></p><p>W punkcie $P_2$ siła tarcia</p><p><strong>A.</strong> nie działa.</p><p><strong>B.</strong> zależy od prędkości.</p><p><strong>C.</strong> jest zwrócona w lewo wzdłuż równi pochyłej (←).</p><p><strong>D.</strong> jest zwrócona w prawo wzdłuż równi pochyłej (→).</p><h4>Zadanie 4.3. (0–1)</h4><p><strong>Oceń prawdziwość poniższych stwierdzeń. Wybierz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p><table class=\"pf-table\"><tbody><tr><td>Moment siły ciężkości bryły $\\mathcal B$ względem punktu $P_2$ jest równy zero.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr><tr><td>Moment pędu bryły $\\mathcal B$ względem środka jej masy $O$ jest zachowany podczas ruchu bryły wzdłuż równi pochyłej.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr></tbody></table><h4>Zadanie 4.4. (0–2)</h4><p><strong>Wyprowadź wzór na moment bezwładności bryły $\\boldsymbol{\\mathcal B}$ względem osi $\\boldsymbol{O}$ – wzór, który jest podany w tabeli (strona 10).</strong></p><p><strong>Zapisz odpowiednie zależności i przekształcenia, które prowadzą do uzyskania wzoru na moment bezwładności bryły $\\boldsymbol{\\mathcal B}$ względem osi $\\boldsymbol{O}$.</strong></p><h4>Zadanie 4.5. (0–3)</h4><p><strong>Oblicz $\\boldsymbol{\\Delta h_{max}}$ – maksymalną wysokość, na jaką wzniósł się środek masy bryły $\\boldsymbol{\\mathcal B}$ względem swojego początkowego położenia. Zapisz obliczenia.</strong></p></div>",
                 "solution": {
-                  "intuition": "Przy toczeniu bez poślizgu cała początkowa energia kinetyczna bryły zamienia się w energię potencjalną jej środka masy.",
-                  "givens": "Masa całej bryły: $m_{\\mathcal B}=2M$.\n$I_{0\\mathcal B}=\\frac43MR^2$, $v_{\\mathcal B}=1{,}4\\text{ m/s}$, $g=9{,}8\\text{ m/s}^2$.",
+                  "intuition": "Toczenie bez poślizgu łączy ruch postępowy środka masy z ruchem obrotowym wokół niego poprzez ścisłą relację $v = \\omega R$. Na poziomym odcinku, przy stałej prędkości, siła tarcia nie jest potrzebna do podtrzymania ruchu. Jednak podczas wtaczania się pod górę siła grawitacji dąży do wyhamowania ruchu postępowego, a siła tarcia statycznego musi wywierać moment siły spowalniający ruch obrotowy. Zgodnie z Zasadą Zachowania Energii Mechanicznej cała początkowa energia kinetyczna (postępowa i obrotowa) zostaje w najwyższym punkcie zamieniona w energię potencjalną grawitacji środka masy.",
+                  "givens": "Masa obręczy: $M$, promień obręczy: $R$. Dwa pręty o masach $m_{\\text{pręt}} = \\frac{M}{2}$ i długościach $l_{\\text{pręt}} = 2R$. Całkowita masa bryły $\\mathcal{B}$: $m_{\\mathcal{B}} = M + 2\\cdot\\frac{M}{2} = 2M$. Prędkość początkowa: $v_{\\mathcal{B}} = 1{,}4\\text{ m/s}$. Przyśpieszenie ziemskie: $g = 9{,}8\\text{ m/s}^2$. Toczenie bez poślizgu ($v = \\omega R$). Brak oporów powietrza.",
                   "steps": [
                     {
-                      "title": "Zadanie 4.1",
-                      "content": "Na poziomym odcinku ruch postępowy i obrotowy jest jednostajny. Brak przyśpieszenia poziomego wymaga zerowej siły tarcia. Odpowiedź A."
+                      "title": "Zadanie 4.1 – Analiza siły tarcia na poziomym odcinku drogi",
+                      "content": "Na poziomym odcinku drogi $XY$ środek masy bryły porusza się ze stałą prędkością liniową ($v_{\\mathcal{B}} = \\text{const}$), co oznacza zerowe przyśpieszenie liniowe ($a = 0$). Z warunku toczenia bez poślizgu ($v = \\omega R$) wynika, że prędkość kątowa również jest stała ($\\omega = \\text{const}$), czyli przyśpieszenie kątowe wynosi $\\varepsilon = 0$.\nZ **I zasady dynamiki Newtona** dla ruchu postępowego wynika, że wypadkowa siła pozioma musi wynosić zero. Ponieważ nie działają inne siły poziome (brak oporów powietrza), siła tarcia w punkcie styku $P_1$ **nie występuje**:\n$$T = 0$$\nPoprawna jest odpowiedź **A**."
                     },
                     {
-                      "title": "Zadanie 4.2",
-                      "content": "Podczas wtaczania bryła zwalnia również w ruchu obrotowym. Tarcie musi dawać moment przeciwny do kierunku obrotu, czyli jest skierowane w górę równi, w prawo. Odpowiedź D."
+                      "title": "Zadanie 4.2 – Wyznaczenie kierunku i zwrotu siły tarcia na równi",
+                      "content": "Gdy bryła wtacza się pod górę równi pochyłej, jej ruch postępowy jest opóźniony ($a < 0$, wektor przyśpieszenia skierowany w dół równi), a prędkość kątowa $\\omega$ maleje (ruch obrotowy jest opóźniony, $\\varepsilon < 0$).\nBryła obraca się zgodnie z ruchem wskazówek zegara. Aby prędkość kątowa malała, wypadkowy moment sił względem środka masy $O$ musi działać przeciwnie do ruchu wskazówek zegara.\nJedyną siłą mogącą wywierać moment siły względem środka masy $O$ jest siła tarcia statycznego $\\vec{T}$ przyłożona w punkcie styku $P_2$ (linie działania siły ciężkości i siły sprężystości podłoża przechodzą przez punkt $O$, więc ich momenty są zerowe).\nAby moment siły tarcia $\\vec{M} = \\vec{r} \\times \\vec{T}$ przeciwdziałał obrotowi (miał zwrot przeciwny do wskazówek zegara), siła tarcia $\\vec{T}$ musi być skierowana **w górę równi pochyłej (w prawo)**.\nPoprawna jest odpowiedź **D**."
                     },
                     {
-                      "title": "Zadanie 4.3",
-                      "content": "1. F: linia działania ciężaru nie przechodzi przez punkt $P_2$, więc jego moment względem $P_2$ jest niezerowy.\n2. F: tarcie ma niezerowy moment względem środka masy; prędkość kątowa maleje, a wraz z nią moment pędu $I_{0\\mathcal B}\\omega$."
+                      "title": "Zadanie 4.3 – Ocena prawdziwości zdań (moment siły i moment pędu)",
+                      "content": "1. **Zdanie 1: Fałsz (F).** Linia działania siły ciężkości bryły przechodzi pionowo przez środek masy $O$. Ponieważ podłoże jest nachylone pod kątem do poziomu, linia ta nie przechodzi przez punkt styku $P_2$. Ramię siły ciężkości względem punktu $P_2$ jest niezerowe ($r = R\\sin\\alpha > 0$), więc moment siły ciężkości względem punktu $P_2$ jest różny od zera ($M_{Q,P2} > 0$).\n\n2. **Zdanie 2: Fałsz (F).** Względem środka masy $O$ na bryłę działa niezerowy moment siły tarcia ($M_O = T \\cdot R > 0$). Z twierdzenia o zmianie momentu pędu:\n$$\\frac{dL}{dt} = -M_O < 0$$\nMoment pędu bryły względem środka masy $L = I_{0\\mathcal{B}} \\omega$ maleje wraz ze spadkiem prędkości kątowej $\\omega$, zatem **nie jest zachowany**."
                     },
                     {
-                      "title": "Zadanie 4.4",
-                      "content": "Momenty bezwładności części względem wspólnej osi dodają się.\nKażdy pręt ma moment $I_{pręt}=\\frac1{12}\\frac M2(2R)^2=\\frac16MR^2$.\nObręcz ma moment $I_{obręcz}=MR^2$.\n$I_{0\\mathcal B}=MR^2+2\\cdot\\frac16MR^2$.\n$I_{0\\mathcal B}=\\frac43MR^2$."
+                      "title": "Zadanie 4.4 – Wyprowadzenie momentu bezwładności bryły $\\mathcal{B}$",
+                      "content": "Bryła $\\mathcal{B}$ składa się z obręczy o masie $M$ i promieniu $R$ oraz dwóch prostopadłych cienkich prętów, każdy o masie $m_{\\text{pręt}} = \\frac{M}{2}$ i długości $l_{\\text{pręt}} = 2R$, przecinających się w środku masy $O$.\nOś obrotu przechodzi przez środek masy $O$ i jest prostopadła do płaszczyzny bryły.\n1. Moment bezwładności obręczy względem osi przechodzącej przez jej środek:\n$$I_{\\text{obręcz}} = M R^2$$\n2. Moment bezwładności pojedynczego cienkiego pręta względem osi prostopadłej przechodzącej przez jego środek:\n$$I_{\\text{pręt}} = \\frac{1}{12} m_{\\text{pręt}} l_{\\text{pręt}}^2 = \\frac{1}{12} \\left(\\frac{M}{2}\\right) (2R)^2 = \\frac{1}{24} M \\cdot 4R^2 = \\frac{1}{6} M R^2$$\n3. Z zasady addytywności momentu bezwładności względem wspólnej osi:\n$$I_{0\\mathcal{B}} = I_{\\text{obręcz}} + 2 \\cdot I_{\\text{pręt}}$$\n$$I_{0\\mathcal{B}} = M R^2 + 2 \\cdot \\left(\\frac{1}{6} M R^2\\right) = M R^2 + \\frac{1}{3} M R^2 = \\frac{4}{3} M R^2$$"
                     },
                     {
-                      "title": "Zadanie 4.5",
-                      "content": "W najwyższym położeniu $v=0$ i, dzięki toczeniu bez poślizgu, $\\omega=0$.\nZ zasady zachowania energii:\n$\\frac12(2M)v_{\\mathcal B}^2+\\frac12I_{0\\mathcal B}\\omega^2=2Mg\\Delta h_{max}$.\nPo podstawieniu $\\omega=v_{\\mathcal B}/R$:\n$Mv_{\\mathcal B}^2+\\frac23Mv_{\\mathcal B}^2=2Mg\\Delta h_{max}$.\n$\\Delta h_{max}=\\frac{5v_{\\mathcal B}^2}{6g}$.\n$\\Delta h_{max}=\\frac{5\\cdot1{,}4^2}{6\\cdot9{,}8}\\text{ m}\\approx0{,}167\\text{ m}$."
+                      "title": "Zadanie 4.5 – Wyznaczenie maksymalnej wysokości $\\Delta h_{\\max}$ z ZZE",
+                      "content": "Podczas toczenia bez poślizgu siła tarcia statycznego nie wykonuje pracy dysypatywnej (prędkość punktu przyłożenia wynosi zero), a opory powietrza są pomijalne, więc spełniona jest **Zasada Zachowania Energii Mechanicznej**:\n$$E_{\\text{mech},\\text{pocz}} = E_{\\text{mech},\\text{końc}}$$\n1. **Początkowa energia kinetyczna bryły** (suma energii ruchu postępowego i obrotowego):\nCałkowita masa bryły wynosi $m_{\\mathcal{B}} = M + 2 \\cdot \\frac{M}{2} = 2M$. Z warunku toczenia bez poślizgu $\\omega = \\frac{v_{\\mathcal{B}}}{R}$:\n$$E_k = \\frac{1}{2} m_{\\mathcal{B}} v_{\\mathcal{B}}^2 + \\frac{1}{2} I_{0\\mathcal{B}} \\omega^2$$\n$$E_k = \\frac{1}{2} (2M) v_{\\mathcal{B}}^2 + \\frac{1}{2} \\left(\\frac{4}{3} M R^2\\right) \\left(\\frac{v_{\\mathcal{B}}}{R}\\right)^2 = M v_{\\mathcal{B}}^2 + \\frac{2}{3} M v_{\\mathcal{B}}^2 = \\frac{5}{3} M v_{\\mathcal{B}}^2$$\n2. **Końcowa energia w najwyższym punkcie toru:**\nW chwili osiągnięcia maksymalnej wysokości bryła na moment się zatrzymuje ($v = 0$ oraz $\\omega = 0$), cała energia kinetyczna przekształca się w energię potencjalną ciężkości środka masy:\n$$E_{p,\\max} = m_{\\mathcal{B}} g \\Delta h_{\\max} = 2M g \\Delta h_{\\max}$$\n3. **Przyrównanie energii i wyznaczenie $\\Delta h_{\\max}$:**\n$$2M g \\Delta h_{\\max} = \\frac{5}{3} M v_{\\mathcal{B}}^2$$\nDzielimy obustronnie przez $2Mg$:\n$$\\Delta h_{\\max} = \\frac{5 v_{\\mathcal{B}}^2}{6g}$$\nPodstawiamy dane liczbowe ($v_{\\mathcal{B}} = 1{,}4\\text{ m/s}$, $g = 9{,}8\\text{ m/s}^2$):\n$$\\Delta h_{\\max} = \\frac{5 \\cdot (1{,}4)^2}{6 \\cdot 9{,}8} = \\frac{5 \\cdot 1{,}96}{58{,}8} = \\frac{9{,}8}{58{,}8} = \\frac{1}{6}\\text{ m} \\approx 0{,}167\\text{ m} \\approx 0{,}17\\text{ m}$$"
                     }
                   ],
-                  "answer": "4.1: A. 4.2: D. 4.3: F, F.\n4.4: $I_{0\\mathcal B}=\\frac43MR^2$.\n4.5: $\\Delta h_{max}\\approx0{,}17\\text{ m}$.",
-                  "trap": "M oznacza masę samej obręczy. Masa całej bryły wynosi 2M.",
+                  "numerical": "4.1: A; 4.2: D; 4.3: 1-F, 2-F; 4.4: $I_{0\\mathcal{B}} = \\frac{4}{3}MR^2$; 4.5: $\\Delta h_{\\max} \\approx 0{,}17\\text{ m}$ (dokładnie $\\frac{1}{6}\\text{ m}$)",
+                  "answer": "4.1: Odpowiedź A (siła tarcia nie działa);\n4.2: Odpowiedź D (siła tarcia jest zwrócona w prawo wzdłuż równi pochyłej);\n4.3: 1 – F, 2 – F;\n4.4: Wykazano: $I_{0\\mathcal{B}} = MR^2 + 2 \\cdot \\frac{1}{12}\\left(\\frac{M}{2}\\right)(2R)^2 = \\frac{4}{3}MR^2$;\n4.5: Maksymalna wysokość wzniesienia wynosi $\\Delta h_{\\max} = \\frac{5 v_{\\mathcal{B}}^2}{6g} = \\frac{1}{6}\\text{ m} \\approx 0{,}17\\text{ m}$.",
+                  "trap": "Częsty błąd w zadaniu 4.5 to przyjęcie masy całej bryły równej $M$ zamiast $2M$ (obręcz ma masę $M$, a dwa pręty łącznie drugie $M$). Choć masa $M$ upraszcza się w ostatecznym równaniu, błędny zapis energii kinetycznej prowadzi do utraty punktów!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://naukagryzie.pl/arkusze/matura-rozszerzona/fizyka/czerwiec-2026-formula-2023-cke/odpowiedzi.pdf#page=11\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 11–14</a>."
                 },
                 "solutionSource": {
@@ -7605,20 +8760,25 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 3.</h4><p>Bloczek $\\mathcal W$, który jest jednorodnym walcem, podwieszono do sufitu. Przez ten bloczek przerzucono linę. Do jednego końca liny przymocowano ciężarek $\\mathcal C$, a do drugiego końca liny przyłożono zewnętrzną siłę $\\vec F$. Siła $\\vec F$ oraz drugi koniec liny są skierowane pod kątem $\\alpha$ do poziomu (zobacz rysunek obok).</p><div class=\"chart-container-svg\"><img src=\"img/energy/2026-maj-z3-rysunek.png\" alt=\"Bloczek, ciężarek i siła F\" class=\"theory-img\" style=\"max-height:350px;display:block;margin:15px auto;\"></div><p>Przyjmij model zjawiska, w którym:</p><ul><li>masę walca (bloczka $\\mathcal W$) oznaczymy jako $m_w$</li><li>promień walca (bloczka $\\mathcal W$) oznaczymy jako $R$</li><li>masę ciężarka oznaczymy jako $m_c$</li><li>moment bezwładności walca (bloczka $\\mathcal W$) względem jego osi wyraża się wzorem:<p>$I_0=\\frac12m_wR^2$</p></li><li>lina jest nierozciągliwa i <u>nie ślizga</u> się po bloczku</li><li>masę liny pomijamy</li><li>bloczek może obracać się wokół swojej osi bez tarcia</li><li>ruch układu rozpatrujemy w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym. Przyśpieszenie ziemskie oznaczymy jako $\\vec g$.</li></ul><h4>Zadanie 3.1. (0–1)</h4><p>Rozważamy taką sytuację 1., w której ciężarek oraz bloczek się nie poruszają.</p><p><strong>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</strong></p><p>Wartość $F$ siły $\\vec F$ w opisanej sytuacji 1. wyraża się wzorem</p><p><strong>A.</strong> $F=m_cg$</p><p><strong>B.</strong> $F=(m_c+m_w)g$</p><p><strong>C.</strong> $F=m_cg\\cdot\\cos\\alpha$</p><p><strong>D.</strong> $F=m_cg\\cdot\\sin\\alpha$</p><h4>Zadanie 3.2. (0–4)</h4><p>Rozważamy taką sytuację 2., w której bloczek się obraca, a ciężarek porusza się pionowo <u>w dół</u> z przyśpieszeniem $\\vec a$ (skierowanym w dół) o wartości:</p><p>$a=\\frac12g$</p><p><strong>Wyznacz $\\boldsymbol{F}$ – wartość siły $\\boldsymbol{\\vec F}$ w opisanej sytuacji 2. – w zależności <u>tylko</u> od wartości przyśpieszenia ziemskiego $\\boldsymbol{g}$ oraz od masy ciężarka $\\boldsymbol{m_c}$ i masy walca $\\boldsymbol{m_w}$.</strong></p><p><strong>Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na $\\boldsymbol{F}$.</strong></p></div>",
                 "solution": {
-                  "intuition": "Siła F wykonuje ujemną pracę, gdy ciężarek opada. Energia pozostała po tej pracy zwiększa ruch ciężarka i obrót bloczka.",
-                  "givens": "$I_0=\\frac12m_wR^2$, $a=\\frac12g$, $v=\\omega R$.",
+                  "intuition": "Dla bloczka mającego niezerową masę (i moment bezwładności) siły naciągu liny po obu stronach nie są jednakowe podczas ruchu z przyśpieszeniem – różnica ich momentów nadaje bloczkowi przyśpieszenie kątowe. W spoczynku natomiast momenty te muszą się ściśle równoważyć. Kąt $\\alpha$, pod którym ciągnięta jest lina, nie wpływa na ramię siły, ponieważ lina odrywa się od bloczka stycznie, więc jej ramię względem osi obrotu zawsze wynosi $R$.",
+                  "givens": "Bloczek: masa $m_w$, promień $R$, moment bezwładności $I_0 = \\frac{1}{2}m_w R^2$. Ciężarek o masie $m_c$. Przyśpieszenie w dół: $a = \\frac{1}{2}g$. Lina nierozciągliwa, bezmasowa, nie ślizga się po bloczku.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1",
-                      "content": "Ciężarek spoczywa, więc napięcie liny po jego stronie jest równe $m_cg$. Bloczek pozostaje w równowadze obrotowej: momenty obu napięć względem osi są równe. Ramiona obu sił są równe $R$, zatem $F=m_cg$. Odpowiedź A."
+                      "title": "Zadanie 3.1 – Warunek równowagi statycznej bloczka",
+                      "content": "W sytuacji 1. układ znajduje się w spoczynku:\n1. Z **I zasady dynamiki Newtona** dla spoczywającego ciężarka naciąg liny po jego stronie wynosi:\n$$N_1 = m_c g$$\n2. Ponieważ bloczek pozostaje w spoczynku, wypadkowy moment sił względem osi obrotu bloczka musi być równy zero. Obie części liny schodzą z bloczka stycznie, zatem ramię siły naciągu po obu stronach wynosi dokładnie $R$ (niezależnie od kąta $\\alpha$):\n$$\\sum M = N_1 \\cdot R - N_2 \\cdot R = 0 \\implies N_2 = N_1 = m_c g$$\n3. Dla bezmasowej liny naciąg $N_2$ jest równy sile przyłożonej na końcu: $F = N_2 = m_c g$.\nPoprawna jest odpowiedź **A**."
                     },
                     {
-                      "title": "Zadanie 3.2",
-                      "content": "Dla opadnięcia ciężarka o $h$ koniec liny przesuwa się o tę samą drogę przeciwnie do siły $\\vec F$, więc $W_F=-Fh$.\nTwierdzenie o zmianie energii mechanicznej:\n$-m_cgh+\\frac12m_c\\Delta(v^2)+\\frac12I_0\\Delta(\\omega^2)=-Fh$.\nZ $\\omega=v/R$ i $I_0=\\frac12m_wR^2$:\n$-m_cgh+(\\frac12m_c+\\frac14m_w)\\Delta(v^2)=-Fh$.\nRuch ma stałe przyśpieszenie: $\\Delta(v^2)=2ah$.\nPo podzieleniu przez $h$:\n$F=m_cg-(m_c+\\frac12m_w)a$.\nDla $a=g/2$ otrzymujemy:\n$F=\\frac12g(m_c-\\frac12m_w)$."
+                      "title": "Zadanie 3.2 – Układ równań dynamiki dla ruchu ciężarka i obrotu bloczka",
+                      "content": "W sytuacji 2. ciężarek opada pionowo w dół z przyśpieszeniem $a = \\frac{1}{2}g$, a lina wprawia bloczek w ruch obrotowy z przyśpieszeniem kątowym $\\varepsilon$ bez poślizgu:\n1. **II zasada dynamiki dla opadającego ciężarka**:\n$$m_c a = m_c g - N_1 \\implies N_1 = m_c(g - a)$$\n2. **II zasada dynamiki dla ruchu obrotowego bloczka**:\nMoment siły naciągu $N_1$ rozpędza bloczek, natomiast moment siły zewnętrznej $F$ hamuje jego obrót:\n$$M_{\\text{wyp}} = I_0 \\varepsilon$$\n$$N_1 R - F R = I_0 \\varepsilon$$\n3. **Związek kinematyczny (brak poślizgu liny)**:\nPrzyśpieszenie liniowe liny i przyśpieszenie kątowe bloczka łączy zależność:\n$$\\varepsilon = \\frac{a}{R}$$\nPodstawiamy postać momentu bezwładności $I_0 = \\frac{1}{2} m_w R^2$:\n$$(N_1 - F) R = \\left(\\frac{1}{2} m_w R^2\\right) \\left(\\frac{a}{R}\\right) = \\frac{1}{2} m_w R a$$\nDzielimy obustronnie przez promień $R$:\n$$N_1 - F = \\frac{1}{2} m_w a \\implies F = N_1 - \\frac{1}{2} m_w a$$"
+                    },
+                    {
+                      "title": "Zadanie 3.2 – Wyznaczenie wzoru na wartość siły $F$",
+                      "content": "Podstawiamy wyrażenie na siłę naciągu $N_1 = m_c(g - a)$ do otrzymanego równania na $F$:\n$$F = m_c(g - a) - \\frac{1}{2} m_w a$$\n$$F = m_c g - \\left(m_c + \\frac{1}{2} m_w\\right) a$$\nWstawiamy podaną w treści zadania wartość przyśpieszenia $a = \\frac{1}{2}g$:\n$$F = m_c g - \\left(m_c + \\frac{1}{2} m_w\\right) \\left(\\frac{1}{2} g\\right)$$\n$$F = m_c g - \\frac{1}{2} m_c g - \\frac{1}{4} m_w g$$\n$$F = \\frac{1}{2} m_c g - \\frac{1}{4} m_w g = \\frac{1}{2} g \\left(m_c - \\frac{1}{2} m_w\\right) \\quad \\left(\\text{lub } F = \\frac{1}{4} g (2m_c - m_w)\\right)$$"
                     }
                   ],
-                  "answer": "3.1: A.\n3.2: $F=\\frac12g(m_c-\\frac12m_w)$.",
-                  "trap": "Siła działa wzdłuż liny. W jej momencie względem osi bloczka ramieniem jest R, bez dodatkowego sinusa lub cosinusa kąta α.",
+                  "numerical": "3.1: A; 3.2: $F = \\frac{1}{2}g\\left(m_c - \\frac{1}{2}m_w\\right)$",
+                  "answer": "3.1: Odpowiedź A ($F = m_c g$);\n3.2: $F = \\frac{1}{2}g\\left(m_c - \\frac{1}{2}m_w\\right)$ (równoważnie: $F = \\frac{1}{4}g(2m_c - m_w)$ lub $F = g\\left(\\frac{1}{2}m_c - \\frac{1}{4}m_w\\right)$).",
+                  "trap": "Nie wolno mnożyć ramienia siły $R$ przez $\\sin\\alpha$ ani $\\cos\\alpha$! Lina odrywa się od cylindrycznej powierzchni bloczka stycznie, więc odległość prostej działania siły od osi obrotu wynosi zawsze dokładnie $R$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2026-maj-matura-rozszerzona-odpowiedzi.pdf#page=15\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 15–19</a>."
                 },
                 "solutionSource": {
@@ -7628,6 +8788,60 @@ window.FIZYKOREK_COURSES = {
                   "pages": [
                     15,
                     19
+                  ]
+                }
+              },
+              {
+                "id": "matura-cke-bryla-2026-styczen-zad-3",
+                "originalTaskId": "matura-cke-2026-styczen-zad-3",
+                "number": 202601,
+                "title": "Próbna matura styczeń 2026 zad. 3 nowa formuła",
+                "year": "2026 styczeń",
+                "difficulty": 3,
+                "source": "Próbna matura CKE 2026 (Styczeń)",
+                "link": "data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona.pdf",
+                "formula": "2023",
+                "sourcePages": [
+                  8,
+                  9
+                ],
+                "tags": [
+                  "Matura CKE",
+                  "Bryła sztywna",
+                  "Statyka",
+                  "Moment siły",
+                  "Równowaga"
+                ],
+                "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 3.</h4><p>Jednorodną sztywną płytę $\\mathcal P$ umieszczono na dwóch równoległych do siebie osiach z kołami.</p><p>Przyjmij następujące dane oraz oznaczenia:</p><ul><li>siłę ciężkości działającą na płytę oznaczymy jako $\\vec Q_P$</li><li>osie oznaczymy jako $O_1$ oraz $O_2$</li><li>koła umieszczone na końcach każdej osi są jednakowe</li><li>środek masy płyty oznaczymy jako $S$</li><li>osie $O_1$ oraz $O_2$ działają na płytę – odpowiednio – siłami reakcji $\\vec F_1$ oraz $\\vec F_2$</li><li>krawędzie płyty oznaczymy jako A i B, odległości wzajemne między krawędziami płyty a osiami są następujące:<p>$|AO_1|=2\\text{ m}\\qquad |O_1O_2|=4\\text{ m}\\qquad |O_2B|=3\\text{ m}$</p></li><li>układ rozpatrujemy w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym.</li></ul><p>Sytuację ilustruje rysunek 1.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2026-styczen-z3-rys1.png\" alt=\"Rysunek 1. Płyta na dwóch osiach\" class=\"theory-img\" style=\"max-height:250px;display:block;margin:15px auto;\"></div><h4>Zadanie 3.1. (0–1)</h4><p>Rozważamy sytuację 1., gdy na płycie <u>nie ma</u> żadnego obciążenia (jak na rysunku 1.).</p><p><strong>Dokończ zdanie. Wybierz odpowiedź A albo B oraz odpowiedź 1., 2. albo 3.</strong></p><p>Między wartościami $F_1$, $F_2$, $Q_P$ sił działających na płytę w sytuacji 1. zachodzą relacje</p><div class=\"energy-table-scroll\"><table class=\"energy-data-table\"><tbody><tr><td><strong>A.</strong></td><td>$F_2&gt;F_1$</td><td rowspan=\"2\">oraz</td><td><strong>1.</strong></td><td>$F_1+F_2=Q_P$</td></tr><tr><td><strong>B.</strong></td><td>$F_2&lt;F_1$</td><td><strong>2.</strong></td><td>$F_1+Q_P=F_2$</td></tr><tr><td></td><td></td><td></td><td><strong>3.</strong></td><td>$Q_P+F_2=F_1$</td></tr></tbody></table></div><h4>Zadanie 3.2. (0–3)</h4><p>Rozważamy sytuację 2., gdy na płycie położono mały klocek $\\mathcal K$.</p><p>Siła ciężkości $\\vec Q_K$ działająca na klocek ma wartość $Q_K=0{,}4\\cdot Q_P$.</p><p>Odległość środka klocka $\\mathcal K$ od osi przechodzącej przez środek $S$ płyty oznaczymy jako $x$.</p><p>Siły reakcji osi $O_1$ oraz $O_2$, działające na płytę <u>w sytuacji 2.</u>, mają równe wartości: $F_1=F_2$.</p><p>Sytuację 2. ilustruje rysunek 2.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2026-styczen-z3-rys2.png\" alt=\"Rysunek 2. Płyta obciążona klockiem\" class=\"theory-img\" style=\"max-height:230px;display:block;margin:15px auto;\"></div><p><strong>Oblicz $\\boldsymbol{x}$. Zapisz obliczenia.</strong></p></div>",
+                "solution": {
+                  "intuition": "Statyka bryły sztywnej wymaga jednoczesnego spełnienia dwóch fundamentalnych warunków: wektorowa suma wszystkich sił musi być równa zero (brak ruchu postępowego), a suma momentów sił względem dowolnie wybranej osi musi wynosić zero (brak ruchu obrotowego). Odpowiedni dobór punktu odniesienia dla momentów sił (np. przez środek masy płyty $S$) pozwala wyeliminować ciężar płyty i natychmiast wyznaczyć szukane położenie klocka.",
+                  "givens": "Wymiary płyty: $|AO_1| = 2\\text{ m}$, $|O_1O_2| = 4\\text{ m}$, $|O_2B| = 3\\text{ m}$. Długość całkowita: $L = 9\\text{ m}$. Ciężar klocka: $Q_K = 0{,}4 Q_P$. W sytuacji 2.: $F_1 = F_2$.",
+                  "steps": [
+                    {
+                      "title": "Zadanie 3.1 – Warunki równowagi nieobciążonej płyty (sytuacja 1)",
+                      "content": "1. **Równowaga sił w pionie (I warunek równowagi):**\nNa płytę działają dwie siły reakcji osi skierowane pionowo w górę ($\\vec{F}_1, \\vec{F}_2$) oraz siła ciężkości płyty skierowana pionowo w dół ($\\vec{Q}_P$). Brak przyspieszenia w pionie daje:\n$$F_1 + F_2 = Q_P \\quad (\\text{relacja 1})$$\n2. **Równowaga momentów sił (II warunek równowagi):**\nCałkowita długość jednorodnej płyty wynosi $|AB| = 2\\text{ m} + 4\\text{ m} + 3\\text{ m} = 9\\text{ m}$. Środek masy $S$ leży w połowie długości płyty, czyli w odległości $4{,}5\\text{ m}$ od krawędzi A:\n$$|SO_1| = 4{,}5\\text{ m} - 2\\text{ m} = 2{,}5\\text{ m}$$\n$$|SO_2| = 4\\text{ m} - 2{,}5\\text{ m} = 1{,}5\\text{ m}$$\nMomenty sił reakcji osi względem środka masy $S$ muszą się równoważyć:\n$$F_1 \\cdot |SO_1| = F_2 \\cdot |SO_2| \\implies F_1 \\cdot 2{,}5\\text{ m} = F_2 \\cdot 1{,}5\\text{ m}$$\n$$\\frac{F_2}{F_1} = \\frac{2{,}5}{1{,}5} = \\frac{5}{3} > 1 \\implies F_2 > F_1 \\quad (\\text{relacja A})$$\nPoprawny zestaw odpowiedzi to **A1**."
+                    },
+                    {
+                      "title": "Zadanie 3.2 – Wyznaczenie sił reakcji osi w sytuacji 2",
+                      "content": "W sytuacji 2. na płytę położono klocek $\\mathcal{K}$ o ciężarze $Q_K = 0{,}4 Q_P$, a siły reakcji osi stały się równe ($F_1 = F_2$):\n<div class=\"chart-container-svg\"><img src=\"img/rigid/2026-styczen-z3-rozwiazanie.png\" alt=\"Oficjalny schemat sił CKE\" class=\"theory-img\" style=\"max-height:280px;display:block;margin:15px auto;\"></div>\nZ I warunku równowagi (równowaga sił w pionie):\n$$F_1 + F_2 = Q_P + Q_K$$\nPodstawiamy $F_2 = F_1$ oraz $Q_K = 0{,}4 Q_P$:\n$$2 F_1 = Q_P + 0{,}4 Q_P = 1{,}4 Q_P$$\n$$F_1 = F_2 = 0{,}7 Q_P$$"
+                    },
+                    {
+                      "title": "Zadanie 3.2 – Bilans momentów sił i obliczenie odległości $x$",
+                      "content": "Zapisujemy II warunek równowagi – sumę momentów sił względem osi przechodzącej przez środek masy płyty $S$ (dzięki temu moment siły ciężkości płyty $\\vec{Q}_P$ znika, gdyż jej ramię wynosi zero):\n- Moment siły $F_1$ obraca płytę przeciwnie do ruchu wskazówek zegara: $M_1 = F_1 \\cdot |SO_1|$.\n- Moment siły $F_2$ obraca płytę zgodnie z ruchem wskazówek zegara: $M_2 = F_2 \\cdot |SO_2|$.\n- Ponieważ $F_1 = F_2$, a ramię $|SO_1| = 2{,}5\\text{ m}$ jest większe od ramienia $|SO_2| = 1{,}5\\text{ m}$, klocek musi leżeć po prawej stronie punktu $S$ (w stronę osi $O_2$), aby jego ciężar $Q_K$ pomagał sile $F_2$ w równoważeniu siły $F_1$:\n$$F_1 \\cdot |SO_1| = F_2 \\cdot |SO_2| + Q_K \\cdot x$$\nPodstawiamy wyznaczone wartości:\n$$0{,}7 Q_P \\cdot 2{,}5\\text{ m} = 0{,}7 Q_P \\cdot 1{,}5\\text{ m} + 0{,}4 Q_P \\cdot x$$\nDzielimy obie strony równania przez $Q_P$:\n$$0{,}7 \\cdot 2{,}5 = 0{,}7 \\cdot 1{,}5 + 0{,}4 \\cdot x$$\n$$1{,}75 = 1{,}05 + 0{,}4 x$$\n$$0{,}4 x = 1{,}75 - 1{,}05 = 0{,}70$$\n$$x = \\frac{0{,}70}{0{,}4} = 1{,}75\\text{ m}$$\n*(Sprawdzenie względem osi $O_1$: $Q_P \\cdot 2{,}5 + Q_K \\cdot (2{,}5 + 1{,}75) = F_2 \\cdot 4 \\implies 2{,}5 Q_P + 0{,}4 Q_P \\cdot 4{,}25 = 2{,}5 + 1{,}7 = 4{,}2 Q_P$, a prawa strona: $F_2 \\cdot 4 = 0{,}7 Q_P \\cdot 4 = 2{,}8 Q_P + 1{,}4 Q_P = 4{,}2 Q_P$ – bilans jest idealnie zachowany).* "
+                    }
+                  ],
+                  "numerical": "3.1: A1; 3.2: $x = 1{,}75\\text{ m}$",
+                  "answer": "3.1: Zestawienie A1 ($F_2 > F_1$ oraz $F_1 + F_2 = Q_P$);\n3.2: Odległość klocka $\\mathcal{K}$ od środka masy $S$ płyty wynosi $x = 1{,}75\\text{ m}$.",
+                  "trap": "Częsty błąd to przyjęcie, że środek masy płyty leży w połowie odległości między osiami $O_1$ i $O_2$. Płyta wystaje poza osie niesymetrycznie (z lewej $2\\text{ m}$, z prawej $3\\text{ m}$), stąd jej geometryczny środek masy $S$ leży w odległości $4{,}5\\text{ m}$ od krawędzi A, a nie w środku odcinka $O_1O_2$!",
+                  "source": "Opracowano na podstawie oficjalnych zasad oceniania CKE. <a href=\"data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 13–15</a>."
+                },
+                "solutionSource": {
+                  "publisher": "Centralna Komisja Egzaminacyjna",
+                  "url": "data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf",
+                  "localFile": "data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf",
+                  "pages": [
+                    13,
+                    15
                   ]
                 }
               },
@@ -7653,24 +8867,25 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 3.</h4><p>Walec $\\mathcal W$ o promieniu $R$ i masie $m$ toczy się bez poślizgu ze stałą prędkością o wartości $v$ po poziomym, płaskim podłożu.</p><p>Na rysunku poniżej przedstawiono położenia walca w chwili $t_0=0\\text{ s}$ oraz w chwili $t_1=0{,}2\\text{ s}$. W czasie od chwili $t_0$ do chwili $t_1$ walec wykonał <u>pół obrotu</u> względem swojej osi.</p><p>Położenia wybranych punktów $A$ i $B$, leżących na brzegu walca wzdłuż średnicy, w chwilach $t_0$ oraz $t_1$ oznaczymy – odpowiednio – jako $A_0$, $B_0$ oraz $A_1$, $B_1$. Punkty $B_0$ i $A_1$ dotykają podłoża.</p><div class=\"chart-container-svg\"><img src=\"img/energy/2025-czerwiec-z3-rysunek.png\" alt=\"Rysunek – walec przed i po połowie obrotu\" class=\"theory-img\" style=\"max-height:500px;display:block;margin:15px auto;\"></div><h4>Zadanie 3.1. (0–1)</h4><p><strong>Dokończ zdanie. Zaznacz właściwą odpowiedź spośród podanych.</strong></p><p>Prędkość kątowa w ruchu obrotowym walca $\\mathcal W$ względem jego osi ma wartość</p><p><strong>A.</strong> $\\omega=2\\pi\\frac{\\mathrm{rad}}{\\mathrm s}$</p><p><strong>B.</strong> $\\omega=4\\pi\\frac{\\mathrm{rad}}{\\mathrm s}$</p><p><strong>C.</strong> $\\omega=5\\pi\\frac{\\mathrm{rad}}{\\mathrm s}$</p><p><strong>D.</strong> $\\omega=10\\pi\\frac{\\mathrm{rad}}{\\mathrm s}$</p><h4>Zadanie 3.2. (0–2)</h4><p>Wartość przemieszczenia punktu $A$ od chwili $t_0$ do chwili $t_1$ oznaczymy jako $|A_0A_1|$.</p><p><strong>Oblicz iloraz $\\boldsymbol{\\frac{|A_0A_1|}{R}}$. Wynik podaj w postaci <u>liczby niewymiernej</u>. Zapisz obliczenia.</strong></p><h4>Zadanie 3.3. (0–2)</h4><p>Walec $\\mathcal W$ jest wewnątrz częściowo pusty i symetryczny względem osi przechodzącej przez jego środek. Moment bezwładności walca $\\mathcal W$ względem jego osi wyraża się wzorem:</p><p>$I_0=\\frac45mR^2$</p><p>Całkowitą energię kinetyczną toczącego się walca $\\mathcal W$ oznaczymy jako $E_{kin\\ calk}$. Ta energia wyraża się wzorem:</p><p>$E_{kin\\ calk}=k\\cdot mv^2$ &nbsp; dla pewnego współczynnika liczbowego $k$.</p><p><strong>Oblicz $\\boldsymbol{k}$. Zapisz obliczenia.</strong></p></div>",
                 "solution": {
-                  "intuition": "Warunek toczenia wiąże obrót walca z przesunięciem jego środka. Energia całkowita zawiera dwa składniki.",
-                  "givens": "Pół obrotu w $\\Delta t=0{,}2\\text{ s}$.\n$I_0=\\frac45mR^2$, $v=\\omega R$.",
+                  "intuition": "W toczeniu bez poślizgu przesunięcie środka masy walca jest równe długości łuku przetoczonego po podłożu: $s = R\\Delta\\alpha$. Przemieszczenie dowolnego punktu na brzegu walca jest wektorem łączącym jego położenie początkowe z końcowym – jego wartość oblicza się z twierdzenia Pitagorasa ze składowej poziomej (przetoczenie) i pionowej (obrót). Całkowita energia kinetyczna walca to suma energii kinetycznej ruchu postępowego i ruchu obrotowego.",
+                  "givens": "Promień walca: $R$, masa: $m$. Czas półobrotu: $\\Delta t = 0{,}2\\text{ s}$. Kąt obrotu: $\\Delta\\alpha = \\pi\\text{ rad}$. Moment bezwładności: $I_0 = \\frac{4}{5}mR^2$. Toczenie bez poślizgu ($v = \\omega R$).",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1",
-                      "content": "Pół obrotu odpowiada kątowi $\\pi$ rad. Zatem $\\omega=\\pi/(0{,}2\\text{ s})=5\\pi\\text{ rad/s}$. Odpowiedź C."
+                      "title": "Zadanie 3.1 – Obliczenie prędkości kątowej walca",
+                      "content": "Pół obrotu walca odpowiada kątowi obrotu $\\Delta\\alpha = \\pi\\text{ rad}$.\nZ definicji prędkości kątowej w ruchu jednostajnym:\n$$\\omega = \\frac{\\Delta\\alpha}{\\Delta t} = \\frac{\\pi\\text{ rad}}{0{,}2\\text{ s}} = 5\\pi\\text{ rad/s}$$\nPoprawna jest odpowiedź **C**."
                     },
                     {
-                      "title": "Zadanie 3.2",
-                      "content": "Środek walca przesunął się poziomo o $s=R\\pi$. Punkt $A$ przeszedł z góry walca na dół, więc jego pionowe przemieszczenie ma wartość $2R$.\nZ twierdzenia Pitagorasa:\n$|A_0A_1|=\\sqrt{(\\pi R)^2+(2R)^2}$.\nStąd $\\frac{|A_0A_1|}{R}=\\sqrt{\\pi^2+4}$."
+                      "title": "Zadanie 3.2 – Wyznaczenie wartości przemieszczenia punktu A",
+                      "content": "Wektor przemieszczenia $\\Delta\\vec{r}_A = \\vec{A_0 A_1}$ łączy początkowe położenie punktu $A$ ($A_0$) z jego położeniem końcowym ($A_1$):\n1. **Składowa pozioma przemieszczenia (oś $x$):**\nWalec toczy się bez poślizgu, więc przemieszczenie poziome środka walca po wykonaniu półobrotu wynosi:\n$$\\Delta x = s = R \\cdot \\Delta\\alpha = \\pi R$$\nPonieważ w chwili początkowej punkt $A_0$ leżał pionowo nad środkiem walca, a w chwili końcowej punkt $A_1$ leży pionowo pod środkiem walca, poziome przesunięcie punktu $A$ jest dokładnie równe przesunięciu środka masy:\n$$\\Delta x_A = \\pi R$$\n2. **Składowa pionowa przemieszczenia (oś $y$):**\nW chwili początkowej punkt $A_0$ znajdował się na samej górze walca na wysokości $y_0 = 2R$. W chwili końcowej punkt $A_1$ dotyka podłoża ($y_1 = 0$). Zatem pionowa zmiana położenia wynosi:\n$$\\Delta y_A = 2R$$\n3. **Długość wektora przemieszczenia (twierdzenie Pitagorasa):**\n$$|A_0 A_1| = \\sqrt{(\\Delta x_A)^2 + (\\Delta y_A)^2} = \\sqrt{(\\pi R)^2 + (2R)^2} = \\sqrt{\\pi^2 R^2 + 4R^2} = R \\sqrt{\\pi^2 + 4}$$\nStąd szukany iloraz wynosi:\n$$\\frac{|A_0 A_1|}{R} = \\sqrt{\\pi^2 + 4}$$"
                     },
                     {
-                      "title": "Zadanie 3.3",
-                      "content": "$E_{kin\\ calk}=\\frac12mv^2+\\frac12I_0\\omega^2$.\nPo podstawieniu danych i $\\omega=v/R$:\n$E_{kin\\ calk}=\\frac12mv^2+\\frac25mv^2=\\frac9{10}mv^2$.\nPorównanie ze wzorem w zadaniu daje $k=\\frac9{10}=0{,}9$."
+                      "title": "Zadanie 3.3 – Wyznaczenie współczynnika energii kinetycznej $k$",
+                      "content": "Całkowita energia kinetyczna toczącego się walca składa się z energii kinetycznej ruchu postępowego środka masy oraz energii kinetycznej ruchu obrotowego wokół osi symetrii:\n$$E_{kin\\ calk} = E_{kin\\ post} + E_{kin\\ obr} = \\frac{1}{2} m v^2 + \\frac{1}{2} I_0 \\omega^2$$\nZ warunku toczenia bez poślizgu mamy $\\omega = \\frac{v}{R}$. Podstawiamy dany wzór na moment bezwładności $I_0 = \\frac{4}{5} m R^2$:\n$$E_{kin\\ calk} = \\frac{1}{2} m v^2 + \\frac{1}{2} \\left(\\frac{4}{5} m R^2\\right) \\left(\\frac{v}{R}\\right)^2$$\n$$E_{kin\\ calk} = \\frac{1}{2} m v^2 + \\frac{2}{5} m v^2$$\nSprowadzamy do wspólnego mianownika:\n$$E_{kin\\ calk} = \\left(\\frac{5}{10} + \\frac{4}{10}\\right) m v^2 = \\frac{9}{10} m v^2$$\nPorównując otrzymane wyrażenie ze wzorem $E_{kin\\ calk} = k \\cdot m v^2$, odczytujemy współczynnik $k$:\n$$k = \\frac{9}{10} = 0{,}9$$"
                     }
                   ],
-                  "answer": "3.1: C.\n3.2: $\\sqrt{\\pi^2+4}$.\n3.3: $k=\\frac9{10}$.",
-                  "trap": "Przemieszczenie punktu A jest odcinkiem łączącym położenie początkowe i końcowe; nie jest długością jego toru.",
+                  "numerical": "3.1: C; 3.2: $\\frac{|A_0 A_1|}{R} = \\sqrt{\\pi^2 + 4}$; 3.3: $k = \\frac{9}{10} = 0{,}9$",
+                  "answer": "3.1: Odpowiedź C ($\\omega = 5\\pi\\text{ rad/s}$);\n3.2: Iloraz wynosi $\\frac{|A_0 A_1|}{R} = \\sqrt{\\pi^2 + 4}$;\n3.3: Współczynnik wynosi $k = \\frac{9}{10}$ (lub $0{,}9$).",
+                  "trap": "W zadaniu 3.2 przemieszczenie punktu to wektor łączący punkt startowy z końcowym, a nie długość toru (cykloidy), po którym punkt $A$ poruszał się w przestrzeni! Nie należy całkować równania cykloidy.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2025-czerwiec-matura-rozszerzona-odpowiedzi.pdf#page=8\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–9</a>."
                 },
                 "solutionSource": {
@@ -7706,20 +8921,21 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 2.</h4><p>Dany jest jednorodny pełny walec W1 oraz wydrążony częściowo (i osiowosymetrycznie) jednorodny walec W2. Walec W1 położono na równi pochyłej i puszczono swobodnie. Następnie <u>na tej samej wysokości</u> na tej równi położono walec W2 i także puszczono swobodnie (zobacz rysunek poniżej). Prędkości początkowe obu walców były równe zero. Walce W1 oraz W2 staczały się z równi bez poślizgu. Kąt nachylenia równi do poziomego podłoża wynosi $\\beta$.</p><p>Przyjmij następujące dane:</p><ul><li>promienie walców są sobie równe: $R_1=R_2=R$</li><li>masy walców są sobie równe: $m_1=m_2=m$ (walce wykonano z różnych materiałów)</li><li>momenty bezwładności walców W1 i W2 względem osi każdego z nich wyrażają się – odpowiednio – wzorami:<p>$I_1=k_1mR^2$ &nbsp; oraz &nbsp; $I_2=k_2mR^2$</p><p>gdzie $k_1$ i $k_2$ są pewnymi współczynnikami oraz $k_1\\ne k_2$.</p></li></ul><div class=\"chart-container-svg\"><img src=\"img/energy/2025-maj-z2-rysunek.png\" alt=\"Rysunek – dwa walce na równi pochyłej\" class=\"theory-img\" style=\"max-height:500px;display:block;margin:15px auto;\"></div><p>Uwzględnij następujące założenia i warunki:</p><ul><li>siły tarcia statycznego pomiędzy każdym z walców a powierzchnią równi <u>nie osiągnęły</u> wartości maksymalnych</li><li>pomijamy inne (tzn. oprócz tarcia statycznego) opory ruchu</li><li>ruch walców rozpatrujemy w inercjalnym układzie odniesienia związanym z ziemią, w jednorodnym, ziemskim polu grawitacyjnym.</li></ul><h4>Zadanie 2.1. (0–2)</h4><p><strong>Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p><table class=\"pf-table\"><tbody><tr><td class=\"pf-num\">1.</td><td>$k_2>k_1$</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr><tr><td class=\"pf-num\">2.</td><td>U podnóża równi całkowite energie kinetyczne walców W1 i W2 są sobie równe.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr><tr><td class=\"pf-num\">3.</td><td>U podnóża równi wartość prędkości ruchu postępowego walca W1 jest mniejsza od wartości prędkości ruchu postępowego walca W2.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr></tbody></table><h4>Zadanie 2.2. (0–4)</h4><p><strong>Wyznacz $\\boldsymbol{a}$ – wartość przyśpieszenia liniowego walca W2 – w zależności <u>tylko</u> od wartości przyśpieszenia ziemskiego $\\boldsymbol{g}$, od kąta $\\boldsymbol{\\beta}$ oraz od współczynnika $\\boldsymbol{k_2}$.</strong></p><p><strong>Zapisz odpowiednie równania i przekształcenia oraz podaj postać wzoru na $\\boldsymbol{a}$.</strong></p></div>",
                 "solution": {
-                  "intuition": "Jednakowa początkowa energia potencjalna daje jednakową całkowitą energię kinetyczną, lecz inny podział na ruch postępowy i obrót.",
-                  "givens": "$m_1=m_2=m$, $R_1=R_2=R$, $I_i=k_imR^2$, $v_i=\\omega_iR$.",
+                  "intuition": "Dla brył staczających się z tej samej wysokości ta sama początkowa energia potencjalna $mgh$ zamienia się w całkowitą energię kinetyczną. Jednak podział tej energii między ruch postępowy i obrotowy zależy od współczynnika momentu bezwładności $k$. Im większy współczynnik $k$ (bardziej wydrążona bryła), tym większa część energii zostaje uwięziona w obrocie, a w konsekwencji bryła porusza się ruchem postępowym z mniejszą prędkością i mniejszym przyśpieszeniem liniowym.",
+                  "givens": "Walce W1 i W2: równe masy $m_1 = m_2 = m$, równe promienie $R_1 = R_2 = R$. Momenty bezwładności: $I_1 = k_1 m R^2$, $I_2 = k_2 m R^2$. Kąt nachylenia równi: $\\beta$. Toczenie bez poślizgu ($v = \\omega R$, $a = \\varepsilon R$).",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1",
-                      "content": "1. P: w walcu wydrążonym większa część masy leży dalej od osi, więc $k_2>k_1$.\n2. P: z zachowania energii każdy walec u podnóża ma całkowitą energię kinetyczną $mgh$.\n3. F: $mgh=\\frac12m(1+k_i)v_i^2$, zatem $v_i^2=2gh/(1+k_i)$. Większe $k_2$ oznacza mniejsze $v_2$, czyli $v_1>v_2$."
+                      "title": "Zadanie 2.1 – Ocena prawdziwości stwierdzeń",
+                      "content": "1. **Zdanie 1: Prawda (P).** Walec W1 jest jednorodny i pełny ($k_1 = \\frac{1}{2} = 0{,}5$). W walcu W2 (częściowo wydrążonym w środku) ta sama masa $m$ jest rozsunięta dalej od osi obrotu ku zewnętrznej krawędzi. Ponieważ $I = \\sum m_i r_i^2$, odsunięcie masy od osi zwiększa moment bezwładności, co oznacza, że współczynnik $k_2 > k_1$.\n\n2. **Zdanie 2: Prawda (P).** Z **Zasady Zachowania Energii Mechanicznej**, przy braku strat energii (tarcie statyczne nie wykonuje pracy strat, opory pominięto), całkowita energia kinetyczna u podnóża równi jest równa początkowej energii potencjalnej:\n$$E_{k,\\text{całk}} = mgh$$\nPonieważ masy obu walców $m$ i wysokość początkowa $h$ są identyczne, u podnóża oba walce mają taką samą całkowitą energię kinetyczną.\n\n3. **Zdanie 3: Fałsz (F).** Całkowita energia kinetyczna to:\n$$E_{k,\\text{całk}} = \\frac{1}{2} m v^2 + \\frac{1}{2} I \\omega^2 = \\frac{1}{2} m (1 + k) v^2 = mgh \\implies v = \\sqrt{\\frac{2gh}{1 + k}}$$\nPonieważ $k_2 > k_1$, mianownik dla walca W2 jest większy, czyli walec pełny osiąga większą prędkość postępową: $v_1 > v_2$. Zdanie mówiące, że $v_1 < v_2$, jest więc fałszywe."
                     },
                     {
-                      "title": "Zadanie 2.2",
-                      "content": "Po przebyciu drogi $s$ wzdłuż równi walec obniża się o $h=s\\sin\\beta$.\n$mgs\\sin\\beta=\\frac12mv^2+\\frac12I_2\\omega^2$.\nPo podstawieniu $I_2=k_2mR^2$ i $\\omega=v/R$:\n$mgs\\sin\\beta=\\frac12m(1+k_2)v^2$.\nRuch rozpoczyna się od spoczynku, więc $v^2=2as$.\n$g\\sin\\beta=(1+k_2)a$.\nOstatecznie $a=\\frac{g\\sin\\beta}{1+k_2}$."
+                      "title": "Zadanie 2.2 – Wyprowadzenie wzoru na przyśpieszenie liniowe walca W2",
+                      "content": "**Metoda I – z równań dynamiki Newtona:**\n1. II zasada dynamiki dla ruchu postępowego środka masy wzdłuż równi:\n$$m a = mg \\sin\\beta - T$$\ngdzie $T$ to siła tarcia statycznego skierowana w górę równi.\n2. II zasada dynamiki dla ruchu obrotowego walca wokół osi symetrii:\n$$I_2 \\varepsilon = T \\cdot R$$\n3. Z warunku toczenia bez poślizgu $\\varepsilon = \\frac{a}{R}$. Podstawiamy $I_2 = k_2 m R^2$:\n$$(k_2 m R^2) \\left(\\frac{a}{R}\\right) = T \\cdot R \\implies T = k_2 m a$$\n4. Wstawiamy wyznaczoną siłę tarcia do równania ruchu postępowego:\n$$m a = mg \\sin\\beta - k_2 m a$$\n$$m a + k_2 m a = mg \\sin\\beta$$\n$$m (1 + k_2) a = mg \\sin\\beta$$\nDzielimy obustronnie przez masę $m$ i nawias $(1 + k_2)$:\n$$a = \\frac{g \\sin\\beta}{1 + k_2}$$\n*(Metoda alternatywna – z Zasady Zachowania Energii: $mgs\\sin\\beta = \\frac{1}{2}m(1+k_2)v^2$, a z ruchu jednostajnie przyspieszonego $v^2 = 2as$, co po wstawieniu daje $mgs\\sin\\beta = m(1+k_2)as \\implies a = \\frac{g\\sin\\beta}{1+k_2}$).*"
                     }
                   ],
-                  "answer": "2.1: P, P, F.\n2.2: $a=\\frac{g\\sin\\beta}{1+k_2}$.",
-                  "trap": "Równe całkowite energie kinetyczne nie oznaczają równych prędkości postępowych.",
+                  "numerical": "2.1: 1-P, 2-P, 3-F; 2.2: $a = \\frac{g \\sin\\beta}{1 + k_2}$",
+                  "answer": "2.1: 1 – P, 2 – P, 3 – F;\n2.2: Wartość przyśpieszenia liniowego walca W2 wynosi $a = \\frac{g \\sin\\beta}{1 + k_2}$.",
+                  "trap": "Równość całkowitej energii kinetycznej nie oznacza równości prędkości postępowych! Bryła o większym momencie bezwładności 'zużywa' większą część energii na obrót, przez co porusza się ruchem postępowym wolniej i stacza się dłużej.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2025-maj-matura-rozszerzona-odpowiedzi.pdf#page=11\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 11–16</a>."
                 },
                 "solutionSource": {
@@ -7729,6 +8945,110 @@ window.FIZYKOREK_COURSES = {
                   "pages": [
                     11,
                     16
+                  ]
+                }
+              },
+              {
+                "id": "matura-cke-bryla-2024-grudzien-zad-3",
+                "originalTaskId": "matura-cke-2024-grudzien-zad-3",
+                "number": 202412,
+                "title": "Próbna matura grudzień 2024 zad. 3 nowa formuła",
+                "year": "2024 grudzień",
+                "difficulty": 4,
+                "source": "Matura próbna CKE 2024 (Grudzień)",
+                "link": "data/arkusze_cke/2024/fizyka-2024-grudzien-probna-rozszerzona.pdf",
+                "formula": "2023",
+                "sourcePages": [
+                  8,
+                  10
+                ],
+                "tags": [
+                  "Matura CKE",
+                  "Bryła sztywna",
+                  "Toczenie bez poślizgu",
+                  "Tarcie statyczne",
+                  "Prędkość punktów"
+                ],
+                "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 3.</h4><p>Walec $\\mathcal W$ toczy się po poziomym płaskim podłożu wzdłuż osi $x$. Walec jest rozpędzany przez cienką linkę nawiniętą na jego powierzchnię boczną, która to linka jest ciągnięta ze stałą poziomą siłą $\\vec F$ (zobacz rysunek 1.).</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2024-grudzien-z3-rys1.png\" alt=\"Rysunek 1. Walec rozpędzany linką\" class=\"theory-img\" style=\"max-height:390px;display:block;margin:15px auto;\"></div><p>Moment bezwładności walca $\\mathcal W$ względem jego osi symetrii przechodzącej przez środek masy $S$ walca jest równy:</p><p>$I_0=\\frac12mR^2$</p><p>gdzie $m$ jest masą walca, $R$ jest promieniem walca.</p><p>Do analizy zagadnienia przyjmij model zjawiska, w którym:</p><ul><li>walec toczył się <u>bez poślizgu</u></li><li>w kierunku poziomym na walec działały tylko stała siła tarcia statycznego $\\vec T$ oraz siła $\\vec F$</li><li>siła tarcia $\\vec T$ między walcem a podłożem <u>nie osiągnęła</u> wartości maksymalnej</li><li>pomijamy inne (tzn. oprócz tarcia statycznego) opory ruchu</li><li>ruch walca rozpatrujemy w inercjalnym układzie odniesienia związanym z podłożem, w jednorodnym, ziemskim polu grawitacyjnym</li><li>pomijamy masę linki.</li></ul><h4>Zadanie 3.1. (0–2)</h4><p>W pewnej chwili $t$ środek masy $S$ walca $\\mathcal W$ osiągnął prędkość o wartości $v_S=2{,}5\\text{ m/s}$.</p><p>Na rysunku 2. oznaczono punkty $A$ i $B$ na powierzchni walca w chwili $t$ (odcinek $SA$ jest pionowy, a odcinek $SB$ jest poziomy).</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2024-grudzien-z3-rys2.png\" alt=\"Rysunek 2. Punkty A i B na walcu\" class=\"theory-img\" style=\"max-height:340px;display:block;margin:15px auto;\"></div><p><strong>Wpisz w wykropkowane miejsca poniżej wartości prędkości punktu $\\boldsymbol A$ i punktu $\\boldsymbol B$ walca względem podłoża.</strong></p><p>$v_A=\\ldots\\ldots\\ldots\\text{ m/s}$</p><p>$v_B=\\ldots\\ldots\\ldots\\text{ m/s}$</p><h4>Zadanie 3.2. (0–4)</h4><p><strong>Wyznacz współrzędną $\\boldsymbol{T_x}$ siły tarcia $\\boldsymbol{\\vec T}$ w zależności tylko od wartości $\\boldsymbol F$ siły $\\boldsymbol{\\vec F}$.</strong></p><p><strong>Na podstawie otrzymanego wyniku zweryfikuj, czy zwrot siły tarcia $\\boldsymbol{\\vec T}$ – przyjęty w rozwiązaniu – jest poprawny. Następnie na rysunku 3. narysuj siłę tarcia $\\boldsymbol{\\vec T}$ przyłożoną w punkcie $\\boldsymbol C$ walca – uwzględnij jej poprawny kierunek i zwrot.</strong></p><p><em>Wskazówka: Przyjmij, że gdy wektor jest skierowany zgodnie ze zwrotem osi $x$, to jego współrzędna jest dodatnia, a gdy wektor jest skierowany przeciwnie do zwrotu osi $x$, to jego współrzędna jest ujemna.</em></p><div class=\"chart-container-svg\"><img src=\"img/rigid/2024-grudzien-z3-rys3.png\" alt=\"Rysunek 3. Walec i punkt C\" class=\"theory-img\" style=\"max-height:360px;display:block;margin:15px auto;\"></div></div>",
+                "solution": {
+                  "intuition": "Prędkość dowolnego punktu toczącej się bryły względem podłoża jest wektorową sumą prędkości ruchu postępowego środka masy oraz prędkości liniowej w ruchu obrotowym wokół środka masy. W dynamice toczenia ze stałą poziomą siłą przyłożoną na górze walca siła tarcia statycznego z podłożem może być skierowana zgodnie ze zwrotem siły ciągnącej, jeśli moment siły zewnętrznej przewyższa zapotrzebowanie na przyspieszenie obrotowe.",
+                  "givens": "Masa walca: $m$, promień: $R$, moment bezwładności: $I_0 = \\frac{1}{2}mR^2$. Prędkość środka masy w chwili $t$: $v_S = 2{,}5\\text{ m/s}$. Siła pozioma $F$ przyłożona na samej górze walca. Toczenie bez poślizgu.",
+                  "steps": [
+                    {
+                      "title": "Zadanie 3.1 – Wyznaczenie prędkości punktów A i B względem podłoża",
+                      "content": "Z warunku toczenia bez poślizgu prędkość kątowa walca wynosi $\\omega = \\frac{v_S}{R}$. Wektor prędkości dowolnego punktu względem podłoża to suma wektorowa prędkości postępowej środka masy $\\vec{v}_S$ oraz prędkości obrotowej $\\vec{v}_{\\text{obr}}$ względem środka masy ($|\\vec{v}_{\\text{obr}}| = \\omega R = v_S = 2{,}5\\text{ m/s}$):\n1. **Punkt A (na samej górze walca):**\nWektor prędkości ruchu obrotowego ma zwrot poziomy w prawo, czyli identyczny ze zwrotem prędkości środka masy $\\vec{v}_S$:\n$$v_A = v_S + \\omega R = v_S + v_S = 2 v_S = 2 \\cdot 2{,}5\\text{ m/s} = 5{,}0\\text{ m/s}$$\n2. **Punkt B (na prawym brzegu walca na wysokości osi):**\nWektor prędkości środka masy $\\vec{v}_S$ jest skierowany poziomo w prawo, a wektor prędkości obrotowej $\\vec{v}_{\\text{obr}}$ w punkcie B jest skierowany pionowo w dół. Wektory te są wzajemnie prostopadłe:\n$$v_B = \\sqrt{v_S^2 + (\\omega R)^2} = \\sqrt{v_S^2 + v_S^2} = v_S \\sqrt{2} = 2{,}5\\sqrt{2}\\text{ m/s} \\approx 3{,}54\\text{ m/s}$$"
+                    },
+                    {
+                      "title": "Zadanie 3.2 – Układ równań dynamiki i wyznaczenie siły tarcia $T_x$",
+                      "content": "Załóżmy, że siła tarcia statycznego $\\vec{T}$ działająca w punkcie styku $C$ z podłożem jest skierowana zgodnie ze zwrotem osi $x$ (w prawo, czyli $T_x > 0$):\n1. **II zasada dynamiki dla ruchu postępowego środka masy:**\n$$m a = F + T$$\n2. **II zasada dynamiki dla ruchu obrotowego wokół środka masy $S$:**\nSiła $F$ przyłożona na górze walca daje moment obrotowy zgodny ze wskazówkami zegara: $M_F = +F \\cdot R$.\nSiła tarcia $T$ przyłożona na dole walca (skierowana w prawo) daje moment przeciwny do wskazówek zegara: $M_T = -T \\cdot R$.\n$$I_0 \\varepsilon = F R - T R$$\n3. **Warunek toczenia bez poślizgu:**\n$$\\varepsilon = \\frac{a}{R}$$\nPodstawiamy $I_0 = \\frac{1}{2} m R^2$:\n$$\\left(\\frac{1}{2} m R^2\\right) \\left(\\frac{a}{R}\\right) = (F - T) R \\implies \\frac{1}{2} m a = F - T$$"
+                    },
+                    {
+                      "title": "Zadanie 3.2 – Rozwiązanie układu równań, znak współrzędnej i zwrot wektora",
+                      "content": "Mnożymy drugie równanie obustronnie przez 2:\n$$m a = 2F - 2T$$\nPrzyrównujemy prawe strony obu równań na $m a$:\n$$F + T = 2F - 2T$$\n$$3T = F \\implies T = \\frac{1}{3} F$$\nWspółrzędna siły tarcia wynosi zatem:\n$$T_x = +\\frac{1}{3} F$$\nDodatni znak współrzędnej ($T_x > 0$) potwierdza, że przyjęty zwrot był prawidłowy – siła tarcia statycznego $\\vec{T}$ w punkcie styku $C$ jest skierowana **w prawo (zgodnie ze zwrotem osi $x$)**.\n<div class=\"chart-container-svg\"><img src=\"img/rigid/2024-grudzien-z3-rozwiazanie.png\" alt=\"Oficjalny rysunek rozwiązania CKE — zwrot tarcia\" class=\"theory-img\" style=\"max-height:360px;display:block;margin:15px auto;\"></div>"
+                    }
+                  ],
+                  "numerical": "3.1: $v_A = 5\\text{ m/s}$, $v_B = 2{,}5\\sqrt{2}\\text{ m/s}$; 3.2: $T_x = +\\frac{1}{3}F$, zwrot w prawo (zgodnie z osią $x$)",
+                  "answer": "3.1: $v_A = 5\\text{ m/s}$, $v_B = 2{,}5\\sqrt{2}\\text{ m/s}$ (ok. $3{,}54\\text{ m/s}$);\n3.2: Współrzędna siły tarcia wynosi $T_x = +\\frac{1}{3}F$. Wektor siły tarcia $\\vec{T}$ jest skierowany w prawo, zgodnie ze zwrotem osi $x$.",
+                  "trap": "Powszechne błędne przekonanie nakazuje zawsze rysować siłę tarcia przeciwnie do kierunku ruchu ciała. W przypadku walca ciągniętego na samej górze, moment siły $F$ stara się zakręcić walec 'za szybko' w stosunku do przyspieszenia liniowego. Dlatego tarcie statyczne z podłożem popycha środek masy do przodu (w prawo), jednocześnie hamując nadmierny obrót!",
+                  "source": "Opracowano na podstawie oficjalnych zasad oceniania CKE. <a href=\"data/arkusze_cke/2024/fizyka-2024-grudzien-probna-rozszerzona-odpowiedzi.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 10–14</a>."
+                },
+                "solutionSource": {
+                  "publisher": "Centralna Komisja Egzaminacyjna",
+                  "url": "data/arkusze_cke/2024/fizyka-2024-grudzien-probna-rozszerzona-odpowiedzi.pdf",
+                  "localFile": "data/arkusze_cke/2024/fizyka-2024-grudzien-probna-rozszerzona-odpowiedzi.pdf",
+                  "pages": [
+                    10,
+                    14
+                  ]
+                }
+              },
+              {
+                "id": "matura-cke-bryla-2024-czerwiec-zad-2",
+                "originalTaskId": "matura-cke-2024-czerwiec-zad-2",
+                "number": 202406,
+                "title": "Matura czerwiec 2024 zad. 2 nowa formuła",
+                "year": "2024 czerwiec",
+                "difficulty": 3,
+                "source": "Matura CKE 2024 (Czerwiec – termin dodatkowy)",
+                "link": "data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona.pdf",
+                "formula": "2023",
+                "sourcePages": [
+                  6,
+                  7
+                ],
+                "tags": [
+                  "Matura CKE",
+                  "Bryła sztywna",
+                  "Statyka",
+                  "Moment siły",
+                  "Belka"
+                ],
+                "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 2.</h4><p>Dana jest jednorodna, sztywna belka o masie $m=120\\text{ kg}$ i długości $l=2{,}8\\text{ m}$. Tę belkę przymocowano do dwóch pionowych podpór: $P_A$ i $P_B$. Podpory $P_A$ i $P_B$ łączą się z belką w punktach $A$ i $B$. Obie podpory są na sztywno przytwierdzone do poziomego podłoża. Mocowanie pojedynczej podpory do belki umożliwia jej obrót bez tarcia w płaszczyźnie pionowej. Gdy belka jest przymocowana do obu podpór, to utrzymuje się nieruchomo w pozycji poziomej (zobacz rysunek 1.).</p><p>Odległość między punktami $A$ i $B$ wynosi $|AB|=1{,}0\\text{ m}$. Na rysunku poniżej przedstawiono opisaną sytuację. Punkt środka masy belki oznaczono jako $C$. Przyjmij, że belka spoczywa poziomo w inercjalnym układzie odniesienia, w jednorodnym, ziemskim polu grawitacyjnym.</p><p>Siły, z jakimi podpory $P_A$ i $P_B$ działają na belkę w punktach $A$ i $B$, oznaczymy – odpowiednio – jako $\\vec F_A$ i $\\vec F_B$. Siłę ciężkości działającą na belkę oznaczymy jako $\\vec F_C$.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2024-czerwiec-z2-rys1.png\" alt=\"Rysunek 1. Belka na podporach\" class=\"theory-img\" style=\"max-height:370px;display:block;margin:15px auto;\"></div><h4>Zadanie 2.1. (0–2)</h4><p><strong>Na rysunku 2. narysuj i oznacz wektory sił $\\boldsymbol{\\vec F_A}$, $\\boldsymbol{\\vec F_B}$ i $\\boldsymbol{\\vec F_C}$ w opisanej sytuacji. Zachowaj odpowiednie kierunki i zwroty tych sił oraz relacje (większy, równy, mniejszy) między ich wartościami.</strong></p><div class=\"chart-container-svg\"><img src=\"img/rigid/2024-czerwiec-z2-rys2.png\" alt=\"Rysunek 2. Schemat do narysowania sił\" class=\"theory-img\" style=\"max-height:470px;display:block;margin:15px auto;\"></div><h4>Zadanie 2.2. (0–3)</h4><p>Przyjmij do obliczeń $g=9{,}8\\text{ m/s}^2$.</p><p><strong>Oblicz $\\boldsymbol{F_A}$ i $\\boldsymbol{F_B}$ – wartości sił $\\boldsymbol{\\vec F_A}$ i $\\boldsymbol{\\vec F_B}$. Zapisz obliczenia.</strong></p></div>",
+                "solution": {
+                  "intuition": "W zagadnieniach równowagi dźwigni podparta w dwóch miejscach belka nie zawsze naciska na obie podpory ku dołowi. Jeżeli środek ciężkości znajduje się poza odcinkiem między podporami, podpora wewnętrzna działa jak punkt podparcia (oś obrotu), a podpora skrajna musi przytrzymywać belkę w dół, przeciwdziałając jej obrotowi pod wpływem grawitacji.",
+                  "givens": "Masa belki: $m = 120\\text{ kg}$, długość belki: $l = 2{,}8\\text{ m}$. Odległość między podporami: $|AB| = 1{,}0\\text{ m}$. $g = 9{,}8\\text{ m/s}^2$.",
+                  "steps": [
+                    {
+                      "title": "Zadanie 2.1 – Analiza zwrotów i relacji wartości sił",
+                      "content": "Środek masy $C$ jednorodnej belki leży w jej geometrycznym środku: $|AC| = \\frac{l}{2} = 1{,}4\\text{ m}$.\nOdległość od podpory B do środka masy $C$ wynosi:\n$$|BC| = |AC| - |AB| = 1{,}4\\text{ m} - 1{,}0\\text{ m} = 0{,}4\\text{ m}$$\n1. **Kierunki i zwroty sił:**\n- Siła ciężkości $\\vec{F}_C$ jest przyłożona w punkcie $C$ i skierowana pionowo w dół.\n- Względem punktu $B$ siła $\\vec{F}_C$ wywołuje moment siły obracający belkę zgodnie z ruchem wskazówek zegara. Aby belka nie obracała się wokół podpory B, podpora A musi wywierać siłę $\\vec{F}_A$ skierowaną **pionowo w dół** (przytrzymuje lewy koniec belki).\n- Podpora B musi utrzymać całą belkę przeciwstawiając się siłom $\\vec{F}_A$ i $\\vec{F}_C$, zatem siła $\\vec{F}_B$ jest skierowana **pionowo w górę**.\n2. **Relacje między wartościami sił:**\nZ I warunku równowagi w pionie: $F_B = F_A + F_C$, stąd $F_B > F_C$ oraz $F_B > F_A$.\nZ II warunku równowagi momentów względem punktu B: $F_A \\cdot 1{,}0\\text{ m} = F_C \\cdot 0{,}4\\text{ m} \\implies F_A = 0{,}4 F_C < F_C$.\nOstateczna relacja między wartościami sił to:\n$$F_B > F_C > F_A$$\n<div class=\"chart-container-svg\"><img src=\"img/rigid/2024-czerwiec-z2-rozwiazanie.png\" alt=\"Oficjalny schemat sił CKE\" class=\"theory-img\" style=\"max-height:430px;display:block;margin:15px auto;\"></div>"
+                    },
+                    {
+                      "title": "Zadanie 2.2 – Obliczenie wartości sił $F_A$ i $F_B$",
+                      "content": "1. **Obliczenie ciężaru belki $F_C$:**\n$$F_C = m g = 120\\text{ kg} \\cdot 9{,}8\\text{ m/s}^2 = 1176\\text{ N}$$\n2. **Równowaga momentów sił względem podpory B:**\nWybieramy punkt B jako oś obrotu, co eliminuje niewiadomą siłę $F_B$:\n$$\\sum M_B = 0 \\implies F_A \\cdot |AB| = F_C \\cdot |BC|$$\n$$F_A \\cdot 1{,}0\\text{ m} = 1176\\text{ N} \\cdot 0{,}4\\text{ m}$$\n$$F_A = 470{,}4\\text{ N} \\approx 470\\text{ N}$$\n3. **Równowaga sił w pionie (I warunek równowagi):**\n$$\\sum F_y = 0 \\implies F_B = F_A + F_C$$\n$$F_B = 470{,}4\\text{ N} + 1176\\text{ N} = 1646{,}4\\text{ N} \\approx 1646\\text{ N} \\quad (\\text{lub } 1{,}65\\text{ kN})$$"
+                    }
+                  ],
+                  "numerical": "2.1: $\\vec{F}_A$ w dół, $\\vec{F}_B$ w górę, $\\vec{F}_C$ w dół; $F_B > F_C > F_A$; 2.2: $F_A \\approx 470\\text{ N}$, $F_B \\approx 1646\\text{ N}$",
+                  "answer": "2.1: Zwroty: $\\vec{F}_A$ w dół, $\\vec{F}_B$ w górę, $\\vec{F}_C$ w dół; relacja: $F_B > F_C > F_A$;\n2.2: Wartości sił wynoszą: $F_A = 470{,}4\\text{ N} \\approx 470\\text{ N}$ oraz $F_B = 1646{,}4\\text{ N} \\approx 1646\\text{ N}$.",
+                  "trap": "Intuicja podpowiada, że podpora zawsze 'podpiera' od dołu (pcha w górę). Tutaj podpora A musi ciągnąć w dół (działać jak kotwa), w przeciwnym razie belka przeważyłaby się i obróciła wokół podpory B!",
+                  "source": "Opracowano na podstawie oficjalnych zasad oceniania CKE. <a href=\"data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona-odpowiedzi.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 8–10</a>."
+                },
+                "solutionSource": {
+                  "publisher": "Centralna Komisja Egzaminacyjna",
+                  "url": "data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
+                  "localFile": "data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
+                  "pages": [
+                    8,
+                    10
                   ]
                 }
               },
@@ -7756,20 +9076,21 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 2.</h4><p>Jednorodny walec o masie $m=10\\text{ kg}$ i promieniu $R$ był ciągnięty siłą o wartości $F=30\\text{ N}$ po płaskiej poziomej powierzchni. Siła $\\vec F$ była przyłożona poziomo do uchwytu i prostopadle do osi obrotu walca (zobacz rysunki 1.–3.).</p><p>Do analizy zagadnienia przyjmij model zjawiska, w którym:</p><ul><li>walec toczył się bez poślizgu</li><li>w kierunku poziomym na walec działały tylko: stała siła tarcia statycznego $\\vec T$ oraz siła $\\vec F$</li><li>siła tarcia $\\vec T$ między walcem a powierzchnią <u>nie osiągnęła</u> wartości maksymalnej</li><li>pomijamy inne (tzn. oprócz tarcia statycznego) opory ruchu</li><li>moment bezwładności walca względem jego osi obrotu – będącej osią symetrii walca – wyraża się wzorem: $I_0=\\frac12mR^2$</li><li>ruch walca rozpatrujemy w inercjalnym układzie odniesienia związanym z ziemią, w jednorodnym, ziemskim polu grawitacyjnym</li><li>pomijamy masę osi obrotu walca i masę jej uchwytu.</li></ul><div class=\"chart-container-svg\"><img src=\"img/energy/2024-maj-z2-rys1.png\" alt=\"Rysunek 1. – widok z perspektywy\" class=\"theory-img\" style=\"max-height:500px;display:block;margin:15px auto;\"></div><div class=\"chart-container-svg\"><img src=\"img/energy/2024-maj-z2-rys23.png\" alt=\"Rysunki 2. i 3. – widok z boku i z góry\" class=\"theory-img\" style=\"max-height:500px;display:block;margin:15px auto;\"></div><h4>Zadanie 2.1. (0–3)</h4><p>Całkowitą energię kinetyczną walca w pewnej chwili $t$ ruchu oznaczymy jako $E_{kin\\ calk}$, a energię kinetyczną ruchu postępowego walca w tej samej chwili $t$ oznaczymy jako $E_{kin\\ post}$.</p><p><strong>Oblicz iloraz $\\boldsymbol{\\frac{E_{kin\\ post}}{E_{kin\\ calk}}}$. Zapisz obliczenia.</strong></p><p><strong>Wynik podaj w postaci <u>ułamka zwykłego</u>.</strong></p><h4>Zadanie 2.2. (0–3)</h4><p><strong>Oblicz wartość przyśpieszenia (liniowego) środka masy walca. Zapisz obliczenia.</strong></p></div>",
                 "solution": {
-                  "intuition": "Praca przyłożonej siły zwiększa sumę energii ruchu postępowego i obrotowego walca.",
-                  "givens": "$m=10\\text{ kg}$, $F=30\\text{ N}$, $I_0=\\frac12mR^2$, $v=\\omega R$.",
+                  "intuition": "Ciągnięcie walca za oś symetrii siłą poziomą wprowadza go w ruch postępowy i obrotowy. Zgodnie z twierdzeniem o pracy i energii praca siły zewnętrznej jest równa przyrostowi całkowitej energii kinetycznej. Siła tarcia statycznego w toczeniu bez poślizgu nie rozprasza energii mechanicznej na ciepło, lecz odpowiada za sprzężenie ruchu postępowego z ruchem obrotowym.",
+                  "givens": "Walec: masa $m = 10\\text{ kg}$, promień $R$, moment bezwładności $I_0 = \\frac{1}{2}mR^2$. Siła ciągnąca: $F = 30\\text{ N}$ przyłożona do osi walca. Toczenie bez poślizgu ($v = \\omega R$).",
                   "steps": [
                     {
-                      "title": "Zadanie 2.1",
-                      "content": "$E_{kin\\ calk}=\\frac12mv^2+\\frac12I_0\\omega^2$.\nPo podstawieniu momentu bezwładności i warunku toczenia:\n$E_{kin\\ calk}=\\frac12mv^2+\\frac14mv^2=\\frac34mv^2$.\nZatem $\\frac{E_{kin\\ post}}{E_{kin\\ calk}}=\\frac{1/2}{3/4}=\\frac23$."
+                      "title": "Zadanie 2.1 – Obliczenie stosunku energii kinetycznej postępowej do całkowitej",
+                      "content": "1. **Energia kinetyczna ruchu postępowego środka masy:**\n$$E_{kin\\ post} = \\frac{1}{2} m v^2$$\n2. **Energia kinetyczna ruchu obrotowego wokół osi środka masy:**\nZ warunku toczenia bez poślizgu $\\omega = \\frac{v}{R}$:\n$$E_{kin\\ obr} = \\frac{1}{2} I_0 \\omega^2 = \\frac{1}{2} \\left(\\frac{1}{2} m R^2\\right) \\left(\\frac{v}{R}\\right)^2 = \\frac{1}{4} m v^2$$\n3. **Całkowita energia kinetyczna walca:**\n$$E_{kin\\ calk} = E_{kin\\ post} + E_{kin\\ obr} = \\frac{1}{2} m v^2 + \\frac{1}{4} m v^2 = \\frac{3}{4} m v^2$$\n4. **Obliczenie szukanego ilorazu:**\n$$\\frac{E_{kin\\ post}}{E_{kin\\ calk}} = \\frac{\\frac{1}{2} m v^2}{\\frac{3}{4} m v^2} = \\frac{1/2}{3/4} = \\frac{2}{3}$$"
                     },
                     {
-                      "title": "Zadanie 2.2",
-                      "content": "Tarcie statyczne przy toczeniu bez poślizgu po nieruchomym podłożu nie zmienia całkowitej energii kinetycznej. Ciężar i reakcja podłoża także nie wykonują pracy.\n$Fs=\\Delta E_{kin\\ calk}=\\frac34m(v^2-v_0^2)$.\nPonieważ $v^2-v_0^2=2as$, otrzymujemy $Fs=\\frac32mas$.\nStąd $a=\\frac{2F}{3m}$.\n$a=\\frac{2\\cdot30}{3\\cdot10}\\text{ m/s}^2=2\\text{ m/s}^2$."
+                      "title": "Zadanie 2.2 – Wyznaczenie przyśpieszenia środka masy walca",
+                      "content": "**Sposób I – z twierdzenia o pracy i energii kinetycznej:**\nSiła ciągnąca $F$ działa wzdłuż przesunięcia środka masy na drodze $s$, wykonując pracę $W = F \\cdot s$.\nSiła tarcia statycznego przy toczeniu bez poślizgu nie wykonuje pracy, gdyż punkt przyłożenia siły tarcia ma prędkość chwilową równą zero. Praca siły $F$ zwiększa całkowitą energię kinetyczną walca (początkowo spoczywającego):\n$$W = \\Delta E_{kin\\ calk} \\implies F \\cdot s = \\frac{3}{4} m v^2$$\nW ruchu jednostajnie przyśpieszonym od spoczynku zachodzi związek $v^2 = 2as$. Podstawiamy:\n$$F \\cdot s = \\frac{3}{4} m (2 a s) = \\frac{3}{2} m a s$$\nDzielimy obustronnie przez drogę $s$:\n$$F = \\frac{3}{2} m a \\implies a = \\frac{2F}{3m}$$\nPodstawiamy wartości liczbowe ($F = 30\\text{ N}$, $m = 10\\text{ kg}$):\n$$a = \\frac{2 \\cdot 30\\text{ N}}{3 \\cdot 10\\text{ kg}} = \\frac{60}{30}\\text{ m/s}^2 = 2\\text{ m/s}^2$$\n*(Sposób II – z II zasady dynamiki Newtona: $ma = F - T$ oraz $I_0\\varepsilon = TR \\implies \\frac{1}{2}ma = T$. Dodając stronami: $\\frac{3}{2}ma = F \\implies a = \\frac{2F}{3m} = 2\\text{ m/s}^2$).*"
                     }
                   ],
-                  "answer": "2.1: $\\frac23$.\n2.2: $a=2\\text{ m/s}^2$.",
-                  "trap": "Całkowita energia walca obejmuje również obrót.",
+                  "numerical": "2.1: $\\frac{E_{kin\\ post}}{E_{kin\\ calk}} = \\frac{2}{3}$; 2.2: $a = 2\\text{ m/s}^2$",
+                  "answer": "2.1: Iloraz energii wynosi $\\frac{2}{3}$;\n2.2: Wartość przyśpieszenia środka masy walca wynosi $a = 2\\text{ m/s}^2$.",
+                  "trap": "W zadaniu 2.2 nie wolno zapisać $a = F/m$! Gdyby nie było tarcia, walec ślizgałby się bez obrotu z przyspieszeniem $3\\text{ m/s}^2$. Tarcie statyczne wymusza obrót walca, pochłaniając część siły ciągnącej i zmniejszając przyspieszenie liniowe do $2\\text{ m/s}^2$.",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2024-maj-matura-rozszerzona-odpowiedzi.pdf#page=7\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 7–12</a>."
                 },
                 "solutionSource": {
@@ -7779,6 +9100,60 @@ window.FIZYKOREK_COURSES = {
                   "pages": [
                     7,
                     12
+                  ]
+                }
+              },
+              {
+                "id": "matura-cke-bryla-2023-czerwiec-zad-3",
+                "originalTaskId": "matura-cke-2023-czerwiec-zad-3",
+                "number": 202306,
+                "title": "Matura czerwiec 2023 zad. 3 nowa formuła",
+                "year": "2023 czerwiec",
+                "difficulty": 3,
+                "source": "Matura CKE 2023 (Czerwiec – termin dodatkowy)",
+                "link": "data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona.pdf",
+                "formula": "2023",
+                "sourcePages": [
+                  9,
+                  10
+                ],
+                "tags": [
+                  "Matura CKE",
+                  "Bryła sztywna",
+                  "Statyka",
+                  "Moment siły",
+                  "Siła wyporu"
+                ],
+                "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 3.</h4><p>Jednorodna belka podparta w punkcie $O$ – w środku swojej długości – utrzymuje się nieruchomo w pozycji poziomej (zobacz rysunek 1.).</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2023-czerwiec-z3-rys1.png\" alt=\"Rysunek 1. Belka podparta w środku\" class=\"theory-img\" style=\"max-height:230px;display:block;margin:15px auto;\"></div><p>W pierwszym etapie doświadczenia, na przeciwległych końcach tej belki zawieszono (na cienkich, lekkich nitkach) dwa jednorodne klocki A i B. Klocki były wykonane z różnych materiałów i miały kształty sześcianów o krawędziach odpowiednio $a_A=2\\text{ cm}$ i $a_B=4\\text{ cm}$. Po zawieszeniu klocków belka wciąż pozostawała w równowadze (zobacz rysunek 2.).</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2023-czerwiec-z3-rys2.png\" alt=\"Rysunek 2. Belka z klockami A i B\" class=\"theory-img\" style=\"max-height:350px;display:block;margin:15px auto;\"></div><p>W drugim etapie doświadczenia obydwa sześciany zanurzono całkowicie w naczyniu z wodą o gęstości $\\rho_w=1000\\text{ kg/m}^3$, a belkę zrównoważono dodatkowym ciężarkiem C, który położono na jednym z końców belki (zobacz rysunek 3.). Belka w ten sposób zrównoważona utrzymywała się nieruchomo w pozycji poziomej.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2023-czerwiec-z3-rys3.png\" alt=\"Rysunek 3. Klocki zanurzone w wodzie i ciężarek C\" class=\"theory-img\" style=\"max-height:390px;display:block;margin:15px auto;\"></div><h4>Zadanie 3.1. (0–4)</h4><p><strong>Oblicz masę ciężarka $\\boldsymbol C$.</strong></p><h4>Zadanie 3.2. (0–2)</h4><p><strong>Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p><table class=\"pf-table\"><tbody><tr><td class=\"pf-num\">1.</td><td>Zrównoważenie belki z zanurzonymi sześcianami można osiągnąć bez użycia dodatkowego ciężarka, gdy przesunie się punkt zawieszenia klocka A bliżej punktu $O$ podparcia belki.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr><tr><td class=\"pf-num\">2.</td><td>Zrównoważenie belki z zanurzonymi sześcianami można osiągnąć bez użycia dodatkowego ciężarka, gdy przesunie się punkt $O$ podparcia belki w stronę klocka B.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr><tr><td class=\"pf-num\">3.</td><td>Zrównoważenie belki z zanurzonymi sześcianami można osiągnąć w cieczy o mniejszej gęstości niż gęstość wody, gdy zamiast ciężarka C położymy ciężarek o mniejszej masie.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr></tbody></table></div>",
+                "solution": {
+                  "intuition": "Warunek równowagi dźwigni dwustronnej podpartej w środku wymaga równości momentów sił naciągu po obu stronach. W powietrzu równe ramiona oznaczają równe ciężary (masy) klocków. Po zanurzeniu w cieczy na każdy klocek działa siła wyporu proporcjonalna do jego objętości. Ponieważ większy sześcian doznaje znacznie większej siły wyporu, jego naciąg nici maleje bardziej – aby przywrócić równowagę, po stronie większego klocka należy położyć ciężarek równoważący różnicę sił wyporu.",
+                  "givens": "Krawędzie klocków: $a_A = 2\\text{ cm} = 0{,}02\\text{ m}$, $a_B = 4\\text{ cm} = 0{,}04\\text{ m}$. Gęstość wody: $\\rho_w = 1000\\text{ kg/m}^3$. Podparcie belki w środku długości: $r_A = r_B = \\frac{l}{2}$.",
+                  "steps": [
+                    {
+                      "title": "Zadanie 3.1 – Równowaga w pierwszym etapie (wyznaczenie relacji mas)",
+                      "content": "W pierwszym etapie klocki wiszą w powietrzu na przeciwległych końcach belki podpartej w środku długości ($r_A = r_B = \\frac{l}{2}$):\n$$\\sum M_O = 0 \\implies m_A g \\cdot \\frac{l}{2} = m_B g \\cdot \\frac{l}{2} \\implies m_A = m_B$$\nMasy obu klocków są dokładnie równe."
+                    },
+                    {
+                      "title": "Zadanie 3.1 – Równowaga po zanurzeniu i obliczenie masy ciężarka C",
+                      "content": "W drugim etapie oba klocki zostają całkowicie zanurzone w wodzie o gęstości $\\rho_w = 1000\\text{ kg/m}^3$:\n1. Objętości klocków sześciennych:\n$$V_A = a_A^3 = (0{,}02\\text{ m})^3 = 8 \\cdot 10^{-6}\\text{ m}^3 = 8\\text{ cm}^3$$\n$$V_B = a_B^3 = (0{,}04\\text{ m})^3 = 64 \\cdot 10^{-6}\\text{ m}^3 = 64\\text{ cm}^3$$\n2. Siły naciągu nici działające na końce belki (ciężar pomniejszony o siłę wyporu Archimedesa):\n$$N_A = m_A g - F_{w,A} = m_A g - \\rho_w V_A g$$\n$$N_B = m_B g - F_{w,B} = m_B g - \\rho_w V_B g$$\nPonieważ $V_B > V_A$, siła wyporu działająca na klocek B jest większa, więc nić B ciągnie słabiej ($N_B < N_A$). Aby zrównoważyć belkę, dodatkowy ciężarek C o masie $m_C$ położono na prawym końcu belki (nad klockiem B):\n3. Warunek równowagi momentów sił względem podpory $O$:\n$$N_A \\cdot \\frac{l}{2} = (N_B + m_C g) \\cdot \\frac{l}{2}$$\nDzielimy obustronnie przez $\\frac{l}{2} g$:\n$$m_A - \\rho_w V_A = m_B - \\rho_w V_B + m_C$$\nWykorzystujemy równość mas $m_A = m_B$:\n$$m_C = \\rho_w (V_B - V_A) = \\rho_w \\Delta V$$\n4. Obliczenie numeryczne:\n$$\\Delta V = 64 \\cdot 10^{-6}\\text{ m}^3 - 8 \\cdot 10^{-6}\\text{ m}^3 = 56 \\cdot 10^{-6}\\text{ m}^3$$\n$$m_C = 1000\\text{ kg/m}^3 \\cdot 56 \\cdot 10^{-6}\\text{ m}^3 = 0{,}056\\text{ kg} = 56\\text{ g}$$"
+                    },
+                    {
+                      "title": "Zadanie 3.2 – Analiza wariantów modyfikacji układu",
+                      "content": "1. **Zdanie 1: Prawda (P).** Ponieważ naciąg nici A jest większy niż naciąg nici B ($N_A > N_B$), lewa strona przeważa. Przesunięcie punktu zawieszenia klocka A bliżej podpory $O$ zmniejsza ramię siły $N_A$, co pozwala uzyskać równość momentów $N_A r_A' = N_B r_B$ bez dodatkowego ciężarka.\n\n2. **Zdanie 2: Fałsz (F).** Przesunięcie punktu podparcia $O$ w stronę klocka B zwiększa ramię klocka A i zmniejsza ramię klocka B. Spowodowałoby to jeszcze większą przewagę momentu siły po lewej stronie, pogłębiając nierównowagę (podporę należałoby przesunąć w stronę klocka A).\n\n3. **Zdanie 3: Prawda (P).** Wzór $m_C = \\rho_{\\text{cieczy}} (V_B - V_A)$ wskazuje, że potrzebna masa ciężarka jest wprost proporcjonalna do gęstości cieczy. W cieczy o mniejszej gęstości różnica sił wyporu będzie mniejsza, więc wystarczy ciężarek o mniejszej masie $m_C$."
+                    }
+                  ],
+                  "numerical": "3.1: $m_C = 56\\text{ g}$ ($0{,}056\\text{ kg}$); 3.2: 1-P, 2-F, 3-P",
+                  "answer": "3.1: Masa ciężarka C wynosi $m_C = 56\\text{ g}$ (lub $0{,}056\\text{ kg}$);\n3.2: 1 – P, 2 – F, 3 – P.",
+                  "trap": "Siła wyporu zależy od objętości zanurzonego ciała, a nie od jego masy! Objętość sześcianu rośnie z sześcianem krawędzi ($V = a^3$), więc klocek o dwukrotnie większej krawędzi ma aż 8-krotnie większą objętość ($64\\text{ cm}^3$ wobec $8\\text{ cm}^3$).",
+                  "source": "Opracowano na podstawie oficjalnych zasad oceniania CKE. <a href=\"data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 10–11</a>."
+                },
+                "solutionSource": {
+                  "publisher": "Centralna Komisja Egzaminacyjna",
+                  "url": "data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
+                  "localFile": "data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
+                  "pages": [
+                    10,
+                    11
                   ]
                 }
               },
@@ -7805,20 +9180,21 @@ window.FIZYKOREK_COURSES = {
                 ],
                 "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 3.</h4><p>Wzdłuż osi jednorodnego walca o masie $m$ i promieniu $R$ przechodzi cienki pręt, wokół którego walec może się obracać. Do tego pręta przymocowano cienką nierozciągliwą linkę, którą przewieszono przez bloczek. Na końcu linki zawieszono ciężarek o masie $m$ (równej masie walca). Początkowo walec był unieruchomiony i spoczywał na stole. W pewnej chwili walec – ciągnięty przez linkę – rozpoczął ruch i toczył się dalej <u>bez poślizgu</u> po poziomej powierzchni stołu. Opisaną sytuację ilustrują rysunki 1. i 2.</p><p>Do analizy zagadnienia przyjmij model zjawiska, w którym:</p><ul><li>moment bezwładności walca względem jego osi symetrii jest równy $I=\\frac12mR^2$</li><li>pomijamy masę linki, masę bloczka oraz masę pręta na osi symetrii walca</li><li>zakładamy, że ruch walca i ciężarka odbywa się w układzie inercjalnym</li><li>siła tarcia statycznego $\\vec T$ między walcem a powierzchnią stołu <u>nie osiągnęła</u> wartości maksymalnej</li><li>pomijamy inne (tzn. oprócz tarcia statycznego) opory ruchu układu.</li></ul><div class=\"chart-container-svg\"><img src=\"img/energy/2023-maj-z3-rysunki.png\" alt=\"Rysunki 1. i 2. – walec i ciężarek\" class=\"theory-img\" style=\"max-height:500px;display:block;margin:15px auto;\"></div><h4>Zadanie 3.1. (0–2)</h4><p><strong>Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p><table class=\"pf-table\"><tbody><tr><td class=\"pf-num\">1.</td><td>Gdy walec toczy się bez poślizgu, to w czasie jednego obrotu przebywa drogę o długości $2\\pi R$.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr><tr><td class=\"pf-num\">2.</td><td>Energia kinetyczna ruchu postępowego walca jest większa od energii kinetycznej ruchu obrotowego walca względem jego osi.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr><tr><td class=\"pf-num\">3.</td><td>Energia potencjalna opadającego ciężarka zamienia się w całości na energię kinetyczną ruchu postępowego walca i ruchu obrotowego walca.</td><td class=\"pf-box\">P</td><td class=\"pf-box\">F</td></tr></tbody></table><h4>Zadanie 3.2. (0–4)</h4><p><strong>Wyprowadź wzór pozwalający wyznaczyć wartość $\\boldsymbol{a}$ przyśpieszenia ciężarka w zależności tylko od wartości $\\boldsymbol{g}$ przyśpieszenia ziemskiego. Zapisz odpowiednie równania i przekształcenia oraz podaj (w ramce na dole strony) postać tego wzoru.</strong></p><p><em>Wskazówka: Skorzystaj z zasady zachowania energii mechanicznej układu</em> lub skorzystaj <em>z drugiej zasady dynamiki dla ruchu postępowego walca,</em> dla ruchu obrotowego walca i dla <em>ruchu postępowego ciężarka.</em></p><p>$a=$ …………………………</p></div>",
                 "solution": {
-                  "intuition": "Ubytek energii potencjalnej ciężarka zasila ruch ciężarka oraz ruch postępowy i obrotowy walca.",
-                  "givens": "Obie masy są równe $m$. $I=\\frac12mR^2$, $v=\\omega R$.",
+                  "intuition": "Układ składa się z toczącego się bez poślizgu walca oraz połączonego z nim nierozciągliwą linką opadającego ciężarka. Ubytek energii potencjalnej grawitacji opadającego ciężarka zasila ruch całego układu, rozdzielając się na trzy składniki: energię kinetyczną postępową walca, energię kinetyczną obrotową walca oraz energię kinetyczną postępową samego ciężarka.",
+                  "givens": "Walec: masa $m$, promień $R$, moment bezwładności $I = \\frac{1}{2}mR^2$. Ciężarek: masa $m$. Toczenie bez poślizgu ($v = \\omega R$, $a = \\varepsilon R$). Masa linki, bloczka i pręta pomijalna.",
                   "steps": [
                     {
-                      "title": "Zadanie 3.1",
-                      "content": "1. P: bez poślizgu $s=R\\varphi$, a dla pełnego obrotu $s=2\\pi R$.\n2. P: $E_{post}=\\frac12mv^2$, natomiast $E_{obr}=\\frac12I\\omega^2=\\frac14mv^2$. Energia postępowa jest dwa razy większa.\n3. F: część energii uzyskuje również opadający ciężarek."
+                      "title": "Zadanie 3.1 – Ocena prawdziwości stwierdzeń",
+                      "content": "1. **Zdanie 1: Prawda (P).** W toczeniu bez poślizgu droga przebyta przez środek masy przy obrocie o kąt $\\varphi$ wynosi $s = R\\varphi$. Dla jednego pełnego obrotu $\\varphi = 2\\pi$, stąd $s = 2\\pi R$.\n\n2. **Zdanie 2: Prawda (P).** Energia kinetyczna ruchu postępowego walca to $E_{\\text{post}} = \\frac{1}{2} m v^2$. Energia ruchu obrotowego walca to $E_{\\text{obr}} = \\frac{1}{2} I \\omega^2 = \\frac{1}{2} \\left(\\frac{1}{2} m R^2\\right) \\left(\\frac{v}{R}\\right)^2 = \\frac{1}{4} m v^2$. Energia postępowa jest dwukrotnie większa od obrotowej, więc zdanie jest prawdziwe.\n\n3. **Zdanie 3: Fałsz (F).** Opadający ciężarek ma w każdej chwili prędkość równą prędkości walca, a więc sam również posiada energię kinetyczną $\\frac{1}{2} m v^2$. Energia potencjalna ciężarka nie zamienia się zatem 'w całości' wyłącznie na energię walca."
                     },
                     {
-                      "title": "Zadanie 3.2",
-                      "content": "Ciężarek opada o $h$, a walec przesuwa się o taką samą drogę. Oba ciała mają prędkość o wartości $v$.\nZasada zachowania energii:\n$mgh=\\frac12mv^2+\\frac12mv^2+\\frac12I\\omega^2$.\nPo podstawieniu $I=\\frac12mR^2$ i $\\omega=v/R$:\n$mgh=\\frac54mv^2$.\nZ ruchu jednostajnie przyśpieszonego od spoczynku: $v^2=2ah$.\nStąd $gh=\\frac52ah$, czyli $a=\\frac25g$."
+                      "title": "Zadanie 3.2 – Wyprowadzenie wzoru na przyśpieszenie z Zasady Zachowania Energii",
+                      "content": "Gdy ciężarek opadnie o wysokość $h$, walec przesuwa się po stole o taką samą drogę $s = h$. Prędkości obu ciał mają równą wartość $v$.\n1. **Ubytek energii potencjalnej ciężarka:**\n$$\\Delta E_p = mgh$$\n2. **Przyrost energii kinetycznej układu:**\nUkład startował ze spoczynku. Całkowita energia kinetyczna składa się z energii opadającego ciężarka oraz energii postępowego i obrotowego ruchu walca:\n$$E_{k,\\text{układ}} = E_{k,\\text{ciężarek}} + E_{k,\\text{walec post}} + E_{k,\\text{walec obr}}$$\n$$E_{k,\\text{układ}} = \\frac{1}{2} m v^2 + \\frac{1}{2} m v^2 + \\frac{1}{2} I \\omega^2$$\nPodstawiamy $I = \\frac{1}{2} m R^2$ oraz $\\omega = \\frac{v}{R}$:\n$$E_{k,\\text{układ}} = m v^2 + \\frac{1}{4} m v^2 = \\frac{5}{4} m v^2$$\n3. **Bilans energii mechanicznej:**\n$$mgh = \\frac{5}{4} m v^2 \\implies gh = \\frac{5}{4} v^2$$\n4. **Wykorzystanie równań kinematyki:**\nW ruchu jednostajnie przyśpieszonym od spoczynku zachodzi związek $v^2 = 2ah$. Podstawiamy:\n$$gh = \\frac{5}{4} (2ah) = \\frac{5}{2} a h$$\nDzielimy obustronnie przez $h$:\n$$g = \\frac{5}{2} a \\implies a = \\frac{2}{5} g$$\n*(Wyprowadzenie alternatywne z II zasady dynamiki: dla ciężarka $ma = mg - N$, dla walca $ma = N - T$ oraz $I\\varepsilon = TR \\implies T = \\frac{1}{2}ma$. Dodając równania: $2ma = mg - \\frac{1}{2}ma \\implies \\frac{5}{2}ma = mg \\implies a = \\frac{2}{5}g$).*"
                     }
                   ],
-                  "answer": "3.1: P, P, F.\n3.2: $a=\\frac25g$.",
-                  "trap": "Nie pomijaj energii kinetycznej opadającego ciężarka.",
+                  "numerical": "3.1: 1-P, 2-P, 3-F; 3.2: $a = \\frac{2}{5}g$",
+                  "answer": "3.1: 1 – P, 2 – P, 3 – F;\n3.2: Wzór na przyśpieszenie ciężarka: $a = \\frac{2}{5}g$.",
+                  "trap": "Najczęstszy błąd w zadaniu 3.2 to pominięcie energii kinetycznej ciężarka w bilansie energii ($mgh = \\frac{3}{4}mv^2$), co prowadzi do błędnego wyniku $a = \\frac{2}{3}g$!",
                   "source": "Opracowano na podstawie zasad oceniania CKE. <a href=\"https://arkusze.pl/maturalne/fizyka-2023-maj-matura-rozszerzona-odpowiedzi.pdf#page=9\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 9–12</a>."
                 },
                 "solutionSource": {
@@ -7828,6 +9204,168 @@ window.FIZYKOREK_COURSES = {
                   "pages": [
                     9,
                     12
+                  ]
+                }
+              },
+              {
+                "id": "matura-cke-bryla-2023-pokazowy-zad-2",
+                "originalTaskId": "matura-cke-2023-pokazowy-zad-2",
+                "number": 202302,
+                "title": "Arkusz pokazowy 2023 zad. 2 nowa formuła",
+                "year": "2023 arkusz pokazowy",
+                "difficulty": 4,
+                "source": "Arkusz pokazowy CKE – Formuła 2023",
+                "link": "data/arkusze_cke/2023/fizyka-2023-przykladowy-arkusz-cke-rozszerzona.pdf",
+                "formula": "2023",
+                "sourcePages": [
+                  4,
+                  5
+                ],
+                "tags": [
+                  "Matura CKE",
+                  "Bryła sztywna",
+                  "Toczenie z poślizgiem",
+                  "Tarcie kinetyczne",
+                  "Moment bezwładności"
+                ],
+                "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 2.</h4><p>Jednorodny walec o masie $m$ i promieniu $R$ obraca się z prędkością kątową $\\omega_0$ względem swojej osi symetrii. Obracający się walec jest utrzymywany poziomo w ten sposób, że nie dotyka podłoża (zobacz rysunki 1. i 2.). Moment bezwładności walca względem jego osi symetrii jest równy $I=\\frac12mR^2$.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2023-pokazowy-z2-rys12.png\" alt=\"Rysunki 1. i 2. Obracający się walec nad podłożem\" class=\"theory-img\" style=\"max-height:350px;display:block;margin:15px auto;\"></div><p>W pewnej chwili $t_0=0$ obracający się walec położono na twardym, poziomym podłożu (zobacz rysunki 3. i 4.). Prędkość ruchu postępowego walca w chwili $t_0$ była równa zero. Od tego momentu – na skutek ruchu obrotowego – walec toczył się przez pewien czas z poślizgiem.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/2023-pokazowy-z2-rys34.png\" alt=\"Rysunki 3. i 4. Walec toczący się z poślizgiem\" class=\"theory-img\" style=\"max-height:320px;display:block;margin:15px auto;\"></div><p>Uwzględnij tarcie kinetyczne (poślizgowe), ale pomiń inne opory ruchu. Przyjmij, że siła tarcia działająca na walec ma stałą wartość.</p><h4>Zadanie 2.1. (0–1)</h4><p>Na rysunku poniżej zaznaczono kierunek obrotu walca, gdy walec już toczy się z poślizgiem po poziomym podłożu. Środek masy walca oznaczono jako $S$, a punkt na walcu, przy styku z podłożem, oznaczono jako $A$.</p><p><strong>Narysuj wektor siły tarcia kinetycznego $\\boldsymbol{\\vec T}$ przyłożony w punkcie $\\boldsymbol A$. Uwzględnij prawidłowy kierunek i zwrot tego wektora.</strong></p><div class=\"chart-container-svg\"><img src=\"img/rigid/2023-pokazowy-z2-rys-zad21.png\" alt=\"Schemat walca do zaznaczenia siły tarcia\" class=\"theory-img\" style=\"max-height:260px;display:block;margin:15px auto;\"></div><h4>Zadanie 2.2. (0–1)</h4><p><strong>Dokończ zdanie. Zaznacz odpowiedź A, B albo C oraz odpowiedź 1., 2. albo 3.</strong></p><p>Do momentu, gdy poślizg walca ustał, walec poruszał się ruchem postępowym</p><div class=\"energy-table-scroll\"><table class=\"energy-data-table\"><tbody><tr><td><strong>A.</strong></td><td>jednostajnym,</td><td rowspan=\"3\">a prędkość kątowa ruchu obrotowego walca</td><td><strong>1.</strong></td><td>była stała.</td></tr><tr><td><strong>B.</strong></td><td>przyśpieszonym,</td><td><strong>2.</strong></td><td>się zwiększała.</td></tr><tr><td><strong>C.</strong></td><td>opóźnionym,</td><td><strong>3.</strong></td><td>się zmniejszała.</td></tr></tbody></table></div><h4>Zadanie 2.3. (0–4)</h4><p>W chwili $t_1$, gdy poślizg walca ustał, środek walca osiągnął prędkość liniową o wartości $v_1$ i prędkość kątową o wartości $\\omega_1$.</p><p><strong>Oblicz wartość liczbową ilorazu prędkości kątowych $\\boldsymbol{\\frac{\\omega_1}{\\omega_0}}$. Zapisz obliczenia.</strong></p><p><em>Wskazówka: Podczas poślizgu $a\ne\\varepsilon R$, gdzie $a$ jest wartością przyśpieszenia liniowego walca, $\\varepsilon$ jest wartością przyśpieszenia kątowego walca.</em></p></div>",
+                "solution": {
+                  "intuition": "Gdy obracający się ze znaczną prędkością kątową walec zostaje położony na poziomym podłożu, początkowo ślizga się po nim (punkt styku ma prędkość w lewo). Siła tarcia kinetycznego przeciwdziała poślizgowi: rozpędza środek masy w prawo, a jednocześnie wywiera moment siły hamujący obrót. Poślizg ustaje w chwili, gdy prędkość liniowa środka masy osiągnie wartość równą iloczynowi aktualnej prędkości kątowej i promienia: $v_1 = \\omega_1 R$.",
+                  "givens": "Walec: masa $m$, promień $R$, $I = \\frac{1}{2}mR^2$. Prędkość początkowa ruchu postępowego: $v_0 = 0$. Prędkość początkowa obrotowa: $\\omega_0$. Stała siła tarcia kinetycznego $T$.",
+                  "steps": [
+                    {
+                      "title": "Zadanie 2.1 – Wyznaczenie zwrotu siły tarcia w punkcie A",
+                      "content": "Walec obraca się zgodnie z ruchem wskazówek zegara. W punkcie styku $A$ z podłożem jego powierzchnia przemieszcza się względem podłoża w lewo.\nSiła tarcia kinetycznego wywierana przez podłoże na walec ma zwrot przeciwny do kierunku poślizgu powierzchni walca po podłożu, zatem wektor $\\vec{T}$ zaczepiony w punkcie $A$ jest skierowany **poziomo w prawo**.\n<div class=\"chart-container-svg\"><img src=\"img/rigid/2023-pokazowy-z2-rozwiazanie.png\" alt=\"Oficjalny rysunek rozwiązania CKE — siła tarcia\" class=\"theory-img\" style=\"max-height:260px;display:block;margin:15px auto;\"></div>"
+                    },
+                    {
+                      "title": "Zadanie 2.2 – Charakterystyka ruchu walca do ustania poślizgu",
+                      "content": "1. **Ruch postępowy środka masy:** Na walec w poziomie działa wyłącznie stała siła tarcia $T$. Z **II zasady dynamiki Newtona** środek masy porusza się ze stałym przyśpieszeniem $a = \\frac{T}{m} = \\text{const}$. Ruch postępowy jest **przyśpieszony** (wybór B).\n2. **Ruch obrotowy walca:** Siła tarcia działa na ramieniu $R$ i wywiera stały moment siły $M = -T \\cdot R$ hamujący obrót walca. Z II zasady dynamiki dla ruchu obrotowego walec porusza się ze stałym opóźnieniem kątowym $\\varepsilon = \\frac{T R}{I} = \\text{const}$, zatem prędkość kątowa **się zmniejszała** (wybór 3).\nPoprawne zestawienie to **B3**."
+                    },
+                    {
+                      "title": "Zadanie 2.3 – Obliczenie ilorazu prędkości kątowych $\\frac{\\omega_1}{\\omega_0}$",
+                      "content": "Niech poślizg trwa czas $t_1$. W chwili $t_1$ poślizg ustaje, co oznacza spełnienie warunku toczenia bez poślizgu:\n$$v_1 = \\omega_1 R$$\n1. Równanie prędkości ruchu postępowego w chwili $t_1$ ($v_0 = 0$):\n$$v_1 = a t_1 = \\frac{T}{m} t_1$$\n2. Równanie prędkości kątowej w chwili $t_1$:\n$$\\omega_1 = \\omega_0 - \\varepsilon t_1$$\ngdzie przyśpieszenie kątowe wynosi:\n$$\\varepsilon = \\frac{T R}{I} = \\frac{T R}{\\frac{1}{2} m R^2} = \\frac{2 T}{m R} = \\frac{2 a}{R}$$\n3. Podstawiamy $\\varepsilon = \\frac{2a}{R}$ do równania prędkości kątowej:\n$$\\omega_1 = \\omega_0 - \\left(\\frac{2 a}{R}\\right) t_1 = \\omega_0 - \\frac{2 (a t_1)}{R} = \\omega_0 - \\frac{2 v_1}{R}$$\n4. Z warunku toczenia bez poślizgu $\\frac{v_1}{R} = \\omega_1$. Wstawiamy:\n$$\\omega_1 = \\omega_0 - 2 \\omega_1$$\nPrzenosimy $2\\omega_1$ na lewą stronę:\n$$3 \\omega_1 = \\omega_0 \\implies \\frac{\\omega_1}{\\omega_0} = \\frac{1}{3}$$\n*(Metoda alternatywna – z Zasady Zachowania Momentu Pędu względem osi leżącej w płaszczyźnie podłoża: moment siły tarcia względem osi na podłożu wynosi zero, stąd $I \\omega_0 = I \\omega_1 + m v_1 R = \\frac{1}{2}mR^2 \\omega_1 + m(\\omega_1 R) R = \\frac{3}{2}mR^2 \\omega_1 \\implies \\frac{1}{2}\\omega_0 = \\frac{3}{2}\\omega_1 \\implies \\frac{\\omega_1}{\\omega_0} = \\frac{1}{3}$).*"
+                    }
+                  ],
+                  "numerical": "2.1: $\\vec{T}$ w prawo; 2.2: B3; 2.3: $\\frac{\\omega_1}{\\omega_0} = \\frac{1}{3}$",
+                  "answer": "2.1: Wektor siły tarcia $\\vec{T}$ w punkcie A jest skierowany poziomo w prawo;\n2.2: Wybór B3 (ruch postępowy przyśpieszony, prędkość kątowa się zmniejszała);\n2.3: Iloraz prędkości kątowych wynosi $\\frac{\\omega_1}{\\omega_0} = \\frac{1}{3}$.",
+                  "trap": "W czasie trwania poślizgu nie wolno stosować zależności $v = \\omega R$ ani $a = \\varepsilon R$! Warunek ten wiąże prędkości dopiero od chwili $t_1$, gdy poślizg całkowicie ustaje.",
+                  "source": "Opracowano na podstawie oficjalnych zasad oceniania CKE. <a href=\"data/arkusze_cke/2023/fizyka-2023-przykladowy-arkusz-cke-rozszerzona-odpowiedzi.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Klucz odpowiedzi CKE, s. 5–7</a>."
+                },
+                "solutionSource": {
+                  "publisher": "Centralna Komisja Egzaminacyjna",
+                  "url": "data/arkusze_cke/2023/fizyka-2023-przykladowy-arkusz-cke-rozszerzona-odpowiedzi.pdf",
+                  "localFile": "data/arkusze_cke/2023/fizyka-2023-przykladowy-arkusz-cke-rozszerzona-odpowiedzi.pdf",
+                  "pages": [
+                    5,
+                    7
+                  ]
+                }
+              },
+              {
+                "id": "matura-cke-bryla-informator-2025-zad-4",
+                "originalTaskId": "matura-cke-informator-2025-zad-4",
+                "number": 202501,
+                "title": "Informator maturalny 2025 zad. 4 – Kołowrót",
+                "year": "Informator 2025",
+                "difficulty": 4,
+                "source": "Informator maturalny CKE 2025 – Fizyka",
+                "link": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf",
+                "formula": "2023",
+                "sourcePages": [
+                  24,
+                  27
+                ],
+                "tags": [
+                  "Informator CKE",
+                  "Bryła sztywna",
+                  "Dynamika ruchu obrotowego",
+                  "Moment bezwładności",
+                  "Kołowrót"
+                ],
+                "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 4. Kołowrót</h4><p>Dwa jednorodne walce połączono na sztywno tak, że tworzą one bryłę obrotową (zobacz rysunek 1. i rysunek 2.). Może się ona obracać wokół nieruchomej poziomej osi, która pokrywa się z jej osią symetrii. Na walec o promieniu $R_1=5\\text{ cm}$ i masie $M_1=3\\text{ kg}$ nawinięto sznurek, do którego końca przymocowano ciężarek o masie $m_1=2\\text{ kg}$. Na walec o promieniu $R_2=12\\text{ cm}$ i masie $M_2=8\\text{ kg}$ nawinięto sznurek, do którego końca przymocowano ciężarek o masie $m_2=1\\text{ kg}$. Początki obu nierozciągliwych sznurków są przytwierdzone – odpowiednio – do każdego z walców, a kierunki ich nawinięcia na oba walce są przeciwne. Sznurki nawinięto prostopadle do osi walców tak, że nie zostawiono luzów. Podczas ruchu obrotowego bryły sznurki mogą nawijać się i odwijać. Układ znajduje się w ziemskim polu grawitacyjnym, przyśpieszenie ziemskie wynosi $\\vec g$. W chwili początkowej układ jest nieruchomy.</p><p>Opisany układ odblokowano: umożliwiono połączonym walcom obracanie się wokół nieruchomej, poziomej osi. Pomiń opory ruchu oraz masę i grubość sznurków. Moment bezwładności jednorodnego walca o masie $M$ i promieniu $R$ jest równy $\\frac12MR^2$.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/informator-2025-z4-rysunki.png\" alt=\"Rysunki 1. i 2. Kołowrót — informator 2025\" class=\"theory-img\" style=\"max-height:410px;display:block;margin:15px auto;\"></div><h4>Zadanie 4.1. (0–1)</h4><p><strong>Ustal i zapisz, czy ciężarek o masie $m_1$ zacznie opadać czy się wznosić. Uzasadnij swoje stwierdzenie. W uzasadnieniu powołaj się na odpowiednie prawa lub zależności fizyczne i wykonaj niezbędne obliczenia.</strong></p><h4>Zadanie 4.2. (0–4)</h4><p><strong>Oblicz wartość przyśpieszenia ciężarka o masie $\\boldsymbol{m_1}$. Wynik podaj z jednostką.</strong></p></div>",
+                "solution": {
+                  "intuition": "Kołowrót składa się z dwóch sztywno połączonych walców o różnych promieniach. O kierunku obrotu układu nie decydują same masy zawieszonych ciężarków, lecz momenty ich sił ciężkości względem osi obrotu ($M_i = m_i g R_i$). Przyśpieszenie całego układu wynika ze wspólnej dynamiki: wypadkowy moment sił grawitacji musi rozpędzić obrotowo oba walce oraz nadać przyśpieszenie liniowe obu ciężarkom.",
+                  "givens": "Walec 1: $R_1 = 5\\text{ cm} = 0{,}05\\text{ m}$, $M_1 = 3\\text{ kg}$, ciężarek $m_1 = 2\\text{ kg}$. Walec 2: $R_2 = 12\\text{ cm} = 0{,}12\\text{ m}$, $M_2 = 8\\text{ kg}$, ciężarek $m_2 = 1\\text{ kg}$. $I_{\\text{walca}} = \\frac{1}{2} M R^2$. Przyśpieszenie ziemskie $g = 9{,}81\\text{ m/s}^2$ (lub $9{,}8\\text{ m/s}^2$). Brak poślizgu sznurków.",
+                  "steps": [
+                    {
+                      "title": "Zadanie 4.1 – Wyznaczenie kierunku ruchu układu z bilansu momentów sił",
+                      "content": "W chwili początkowej układ jest nieruchomy. O kierunku obrotu decyduje wypadkowy moment sił ciężkości względem osi obrotu kołowrotu:\n1. Moment siły ciężkości działającej na ciężarek $m_1$:\n$$M_1 = m_1 g R_1 = 2\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 \\cdot 0{,}05\\text{ m} = 0{,}0981 g \\approx 0{,}981\\text{ N}\\cdot\\text{m}$$\n2. Moment siły ciężkości działającej na ciężarek $m_2$:\n$$M_2 = m_2 g R_2 = 1\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 \\cdot 0{,}12\\text{ m} = 0{,}12 g \\approx 1{,}177\\text{ N}\\cdot\\text{m}$$\n3. Porównanie momentów sił:\nPonieważ $M_2 > M_1$ ($0{,}12g > 0{,}10g$), wypadkowy moment sił obraca kołowrót w stronę odpowiadającą odwijaniu sznurka z walca 2.\nW rezultacie ciężarek o masie $m_2$ opada, a sznurek nawinięty na walec 1 nawija się, co oznacza, że **ciężarek o masie $m_1$ zacznie się wznosić**."
+                    },
+                    {
+                      "title": "Zadanie 4.2 – Równania dynamiki dla kołowrotu i obu ciężarków",
+                      "content": "Układ porusza się tak, że ciężarek $m_2$ opada z przyśpieszeniem $a_2$, ciężarek $m_1$ wznosi się z przyśpieszeniem $a_1$, a kołowrót obraca się z przyśpieszeniem kątowym $\\varepsilon$:\n<div class=\"chart-container-svg\"><img src=\"img/rigid/informator-2025-z4-rozwiazanie.png\" alt=\"Oficjalny schemat sił CKE — informator 2025\" class=\"theory-img\" style=\"max-height:390px;display:block;margin:15px auto;\"></div>\n1. **Równania ruchu postępowego ciężarków:**\n$$m_1 a_1 = N_1 - m_1 g \\implies N_1 = m_1 g + m_1 a_1$$\n$$m_2 a_2 = m_2 g - N_2 \\implies N_2 = m_2 g - m_2 a_2$$\n2. **Równanie ruchu obrotowego kołowrotu:**\n$$I \\varepsilon = N_2 R_2 - N_1 R_1$$\ngdzie $I$ to moment bezwładności połączonych walców:\n$$I = \\frac{1}{2} M_1 R_1^2 + \\frac{1}{2} M_2 R_2^2$$\n3. **Związki kinematyczne (nierozciągliwe sznurki bez poślizgu):**\n$$a_1 = \\varepsilon R_1, \\qquad a_2 = \\varepsilon R_2$$"
+                    },
+                    {
+                      "title": "Zadanie 4.2 – Wyprowadzenie wzoru i obliczenie wartości przyśpieszenia $a_1$",
+                      "content": "Podstawiamy wyrażenia na naciągi $N_1$ i $N_2$ oraz przyśpieszenia liniowe do równania ruchu obrotowego:\n$$I \\varepsilon = (m_2 g - m_2 \\varepsilon R_2) R_2 - (m_1 g + m_1 \\varepsilon R_1) R_1$$\n$$I \\varepsilon = m_2 g R_2 - m_2 R_2^2 \\varepsilon - m_1 g R_1 - m_1 R_1^2 \\varepsilon$$\nGrupujemy wyrazy z $\\varepsilon$:\n$$\\varepsilon (I + m_1 R_1^2 + m_2 R_2^2) = g (m_2 R_2 - m_1 R_1)$$\n$$\\varepsilon = \\frac{g (m_2 R_2 - m_1 R_1)}{I + m_1 R_1^2 + m_2 R_2^2}$$\nStąd przyśpieszenie liniowe ciężarka $m_1$ wynosi:\n$$a_1 = \\varepsilon R_1 = \\frac{g (m_2 R_2 - m_1 R_1) R_1}{I + m_1 R_1^2 + m_2 R_2^2}$$\n**Podstawienie wartości liczbowych:**\n1. Moment bezwładności kołowrotu $I$:\n$$I = \\frac{1}{2} \\cdot 3 \\cdot (0{,}05)^2 + \\frac{1}{2} \\cdot 8 \\cdot (0{,}12)^2 = 0{,}00375 + 0{,}0576 = 0{,}06135\\text{ kg}\\cdot\\text{m}^2$$\n2. Składniki bezwładności ciężarków:\n$$m_1 R_1^2 = 2 \\cdot (0{,}05)^2 = 0{,}0050\\text{ kg}\\cdot\\text{m}^2$$\n$$m_2 R_2^2 = 1 \\cdot (0{,}12)^2 = 0{,}0144\\text{ kg}\\cdot\\text{m}^2$$\nMianownik (całkowita bezwładność układu):\n$$I_{\\text{całk}} = 0{,}06135 + 0{,}0050 + 0{,}0144 = 0{,}08075\\text{ kg}\\cdot\\text{m}^2$$\n3. Licznik (moment sił grawitacji):\n$$m_2 R_2 - m_1 R_1 = 1 \\cdot 0{,}12 - 2 \\cdot 0{,}05 = 0{,}02\\text{ kg}\\cdot\\text{m}$$\n4. Obliczenie $\\varepsilon$ oraz $a_1$ ($g = 9{,}81\\text{ m/s}^2$):\n$$\\varepsilon = \\frac{9{,}81 \\cdot 0{,}02}{0{,}08075} \\approx 2{,}43\\text{ rad/s}^2$$\n$$a_1 = \\varepsilon R_1 = 2{,}4297 \\cdot 0{,}05\\text{ m} \\approx 0{,}1215\\text{ m/s}^2 \\approx 0{,}12\\text{ m/s}^2$$"
+                    }
+                  ],
+                  "numerical": "4.1: ciężarek $m_1$ zacznie się wznosić ($M_2 > M_1$); 4.2: $a_1 \\approx 0{,}12\\text{ m/s}^2$",
+                  "answer": "4.1: Ciężarek o masie $m_1$ zacznie się wznosić, ponieważ moment siły ciężkości ciężarka drugiego ($m_2 g R_2 = 1{,}18\\text{ N m}$) jest większy od momentu siły ciężkości ciężarka pierwszego ($m_1 g R_1 = 0{,}98\\text{ N m}$);\n4.2: Wartość przyśpieszenia ciężarka wynosi $a_1 \\approx 0{,}12\\text{ m/s}^2$ (dokładnie ok. $0{,}121\\text{ m/s}^2$).",
+                  "trap": "Nie wolno porównywać samych mas ciężarków! Ciężarek $m_1 = 2\\text{ kg}$ jest dwukrotnie cięższy od $m_2 = 1\\text{ kg}$, jednak wisi na ramieniu o ponad dwukrotnie mniejszym promieniu ($5\\text{ cm}$ wobec $12\\text{ cm}$), dlatego to lżejszy ciężarek przeważa kołowrót.",
+                  "source": "Opracowano na podstawie oficjalnych zasad oceniania CKE. <a href=\"data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Oficjalne rozwiązanie CKE, s. 24–27</a>."
+                },
+                "solutionSource": {
+                  "publisher": "Centralna Komisja Egzaminacyjna",
+                  "url": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf",
+                  "localFile": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf",
+                  "pages": [
+                    24,
+                    27
+                  ]
+                }
+              },
+              {
+                "id": "matura-cke-bryla-informator-2023-zad-4",
+                "originalTaskId": "matura-cke-informator-2023-zad-4",
+                "number": 202301,
+                "title": "Informator maturalny 2023 zad. 4 – Kołowrót",
+                "year": "Informator 2023",
+                "difficulty": 4,
+                "source": "Informator maturalny CKE 2023 – Fizyka",
+                "link": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2023.pdf",
+                "formula": "2023",
+                "sourcePages": [
+                  24,
+                  27
+                ],
+                "tags": [
+                  "Informator CKE",
+                  "Bryła sztywna",
+                  "Dynamika ruchu obrotowego",
+                  "Moment bezwładności",
+                  "Kołowrót"
+                ],
+                "problem": "<div class=\"task-matura energy-statements\"><h4>Zadanie 4. Kołowrót</h4><p>Dwa jednorodne walce połączono na sztywno tak, że tworzą one bryłę obrotową (zobacz rysunek 1. i rysunek 2.). Może się ona obracać wokół nieruchomej poziomej osi, która pokrywa się z jej osią symetrii. Na walec o promieniu $R_1=5\\text{ cm}$ i masie $M_1=3\\text{ kg}$ nawinięto sznurek, do którego końca przymocowano ciężarek o masie $m_1=2\\text{ kg}$. Na walec o promieniu $R_2=12\\text{ cm}$ i masie $M_2=8\\text{ kg}$ nawinięto sznurek, do którego końca przymocowano ciężarek o masie $m_2=1\\text{ kg}$. Początki obu nierozciągliwych sznurków są przytwierdzone – odpowiednio – do każdego z walców, a kierunki ich nawinięcia na oba walce są przeciwne. Sznurki nawinięto prostopadle do osi walców tak, że nie zostawiono luzów. Podczas ruchu obrotowego bryły sznurki mogą nawijać się i odwijać. Układ znajduje się w ziemskim polu grawitacyjnym, przyśpieszenie ziemskie wynosi $\\vec g$. W chwili początkowej układ jest nieruchomy.</p><p>Opisany układ odblokowano: umożliwiono połączonym walcom obracanie się wokół nieruchomej, poziomej osi. Pomiń opory ruchu oraz masę i grubość sznurków. Moment bezwładności jednorodnego walca o masie $M$ i promieniu $R$ jest równy $\\frac12MR^2$.</p><div class=\"chart-container-svg\"><img src=\"img/rigid/informator-2023-z4-rysunki.png\" alt=\"Rysunki 1. i 2. Kołowrót — informator 2023\" class=\"theory-img\" style=\"max-height:410px;display:block;margin:15px auto;\"></div><h4>Zadanie 4.1. (0–1)</h4><p><strong>Ustal i zapisz, czy ciężarek o masie $m_1$ zacznie opadać czy się wznosić. Powołaj się na odpowiednie prawa lub zależności fizyczne i wykonaj niezbędne obliczenia, uzasadniające Twoje stwierdzenie.</strong></p><h4>Zadanie 4.2. (0–4)</h4><p><strong>Oblicz wartość przyśpieszenia ciężarka o masie $\\boldsymbol{m_1}$. Wynik podaj z jednostką.</strong></p></div>",
+                "solution": {
+                  "intuition": "Kołowrót składa się z dwóch sztywno połączonych walców o różnych promieniach. O kierunku obrotu układu nie decydują same masy zawieszonych ciężarków, lecz momenty ich sił ciężkości względem osi obrotu ($M_i = m_i g R_i$). Przyśpieszenie całego układu wynika ze wspólnej dynamiki: wypadkowy moment sił grawitacji musi rozpędzić obrotowo oba walce oraz nadać przyśpieszenie liniowe obu ciężarkom.",
+                  "givens": "Walec 1: $R_1 = 5\\text{ cm} = 0{,}05\\text{ m}$, $M_1 = 3\\text{ kg}$, ciężarek $m_1 = 2\\text{ kg}$. Walec 2: $R_2 = 12\\text{ cm} = 0{,}12\\text{ m}$, $M_2 = 8\\text{ kg}$, ciężarek $m_2 = 1\\text{ kg}$. $I_{\\text{walca}} = \\frac{1}{2} M R^2$. Przyśpieszenie ziemskie $g = 9{,}81\\text{ m/s}^2$ (lub $9{,}8\\text{ m/s}^2$). Brak poślizgu sznurków.",
+                  "steps": [
+                    {
+                      "title": "Zadanie 4.1 – Wyznaczenie kierunku ruchu układu z bilansu momentów sił",
+                      "content": "W chwili początkowej układ jest nieruchomy. O kierunku obrotu decyduje wypadkowy moment sił ciężkości względem osi obrotu kołowrotu:\n1. Moment siły ciężkości działającej na ciężarek $m_1$:\n$$M_1 = m_1 g R_1 = 2\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 \\cdot 0{,}05\\text{ m} = 0{,}0981 g \\approx 0{,}981\\text{ N}\\cdot\\text{m}$$\n2. Moment siły ciężkości działającej na ciężarek $m_2$:\n$$M_2 = m_2 g R_2 = 1\\text{ kg} \\cdot 9{,}81\\text{ m/s}^2 \\cdot 0{,}12\\text{ m} = 0{,}12 g \\approx 1{,}177\\text{ N}\\cdot\\text{m}$$\n3. Porównanie momentów sił:\nPonieważ $M_2 > M_1$ ($0{,}12g > 0{,}10g$), wypadkowy moment sił obraca kołowrót w stronę odpowiadającą odwijaniu sznurka z walca 2.\nW rezultacie ciężarek o masie $m_2$ opada, a sznurek nawinięty na walec 1 nawija się, co oznacza, że **ciężarek o masie $m_1$ zacznie się wznosić**."
+                    },
+                    {
+                      "title": "Zadanie 4.2 – Równania dynamiki dla kołowrotu i obu ciężarków",
+                      "content": "Układ porusza się tak, że ciężarek $m_2$ opada z przyśpieszeniem $a_2$, ciężarek $m_1$ wznosi się z przyśpieszeniem $a_1$, a kołowrót obraca się z przyśpieszeniem kątowym $\\varepsilon$:\n<div class=\"chart-container-svg\"><img src=\"img/rigid/informator-2023-z4-rozwiazanie.png\" alt=\"Oficjalny schemat sił CKE — informator 2023\" class=\"theory-img\" style=\"max-height:390px;display:block;margin:15px auto;\"></div>\n1. **Równania ruchu postępowego ciężarków:**\n$$m_1 a_1 = N_1 - m_1 g \\implies N_1 = m_1 g + m_1 a_1$$\n$$m_2 a_2 = m_2 g - N_2 \\implies N_2 = m_2 g - m_2 a_2$$\n2. **Równanie ruchu obrotowego kołowrotu:**\n$$I \\varepsilon = N_2 R_2 - N_1 R_1$$\ngdzie $I$ to moment bezwładności połączonych walców:\n$$I = \\frac{1}{2} M_1 R_1^2 + \\frac{1}{2} M_2 R_2^2$$\n3. **Związki kinematyczne (nierozciągliwe sznurki bez poślizgu):**\n$$a_1 = \\varepsilon R_1, \\qquad a_2 = \\varepsilon R_2$$"
+                    },
+                    {
+                      "title": "Zadanie 4.2 – Wyprowadzenie wzoru i obliczenie wartości przyśpieszenia $a_1$",
+                      "content": "Podstawiamy wyrażenia na naciągi $N_1$ i $N_2$ oraz przyśpieszenia liniowe do równania ruchu obrotowego:\n$$I \\varepsilon = (m_2 g - m_2 \\varepsilon R_2) R_2 - (m_1 g + m_1 \\varepsilon R_1) R_1$$\n$$I \\varepsilon = m_2 g R_2 - m_2 R_2^2 \\varepsilon - m_1 g R_1 - m_1 R_1^2 \\varepsilon$$\nGrupujemy wyrazy z $\\varepsilon$:\n$$\\varepsilon (I + m_1 R_1^2 + m_2 R_2^2) = g (m_2 R_2 - m_1 R_1)$$\n$$\\varepsilon = \\frac{g (m_2 R_2 - m_1 R_1)}{I + m_1 R_1^2 + m_2 R_2^2}$$\nStąd przyśpieszenie liniowe ciężarka $m_1$ wynosi:\n$$a_1 = \\varepsilon R_1 = \\frac{g (m_2 R_2 - m_1 R_1) R_1}{I + m_1 R_1^2 + m_2 R_2^2}$$\n**Podstawienie wartości liczbowych:**\n1. Moment bezwładności kołowrotu $I$:\n$$I = \\frac{1}{2} \\cdot 3 \\cdot (0{,}05)^2 + \\frac{1}{2} \\cdot 8 \\cdot (0{,}12)^2 = 0{,}00375 + 0{,}0576 = 0{,}06135\\text{ kg}\\cdot\\text{m}^2$$\n2. Składniki bezwładności ciężarków:\n$$m_1 R_1^2 = 2 \\cdot (0{,}05)^2 = 0{,}0050\\text{ kg}\\cdot\\text{m}^2$$\n$$m_2 R_2^2 = 1 \\cdot (0{,}12)^2 = 0{,}0144\\text{ kg}\\cdot\\text{m}^2$$\nMianownik (całkowita bezwładność układu):\n$$I_{\\text{całk}} = 0{,}06135 + 0{,}0050 + 0{,}0144 = 0{,}08075\\text{ kg}\\cdot\\text{m}^2$$\n3. Licznik (moment sił grawitacji):\n$$m_2 R_2 - m_1 R_1 = 1 \\cdot 0{,}12 - 2 \\cdot 0{,}05 = 0{,}02\\text{ kg}\\cdot\\text{m}$$\n4. Obliczenie $\\varepsilon$ oraz $a_1$ ($g = 9{,}81\\text{ m/s}^2$):\n$$\\varepsilon = \\frac{9{,}81 \\cdot 0{,}02}{0{,}08075} \\approx 2{,}43\\text{ rad/s}^2$$\n$$a_1 = \\varepsilon R_1 = 2{,}4297 \\cdot 0{,}05\\text{ m} \\approx 0{,}1215\\text{ m/s}^2 \\approx 0{,}12\\text{ m/s}^2$$"
+                    }
+                  ],
+                  "numerical": "4.1: ciężarek $m_1$ zacznie się wznosić ($M_2 > M_1$); 4.2: $a_1 \\approx 0{,}12\\text{ m/s}^2$",
+                  "answer": "4.1: Ciężarek o masie $m_1$ zacznie się wznosić, ponieważ moment siły ciężkości ciężarka drugiego ($m_2 g R_2 = 1{,}18\\text{ N m}$) jest większy od momentu siły ciężkości ciężarka pierwszego ($m_1 g R_1 = 0{,}98\\text{ N m}$);\n4.2: Wartość przyśpieszenia ciężarka wynosi $a_1 \\approx 0{,}12\\text{ m/s}^2$ (dokładnie ok. $0{,}121\\text{ m/s}^2$).",
+                  "trap": "Nie wolno porównywać samych mas ciężarków! Ciężarek $m_1 = 2\\text{ kg}$ jest dwukrotnie cięższy od $m_2 = 1\\text{ kg}$, jednak wisi na ramieniu o ponad dwukrotnie mniejszym promieniu ($5\\text{ cm}$ wobec $12\\text{ cm}$), dlatego to lżejszy ciężarek przeważa kołowrót.",
+                  "source": "Opracowano na podstawie oficjalnych zasad oceniania CKE. <a href=\"data/arkusze_cke/informatory/informator-maturalny-fizyka-2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Oficjalne rozwiązanie CKE, s. 24–27</a>."
+                },
+                "solutionSource": {
+                  "publisher": "Centralna Komisja Egzaminacyjna",
+                  "url": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2023.pdf",
+                  "localFile": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2023.pdf",
+                  "pages": [
+                    24,
+                    27
                   ]
                 }
               }

@@ -1,0 +1,349 @@
+SOURCE: data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona.pdf
+PAGES: 9, 10
+
+[PAPER 9]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 9 z 25
+MFAP-R0_100
+Zadanie 3.
+Jednorodna belka podparta w punkcie 𝑂 – w środku swojej długości – utrzymuje się
+nieruchomo w pozycji poziomej (zobacz rysunek 1.).
+Rysunek 1.
+W pierwszym etapie doświadczenia, na przeciwległych końcach tej belki zawieszono
+(na cienkich, lekkich nitkach) dwa jednorodne klocki A i B. Klocki były wykonane z różnych
+materiałów i miały kształty sześcianów o krawędziach odpowiednio 𝑎A = 2 cm i 𝑎B = 4 cm.
+Po zawieszeniu klocków belka wciąż pozostawała w równowadze (zobacz rysunek 2.).
+Rysunek 2.
+W drugim etapie doświadczenia obydwa sześciany zanurzono całkowicie w naczyniu z wodą
+o gęstości 𝜌𝑤 = 1000 kg/m3, a belkę zrównoważono dodatkowym ciężarkiem C, który
+położono na jednym z końców belki (zobacz rysunek 3.). Belka w ten sposób zrównoważona
+utrzymywała się nieruchomo w pozycji poziomej.
+Rysunek 3.
+𝑂
+𝑔
+A B
+𝑂
+𝑔
+𝑂
+𝑔
+A B
+C
+
+[PAPER 10]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Strona 10 z 25 MFAP-R0_100
+Zadanie 3.1. (0–4)
+Oblicz masę ciężarka 𝐂.
+Zadanie 3.2. (0–2)
+Oceń prawdziwość poniższych stwierdzeń. Zaznacz P, jeśli stwierdzenie jest
+prawdziwe, albo F – jeśli jest fałszywe.
+Zrównoważenie belki z zanurzonymi sześcianami można osiągnąć
+1. bez użycia dodatkowego ciężarka, gdy przesunie się punkt zawieszenia
+klocka A bliżej punktu 𝑂 podparcia belki. P F
+2. bez użycia dodatkowego ciężarka, gdy przesunie się punkt 𝑂 podparcia
+belki w stronę klocka B. P F
+3. w cieczy o mniejszej gęstości niż gęstość wody, gdy zamiast ciężarka C
+położymy ciężarek o mniejszej masie. P F
+
+KEY: data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf
+KEY CANDIDATES: 10, 11, 12, 13, 14, 15
+
+[KEY 10]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Egzamin maturalny z fizyki – termin dodatkowy 2023 r.
+Strona 10 z 31
+Zadanie 3.1. (0–4)
+Wymagania ogólne Wymaganie szczegółowe
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+III.3) stosuje warunki statyki bryły sztywnej;
+posługuje się pojęciem momentu sił wraz
+z jednostką.
+Zasady oceniania
+4 pkt – poprawna metoda obliczenia masy klocka C oraz podanie prawidłowego wyniku
+liczbowego z jednostką.
+3 pkt – zapisanie (lub wykorzystanie) warunku równowagi belki w pierwszym etapie
+doświadczenia oraz zapisanie (lub wykorzystanie) warunku równowagi belki
+w drugim etapie doświadczenia oraz poprawne wykorzystanie wzorów na siłę wyporu
+klocka A i B, np. zapisy równoważne poniższemu (lub bezpośrednio do niego
+prowadzące):
+𝑚𝐶 = 𝜌𝑤(𝑉𝐵 − 𝑉𝐴)
+2 pkt – zapisanie (lub wykorzystanie) warunku równowagi belki w pierwszym etapie
+doświadczenia oraz zapisanie (lub wykorzystanie) warunku równowagi belki
+w drugim etapie doświadczenia, np. zapisy równoważne poniższym:
+𝑙
+2 ⋅ 𝑚𝐴𝑔 = 𝑙
+2 ⋅ 𝑚𝐵𝑔 oraz
+𝑙
+2 ⋅ 𝑚𝐴𝑔 − 𝑙
+2 ⋅ 𝐹𝑤𝑦𝑝𝑜𝑟𝑢 𝐴 = 𝑙
+2 ⋅ 𝑚𝐵𝑔 + 𝑙
+2 ⋅ 𝑚𝐶𝑔 − 𝑙
+2 ⋅ 𝐹𝑤𝑦𝑝𝑜𝑟𝑢 𝐵
+albo
+𝐹𝑤𝑦𝑝𝑜𝑟𝑢 𝐵 − 𝐹𝑤𝑦𝑝𝑜𝑟𝑢𝐴 = 𝐹𝑔𝑟𝑎𝑤 𝐶
+1 pkt – zapisanie warunku równowagi belki w pierwszym etapie doświadczenia, np. zapisy
+równoważne poniższym:
+𝑙
+2 ⋅ 𝑚𝐴𝑔 = 𝑙
+2 ⋅ 𝑚𝐵𝑔 albo 𝑚𝐴 = 𝑚𝐵
+LUB
+– zapisanie warunku równowagi belki w drugim etapie doświadczenia, np. zapisy
+równoważne poniższym:
+𝑙
+2 ⋅ 𝑚𝐴𝑔 − 𝑙
+2 ⋅ 𝐹𝑤𝑦𝑝𝑜𝑟𝑢 𝐴 = 𝑙
+2 ⋅ 𝑚𝐵𝑔 + 𝑙
+2 ⋅ 𝑚𝐶𝑔 − 𝑙
+2 ⋅ 𝐹𝑤𝑦𝑝𝑜𝑟𝑢 𝐵
+albo
+𝑚𝐴 − 𝜌𝑤𝑉𝐴 = 𝑚𝐵 + 𝑚𝐶 − 𝜌𝑤𝑉𝐵
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+Zapiszemy warunek równowagi belki w pierwszym etapie doświadczenia. Momenty sił
+działające na belkę równoważą się:
+
+[KEY 11]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Zasady oceniania rozwiązań zadań
+Strona 11 z 31
+1) 𝑙
+2 ⋅ 𝑚𝐴𝑔 = 𝑙
+2 ⋅ 𝑚𝐵𝑔 → 2) 𝑚𝐴 = 𝑚𝐵
+Zapiszemy warunek równowagi belki w drugim etapie doświadczenia. Momenty sił działające
+na belkę równoważą się:
+3) 𝑙
+2 ⋅ 𝑚𝐴𝑔 − 𝑙
+2 ⋅ 𝐹𝑤𝑦𝑝𝑜𝑟𝑢 𝐴 = 𝑙
+2 ⋅ 𝑚𝐵𝑔 + 𝑙
+2 ⋅ 𝑚𝐶𝑔 − 𝑙
+2 ⋅ 𝐹𝑤𝑦𝑝𝑜𝑟𝑢 𝐵 →
+4) 𝑙
+2 ⋅ 𝑚𝐴𝑔 − 𝑙
+2 ⋅ 𝜌𝑤𝑉𝐴𝑔 = 𝑙
+2 ⋅ 𝑚𝐵𝑔 + 𝑙
+2 ⋅ 𝑚𝐶𝑔 − 𝑙
+2 ⋅ 𝜌𝑤𝑉𝐵𝑔 →
+5) 𝑚𝐴 − 𝜌𝑤𝑉𝐴 = 𝑚𝐵 + 𝑚𝐶 − 𝜌𝑤𝑉𝐵
+Z warunku równowagi belki w pierwszym etapie doświadczenia (równanie 1) albo 2)) wynika,
+że:
+6) 𝑚𝐶 = 𝜌𝑤(𝑉𝐵 − 𝑉𝐴) →
+7) 𝑚𝐶 = 103 kg
+m3 ⋅ ((4 ⋅ 10−2 m)3 − (2 ⋅ 10−2 m)3) = 103 kg
+m3 ⋅ (64 − 8) ⋅ 10−6 m3 →
+𝑚𝐶 = 56 ⋅ 10−3 kg = 56 g
+Zadanie 3.2. (0–2)
+Wymaganie ogólne Wymaganie szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+III.3) stosuje warunki statyki bryły sztywnej;
+posługuje się pojęciem momentu sił wraz
+z jednostką.
+Zasady oceniania
+2 pkt – poprawne zaznaczenia w trzech zdaniach.
+1 pkt – poprawne zaznaczenia w dwóch zdaniach.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Pełne rozwiązanie
+PFP
+
+[KEY 12]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Egzamin maturalny z fizyki – termin dodatkowy 2023 r.
+Strona 12 z 31
+Zadanie 4.1. (0–2)
+Wymagania egzaminacyjne 2023 i 2024
+Wymagania ogólne Wymagania szczegółowe
+III. Planowanie i przeprowadzanie
+obserwacji oraz doświadczeń
+i wnioskowanie na
+podstawie ich wyników.
+IV. Posługiwanie się informacjami
+pochodzącymi z analizy materiałów
+źródłowych, w tym tekstów
+popularnonaukowych.
+Zdający:
+I.7) wyodrębnia z tekstów […] informacje
+kluczowe dla opisywanego zjawiska bądź
+problemu; przedstawia te informacje w różnych
+postaciach;
+I.14) wyznacza średnią z kilku pomiarów jako
+końcowy wynik pomiaru powtarzanego.
+Zasady oceniania
+2 pkt – poprawna metoda ustalenia 𝑛 oraz podanie prawidłowej odpowiedzi
+LUB
+– podanie prawidłowej odpowiedzi z uzasadnieniem.
+1 pkt – zapisanie związku (może być równoważny opis słowny):
+𝑇 = 𝑡𝑛
+𝑛
+LUB
+– podanie prawidłowej odpowiedzi bez żadnego uzasadnienia.
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+Na podstawie pomiaru czasu 𝑡𝑛 uczniowie wyznaczyli okres drgań ciężarka 𝑇 w następujący
+sposób:
+𝑇 = 𝑡𝑛
+𝑛 zatem 𝑛 = 𝑡𝑛
+𝑇 = 11,2 s
+0,56 s = 20
+Zadanie 4.2. (0–3)
+Wymagania egzaminacyjne 2023 i 2024
+Wymagania ogólne Wymagania szczegółowe
+III. Planowanie i przeprowadzanie
+obserwacji oraz doświadczeń
+i wnioskowanie na
+podstawie ich wyników.
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+I.7) wyodrębnia z tekstów […] informacje
+kluczowe dla opisywanego zjawiska bądź
+problemu; przedstawia te informacje w różnych
+postaciach.
+V.5) stosuje do obliczeń zależność okresu
+małych drgań wahadła matematycznego
+i ciężarka na sprężynie od ich parametrów.
+
+[KEY 13]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Zasady oceniania rozwiązań zadań
+Strona 13 z 31
+Zasady oceniania
+3 pkt – poprawna metoda obliczenia przyśpieszenia oraz podanie prawidłowego wyniku
+liczbowego z jednostką.
+2 pkt – poprawna metoda wyprowadzenia (tzn. spełnienie warunku za 1 pkt) oraz zapisanie
+jednego wyrażenia (za pomocą symboli lub podstawionych danych), z którego można
+bezpośrednio obliczyć wartość przyśpieszenia ziemskiego jedynie na podstawie
+danych 𝑥 i 𝑇 uzyskanych w opisanym doświadczeniu.
+1 pkt – zapisanie związku między okresem drgań ciężarka a współczynnikiem sprężystości
+sprężyny i masą ciężarka oraz zapisanie warunku równowagi siły grawitacji i siły
+sprężystości, gdy ciężarek zwisał nieruchomo.
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+Zapiszemy związek między okresem drgań ciężarka a współczynnikiem sprężystości
+sprężyny i masą ciężarka:
+1) (2𝜋
+𝑇 )
+2
+= 𝑘
+𝑚
+Zapiszemy warunek równowagi siły grawitacji i siły sprężystości, gdy ciężarek zwisał
+nieruchomo:
+2) 𝑚𝑔 = 𝑘𝑥 zatem 3) 𝑔
+𝑥 = 𝑘
+𝑚
+Prawe strony równań 1) i 3) są takie same, zatem lewe strony tych równań są sobie równe:
+4) (2𝜋
+𝑇 )
+2
+= 𝑔
+𝑥
+Z równania 4) obliczymy 𝑔:
+5) 𝑔 = (2𝜋
+𝑇 )
+2
+𝑥 → 6) 𝑔 = (2 ⋅ 3,142
+0,56 s )
+2
+⋅ 7,8 ⋅ 10−2 m ≈ 9,8 m
+s2
+Zadanie 5.1. (0–1)
+Wymagania egzaminacyjne 2023 i 2024
+Wymaganie ogólne Wymaganie szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+IX.9) opisuje zjawisko indukcji
+elektromagnetycznej; stosuje regułę Lenza;
+opisuje przemiany energii podczas działania
+prądnicy.
+Zasady oceniania
+1 pkt – stwierdzenie o powstaniu siły elektrodynamicznej działającej na poprzeczkę oraz
+stwierdzenie o równoważeniu się siły zewnętrznej i siły elektrodynamicznej.
+0 pkt – rozwiązanie niepoprawne lub niepełne albo brak rozwiązania.
+
+[KEY 14]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Egzamin maturalny z fizyki – termin dodatkowy 2023 r.
+Strona 14 z 31
+Pełne rozwiązanie
+Sposób 1.
+Na swobodne elektrony w poruszającej się poprzeczce w polu magnetycznym (czyli de facto
+na elektrony poruszające się w polu magnetycznym) działa siła Lorentza wzdłuż poprzeczki.
+To wywołuje przepływ prądu (indukowanego) w poprzeczce. W polu magnetycznym na
+przewodnik z prądem (tu: poprzeczkę w której płynie prąd indukowany) działa siła
+elektrodynamiczna. Siła ta ma zwrot przeciwny do zwrotu siły zewnętrznej i równoważy ją –
+dlatego ruch porzeczki jest jednostajny.
+Sposób 2.
+Zgodnie z regułą Lenza prąd indukcyjny w poprzeczce płynie tak, że siła elektrodynamiczna
+działająca na poprzeczkę z prądem będzie równoważyć siłę zewnętrzną aby przeciwdziałać
+przyczynie zmiany strumienia indukcji magnetycznej.
+Sposób 3.
+Zgodnie z założeniem o braku oporów w ruchu poprzeczki i zasadą zachowania energii,
+praca (a zatem i moc) siły zewnętrznej jest równa pracy (a zatem i mocy) prądu
+elektrycznego płynącego w obwodzie. Z kolej praca prądu płynącego w obwodzie jest równa
+pracy mechanicznej przeciwko indukowanej sile elektrodynamicznej działającej na
+poprzeczkę. Stąd wynika, że siła zewnętrzna i indukowana siła elektrodynamiczna
+równoważą się – dlatego ruch porzeczki jest jednostajny.
+Zadanie 5.2. (0–2)
+Wymagania egzaminacyjne 2023 i 2024
+Wymaganie ogólne Wymagania szczegółowe
+II. Rozwiązywanie problemów
+z wykorzystaniem praw i zależności
+fizycznych.
+Zdający:
+IX.2) posługuje się pojęciem wektora indukcji
+magnetycznej wraz z jego jednostką, analizuje
+oddziaływanie pola magnetycznego na
+przewodnik z prądem oraz na poruszającą się
+cząstkę naładowaną (siła elektrodynamiczna,
+siła Lorentza);
+IX.9) opisuje zjawisko indukcji
+elektromagnetycznej; stosuje regułę Lenza;
+opisuje przemiany energii podczas działania
+prądnicy;
+IX.10) oblicza siłę elektromotoryczną indukcji
+jako szybkość zmiany strumienia.
+Zasady oceniania
+2 pkt – poprawne zaznaczenia w trzech zdaniach.
+1 pkt – poprawne zaznaczenia w dwóch zdaniach.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Pełne rozwiązanie
+PPP
+
+[KEY 15]
+Więcej arkuszy znajdziesz na stronie: arkusze.pl
+Zasady oceniania rozwiązań zadań
+Strona 15 z 31
+Zadanie 5.3. (0–1)
+Wymagania egzaminacyjne 2023 i 2024
+Wymaganie ogólne Wymagania szczegółowe
+V. Budowanie modeli fizycznych
+i matematycznych do opisu zjawisk oraz
+ilustracji praw i zależności fizycznych.
+Zdający:
+IX.2) posługuje się pojęciem wektora indukcji
+magnetycznej wraz z jego jednostką, analizuje
+oddziaływanie pola magnetycznego na
+przewodnik z prądem oraz na poruszającą się
+cząstkę naładowaną (siła elektrodynamiczna,
+siła Lorentza).
+VIII.10) interpretuje I prawo Kirchhoffa jako
+przykład zasady zachowania ładunku;
+VIII.11) analizuje dodawanie i odejmowanie
+napięć w obwodzie z uwzględnieniem źródeł
+i odbiorników energii (II prawo Kirchhoffa).
+Zasady oceniania
+1 pkt – poprawne oznaczenie strzałkami (na opornikach i obok poprzeczki) zwrotu przepływu
+prądu przez oba oporniki oraz przez poprzeczkę.
+0 pkt – rozwiązanie niepoprawne lub niepełne albo brak rozwiązania.
+Pełne rozwiązanie
+vሬ⃗ 𝐵ሬ⃗ 𝑅2	𝑅1

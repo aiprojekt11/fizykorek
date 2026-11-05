@@ -1,0 +1,382 @@
+SOURCE: data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf
+PAGES: 24, 25, 26, 27
+
+[PAPER 24]
+24 Informator o egzaminie maturalnym z fizyki od roku szkolnego 2024/2025
+Zadanie 4. Kołowrót
+Dwa jednorodne walce połączono na sztywno tak, że tworzą one bryłę obrotową (zobacz
+rysunek 1. i rysunek 2.). Może się ona obracać wokół nieruchomej poziomej osi, która
+pokrywa się z jej osią symetrii. Na walec o promieniu 𝑅1= 5 cm i masie 𝑀1= 3 kg nawinięto
+sznurek, do którego końca przymocowano ciężarek o masie 𝑚1 = 2 kg. Na walec
+o promieniu 𝑅2 = 12 cm i masie 𝑀2= 8 kg nawinięto sznurek, do którego końca
+przymocowano ciężarek o masie 𝑚2= 1 kg. Początki obu nierozciągliwych sznurków są
+przytwierdzone – odpowiednio – do każdego z walców, a kierunki ich nawinięcia na oba
+walce są przeciwne. Sznurki nawinięto prostopadle do osi walców tak, że nie zostawiono
+luzów. Podczas ruchu obrotowego bryły sznurki mogą nawijać się i odwijać. Układ znajduje
+się w ziemskim polu grawitacyjnym, przyśpieszenie ziemskie wynosi 𝑔. W chwili początkowej
+układ jest nieruchomy.
+Opisany układ odblokowano: umożliwiono połączonym walcom obracanie się wokół
+nieruchomej, poziomej osi. Pomiń opory ruchu oraz masę i grubość sznurków. Moment
+bezwładności jednorodnego walca o masie 𝑀 i promieniu 𝑅 jest równy 1
+2 𝑀𝑅2.
+Rysunek 1. Rysunek 2. (widok z boku)
+Zadanie 4.1. (0–1)
+Ustal i zapisz, czy ciężarek o masie 𝒎𝟏 zacznie opadać czy się wznosić. Uzasadnij
+swoje stwierdzenie. W uzasadnieniu powołaj się na odpowiednie prawa lub zależności
+fizyczne i wykonaj niezbędne obliczenia.
+𝑀1, 𝑅1 𝑀2, 𝑅2
+𝑚1 𝑚2
+𝑚1 𝑚2
+𝑅1
+𝑅2
+𝑔 𝑔
+
+[PAPER 25]
+Przykładowe zadania z rozwiązaniami 25
+Wymaganie ogólne
+II. Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.
+Wymagania szczegółowe
+III. Mechanika bryły sztywnej. Zdający:
+2) stosuje pojęcie bryły sztywnej; opisuje ruch obrotowy bryły sztywnej wokół osi;
+3) stosuje warunki statyki bryły sztywnej; posługuje się pojęciem momentu sił wraz
+z jednostką.
+Zasady oceniania
+1 pkt – powołanie się na porównanie momentów sił w sytuacji statycznej (lub równoważny
+mu warunek równowagi kołowrotu), obliczenie i porównanie momentów sił oraz
+poprawne stwierdzenie, że ciężarek o masie 𝑚1 zacznie się wznosić.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Przykładowe pełne rozwiązanie
+Komentarz
+Żeby stwierdzić, w którą stronę zacznie obracać się kołowrót, należy porównać momenty sił
+napięcia sznurków. Gdy kołowrót utrzymujemy nieruchomo (działając dodatkowym momentem
+siły), to siły napięcia sznurków są równe co do wartości odpowiednim siłom ciężkości
+ciężarków. Zatem momenty tych sił są w takiej sytuacji równe – odpowiednio –
+𝑇1 = 𝑄1𝑅1 = 𝑚1𝑔𝑅1 ≈ 0,981 N∙m 𝑇2 = 𝑄2𝑅2 = 𝑚2𝑔𝑅2 ≈ 1,18 N∙m
+𝑇1 < 𝑇2
+Moment siły napięcia sznurka, na którym wisi ciężarek o masie 𝑚2, jest większy. Zatem gdy
+zniknie moment siły równoważący układ, to ciężarek o masie 𝑚2 zacznie opadać, a ciężarek
+o masie 𝑚1 zacznie się wznosić (pomimo że jest cięższy).
+Zadanie 4.2. (0–4)
+Oblicz wartość przyśpieszenia ciężarka o masie 𝒎𝟏. Zapisz obliczenia.
+
+[PAPER 26]
+26 Informator o egzaminie maturalnym z fizyki od roku szkolnego 2024/2025
+Wymaganie ogólne
+V. Budowanie modeli fizycznych i matematycznych do opisu zjawisk oraz ilustracji praw
+i zależności fizycznych.
+Wymagania szczegółowe
+II. Mechanika. Zdający:
+9) stosuje do obliczeń związki między promieniem okręgu, prędkością kątową,
+prędkością liniową […];
+11) opisuje ruch niejednostajny po okręgu.
+III. Mechanika bryły sztywnej. Zdający:
+3) stosuje warunki statyki bryły sztywnej; posługuje się pojęciem momentu sił wraz
+z jednostką;
+4) stosuje zasady dynamiki dla ruchu obrotowego; posługuje się pojęciami
+przyspieszenia kątowego oraz momentu bezwładności jako wielkości zależnej od
+rozkładu mas, wraz z ich jednostkami.
+Zasady oceniania
+4 pkt – poprawna metoda obliczenia przyśpieszenia 𝑎1 oraz podanie prawidłowego wyniku
+liczbowego z jednostką (np. jak w krokach 1.–4.).
+3 pkt – poprawne rozwiązanie układu równań, z którego można wyznaczyć przyśpieszenie
+kątowe na podstawie danych w zadaniu ( np. jak w kroku 3.).
+2 pkt – poprawne zapisanie trzech równań ruchu, łącznie z uwzględnieniem związków
+między przyśpieszeniami liniowymi a przyśpieszeniem kątowym, oraz zapisanie
+wzoru na moment bezwładności bryły (np. jak w krokach 1. i 2.).
+1 pkt – poprawne zapisanie trzech równań ruchu wyrażających drugą zasadę dynamiki:
+równania ruchu obrotowego bryły, równania ruchu postępowego ciężarka o masie 𝑚1
+oraz równania ruchu postępowego ciężarka o masie 𝑚1 – łącznie z odróżnieniem
+przyśpieszeń liniowych obu ciężarków (np. jak w kroku 1.).
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+Komentarz (krok 1.)
+Na walec oraz ciężarki działają sznurki siłami o wartościach 𝐹1 i 𝐹2. Na rysunku poniżej
+przedstawiono siły działające w układzie. Zgodnie z nim zapiszemy równania ruchu
+ciężarków oraz walca. Uwzględnimy fakt, że ciężarek 𝑚2 opada oraz fakt, że oba ciężarki
+mają przeciwne przyśpieszenia:
+{
+𝐼𝜖 = 𝑅2𝐹2 − 𝑅1𝐹1
+𝑚2𝑎2 = 𝑄2 − 𝐹2
+𝑚1𝑎1 = 𝐹1 − 𝑄1
+𝑚1 𝑚2
+𝑅1 𝑅2
+−𝐹1
+𝐹1
+−𝐹2
+𝐹2
+𝑄⃗2	𝑄⃗1
+
+[PAPER 27]
+Przykładowe zadania z rozwiązaniami 27
+Komentarz (krok 2.)
+Uwzględnimy związki między przyśpieszeniem kątowym bryły połączonych walców
+a przyśpieszeniami liniowymi ciężarków. Ponadto zapiszemy moment bezwładności 𝐼
+kołowrotu jako sumę momentów bezwładności obu walców:
+{𝑎1 = 𝜖𝑅1
+𝑎2 = 𝜖𝑅2
+𝐼 = 1
+2 𝑀1𝑅1
+2 + 1
+2 𝑀2𝑅2
+2 → 𝐼 ≈ 0,0614 kg∙m2
+Komentarz (krok 3.)
+Z powyższych równań wyznaczymy przyśpieszenie 𝜖 kątowe bryły obrotowej:
+{
+𝐼𝜖 = 𝑅2𝐹2 − 𝑅1𝐹1
+𝑚2𝜖𝑅2 = 𝑄2 − 𝐹2
+𝑚1𝜖𝑅1 = 𝐹1 − 𝑄1
+→ {
+𝐼𝜖 = 𝑅2𝐹2 − 𝑅1𝐹1
+𝐹2 = 𝑄2 − 𝑚2𝜖𝑅2
+𝐹1 = 𝑄1 + 𝑚1𝜖𝑅1
+→
+𝐼𝜖 = 𝑅2(𝑄2 − 𝑚2𝜖𝑅2) − 𝑅1(𝑄1 + 𝑚1𝜖𝑅1)
+𝐼𝜖 = 𝑅2𝑚2𝑔 − 𝑚2𝜖𝑅2
+2 − 𝑅1𝑚1𝑔 − 𝑚1𝜖𝑅1
+2
+𝜖 = 𝑔(𝑅2𝑚2 − 𝑅1𝑚1)
+𝐼 + 𝑚2𝑅2
+2 + 𝑚1𝑅1
+2
+Komentarz (krok 4.)
+Obliczamy 𝑎1:
+𝑎1 = 𝜖𝑅1 = 𝑔𝑅1(𝑅2𝑚2 − 𝑅1𝑚1)
+𝐼 + 𝑚2𝑅2
+2 + 𝑚1𝑅1
+2
+𝑎1 ≈ 9,81 ∙ 0,05 ∙ (0,12 ∙ 1 − 0,05 ∙ 2)
+0,0614 + 0,122 ∙ 1 + 0,052 ∙ 2
+m
+s2 ≈ 0,12 m
+s2
+
+KEY: data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf
+KEY CANDIDATES: 24, 25, 26, 27, 28, 29
+
+[KEY 24]
+24 Informator o egzaminie maturalnym z fizyki od roku szkolnego 2024/2025
+Zadanie 4. Kołowrót
+Dwa jednorodne walce połączono na sztywno tak, że tworzą one bryłę obrotową (zobacz
+rysunek 1. i rysunek 2.). Może się ona obracać wokół nieruchomej poziomej osi, która
+pokrywa się z jej osią symetrii. Na walec o promieniu 𝑅1= 5 cm i masie 𝑀1= 3 kg nawinięto
+sznurek, do którego końca przymocowano ciężarek o masie 𝑚1 = 2 kg. Na walec
+o promieniu 𝑅2 = 12 cm i masie 𝑀2= 8 kg nawinięto sznurek, do którego końca
+przymocowano ciężarek o masie 𝑚2= 1 kg. Początki obu nierozciągliwych sznurków są
+przytwierdzone – odpowiednio – do każdego z walców, a kierunki ich nawinięcia na oba
+walce są przeciwne. Sznurki nawinięto prostopadle do osi walców tak, że nie zostawiono
+luzów. Podczas ruchu obrotowego bryły sznurki mogą nawijać się i odwijać. Układ znajduje
+się w ziemskim polu grawitacyjnym, przyśpieszenie ziemskie wynosi 𝑔. W chwili początkowej
+układ jest nieruchomy.
+Opisany układ odblokowano: umożliwiono połączonym walcom obracanie się wokół
+nieruchomej, poziomej osi. Pomiń opory ruchu oraz masę i grubość sznurków. Moment
+bezwładności jednorodnego walca o masie 𝑀 i promieniu 𝑅 jest równy 1
+2 𝑀𝑅2.
+Rysunek 1. Rysunek 2. (widok z boku)
+Zadanie 4.1. (0–1)
+Ustal i zapisz, czy ciężarek o masie 𝒎𝟏 zacznie opadać czy się wznosić. Uzasadnij
+swoje stwierdzenie. W uzasadnieniu powołaj się na odpowiednie prawa lub zależności
+fizyczne i wykonaj niezbędne obliczenia.
+𝑀1, 𝑅1 𝑀2, 𝑅2
+𝑚1 𝑚2
+𝑚1 𝑚2
+𝑅1
+𝑅2
+𝑔 𝑔
+
+[KEY 25]
+Przykładowe zadania z rozwiązaniami 25
+Wymaganie ogólne
+II. Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.
+Wymagania szczegółowe
+III. Mechanika bryły sztywnej. Zdający:
+2) stosuje pojęcie bryły sztywnej; opisuje ruch obrotowy bryły sztywnej wokół osi;
+3) stosuje warunki statyki bryły sztywnej; posługuje się pojęciem momentu sił wraz
+z jednostką.
+Zasady oceniania
+1 pkt – powołanie się na porównanie momentów sił w sytuacji statycznej (lub równoważny
+mu warunek równowagi kołowrotu), obliczenie i porównanie momentów sił oraz
+poprawne stwierdzenie, że ciężarek o masie 𝑚1 zacznie się wznosić.
+0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.
+Przykładowe pełne rozwiązanie
+Komentarz
+Żeby stwierdzić, w którą stronę zacznie obracać się kołowrót, należy porównać momenty sił
+napięcia sznurków. Gdy kołowrót utrzymujemy nieruchomo (działając dodatkowym momentem
+siły), to siły napięcia sznurków są równe co do wartości odpowiednim siłom ciężkości
+ciężarków. Zatem momenty tych sił są w takiej sytuacji równe – odpowiednio –
+𝑇1 = 𝑄1𝑅1 = 𝑚1𝑔𝑅1 ≈ 0,981 N∙m 𝑇2 = 𝑄2𝑅2 = 𝑚2𝑔𝑅2 ≈ 1,18 N∙m
+𝑇1 < 𝑇2
+Moment siły napięcia sznurka, na którym wisi ciężarek o masie 𝑚2, jest większy. Zatem gdy
+zniknie moment siły równoważący układ, to ciężarek o masie 𝑚2 zacznie opadać, a ciężarek
+o masie 𝑚1 zacznie się wznosić (pomimo że jest cięższy).
+Zadanie 4.2. (0–4)
+Oblicz wartość przyśpieszenia ciężarka o masie 𝒎𝟏. Zapisz obliczenia.
+
+[KEY 26]
+26 Informator o egzaminie maturalnym z fizyki od roku szkolnego 2024/2025
+Wymaganie ogólne
+V. Budowanie modeli fizycznych i matematycznych do opisu zjawisk oraz ilustracji praw
+i zależności fizycznych.
+Wymagania szczegółowe
+II. Mechanika. Zdający:
+9) stosuje do obliczeń związki między promieniem okręgu, prędkością kątową,
+prędkością liniową […];
+11) opisuje ruch niejednostajny po okręgu.
+III. Mechanika bryły sztywnej. Zdający:
+3) stosuje warunki statyki bryły sztywnej; posługuje się pojęciem momentu sił wraz
+z jednostką;
+4) stosuje zasady dynamiki dla ruchu obrotowego; posługuje się pojęciami
+przyspieszenia kątowego oraz momentu bezwładności jako wielkości zależnej od
+rozkładu mas, wraz z ich jednostkami.
+Zasady oceniania
+4 pkt – poprawna metoda obliczenia przyśpieszenia 𝑎1 oraz podanie prawidłowego wyniku
+liczbowego z jednostką (np. jak w krokach 1.–4.).
+3 pkt – poprawne rozwiązanie układu równań, z którego można wyznaczyć przyśpieszenie
+kątowe na podstawie danych w zadaniu ( np. jak w kroku 3.).
+2 pkt – poprawne zapisanie trzech równań ruchu, łącznie z uwzględnieniem związków
+między przyśpieszeniami liniowymi a przyśpieszeniem kątowym, oraz zapisanie
+wzoru na moment bezwładności bryły (np. jak w krokach 1. i 2.).
+1 pkt – poprawne zapisanie trzech równań ruchu wyrażających drugą zasadę dynamiki:
+równania ruchu obrotowego bryły, równania ruchu postępowego ciężarka o masie 𝑚1
+oraz równania ruchu postępowego ciężarka o masie 𝑚1 – łącznie z odróżnieniem
+przyśpieszeń liniowych obu ciężarków (np. jak w kroku 1.).
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+Komentarz (krok 1.)
+Na walec oraz ciężarki działają sznurki siłami o wartościach 𝐹1 i 𝐹2. Na rysunku poniżej
+przedstawiono siły działające w układzie. Zgodnie z nim zapiszemy równania ruchu
+ciężarków oraz walca. Uwzględnimy fakt, że ciężarek 𝑚2 opada oraz fakt, że oba ciężarki
+mają przeciwne przyśpieszenia:
+{
+𝐼𝜖 = 𝑅2𝐹2 − 𝑅1𝐹1
+𝑚2𝑎2 = 𝑄2 − 𝐹2
+𝑚1𝑎1 = 𝐹1 − 𝑄1
+𝑚1 𝑚2
+𝑅1 𝑅2
+−𝐹1
+𝐹1
+−𝐹2
+𝐹2
+𝑄⃗2	𝑄⃗1
+
+[KEY 27]
+Przykładowe zadania z rozwiązaniami 27
+Komentarz (krok 2.)
+Uwzględnimy związki między przyśpieszeniem kątowym bryły połączonych walców
+a przyśpieszeniami liniowymi ciężarków. Ponadto zapiszemy moment bezwładności 𝐼
+kołowrotu jako sumę momentów bezwładności obu walców:
+{𝑎1 = 𝜖𝑅1
+𝑎2 = 𝜖𝑅2
+𝐼 = 1
+2 𝑀1𝑅1
+2 + 1
+2 𝑀2𝑅2
+2 → 𝐼 ≈ 0,0614 kg∙m2
+Komentarz (krok 3.)
+Z powyższych równań wyznaczymy przyśpieszenie 𝜖 kątowe bryły obrotowej:
+{
+𝐼𝜖 = 𝑅2𝐹2 − 𝑅1𝐹1
+𝑚2𝜖𝑅2 = 𝑄2 − 𝐹2
+𝑚1𝜖𝑅1 = 𝐹1 − 𝑄1
+→ {
+𝐼𝜖 = 𝑅2𝐹2 − 𝑅1𝐹1
+𝐹2 = 𝑄2 − 𝑚2𝜖𝑅2
+𝐹1 = 𝑄1 + 𝑚1𝜖𝑅1
+→
+𝐼𝜖 = 𝑅2(𝑄2 − 𝑚2𝜖𝑅2) − 𝑅1(𝑄1 + 𝑚1𝜖𝑅1)
+𝐼𝜖 = 𝑅2𝑚2𝑔 − 𝑚2𝜖𝑅2
+2 − 𝑅1𝑚1𝑔 − 𝑚1𝜖𝑅1
+2
+𝜖 = 𝑔(𝑅2𝑚2 − 𝑅1𝑚1)
+𝐼 + 𝑚2𝑅2
+2 + 𝑚1𝑅1
+2
+Komentarz (krok 4.)
+Obliczamy 𝑎1:
+𝑎1 = 𝜖𝑅1 = 𝑔𝑅1(𝑅2𝑚2 − 𝑅1𝑚1)
+𝐼 + 𝑚2𝑅2
+2 + 𝑚1𝑅1
+2
+𝑎1 ≈ 9,81 ∙ 0,05 ∙ (0,12 ∙ 1 − 0,05 ∙ 2)
+0,0614 + 0,122 ∙ 1 + 0,052 ∙ 2
+m
+s2 ≈ 0,12 m
+s2
+
+[KEY 28]
+28 Informator o egzaminie maturalnym z fizyki od roku szkolnego 2024/2025
+GRAWITACJA I ELEMENTY ASTRONOMII
+Zadanie 5. Wenus i Ziemia
+Wenus i Ziemia obiegają Słońce po orbitach, które z dobrym przybliżeniem możemy uznać
+za kołowe. Na poniższym rysunku przedstawiono położenie względne orbit obu planet
+z zachowaniem skali pomiędzy rozmiarami tych orbit. Przyjmij do obliczeń, że okres obiegu
+Ziemi dookoła Słońca wynosi 𝑇𝑍 = 1 rok, a każda z planet oddziałuje tylko ze Słońcem.
+Niektóre dane liczbowe są zawarte w proporcjach geometrycznych na rysunku. W celu
+rozwiązania zadań 5.1.–5.3. wykonaj odpowiednie pomiary linijką – z dokładnością do 1 mm.
+Zadanie 5.1. (0–2)
+Oblicz okres obiegu Wenus dookoła Słońca. Wynik podaj w latach ziemskich,
+zaokrąglony do dwóch cyfr znaczących. Zapisz obliczenia.
+Ziemia
+Słońce
+Wenus
+
+[KEY 29]
+Przykładowe zadania z rozwiązaniami 29
+Wymaganie ogólne
+II. Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.
+Wymagania szczegółowe
+I. Wymagania przekrojowe. Zdający:
+7) wyodrębnia z tekstów, tabel, diagramów lub wykresów, rysunków schematycznych
+lub blokowych informacje kluczowe dla opisywanego zjawiska bądź problemu; […];
+15) przeprowadza obliczenia i zapisuje wynik zaokrąglony do zadanej liczby cyfr
+znaczących.
+IV. Grawitacja i elementy astronomii. Zdający:
+5) interpretuje III prawo Keplera jako konsekwencję prawa powszechnego ciążenia;
+stosuje do obliczeń III prawo Keplera dla orbit kołowych i eliptycznych.
+Zasady oceniania
+2 pkt – poprawna metoda wyznaczenia okresu orbitalnego Wenus oraz prawidłowy wynik
+liczbowy podany w latach ziemskich mieszczący się w zakresie
+0,60 roku < 𝑇𝑊 < 0,64 roku.
+1 pkt – zapisanie równania III prawa Keplera oraz wykonanie prawidłowych pomiarów linijką,
+pozwalających na określenie stosunku promieni orbity Wenus i Ziemi (lub odwrotnie)
+w zakresie 0,71 < 𝑟𝑊
+𝑟𝑧
+< 0,74.
+0 pkt – rozwiązanie, w którym zastosowano niepoprawną metodę, albo brak rozwiązania.
+Przykładowe pełne rozwiązanie
+Komentarz
+Promień orbity okołosłonecznej Ziemi i Wenus oznaczymy odpowiednio 𝑟𝑍 oraz 𝑟𝑊.
+Zastosujemy III prawo Keplera:
+𝑇𝑍
+2
+𝑟𝑍
+3 = 𝑇𝑊
+2
+𝑟𝑊
+3 → 𝑇𝑊 = √(𝑟𝑊
+𝑟𝑍
+)
+3
+∙ 𝑇𝑍 → 𝑇𝑊 = √(𝑟𝑊
+𝑟𝑍
+)
+3
+∙ 1 rok
+Komentarz
+Do obliczenia okresu orbitalnego Wenus potrzebujemy znać iloraz promieni orbitalnych.
+Ponieważ rysunek wykonany jest z zachowaniem skali pomiędzy rozmiarami orbit, to
+stosunki promieni orbit w rzeczywistości i na rysunku są w przybliżeniu równe (i takie jak
+stosunki średnic). Wyniki pomiaru linijką średnic okręgów odczytamy z dokładnością do
+1 mm.
+𝑟𝑊
+𝑟𝑍
+≈ 𝑟𝑊𝑟𝑦𝑠
+𝑟𝑍𝑟𝑦𝑠
+𝑑𝑊𝑟𝑦𝑠 ≈ 8,7 cm 𝑑𝑍𝑟𝑦𝑠 ≈ 12 cm → 𝑟𝑊
+𝑟𝑍
+≈ 4,35 cm
+6,0 cm ≈ 0,725
+Wykonujemy obliczenia:
+𝑇𝑊 ≈ √(4,35
+6,0 )
+3
+∙ 1 rok ≈ 0,617 roku ≈ 0,62 roku

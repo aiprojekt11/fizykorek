@@ -1,0 +1,149 @@
+[
+  {
+    "id": "2026-styczen-z3",
+    "dir": "2026",
+    "stem": "fizyka-2026-styczen-probna-rozszerzona",
+    "task": 3,
+    "paperPath": "data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona.pdf",
+    "keyPath": "data/arkusze_cke/2026/fizyka-2026-styczen-probna-rozszerzona-odpowiedzi.pdf",
+    "paperPages": [
+      8,
+      9
+    ],
+    "keyCandidatePages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "id": "2024-grudzien-z3",
+    "dir": "2024",
+    "stem": "fizyka-2024-grudzien-probna-rozszerzona",
+    "task": 3,
+    "paperPath": "data/arkusze_cke/2024/fizyka-2024-grudzien-probna-rozszerzona.pdf",
+    "keyPath": "data/arkusze_cke/2024/fizyka-2024-grudzien-probna-rozszerzona-odpowiedzi.pdf",
+    "paperPages": [
+      8,
+      9,
+      10
+    ],
+    "keyCandidatePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": "2024-czerwiec-z2",
+    "dir": "2024",
+    "stem": "fizyka-2024-czerwiec-matura-rozszerzona",
+    "task": 2,
+    "paperPath": "data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona.pdf",
+    "keyPath": "data/arkusze_cke/2024/fizyka-2024-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
+    "paperPages": [
+      6,
+      7
+    ],
+    "keyCandidatePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": "2023-czerwiec-z3",
+    "dir": "2023",
+    "stem": "fizyka-2023-czerwiec-matura-rozszerzona",
+    "task": 3,
+    "paperPath": "data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona.pdf",
+    "keyPath": "data/arkusze_cke/2023/fizyka-2023-czerwiec-matura-rozszerzona-odpowiedzi.pdf",
+    "paperPages": [
+      9,
+      10
+    ],
+    "keyCandidatePages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": "2023-pokazowy-z2",
+    "dir": "2023",
+    "stem": "fizyka-2023-przykladowy-arkusz-cke-rozszerzona",
+    "task": 2,
+    "paperPath": "data/arkusze_cke/2023/fizyka-2023-przykladowy-arkusz-cke-rozszerzona.pdf",
+    "keyPath": "data/arkusze_cke/2023/fizyka-2023-przykladowy-arkusz-cke-rozszerzona-odpowiedzi.pdf",
+    "paperPages": [
+      4,
+      5
+    ],
+    "keyCandidatePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": "informator-2025-z4",
+    "dir": "informatory",
+    "stem": "informator-maturalny-fizyka-2025",
+    "task": 4,
+    "embedded": true,
+    "paperPath": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf",
+    "keyPath": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2025.pdf",
+    "paperPages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "keyCandidatePages": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "id": "informator-2023-z4",
+    "dir": "informatory",
+    "stem": "informator-maturalny-fizyka-2023",
+    "task": 4,
+    "embedded": true,
+    "paperPath": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2023.pdf",
+    "keyPath": "data/arkusze_cke/informatory/informator-maturalny-fizyka-2023.pdf",
+    "paperPages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "keyCandidatePages": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+]

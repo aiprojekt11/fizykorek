@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Zasada Zachowania Momentu Pędu – efekt piruetu łyżwiarza</title>
+  <desc id="desc">Łyżwiarz z rozłożonymi ramionami ma duży moment bezwładności I1 i małą prędkość kątową omega1. Po przyciągnięciu rąk moment bezwładności maleje, a prędkość kątowa rośnie. I1*omega1 = I2*omega2.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d97706"/></marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/></marker>
+    <style>
+      .t{font-family:Inter,Arial,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:15px;font-weight:600}.tiny{font-size:13px;font-weight:500}.muted{fill:#64748b}.blue{fill:#2563eb}.green{fill:#15803d}.red{fill:#dc2626}.amber{fill:#b45309}.purple{fill:#7c3aed}.line{stroke:#0f172a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke-width:2}.dash{stroke-dasharray:6 6}.surface{stroke:#94a3b8;stroke-width:3}.panel{fill:#f8fafc;stroke:#dbe5f1;stroke-width:2}.box{fill:#dbeafe;stroke:#2563eb;stroke-width:3}.disc{fill:#e0e7ff;stroke:#4f46e5;stroke-width:3}
+    </style>
+  </defs>
+  <rect class="panel" x="18" y="18" width="724" height="304" rx="22"/>
+     <!-- Stan 1: ramiona rozłożone -->
+     <rect x="40" y="45" width="310" height="245" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+     <text class="t label" x="195" y="78" text-anchor="middle">1. Ramiona rozłożone</text>
+     <!-- Schemat łyżwiarza 1 -->
+     <circle cx="195" cy="115" r="14" fill="#cbd5e1" stroke="#0f172a" stroke-width="2"/>
+     <line x1="195" y1="129" x2="195" y2="215" stroke="#0f172a" stroke-width="4"/>
+     <!-- Rozłożone ramiona -->
+     <line x1="100" y1="150" x2="290" y2="150" stroke="#2563eb" stroke-width="5"/>
+     <circle cx="100" cy="150" r="8" fill="#2563eb"/>
+     <circle cx="290" cy="150" r="8" fill="#2563eb"/>
+     <text class="t small blue" x="195" y="240" text-anchor="middle">Duży moment bezwładności: <tspan font-weight="700">I_1</tspan></text>
+     <text class="t small purple" x="195" y="265" text-anchor="middle">Mała prędkość kątowa: <tspan font-weight="700">ω_1</tspan></text>
+     <!-- Stan 2: ramiona przyciągnięte -->
+     <rect x="390" y="45" width="310" height="245" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+     <text class="t label" x="545" y="78" text-anchor="middle">2. Ramiona przy klatce</text>
+     <!-- Schemat łyżwiarza 2 -->
+     <circle cx="545" cy="115" r="14" fill="#cbd5e1" stroke="#0f172a" stroke-width="2"/>
+     <line x1="545" y1="129" x2="545" y2="215" stroke="#0f172a" stroke-width="4"/>
+     <!-- Przyciągnięte ramiona -->
+     <line x1="520" y1="150" x2="570" y2="150" stroke="#16a34a" stroke-width="5"/>
+     <circle cx="520" cy="150" r="8" fill="#16a34a"/>
+     <circle cx="570" cy="150" r="8" fill="#16a34a"/>
+     <text class="t small green" x="545" y="240" text-anchor="middle">Mały moment bezwładności: <tspan font-weight="700">I_2 &lt; I_1</tspan></text>
+     <text class="t small red" x="545" y="265" text-anchor="middle">Duża prędkość kątowa: <tspan font-weight="700">ω_2 &gt; ω_1</tspan></text>
+     <!-- Centralna strzałka przejścia -->
+     <line x1="335" y1="160" x2="375" y2="160" stroke="#475569" stroke-width="3" marker-end="url(#arrow-blue)"/>
+</svg>

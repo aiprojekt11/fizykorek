@@ -1013,17 +1013,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
 
                 <!-- Mini Formula Box / Teoria -->
-                ${(sub.id === 'sub-praca-matura' || (!sub.theory && !sub.formulaCheat)) ? '' : `
-                <div class="subchapter-formula-box">
-                    <div class="sfb-title">
+                ${(sub.id === 'sub-praca-matura' || sub.id === 'sub-bryla-matura' || (!sub.theory && !sub.formulaCheat)) ? '' : `
+                ${sub.theory ? '<details class="subchapter-formula-box theory-collapsible" open>' : '<div class="subchapter-formula-box">'}
+                    ${sub.theory ? '<summary class="sfb-title">' : '<div class="sfb-title">'}
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                             <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
                             <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                         </svg>
                         <span>${sub.theory ? 'Wstęp teoretyczny:' : 'Kluczowe wzory w tym temacie:'}</span>
-                    </div>
+                    ${sub.theory ? '</summary>' : '</div>'}
                     <div class="sfb-content ${sub.theory ? 'has-theory' : ''}" id="subFormulaContent">${sub.theory ? sub.theory : '$$' + sub.formulaCheat + '$$'}</div>
-                </div>
+                ${sub.theory ? '</details>' : '</div>'}
                 `}
 
                 <!-- Tasks Checklist -->
@@ -1482,8 +1482,8 @@ document.addEventListener('DOMContentLoaded', () => {
         setupInteractiveOptions(task) {
             if (!this.dom.taskProblemText) return;
             const currentSec = this.getActiveSection();
-            const isPraca = currentSec && currentSec.id === 'm-praca';
-            if (!isPraca) return;
+            const isSupported = currentSec && (currentSec.id === 'm-praca' || currentSec.id === 'm-bryla');
+            if (!isSupported) return;
 
             // 1. Multiple-choice questions (.problem-options-list)
             const optionLists = this.dom.taskProblemText.querySelectorAll('.problem-options-list');

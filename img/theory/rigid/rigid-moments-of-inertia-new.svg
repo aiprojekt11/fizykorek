@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img">
+  <title>Momenty bezwładności podstawowych brył</title>
+  <desc>Porównanie obręczy, walca, kuli i pręta z osiami obrotu przez środki masy oraz odpowiadającymi wzorami momentu bezwładności.</desc>
+  <defs>
+    <marker id="axis" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1261a0"/></marker>
+    <style><![CDATA[
+      .ink{stroke:#182c40;fill:none;stroke-width:2}.shape{stroke:#64778a;fill:#f5f8fb;stroke-width:2}.axis{stroke:#1261a0;stroke-width:3;marker-end:url(#axis)}
+      .guide{fill:none;stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7}.label{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:25px}.math{font-family:'Latin Modern Math','STIX Two Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:21px}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="620" fill="#fff"/>
+  <g transform="translate(150 230)">
+    <circle r="112" class="shape"/><circle r="68" fill="#fff" stroke="#64778a" stroke-width="2"/><line x1="-132" y1="0" x2="132" y2="0" class="axis"/><circle r="5" fill="#1261a0"/>
+    <text x="0" y="-145" text-anchor="middle" class="label">obręcz</text><text x="0" y="165" text-anchor="middle" class="math">I₀ = mR²</text><text x="0" y="195" text-anchor="middle" class="label small">oś przez środek masy</text>
+  </g>
+  <g transform="translate(440 230)">
+    <ellipse rx="112" ry="30" class="shape"/><path d="M-112 0v150c0 17 50 30 112 30s112-13 112-30V0" class="shape"/><ellipse rx="112" ry="30" fill="#dce5ed" stroke="#64778a" stroke-width="2"/><line x1="-132" y1="0" x2="132" y2="0" class="axis"/><circle r="5" fill="#1261a0"/>
+    <text x="0" y="-65" text-anchor="middle" class="label">walec pełny</text><text x="0" y="225" text-anchor="middle" class="math">I₀ = ½mR²</text><text x="0" y="255" text-anchor="middle" class="label small">oś symetrii</text>
+  </g>
+  <g transform="translate(760 230)">
+    <circle r="112" class="shape"/><ellipse rx="112" ry="34" class="ink"/><path d="M-86-72 Q0-35 86-72 M-86 72 Q0 35 86 72" class="guide"/><line x1="-132" y1="0" x2="132" y2="0" class="axis"/><circle r="5" fill="#1261a0"/>
+    <text x="0" y="-145" text-anchor="middle" class="label">kula pełna</text><text x="0" y="165" text-anchor="middle" class="math">I₀ = ⅖mR²</text><text x="0" y="195" text-anchor="middle" class="label small">oś przez środek masy</text>
+  </g>
+  <g transform="translate(1030 230)">
+    <rect x="-112" y="-15" width="224" height="30" rx="10" class="shape"/><line x1="-132" y1="0" x2="132" y2="0" class="axis"/><circle r="5" fill="#1261a0"/><line x1="0" y1="-58" x2="0" y2="58" class="guide"/>
+    <text x="0" y="-78" text-anchor="middle" class="label">pręt</text><text x="0" y="100" text-anchor="middle" class="math">I₀ = ¹⁄₁₂mL²</text><text x="0" y="130" text-anchor="middle" class="label small">oś prostopadła</text>
+  </g>
+</svg>
