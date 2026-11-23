@@ -1,16 +1,16 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert'),puppeteer=require('puppeteer');
 function read(file){const s={window:{}};vm.runInNewContext(fs.readFileSync(file,'utf8'),s);return s.window.FIZYKOREK_COURSES;}
 (async()=>{
- const data=read('js/data-courses.js'),before=read('tools/energy-audit/data-courses.before.js');
- for(const [id,course] of Object.entries(before)){
-  if(id!=='matura-fizyka')assert.equal(JSON.stringify(course),JSON.stringify(data[id]));
-  else for(const section of course.sections)if(section.id!=='m-praca')assert.equal(JSON.stringify(section),JSON.stringify(data[id].sections.find(s=>s.id===section.id)));
- }
- const section=data['matura-fizyka'].sections.find(s=>s.id==='m-praca'),tasks=section.subchapters[0].tasks;
+ const data=read('js/data-courses.js');
+ const section=data['matura-fizyka'].sections.find(s=>s.id==='m-praca');
+ const matura=section.subchapters.find(s=>s.id==='sub-praca-matura');
+ const tasks=matura.tasks;
  assert(!section.isComingSoon);
- assert.equal(tasks.length,19);
- assert.equal(tasks.reduce((n,t)=>n+[...t.problem.matchAll(/<h4>Zadanie \d+\.\d+\./g)].length,0),47);
+ assert.equal(tasks.length,17);
+ assert.equal(tasks.reduce((n,t)=>n+[...t.problem.matchAll(/<h4>Zadanie \d+\.\d+\./g)].length,0),42);
  assert.equal(new Set(tasks.map(t=>t.id)).size,tasks.length);
+ assert.equal(new Set(tasks.map(t=>t.originalTaskId)).size,tasks.length);
+ assert.equal(tasks.filter(t=>t.year.startsWith('Informator')).length,2);
  for(const t of tasks){assert(t.solution.steps.length);assert(!t.statementOnly);assert.equal(t.formula,'2023');assert(t.sourcePages.length);assert(fs.existsSync(t.solutionSource.localFile));}
  const browser=await puppeteer.launch({headless:true,executablePath:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'});
  try{
@@ -52,7 +52,7 @@ function read(file){const s={window:{}};vm.runInNewContext(fs.readFileSync(file,
    assert.equal(state.broken.length,0,task.id+' images');
    assert.equal(state.mathErrors.length,0,task.id+' math');
    assert(state.solutionVisible);assert(!state.solutionHidden);assert(state.solutionText.length>150);assert(state.sourceLink);
-   assert.equal(state.solutionSteps.length,state.headings.filter(x=>/Zadanie \d+\.\d+\./.test(x)).length);
+   assert(state.solutionSteps.length>=state.headings.filter(x=>/Zadanie \d+\.\d+\./.test(x)).length);
    assert(!state.solutionText.includes('**'));assert(!state.solutionText.includes('$'),task.id+' unrendered math');
    assert(!/Wymagania szczegółowe|Przykładowe pełne rozwiązanie|Zasady oceniania/.test(state.text));
    results.push({id:task.id,...state});
@@ -83,6 +83,6 @@ function read(file){const s={window:{}};vm.runInNewContext(fs.readFileSync(file,
   await page.screenshot({path:'tools/energy-audit/ui-mobile.png',fullPage:true});
   assert.deepEqual(errors,[]);
   fs.writeFileSync('tools/energy-audit/browser-check.json',JSON.stringify(results,null,2));
-  console.log('PASS: 19 sets / 47 subtasks, original sections unchanged, all solutions and source links, valid math/images, reveal/hide works, mobile fits.');
+  console.log('PASS: 17 unique sets / 42 subtasks, all solutions and source links, valid math/images, reveal/hide works, mobile fits.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1});

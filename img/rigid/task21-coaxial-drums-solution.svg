@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Siły działające na klocki przy współosiowych bębnach</title><desc id="desc">Na każdy klocek działa ciężar w dół i naprężenie nici w górę; większy moment ciężaru m1 powoduje jego ruch w dół.</desc>
+<defs>
+  <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#1261a0"/></marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#14736b"/></marker>
+  <marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#b65512"/></marker>
+  <style>.txt{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:27px}.math{font-family:'Latin Modern Math','Cambria Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:23px}.beam{stroke:#64778a;stroke-width:12;stroke-linecap:round}.thin{stroke:#64778a;stroke-width:2;fill:none}.guide{stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7;fill:none}.string{stroke:#182c40;stroke-width:2.5;fill:none}.dim{stroke:#14736b;stroke-width:2;fill:none;marker-start:url(#green);marker-end:url(#green)}.vec{stroke:#1261a0;stroke-width:3;fill:none;marker-end:url(#blue)}.force{stroke:#b65512;stroke-width:3;fill:none;marker-end:url(#orange)}.mass{fill:#f5f8fb;stroke:#64778a;stroke-width:2}.pulley{fill:#f5f8fb;stroke:#64778a;stroke-width:2}</style>
+</defs><rect width="1200" height="520" fill="#fff"/><circle cx="600" cy="205" r="165" class="pulley"/><circle cx="600" cy="205" r="82" fill="#fff" stroke="#64778a" stroke-width="2"/><circle cx="600" cy="205" r="7" fill="#182c40"/>
+<path d="M518 205V370M765 205V370" class="string"/><rect x="463" y="370" width="110" height="80" rx="5" class="mass"/><text x="518" y="418" text-anchor="middle" class="math small">m₁ = 4 kg</text><rect x="710" y="370" width="110" height="80" rx="5" class="mass"/><text x="765" y="418" text-anchor="middle" class="math small">m₂ = 1 kg</text>
+<path d="M600 205H518" class="dim"/><text x="535" y="160" text-anchor="middle" class="math small">r₁ = 0,10 m</text>
+<path d="M600 205H765" class="dim"/><text x="690" y="275" text-anchor="middle" class="math small">r₂ = 0,20 m</text>
+<text x="600" y="30" text-anchor="middle" class="txt small">bębny współosiowe połączone na sztywno</text>
+<path d="M485 385V315" stroke="#14736b" stroke-width="3" marker-end="url(#green)"/><text x="430" y="325" class="math small">F<tspan baseline-shift="sub" font-size="16">n1</tspan></text>
+<path d="M550 435V500" class="force"/><text x="565" y="490" class="math small">m₁g</text>
+<path d="M735 385V315" stroke="#14736b" stroke-width="3" marker-end="url(#green)"/><text x="680" y="325" class="math small">F<tspan baseline-shift="sub" font-size="16">n2</tspan></text>
+<path d="M800 435V500" class="force"/><text x="815" y="490" class="math small">m₂g</text>
+<path d="M415 380V475" class="vec"/><text x="370" y="465" class="math small">a₁</text>
+<path d="M865 475V380" class="vec"/><text x="880" y="400" class="math small">a₂</text></svg>

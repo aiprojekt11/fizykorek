@@ -55,12 +55,17 @@ document.addEventListener('DOMContentLoaded', () => {
             this.initTheme();
             this.bindEvents();
             this.render();
-            this.restoreNavigationState();
+            if (window.location.hash) {
+                this.restoreNavigationState();
+            } else {
+                this.showCourseSelection(false);
+            }
         }
 
         initDOM() {
             this.dom = {
                 // Views
+                courseSelectionView: document.getElementById('courseSelectionView'),
                 dashboardView: document.getElementById('dashboardView'),
                 workspaceView: document.getElementById('workspaceView'),
 
@@ -68,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 appHeader: document.getElementById('appHeader'),
                 logoBtn: document.getElementById('logoBtn'),
                 formulaDrawerBtn: document.getElementById('formulaDrawerBtn'),
+                activeCourseLabel: document.getElementById('activeCourseLabel'),
                 themeToggleBtn: document.getElementById('themeToggleBtn'),
                 themeIconSun: document.getElementById('themeIconSun'),
                 themeIconMoon: document.getElementById('themeIconMoon'),
@@ -77,6 +83,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 courseHeroBadge: document.getElementById('courseHeroBadge'),
                 courseHeroDesc: document.getElementById('courseHeroDesc'),
                 courseSwitchBtns: document.querySelectorAll('.course-switch-card'),
+                courseChoiceBtns: document.querySelectorAll('.course-choice-card'),
+                heroCourseName: document.getElementById('heroCourseName'),
+                heroCourseMeta: document.getElementById('heroCourseMeta'),
 
                 // Roadmap & Stepper elements
                 sectionRoadmapHeader: document.getElementById('sectionRoadmapHeader'),
@@ -86,6 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentSectionDesc: document.getElementById('currentSectionDesc'),
                 sectionProgressPercent: document.getElementById('sectionProgressPercent'),
                 sectionProgressBarFill: document.getElementById('sectionProgressBarFill'),
+                sectionProgressName: document.getElementById('sectionProgressName'),
                 roadmapStepperContainer: document.getElementById('roadmapStepperContainer'),
                 roadmapStepsRow: document.getElementById('roadmapStepsRow'),
                 subchapterFocusCard: document.getElementById('subchapterFocusCard'),
@@ -155,7 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
         bindEvents() {
             // Logo & Back buttons
             if (this.dom.logoBtn) {
-                this.dom.logoBtn.addEventListener('click', () => this.showDashboard());
+                this.dom.logoBtn.addEventListener('click', () => this.showCourseSelection());
+            }
+            if (this.dom.activeCourseLabel) {
+                this.dom.activeCourseLabel.addEventListener('click', () => this.showCourseSelection());
             }
             if (this.dom.backToDashboardBtn) {
                 this.dom.backToDashboardBtn.addEventListener('click', () => this.showDashboard());
@@ -169,6 +182,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (courseId) {
                             this.setCourse(courseId);
                         }
+                    });
+                });
+            }
+
+            if (this.dom.courseChoiceBtns) {
+                this.dom.courseChoiceBtns.forEach(card => {
+                    card.addEventListener('click', () => {
+                        const courseId = card.getAttribute('data-course-id');
+                        if (courseId) this.setCourse(courseId);
                     });
                 });
             }
@@ -350,7 +372,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            this.renderDashboard();
+            window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+            this.showDashboard(false);
             this.showToast(`Wybrano: ${this.courses[courseId].title}`);
         }
 
@@ -450,6 +473,23 @@ document.addEventListener('DOMContentLoaded', () => {
             return null;
         }
 
+        showCourseSelection(updateHash = true) {
+            this.state.activeTaskId = null;
+            localStorage.removeItem('fizykorek_active_task');
+
+            if (updateHash) {
+                window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+            }
+
+            if (this.dom.courseSelectionView) this.dom.courseSelectionView.classList.remove('hidden');
+            if (this.dom.dashboardView) this.dom.dashboardView.classList.add('hidden');
+            if (this.dom.workspaceView) this.dom.workspaceView.classList.add('hidden');
+            if (this.dom.activeCourseLabel) {
+                this.dom.activeCourseLabel.innerHTML = '<span class="header-status-dot" aria-hidden="true"></span>Wybierz kurs';
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
         showDashboard(updateHash = true) {
             this.state.activeTaskId = null;
             localStorage.removeItem('fizykorek_active_task');
@@ -458,6 +498,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.location.hash = `section=${this.state.activeSectionId}`;
             }
 
+            if (this.dom.courseSelectionView) this.dom.courseSelectionView.classList.add('hidden');
             this.dom.dashboardView.classList.remove('hidden');
             this.dom.workspaceView.classList.add('hidden');
             window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -479,6 +520,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.location.hash = `task=${taskId}`;
             }
 
+            if (this.dom.courseSelectionView) this.dom.courseSelectionView.classList.add('hidden');
             this.dom.dashboardView.classList.add('hidden');
             this.dom.workspaceView.classList.remove('hidden');
             if (window.innerWidth <= 960) {
@@ -519,9 +561,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const hashSec = params.get('section');
             const hashSub = params.get('sub');
 
-            const targetTaskId = hashTask || localStorage.getItem('fizykorek_active_task');
-            const targetSectionId = hashSec || localStorage.getItem('fizykorek_active_section');
-            const targetSubId = hashSub || localStorage.getItem('fizykorek_subchapter');
+            const targetTaskId = hashTask;
+            const targetSectionId = hashSec;
+            const targetSubId = hashSub;
 
             if (targetTaskId) {
                 const found = this.findTaskById(targetTaskId);
@@ -667,7 +709,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         render() {
-            this.renderDashboard();
             this.renderFormulaDrawer();
         }
 
@@ -687,11 +728,23 @@ document.addEventListener('DOMContentLoaded', () => {
             if (this.dom.courseHeroTitle) this.dom.courseHeroTitle.textContent = course.title;
             if (this.dom.courseHeroBadge) this.dom.courseHeroBadge.textContent = course.badge;
             if (this.dom.courseHeroDesc) this.dom.courseHeroDesc.textContent = course.subtitle;
+            if (this.dom.activeCourseLabel) {
+                const label = this.state.activeCourseId === 'matura-fizyka' ? 'Kurs maturalny' : 'II klasa';
+                this.dom.activeCourseLabel.innerHTML = `<span class="header-status-dot" aria-hidden="true"></span>${label}`;
+            }
+            if (this.dom.heroCourseName) {
+                this.dom.heroCourseName.textContent = this.state.activeCourseId === 'matura-fizyka' ? 'Matura CKE' : 'II klasa';
+            }
+            if (this.dom.heroCourseMeta) {
+                this.dom.heroCourseMeta.textContent = this.state.activeCourseId === 'matura-fizyka'
+                    ? 'Fizyka rozszerzona • formuła 2023'
+                    : 'Termodynamika • 6 tematów';
+            }
 
             // Render modern Działy Grid with dynamic live progress
             this.renderCourseSectionsGrid();
 
-            if (this.state.activeCourseId === 'matura-fizyka') {
+            if (this.state.activeCourseId === 'matura-fizyka' || this.state.activeCourseId === 'ii-klasa') {
                 this.renderMaturaCurriculum();
             } else if (this.state.activeCourseId === 'konkurs-fizyka') {
                 this.renderKonkursCurriculum();
@@ -741,6 +794,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const secTotal = secTasks.length;
                 const secDone = secTasks.filter(t => this.state.completedTasks.has(t.id)).length;
                 const secPercent = secTotal > 0 ? Math.round((secDone / secTotal) * 100) : 0;
+                const topicCount = sec.subchapters ? sec.subchapters.length : 0;
+                const hasTasks = secTotal > 0;
                 const isActive = sec.id === this.state.activeSectionId;
                 const isLocked = !!sec.isComingSoon;
 
@@ -767,8 +822,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="sec-card-desc">${sec.desc || ''}</p>
                     <div class="sec-card-progress">
                         <div class="sec-progress-labels">
-                            <span>${isLocked ? 'Dział w opracowaniu' : `Opanowane: ${secDone} z ${secTotal} zadań`}</span>
-                            <span class="sec-progress-percent">${isLocked ? '—' : `${secPercent}%`}</span>
+                            <span>${isLocked ? 'Dział w opracowaniu' : (hasTasks ? `Opanowane: ${secDone} z ${secTotal} zadań` : `${topicCount} tematów w programie`)}</span>
+                            <span class="sec-progress-percent">${isLocked ? '—' : (hasTasks ? `${secPercent}%` : 'Start')}</span>
                         </div>
                         <div class="sec-progress-bar-bg" role="progressbar" aria-label="Postęp w dziale ${sec.title}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${isLocked ? 0 : secPercent}">
                             <div class="sec-progress-bar-fill" style="width: ${isLocked ? 0 : secPercent}%;"></div>
@@ -793,7 +848,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.dom.contestSectionsGrid.classList.add('hidden');
             }
 
-            const course = this.courses['matura-fizyka'];
+            const course = this.courses[this.state.activeCourseId];
             const currentSec = this.getActiveSection() || course.sections[0];
             if (!currentSec) return;
 
@@ -821,10 +876,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.dom.currentSectionDesc.textContent = currentSec.desc;
             }
             if (this.dom.sectionTasksTotalLabel) {
-                this.dom.sectionTasksTotalLabel.textContent = `Opanowano: ${completedCount} / ${totalTasks} zadań`;
+                this.dom.sectionTasksTotalLabel.textContent = totalTasks > 0
+                    ? `Opanowano: ${completedCount} / ${totalTasks} zadań`
+                    : `${currentSec.subchapters?.length || 0} tematów w programie`;
             }
             if (this.dom.sectionProgressPercent) {
-                this.dom.sectionProgressPercent.textContent = `${percent}%`;
+                this.dom.sectionProgressPercent.textContent = totalTasks > 0 ? `${percent}%` : '—';
+            }
+            if (this.dom.sectionProgressName) {
+                this.dom.sectionProgressName.textContent = totalTasks > 0 ? 'Opanowane zadania' : 'Materiały w przygotowaniu';
             }
             if (this.dom.sectionProgressBarFill) {
                 this.dom.sectionProgressBarFill.style.width = `${percent}%`;
@@ -955,8 +1015,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const stepCard = document.createElement('button');
                 stepCard.type = 'button';
                 const isActive = sub.id === this.state.activeSubchapterId;
-                const subDoneCount = sub.tasks.filter(t => this.state.completedTasks.has(t.id)).length;
-                const totalInSub = sub.tasks.length;
+                const subTasks = sub.tasks || [];
+                const subDoneCount = subTasks.filter(t => this.state.completedTasks.has(t.id)).length;
+                const totalInSub = subTasks.length;
                 const isAllDone = totalInSub > 0 && subDoneCount === totalInSub;
 
                 stepCard.className = 'stepper-step-card';
@@ -964,7 +1025,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (isAllDone) stepCard.classList.add('completed');
                 stepCard.setAttribute('aria-current', isActive ? 'step' : 'false');
 
-                let statusBadgeText = isAllDone ? `✓ ${subDoneCount}/${totalInSub}` : `${subDoneCount}/${totalInSub} zadań`;
+                let statusBadgeText = totalInSub === 0
+                    ? 'Materiały w przygotowaniu'
+                    : (isAllDone ? `✓ ${subDoneCount}/${totalInSub}` : `${subDoneCount}/${totalInSub} zadań`);
 
                 stepCard.innerHTML = `
                     <div class="step-badge-num">${isAllDone ? '✓' : sub.number}</div>
@@ -990,8 +1053,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!sub) return;
 
             const currentSec = this.getActiveSection();
-            const subDoneCount = sub.tasks.filter(t => this.state.completedTasks.has(t.id)).length;
-            const totalInSub = sub.tasks.length;
+            const subTasks = sub.tasks || [];
+            const subDoneCount = subTasks.filter(t => this.state.completedTasks.has(t.id)).length;
+            const totalInSub = subTasks.length;
             const percent = totalInSub > 0 ? Math.round((subDoneCount / totalInSub) * 100) : 0;
             const nextSub = this.getNextSubchapter(sub.id);
 
@@ -1005,7 +1069,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p class="sfh-desc">${sub.desc}</p>
                     </div>
                     <div class="sfh-progress-wrap">
-                        <div class="sfh-progress-label">Postęp tematu: ${subDoneCount} z ${totalInSub} (${percent}%)</div>
+                        <div class="sfh-progress-label">${totalInSub === 0 ? 'Materiały w przygotowaniu' : `Postęp tematu: ${subDoneCount} z ${totalInSub} (${percent}%)`}</div>
                         <div class="sfh-progress-bar" role="progressbar" aria-label="Postęp tematu ${sub.title}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}">
                             <div class="sfh-progress-fill" style="width: ${percent}%;"></div>
                         </div>
@@ -1039,7 +1103,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Render tasks inside the list
             const listContainer = this.dom.subchapterFocusCard.querySelector('#subchapterTasksListContainer');
-            sub.tasks.forEach((task, idx) => {
+            subTasks.forEach((task, idx) => {
                 const isDone = this.state.completedTasks.has(task.id);
                 const taskCard = document.createElement('div');
                 taskCard.className = `task-item-card ${isDone ? 'task-done' : ''}`;
@@ -1092,9 +1156,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 listContainer.appendChild(taskCard);
             });
 
+            if (totalInSub === 0) {
+                listContainer.innerHTML = '<div class="empty-topic-state">Materiały teoretyczne i zadania do tego tematu pojawią się wkrótce.</div>';
+            }
+
             // Milestone Banner Content
             const milestoneBanner = this.dom.subchapterFocusCard.querySelector('#milestoneBanner');
-            if (subDoneCount === totalInSub && totalInSub > 0) {
+            if (totalInSub === 0) {
+                milestoneBanner.innerHTML = `
+                    <div class="mab-text">
+                        <div class="mab-text-title">Temat znajduje się w programie kursu</div>
+                        <div class="mab-text-sub">Możesz już przejrzeć wszystkie sześć tematów termodynamiki.</div>
+                    </div>
+                    <div class="mab-actions">
+                        ${nextSub ? `<button class="btn btn-sm btn-ghost" id="earlyUnlockBtn"><span>Kolejny temat</span></button>` : ''}
+                    </div>
+                `;
+                const earlyBtn = milestoneBanner.querySelector('#earlyUnlockBtn');
+                if (earlyBtn && nextSub) {
+                    earlyBtn.addEventListener('click', () => this.setSubchapter(nextSub.id));
+                }
+            } else if (subDoneCount === totalInSub && totalInSub > 0) {
                 milestoneBanner.innerHTML = `
                     <div class="mab-text">
                         <div class="mab-text-title">🎉 Znakomicie! Opanowałeś temat: ${sub.shortTitle || sub.title}</div>
@@ -1116,7 +1198,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 }
             } else {
-                const firstUnsolved = sub.tasks.find(t => !this.state.completedTasks.has(t.id)) || sub.tasks[0];
+                const firstUnsolved = subTasks.find(t => !this.state.completedTasks.has(t.id)) || subTasks[0];
                 milestoneBanner.innerHTML = `
                     <div class="mab-text">
                         <div class="mab-text-title">Twoja ścieżka postępu: ${subDoneCount} / ${totalInSub} ukończone</div>
@@ -1266,7 +1348,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Workspace Header Breadcrumb
             if (this.dom.workspaceCourseBadge) {
-                this.dom.workspaceCourseBadge.textContent = this.state.activeCourseId === 'matura-fizyka' ? 'Matura CKE' : course.title;
+                this.dom.workspaceCourseBadge.textContent = this.state.activeCourseId === 'matura-fizyka' ? 'Matura CKE' : 'II klasa';
             }
             if (this.dom.workspaceSectionTitle) {
                 const subText = subchapter ? ` / ${subchapter.shortTitle || subchapter.title}` : '';

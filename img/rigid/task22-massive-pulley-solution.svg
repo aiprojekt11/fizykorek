@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Siły w układzie z masywnym krążkiem</title><desc id="desc">Na klocek m1 działają siła naciągu Fn1, siła tarcia FT, ciężar i reakcja podłoża FN, a na m2 ciężar i siła naciągu Fn2; Fn2 jest większe od Fn1.</desc>
+<defs>
+  <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#1261a0"/></marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#14736b"/></marker>
+  <marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#b65512"/></marker>
+  <style>.txt{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:27px}.math{font-family:'Latin Modern Math','Cambria Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:23px}.beam{stroke:#64778a;stroke-width:12;stroke-linecap:round}.thin{stroke:#64778a;stroke-width:2;fill:none}.guide{stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7;fill:none}.string{stroke:#182c40;stroke-width:2.5;fill:none}.dim{stroke:#14736b;stroke-width:2;fill:none;marker-start:url(#green);marker-end:url(#green)}.vec{stroke:#1261a0;stroke-width:3;fill:none;marker-end:url(#blue)}.force{stroke:#b65512;stroke-width:3;fill:none;marker-end:url(#orange)}.mass{fill:#f5f8fb;stroke:#64778a;stroke-width:2}.pulley{fill:#f5f8fb;stroke:#64778a;stroke-width:2}</style>
+</defs><rect width="1200" height="520" fill="#fff"/><path d="M90 195H785" class="thin"/><path d="M300 150H860A75 75 0 0 1 935 225V320" class="string"/><circle cx="860" cy="225" r="75" class="pulley"/><circle cx="860" cy="225" r="6" fill="#182c40"/>
+<rect x="180" y="105" width="120" height="90" rx="5" class="mass"/><text x="240" y="158" text-anchor="middle" class="math small">m₁ = 2 kg</text><rect x="880" y="320" width="110" height="90" rx="5" class="mass"/><text x="935" y="373" text-anchor="middle" class="math small">m₂ = 1 kg</text>
+<text x="860" y="110" text-anchor="middle" class="math">M = 2 kg</text><text x="375" y="240" class="math small">μ = 0,20</text>
+
+<path d="M300 150H395" stroke="#14736b" stroke-width="3" marker-end="url(#green)"/><text x="348" y="135" class="math small">F<tspan baseline-shift="sub" font-size="16">n1</tspan></text>
+<path d="M180 175H95" class="force"/><text x="108" y="160" class="math small">F<tspan baseline-shift="sub" font-size="16">T</tspan></text>
+<path d="M240 105V40" class="vec"/><text x="255" y="65" class="math small">F<tspan baseline-shift="sub" font-size="16">N</tspan></text>
+<path d="M240 195V275" class="force"/><text x="255" y="260" class="math small">m₁g</text>
+<path d="M935 335V260" stroke="#14736b" stroke-width="3" marker-end="url(#green)"/><text x="955" y="280" class="math small">F<tspan baseline-shift="sub" font-size="16">n2</tspan></text>
+<path d="M935 410V490" class="force"/><text x="955" y="480" class="math small">m₂g</text></svg>

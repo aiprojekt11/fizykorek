@@ -7809,17 +7809,13 @@ window.FIZYKOREK_COURSES = {
                   "Dźwignia",
                   "Styl maturalny"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Na końcach nieważkiej belki zawieszono klocki. Klocek $m_1 = 3\\text{ kg}$ znajduje się $0{,}60\\text{ m}$ na lewo od osi O, a klocek $m_2$ – $0{,}40\\text{ m}$ na prawo. Oblicz $m_2$, jeżeli belka pozostaje pozioma.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad15-belka.png\" alt=\"Nieważka belka z osią O i klockami m1 i m2\" class=\"task-image\" />\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Na końcach nieważkiej belki zawieszono klocki. Klocek $m_1 = 3\\text{ kg}$ znajduje się $0{,}60\\text{ m}$ na lewo od osi O, a klocek $m_2$ – $0{,}40\\text{ m}$ na prawo. Oblicz $m_2$, jeżeli belka pozostaje pozioma.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/task15-beam-equilibrium.svg\" alt=\"Nieważka belka z osią O i klockami m1 i m2\" class=\"task-image\" />\n</div>",
                 "solution": {
                   "givens": "$m_1 = 3\\text{ kg}$, $r_1 = 0{,}60\\text{ m}$, $r_2 = 0{,}40\\text{ m}$.",
                   "steps": [
                     {
-                      "title": "Warunek równowagi obrotowej belki",
-                      "content": "Belka jest nieważka, a moment siły reakcji osi O wynosi zero (jej ramię względem osi jest zerowe). Aby belka pozostała w równowadze poziomej, suma momentów sił względem osi O musi wynosić zero:\n$$\\sum M_O = 0 \\implies m_1 g \\cdot r_1 = m_2 g \\cdot r_2$$"
-                    },
-                    {
-                      "title": "Wyznaczenie masy $m_2$",
-                      "content": "Przyspieszenie ziemskie $g$ upraszcza się po obu stronach równania:\n$$m_2 = \\frac{m_1 \\cdot r_1}{r_2} = \\frac{3\\text{ kg} \\cdot 0{,}60\\text{ m}}{0{,}40\\text{ m}} = 4{,}5\\text{ kg}$$"
+                      "title": "Warunek równowagi momentów sił względem osi O",
+                      "content": "<figure class=\"solution-force-figure\">\n  <img src=\"img/rigid/task15-beam-equilibrium-solution.svg\" alt=\"Schemat sił: ciężary klocków i siła reakcji osi O\" class=\"task-image\" />\n</figure>\nBelka jest nieważka, a moment siły reakcji osi $F_O$ wynosi zero (działa w punkcie podparcia). Aby belka pozostawała pozioma, suma momentów sił względem osi O musi wynosić zero:\n$$\\sum M_O = 0 \\implies m_1 g \\cdot r_1 = m_2 g \\cdot r_2$$\nPo skróceniu $g$ wyznaczamy masę $m_2$:\n$$m_2 = \\frac{m_1 \\cdot r_1}{r_2} = \\frac{3\\text{ kg} \\cdot 0{,}60\\text{ m}}{0{,}40\\text{ m}} = 4{,}5\\text{ kg}$$"
                     }
                   ],
                   "numerical": "$m_2 = 4{,}5\\text{ kg}$",
@@ -7837,21 +7833,17 @@ window.FIZYKOREK_COURSES = {
                   "Ciężar belki",
                   "Styl maturalny"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Jednorodna belka długości $4\\text{ m}$ i masie $10\\text{ kg}$ ma na końcach zawieszone klocki $m_1 = 5\\text{ kg}$ i $m_2 = 2\\text{ kg}$. Podporę P przesuwa się od środka masy S belki w stronę cięższego klocka. Oblicz odległość $x = |PS|$, dla której belka będzie w równowadze.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad16-belka.png\" alt=\"Jednorodna belka o długości 4 m z podporą P przesuniętą o x od środka masy S\" class=\"task-image\" />\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Jednorodna belka długości $4\\text{ m}$ i masie $10\\text{ kg}$ ma na końcach zawieszone klocki $m_1 = 5\\text{ kg}$ i $m_2 = 2\\text{ kg}$. Podporę P przesuwa się od środka masy S belki w stronę cięższego klocka. Oblicz odległość $x = |PS|$, dla której belka będzie w równowadze.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/task16-support-position.svg\" alt=\"Jednorodna belka o długości 4 m z podporą P przesuniętą o x od środka masy S\" class=\"task-image\" />\n</div>",
                 "solution": {
-                  "givens": "$L = 4\\text{ m}$, masa belki $M = 10\\text{ kg}$, $m_1 = 5\\text{ kg}$, $m_2 = 2\\text{ kg}$, środek masy S znajduje się $2\\text{ m}$ od każdego z końców.",
+                  "givens": "$L = 4\\text{ m}$, masa belki $M = 10\\text{ kg}$, $m_1 = 5\\text{ kg}$, $m_2 = 2\\text{ kg}$, środek masy S leży $2\\text{ m}$ od każdego końca.",
                   "steps": [
                     {
-                      "title": "Ustalenie ramion sił względem podpory P",
-                      "content": "Podpora P jest przesunięta o $x$ w stronę cięższego klocka $m_1$ (w lewo od środka S):\n- Odległość klocka $m_1$ od podpory P: $r_1 = 2 - x$\n- Odległość środka masy belki S od podpory P: $r_S = x$ (ciężar belki $Mg$ działa w dół po prawej stronie podpory)\n- Odległość klocka $m_2$ od podpory P: $r_2 = 2 + x$ (działa po prawej stronie podpory)"
-                    },
-                    {
-                      "title": "Równanie równowagi momentów sił względem punktu P",
-                      "content": "Suma momentów obracających belkę w lewo musi równoważyć sumę momentów obracających ją w prawo:\n$$m_1 g \\cdot (2 - x) = m_2 g \\cdot (2 + x) + M g \\cdot x$$\nDzieląc obustronnie przez $g$:\n$$5(2 - x) = 2(2 + x) + 10x$$\n$$10 - 5x = 4 + 2x + 10x$$\n$$10 - 4 = 17x \\implies 6 = 17x \\implies x = \\frac{6}{17}\\text{ m} \\approx 0{,}353\\text{ m}$$"
+                      "title": "Równowaga momentów sił względem podpory P",
+                      "content": "<figure class=\"solution-force-figure\">\n  <img src=\"img/rigid/task16-support-position-solution.svg\" alt=\"Schemat sił: ciężary klocków i belki oraz siła reakcji podpory P\" class=\"task-image\" />\n</figure>\nRamiona sił względem podpory P wynoszą: $r_1 = 2 - x$ (dla $m_1 g$ po lewej), $r_S = x$ (dla $Mg$ po prawej) oraz $r_2 = 2 + x$ (dla $m_2 g$ po prawej). Moment siły reakcji podpory $F_P$ wynosi zero.\nZ warunku równowagi momentów sił względem punktu P:\n$$m_1 g (2 - x) = Mg x + m_2 g (2 + x)$$\nDzielimy obustronnie przez $g$ i podstawiamy dane:\n$$5(2 - x) = 10x + 2(2 + x)$$\n$$10 - 5x = 12x + 4 \\implies 17x = 6 \\implies x = \\frac{6}{17}\\text{ m} \\approx 0{,}35\\text{ m}$$"
                     }
                   ],
-                  "numerical": "$x = \\frac{6}{17}\\text{ m} \\approx 0{,}353\\text{ m}$",
-                  "answer": "Odległość podpory P od środka masy belki wynosi $x = \\frac{6}{17}\\text{ m} \\approx 0{,}353\\text{ m}$ (ok. $35{,}3\\text{ cm}$)."
+                  "numerical": "$x = \\frac{6}{17}\\text{ m} \\approx 0{,}35\\text{ m}$",
+                  "answer": "Odległość podpory P od środka masy belki wynosi $x = \\frac{6}{17}\\text{ m} \\approx 0{,}35\\text{ m}$."
                 }
               },
               {
@@ -7865,21 +7857,21 @@ window.FIZYKOREK_COURSES = {
                   "Statyka bryły",
                   "Styl maturalny"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Jednorodna belka o masie $60\\text{ kg}$ jest połączona ze sztywnymi pionowymi podporami w punktach A i B odległych o $1{,}0\\text{ m}$. Środek masy C leży $1{,}4\\text{ m}$ na prawo od A. Połączenia mogą działać na belkę zarówno w górę, jak i w dół. Narysuj zwroty sił $F_A$ i $F_B$, a następnie oblicz ich wartości.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad17-belka.png\" alt=\"Jednorodna belka podparta w punktach A i B z ciężarem mg w środku masy C\" class=\"task-image\" />\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Jednorodna belka o masie $60\\text{ kg}$ jest połączona ze sztywnymi pionowymi podporami w punktach A i B odległych o $1{,}0\\text{ m}$. Środek masy C leży $1{,}4\\text{ m}$ na prawo od A. Połączenia mogą działać na belkę zarówno w górę, jak i w dół. Narysuj zwroty sił $F_A$ i $F_B$, a następnie oblicz ich wartości.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/task17-beam-reactions.svg\" alt=\"Jednorodna belka podparta w punktach A i B z ciężarem mg w środku masy C\" class=\"task-image\" />\n</div>",
                 "solution": {
-                  "givens": "$m = 60\\text{ kg}$, $Q = mg = 600\\text{ N}$, $|AB| = 1{,}0\\text{ m}$, $|AC| = 1{,}4\\text{ m}$.",
+                  "givens": "$m = 60\\text{ kg}$, $F_g = mg = 600\\text{ N}$, $|AB| = 1{,}0\\text{ m}$, $|AC| = 1{,}4\\text{ m}$.",
                   "steps": [
                     {
-                      "title": "Równowaga momentów sił względem punktu A",
-                      "content": "Przyjmijmy zwrot sił pionowych ku górze za dodatni. Względem podpory A moment siły $F_A$ znika:\n$$\\sum M_A = 0 \\implies F_B \\cdot |AB| - mg \\cdot |AC| = 0$$\n$$F_B \\cdot 1{,}0\\text{ m} = 600\\text{ N} \\cdot 1{,}4\\text{ m} = 840\\text{ N}\\cdot\\text{m} \\implies F_B = +840\\text{ N}$$\nDodatni znak potwierdza, że siła $F_B$ jest skierowana pionowo w górę."
+                      "title": "Układ równań równowagi sił i momentów sił",
+                      "content": "<figure class=\"solution-force-figure\">\n  <img src=\"img/rigid/task17-beam-reactions-solution.svg\" alt=\"Schemat sił: siły reakcji w punktach A i B oraz ciężar belki\" class=\"task-image\" />\n</figure>\nPrzyjmujemy oś pionową skierowaną w górę i zapisujemy warunki równowagi belki (momenty liczymy względem punktu A):\n$$\\begin{cases} F_A + F_B - mg = 0 \\\\ F_B \\cdot |AB| - mg \\cdot |AC| = 0 \\end{cases}$$"
                     },
                     {
-                      "title": "Warunek równowagi sił w pionie i wyznaczenie $F_A$",
-                      "content": "Suma sił działających na belkę w pionie musi wynosić zero:\n$$F_A + F_B - mg = 0 \\implies F_A = mg - F_B = 600\\text{ N} - 840\\text{ N} = -240\\text{ N}$$\nUjemny znak oznacza, że siła $F_A$ działa pionowo w dół — połączenie A musi przytrzymywać lewy koniec belki, zapobiegając jej uniesieniu."
+                      "title": "Wyznaczenie wartości i zwrotów sił F_B oraz F_A",
+                      "content": "Z drugiego równania wyznaczamy siłę $F_B$:\n$$F_B = \\frac{mg \\cdot |AC|}{|AB|} = \\frac{600\\text{ N} \\cdot 1{,}4\\text{ m}}{1{,}0\\text{ m}} = 840\\text{ N}$$\nDodatni wynik oznacza, że siła $F_B$ działa pionowo w górę.\nZ pierwszego równania wyznaczamy siłę $F_A$:\n$$F_A = mg - F_B = 600\\text{ N} - 840\\text{ N} = -240\\text{ N}$$\nZnak minus oznacza, że siła $F_A$ działa pionowo w dół (przytrzymuje lewy koniec belki przed uniesieniem)."
                     }
                   ],
-                  "numerical": "$F_B = 840\\text{ N}$ (w górę), $F_A = -240\\text{ N}$ (w dół)",
-                  "answer": "Zwrot siły $F_B$ jest skierowany w górę i ma wartość $840\\text{ N}$. Zwrot siły $F_A$ jest skierowany w dół i ma wartość $240\\text{ N}$."
+                  "numerical": "$F_B = 840\\text{ N}$ (w górę), $F_A = 240\\text{ N}$ (w dół)",
+                  "answer": "Siła $F_B = 840\\text{ N}$ działa pionowo w górę, a siła $F_A = 240\\text{ N}$ działa pionowo w dół."
                 }
               },
               {
@@ -7966,25 +7958,25 @@ window.FIZYKOREK_COURSES = {
                   "Naprężenia nici",
                   "Styl maturalny"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Dwa współosiowe bębny są połączone na sztywno. Na bęben o promieniu $r_1 = 0{,}10\\text{ m}$ nawinięto nić z klockiem $m_1 = 4\\text{ kg}$, a na bęben o promieniu $r_2 = 0{,}20\\text{ m}$ – nić z klockiem $m_2 = 1\\text{ kg}$. Nici rozwijają się po przeciwnych stronach. Moment bezwładności bębnów wynosi $I = 0{,}30\\text{ kg}\\cdot\\text{m}^2$. Ustal kierunek ruchu, a następnie oblicz $\\varepsilon$, przyspieszenia klocków i naprężenia obu nici.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad21-bebny.png\" alt=\"Współosiowe bębny z klockami m1 i m2\" class=\"task-image\" />\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Dwa współosiowe bębny są połączone na sztywno. Na bęben o promieniu $r_1 = 0{,}10\\text{ m}$ nawinięto nić z klockiem $m_1 = 4\\text{ kg}$, a na bęben o promieniu $r_2 = 0{,}20\\text{ m}$ – nić z klockiem $m_2 = 1\\text{ kg}$. Nici rozwijają się po przeciwnych stronach. Moment bezwładności bębnów wynosi $I = 0{,}30\\text{ kg}\\cdot\\text{m}^2$. Ustal kierunek ruchu, a następnie oblicz $\\varepsilon$, przyspieszenia klocków oraz siły naciągu obu nici $F_{n1}$ i $F_{n2}$.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/task21-coaxial-drums.svg\" alt=\"Współosiowe bębny z klockami m1 i m2\" class=\"task-image\" />\n</div>",
                 "solution": {
-                  "givens": "$r_1 = 0{,}10\\text{ m}, m_1 = 4\\text{ kg}$; $r_2 = 0{,}20\\text{ m}, m_2 = 1\\text{ kg}$; $I = 0{,}30\\text{ kg}\\cdot\\text{m}^2$, $g = 10\\text{ m/s}^2$.",
+                  "givens": "$r_1 = 0{,}10\\text{ m}$, $m_1 = 4\\text{ kg}$, $r_2 = 0{,}20\\text{ m}$, $m_2 = 1\\text{ kg}$, $I = 0{,}30\\text{ kg}\\cdot\\text{m}^2$, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
                       "title": "Ustalenie kierunku ruchu układu",
-                      "content": "Momenty sił ciężkości względem osi obrotu działają w przeciwnych zwrotach:\n$$M_{g1} = m_1 g r_1 = 4\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 0{,}10\\text{ m} = 4\\text{ N}\\cdot\\text{m}$$\n$$M_{g2} = m_2 g r_2 = 1\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 0{,}20\\text{ m} = 2\\text{ N}\\cdot\\text{m}$$\nPonieważ $M_{g1} > M_{g2}$, klocek $m_1$ opada, a klocek $m_2$ unosi się."
+                      "content": "<figure class=\"solution-force-figure\">\n  <img src=\"img/rigid/task21-coaxial-drums-solution.svg\" alt=\"Schemat sił działających na klocki przy współosiowych bębnach\" class=\"task-image\" />\n</figure>\nPorównujemy momenty sił ciężkości względem osi obrotu bębnów:\n$$M_{1} = m_1 g r_1 = 4\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 0{,}10\\text{ m} = 4\\text{ N}\\cdot\\text{m}$$\n$$M_{2} = m_2 g r_2 = 1\\text{ kg} \\cdot 10\\text{ m/s}^2 \\cdot 0{,}20\\text{ m} = 2\\text{ N}\\cdot\\text{m}$$\nPonieważ $M_1 > M_2$, klocek $m_1$ opada w dół, a klocek $m_2$ unosi się w górę."
                     },
                     {
-                      "title": "Równania dynamiki dla klocków i bębnów",
-                      "content": "Przyjmując zwrot ruchu klocka $m_1$ w dół za dodatni:\n1. Klocek $m_1$: $m_1 g - T_1 = m_1 a_1 = m_1 \\varepsilon r_1$\n2. Klocek $m_2$: $T_2 - m_2 g = m_2 a_2 = m_2 \\varepsilon r_2$\n3. Bębny: $T_1 r_1 - T_2 r_2 = I\\varepsilon$\nPo wyznaczeniu $T_1 = m_1(g - \\varepsilon r_1)$ i $T_2 = m_2(g + \\varepsilon r_2)$ i podstawieniu do równania bębnów:\n$$\\varepsilon = \\frac{m_1 g r_1 - m_2 g r_2}{I + m_1 r_1^2 + m_2 r_2^2} = \\frac{4 - 2}{0{,}30 + 4 \\cdot 0{,}01 + 1 \\cdot 0{,}04} = \\frac{2}{0{,}38} = \\frac{100}{19}\\text{ rad/s}^2 \\approx 5{,}26\\text{ rad/s}^2$$"
+                      "title": "Układ równań dynamiki i wyznaczenie przyspieszenia kątowego",
+                      "content": "Oznaczamy siły naciągu nici jako $F_{n1}$ oraz $F_{n2}$ i zapisujemy układ równań ruchu dla klocków oraz bębnów:\n$$\\begin{cases} m_1 g - F_{n1} = m_1 a_1 \\\\ F_{n2} - m_2 g = m_2 a_2 \\\\ F_{n1} r_1 - F_{n2} r_2 = I\\varepsilon \\\\ a_1 = \\varepsilon r_1, \\quad a_2 = \\varepsilon r_2 \\end{cases}$$\nZ pierwszych dwóch równań wyznaczamy $F_{n1} = m_1(g - \\varepsilon r_1)$ oraz $F_{n2} = m_2(g + \\varepsilon r_2)$ i podstawiamy do równania ruchu obrotowego bębnów:\n$$m_1(g - \\varepsilon r_1)r_1 - m_2(g + \\varepsilon r_2)r_2 = I\\varepsilon$$\n$$\\varepsilon = \\frac{m_1 g r_1 - m_2 g r_2}{I + m_1 r_1^2 + m_2 r_2^2} = \\frac{4 - 2}{0{,}30 + 4 \\cdot 0{,}01 + 1 \\cdot 0{,}04} = \\frac{2}{0{,}38} = \\frac{100}{19}\\text{ rad/s}^2 \\approx 5{,}26\\text{ rad/s}^2$$"
                     },
                     {
-                      "title": "Obliczenie przyspieszeń liniowych i naprężeń nici",
-                      "content": "Przyspieszenia liniowe klocków:\n$$a_1 = \\varepsilon r_1 = \\frac{100}{19} \\cdot 0{,}10 = \\frac{10}{19}\\text{ m/s}^2 \\approx 0{,}526\\text{ m/s}^2 \\quad (\\text{w dół})$$\n$$a_2 = \\varepsilon r_2 = \\frac{100}{19} \\cdot 0{,}20 = \\frac{20}{19}\\text{ m/s}^2 \\approx 1{,}05\\text{ m/s}^2 \\quad (\\text{w górę})$$\nNaprężenia nici:\n$$T_1 = m_1(g - a_1) = 4 \\cdot \\left(10 - \\frac{10}{19}\\right) = \\frac{720}{19}\\text{ N} \\approx 37{,}9\\text{ N}$$\n$$T_2 = m_2(g + a_2) = 1 \\cdot \\left(10 + \\frac{20}{19}\\right) = \\frac{210}{19}\\text{ N} \\approx 11{,}1\\text{ N}$$"
+                      "title": "Obliczenie przyspieszeń klocków i sił naciągu nici",
+                      "content": "Przyspieszenia liniowe klocków:\n$$a_1 = \\varepsilon r_1 = \\frac{100}{19} \\cdot 0{,}10 = \\frac{10}{19}\\text{ m/s}^2 \\approx 0{,}53\\text{ m/s}^2 \\quad (\\text{w dół})$$\n$$a_2 = \\varepsilon r_2 = \\frac{100}{19} \\cdot 0{,}20 = \\frac{20}{19}\\text{ m/s}^2 \\approx 1{,}05\\text{ m/s}^2 \\quad (\\text{w górę})$$\nSiły naciągu nici:\n$$F_{n1} = m_1(g - a_1) = 4 \\cdot \\left(10 - \\frac{10}{19}\\right) = \\frac{720}{19}\\text{ N} \\approx 37{,}9\\text{ N}$$\n$$F_{n2} = m_2(g + a_2) = 1 \\cdot \\left(10 + \\frac{20}{19}\\right) = \\frac{210}{19}\\text{ N} \\approx 11{,}1\\text{ N}$$"
                     }
                   ],
-                  "numerical": "$\\varepsilon = \\frac{100}{19}\\text{ rad/s}^2 \\approx 5{,}26\\text{ rad/s}^2$, $a_1 \\approx 0{,}526\\text{ m/s}^2$, $a_2 \\approx 1{,}05\\text{ m/s}^2$, $T_1 \\approx 37{,}9\\text{ N}$, $T_2 \\approx 11{,}1\\text{ N}$",
-                  "answer": "Klocek $m_1$ opada, a $m_2$ unosi się. Przyspieszenie kątowe wynosi $\\varepsilon \\approx 5{,}26\\text{ rad/s}^2$. Przyspieszenia klocków: $a_1 \\approx 0{,}526\\text{ m/s}^2$ (w dół), $a_2 \\approx 1{,}05\\text{ m/s}^2$ (w górę). Naprężenia nici: $T_1 \\approx 37{,}9\\text{ N}$, $T_2 \\approx 11{,}1\\text{ N}$."
+                  "numerical": "$\\varepsilon \\approx 5{,}26\\text{ rad/s}^2$, $a_1 \\approx 0{,}53\\text{ m/s}^2$, $a_2 \\approx 1{,}05\\text{ m/s}^2$, $F_{n1} \\approx 37{,}9\\text{ N}$, $F_{n2} \\approx 11{,}1\\text{ N}$",
+                  "answer": "Klocek $m_1$ opada, a $m_2$ unosi się. $\\varepsilon \\approx 5{,}26\\text{ rad/s}^2$, $a_1 \\approx 0{,}53\\text{ m/s}^2$ (w dół), $a_2 \\approx 1{,}05\\text{ m/s}^2$ (w górę), $F_{n1} \\approx 37{,}9\\text{ N}$, $F_{n2} \\approx 11{,}1\\text{ N}$."
                 }
               },
               {
@@ -7998,25 +7990,21 @@ window.FIZYKOREK_COURSES = {
                   "Tarcie",
                   "Styl maturalny"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Klocek $m_1 = 2\\text{ kg}$ leży na stole i jest połączony nicią z wiszącym klockiem $m_2 = 1\\text{ kg}$. Nić przechodzi przez jednorodny krążek o masie $M = 2\\text{ kg}$; $I = \\frac{1}{2}MR^2$. Współczynnik tarcia kinetycznego klocka o stół wynosi $\\mu = 0{,}20$. Oblicz przyspieszenie układu oraz naprężenia $T_1$ i $T_2$. Wyjaśnij, dlaczego naprężenia nie są równe.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad22-stol.png\" alt=\"Układ klocka m1 na stole, masywnego krążka M i klocka wiszącego m2\" class=\"task-image\" />\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Klocek $m_1 = 2\\text{ kg}$ leży na stole i jest połączony nicią z wiszącym klockiem $m_2 = 1\\text{ kg}$. Nić przechodzi przez jednorodny krążek o masie $M = 2\\text{ kg}$; $I = \\frac{1}{2}MR^2$. Współczynnik tarcia kinetycznego klocka o stół wynosi $\\mu = 0{,}20$. Oblicz przyspieszenie układu oraz siły naciągu nici $F_{n1}$ i $F_{n2}$. Wyjaśnij, dlaczego siły naciągu nie są równe.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/task22-massive-pulley.svg\" alt=\"Układ klocka m1 na stole, masywnego krążka M i klocka wiszącego m2\" class=\"task-image\" />\n</div>",
                 "solution": {
-                  "givens": "$m_1 = 2\\text{ kg}, m_2 = 1\\text{ kg}, M = 2\\text{ kg}, I = \\frac{1}{2}MR^2, \\mu = 0{,}20, g = 10\\text{ m/s}^2$.",
+                  "givens": "$m_1 = 2\\text{ kg}$, $m_2 = 1\\text{ kg}$, $M = 2\\text{ kg}$, $I = \\frac{1}{2}MR^2$, $\\mu = 0{,}20$, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
-                      "title": "Wyznaczenie siły tarcia i układu równań dynamiki",
-                      "content": "Wartość siły tarcia klocka o stół:\n$$f = \\mu m_1 g = 0{,}20 \\cdot 2\\text{ kg} \\cdot 10\\text{ m/s}^2 = 4\\text{ N}$$\nRównania ruchu:\n1. Klocek $m_1$: $T_1 - f = m_1 a$\n2. Klocek $m_2$: $m_2 g - T_2 = m_2 a$\n3. Krążek o masie $M$: $(T_2 - T_1)R = I\\varepsilon = (\\frac{1}{2}MR^2)\\frac{a}{R} \\implies T_2 - T_1 = \\frac{M}{2}a$"
+                      "title": "Układ równań dynamiki i przyspieszenie układu",
+                      "content": "<figure class=\"solution-force-figure\">\n  <img src=\"img/rigid/task22-massive-pulley-solution.svg\" alt=\"Schemat sił w układzie z masywnym krążkiem\" class=\"task-image\" />\n</figure>\nSiła tarcia kinetycznego działająca na klocek $m_1$ wynosi:\n$$F_T = \\mu F_N = \\mu m_1 g = 0{,}20 \\cdot 2\\text{ kg} \\cdot 10\\text{ m/s}^2 = 4\\text{ N}$$\nZapisujemy układ równań dla klocka $m_1$, klocka $m_2$ oraz masywnego krążka $M$:\n$$\\begin{cases} F_{n1} - F_T = m_1 a \\\\ m_2 g - F_{n2} = m_2 a \\\\ (F_{n2} - F_{n1}) R = I\\varepsilon \\\\ \\varepsilon = \\frac{a}{R} \\end{cases}$$\nZ trzeciego równania po podstawieniu $I = \\frac{1}{2}MR^2$ i $\\varepsilon = \\frac{a}{R}$ otrzymujemy:\n$$F_{n2} - F_{n1} = \\frac{1}{2}Ma$$\nDodajemy stronami pierwsze, drugie oraz przekształcone trzecie równanie:\n$$m_2 g - F_T = \\left(m_1 + m_2 + \\frac{1}{2}M\\right)a$$\n$$10 - 4 = (2 + 1 + 1)a \\implies 6 = 4a \\implies a = 1{,}5\\text{ m/s}^2$$"
                     },
                     {
-                      "title": "Obliczenie przyspieszenia układu",
-                      "content": "Sumując stronami powyższe trzy równania:\n$$m_2 g - f = \\left(m_1 + m_2 + \\frac{M}{2}\\right)a$$\n$$10 - 4 = (2 + 1 + 1)a \\implies 6 = 4a \\implies a = 1{,}5\\text{ m/s}^2$$"
-                    },
-                    {
-                      "title": "Obliczenie naprężeń nici i wyjaśnienie ich różnicy",
-                      "content": "Podstawiając przyspieszenie $a$ do równań klocków:\n$$T_1 = m_1 a + f = 2 \\cdot 1{,}5 + 4 = 7\\text{ N}$$\n$$T_2 = m_2(g - a) = 1 \\cdot (10 - 1{,}5) = 8{,}5\\text{ N}$$\nNaprężenia $T_1$ i $T_2$ nie są równe, ponieważ krążek jest masywny ($I > 0$). Różnica sił $(T_2 - T_1)$ wytwarza wypadkowy moment siły $(T_2 - T_1)R$, który nadaje krążkowi przyspieszenie kątowe $\\varepsilon = a/R$."
+                      "title": "Obliczenie sił naciągu nici i wyjaśnienie ich różnicy",
+                      "content": "Podstawiamy $a = 1{,}5\\text{ m/s}^2$ do pierwszych dwóch równań układu:\n$$F_{n1} = m_1 a + F_T = 2 \\cdot 1{,}5 + 4 = 7\\text{ N}$$\n$$F_{n2} = m_2(g - a) = 1 \\cdot (10 - 1{,}5) = 8{,}5\\text{ N}$$\nSiły naciągu $F_{n1}$ i $F_{n2}$ nie są równe, ponieważ krążek ma niezerowy moment bezwładności ($I > 0$). Do nadania mu przyspieszenia kątowego $\\varepsilon$ potrzebny jest wypadkowy moment siły $M_w = (F_{n2} - F_{n1})R > 0$, więc $F_{n2} > F_{n1}$."
                     }
                   ],
-                  "numerical": "$a = 1{,}5\\text{ m/s}^2, T_1 = 7\\text{ N}, T_2 = 8{,}5\\text{ N}$",
-                  "answer": "Przyspieszenie układu wynosi $1{,}5\\text{ m/s}^2$, naprężenia nici: $T_1 = 7\\text{ N}$ oraz $T_2 = 8{,}5\\text{ N}$. Różnica naprężeń wytwarza moment siły rozpędzający masywny krążek."
+                  "numerical": "$a = 1{,}5\\text{ m/s}^2$, $F_{n1} = 7\\text{ N}$, $F_{n2} = 8{,}5\\text{ N}$",
+                  "answer": "Przyspieszenie układu wynosi $a = 1{,}5\\text{ m/s}^2$, a siły naciągu nici $F_{n1} = 7\\text{ N}$ oraz $F_{n2} = 8{,}5\\text{ N}$. Różnica sił naciągu wytwarza moment siły rozpędzający masywny krążek."
                 }
               },
               {
@@ -8030,25 +8018,21 @@ window.FIZYKOREK_COURSES = {
                   "Siła tarcia",
                   "Styl maturalny"
                 ],
-                "problem": "<p class=\"problem-paragraph\">Jednorodny walec o masie $m = 1\\text{ kg}$ toczy się bez poślizgu po stole. Do jego osi przymocowano lekką nić przełożoną przez nieważki bloczek; na drugim końcu wisi klocek o tej samej masie $m$. Przyjmij $I = \\frac{1}{2}mR^2$. Wyznacz zwrot tarcia działającego na walec oraz oblicz przyspieszenie układu, naprężenie nici i wartość tarcia.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/rigid-zad23-walec.png\" alt=\"Jednorodny walec na stole z nicią przymocowaną do osi i wiszącym klockiem\" class=\"task-image\" />\n</div>",
+                "problem": "<p class=\"problem-paragraph\">Jednorodny walec o masie $m = 1\\text{ kg}$ toczy się bez poślizgu po stole. Do jego osi przymocowano lekką nić przełożoną przez nieważki bloczek; na drugim końcu wisi klocek o tej samej masie $m$. Przyjmij $I = \\frac{1}{2}mR^2$. Wyznacz zwrot siły tarcia działającej na walec oraz oblicz przyspieszenie układu, siłę naciągu nici $F_n$ i wartość siły tarcia $F_T$.</p>\n<div class=\"task-image-wrapper\">\n  <img src=\"img/rigid/task23-rolling-cylinder.svg\" alt=\"Jednorodny walec na stole z nicią przymocowaną do osi i wiszącym klockiem\" class=\"task-image\" />\n</div>",
                 "solution": {
-                  "givens": "Walec: $m = 1\\text{ kg}, I = \\frac{1}{2}mR^2$; klocek: $m = 1\\text{ kg}$, bloczek nieważki, $g = 10\\text{ m/s}^2$.",
+                  "givens": "Walec: $m = 1\\text{ kg}$, $I = \\frac{1}{2}mR^2$; klocek: $m = 1\\text{ kg}$, bloczek nieważki, $g = 10\\text{ m/s}^2$.",
                   "steps": [
                     {
-                      "title": "Ustalenie zwrotu siły tarcia statycznego",
-                      "content": "Naprężenie nici $T$ działa w osi walca, więc jego moment względem środka masy wynosi zero ($M_T = 0$). Aby walec toczył się w prawo bez poślizgu, musi uzyskać obrót zgodny z ruchem wskazówek zegara. Jedyną siłą dającą moment względem środka walca jest siła tarcia statycznego $f$ w punkcie styku z podłożem. Aby wytworzyć moment zgodny z ruchem wskazówek zegara, siła tarcia $f$ musi być skierowana **w lewo** (przeciwnie do ruchu postępowego)."
+                      "title": "Zwrot siły tarcia statycznego",
+                      "content": "<figure class=\"solution-force-figure\">\n  <img src=\"img/rigid/task23-rolling-cylinder-solution.svg\" alt=\"Schemat sił działających na walec i wiszący klocek\" class=\"task-image\" />\n</figure>\nSiła naciągu nici $F_n$ jest przyłożona w osi walca, więc jej moment względem środka masy wynosi zero. Aby walec toczył się w prawo bez poślizgu (zgodnie z ruchem wskazówek zegara), jedyna siła dająca niezerowy moment – siła tarcia statycznego $F_T$ w punkcie styku z podłożem – musi być skierowana w lewo."
                     },
                     {
-                      "title": "Równania ruchu dla walca i klocka",
-                      "content": "1. Walec (ruch postępowy): $T - f = ma$\n2. Walec (ruch obrotowy wokół osi środka): $f \\cdot R = I\\varepsilon = (\\frac{1}{2}mR^2)\\frac{a}{R} \\implies f = \\frac{1}{2}ma$\nZ powyższych równań: $T = ma + f = ma + \\frac{1}{2}ma = \\frac{3}{2}ma$\n3. Wiszący klocek: $mg - T = ma$"
-                    },
-                    {
-                      "title": "Wyznaczenie przyspieszenia, tarcia i naprężenia nici",
-                      "content": "Podstawiając $T = \\frac{3}{2}ma$ do równania klocka:\n$$mg - \\frac{3}{2}ma = ma \\implies mg = \\frac{5}{2}ma \\implies a = \\frac{2}{5}g = \\frac{2 \\cdot 10}{5} = 4\\text{ m/s}^2$$\nObliczenie wartości tarcia i naprężenia:\n$$f = \\frac{1}{2}ma = \\frac{1}{2} \\cdot 1\\text{ kg} \\cdot 4\\text{ m/s}^2 = 2\\text{ N}$$\n$$T = \\frac{3}{2}ma = \\frac{3}{2} \\cdot 1\\text{ kg} \\cdot 4\\text{ m/s}^2 = 6\\text{ N}$$"
+                      "title": "Układ równań ruchu i wyznaczenie szukanych wielkości",
+                      "content": "Zapisujemy układ równań dla ruchu postępowego i obrotowego walca oraz dla wiszącego klocka:\n$$\\begin{cases} F_n - F_T = ma \\\\ F_T \\cdot R = I\\varepsilon \\\\ mg - F_n = ma \\\\ \\varepsilon = \\frac{a}{R} \\end{cases}$$\nZ drugiego równania po podstawieniu $I = \\frac{1}{2}mR^2$ oraz $\\varepsilon = \\frac{a}{R}$ otrzymujemy:\n$$F_T \\cdot R = \\frac{1}{2}mR^2 \\cdot \\frac{a}{R} \\implies F_T = \\frac{1}{2}ma$$\nDodajemy stronami pierwsze i trzecie równanie układu, aby wyeliminować $F_n$:\n$$mg - F_T = 2ma$$\nPodstawiamy $F_T = \\frac{1}{2}ma$:\n$$mg - \\frac{1}{2}ma = 2ma \\implies mg = \\frac{5}{2}ma \\implies a = \\frac{2}{5}g = \\frac{2 \\cdot 10}{5} = 4\\text{ m/s}^2$$\nObliczamy wartość siły tarcia $F_T$ i siły naciągu nici $F_n$:\n$$F_T = \\frac{1}{2}ma = \\frac{1}{2} \\cdot 1\\text{ kg} \\cdot 4\\text{ m/s}^2 = 2\\text{ N}$$\n$$F_n = m(g - a) = 1\\text{ kg} \\cdot (10 - 4)\\text{ m/s}^2 = 6\\text{ N}$$"
                     }
                   ],
-                  "numerical": "$a = 4\\text{ m/s}^2, f = 2\\text{ N}, T = 6\\text{ N}$",
-                  "answer": "Tarcie działa na walec w lewo i ma wartość $f = 2\\text{ N}$. Przyspieszenie układu wynosi $a = 4\\text{ m/s}^2$, a naprężenie nici wynosi $T = 6\\text{ N}$."
+                  "numerical": "$a = 4\\text{ m/s}^2$, $F_T = 2\\text{ N}$, $F_n = 6\\text{ N}$",
+                  "answer": "Siła tarcia działa na walec w lewo i ma wartość $F_T = 2\\text{ N}$. Przyspieszenie układu wynosi $a = 4\\text{ m/s}^2$, a siła naciągu nici $F_n = 6\\text{ N}$."
                 }
               }
             ]
@@ -9461,5 +9445,80 @@ window.FIZYKOREK_COURSES = {
         "tasks": []
       }
     ]
+  },
+  "ii-klasa": {
+    "id": "ii-klasa",
+    "title": "Fizyka — II klasa",
+    "subtitle": "Materiał szkolny z termodynamiki uporządkowany w sześciu tematach",
+    "badge": "II klasa • Termodynamika",
+    "icon": "🌡️",
+    "accentColor": "#14736b",
+    "sections": [
+      {
+        "id": "klasa2-termodynamika",
+        "title": "Termodynamika",
+        "icon": "🌡️",
+        "badge": "6 tematów",
+        "desc": "Gaz doskonały, zasady termodynamiki, silniki cieplne, przemiany fazowe, bilans cieplny i rozszerzalność cieplna.",
+        "subchapters": [
+          {
+            "id": "k2-przemiany-gazu",
+            "number": 1,
+            "title": "1. Przemiany gazu doskonałego",
+            "shortTitle": "Przemiany gazu doskonałego",
+            "icon": "💨",
+            "desc": "Równanie stanu gazu doskonałego oraz przemiany izotermiczna, izobaryczna i izochoryczna.",
+            "tasks": []
+          },
+          {
+            "id": "k2-zasady-termodynamiki",
+            "number": 2,
+            "title": "2. Zerowa i pierwsza zasada termodynamiki",
+            "shortTitle": "0 i 1 zasada termodynamiki",
+            "icon": "⚖️",
+            "desc": "Równowaga termiczna, energia wewnętrzna, ciepło i praca w pierwszej zasadzie termodynamiki.",
+            "tasks": []
+          },
+          {
+            "id": "k2-silniki-cieplne",
+            "number": 3,
+            "title": "3. Silniki cieplne",
+            "shortTitle": "Silniki cieplne",
+            "icon": "⚙️",
+            "desc": "Obieg silnika cieplnego, praca, ciepło pobrane i oddane oraz sprawność urządzeń cieplnych.",
+            "tasks": []
+          },
+          {
+            "id": "k2-przemiany-fazowe",
+            "number": 4,
+            "title": "4. Przemiany fazowe",
+            "shortTitle": "Przemiany fazowe",
+            "icon": "🧊",
+            "desc": "Topnienie, krzepnięcie, parowanie, skraplanie, sublimacja i ciepło przemiany fazowej.",
+            "tasks": []
+          },
+          {
+            "id": "k2-bilans-cieplny",
+            "number": 5,
+            "title": "5. Bilans cieplny",
+            "shortTitle": "Bilans cieplny",
+            "icon": "♨️",
+            "desc": "Wymiana ciepła między ciałami, temperatura końcowa układu i zasada zachowania energii.",
+            "tasks": []
+          },
+          {
+            "id": "k2-rozszerzalnosc",
+            "number": 6,
+            "title": "6. Rozszerzalność cieplna",
+            "shortTitle": "Rozszerzalność cieplna",
+            "icon": "📏",
+            "desc": "Rozszerzalność liniowa i objętościowa ciał oraz zależność wymiarów od temperatury.",
+            "tasks": []
+          }
+        ],
+        "tasks": []
+      }
+    ],
+    "tasks": []
   }
 };

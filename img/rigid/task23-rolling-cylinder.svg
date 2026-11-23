@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">Walec połączony z wiszącym klockiem</title><desc id="desc">Nić jest przymocowana do osi jednorodnego walca i przełożona przez nieważki bloczek; zaznaczono siłę naciągu oraz miejsce ustalenia zwrotu tarcia.</desc>
+<defs>
+  <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#1261a0"/></marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#14736b"/></marker>
+  <marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#b65512"/></marker>
+  <style>.txt{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:27px}.math{font-family:'Latin Modern Math','Cambria Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:23px}.beam{stroke:#64778a;stroke-width:12;stroke-linecap:round}.thin{stroke:#64778a;stroke-width:2;fill:none}.guide{stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7;fill:none}.string{stroke:#182c40;stroke-width:2.5;fill:none}.dim{stroke:#14736b;stroke-width:2;fill:none;marker-start:url(#green);marker-end:url(#green)}.vec{stroke:#1261a0;stroke-width:3;fill:none;marker-end:url(#blue)}.force{stroke:#b65512;stroke-width:3;fill:none;marker-end:url(#orange)}.mass{fill:#f5f8fb;stroke:#64778a;stroke-width:2}.pulley{fill:#f5f8fb;stroke:#64778a;stroke-width:2}</style>
+</defs><rect width="1200" height="500" fill="#fff"/><path d="M80 335H1000" class="thin"/><circle cx="340" cy="225" r="110" class="pulley"/><circle cx="340" cy="225" r="7" fill="#182c40"/><text x="315" y="215" text-anchor="end" class="math">O</text>
+<circle cx="850" cy="280" r="55" class="pulley"/><circle cx="850" cy="280" r="5" fill="#182c40"/>
+<path d="M340 225H850A55 55 0 0 1 905 280V345" class="string"/><rect x="850" y="345" width="110" height="90" rx="5" class="mass"/><text x="905" y="398" text-anchor="middle" class="math small">m</text>
+<path d="M280 135A110 110 0 0 1 430 180" fill="none" stroke="#14736b" stroke-width="3" marker-end="url(#green)"/><text x="355" y="105" text-anchor="middle" class="math">toczenie bez poślizgu</text>
+<text x="340" y="445" text-anchor="middle" class="txt small">walec jednorodny, m = 1 kg</text><text x="905" y="470" text-anchor="middle" class="txt small">m = 1 kg</text></svg>

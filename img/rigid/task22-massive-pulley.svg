@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Klocek na stole i masywny krążek</title><desc id="desc">Klocek m1 na szorstkim stole połączony nicią przez masywny krążek M z wiszącym klockiem m2; oznaczono różne siły naciągu.</desc>
+<defs>
+  <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#1261a0"/></marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#14736b"/></marker>
+  <marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#b65512"/></marker>
+  <style>.txt{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:27px}.math{font-family:'Latin Modern Math','Cambria Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:23px}.beam{stroke:#64778a;stroke-width:12;stroke-linecap:round}.thin{stroke:#64778a;stroke-width:2;fill:none}.guide{stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7;fill:none}.string{stroke:#182c40;stroke-width:2.5;fill:none}.dim{stroke:#14736b;stroke-width:2;fill:none;marker-start:url(#green);marker-end:url(#green)}.vec{stroke:#1261a0;stroke-width:3;fill:none;marker-end:url(#blue)}.force{stroke:#b65512;stroke-width:3;fill:none;marker-end:url(#orange)}.mass{fill:#f5f8fb;stroke:#64778a;stroke-width:2}.pulley{fill:#f5f8fb;stroke:#64778a;stroke-width:2}</style>
+</defs><rect width="1200" height="520" fill="#fff"/><path d="M90 195H785" class="thin"/><path d="M300 150H860A75 75 0 0 1 935 225V320" class="string"/><circle cx="860" cy="225" r="75" class="pulley"/><circle cx="860" cy="225" r="6" fill="#182c40"/>
+<rect x="180" y="105" width="120" height="90" rx="5" class="mass"/><text x="240" y="158" text-anchor="middle" class="math small">m₁ = 2 kg</text><rect x="880" y="320" width="110" height="90" rx="5" class="mass"/><text x="935" y="373" text-anchor="middle" class="math small">m₂ = 1 kg</text>
+<text x="860" y="110" text-anchor="middle" class="math">M = 2 kg</text><text x="375" y="240" class="math small">μ = 0,20</text>
+</svg>

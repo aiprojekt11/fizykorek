@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ffffff">
     <meta name="description"
-        content="FizyKorek – Nowoczesna platforma do nauki fizyki. Matura z Fizyki (CKE Rozszerzenie). Zadania z rozwiązaniami krok po kroku i asystentem AI.">
-    <title>FizyKorek – Korepetytor AI z Fizyki (Matura CKE)</title>
+        content="FizyKorek – nowoczesna platforma do nauki fizyki: kurs maturalny oraz materiały dla II klasy.">
+    <title>FizyKorek – kursy fizyki</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,19 +59,19 @@
 
         <div class="header-center">
             <div class="header-course-pills" id="headerCoursePills">
-                <span class="active-course-label" id="activeCourseLabel"><span class="header-status-dot" aria-hidden="true"></span>Kurs maturalny</span>
+                <button type="button" class="active-course-label" id="activeCourseLabel" title="Zmień kurs"><span class="header-status-dot" aria-hidden="true"></span>Kurs maturalny</button>
             </div>
         </div>
 
         <div class="header-right">
-            <button class="nav-btn btn-formula" id="formulaDrawerBtn" title="Otwórz interaktywną kartę wzorów i stałych" aria-controls="formulaDrawer" aria-expanded="false">
+            <button class="nav-btn btn-formula" id="formulaDrawerBtn" title="Otwórz kartę wzorów i stałych" aria-controls="formulaDrawer" aria-expanded="false">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
                     <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                     <line x1="8" y1="7" x2="16" y2="7"></line>
                     <line x1="8" y1="11" x2="13" y2="11"></line>
                 </svg>
-                <span>Wzory CKE</span>
+                <span>Wzory</span>
             </button>
         </div>
     </header>
@@ -80,9 +80,40 @@
     <main class="app-main-container" id="mainContent">
 
         <!-- ============================================================ -->
+        <!-- VIEW 0: WYBÓR KURSU                                         -->
+        <!-- ============================================================ -->
+        <section class="course-selection-view" id="courseSelectionView" aria-labelledby="courseSelectionTitle">
+            <div class="course-selection-shell">
+                <div class="course-selection-heading">
+                    <span class="section-eyebrow">FizyKorek</span>
+                    <h1 id="courseSelectionTitle">Wybierz swój kurs fizyki</h1>
+                    <p>Przejdź do przygotowania maturalnego albo materiału realizowanego w II klasie.</p>
+                </div>
+
+                <div class="course-choice-grid" aria-label="Dostępne kursy">
+                    <button class="course-choice-card course-choice-matura" type="button" data-course-id="matura-fizyka">
+                        <span class="course-choice-icon" aria-hidden="true">⚛️</span>
+                        <span class="course-choice-kicker">Poziom rozszerzony</span>
+                        <strong>Matura</strong>
+                        <span class="course-choice-desc">Pełny kurs przygotowujący do matury z fizyki: działy, zadania i rozwiązania krok po kroku.</span>
+                        <span class="course-choice-meta">CKE • formuła 2023</span>
+                    </button>
+
+                    <button class="course-choice-card course-choice-class-two" type="button" data-course-id="ii-klasa">
+                        <span class="course-choice-icon" aria-hidden="true">🌡️</span>
+                        <span class="course-choice-kicker">Szkoła średnia</span>
+                        <strong>II klasa</strong>
+                        <span class="course-choice-desc">Materiał szkolny uporządkowany tematycznie. Obecnie dostępny jest kurs termodynamiki.</span>
+                        <span class="course-choice-meta">Termodynamika • 6 tematów</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
         <!-- VIEW 1: DASHBOARD NAUKI                                     -->
         <!-- ============================================================ -->
-        <section class="dashboard-view" id="dashboardView">
+        <section class="dashboard-view hidden" id="dashboardView">
             <div class="dashboard-hero">
                 <div class="hero-copy">
                     <div class="hero-badge-wrap">
@@ -95,8 +126,8 @@
                 </div>
                 <div class="hero-course-note" aria-label="Informacje o kursie">
                     <span class="hero-course-kicker">Twój kurs</span>
-                    <strong>Matura CKE</strong>
-                    <span>Fizyka rozszerzona • formuła 2023</span>
+                    <strong id="heroCourseName">Matura CKE</strong>
+                    <span id="heroCourseMeta">Fizyka rozszerzona • formuła 2023</span>
                 </div>
             </div>
 
@@ -129,7 +160,7 @@
                     <div class="srh-right">
                         <div class="srh-progress-box">
                             <div class="srh-progress-labels">
-                                <span class="srh-progress-name">Opanowane zadania</span>
+                                <span class="srh-progress-name" id="sectionProgressName">Opanowane zadania</span>
                                 <span class="srh-progress-percent" id="sectionProgressPercent">0%</span>
                             </div>
                             <div class="srh-progress-bar-bg">

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Siły działające na belkę ze zwisającym końcem</title><desc id="desc">Siła FA działa w dół, siła FB w górę, a ciężar belki w dół w środku masy C.</desc>
+<defs>
+  <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#1261a0"/></marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#14736b"/></marker>
+  <marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#b65512"/></marker>
+  <style>.txt{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:27px}.math{font-family:'Latin Modern Math','Cambria Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:23px}.beam{stroke:#64778a;stroke-width:12;stroke-linecap:round}.thin{stroke:#64778a;stroke-width:2;fill:none}.guide{stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7;fill:none}.string{stroke:#182c40;stroke-width:2.5;fill:none}.dim{stroke:#14736b;stroke-width:2;fill:none;marker-start:url(#green);marker-end:url(#green)}.vec{stroke:#1261a0;stroke-width:3;fill:none;marker-end:url(#blue)}.force{stroke:#b65512;stroke-width:3;fill:none;marker-end:url(#orange)}.mass{fill:#f5f8fb;stroke:#64778a;stroke-width:2}.pulley{fill:#f5f8fb;stroke:#64778a;stroke-width:2}</style>
+</defs><rect width="1200" height="520" fill="#fff"/><path d="M130 250H1070" class="beam"/>
+<circle cx="250" cy="250" r="7" fill="#182c40"/><circle cx="600" cy="250" r="7" fill="#182c40"/><circle cx="740" cy="250" r="7" fill="#182c40"/>
+<text x="250" y="225" text-anchor="middle" class="math">A</text><text x="600" y="225" text-anchor="middle" class="math">B</text><text x="740" y="225" text-anchor="middle" class="math">C</text>
+<path d="M250 250v125M600 250v125" class="guide"/><path d="M215 375h70M565 375h70" class="thin"/>
+<path d="M250 125H600" class="dim"/><path d="M250 111v28M600 111v28" class="thin"/><text x="425" y="110" text-anchor="middle" class="math small">1,0 m</text><path d="M250 75H740" class="dim"/><path d="M250 61v28M740 61v28" class="thin"/><text x="495" y="60" text-anchor="middle" class="math small">1,4 m</text>
+<text x="425" y="455" text-anchor="middle" class="txt small">połączenia pionowe w A i B</text><text x="870" y="455" text-anchor="middle" class="txt small">m = 60 kg</text>
+<path d="M250 250V345" class="force"/><text x="205" y="330" class="math small">F<tspan baseline-shift="sub" font-size="17">A</tspan></text>
+<path d="M600 250V155" class="vec"/><text x="625" y="175" class="math small">F<tspan baseline-shift="sub" font-size="17">B</tspan></text>
+<path d="M740 250V365" class="force"/><text x="770" y="345" class="math small">mg</text></svg>
