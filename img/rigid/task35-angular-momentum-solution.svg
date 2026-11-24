@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">Zwrot momentu pędu obracającej się tarczy</title><desc id="desc">Dla obrotu zgodnego z ruchem wskazówek zegara wektor momentu pędu jest skierowany wzdłuż osi obrotu w głąb kartki, co oznaczono krzyżykiem w okręgu.</desc>
+<defs>
+  <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#1261a0"/></marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#14736b"/></marker>
+  <marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#b65512"/></marker>
+  <style>.txt{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:27px}.math{font-family:'Latin Modern Math','Cambria Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:23px}.beam{stroke:#64778a;stroke-width:12;stroke-linecap:round}.thin{stroke:#64778a;stroke-width:2;fill:none}.guide{stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7;fill:none}.string{stroke:#182c40;stroke-width:2.5;fill:none}.dim{stroke:#14736b;stroke-width:2;fill:none;marker-start:url(#green);marker-end:url(#green)}.vec{stroke:#1261a0;stroke-width:3;fill:none;marker-end:url(#blue)}.force{stroke:#b65512;stroke-width:3;fill:none;marker-end:url(#orange)}.mass{fill:#f5f8fb;stroke:#64778a;stroke-width:2}.pulley{fill:#f5f8fb;stroke:#64778a;stroke-width:2}</style>
+</defs><rect width="1200" height="480" fill="#fff"/><circle cx="390" cy="240" r="150" class="pulley"/><circle cx="390" cy="240" r="7" fill="#182c40"/>
+<path d="M390 68A172 172 0 0 1 562 240A172 172 0 0 1 390 412" stroke="#14736b" stroke-width="3" fill="none" marker-end="url(#green)"/>
+<circle cx="390" cy="240" r="30" fill="#fff" stroke="#1261a0" stroke-width="3"/><path d="M371 221l38 38M409 221l-38 38" stroke="#1261a0" stroke-width="3"/>
+<text x="440" y="218" class="math">L</text>
+<text x="705" y="145" class="txt small">obrót zgodny z ruchem</text><text x="705" y="178" class="txt small">wskazówek zegara</text>
+<path d="M570 250H680" class="guide"/>
+<text x="705" y="265" class="math">L</text><text x="745" y="265" class="txt small">— w głąb kartki</text>
+<text x="705" y="315" class="txt small">krzyżyk oznacza wektor</text><text x="705" y="348" class="txt small">skierowany od obserwatora</text></svg>

@@ -1552,7 +1552,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (sol.source) {
                 html += `<div class="solution-block"><div class="block-title">📄 Klucz CKE</div><div class="block-body">${this.formatMathText(sol.source)}</div></div>`;
             }
-            this.dom.solutionContainer.classList.toggle('energy-solutions', task.id.startsWith('matura-cke-praca-'));
+            this.dom.solutionContainer.classList.toggle('energy-solutions', task.id.startsWith('matura-cke-praca-') || task.id.startsWith('matura-cke-bryla-'));
             this.dom.solutionContainer.innerHTML = html;
             this.triggerKaTeX(this.dom.solutionContainer);
 

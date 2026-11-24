@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">Walec staczający się po równi</title><desc id="desc">Jednorodny walec startuje ze spoczynku i stacza się bez poślizgu po równi długości trzech metrów nachylonej pod kątem trzydziestu stopni.</desc>
+<defs>
+  <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#1261a0"/></marker>
+  <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#14736b"/></marker>
+  <marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#b65512"/></marker>
+  <style>.txt{font-family:'Latin Modern Roman','Times New Roman',serif;fill:#182c40;font-size:27px}.math{font-family:'Latin Modern Math','Cambria Math','Times New Roman',serif;font-style:italic;fill:#182c40;font-size:29px}.small{font-size:23px}.beam{stroke:#64778a;stroke-width:12;stroke-linecap:round}.thin{stroke:#64778a;stroke-width:2;fill:none}.guide{stroke:#a7b4c0;stroke-width:1.5;stroke-dasharray:7 7;fill:none}.string{stroke:#182c40;stroke-width:2.5;fill:none}.dim{stroke:#14736b;stroke-width:2;fill:none;marker-start:url(#green);marker-end:url(#green)}.vec{stroke:#1261a0;stroke-width:3;fill:none;marker-end:url(#blue)}.force{stroke:#b65512;stroke-width:3;fill:none;marker-end:url(#orange)}.mass{fill:#f5f8fb;stroke:#64778a;stroke-width:2}.pulley{fill:#f5f8fb;stroke:#64778a;stroke-width:2}</style>
+</defs><rect width="1200" height="600" fill="#fff"/><path d="M155 90L965 558" class="thin"/><path d="M155 558H1025" class="thin"/>
+<path d="M930 558A95 95 0 0 0 848 510" class="guide"/><text x="855" y="545" class="math small">30°</text>
+<circle cx="548" cy="229" r="76" class="pulley"/><circle cx="548" cy="229" r="6" fill="#182c40"/>
+<path d="M190 113L930 540" class="dim"/><text x="530" y="385" text-anchor="middle" class="math small" transform="rotate(30 530 385)">s = 3,0 m</text>
+<text x="670" y="175" class="txt small">walec jednorodny</text><text x="670" y="210" class="math small">I = ½mR²</text></svg>
